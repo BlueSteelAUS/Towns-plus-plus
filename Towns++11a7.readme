@@ -5,6 +5,7 @@ Changes since Towns++_v11a6
 LittleMikey's Contributions:
 ============================
 -> Townies now eat in the Tavern with Heroes. Dining Room removed. 
+-> Removed glare from glass walls
 
 BlueSteel's Contributions
 =========================
@@ -15,7 +16,8 @@ BlueSteel's Contributions
 [quote]
 Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/v11a-6.zip
 
-My Towns Downloads area on MediaFire: http://www.mediafire.com/myfiles.php#u3m0zs9db8dma (you can grab the latest version in here or older versions in the older versions folder)
+My Towns Downloads area on MediaFire: http://www.mediafire.com/myfiles.php#u3m0zs9db8dma 
+(you can grab the latest version in here or older versions in the older versions folder)
 My Live streaming is at twitch.tv/bluesteelaus
 My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL388A502D490AE834
 More video's and live streams will be done as time permits
@@ -36,7 +38,8 @@ in the one menu.
 
 A new button has been added to the main menu in place of the Zones menu its the
 Un-Till button. You can now quickly and easily Un-Till the land that you've tilled
-when you no longer need it. As of Towns++ v5 the Un-Till button is now located in the Terraforming section of the action menu.
+when you no longer need it. As of Towns++ v5 the Un-Till button is now located in the 
+Terraforming section of the action menu.
 
 The production menu has also been tweaked and added to so that you can make things
 without placing them, this is handy for quickly replacing doors etc.
@@ -60,14 +63,16 @@ Stock menus have been fixed now so that they also show the appropriate barrels.
 Added beer and wine making (in the tavern, naturally.)
 
 Changed from one generic mine type to a mine for each raw material, including ores
-that you couldn't mine before. The mines now only need one square of ore. The new mines have lights on them which identify if the mine is ready to harvest or not. If a mineshaft isn't
-used in a certain period of time it collapses to rubble due to lack of use and
-maintenance (this is the pay off for being able to mine everything and only using
-one square). If you have a large area of rubble you can clear it using the command located in the Terraform area in the menu. You also now need a sample of the resource your going to mine to build
-the mineshaft, eg: a gold mineshaft requires one gold to build a mine for gold.
-this can be costly if you aren't mining all the time. (Which is done via the
-production menu) so keep in mind not to use ALL your mined resources or you may
-not be able to build another mine when your last one collapses due to lack of use.
+that you couldn't mine before. The mines now only need one square of ore. 
+The new mines have lights on them which identify if the mine is ready to harvest or not. 
+If a mineshaft isn't used in a certain period of time it collapses to rubble due to lack of 
+use and maintenance (this is the pay off for being able to mine everything and only using
+one square). If you have a large area of rubble you can clear it using the command 
+located in the Terraform area in the menu. You also now need a sample of the resource your 
+going to mine to build the mineshaft, eg: a gold mineshaft requires one gold to build a mine 
+for gold. This can be costly if you aren't mining all the time (Which is done via the production 
+menu) so keep in mind not to use ALL your mined resources or you may not be able to build 
+another mine when your last one collapses due to lack of use.
 You have been warned...
 
 Changed the Font to use Metamorphous size 18 for easier reading (licence included in main directory) 
@@ -82,7 +87,9 @@ Changed all CREATEANDPLACEs etc to CREATEANDPLACEAREA so now you can place a
 group of anything down at a time.
 
 Added TerraneChange to other miscelanous terrains, now you convert any terrain
-(except water and air and lava) to any other main terrain. (This will be balanced in a future update so you need a sample of the terrain you want to change to in order to convert it. For example, you will need a gold ore to terraform a tile into a gold deposit.)
+(except water and air and lava) to any other main terrain. (This will be balanced in 
+a future update so you need a sample of the terrain you want to change to in order to 
+convert it. For example, you will need a gold ore to terraform a tile into a gold deposit.)
 
 Split the tererrainchange priority into terrainchange and chopping,
 now chopping trees has a seperate priotity to tilling and terraforming.
@@ -211,7 +218,8 @@ BlueSteel's Contributions
 -> Made a seperate campaign for Mikeheni's maps (same will be done for anyone elses maps I decide to include)
 -> added winter items to ptoduction menmu and vanity stock panel for the time beeing, until i redo the stock panel
 -> removed Bones from the butchers production panel as they are in the rawmats production panel
--> changed Burner-> coal to mats-> coal to keep things straight in the production panel (The way the burner panel is set up it'll limit the amount of stock you have set it to burning off the excess. So I have read on the forums)
+-> changed Burner-> coal to mats-> coal to keep things straight in the production panel (The way the burner panel 
+ is set up it'll limit the amount of stock you have set it to burning off the excess, so I have read on the forums)
 -> Added make cold from 2 wook to right click action of butner
 
 
@@ -395,7 +403,8 @@ Fixed missing missing entry in main chop menu
 you can now fill in any hole you dug no matter what terrain
 Added Clock into the only rooms/buildings that it can be placed in
 Separated the Walls menu a bit more , now has Fences and gates, also bone doors and walls sub menus
-Reverted some of my code to the original Towns code after they fixed bugs from 0.45b (yes my coding would have still worked but it would have made updating my mod pack even harder every update, I'll always try to leave their existing code alone where possible)
+Reverted some of my code to the original Towns code after they fixed bugs from 0.45b (yes my coding would have still worked 
+but it would have made updating my mod pack even harder every update, I'll always try to leave their existing code alone where possible)
 Disabled (commented out) Tree of life in planting seeds menu as apparently it wasn't meant to be in the game yet (read this on another thread on this forum)
 (More to come, just wanted to get it updated and out to you all)
 could be adding in non Auto Producing items to display their current stock levels on the map (these will include as part of their tooltip "STOCK ONLY" or something similar)
