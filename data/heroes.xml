@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<heroes>
+	<comePrerequisites>
+		<barbarian>
+			<levelDiscovered>2</levelDiscovered>
+			<minCitizens>10</minCitizens>
+			<zone>ztavern</zone>
+		</barbarian>
+
+		<thief>
+			<freeRoom>true</freeRoom>
+			<minCitizens>10</minCitizens>
+			<zone>ztavern</zone>
+		</thief>
+
+		<highlander>
+			<freeRoomHigh>5</freeRoomHigh>
+			<minCitizens>10</minCitizens>
+			<zone>ztavern</zone>
+		</highlander>
+
+		<knight>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>2</levelDiscovered>
+			<minCitizens>10</minCitizens>
+			<zone>ztavern</zone>
+		</knight>
+
+		<dwarf>
+			<freeRoomUnderground>true</freeRoomUnderground>
+			<levelDiscovered>3</levelDiscovered>
+			<minCitizens>11</minCitizens>
+			<zone>ztavern</zone>
+		</dwarf>
+
+		<elf>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>2</levelDiscovered>
+			<minCitizens>11</minCitizens>
+			<zone>ztavern</zone>
+		</elf>
+
+		<mage>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>12</minCitizens>
+			<zone>ztavern</zone>
+		</mage>
+
+		<sips>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>14</minCitizens>
+			<zone>ztavern</zone>
+		</sips>
+
+		<punchwood>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>14</minCitizens>
+			<zone>ztavern</zone>
+		</punchwood>
+
+
+		<santa>
+      <freeRoom>true</freeRoom>
+      <minCitizens>10</minCitizens>
+      <zone>ztavern</zone>
+		</santa>
+
+	</comePrerequisites>
+
+	<stayPrerequisites>
+		<barbarian>
+			<levelDiscovered>2</levelDiscovered>
+			<minCitizens>8</minCitizens>
+			<zone>ztavern</zone>
+		</barbarian>
+
+		<thief>
+			<freeRoom>true</freeRoom>
+			<minCitizens>8</minCitizens>
+			<zone>ztavern</zone>
+		</thief>
+
+		<highlander>
+			<freeRoomHigh>5</freeRoomHigh>
+			<minCitizens>8</minCitizens>
+			<zone>ztavern</zone>
+		</highlander>
+
+		<knight>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>2</levelDiscovered>
+			<minCitizens>8</minCitizens>
+			<zone>ztavern</zone>
+		</knight>
+
+		<dwarf>
+			<freeRoomUnderground>true</freeRoomUnderground>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>9</minCitizens>
+			<zone>ztavern</zone>
+		</dwarf>
+
+		<elf>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>2</levelDiscovered>
+			<minCitizens>7</minCitizens>
+			<zone>ztavern</zone>
+		</elf>
+
+		<mage>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>10</minCitizens>
+			<zone>ztavern</zone>
+		</mage>
+
+		<sips>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>12</minCitizens>
+			<zone>ztavern</zone>
+		</sips>
+
+		<punchwood>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>12</minCitizens>
+			<zone>ztavern</zone>
+		</punchwood>
+
+		<santa>
+      <freeRoom>true</freeRoom>
+      <minCitizens>8</minCitizens>
+      <zone>ztavern</zone>
+		</santa>
+
+	</stayPrerequisites>
+
+	<behaviours>
+		<dwarf>
+			<idlePCT>20</idlePCT>
+			<explorePCT>80</explorePCT>
+		</dwarf>
+
+		<thief>
+			<idlePCT>50</idlePCT>
+			<explorePCT>50</explorePCT>
+		</thief>
+
+		<highlander>
+			<idlePCT>15</idlePCT>
+			<explorePCT>85</explorePCT>
+		</highlander>
+
+		<barbarian>
+			<idlePCT>25</idlePCT>
+			<explorePCT>75</explorePCT>
+		</barbarian>
+
+		<knight>
+			<idlePCT>25</idlePCT>
+			<explorePCT>75</explorePCT>
+		</knight>
+
+		<elf>
+			<idlePCT>30</idlePCT>
+			<explorePCT>70</explorePCT>
+		</elf>
+
+		<mage>
+			<idlePCT>40</idlePCT>
+			<explorePCT>60</explorePCT>
+		</mage>
+
+		<sips>
+			<idlePCT>35</idlePCT>
+			<explorePCT>65</explorePCT>
+		</sips>
+
+		<punchwood>
+			<idlePCT>30</idlePCT>
+			<explorePCT>70</explorePCT>
+		</punchwood>
+
+		<santa>
+			<idlePCT>98</idlePCT>
+			<explorePCT>2</explorePCT>
+		</santa>
+
+	</behaviours>
+
+	<!-- Comma sepparated skills and levels -->
+	<skills>
+		<dwarf>
+			<skills>enrage,stun</skills>
+			<levels>6,11</levels>
+		</dwarf>
+
+		<thief>
+			<skills>poison,flee</skills>
+			<levels>6,11</levels>
+		</thief>
+
+		<highlander>
+			<skills>beast</skills>
+			<levels>8</levels>
+		</highlander>
+
+		<barbarian>
+			<skills>taunt,battlecry</skills>
+			<levels>8,9</levels>
+		</barbarian>
+
+		<knight>
+			<skills>attackaura</skills>
+			<levels>6</levels>
+		</knight>
+
+		<elf>
+			<skills>cripplingshot,criticalshot</skills>
+			<levels>6,11</levels>
+		</elf>
+
+		<mage>
+			<skills>freeze,convertpig</skills>
+			<levels>6,11</levels>
+		</mage>
+
+		<sips>
+			<skills>necromancy,twistedmind</skills>
+			<levels>6,11</levels>
+		</sips>
+
+		<punchwood>
+			<skills>defenseaura,heal</skills>
+			<levels>6,11</levels>
+		</punchwood>
+
+		<santa>
+			<skills>giftgiving,heal</skills>
+			<levels>1,2</levels>
+		</santa>
+
+	</skills>
+</heroes>

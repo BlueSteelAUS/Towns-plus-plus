@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<buildings>
+	<pigfarm>
+		<name esES="Granja de cerdos">Pig farm</name>
+		<description esES="Oinc, oinc!">Oink, oink!</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>pig,wildpig</prerequisiteFriendly>
+		<prerequisiteFriendly>boar,wildboar</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</pigfarm>
+
+	<chickenfarm>
+		<name esES="Granja de gallinas">Chicken farm</name>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>chicken,wildchicken</prerequisiteFriendly>
+		<prerequisiteFriendly>rooster,wildrooster</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</chickenfarm>
+
+	<cowfarm>
+		<name esES="Granja de vacas">Cow farm</name>
+		<description esES="Muuuuuuuuu!">MOOOOOOOOOOOOOOOOOOOOOOOO</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>cow,wildcow</prerequisiteFriendly>
+		<prerequisiteFriendly>bull,wildbull</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</cowfarm>
+
+	<badgerfarm>
+		<name esES="Granja de tejones">Badger farm</name>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>badger,wildbadger</prerequisiteFriendly>
+		<prerequisiteFriendly>badger,wildbadger</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</badgerfarm>
+
+	<unifallowfarm>
+		<name esES="Granja de unifallows">Unifallow farm</name>
+		<description esES="Carne y leche deliciosa bien valen un par de cornadas">Delicious milk and meat, but getting stabbed does have it's drawbacks</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+		<mustBeBuiltOver>sand</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>unifallow,wildunifallow</prerequisiteFriendly>
+		<prerequisiteFriendly>unifallow,wildunifallow</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</unifallowfarm>
+
+	<skootenbeetenfarm>
+		<name esES="Granja de skootenbeetens">Skootenbeeten farm</name>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>skootenbeeten,wildskootenbeeten</prerequisiteFriendly>
+		<prerequisiteFriendly>skootenbeeten,wildskootenbeeten</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</skootenbeetenfarm>
+
+<!--
+	<mill>
+		<name esES="Molino">Mill</name>
+		<description esES="Se usa para obtener harina">Use this to create flour</description>
+		<description esES="También conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
+		<width>2</width>
+		<height>2</height>
+		<groundData>00E1</groundData>
+		<prerequisite>rmstone</prerequisite>
+		<prerequisite>rmstone</prerequisite>
+		<prerequisite>rmstone</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>cow,wildcow</prerequisiteFriendly>
+		<automatic>true</automatic>
+	</mill>
+
+	<mineshaft>
+		<name esES="Pozo minero">Mineshaft</name>
+		<description esES="Se usa para extraer materiales sin arruinar el terreno">Used to extract minerals without destroying the terrain</description>
+		<width>2</width>
+		<height>2</height>
+		<groundData>00E1</groundData>
+		<mustBeBuiltOver>coal</mustBeBuiltOver>
+		<mustBeBuiltOver>iron</mustBeBuiltOver>
+		<mustBeBuiltOver>copper</mustBeBuiltOver>
+		<mustBeBuiltOver>densestone</mustBeBuiltOver>
+		<prerequisite>torch</prerequisite>
+		<prerequisite>torch</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmiron</prerequisite>
+		<automatic>true</automatic>
+		<mineTerrain>true</mineTerrain>
+	</mineshaft> -->
+
+
+
+	<!-- Blue Steel's mod Pack -->
+	<boarfarm>
+		<name esES="Granja de Jabalí">Boar farm</name>
+		<description esES="Oinc, oinc!">Oink, oink!</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>boar,wildboar</prerequisiteFriendly>
+		<prerequisiteFriendly>pig,wildpig</prerequisiteFriendly>
+
+
+		<automatic>true</automatic>
+	</boarfarm>
+
+	<bullfarm>
+		<name esES="Granja de Toro">Bull farm</name>
+		<description esES="Moo, moo!">Moo, moo!</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>cow,wildcow</prerequisiteFriendly>
+		<prerequisiteFriendly>bull,wildbull</prerequisiteFriendly>
+
+
+		<automatic>true</automatic>
+	</bullfarm>
+
+
+	<roosterfarm>
+		<name esES="Granja de Gallo">Rooster farm</name>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>chicken,wildchicken</prerequisiteFriendly>
+		<prerequisiteFriendly>rooster,wildrooster</prerequisiteFriendly>
+
+
+		<automatic>true</automatic>
+	</roosterfarm>
+
+</buildings>

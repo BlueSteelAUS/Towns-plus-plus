@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gen_livingentities>
+	<add>
+		<entity>wildcow</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	<add>
+		<entity>wildbull</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add>
+		<entity>wildpig</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	<add>
+		<entity>wildboar</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add>
+		<entity>werepig</entity>
+		<qtty>1d2</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	<add>
+		<entity>wildbadger</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	<add>
+		<entity>snoat</entity>
+		<qtty>75</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	<add>
+		<entity>bird</entity>
+		<qtty>40</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add>
+		<entity>wildchicken</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	<add>
+		<entity>wildrooster</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add>
+		<entity>yeti</entity>
+		<qtty>35</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+</gen_livingentities>

@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<zones>
+	<zbakery>
+		<name esES="Panadería">Bakery</name>
+		<type>WORKSHOP</type>
+	</zbakery>
+
+	<zcarpentry>
+		<name esES="Carpintería">Carpentry</name>
+		<type>WORKSHOP</type>
+	</zcarpentry>
+
+	<zdining>
+		<name esES="Comedor">Dining room</name>
+		<type>DINING</type>
+	</zdining>
+
+	<zforge>
+		<name esES="Forja">Forge</name>
+		<type>WORKSHOP</type>
+	</zforge>
+
+	<zhospital>
+		<name>Hospital</name>
+		<type>HOSPITAL</type>
+	</zhospital>
+
+	<zkitchen>
+		<name esES="Cocina">Kitchen</name>
+		<type>WORKSHOP</type>
+	</zkitchen>
+
+	<zmasonry>
+		<name esES="Albañilería">Masonry</name>
+		<type>WORKSHOP</type>
+	</zmasonry>
+
+	<zpersonal>
+		<name esES="Habitación personal">Personal room</name>
+		<type>PERSONAL</type>
+	</zpersonal>
+
+	<zarena>
+		<name esES="Arena">Arena</name>
+		<type>WORKSHOP</type>
+	</zarena>
+
+	<zatelier>
+		<name esES="Taller">Atelier</name>
+		<type>WORKSHOP</type>
+	</zatelier>
+
+	<zbalcony>
+		<name esES="Balcón">Balcony</name>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+		<neighbor>zarena</neighbor>
+		<type>SOCIAL</type>
+	</zbalcony>
+
+	<ztavern>
+		<name esES="Taberna">Tavern</name>
+		<type>DINING</type>
+		<minWidth>5</minWidth>
+		<minHeight>5</minHeight>
+	</ztavern>
+
+	<ztavernroom>
+		<name esES="Habitación de taberna">Tavern room</name>
+		<type>HEROROOM</type>
+	</ztavernroom>
+
+	<zmarket>
+		<name esES="Mercado">Market</name>
+		<type>SOCIAL</type>
+	</zmarket>
+
+	<zbarracks>
+		<name esES="Cuartel">Barracks</name>
+		<type>BARRACKS</type>
+		<minWidth>5</minWidth>
+		<minHeight>5</minHeight>
+	</zbarracks>
+
+	<efloor1>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor1>
+
+	<efloor2>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor2>
+
+	<efloor3>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor3>
+
+	<efloor4>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor4>
+
+	<efloor5>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor5>
+
+	<efloor6>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor6>
+
+	<efloor7>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor7>
+
+	<efloor8>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor8>
+
+	<efloor9>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor9>
+
+	<efloor10>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor10>
+
+	<efloor11>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor11>
+
+	<efloor12>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor12>
+
+	<efloor13>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor13>
+
+	<efloor14>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor14>
+
+	<efloor15>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor15>
+
+	<efloor16>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor16>
+
+	<efloor17>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor17>
+
+	<efloor18>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor18>
+
+	<efloor19>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor19>
+
+	<efloor20>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor20>
+
+	<efloor21>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor21>
+
+	<efloor22>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor22>
+
+	<efloor23>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor23>
+
+	<efloor24>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor24>
+
+	<efloor25>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor25>
+
+	<efloor26>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor26>
+
+	<efloor27>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor27>
+
+	<efloor28>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor28>
+
+	<efloor29>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor29>
+
+	<efloor30>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor30>
+
+	<efloor31>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor31>
+
+	<efloor32>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor32>
+
+	<efloor33>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor33>
+
+	<efloor34>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor34>
+
+	<efloor35>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor35>
+
+	<efloor36>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor36>
+
+	<efloor37>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor37>
+
+	<efloor38>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor38>
+
+	<efloor39>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor39>
+
+	<efloor40>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor40>
+
+	<efloor41>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor41>
+
+	<efloor42>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor42>
+
+	<efloor43>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor43>
+
+	<efloor44>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor44>
+
+	<efloor45>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor45>
+
+	<efloor46>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor46>
+
+	<efloor47>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor47>
+
+	<efloor48>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor48>
+
+	<efloor49>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor49>
+
+	<efloor50>
+		<name esES="Floor">Floor</name>
+		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+	</efloor50>
+
+</zones>

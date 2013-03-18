@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<enrage>
+		<name esES="Enrabiar">Enrage</name>
+		<coolDown>1d720+720</coolDown>
+		<use>HITTED</use>
+
+		<effect>
+			<id>enrage</id>
+			<target>SELF</target>
+		</effect>
+	</enrage>
+
+	<stun>
+		<name esES="Aturdir">Stun</name>
+		<coolDown>1d240+360</coolDown>
+		<use>HITTED</use>
+
+		<effect>
+			<id>stun</id>
+			<target>SELF</target>
+		</effect>
+	</stun>
+
+	<battlecry>
+		<name esES="Grito de batalla">Battle cry</name>
+		<coolDown>1d360+360</coolDown>
+		<use>HITTED</use>
+
+		<effect>
+			<id>battlecryself</id>
+			<target>SELF</target>
+		</effect>
+		<effect>
+			<id>battlecryfriendlies</id>
+			<target>FRIENDLIES</target>
+		</effect>
+	</battlecry>
+
+	<poison>
+		<name esES="Ataque envenenado">Poison attack</name>
+		<coolDown>1d720+720</coolDown>
+		<use>ALWAYS</use>
+
+		<effect>
+			<id>atkpoison</id>
+			<target>SELF</target>
+		</effect>
+	</poison>
+
+	<flee>
+		<name esES="Huir">Flee</name>
+		<coolDown>1d360+360</coolDown>
+		<use>NEAR_DEATH</use>
+
+		<effect>
+			<id>confused</id>
+			<target>ENEMIES</target>
+		</effect>
+	</flee>
+
+	<beast>
+		<name esES="Poder de la bestia">Power of the beast</name>
+		<coolDown>1d1440+1440</coolDown>
+		<use>HITTED</use>
+
+		<effect>
+			<id>beast</id>
+			<target>SELF</target>
+		</effect>
+	</beast>
+
+	<taunt>
+		<name esES="Provocar">Taunt</name>
+		<coolDown>1d200+180</coolDown>
+		<use>ENEMIES_IN_LOS</use>
+
+		<taunt>true</taunt>
+	</taunt>
+
+	<attackaura>
+		<name esES="Aura de ataque">Attack aura</name>
+		<coolDown>1d270+270</coolDown>
+		<use>ALWAYS</use>
+
+		<effect>
+			<id>attackauraself</id>
+			<target>SELF</target>
+		</effect>
+		<effect>
+			<id>attackaurafriendlies</id>
+			<target>FRIENDLIES</target>
+		</effect>
+	</attackaura>
+
+	<heal>
+		<name esES="Curar">Heal</name>
+		<coolDown>1d180+180</coolDown>
+		<use>NOT_MAX_HP</use>
+
+		<effect>
+			<id>heal</id>
+			<target>SELF</target>
+		</effect>
+		<effect>
+			<id>heal</id>
+			<target>FRIENDLIES</target>
+		</effect>
+	</heal>
+
+	<criticalshot>
+		<name esES="Disparo crítico">Critical shot</name>
+		<coolDown>1d360+360</coolDown>
+		<use>ENEMIES_IN_LOS</use>
+
+		<effect>
+			<id>criticalshot</id>
+			<target>SELF</target>
+		</effect>
+	</criticalshot>
+
+	<cripplingshot>
+		<name esES="Disparo paralizante">Crippling shot</name>
+		<coolDown>1d360+360</coolDown>
+		<use>ENEMIES_IN_LOS</use>
+
+		<effect>
+			<id>cripplingshot</id>
+			<target>SELF</target>
+		</effect>
+	</cripplingshot>
+
+	<convertpig>
+		<name esES="Convertir en cerdo">Turn into a pig</name>
+		<coolDown>1d360+360</coolDown>
+		<use>ENEMIES_IN_LOS</use>
+
+		<effect>
+			<id>convertpig</id>
+			<target>ENEMIES</target>
+		</effect>
+	</convertpig>
+
+	<freeze>
+		<name esES="Congelar">Freeze</name>
+		<coolDown>1d220+200</coolDown>
+		<use>ENEMIES_IN_LOS</use>
+
+		<effect>
+			<id>freeze</id>
+			<target>ENEMIES</target>
+		</effect>
+	</freeze>
+
+	<necromancy>
+		<name esES="Nigromancia">Necromancy</name>
+		<coolDown>1d360+360</coolDown>
+		<use>ALWAYS</use>
+
+		<raiseDead>sadonskeleton</raiseDead>
+		<maxRaised>1</maxRaised>
+	</necromancy>
+
+	<twistedmind>
+		<name esES="Mente retorcida">Twisted mind</name>
+		<coolDown>1d720+720</coolDown>
+		<use>ENEMIES_IN_LOS</use>
+
+		<effect>
+			<id>twistedmind</id>
+			<target>ENEMIES</target>
+		</effect>
+	</twistedmind>
+
+	<defenseaura>
+		<name esES="Aura de defensa">Defense aura</name>
+		<coolDown>1d270+270</coolDown>
+		<use>ALWAYS</use>
+
+		<effect>
+			<id>defenseauraself</id>
+			<target>SELF</target>
+		</effect>
+		<effect>
+			<id>defenseaurafriendlies</id>
+			<target>FRIENDLIES</target>
+		</effect>
+	</defenseaura>
+
+
+  <giftgiving>
+    <name esES="Gift Giving">Gift Giving</name>
+    <coolDown>360</coolDown>
+    <use>ALWAYS</use>
+    <raiseDead>treegift</raiseDead>
+      <target>FRIENDLIES</target>
+  </giftgiving>
+
+</skills>

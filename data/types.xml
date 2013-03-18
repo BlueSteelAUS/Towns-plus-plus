@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<types>
+	<rawmaterials esES="Materia prima">Raw materials</rawmaterials>
+	<rawfood esES="Comida cruda">Raw food</rawfood>
+	<prepfood esES="Comida preparada">Prepared food</prepfood>
+	<utils esES="Útiles">Utilities</utils>
+	<furniture esES="Muebles">Furniture</furniture>
+	<ites>ITEs</ites>
+	<armor esES="Armaduras">Armor</armor>
+	<weapon esES="Armas">Weapons</weapon>
+	<decorative esES="Decorativo">Decorations</decorative>
+
+	<rawmaterials.materials esES="Materiales" icon="ui_rmaterials">Materials</rawmaterials.materials>
+	<rawmaterials.colors esES="Colores" icon="ui_rcolors">Colors</rawmaterials.colors>
+	<rawmaterials.hides esES="Pieles" icon="ui_rhides">Hides</rawmaterials.hides>
+	<rawmaterials.misc esES="Misc." icon="ui_misc">Misc.</rawmaterials.misc>
+
+	<prepfood.fruit esES="Fruta" icon="ui_fruit">Fruit</prepfood.fruit>
+	<prepfood.baked esES="Horneada" icon="ui_rbaking">Baked</prepfood.baked>
+	<prepfood.cooked esES="Cocinada" icon="ui_rfoodcooking">Cooked</prepfood.cooked>
+
+
+	<utils.misc esES="Misc." icon="ui_misc">Misc.</utils.misc>
+	<utils.materials esES="Materiales" icon="ui_rmaterials">Materials</utils.materials>
+	<utils.roads esES="Carreteras" icon="ui_rroads">Roads</utils.roads>
+	<utils.workshops esES="Mesas de trabajo" icon="ui_workshops">Workshops</utils.workshops>
+
+	<weapon.stone esES="Piedra" icon="ui_rweapon_stone">Stone</weapon.stone>
+	<weapon.misc esES="Misc." icon="ui_rweapon_other">Misc.</weapon.misc>
+	<weapon.iron esES="Hierro" icon="ui_rweapon_iron">Iron</weapon.iron>
+	<armor.iron esES="Hierro" icon="ui_rarmor_iron">Iron</armor.iron>
+	<weapon.bone esES="Hueso" icon="ui_rweapon_bone">Bone</weapon.bone>
+	<armor.bone esES="Hueso" icon="ui_rarmor_bone">Bone</armor.bone>
+	<weapon.spiderite esES="Spiderite" icon="spideritesword">Spiderite</weapon.spiderite>
+	<armor.spiderite esES="Spiderite" icon="ui_rarmor_spiderite">Spiderite</armor.spiderite>
+	<armor.direite esES="Direite" icon="ui_rarmor_direite">Direite</armor.direite>
+	<weapon.direite esES="Direite" icon="direiteaxe">Direite</weapon.direite>
+	<armor.ghoulite esES="Ghoulite" icon="ui_rarmor_ghoulite">Ghoulite</armor.ghoulite>
+	<weapon.ghoulite esES="Ghoulite" icon="ghouliteblade">Ghoulite</weapon.ghoulite>
+	<weapon.goblinite esES="Goblinite" icon="goblinitespear">Goblinite</weapon.goblinite>
+	<armor.goblinite esES="Goblinite" icon="ui_rarmor_goblinite">Goblinite</armor.goblinite>
+	<armor.hobgoblinite esES="Hobgoblinite" icon="ui_rarmor_hobgoblinite">Hobgoblinite</armor.hobgoblinite>
+	<weapon.hobgoblinite esES="Hobgoblinite" icon="hobgoblinitebentsword">Hobgoblinite</weapon.hobgoblinite>
+	<armor.ogreite esES="Ogreite" icon="ui_rarmor_ogreite">Ogreite</armor.ogreite>
+	<weapon.ogreite esES="Ogreite" icon="ogreitemace">Ogreite</weapon.ogreite>
+	<armor.snickerite esES="Snickerite" icon="ui_rarmor_snickerite">Snickerite</armor.snickerite>
+	<weapon.snickerite esES="Snickerite" icon="snickeriteblade">Snickerite</weapon.snickerite>
+	<armor.wood esES="Madera" icon="ui_rarmor_wooden">Wood</armor.wood>
+	<weapon.wood esES="Madera" icon="ui_rweapon_wooden">Wood</weapon.wood>
+	<armor.zombite esES="Zombite"  icon="ui_rarmor_zombite">Zombite</armor.zombite>
+	<weapon.zombite esES="Zombite" icon="zombitemace">Zombite</weapon.zombite>
+	<armor.vanity esES="Vanidad" icon="ui_rclothes">Vanity</armor.vanity>
+	<decorative.indoor esES="Interior" icon="ui_indoor">Indoor</decorative.indoor>
+	<decorative.outdoor esES="Exterior" icon="ui_outdoor">Outdoor</decorative.outdoor>
+	<weapon.gold esES="Oro" icon="ui_rweapon_golden">Gold</weapon.gold>
+	<armor.gold esES="Oro" icon="ui_rarmor_golden">Gold</armor.gold>
+	<weapon.silver esES="Plata" icon="ui_rweapon_silver">Silver</weapon.silver>
+	<armor.silver esES="Plata" icon="ui_rarmor_silver">Silver</armor.silver>
+	<weapon.special esES="Especiales" icon="ui_sp_weapons">Special</weapon.special>
+	<armor.special esES="Especiales" icon="ui_sp_armors">Special</armor.special>
+	
+	<!-- WINTER ITEMS -->
+	<decorative.winter esES="Winter Item">Winter Item</decorative.winter>
+</types>

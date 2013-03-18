@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+	<item name="Harvest" esES="Recolectar" code="CUSTOMACTION" parameter="qharvestapple,qharvestpear,qharvestwheat,qharvestsugarcane,qharvestbamboo,qharvestplanttrap,qharvestwildwheat,qharvestwildsugarcane,qharvestwildbamboo,qharvestblueradish,qharvestsnowcherry,qharvestbanana,qpickmushroom,qpickcavemushroom,qharvestcactus,qgatherredflower,qgatherplantedredflower,qgatherblueflower,qgatherplantedblueflower,qgatheryellowflower,qgatherplantedyellowflower,qharvestppear,qharvestpapple,qharvestpbanana,qharvestpblueradish,qharvestpcactus,qharvestpsnowcherry,qpickpcavemushroom,qpickpmushroom" icon="ui_harvest" />
+	<item name="Chop" esES="Talar" code="CUSTOMACTION" parameter="qchop,qchopplantedtree,qchopplantedtree2,qchopplantedsnowtree,qchopplantedjungletree,qchopplantedpalmtree,qchopsleeper,qchopsleeper2" icon="ui_chop" />
+	<item name="Cut" esES="Cortar" code="CUSTOMACTION" parameter="qcut" icon="ui_cut" />
+	<item name="Dig" esES="Cavar" code="DIG" icon="ui_dig" />
+	<item name="Mine" esES="Minar" code="MINE" icon="ui_mine" />
+	<item name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
+	<item name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
+	<item code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
+
+	<stockpiles name="Stockpiles" esES="Pilas" icon="ui_stockpile">
+		<item name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
+		<item name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
+		<item name="Prepared food" esES="Comida preparada" code="STOCKPILE" parameter="prepfood" icon="ui_sprepfood" />
+		<item name="Utilities" esES="Útiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
+		<item name="Furniture" esES="Muebles" code="STOCKPILE" parameter="furniture" icon="ui_sfurniture" />
+		<item name="ITEs" esES="ITEs" code="STOCKPILE" parameter="ites" icon="ui_sites" />
+		<item name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
+		<item name="Weapons" esES="Armas" code="STOCKPILE" parameter="weapon" icon="ui_sweapon" />
+		<item name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</stockpiles>
+
+	<terraforming name="Terraform" icon="dirt">
+		<item name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
+		<item name="Clear Rubble" code="CUSTOMACTION" parameter="qclearrubble" icon="rubble" />
+		<item name="To dirt" code="CUSTOMACTION" parameter="quntilldirt" icon="dirt" />
+		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass" icon="grass" />
+<!--  	<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass1" icon="grass1" />
+  	<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass2" icon="grass2" />
+  	<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass3" icon="grass3" /> -->
+		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrassnoflower" icon="grassnoflower" />
+		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrassnoflower1" icon="grassnoflower1" />
+		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrassnoflower2" icon="grassnoflower2" />
+		<item name="To grass" code="CUSTOMACTION" parameter="quntillfloatinggrass" icon="floatinggrass" />
+		<item name="To jungle" code="CUSTOMACTION" parameter="quntilljungle" icon="jungle" />
+		<item name="To sand" code="CUSTOMACTION" parameter="quntillsand" icon="sand" />
+		<item name="To stone" code="CUSTOMACTION" parameter="quntilltone" icon="stone" />
+		<item name="To snow" code="CUSTOMACTION" parameter="quntillsnow" icon="snow" />
+		<item name="To gravel" code="CUSTOMACTION" parameter="quntillgravel" icon="gravel" />
+		<item name="To densestone" code="CUSTOMACTION" parameter="quntilldensestone" icon="densestone" />
+		<item name="To dungeon3" code="CUSTOMACTION" parameter="quntilldungeon3" icon="dungeon3" />
+		<item name="To coal" code="CUSTOMACTION" parameter="quntillcoal" icon="coal" />
+		<item name="To iron" code="CUSTOMACTION" parameter="quntilliron" icon="iron" />
+		<item name="To copper" code="CUSTOMACTION" parameter="quntillcopper" icon="copper" />
+		<item name="To silver" code="CUSTOMACTION" parameter="quntillsilver" icon="silver" />
+		<item name="To gold" code="CUSTOMACTION" parameter="quntillgold" icon="gold" />
+		<item name="To lavarock" code="CUSTOMACTION" parameter="quntilllavarock" icon="lavarock" />
+		<item name="To lavadirt" code="CUSTOMACTION" parameter="quntilllavadirt" icon="lavadirt" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</terraforming>
+
+
+
+<!--	<zones name="Zones" esES="Zonas" icon="ui_zones">
+		<item code="CREATEZONE" parameter="zcarpentry" icon="ui_zonescarpentry" />
+		<item code="CREATEZONE" parameter="zmasonry" icon="ui_zonesmasonry" />
+		<item code="CREATEZONE" parameter="zbakery" icon="ui_zonesbakery" />
+		<item code="CREATEZONE" parameter="zdining" icon="ui_zonesdining" />
+		<item code="CREATEZONE" parameter="zforge" icon="ui_zonesforge" />
+		<item code="CREATEZONE" parameter="zpersonal" icon="ui_zonespersonal" />
+		<item code="CREATEZONE" parameter="zkitchen" icon="ui_zoneskitchen" />
+		<item code="CREATEZONE" parameter="zhospital" icon="ui_zoneshospital" />
+		<item code="CREATEZONE" parameter="zatelier" icon="ui_zonesatelier" />
+		<item code="CREATEZONE" parameter="zarena" icon="ui_zonesarena" />
+		<item code="CREATEZONE" parameter="zbalcony" icon="ui_zonesbalcony" />
+		<item code="CREATEZONE" parameter="ztavern" icon="ui_zonestavern" />
+		<item code="CREATEZONE" parameter="ztavernroom" icon="ui_zonestavernroom" />
+		<item code="CREATEZONE" parameter="zmarket" icon="ui_zonesmarket" />
+		<item code="CREATEZONE" parameter="zbarracks" icon="ui_zonesbarracks" />
+
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</zones>
+	<item code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
+	<item name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
+
+-->
+</menu>

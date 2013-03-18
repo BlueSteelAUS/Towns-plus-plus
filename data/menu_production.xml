@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+
+	<construction name="Construction" esES="N/A" icon="scaffold">
+			<item code="QUEUE" parameter="qscaffold" />
+
+		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
+			<item code="QUEUE" parameter="qlogdoor" />
+			<item code="QUEUE" parameter="qwoodendoor" />
+			<item code="QUEUE" parameter="qhalfdoor" />
+			<item code="QUEUE" parameter="qblockdoor" />
+			<item code="QUEUE" parameter="qhedgegate" />
+			<item code="QUEUE" parameter="qfencedoor" />
+			<item code="QUEUE" parameter="qstonearcdoor1" />
+			<item code="QUEUE" parameter="qstonearcdoor2" />
+			<item code="QUEUE" parameter="qbonedoor" />
+			<item code="QUEUE" parameter="qfloodgate" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</doors>
+
+			<raisedfloors name="Raised Floors" icon="fishingdock">
+				<item code="QUEUE" parameter="qfishingdock" />
+				<item code="QUEUE" parameter="qwoodenfloor" />
+				<item code="QUEUE" parameter="qstonefloor" />
+				<item code="QUEUE" parameter="qglassfloor" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</raisedfloors>
+	
+		<roof name="Roofs" esES="Techos" icon="ui_roofs">
+			<item code="QUEUE" parameter="qstrawroofitem" />
+			<item code="QUEUE" parameter="qredtileroof" />
+			<item code="QUEUE" parameter="qbluetileroof" />
+			<item code="QUEUE" parameter="qcyantileroof" />
+			<item code="QUEUE" parameter="qgreentileroof" />
+			<item code="QUEUE" parameter="qpurpletileroof" />
+			<item code="QUEUE" parameter="qyellowtileroof" />
+			<item code="QUEUE" parameter="qbrokenroof" />
+			<item code="QUEUE" parameter="qwoodendarkroofitem" />
+			<item code="QUEUE" parameter="qclayroof" />
+			<item code="QUEUE" parameter="qmarketroof" />
+			<item code="QUEUE" parameter="qchimney" />
+			<item code="QUEUE" parameter="qchimney2" />
+			<item code="QUEUE" parameter="qchimney3" />		
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</roof>
+
+		<cb262_stairs name="Stairs" esES="N/A" icon="ui_stonestairs">
+			<item code="QUEUE" parameter="qdirtstairs2a" />
+			<item code="QUEUE" parameter="qdirtstairs1a" />
+			<item code="QUEUE" parameter="qbonestairs_1_N" />			
+			<item code="QUEUE" parameter="qwoodstairs3a" />
+			<item code="QUEUE" parameter="qwoodstairs2a" />
+			<item code="QUEUE" parameter="qwoodstairs1a"/>
+			<item code="QUEUE" parameter="qverticalladder" />
+			<item code="QUEUE" parameter="qstonestairs5a" />			
+			<item code="QUEUE" parameter="qstonestairs1a" />
+			<item code="QUEUE" parameter="qstonestairs2a" />
+			<item code="QUEUE" parameter="qstonestairs3a" />
+			<item code="QUEUE" parameter="qstonestairs4a" />
+			<item code="QUEUE" parameter="qsandstairs1a" />
+			<item code="QUEUE" parameter="qsandstairs2a" />
+			<item code="QUEUE" parameter="qsandstairs3a" />
+    		<cb262_stairs2 name="Coloured Stairs" esES="N/A" icon="ui_colouredstairs">
+    			<item code="QUEUE" parameter="qredstonestairs1" />
+    			<item code="QUEUE" parameter="qbluestonestairs1" />
+    			<item code="QUEUE" parameter="qyellowstonestairs1" />
+    			<item code="QUEUE" parameter="qgreenstonestairs1" />
+    			<item code="QUEUE" parameter="qorangestonestairs1" />
+    			<item code="QUEUE" parameter="qpurplestonestairs1" />
+    			<item code="QUEUE" parameter="qredstonestairs2a" />
+    			<item code="QUEUE" parameter="qbluestonestairs2a" />
+    			<item code="QUEUE" parameter="qyellowstonestairs2a" />
+    			<item code="QUEUE" parameter="qgreenstonestairs2a" />
+    			<item code="QUEUE" parameter="qorangestonestairs2a" />
+    			<item code="QUEUE" parameter="qpurplestonestairs2a" />
+    			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+    		</cb262_stairs2>
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</cb262_stairs>	
+	
+	<walls name="Walls" esES="Muros" icon="ui_rwalls">
+
+		<log name="Log walls" esES="Muros de troncos" icon="ui_l_walls">
+			<item code="QUEUE" parameter="qlogwall" />
+			<item code="QUEUE" parameter="qlogblock" />
+			<item code="QUEUE" parameter="qlogblock2" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</log>
+
+		<wooden name="Wooden walls" esES="Muros de madera" icon="ui_w_walls">
+			<item code="QUEUE" parameter="qwoodenwall" />
+			<item code="QUEUE" parameter="qwoodendarkwall" />
+			<item code="QUEUE" parameter="qlightwoodblock" />
+			<item code="QUEUE" parameter="qwoodenblock" />
+			<item code="QUEUE" parameter="qwoodenmossblock" />
+			<item code="QUEUE" parameter="qfarmfence" />
+			<item code="QUEUE" parameter="qwoodsticks" />
+			<item code="QUEUE" parameter="qwoodspikes" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</wooden>
+
+		<stone name="Stone walls" esES="Muros de piedra" icon="ui_s_walls">
+			<item code="QUEUE" parameter="qstonewall" />
+			<item code="QUEUE" parameter="qengravedstonewall" />
+			<item code="QUEUE" parameter="qengravedgreenwall" />
+			<item code="QUEUE" parameter="qengravedredwall" />
+			<item code="QUEUE" parameter="qengravedbluewall" />
+			<item code="QUEUE" parameter="qancientwall" />
+			<item code="QUEUE" parameter="qstoneblock" />
+			<item code="QUEUE" parameter="qstoneblock2" />
+			<item code="QUEUE" parameter="qancientblock" />
+			<item code="QUEUE" parameter="qancientmossblock" />
+			<item code="QUEUE" parameter="qmayanblock" />
+			<item code="QUEUE" parameter="qwoodenstoneblock" />
+			<item code="QUEUE" parameter="qflagblockyellow" />
+			<item code="QUEUE" parameter="qflagblockred" />
+			<item code="QUEUE" parameter="qflagblockwhite" />
+			<item code="QUEUE" parameter="qflagblockgray" />
+			<item code="QUEUE" parameter="qlimestoneblock" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</stone>
+
+		<brick name="Stone brick walls" esES="Muros de ladrillos de piedra" icon="ui_sb_walls">
+			<item code="QUEUE" parameter="qstonebrickblock" />
+			<item code="QUEUE" parameter="qstonebrickblock2" />
+			<item code="QUEUE" parameter="qstonebrickblock3" />
+			<item code="QUEUE" parameter="qwhitebrickblock" />
+			<item code="QUEUE" parameter="qroughbricks" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</brick>
+
+		<decorative name="Decorative walls" esES="Muros decorativos" icon="ui_d_walls">
+			<item code="QUEUE" parameter="qhedge" />
+			<item code="QUEUE" parameter="qbluehedge" />
+			<item code="QUEUE" parameter="qredhedge" />
+			<item code="QUEUE" parameter="qyellowhedge" />
+			<item code="QUEUE" parameter="qhedgebrickfence" />
+			<item code="QUEUE" parameter="qfancybrickfence" />
+			<item code="QUEUE" parameter="qgrassterrace" />
+			<item code="QUEUE" parameter="qpillar" />
+			<item code="QUEUE" parameter="qlapedrera" />
+			<item code="QUEUE" parameter="qlapedrera2" />
+			<item code="QUEUE" parameter="qcolombages" />
+			<item code="QUEUE" parameter="qcolombagesx" />
+			<item code="QUEUE" parameter="qironbars" />
+			<item code="QUEUE" parameter="qflagblockwhitearc" />
+			<item code="QUEUE" parameter="qroughbrickarc" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</decorative>
+
+		<other name="Other" esES="Otros" icon="ui_o_walls">
+			<item code="QUEUE" parameter="qbonewall" />
+			<item code="QUEUE" parameter="qmudwall" />
+			<item code="QUEUE" parameter="qsandwall" />
+			<item code="QUEUE" parameter="qicewall" />
+			<item code="QUEUE" parameter="qsandwallblock" />
+			<item code="QUEUE" parameter="qglasswall" />
+			<item code="QUEUE" parameter="qclaybrickwall" />
+			<item code="QUEUE" parameter="qclayblock" />
+			<item code="QUEUE" parameter="qgoldenblock" />
+			<item code="QUEUE" parameter="qwheatblock" />
+			<item code="QUEUE" parameter="qbambooblock" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</other>
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</walls>
+
+		<windows name="Windows" esES="Ventanas" icon="ui_rwindows">
+			<item code="QUEUE" parameter="qwoodenglasswindow" />
+			<item code="QUEUE" parameter="qwoodenwindow" />
+			<item code="QUEUE" parameter="qstonewindow" />
+			<item code="QUEUE" parameter="qwoodenwindow_2" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</windows>
+
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</construction>
+
+	<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
+		<item code="QUEUE" parameter="qrmbarrel" />
+		<item code="QUEUE" parameter="qrawfoodbarrel" />
+		<item code="QUEUE" parameter="qprepfoodbarrel" />
+		<item code="QUEUE" parameter="qutilschest" />
+		<item code="QUEUE" parameter="qdecorativechest" />
+		<item code="QUEUE" parameter="qitechest" />
+		<item code="QUEUE" parameter="qarmorcabinet" />
+		<item code="QUEUE" parameter="qweaponcabinet" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</containers>
+
+	<decorative name="Decorative" esES="Decorativo" icon="ui_sdecorative">
+		<indoor name="Indoor" esES="Interior" icon="animalfireplace">
+			<item code="QUEUE" parameter="qbarrel" />
+			<item code="QUEUE" parameter="qbirdincage" />
+			<item code="QUEUE" parameter="qanimalfireplace" />
+			<item code="QUEUE" parameter="qchest" />
+			<item code="QUEUE" parameter="qclock" />
+			<item code="QUEUE" parameter="qharp" />
+			<item code="QUEUE" parameter="qpotplant" />
+			<item code="QUEUE" parameter="qflowerpot_red" />
+			<item code="QUEUE" parameter="qflowerpot_blue" />			
+			<item code="QUEUE" parameter="qflowerpot_yellow" />
+			<item code="QUEUE" parameter="qflowerpot_mixed" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</indoor>
+
+		<outdoor name="Outdoor" esES="Exterior" icon="ui_outdoor">
+
+			<banners name="Banners" eeES="N/A" icon="ui_banner">
+				<item code="QUEUE" parameter="qredlongflag" />
+				<item code="QUEUE" parameter="qbluebanner" />
+				<item code="QUEUE" parameter="qgreenbanner" />
+				<item code="QUEUE" parameter="qpurplebanner" />
+				<item code="QUEUE" parameter="qblackbanner" />				
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</banners>			
+
+			<flags name="Flags" eeES="N/A" icon="ui_flag">
+				<item code="QUEUE" parameter="qredshortflag" />
+				<item code="QUEUE" parameter="qblueshortflag" />
+				<item code="QUEUE" parameter="qgreenshortflag" />
+				<item code="QUEUE" parameter="qpurpleshortflag" />
+				<item code="QUEUE" parameter="qblackshortflag" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</flags>
+
+		<garden name="Gardens" eeES="N/A" icon="gardenbush3">
+			<item code="QUEUE" parameter="qbonsai" />
+			<item code="QUEUE" parameter="qbonsaired" />
+			<item code="QUEUE" parameter="qgardenred" />
+			<item code="QUEUE" parameter="qgardenblue" />
+			<item code="QUEUE" parameter="qgardenyellow" />
+			<item code="QUEUE" parameter="qgardenbush1" />
+			<item code="QUEUE" parameter="qgardenbush2" />
+			<item code="QUEUE" parameter="qgardenbush3" />
+			<item code="QUEUE" parameter="qpond" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</garden>
+
+		<graves name="Graves" eeES="N/A" icon="lizardtomb">
+			<item code="QUEUE" parameter="qgrave" />
+			<item code="QUEUE" parameter="qgrave2_W" />
+			<item code="QUEUE" parameter="qgrave3_W" />
+			<item code="QUEUE" parameter="qtomb" />			
+			<item code="QUEUE" parameter="qtomb2_W" />
+			<item code="QUEUE" parameter="qmosstomb" />			
+			<item code="QUEUE" parameter="qmosstomb2_W" />
+			<item code="QUEUE" parameter="qmosstomb3_W" />
+			<item code="QUEUE" parameter="qlizardtomb" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</graves>
+
+		<poles name="Poles" eeES="N/A" icon="goblinpole">
+			<item code="QUEUE" parameter="qgoblinpole" />
+			<item code="QUEUE" parameter="qhobgoblinpole" />
+			<item code="QUEUE" parameter="qghoulpole" />
+			<item code="QUEUE" parameter="qsnickerpole" />
+			<item code="QUEUE" parameter="qtrollpole" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</poles>
+
+			<signs name="Signs" eeES="N/A" icon="ui_sign">
+				<item code="QUEUE" parameter="qdoorsignswords_E1" />			
+				<item code="QUEUE" parameter="qsign_1_E" icon="sign_1_W" />
+				<item code="QUEUE" parameter="qsign_2_E" icon="sign_2_W" />
+				<item code="QUEUE" parameter="qsign_3_E" icon="sign_3_W" />
+				<item code="QUEUE" parameter="qsign_4_E" icon="sign_4_W" />
+				<item code="QUEUE" parameter="qsign_5_E" icon="sign_5_W" />
+				<item code="QUEUE" parameter="qsign_6_E" icon="sign_6_W" />
+				<item code="QUEUE" parameter="qsign_7_E" icon="sign_7_W" />
+				<item code="QUEUE" parameter="qsign_8_E" icon="sign_8_W" />
+				<item code="QUEUE" parameter="qsign_9_E" icon="sign_9_W" />
+				<item code="QUEUE" parameter="qsign_10_E" icon="sign_10_W" />
+				<item code="QUEUE" parameter="qsign_11_E" icon="sign_11_W" />
+				<item code="QUEUE" parameter="qsign_12_E" icon="sign_12_W" />
+				<item code="QUEUE" parameter="qsign_13_E" icon="sign_13_W" />
+				<item code="QUEUE" parameter="qsign_14_E" icon="sign_14_W" />
+				<item code="QUEUE" parameter="qsign_15_E" icon="sign_15_W" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</signs>
+
+		<statues name="Statues" eeES="N/A" icon="stonemalestatue">
+			<item code="QUEUE" parameter="qstonemalestatue" />
+			<item code="QUEUE" parameter="qnecromancerstatue" />
+			<item code="QUEUE" parameter="qgargoylestatue" />
+			<item code="QUEUE" parameter="qgoldnuxstatue" />
+			<item code="QUEUE" parameter="qgoldunifallowstatue" />
+			<item code="QUEUE" parameter="qsilverskootenbeetenstatue" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</statues>
+
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</outdoor>
+
+		<lighting name="Lighting" icon="yellowhangedlamp" >
+			<item code="QUEUE" parameter="qcandle" />
+			<item code="QUEUE" parameter="qbonecandle" />
+			<item code="QUEUE" parameter="qhangedlamp" />
+			<item code="QUEUE" parameter="qbluehangedlamp" />
+			<item code="QUEUE" parameter="qgreenhangedlamp" />
+			<item code="QUEUE" parameter="qyellowhangedlamp" />
+			<item code="QUEUE" parameter="qredhangedlamp" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</lighting>
+		<winter name="Winter Items" esES="Winter Items" icon="winter_ui">
+			<item code="QUEUE" parameter="qsnowbrokenroof" />
+			<item code="QUEUE" parameter="qsnowwoodendarkroofitem" />
+			<item code="QUEUE" parameter="qxmaslogdoor" />
+			<item code="QUEUE" parameter="qxmaswoodendoor" />
+			<item code="QUEUE" parameter="qxmasblockdoor" />
+			<item code="QUEUE" parameter="qxmasbakeroven" />
+			<item code="QUEUE" parameter="qxmaschimney" />
+			<item code="QUEUE" parameter="qxmasfireplace" />
+		  <item code="QUEUE" parameter="qaxmastree" icon="axmastree1" />
+ 			<item code="QUEUE" parameter="qxmastree" icon="xmastree_decorated_gifts"/>
+			<item code="QUEUE" parameter="qsnowman1" />
+			<item code="QUEUE" parameter="qsnowman2" />
+			<item code="QUEUE" parameter="qsnowman3" />
+			<item code="QUEUE" parameter="qsnowman4" />
+			<item code="QUEUE" parameter="qsnowman5" />
+			<item code="QUEUE" parameter="qsnowman6" />
+			<item code="QUEUE" parameter="qsnowman7" />
+			<item code="QUEUE" parameter="qgiftstack" />
+			<item code="QUEUE" parameter="qcandycane" />
+			<item code="QUEUE" parameter="qsmallgiftone" icon="smallgiftone" />
+			<item code="QUEUE" parameter="qsmallgifttwo" icon="smallgifttwo" />
+			<item code="QUEUE" parameter="qsmallgiftthree" icon="smallgiftthree" />
+			<item code="QUEUE" parameter="qsmallgiftfour" icon="smallgiftfour" />
+			<item code="QUEUE" parameter="qlargegiftone" icon="largegiftone" />
+			<item code="QUEUE" parameter="qlargegifttwo" icon="largegifttwo" />
+			<item code="QUEUE" parameter="qlargegiftthree" icon="largegiftthree" />
+			<item code="QUEUE" parameter="qlargegiftfour" icon="largegiftfour" />
+			<item code="QUEUE" parameter="qlargegiftfive" icon="largegiftfive" />
+			<item code="QUEUE" parameter="qlargegiftsix" icon="largegiftsix" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</winter>
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</decorative>
+
+	<food name="Food" esES="Comida" icon="ui_rfood">
+
+			<raw name="Raw Foods" esES="N/A" icon="ui_appleseed">
+
+			<harvesting name="Harvesting" esES="N/A" icon="ui_appleseed">
+				<item code="QUEUE" parameter="qharvestwheat" />
+				<item code="QUEUE" parameter="qharvestsugarcane" />
+				<item code="QUEUE" parameter="qharvestpapple" />
+				<item code="QUEUE" parameter="qharvestpbanana" />
+				<item code="QUEUE" parameter="qharvestppear" />
+				<item code="QUEUE" parameter="qharvestpblueradish" />
+				<item code="QUEUE" parameter="qharvestpsnowcherry" />
+				<item code="QUEUE" parameter="qpickpmushroom" />
+				<item code="QUEUE" parameter="qpickpcavemushroom" />
+				<item code="QUEUE" parameter="qharvestpcactus" />
+				<item code="QUEUE" parameter="qfishing" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</harvesting>
+
+			<animals name="Gathering" esES="Gathering" icon="ui_chickenfarm">
+				<item code="QUEUE" parameter="qmilkcow" />
+				<item code="QUEUE" parameter="qmilkwildcow" />
+				<item code="QUEUE" parameter="qmilkdoe" />
+				<item code="QUEUE" parameter="qmilksnoat" />
+				<item code="QUEUE" parameter="qmilkunifallow" />
+				<item code="QUEUE" parameter="qmilkwildunifallow" />
+				<item code="QUEUE" parameter="qgatherchickenegg" />
+				<item code="QUEUE" parameter="qgatherwildchickenegg" />
+				<item code="QUEUE" parameter="qgatherskootenegg" />
+				<item code="QUEUE" parameter="qgatherwildskootenegg" />
+				<item code="QUEUE" parameter="qgathersnowpile" />
+				<item code="QUEUE" parameter="qwaterbucket" />
+
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</animals>
+
+			<processing name="Processing" esES="N/A" icon="flour">
+			<item code="QUEUE" parameter="qflour" icon="flour" />
+			<item code="QUEUE" parameter="qsugar" icon="sugar" />
+			<item code="QUEUE" parameter="qjunglesalad" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</processing>
+
+
+		<butchering name="Butchering" esES="Descuartizar" icon="ui_rfoodbutchering">
+			<item code="QUEUE" parameter="qbutcherbadger" />
+			<item code="QUEUE" parameter="qbutcherpoultry" />
+			<item code="QUEUE" parameter="qbutchercow" />
+			<item code="QUEUE" parameter="qbutcherpig" />
+			<item code="QUEUE" parameter="qbutcherreindeer" />
+			<item code="QUEUE" parameter="qbutchersnoat" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</butchering>
+	
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</raw>
+		
+		<baking name="Baking" esES="Cocción" icon="ui_rbaking">
+			<item code="QUEUE" parameter="qapplepie" />
+			<item code="QUEUE" parameter="qbread" />
+			<item code="QUEUE" parameter="qcake" />
+			<item code="QUEUE" parameter="qbananabread" />
+			<item code="QUEUE" parameter="qmeatpie" />
+			<item code="QUEUE" parameter="qpearpie" />
+			<item code="QUEUE" parameter="qsnowcherrypie" />
+			<item code="QUEUE" parameter="qbananapie" />
+			<item code="QUEUE" parameter="qcookie" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</baking>
+
+		<cooking name="Cooking" esES="Cocinar" icon="ui_rfoodcooking">
+			<meat name="Meat" esES="Carne" icon="ui_meat">
+				<item code="QUEUE" parameter="qcookedbadgermeat" />
+				<item code="QUEUE" parameter="qcookedpoultry" />
+				<item code="QUEUE" parameter="qcookedpork" />
+				<item code="QUEUE" parameter="qcookedsteak" />
+				<item code="QUEUE" parameter="qroast" />
+				<item code="QUEUE" parameter="qcookedfish" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</meat>
+			<item code="QUEUE" parameter="qomelette" />
+			<item code="QUEUE" parameter="qbakedbanana" />
+			<item code="QUEUE" parameter="qhamandeggs" />
+			<item code="QUEUE" parameter="qsoup" />
+			<item code="QUEUE" parameter="qcactussoup" />
+			<item code="QUEUE" parameter="qmountainstew" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</cooking>
+
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</food>
+
+
+	<furniture name="Furniture" esES="Muebles" icon="ui_rfurniture">
+	<beds name="Beds" icon="woodenbed">
+		<item code="QUEUE" parameter="qwoodenbed" />
+		<item code="QUEUE" parameter="qwoodendormbed" />
+		<item code="QUEUE" parameter="qbonebed" />
+		<item code="QUEUE" parameter="qcamo_bed_N" />
+		<item code="QUEUE" parameter="qgreen_bed_N" />
+		<item code="QUEUE" parameter="qblue_bed_N" />
+		<item code="QUEUE" parameter="qred_bed_N" />
+		<item code="QUEUE" parameter="qpurple_bed_N" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</beds>
+		
+	<chairs name="Chairs" icon="woodenchair">
+		<item code="QUEUE" parameter="qwoodenchair" />
+		<item code="QUEUE" parameter="qstonechair" />
+		<item code="QUEUE" parameter="qpurplethrone" />
+		<item code="QUEUE" parameter="qredchair_S" />
+		<item code="QUEUE" parameter="qredchair_2_S" />				
+		<item code="QUEUE" parameter="qbluechair_S" />				
+		<item code="QUEUE" parameter="qgreenchair_S" />				
+		<item code="QUEUE" parameter="qwoodchair_1_S" />
+		<item code="QUEUE" parameter="qwoodchair_2_S" />
+		<item code="QUEUE" parameter="qwoodchair_3_S" />				
+		<item code="QUEUE" parameter="qwhitechair_S" />
+		<item code="QUEUE" parameter="qpurplechair_S" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</chairs>
+
+	<cupboards name="Cupboards" icon="smallwoodendrawer_flower_E">
+		<item code="QUEUE" parameter="qwoodencupboard" />
+		<item code="QUEUE" parameter="qtallwoodencupboard_E" />
+		<item code="QUEUE" parameter="qwoodencupboard_E" />
+		<item code="QUEUE" parameter="qwoodendrawer_E" />
+		<item code="QUEUE" parameter="qsmallwoodendrawer_E" />
+		<item code="QUEUE" parameter="qsmallwoodendrawer_flower_E" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</cupboards>
+
+	<tables name="Tables" icon="woodentable">
+		<item code="QUEUE" parameter="qwoodentable" />
+		<item code="QUEUE" parameter="qstonetable" />
+		<item code="QUEUE" parameter="qsquarestable" />
+		<item code="QUEUE" parameter="qchesstable" />
+		<item code="QUEUE" parameter="qarchitecttable" />
+		<item code="QUEUE" parameter="qtaverntable" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</tables>
+
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</furniture>
+
+
+
+	<materials name="Materials" esES="Materiales" icon="ui_rmaterials">
+		<item code="QUEUE" parameter="qchopplantedtree" />
+		<item code="QUEUE" parameter="qchopplantedtree2" />
+		<item code="QUEUE" parameter="qchopplantedjungletree" />
+		<item code="QUEUE" parameter="qchopplantedsnowtree" />
+		<item code="QUEUE" parameter="qchopplantedpalmtree" />
+		<item code="QUEUE" parameter="qharvestbamboo" />
+		<item code="QUEUE" parameter="qglass" />
+		<item code="QUEUE" name="Mud" esES="Barro" parameter="qminedirt" />
+		<item code="QUEUE" name="Sand" esES="Arena" parameter="qminesand" />
+		<item code="QUEUE" name="Stone" esES="Piedra" parameter="qminestone" />
+		<item code="QUEUE" name="Flint" esES="Pedernal" parameter="qminegravel" />
+		<item code="QUEUE" name="Coal" esES="Carbón" parameter="qminecoal" />
+		<item code="QUEUE" parameter="qcharcoal" />
+		<item code="QUEUE" name="Iron" esES="Hierro" parameter="qmineiron" />
+		<item code="QUEUE" name="Copper" esES="Cobre" parameter="qminecopper" />
+		<item code="QUEUE" name="Silver" esES="Plata" parameter="qminesilver" />
+		<item code="QUEUE" name="Gold" esES="Oro" parameter="qminegold" />
+		<item code="QUEUE" parameter="qbutcherforbones" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</materials>
+
+	<militaries name="Militaries" esES="Militares" icon="ui_rmilitary">
+		<armor name="Armors" esES="Armaduras" icon="ui_rarmor">
+			<wooden name="Wooden set" esES="Set de madera" icon="ui_rarmor_wooden">
+				<item code="QUEUE" parameter="qwoodenhelmet" />
+				<item code="QUEUE" parameter="qwoodenarmor" />
+				<item code="QUEUE" parameter="qwoodenpants" />
+				<item code="QUEUE" parameter="qwoodenboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</wooden>
+			<bone name="Bone set" esES="Set de hueso" icon="ui_rarmor_bone">
+				<item code="QUEUE" parameter="qbonehelmet" />
+				<item code="QUEUE" parameter="qbonearmor" />
+				<item code="QUEUE" parameter="qbonepants" />
+				<item code="QUEUE" parameter="qboneboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</bone>
+			<iron name="Iron set" esES="Set de hierro" icon="ui_rarmor_iron">
+				<item code="QUEUE" parameter="qironhelmet" />
+				<item code="QUEUE" parameter="qsamuraihelmet" />
+				<item code="QUEUE" parameter="qironarmor" />
+				<item code="QUEUE" parameter="qironpants" />
+				<item code="QUEUE" parameter="qironboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</iron>
+			<spiderbane name="Spiderite set" esES="Set de spiterite" icon="ui_rarmor_spiderite">
+				<item code="QUEUE" parameter="qspideritehelmet" />
+				<item code="QUEUE" parameter="qspideritearmor" />
+				<item code="QUEUE" parameter="qspideritepants" />
+				<item code="QUEUE" parameter="qspideriteboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</spiderbane>
+			<horde name="Goblinite set" esES="Set de goblinite" icon="ui_rarmor_goblinite">
+				<item code="QUEUE" parameter="qgoblinitehelmet" />
+				<item code="QUEUE" parameter="qgoblinitearmor" />
+				<item code="QUEUE" parameter="qgoblinitepants" />
+				<item code="QUEUE" parameter="qgobliniteboots" />
+				<item code="QUEUE" parameter="qspeedboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</horde>
+			<yellowlick name="Hobgoblin set" esES="Set de hobgoblin" icon="ui_rarmor_hobgoblinite">
+				<item code="QUEUE" parameter="qhobgoblinitehelmet" />
+				<item code="QUEUE" parameter="qhobgoblinitearmor" />
+				<item code="QUEUE" parameter="qhobgoblinitepants" />
+				<item code="QUEUE" parameter="qhobgobliniteboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</yellowlick>
+			<mangy name="Direite set" esES="Set de direite" icon="ui_rarmor_direite">
+				<item code="QUEUE" parameter="qdireitehelmet" />
+				<item code="QUEUE" parameter="qdireitearmor" />
+				<item code="QUEUE" parameter="qdireitepants" />
+				<item code="QUEUE" parameter="qdireiteboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</mangy>
+			<stealthy name="Snickerite set" esES="Set de snickerite" icon="ui_rarmor_snickerite">
+				<item code="QUEUE" parameter="qsnickeritehelmet" />
+				<item code="QUEUE" parameter="qsnickeritearmor" />
+				<item code="QUEUE" parameter="qsnickeritepants" />
+				<item code="QUEUE" parameter="qsnickeriteboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</stealthy>
+			<necrotic name="Zombite set" esES="Set de zombite" icon="ui_rarmor_zombite">
+				<item code="QUEUE" parameter="qzombitehelmet" />
+				<item code="QUEUE" parameter="qzombitearmor" />
+				<item code="QUEUE" parameter="qzombitepants" />
+				<item code="QUEUE" parameter="qzombiteboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</necrotic>
+			<ghastly name="Ghoulite set" esES="Set de ghoulite" icon="ui_rarmor_ghoulite">
+				<item code="QUEUE" parameter="qghoulitehelmet" />
+				<item code="QUEUE" parameter="qghoulitearmor" />
+				<item code="QUEUE" parameter="qghoulitepants" />
+				<item code="QUEUE" parameter="qghouliteboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</ghastly>
+			<beastly name="Ogreite set" esES="Set de ogreite" icon="ui_rarmor_ogreite">
+				<item code="QUEUE" parameter="qogreitehelmet" />
+				<item code="QUEUE" parameter="qogreitearmor" />
+				<item code="QUEUE" parameter="qogreitepants" />
+				<item code="QUEUE" parameter="qogreiteboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</beastly>
+			<silver name="Silver set" esES="Set de plata" icon="ui_rarmor_silver">
+				<item code="QUEUE" parameter="qsilverhelmet" />
+				<item code="QUEUE" parameter="qsilverarmor" />
+				<item code="QUEUE" parameter="qsilverpants" />
+				<item code="QUEUE" parameter="qsilverboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</silver>
+			<gold name="Golden set" esES="Set de oro" icon="ui_rarmor_golden">
+				<item code="QUEUE" parameter="qgoldenhelmet" />
+				<item code="QUEUE" parameter="qgoldenarmor" />
+				<item code="QUEUE" parameter="qgoldenpants" />
+				<item code="QUEUE" parameter="qgoldenboots" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</gold>
+
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</armor>
+		<weapons name="Weapons" esES="Armas" icon="ui_rweapons">
+			<wooden name="Wood" esES="Madera" icon="ui_rweapon_wooden">
+				<item code="QUEUE" parameter="qwoodenbow" />
+				<item code="QUEUE" parameter="qwoodenlongsword" />
+				<item code="QUEUE" parameter="qwoodenshortsword" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</wooden>
+			<iron name="Iron" esES="Hierro" icon="ui_rweapon_iron">
+				<item code="QUEUE" parameter="qironaxe" />
+				<item code="QUEUE" parameter="qironmace" />
+				<item code="QUEUE" parameter="qironlongsword" />
+				<item code="QUEUE" parameter="qironshortsword" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</iron>
+			<stone name="Stone" esES="Piedra" icon="ui_rweapon_stone">
+				<item code="QUEUE" parameter="qstonehammer" />
+				<item code="QUEUE" parameter="qstonemace" />
+				<item code="QUEUE" parameter="qstonespear" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</stone>
+			<bone name="Bone" esES="Hueso" icon="ui_rweapon_bone">
+				<item code="QUEUE" parameter="qboneclub" />
+				<item code="QUEUE" parameter="qboneaxe" />
+				<item code="QUEUE" parameter="qbonesword" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</bone>
+			<silver name="Silver" esES="Plata" icon="ui_rweapon_silver">
+				<item code="QUEUE" parameter="qsilverbow" />
+				<item code="QUEUE" parameter="qsilveritebentsword" />
+				<item code="QUEUE" parameter="qsilverlongsword" />
+				<item code="QUEUE" parameter="qsilvershortsword" />
+				<item code="QUEUE" parameter="qsilverspear" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</silver>
+			<gold name="Gold" esES="Oro" icon="ui_rweapon_golden">
+				<item code="QUEUE" parameter="qgoldenaxe" />
+				<item code="QUEUE" parameter="qgoldenbow" />
+				<item code="QUEUE" parameter="qgoldenhammer" />
+				<item code="QUEUE" parameter="qgoldenitemace" />
+				<item code="QUEUE" parameter="qgoldenspear" />
+				<item code="QUEUE" parameter="qgoldenstaff" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</gold>
+			<other name="Other" esES="Otras" icon="ui_rweapon_other">
+				<item code="QUEUE" parameter="qbentsword" />
+				<item code="QUEUE" parameter="qbamboostick" />
+				<item code="QUEUE" parameter="qwoodensnakesword" />
+				<item code="QUEUE" parameter="qdireiteaxe" />
+				<item code="QUEUE" parameter="qgoblinitespear" />
+				<item code="QUEUE" parameter="qghouliteblade" />
+				<item code="QUEUE" parameter="qhobgoblinitebentsword" />
+				<item code="QUEUE" parameter="qogreitemace" />
+				<item code="QUEUE" parameter="qsnickeriteblade" />
+				<item code="QUEUE" parameter="qspiderbow" />
+				<item code="QUEUE" parameter="qspideritesword" />
+				<item code="QUEUE" parameter="qzombitemace" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</other>
+
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</weapons>
+
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</militaries>
+
+	<roadtiles name="Roads" esES="Carreteras" icon="ui_rroads">
+		<item code="QUEUE" parameter="qwoodenroadtile" />
+		<item code="QUEUE" parameter="qstonetile" />
+		<item code="QUEUE" parameter="qgreentile" />
+		<item code="QUEUE" parameter="qredtile" />
+		<item code="QUEUE" parameter="qbluetile" />
+		<item code="QUEUE" parameter="qpavementtile" />
+		<item code="QUEUE" parameter="qwhitepavementtile" />
+		<item code="QUEUE" parameter="qbluepavementtile" />
+		<item code="QUEUE" parameter="qredpavementtile" />
+		<item code="QUEUE" parameter="qgreenpavementtile" />
+		<item code="QUEUE" parameter="qyellowpavementtile" />
+		<item code="QUEUE" parameter="qorangepavementtile" />
+		<item code="QUEUE" parameter="qpurplepavementtile" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</roadtiles>
+				
+		<traps name="Traps" esES="Trampas" icon="ui_traps">
+			<item code="QUEUE" parameter="qlogtrap" />
+			<item code="QUEUE" parameter="qspiketrap" />
+			<item code="QUEUE" parameter="qbeartrap" />
+			<item code="QUEUE" parameter="qpoisontrap" />
+			<item code="QUEUE" parameter="qplantedplanttrap" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</traps>
+
+	<utils name="Utilities" esES="Útiles" icon="ui_rutils">
+		<item code="QUEUE" parameter="qtongs" />
+		<item code="QUEUE" parameter="qbonecarver" />
+		<item code="QUEUE" parameter="qtorch" />
+		<item code="QUEUE" parameter="qwoodenbucket" />
+		<item code="QUEUE" parameter="qemptybottle" />
+		<item code="QUEUE" parameter="qpoisonbottle" />
+		<item code="QUEUE" parameter="qrenewfire" />
+		<item code="QUEUE" parameter="qrenewburnt" />
+		﻿<item code="QUEUE" parameter="qcarpentrybench" />
+		<item code="QUEUE" parameter="qwooddetailer" />
+		<item code="QUEUE" parameter="qcarvingbench" />
+		<item code="QUEUE" parameter="qmasonbench" />
+		<item code="QUEUE" parameter="qbakertable" />
+		<item code="QUEUE" parameter="qbakeroven" />
+		<item code="QUEUE" parameter="qanvil" />
+		<item code="QUEUE" parameter="qsmelter" />
+		<item code="QUEUE" parameter="qitesmithy" />
+		<item code="QUEUE" parameter="qkitchentable" />
+		<item code="QUEUE" parameter="qbutchertable" />
+		<item code="QUEUE" parameter="qstove" />
+		<item code="QUEUE" parameter="qcookingbowl" />
+		<item code="QUEUE" parameter="qcolormixer" />
+		<item code="QUEUE" parameter="qskinner" />
+		<item code="QUEUE" parameter="qmedicinecabinet" />
+		<item code="QUEUE" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
+		<item code="QUEUE" parameter="qwinebarrel" icon="ui_winebarrel"/>
+		<item code="QUEUE" parameter="qmill" />
+		<item code="QUEUE" parameter="qwell" />
+		<item code="QUEUE" parameter="qfishingset" />
+		<item code="QUEUE" parameter="qfluidselevator" />
+		<item code="QUEUE" parameter="qburner" />
+		<!-- <item code="QUEUE" parameter="qbadgerden" /> <item code="QUEUE" parameter="qguardbadger" /> -->
+			
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</utils>
+	<vanity name="Vanity" esES="Vanidad" icon="ui_rvanity">
+		<hides name="Hides and materials" esES="Pieles y materiales" icon="ui_rhides">
+			<item code="QUEUE" parameter="qanimalhide" />
+			<item code="QUEUE" parameter="qbadgerhide" />
+			<item code="QUEUE" parameter="qunifallowhide" />
+			<item code="QUEUE" parameter="qskootenfeather" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</hides>
+		<clothes name="Vanity items" esES="Objetos de vanidad" icon="ui_rclothes">
+			<item code="QUEUE" parameter="qbluehat" />
+			<item code="QUEUE" parameter="qredhat" />
+			<item code="QUEUE" parameter="qyellowhat" />
+			<item code="QUEUE" parameter="qgreenhat" />
+			<item code="QUEUE" parameter="qbadgerhat" />
+			<item code="QUEUE" parameter="qbunnyhat" />
+			<item code="QUEUE" parameter="qstrawhat" />
+			<item code="QUEUE" parameter="qwoodenmask" />
+			<item code="QUEUE" parameter="qmayanmask" />
+			<item code="QUEUE" parameter="qfeatherhat" />
+			<item code="QUEUE" parameter="qwhiteheadkerchief" />
+			<item code="QUEUE" parameter="qredheadkerchief" />
+			<item code="QUEUE" parameter="qblueheadkerchief" />
+			<item code="QUEUE" parameter="qorangeheadkerchief" />
+			<item code="QUEUE" parameter="qgreenheadkerchief" />
+			<item code="QUEUE" parameter="qyellowheadkerchief" />
+			<item code="QUEUE" parameter="qsantahat" />
+			<item code="QUEUE" parameter="qsantahat2" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</clothes>
+		<colors name="Colors" esES="Colores" icon="ui_rcolors">
+			<item code="QUEUE" parameter="qbluecolor" />
+			<item code="QUEUE" parameter="qredcolor" />
+			<item code="QUEUE" parameter="qyellowcolor" />
+			<item code="QUEUE" parameter="qgreencolor" />
+			<item code="QUEUE" parameter="qpurplecolor" />
+			<item code="QUEUE" parameter="qorangecolor" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</colors>
+		<colors name="Flowers" esES="Flores" icon="ui_flower">
+			<item code="QUEUE" parameter="qgatherplantedblueflower" />
+			<item code="QUEUE" parameter="qgatherplantedredflower" />
+			<item code="QUEUE" parameter="qgatherplantedyellowflower" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</colors>
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</vanity>
+
+	<burner name="Burner" esES="Quemador" icon="ui_burner">
+		<item code="QUEUE" parameter="qdestroymud" />
+		<item code="QUEUE" parameter="qdestroywood" />
+		<item code="QUEUE" parameter="qdestroybones" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</burner>
+	
+</menu>

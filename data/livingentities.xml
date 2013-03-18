@@ -1,0 +1,4184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<livingentities>
+	<!-- CITIZENS -->
+	<citizenmale>
+		<type>CITIZEN</type>
+		<hate>ENEMY</hate>
+		<altGraphics>citizenmale2</altGraphics>
+		<altGraphics>citizenmale3</altGraphics>
+		<altGraphics>citizenmale4</altGraphics>
+		<altGraphics>citizenmale5</altGraphics>
+		<altGraphics>citizenmale6</altGraphics>
+
+		<namePoolTag>male</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+
+		<attack>1d599+800</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d300+300</defense>
+		<healthPoints>1d400+1700</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d59+170</damage>
+		<LOS>1d3+2</LOS>
+
+		<movePCT>1d4+3</movePCT>
+		<walkSpeed>60</walkSpeed>
+
+		<maxHungryTurns>1d1119+1760</maxHungryTurns>
+		<maxSleepTurns>1d719+2160</maxSleepTurns>
+		<eatZone>zdining</eatZone>
+
+		<facingDirections>true</facingDirections>
+		<equipAllowed>metal,cloth,wood,bone,bow,hammer,spear,mace,sword,axe,misc</equipAllowed>
+		
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
+	</citizenmale>
+
+	<citizenfemale>
+		<type>CITIZEN</type>
+		<hate>ENEMY</hate>
+		<altGraphics>citizenfemale2</altGraphics>
+		<altGraphics>citizenfemale3</altGraphics>
+		<altGraphics>citizenfemale4</altGraphics>
+		<altGraphics>citizenfemale5</altGraphics>
+		<altGraphics>citizenfemale6</altGraphics>
+
+		<namePoolTag>female</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+		<female>true</female>
+
+		<attack>1d599+800</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d300+300</defense>
+		<healthPoints>1d400+1700</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d59+170</damage>
+		<LOS>1d3+2</LOS>
+
+		<movePCT>1d4+3</movePCT>
+		<walkSpeed>60</walkSpeed>
+
+		<maxHungryTurns>1d1119+1760</maxHungryTurns>
+		<maxSleepTurns>1d719+2160</maxSleepTurns>
+		<eatZone>zdining</eatZone>
+
+		<facingDirections>true</facingDirections>
+		<equipAllowed>metal,cloth,wood,bone,bow,hammer,spear,mace,sword,axe,misc</equipAllowed>
+		
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+
+		<fxDead>fxdeadfemale</fxDead>
+	</citizenfemale>
+
+
+
+	<!-- HEROES -->
+	<sips>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<name esES="Sips, el creador de campamentos">Sips, the Campmaker</name>
+
+		<attack>1d900+1800</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d450+350</defense>
+		<healthPoints>1d600+2000</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+200</damage>
+		<LOS>1d4+3</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>60</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+4160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>sips</heroComePrerequisite>
+		<heroStayPrerequisite>sips</heroStayPrerequisite>
+		<heroBehaviour>sips</heroBehaviour>
+		<heroSkills>sips</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>sipswand</equip>
+		<equipAllowed>cloth,bone,wand,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d20+50</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</sips>
+
+	<sadonskeleton>
+		<type>FRIENDLY</type>
+		<hate>ENEMY</hate>
+
+		<name esES="Esquele-sadon">Sadon-keleton</name>
+		<attack>1d419+190</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d539+530</defense>
+		<healthPoints>1d299+450</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d59+100</damage>
+
+		<LOS>1d3+3</LOS>
+		<movePCT>80</movePCT>
+		<walkSpeed>45</walkSpeed>
+
+		<facingDirections>true</facingDirections>
+		<followEntity>sips</followEntity>
+		<followTurns>24</followTurns>
+
+		<evadeTraps>true</evadeTraps>
+
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</sadonskeleton>
+
+	<punchwood>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<name>Sir Punchwood</name>
+
+		<attack>1d900+1800</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d550+600</defense>
+		<healthPoints>1d500+2200</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+200</damage>
+		<LOS>1d4+3</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>60</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+4160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>punchwood</heroComePrerequisite>
+		<heroStayPrerequisite>punchwood</heroStayPrerequisite>
+		<heroBehaviour>punchwood</heroBehaviour>
+		<heroSkills>punchwood</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>ironlongsword</equip>
+		<equipAllowed>metal,cloth,wood,bone,hammer,spear,mace,sword,axe,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d35+65</moral>
+
+
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</punchwood>
+
+	<barbarian>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<altGraphics>barbarian2</altGraphics>
+
+		<namePoolTag>male</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+
+		<attack>1d900+1600</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d150+400</defense>
+		<healthPoints>1d600+2200</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+200</damage>
+		<LOS>1d4+3</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>60</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d350+2200</maxHungryTurns>
+		<maxSleepTurns>1d240+3160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>barbarian</heroComePrerequisite>
+		<heroStayPrerequisite>barbarian</heroStayPrerequisite>
+		<heroBehaviour>barbarian</heroBehaviour>
+		<heroSkills>barbarian</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equipAllowed>cloth,wood,bone,hammer,club,spear,mace,sword,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d50+20</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</barbarian>
+
+	<dwarf>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<namePoolTag>dwarfname</namePoolTag>
+		<surnamePoolTag>dwarfsurname</surnamePoolTag>
+
+		<attack>1d900+2000</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d450+500</defense>
+		<healthPoints>1d600+3000</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+190</damage>
+		<LOS>1d4+3</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>60</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+4160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>dwarf</heroComePrerequisite>
+		<heroStayPrerequisite>dwarf</heroStayPrerequisite>
+		<heroBehaviour>dwarf</heroBehaviour>
+		<heroSkills>dwarf</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>stonehammer</equip>
+		<equipAllowed>metal,cloth,wood,bone,hammer,mace,axe,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d40+40</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</dwarf>
+
+	<elf>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<namePoolTag>norsename</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+
+		<attack>1d1200+2000</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d450+400</defense>
+		<healthPoints>1d600+2000</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+190</damage>
+		<LOS>1d4+4</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>60</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+4440</maxHungryTurns>
+		<maxSleepTurns>1d240+4360</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>elf</heroComePrerequisite>
+		<heroStayPrerequisite>elf</heroStayPrerequisite>
+		<heroBehaviour>elf</heroBehaviour>
+		<heroSkills>elf</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>elvenbow</equip>
+		<equipAllowed>cloth,wood,bone,bow,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d60+40</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</elf>
+
+
+	<mage>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<namePoolTag>male</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+
+		<attack>1d800+1300</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d400+200</defense>
+		<healthPoints>1d600+1500</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+70</damage>
+		<LOS>1d4+6</LOS>
+
+		<movePCT>1d12+8</movePCT>
+		<walkSpeed>70</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+5160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>mage</heroComePrerequisite>
+		<heroStayPrerequisite>mage</heroStayPrerequisite>
+		<heroBehaviour>mage</heroBehaviour>
+		<heroSkills>mage</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>firewand</equip>
+		<equipAllowed>cloth,wand,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d70+30</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</mage>
+
+
+	<malethief>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<namePoolTag>male</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+
+		<attack>1d600+600</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d500+200</defense>
+		<healthPoints>1d600+1800</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+170</damage>
+		<LOS>1d3+5</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>70</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+5160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>thief</heroComePrerequisite>
+		<heroStayPrerequisite>thief</heroStayPrerequisite>
+		<heroBehaviour>thief</heroBehaviour>
+		<heroSkills>thief</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>bentsword</equip>
+		<equipAllowed>cloth,wood,bone,hammer,club,spear,mace,sword,axe,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d60</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</malethief>
+
+	<femalethief>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<female>true</female>
+		<namePoolTag>female</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+
+		<attack>1d600+600</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d500+200</defense>
+		<healthPoints>1d600+1800</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+170</damage>
+		<LOS>1d3+5</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>70</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+5160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>thief</heroComePrerequisite>
+		<heroStayPrerequisite>thief</heroStayPrerequisite>
+		<heroBehaviour>thief</heroBehaviour>
+		<heroSkills>thief</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>bentsword</equip>
+		<equipAllowed>cloth,wood,bone,hammer,club,spear,mace,sword,axe,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d60</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</femalethief>
+
+	<highlander>
+		<type>HERO</type>
+		<hate>ENEMY,wildbull,wildboar</hate>
+
+		<altGraphics>highlander2</altGraphics>
+
+		<namePoolTag>norsename</namePoolTag>
+
+		<attack>1d900+1750</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d550+350</defense>
+		<healthPoints>1d600+2700</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+195</damage>
+		<LOS>1d4+4</LOS>
+
+		<HPRegeneration>1</HPRegeneration>
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>55</walkSpeed>
+
+		<maxHungryTurns>1d360+4650</maxHungryTurns>
+		<maxSleepTurns>1d240+4350</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>highlander</heroComePrerequisite>
+		<heroStayPrerequisite>highlander</heroStayPrerequisite>
+		<heroBehaviour>highlander</heroBehaviour>
+		<heroSkills>highlander</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equipAllowed>cloth,hammer,club,spear,mace,sword,axe,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d40+30</moral>
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</highlander>
+
+	<knight>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<namePoolTag>male</namePoolTag>
+		<surnamePoolTag>surname</surnamePoolTag>
+
+		<attack>1d900+1400</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d550+750</defense>
+		<healthPoints>1d500+2000</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+185</damage>
+		<LOS>1d4+3</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>55</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+1440</maxHungryTurns>
+		<maxSleepTurns>1d240+2160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>knight</heroComePrerequisite>
+		<heroStayPrerequisite>knight</heroStayPrerequisite>
+		<heroBehaviour>knight</heroBehaviour>
+		<heroSkills>knight</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>ironshortsword</equip>
+		<equipAllowed>metal,cloth,wood,bone,hammer,spear,mace,sword,axe,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d35+65</moral>
+
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</knight>
+
+	<!-- FRIENDLY UNITS -->
+	<caravanfood>
+		<type>FRIENDLY</type>
+
+		<name esES="Caravana de comida">Food caravan</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>1</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>food</caravan>
+	</caravanfood>
+
+	<boatcaravan>
+		<type>FRIENDLY</type>
+
+		<name esES="Barco">Boat</name>
+		<attack>150</attack>
+		<attackSpeed>50</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>250</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>100</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>boat</caravan>
+	</boatcaravan>
+
+	<dwarvencaravan>
+		<type>FRIENDLY</type>
+
+		<name esES="Caravana de enanos">Dwarven caravan</name>
+		<attack>150</attack>
+		<attackSpeed>50</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>250</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>100</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>dwarven</caravan>
+	</dwarvencaravan>
+
+	<merchantmats>
+		<type>FRIENDLY</type>
+
+		<name esES="Mercader de materiales">Materials merchant</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>1</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>materials</caravan>
+	</merchantmats>
+
+	<merchantpinky>
+		<type>FRIENDLY</type>
+
+		<name esES="Mercader pinky">Pinky merchant</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>1</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>pinky</caravan>
+	</merchantpinky>
+
+	<merchantmilitary>
+		<type>FRIENDLY</type>
+
+		<name esES="Mercader militar">Military merchant</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>1</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>militarybasic</caravan>
+	</merchantmilitary>
+
+	<merchantbones>
+		<type>FRIENDLY</type>
+
+		<name esES="Mercader de huesos">Bones merchant</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>1</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>bones</caravan>
+	</merchantbones>
+
+	<cow>
+		<type>FRIENDLY</type>
+
+		<name esES="Vaca">Cow</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>cowfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<action>qkillcow</action>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</cow>
+
+	<milkedcow>
+		<type>FRIENDLY</type>
+
+		<name esES="Vaca">Cow</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>cow</maxAgeLiving>
+
+		<action>qkillcow</action>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkedcow>
+
+	<wildcow>
+		<type>FRIENDLY</type>
+
+		<name esES="Vaca salvaje">Wild cow</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillcow</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</wildcow>
+
+
+	<milkedwildcow>
+		<type>FRIENDLY</type>
+
+		<name esES="Vaca salvaje">Wild cow</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildcow</maxAgeLiving>
+
+		<action>qkillcow</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</milkedwildcow>
+
+
+	<bull>
+		<type>FRIENDLY</type>
+
+		<name esES="Toro">Bull</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d60+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>bullfarm</building>
+		<buildingTime>2880</buildingTime>
+		
+		<action>qkillcow</action>
+
+		<facingDirections>true</facingDirections>
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</bull>
+
+	<wildbull>
+		<type>FRIENDLY</type>
+
+		<name esES="Toro salvaje">Wild Bull</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d60+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+		
+		<action>qkillcow</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</wildbull>
+
+	<bird>
+		<type>FRIENDLY</type>
+		<name esES="Pájaro">Bird</name>
+
+		<altGraphics>bird2</altGraphics>
+		<altGraphics>bird3</altGraphics>
+		<altGraphics>bird4</altGraphics>
+		<altGraphics>bird5</altGraphics>
+
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<habitat>grass2</habitat>
+		<habitat>grass3</habitat>
+		<habitat>grassnoflower1</habitat>
+		<habitat>snow</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="pica">bite</attackVerb>
+		<attackVerbInfinitive esES="picar">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d10+30</movePCT>
+		<walkSpeed>50</walkSpeed> <!-- not so sure about this -->
+
+		<facingDirections>true</facingDirections>
+
+		<action>qkillbird</action>
+
+		<evadeTraps>true</evadeTraps>
+		<animatedWhenIdle>true</animatedWhenIdle>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</bird>
+
+	<snowbird>
+		<type>FRIENDLY</type>
+		<name esES="Pájaro">Bird</name>
+
+		<altGraphics>snowbird1</altGraphics>
+		<altGraphics>snowbird2</altGraphics>
+
+		<habitat>snow</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="pica">bite</attackVerb>
+		<attackVerbInfinitive esES="picar">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d10+30</movePCT>
+		<walkSpeed>100</walkSpeed> <!-- not so sure about this -->
+
+		<facingDirections>true</facingDirections>
+
+		<action>qkillbird</action>
+
+		<evadeTraps>true</evadeTraps>
+		<animatedWhenIdle>true</animatedWhenIdle>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</snowbird>
+
+	<!-- <camel> <type>FRIENDLY</type> <name esES="Camello">Camel</name> <habitat>sand</habitat> <attack>1d59+170</attack> <attackSpeed>5</attackSpeed> <defense>1d59+170</defense> <healthPoints>1d74+213</healthPoints> <attackVerb esES="muerde">bites</attackVerb> <attackVerbInfinitive esES="morder">bite</attackVerbInfinitive> 
+		<damage>1d44+128</damage> <movePCT>1d2+2</movePCT><walkSpeed>35</walkSpeed> <drop> <item>rawsteak</item> <PCT>30</PCT> </drop> <drop> <item>bones</item> <PCT>70</PCT> </drop> </camel> <milkedcamel> <type>FRIENDLY</type> <name esES="Camello">Camel</name> <habitat>sand</habitat> <attack>1d59+170</attack> 
+		<attackSpeed>5</attackSpeed> <defense>1d59+170</defense> <healthPoints>1d74+213</healthPoints> <attackVerb esES="muerde">bites</attackVerb> <attackVerbInfinitive esES="morder">bite</attackVerbInfinitive> <damage>1d44+128</damage> <movePCT>1d2+2</movePCT><walkSpeed>35</walkSpeed> <maxAge>1d1440+1100</maxAge> 
+		<maxAgeLiving>camel</maxAgeLiving> <drop> <item>rawsteak</item> <PCT>30</PCT> </drop> <drop> <item>bones</item> <PCT>70</PCT> </drop> </milkedcamel> -->
+	<unifallow>
+		<type>FRIENDLY</type>
+
+		<name>Unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<building>unifallowfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<foodNeeded>cactusfruit</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</unifallow>
+
+	<milkedunifallow>
+		<type>FRIENDLY</type>
+
+		<name>Unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>unifallow</maxAgeLiving>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkedunifallow>
+
+	<wildunifallow>
+		<type>FRIENDLY</type>
+
+		<name esES="Unifallow salvaje">Wild unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</wildunifallow>
+
+
+	<milkedwildunifallow>
+		<type>FRIENDLY</type>
+
+		<name esES="Unifallow salvaje">Wild unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildunifallow</maxAgeLiving>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkedwildunifallow>
+
+
+	<boar>
+		<type>FRIENDLY</type>
+
+		<name esES="Jabalí">Boar</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="cornea">gores</attackVerb>
+		<attackVerbInfinitive esES="cornear">gore</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>boarfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<action>qkillpig</action>
+
+		<facingDirections>true</facingDirections>
+		<foodNeeded>wheat,apple,pear</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>rawpork</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</boar>
+
+	<wildboar>
+		<type>FRIENDLY</type>
+
+		<name esES="Jabalí salvaje">Wild Boar</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="cornea">gores</attackVerb>
+		<attackVerbInfinitive esES="cornear">gore</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillpig</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpork</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</wildboar>
+
+	<pig>
+		<type>FRIENDLY</type>
+
+		<name esES="Cerdo">Pig</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>pigfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<action>qkillpig</action>
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat,apple,pear</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</pig>
+
+	<wildpig>
+		<type>FRIENDLY</type>
+
+		<name esES="Cerdo salvaje">Wild pig</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillpig</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpork</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</wildpig>
+
+	
+	<snoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillsnoat</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</snoat>
+
+	<milkedsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>snoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkedsnoat>
+
+	<reindeer>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Reno">Reindeer</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillreindeer</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</reindeer>
+
+	<doe>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Reno hembra">Doe</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillreindeer</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</doe>
+
+	<milkeddoe>
+		<name esES="Ciervo">Doe</name>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>doe</maxAgeLiving>
+
+		<action>qkillreindeer</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkeddoe>
+
+
+	<badger>
+		<type>FRIENDLY</type>
+
+		<name esES="Tejón">Badger</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d4+1</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>badgerfarm</building>
+		<buildingTime>4880</buildingTime>
+
+		<action>qkillbadger</action>
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</badger>
+
+	<wildbadger>
+		<type>FRIENDLY</type>
+
+		<name esES="Tejón salvaje">Wild badger</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d4+1</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillbadger</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		<drop>
+			<item>rawbadgermeat</item>
+			<PCT>15</PCT>
+		</drop>
+	</wildbadger>
+
+	<guardbadger>
+		<type>FRIENDLY</type>
+
+		<name esES="Tejón guardián">Guard badger</name>
+		<hate>ENEMY,bate</hate>
+		<attack>1d59+470</attack>
+		<attackSpeed>10</attackSpeed>
+		<defense>1d59+420</defense>
+		<healthPoints>1d59+1170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+328</damage>
+
+		<LOS>7</LOS>
+		<movePCT>1</movePCT>
+		<walkSpeed>85</walkSpeed>
+
+		<facingDirections>true</facingDirections>
+
+		<grouping>true</grouping>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		<drop>
+			<item>rawbadgermeat</item>
+			<PCT>15</PCT>
+		</drop>
+	</guardbadger>
+
+
+	<redarenabadger>
+		<type>FRIENDLY</type>
+		<hate>greenarenabadger,bluearenabadger,bate</hate>
+
+		<name esES="Tejón">Red arena badger</name>
+		<attack>1d59+370</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+1170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+328</damage>
+
+		<LOS>12</LOS>
+		<movePCT>1</movePCT>
+		<walkSpeed>8d3+65</walkSpeed>
+
+		<facingDirections>true</facingDirections>
+
+		<grouping>true</grouping>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		<drop>
+			<item>rawbadgermeat</item>
+			<PCT>15</PCT>
+		</drop>
+	</redarenabadger>
+
+	<greenarenabadger>
+		<type>FRIENDLY</type>
+		<hate>redarenabadger,bluearenabadger,bate</hate>
+
+		<name esES="Tejón">Green arena badger</name>
+		<attack>1d59+370</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+1170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+328</damage>
+
+		<LOS>12</LOS>
+		<movePCT>1</movePCT>
+		<walkSpeed>8d3+65</walkSpeed>
+
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		<drop>
+			<item>rawbadgermeat</item>
+			<PCT>15</PCT>
+		</drop>
+	</greenarenabadger>
+
+	<bluearenabadger>
+		<type>FRIENDLY</type>
+		<hate>redarenabadger,greenarenabadger,bate</hate>
+
+		<name esES="Tejón">Blue arena badger</name>
+		<attack>1d59+370</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+1170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+328</damage>
+
+		<LOS>12</LOS>
+		<movePCT>1</movePCT>
+		<walkSpeed>8d3+65</walkSpeed>
+
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		<drop>
+			<item>rawbadgermeat</item>
+			<PCT>15</PCT>
+		</drop>
+	</bluearenabadger>
+
+	<bate>
+		<type>FRIENDLY</type>
+		<name esES="Cebo">Bait</name>
+		<attack>3</attack>
+		<attackSpeed>10</attackSpeed>
+		<defense>2</defense>
+		<healthPoints>2</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>2</damage>
+
+		<LOS>1</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>20</walkSpeed>
+	</bate>
+
+	<rooster>
+		<type>FRIENDLY</type>
+
+		<name esES="Gallo">Rooster</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d23+95</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>roosterfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<action>qkillchicken</action>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</rooster>
+	<wildrooster>
+		<type>FRIENDLY</type>
+
+		<name esES="Gallo salvaje">Wild Rooster</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d23+95</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>roosterfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<action>qkillchicken</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</wildrooster>
+
+
+	<chicken>
+		<type>FRIENDLY</type>
+
+		<name esES="Gallina">Chicken</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillchicken</action>
+
+		<building>chickenfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</chicken>
+
+	<layedeggchicken>
+		<type>FRIENDLY</type>
+
+		<name esES="Gallina">Chicken</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillchicken</action>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>chicken</maxAgeLiving>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</layedeggchicken>
+
+	<wildchicken>
+		<type>FRIENDLY</type>
+
+		<name esES="Gallina salvaje">Wild chicken</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillchicken</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</wildchicken>
+
+	<layedeggwildchicken>
+		<type>FRIENDLY</type>
+
+		<name esES="Gallina salvaje">Wild chicken</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillchicken</action>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildchicken</maxAgeLiving>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</layedeggwildchicken>
+
+	<skootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name>Skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<building>skootenbeetenfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>1440</foodNeededTurns>
+		<foodNeededDieTurns>1440</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</skootenbeeten>
+
+	<layedeggskooten>
+		<type>FRIENDLY</type>
+
+		<name>Skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>skootenbeeten</maxAgeLiving>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</layedeggskooten>
+
+	<wildskootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name esES="Skootenbeeten salvaje">Wild skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</wildskootenbeeten>
+
+	<layedeggwildskooten>
+		<type>FRIENDLY</type>
+
+		<name esES="Skootenbeeten salvaje">Wild skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildskootenbeeten</maxAgeLiving>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+	</layedeggwildskooten>
+
+	<!-- ENEMIES -->
+
+
+	<ghost>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Fantasma de un antiguo héroe">Ghost of past heroes</name>
+		<habitat>snow</habitat>
+		<attack>1d359+1020</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d239+680</defense>
+		<healthPoints>1d389+1105</healthPoints>
+		<attackVerb esES="golpea">slashes</attackVerb>
+		<attackVerbInfinitive esES="golpear">slash</attackVerbInfinitive>
+		<damage>1d194+600</damage>
+
+		<effects>magic5</effects>
+		<effectsImmune>blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
+
+		<LOS>3</LOS>
+		<movePCT>1</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<evadeTraps>true</evadeTraps>
+		<animatedWhenIdle>true</animatedWhenIdle>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>4</levelMin>
+			<levelMax>10</levelMax>
+		</drop>
+	</ghost>
+
+
+	<yeti>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Yeti">Yeti</name>
+		<habitat>snow</habitat>
+		<attack>1d359+1020</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d239+680</defense>
+		<healthPoints>1d389+1105</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d194+553</damage>
+
+		<LOS>3</LOS>
+		<movePCT>5</movePCT>
+		<walkSpeed>75</walkSpeed>
+		<grouping>false</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</yeti>
+
+	<skyshark>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Tiburón volador">Flying shark</name>
+		<habitat>floatinggrass</habitat>
+		<attack>1d559+1220</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d239+980</defense>
+		<healthPoints>1d589+1505</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d394+553</damage>
+
+		<LOS>3</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>85</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</skyshark>
+
+	<treekeeper>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<habitat>grass2</habitat>
+
+		<name esES="Árbol guardián">Tree keeper</name>
+		<habitat>lavadirt</habitat>
+		<attack>1d459+1020</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d239+980</defense>
+		<healthPoints>1d389+1205</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d194+553</damage>
+
+		<LOS>3</LOS>
+		<movePCT>5</movePCT>
+		<walkSpeed>15</walkSpeed>
+		<grouping>false</grouping>
+
+		<effects>blunt10</effects>
+		<effectsImmune>slash5,slash10,slash15</effectsImmune>
+
+		<drop>
+			<item>rmwood</item>
+			<PCT>100</PCT>
+		</drop>
+	</treekeeper>
+
+	<treekeeper2>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<habitat>grass3</habitat>
+
+		<name esES="Árbolguardián ">Tree keeper</name>
+		<habitat>lavadirt</habitat>
+		<attack>1d459+1020</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d239+980</defense>
+		<healthPoints>1d389+1205</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d194+553</damage>
+
+		<LOS>3</LOS>
+		<movePCT>5</movePCT>
+		<walkSpeed>15</walkSpeed>
+		<grouping>false</grouping>
+
+		<effects>blunt10</effects>
+		<effectsImmune>slash5,slash10,slash15</effectsImmune>
+
+		<drop>
+			<item>rmwood</item>
+			<PCT>100</PCT>
+		</drop>
+	</treekeeper2>
+
+
+	<undeadtree>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Árbol">Tree</name>
+		<habitat>lavadirt</habitat>
+		<attack>1d359+1020</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d239+680</defense>
+		<healthPoints>1d389+1105</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d194+553</damage>
+
+		<LOS>3</LOS>
+		<movePCT>1</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>rmwood</item>
+			<PCT>100</PCT>
+		</drop>
+	</undeadtree>
+
+
+	<browniechief>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<name esES="Brownie jefe">Brownie chieftain</name>
+		<habitat>brownievillage</habitat>
+		<attack>1d479+1360</attack>
+		<attackSpeed>7</attackSpeed>
+		<defense>1d329+935</defense>
+		<healthPoints>1d389+1105</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d209+595</damage>
+
+		<LOS>0</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>75</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</browniechief>
+
+	<browniebat>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<name esES="Brownie jinete murciélago">Brownie bat rider</name>
+		<habitat>brownievillage</habitat>
+		<attack>1d479+1360</attack>
+		<attackSpeed>7</attackSpeed>
+		<defense>1d329+935</defense>
+		<healthPoints>1d389+1105</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d209+595</damage>
+
+		<LOS>1d3+1</LOS>
+		<movePCT>2d3+7</movePCT>
+		<walkSpeed>75</walkSpeed>
+		<grouping>true</grouping>
+
+		<evadeTraps>true</evadeTraps>
+		<animatedWhenIdle>true</animatedWhenIdle>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</browniebat>
+
+	<browniewarrior>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Brownie guerrero">Brownie warrior</name>
+		<habitat>brownievillage</habitat>
+		<attack>1d359+1020</attack>
+		<attackSpeed>7</attackSpeed>
+		<defense>1d239+680</defense>
+		<healthPoints>1d389+1105</healthPoints>
+		<attackVerb esES="apuñala">stabs</attackVerb>
+		<attackVerbInfinitive esES="apuñalar">stab</attackVerbInfinitive>
+		<damage>1d194+553</damage>
+
+		<LOS>0</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>75</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</browniewarrior>
+
+	<browniehunter>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<name esES="Brownie cazador">Brownie hunter</name>
+		<habitat>brownievillage</habitat>
+		<attack>1d239+680</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d179+510</defense>
+		<healthPoints>1d209+595</healthPoints>
+		<attackVerb esES="apuñala">stabs</attackVerb>
+		<attackVerbInfinitive esES="apuñalar">stab</attackVerbInfinitive>
+		<damage>1d374+1063</damage>
+
+		<LOS>2d5+1</LOS>
+		<movePCT>5d2+6</movePCT>
+		<walkSpeed>75</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</browniehunter>
+
+
+	<blacksnakecrab>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Serpiente cangrejo negra">Black snakecrab</name>
+		<habitat>sand</habitat>
+		<attack>1d239+680</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d239+680</defense>
+		<healthPoints>1d299+850</healthPoints>
+		<attackVerb esES="golpea">stings</attackVerb>
+		<attackVerbInfinitive esES="golpear">sting</attackVerbInfinitive>
+		<damage>1d119+340</damage>
+
+		<facingDirections>true</facingDirections>
+		<effectsImmune>dotpoison100,dotpoison200</effectsImmune>
+
+		<LOS>3</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>snaketooth</item>
+			<PCT>90</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</blacksnakecrab>
+
+	<yellowsnakecrab>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Serpiente cangrejo amarilla">Yellow snakecrab</name>
+		<habitat>sand</habitat>
+		<attack>1d383+1008</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d359+1020</defense>
+		<healthPoints>1d389+1105</healthPoints>
+		<attackVerb esES="golpea">stings</attackVerb>
+		<attackVerbInfinitive esES="golpear">sting</attackVerbInfinitive>
+		<damage>1d359+1020</damage>
+
+		<facingDirections>true</facingDirections>
+		<effectsImmune>dotpoison100,dotpoison200</effectsImmune>
+
+		<LOS>3</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>snaketooth</item>
+			<PCT>90</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</yellowsnakecrab>
+
+	<froggy>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Froggy">Froggy</name>
+		<habitat>jungle</habitat>
+		<habitat>brownievillage</habitat>
+		<attack>1d299+850</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d359+1020</defense>
+		<healthPoints>1d359+1020</healthPoints>
+		<attackVerb esES="clava con una lanza">spears</attackVerb>
+		<attackVerbInfinitive esES="clavar con una lanza">spear</attackVerbInfinitive>
+		<damage>1d59+170</damage>
+
+		<facingDirections>true</facingDirections>
+
+		<effects>pierce5</effects>
+
+		<LOS>3</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>stonespear</item>
+			<PCT>15</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</froggy>
+
+	<toady>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Toady">Toady</name>
+		<habitat>jungle</habitat>
+		<attack>1d419+1190</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d329+935</defense>
+		<healthPoints>1d479+1360</healthPoints>
+		<attackVerb esES="clava con una lanza">spears</attackVerb>
+		<attackVerbInfinitive esES="clavar con una lanza">spear</attackVerbInfinitive>
+		<damage>1d179+510</damage>
+
+		<effects>pierce10</effects>
+
+		<LOS>1</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>stonespear</item>
+			<PCT>45</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>15</PCT>
+			<levelMin>5</levelMin>
+			<levelMax>10</levelMax>
+		</drop>
+	</toady>
+
+	<campfroggy>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Froggy">Froggy</name>
+		<habitat>junglefrog3</habitat>
+		<attack>1d299+850</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d359+1020</defense>
+		<healthPoints>1d359+1020</healthPoints>
+		<attackVerb esES="clava con una lanza">spears</attackVerb>
+		<attackVerbInfinitive esES="clavar con una lanza">spear</attackVerbInfinitive>
+		<damage>1d59+170</damage>
+		
+		<effects>pierce5</effects>
+
+		<LOS>3</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>stonespear</item>
+			<PCT>15</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>3</levelMin>
+			<levelMax>8</levelMax>
+		</drop>
+	</campfroggy>
+
+	<camptoady>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Toady">Toady</name>
+		<habitat>junglefrog3</habitat>
+		<attack>1d419+1190</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d329+935</defense>
+		<healthPoints>1d479+1360</healthPoints>
+		<attackVerb esES="clava con una lanza">spears</attackVerb>
+		<attackVerbInfinitive esES="clavar con una lanza">spear</attackVerbInfinitive>
+		<damage>1d179+510</damage>
+
+		<LOS>1</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<effects>pierce10</effects>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>stonespear</item>
+			<PCT>45</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>15</PCT>
+			<levelMin>5</levelMin>
+			<levelMax>10</levelMax>
+		</drop>
+	</camptoady>
+
+
+	<werepig>
+		<type>FRIENDLY</type>
+
+		<name esES="Cerdo salvaje">Wild pig</name>
+		<habitat>grass</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<maxAge>1d14400+28800</maxAge>
+		<maxAgeLiving>werepig_transformed</maxAgeLiving>
+
+		<movePCT>1d3+10</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillpig</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpork</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</werepig>
+
+	<werepig_transformed>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+
+		<name esES="Hombre cerdo">Werepig</name>
+		<habitat>grass</habitat>
+
+		<attack>1d419+790</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d389+1705</defense>
+		<healthPoints>1d599+1900</healthPoints>
+
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d479+1260</damage>
+
+		<maxAge>1d2880+1440</maxAge>
+		<maxAgeLiving>werepig</maxAgeLiving>
+
+		<LOS>1d14+4</LOS>
+		<movePCT>1d15+25</movePCT>
+		<walkSpeed>75</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>rawpork</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>pigslayerhelmet</item>
+			<PCT>80</PCT>
+		</drop>
+		<drop>
+			<item>RANDOM</item>
+			<PCT>80</PCT>
+			<levelMin>5</levelMin>
+			<levelMax>10</levelMax>
+		</drop>
+	</werepig_transformed>
+
+	<firehead>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>5</level>
+
+		<name esES="Cabeza de fuego">Fire head</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d449+1275</defense>
+		<healthPoints>1d599+1700</healthPoints>
+		<attackVerb esES="quema">burns</attackVerb>
+		<attackVerbInfinitive esES="quemar">burn</attackVerbInfinitive>
+		<damage>1d155+597</damage>
+
+		<LOS>1</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+		<equip>firewand</equip>
+		
+		<effectsImmune>flamesdamage200,flamesdamage100</effectsImmune>
+		<effects>flameattack</effects>
+		<facingDirections>true</facingDirections>
+
+		<evadeTraps>true</evadeTraps>
+		<animatedWhenIdle>true</animatedWhenIdle>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>15</PCT>
+			<levelMin>10</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+	</firehead>
+
+	<stealingwolf>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name esES="Lobo ladrón">Snatching wolf</name>
+		<attack>1d519+840</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d259+520</defense>
+		<healthPoints>1d359+820</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d89+255</damage>
+
+		<LOS>0</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>85</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+		<stealLivings>cow,bull,chicken,pig,skootenbeeten,unifallow</stealLivings>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>direite</item>
+			<PCT>10</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</stealingwolf>
+
+	<evilbadger>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>1</level>
+
+		<name esES="Tejón malvado">Evil badger</name>
+		<attack>1d159+270</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d159+270</defense>
+		<healthPoints>1d159+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+158</damage>
+
+		<LOS>0</LOS>
+		<movePCT>1d4+1</movePCT>
+		<walkSpeed>85</walkSpeed>
+
+		<facingDirections>true</facingDirections>
+		<steal>prepfood.fruit,prepfood.baked,prepfood.cooked,rawfood</steal>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		<drop>
+			<item>rawbadgermeat</item>
+			<PCT>15</PCT>
+		</drop>
+	</evilbadger>
+
+	<evilrogue>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name esES="Ladrón">Thief</name>
+		<attack>1d359+270</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d259+270</defense>
+		<healthPoints>1d159+370</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d94+258</damage>
+
+		<LOS>0</LOS>
+		<movePCT>1d4+1</movePCT>
+		<walkSpeed>70</walkSpeed>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>10</PCT>
+			<levelMin>5</levelMin>
+			<levelMax>10</levelMax>
+		</drop>
+
+		<steal>weapon.special,armor.special,weapon.gold,armor.gold,weapon.silver,armor.silver,armor.vanity,decorative.indoor,decorative.outdoor,rmgold,rmsilver,weapon.iron,armor.iron</steal>
+	</evilrogue>
+	
+	
+	<firespider>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<habitat>lavarock</habitat>
+
+		<name esES="Araña del fuego">Fire Spider</name>
+		<attack>1d409+895</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d509+895</defense>
+		<healthPoints>1d529+895</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d129+490</damage>
+
+		<LOS>1</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>spiderite</item>
+			<PCT>45</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>10</PCT>
+			<levelMin>2</levelMin>
+			<levelMax>10</levelMax>
+		</drop>
+	</firespider>
+
+
+	<spider>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>1</level>
+
+		<name esES="Araña">Spider</name>
+		<attack>1d209+595</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d209+595</defense>
+		<healthPoints>1d229+595</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d59+190</damage>
+
+		<facingDirections>true</facingDirections>
+
+		<LOS>1</LOS>
+		<movePCT>15</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>spiderite</item>
+			<PCT>10</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+	</spider>
+
+	<greenslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>1</level>
+
+		<name esES="Gelatina verde">Green slime</name>
+		<attack>1d209+595</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d249+595</defense>
+		<healthPoints>1d209+595</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d59+270</damage>
+
+		<effectsImmune>blunt5,blunt10</effectsImmune>
+
+		<LOS>1</LOS>
+		<movePCT>5</movePCT>
+		<walkSpeed>25</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>5</levelMax>
+		</drop>
+		<drop>
+			<item>greengel</item>
+			<PCT>100</PCT>
+		</drop>
+	</greenslime>
+
+	<giantspider>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name esES="Araña gigante">Giant spider</name>
+		<attack>1d299+850</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d359+1020</defense>
+		<healthPoints>1d299+850</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d89+255</damage>
+
+		<facingDirections>true</facingDirections>
+
+		<LOS>1</LOS>
+		<movePCT>10</movePCT>
+		<walkSpeed>55</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>spiderite</item>
+			<PCT>50</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>3</levelMin>
+			<levelMax>13</levelMax>
+		</drop>
+	</giantspider>
+
+	<spiderqueen>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Araña reina">Spider queen</name>
+		<attack>1d599+1700</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d479+1360</defense>
+		<healthPoints>1d479+1360</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d179+510</damage>
+
+		<facingDirections>true</facingDirections>
+
+		<effects>magic10</effects>
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>2</LOS>
+		<movePCT>10</movePCT>
+		<walkSpeed>75</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>7</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+	</spiderqueen>
+
+	<goblin>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name>Goblin</name>
+		<attack>1d419+1190</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d539+1530</defense>
+		<healthPoints>1d299+850</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d59+210</damage>
+
+		<LOS>4</LOS>
+		<movePCT>80</movePCT>
+		<walkSpeed>65</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<effects>pierce5</effects>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>3</levelMin>
+			<levelMax>7</levelMax>
+		</drop>
+		<drop>
+			<item>goblinite</item>
+			<PCT>10</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</goblin>
+
+
+	<redslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+		<name esES="Gelatina roja">Red slime</name>
+		<attack>1d419+1190</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d539+1530</defense>
+		<healthPoints>1d299+850</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d59+370</damage>
+
+		<LOS>4</LOS>
+		<movePCT>80</movePCT>
+		<walkSpeed>25</walkSpeed>
+		<grouping>true</grouping>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>3</levelMin>
+			<levelMax>7</levelMax>
+		</drop>
+		<drop>
+			<item>redgel</item>
+			<PCT>100</PCT>
+		</drop>
+	</redslime>
+
+	<goblinleader>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name esES="Lider goblin">Goblin leader</name>
+		<attack>1d575+1312</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d645+1377</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d89+255</damage>
+
+		<LOS>6</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>65</walkSpeed>
+		<grouping>true</grouping>
+
+		<effects>pierce10</effects>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>5</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>goblinite</item>
+			<PCT>50</PCT>
+		</drop>
+		<drop>
+			<item>goblinhead</item>
+			<PCT>5</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>50</PCT>
+		</drop>
+	</goblinleader>
+
+	<nusepthegoblinking>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Nusep, el goblin rey">Nusep, the goblin king</name>
+		<attack>1d599+1700</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d835+1782</defense>
+		<healthPoints>1d835+1782</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d149+425</damage>
+
+		<effects>pierce10</effects>
+
+		<LOS>6</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>65</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>7</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+	</nusepthegoblinking>
+
+	<hobgoblin>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>3</level>
+
+		<name>Hobgoblin</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d679+1360</defense>
+		<healthPoints>1d569+1615</healthPoints>
+		<attackVerb esES="quema">burns</attackVerb>
+		<attackVerbInfinitive esES="quemar">burn</attackVerbInfinitive>
+		<damage>1d119+340</damage>
+
+		<effects>blunt5</effects>
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d3</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>7</levelMin>
+			<levelMax>13</levelMax>
+		</drop>
+		<drop>
+			<item>hobgoblinite</item>
+			<PCT>20</PCT>
+		</drop>
+		<drop>
+			<item>hobgoblinhead</item>
+			<PCT>5</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>50</PCT>
+		</drop>
+	</hobgoblin>
+
+	<cyclop>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>3</level>
+
+		<name esES="Cíclope">Cyclop</name>
+		<attack>1d599+1700</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d569+1615</defense>
+		<healthPoints>1d881+1659</healthPoints>
+		<attackVerb esES="quema">burns</attackVerb>
+		<attackVerbInfinitive esES="quemar">burns</attackVerbInfinitive>
+		<damage>1d149+425</damage>
+
+		<effects>blunt5</effects>
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d3+1</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>7</levelMin>
+			<levelMax>13</levelMax>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</cyclop>
+
+
+	<hobgoblinkaiser>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>3</level>
+
+		<name>Hobgoblin kaiser</name>
+		<attack>1d599+1700</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d569+1615</defense>
+		<healthPoints>1d895+1759</healthPoints>
+		<attackVerb esES="quema">burns</attackVerb>
+		<attackVerbInfinitive esES="quemar">burns</attackVerbInfinitive>
+		<damage>1d149+425</damage>
+
+		<effects>blunt5</effects>
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d3+1</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>7</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>hobgoblinite</item>
+			<PCT>50</PCT>
+		</drop>
+		<drop>
+			<item>hobgoblinhead</item>
+			<PCT>8</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>50</PCT>
+		</drop>
+	</hobgoblinkaiser>
+
+	<draukthehobgoblinking>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Drauk, el rey hobgoblin">Drauk, the hobgoblin king</name>
+		<attack>1d1319+2340</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d1319+2340</defense>
+		<healthPoints>1d1823+2588</healthPoints>
+		<attackVerb esES="quema">burns</attackVerb>
+		<attackVerbInfinitive esES="quemar">burns</attackVerbInfinitive>
+		<damage>1d239+680</damage>
+
+		<effects>blunt5</effects>
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d7+2</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>10</levelMin>
+			<levelMax>17</levelMax>
+		</drop>
+	</draukthehobgoblinking>
+
+	<direwolf>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>4</level>
+
+		<name esES="Huargo">Direwolf</name>
+		<attack>1d1319+2340</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d359+1120</defense>
+		<healthPoints>1d359+1320</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d89+455</damage>
+
+		<effects>slash5</effects>
+
+		<LOS>1d5+4</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>85</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>direite</item>
+			<PCT>10</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</direwolf>
+
+	<direwolfalpha>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>4</level>
+
+		<name esES="Huargo alfa">Direwolf alpha</name>
+		<attack>1d1249+1875</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d449+1275</defense>
+		<healthPoints>1d449+1275</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d149+625</damage>
+
+		<facingDirections>true</facingDirections>
+		
+		<effects>slash5</effects>
+
+		<LOS>1d5+10</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>85</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>17</levelMax>
+		</drop>
+		<drop>
+			<item>direite</item>
+			<PCT>50</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</direwolfalpha>
+
+	<sikuthewolf>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Siku, el lobo">Siku, the wolf</name>
+		<attack>1d1199+3100</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d1109+3145</defense>
+		<healthPoints>1d1319+2340</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d209+795</damage>
+
+		<effects>slash10</effects>
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d2+6</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>85</walkSpeed>
+		<grouping>true</grouping>
+		
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>9</levelMin>
+			<levelMax>17</levelMax>
+		</drop>
+
+	</sikuthewolf>
+
+	<snickerblade>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>5</level>
+
+		<name>Snicker Blade</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d569+1615</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d149+425</damage>
+
+		<effects>slash5</effects>
+		<effectsImmune>pierce5,pierce10,pierce15</effectsImmune>
+
+		<LOS>1d2+2</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>55</walkSpeed>
+		<grouping>false</grouping>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>snickerite</item>
+			<PCT>10</PCT>
+		</drop>
+		<drop>
+			<item>snickerhead</item>
+			<PCT>5</PCT>
+		</drop>
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+
+	</snickerblade>
+
+	<blueslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>5</level>
+
+		<name esES="Gelatina azul">Blue slime</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d569+1615</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d149+505</damage>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d3+2</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>20</walkSpeed>
+		<grouping>false</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>bluegel</item>
+			<PCT>100</PCT>
+		</drop>
+
+	</blueslime>
+
+	<werewolf>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>6</level>
+
+		<name esES="Hombre lobo">Werewolf</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>7</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d569+1315</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d149+425</damage>
+
+		<LOS>1d3</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>65</walkSpeed>
+		<grouping>false</grouping>
+
+		<effects>lycanthropy</effects>
+		<effectsImmune>lycanthropyinfected</effectsImmune>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+
+	</werewolf>
+
+	<snickerbladewizard>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>6</level>
+
+		<name esES="Snickerblade mago">Snickerblade wizard</name>
+		<attack>1d659+1870</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d149+3952</defense>
+		<healthPoints>1d149+3252</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d179+510</damage>
+
+		<effects>magic10</effects>
+		<effectsImmune>pierce5,pierce10,pierce15</effectsImmune>
+
+		<LOS>1d3</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>55</walkSpeed>
+		<grouping>false</grouping>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>snickerite</item>
+			<PCT>50</PCT>
+		</drop>
+		<drop>
+			<item>snickerhead</item>
+			<PCT>8</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>10</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+
+	</snickerbladewizard>
+
+	<nexythesnickeredge>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Nexy, el filosonriente">Nexy, the snicker edge</name>
+		<attack>1d1249+1975</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d1249+1875</defense>
+		<healthPoints>1d1249+1875</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d179+550</damage>
+
+		<effects>magic15</effects>
+		<effectsImmune>pierce5,pierce10,pierce15</effectsImmune>
+
+		<LOS>1d3</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>55</walkSpeed>
+		<grouping>false</grouping>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>12</levelMin>
+			<levelMax>17</levelMax>
+		</drop>
+	</nexythesnickeredge>
+
+	<zombie>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>6</level>
+
+		<name>Zombie</name>
+		<attack>1d599+1700</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d1499+3950</defense>
+		<healthPoints>1d1319+2340</healthPoints>
+		<attackVerb esES="ataca">attacks</attackVerb>
+		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
+		<damage>1d179+610</damage>
+		
+		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
+
+
+		<LOS>4</LOS>
+		<movePCT>1d4+5</movePCT>
+		<walkSpeed>25</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>12</levelMin>
+			<levelMax>17</levelMax>
+		</drop>
+		<drop>
+			<item>zombite</item>
+			<PCT>10</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</zombie>
+
+	<infectedzombie>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>6</level>
+
+		<name esES="Zombie infectado">Infected zombie</name>
+		<attack>1d599+1700</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d1799+4350</defense>
+		<healthPoints>1d764+2168</healthPoints>
+		<attackVerb esES="ataca">attacks</attackVerb>
+		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
+		<damage>1d214+668</damage>
+
+		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>1d5+12</movePCT>
+		<walkSpeed>25</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>12</levelMin>
+			<levelMax>17</levelMax>
+		</drop>
+		<drop>
+			<item>zombite</item>
+			<PCT>50</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</infectedzombie>
+
+	<toponovichthezombie>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Toponovich, el zombie">Toponovich, the zombie</name>
+		<attack>1d119+3400</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d1949+5325</defense>
+		<healthPoints>1d1649+3675</healthPoints>
+		<attackVerb esES="ataca">attacks</attackVerb>
+		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
+		<damage>1d249+725</damage>
+
+		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>1d5+12</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>14</levelMin>
+			<levelMax>19</levelMax>
+		</drop>
+
+	</toponovichthezombie>
+
+	<ghoul>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>8</level>
+
+		<name>Ghoul</name>
+		<attack>1d1499+4250</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d2399+6800</defense>
+		<healthPoints>1d749+725</healthPoints>
+		<attackVerb esES="maldice">curses</attackVerb>
+		<attackVerbInfinitive esES="maldecir">curse</attackVerbInfinitive>
+		<damage>1d219+540</damage>
+
+		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
+		<facingDirections>true</facingDirections>
+
+		<LOS>10</LOS>
+		<movePCT>10</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>ghoulite</item>
+			<PCT>10</PCT>
+		</drop>
+
+		<drop>
+			<item>ghoulhead</item>
+			<PCT>5</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>12</levelMin>
+			<levelMax>18</levelMax>
+		</drop>
+
+	</ghoul>
+
+	<sneakyghoul>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>8</level>
+
+		<name esES="Ghoul sigiloso">Sneaky ghoul</name>
+		<attack>1d1799+5100</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d2549+5825</defense>
+		<healthPoints>1d299+4250</healthPoints>
+		<attackVerb esES="maldice">curses</attackVerb>
+		<attackVerbInfinitive esES="maldecir">curse</attackVerbInfinitive>
+		<damage>1d279+550</damage>
+
+		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
+		<facingDirections>true</facingDirections>
+
+		<LOS>1d3+8</LOS>
+		<movePCT>1d3+8</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>ghoulite</item>
+			<PCT>10</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>13</levelMin>
+			<levelMax>18</levelMax>
+		</drop>
+		<drop>
+			<item>ghoulhead</item>
+			<PCT>8</PCT>
+		</drop>
+
+	</sneakyghoul>
+
+
+	<vampire>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>8</level>
+
+		<name esES="Vampiro">Vampire</name>
+		<attack>1d1799+5100</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d2549+6225</defense>
+		<healthPoints>1d299+1050</healthPoints>
+		<attackVerb esES="maldice">curses</attackVerb>
+		<attackVerbInfinitive esES="maldecir">curse</attackVerbInfinitive>
+		<damage>1d279+510</damage>
+
+		<effects>magic10</effects>
+		<effectsImmune>slash5,slash10,slash15</effectsImmune>
+
+		<LOS>1d3+8</LOS>
+		<movePCT>1d3+8</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>14</levelMin>
+			<levelMax>16</levelMax>
+		</drop>
+
+	</vampire>
+
+	<gaskonetheghoul>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Gaskone, el ghoul">Gaskone, the ghoul</name>
+		<attack>1d1499+4250</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d2699+7650</defense>
+		<healthPoints>1d599+1700</healthPoints>
+		<attackVerb esES="maldice">curses</attackVerb>
+		<attackVerbInfinitive esES="maldecir">curse</attackVerbInfinitive>
+		<damage>1d239+680</damage>
+
+		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
+		<facingDirections>true</facingDirections>
+
+		<LOS>1d3+8</LOS>
+		<movePCT>1d3+8</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>15</levelMin>
+			<levelMax>20</levelMax>
+		</drop>
+	</gaskonetheghoul>
+
+	<ogre>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>9</level>
+
+		<name esES="Ogro">Ogre</name>
+		<attack>1d269+765</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d2399+6800</defense>
+		<healthPoints>1d1649+4675</healthPoints>
+		<attackVerb esES="aporrea">clubs</attackVerb>
+		<attackVerbInfinitive esES="aporrear">club</attackVerbInfinitive>
+		<damage>1d599+1700</damage>
+
+		<effects>blunt5</effects>
+
+		<facingDirections>true</facingDirections>
+
+		<LOS>5</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>15</levelMin>
+			<levelMax>22</levelMax>
+		</drop>
+		<drop>
+			<item>ogreite</item>
+			<PCT>10</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</ogre>
+
+	<lustyogre>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>9</level>
+
+		<name esES="Ogro vigoroso">Lusty ogre</name>
+		<attack>1d359+1020</attack>
+		<attackSpeed>1d3+3</attackSpeed>
+		<defense>1d2399+6800</defense>
+		<healthPoints>1d1799+5100</healthPoints>
+		<attackVerb esES="aporrea">clubs</attackVerb>
+		<attackVerbInfinitive esES="aporrear">club</attackVerbInfinitive>
+		<damage>1d835+1782</damage>
+		<facingDirections>true</facingDirections>
+
+		<effects>blunt10</effects>
+
+		<LOS>5</LOS>
+		<movePCT>4d3+17</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>15</levelMin>
+			<levelMax>25</levelMax>
+		</drop>
+		<drop>
+			<item>ogreite</item>
+			<PCT>50</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</lustyogre>
+
+	<humethealmightyogre>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>7</level>
+
+		<name esES="Hume, el ogro todopoderoso">Hume, the almighty ogre</name>
+		<attack>1d599+1700</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d2999+8500</defense>
+		<healthPoints>1d1949+4925</healthPoints>
+		<attackVerb esES="aporrea">clubs</attackVerb>
+		<attackVerbInfinitive esES="aporrear">club</attackVerbInfinitive>
+		<damage>1d719+1840</damage>
+		<facingDirections>true</facingDirections>
+
+		<effects>blunt15</effects>
+		<effectsImmune>slash5,slash10,slash15,pierce5,pierce10,pierce15</effectsImmune>
+
+		<LOS>1d3+5</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>false</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>17</levelMin>
+			<levelMax>27</levelMax>
+		</drop>
+
+	</humethealmightyogre>
+
+	<theburningpet>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>9</level>
+
+		<name esES="La mascota ardiente">The burning pet</name>
+		<attack>1d3666+8666</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d3666+6666</defense>
+		<healthPoints>1d2666+7666</healthPoints>
+		<attackVerb esES="quema">burns</attackVerb>
+		<attackVerbInfinitive esES="quemar">burn</attackVerbInfinitive>
+		<damage>1d666+1666</damage>
+
+		<LOS>10</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>65</walkSpeed>
+		<grouping>false</grouping>
+		<equip>firewand</equip>
+
+		<facingDirections>true</facingDirections>
+		<effectsImmune>flamesdamage200,flamesdamage100,magic5,magic10,magic15</effectsImmune>
+		<effects>flameattack</effects>
+		
+
+		<drop>
+			<item>flamingsword</item>
+			<PCT>5</PCT>
+		</drop>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>35</PCT>
+			<levelMin>22</levelMin>
+			<levelMax>29</levelMax>
+		</drop>
+		<drop>
+			<item>burnite</item>
+			<PCT>100</PCT>
+		</drop>
+	</theburningpet>
+
+	<cavetroll>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>6</level>
+
+		<name esES="Troll de las cavernas">Cave troll</name>
+		<attack>1d149+4252</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d1319+2340</defense>
+		<healthPoints>1d599+2700</healthPoints>
+		<attackVerb esES="ataca">attacks</attackVerb>
+		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
+		<damage>1d479+1360</damage>
+
+		<facingDirections>true</facingDirections>
+
+		<effects>blunt5</effects>
+		<effectsImmune>pierce5,pierce10,pierce15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>1d4+3</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>10</levelMin>
+			<levelMax>19</levelMax>
+		</drop>
+		<drop>
+			<item>ironlongsword</item>
+			<PCT>25</PCT>
+		</drop>
+		<drop>
+			<item>trollhead</item>
+			<PCT>5</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</cavetroll>
+
+	<berserkertroll>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>8</level>
+
+		<name esES="Troll berserker">Berserker troll</name>
+		<attack>1d1199+3400</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d1249+1875</defense>
+		<healthPoints>1d1349+3825</healthPoints>
+		<attackVerb esES="ataca">attacks</attackVerb>
+		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
+		<damage>1d749+2125</damage>
+		
+		<facingDirections>true</facingDirections>
+
+		<effects>blunt10</effects>
+		<effectsImmune>pierce5,pierce10,pierce15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>1d5+12</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>15</levelMin>
+			<levelMax>21</levelMax>
+		</drop>
+		<drop>
+			<item>ironlongsword</item>
+			<PCT>25</PCT>
+		</drop>
+		<drop>
+			<item>trollhead</item>
+			<PCT>8</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</berserkertroll>
+
+
+	<stonetroll>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>9</level>
+
+		<name esES="Troll de piedra">Stone troll</name>
+		<attack>1d1799+5100</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d119+3400</defense>
+		<healthPoints>1d1949+5525</healthPoints>
+		<attackVerb esES="ataca">attacks</attackVerb>
+		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
+		<damage>1d1149+1975</damage>
+
+		<LOS>4</LOS>
+		<movePCT>1d5+12</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<effects>blunt15</effects>
+		<effectsImmune>pierce5,pierce10,pierce15</effectsImmune>
+
+		<equip>throwingrock</equip>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>25</PCT>
+			<levelMin>17</levelMin>
+			<levelMax>26</levelMax>
+		</drop>
+		<drop>
+			<item>ironlongsword</item>
+			<PCT>25</PCT>
+		</drop>
+		<drop>
+			<item>trollhead</item>
+			<PCT>5</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>100</PCT>
+		</drop>
+	</stonetroll>
+
+	<stonegolem>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>8</level>
+
+		<name esES="Golem de piedra">Stone golem</name>
+		<attack>1d1199+3400</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d1100+3200</defense>
+		<healthPoints>1d2399+5800</healthPoints>
+		<attackVerb esES="ataca">punches</attackVerb>
+		<attackVerbInfinitive esES="atacar">punch</attackVerbInfinitive>
+		<damage>1d1199+1900</damage>
+
+		<effects>blunt15</effects>
+		<effectsImmune>pierce5,pierce10,pierce15,slash5,slash10,slash15,blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>10</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>15</PCT>
+			<levelMin>20</levelMin>
+			<levelMax>25</levelMax>
+		</drop>
+		<drop>
+			<item>rmstone</item>
+			<PCT>100</PCT>
+		</drop>
+	</stonegolem>
+
+	<irongolem>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>9</level>
+
+		<name esES="Golem de hierro">Iron Golem</name>
+		<attack>1d1799+5100</attack>
+		<attackSpeed>3</attackSpeed>
+		<defense>1d1349+3825</defense>
+		<healthPoints>1d2549+7225</healthPoints>
+		<attackVerb esES="ataca">crushes</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1d1349+2225</damage>
+
+		<effects>blunt15</effects>
+		<effectsImmune>pierce5,pierce10,pierce15,slash5,slash10,slash15,blunt5,blunt10,blunt15,magic5,magic10,magic15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>10</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>15</PCT>
+			<levelMin>20</levelMin>
+			<levelMax>27</levelMax>
+		</drop>
+		<drop>
+			<item>rmiron</item>
+			<PCT>100</PCT>
+		</drop>
+	</irongolem>
+
+	<weretiger>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>9</level>
+
+		<name esES="Hombre tigre">Weretiger</name>
+		<attack>1d1799+5100</attack>
+		<attackSpeed>7</attackSpeed>
+		<defense>1d1349+3825</defense>
+		<healthPoints>1d1949+5225</healthPoints>
+		<attackVerb esES="ataca">crushes</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1d1149+1625</damage>
+
+		<effects>slash15,pierce15</effects>
+
+		<LOS>4</LOS>
+		<movePCT>10</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>15</PCT>
+			<levelMin>20</levelMin>
+			<levelMax>27</levelMax>
+		</drop>
+	</weretiger>
+	
+	<!-- WINTER ITEMS -->
+	<santa>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+		<name esES="Santa Claus">Santa Claus</name>
+		
+		<attack>1d900+5400</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d450+5000</defense>
+		<healthPoints>1d600+5000</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+200</damage>
+		<LOS>1d4+3</LOS>
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>60</walkSpeed>
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+4160</maxSleepTurns>
+		
+		<eatZone>ztavern</eatZone>
+		<heroComePrerequisite>santa</heroComePrerequisite>
+		<heroStayPrerequisite>santa</heroStayPrerequisite>
+		<heroBehaviour>santa</heroBehaviour>
+		<heroSkills>santa</heroSkills>
+		<facingDirections>true</facingDirections>
+		<equip>santahat</equip>
+		<equipAllowed>cloth</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d20+50</moral>
+		
+		<drop>
+			<item>corpse</item>
+			<PCT>100</PCT>
+		</drop>
+	</santa>
+
+	<smallgift1>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>0</level>
+
+		<name esES="Small Gift">Small Gift</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="ataca">crush</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1</damage>
+
+		<LOS>1</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>0</walkSpeed>
+
+		<fxDead>fxchop</fxDead>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>2</levelMax>
+		</drop>
+	</smallgift1>
+
+	<smallgift2>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>0</level>
+
+		<name esES="Small Gift">Small Gift</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="ataca">crush</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1</damage>
+
+		<LOS>1</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>0</walkSpeed>
+
+		<fxDead>fxchop</fxDead>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>2</levelMax>
+		</drop>
+	</smallgift2>
+
+	<smallgift3>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>0</level>
+
+		<name esES="Small Gift">Small Gift</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="ataca">crush</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1</damage>
+
+		<LOS>1</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>0</walkSpeed>
+
+		<fxDead>fxchop</fxDead>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>2</levelMax>
+		</drop>
+
+	</smallgift3>
+
+	<smallgift4>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>0</level>
+
+		<name esES="Small Gift">Small Gift</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="ataca">crush</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1</damage>
+
+		<LOS>1</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>0</walkSpeed>
+
+		<fxDead>fxchop</fxDead>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>2</levelMax>
+		</drop>
+
+	</smallgift4>
+
+	<treegift>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>0</level>
+		<altGraphics>largegifttwo</altGraphics>
+		<altGraphics>largegiftthree</altGraphics>
+		<altGraphics>largegiftfour</altGraphics>
+		<altGraphics>largegiftfive</altGraphics>
+		<altGraphics>largegiftsix</altGraphics>
+
+		<name esES="Christmas Gift">Christmas Gift</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="ataca">crush</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1</damage>
+
+		<LOS>1</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>0</walkSpeed>
+
+		<fxDead>fxchop</fxDead>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>100</PCT>
+			<levelMin>1</levelMin>
+			<levelMax>3</levelMax>
+		</drop>
+	</treegift>
+</livingentities>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<priorities>
+	<!--All cooking and baking jobs -->
+	<priority>
+		<id>baking</id>
+		<name esES="Cocinar">Baking</name>
+		<icon>ui_rbaking</icon>
+	</priority>
+
+	<priority>
+		<id>cooking</id>
+		<name esES="Cocinar">Cooking</name>
+		<icon>ui_rfoodcooking</icon>
+	</priority>
+	
+	<priority>
+		<id>processing</id>
+		<name esES="Cocinar">processing</name>
+		<icon>flour</icon>
+	</priority>	
+	
+	<!-- milking, making flour, etc -->
+	<priority>
+		<id>gathering</id>
+		<name esES="Recolectar y cosechar">Gathering</name>
+		<icon>milk</icon>
+	</priority>
+
+	<priority>
+		<id>harvesting</id>
+		<name esES="Recolectar y cosechar">harvesting</name>
+		<icon>ui_rfoodgathering</icon>
+	</priority>
+
+	<!-- butchering animals for meat or bones -->
+	<priority>
+		<id>butcheringkilling</id>
+		<name esES="Descuartizar">Butchering</name>
+		<icon>ui_rfoodbutchering</icon>
+	</priority>
+
+	<!-- trade jobs -->
+	<priority>
+		<id>_TRADING_</id>
+		<name esES="Comercio">Trading</name>
+		<icon>ui_rtrade</icon>
+	</priority>
+
+	<!-- Terraforming and Tilling jobs -->
+	<priority>
+		<id>terrainchange</id>
+		<name esES="N/A">Terraforming</name>
+		<icon>dirt</icon>
+	</priority>
+
+	<priority>
+		<id>tilling</id>
+		<name esES="Labrar y talar">Tilling</name>
+		<icon>ui_rterrainchange</icon>
+	</priority>
+
+<!-- building jobs -->
+	<priority>
+		<id>_BUILDINGS_</id>
+		<name esES="Edificios">Buildings</name>
+		<icon>ui_buildings</icon>
+	</priority>
+
+	<!-- feeding jobs -->
+	<priority>
+		<id>_FEED_</id>
+		<name esES="Alimentar">Feed</name>
+		<icon>ui_rfeed</icon>
+	</priority>
+
+	<!-- general item construction jobs -->
+	<priority>
+		<id>itemconstruction</id>
+		<name esES="Construcción de objetos">Item construction</name>
+		<icon>ui_rutils</icon>
+	</priority>
+
+<!-- Chopping -->
+	<priority>
+		<id>chopping</id>
+		<name esES="Labrar y talar">Chopping</name>
+		<icon>ui_chop</icon>
+	</priority>
+	
+	<!-- mining and digging jobs -->
+	<priority>
+		<id>_MINEDIG_</id>
+		<name esES="Minar y agujerear">Mine and dig</name>
+		<icon>ui_mine</icon>
+	</priority>
+
+	<!-- creation of walls -->
+	<priority>
+		<id>wallconstruction</id>
+		<name esES="Construcción de muros">Wall construction</name>
+		<icon>ui_rwalls</icon>
+	</priority>
+
+<!-- Hobbies -->
+	<priority>
+		<id>fishing</id>
+		<name esES="Pesca">Fishing</name>
+		<icon>rawfish</icon>
+	</priority>
+
+	<!-- hauling jobs -->
+	<priority>
+		<id>_HAUL_</id>
+		<name esES="Ordenar">Haul</name>
+		<icon>ui_rhauling</icon>
+	</priority>
+</priorities>
