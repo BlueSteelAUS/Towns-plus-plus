@@ -25,13 +25,13 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</bbakery>
 		
+		<!-- 
 		<bdining name="Dining room" description="A common place for peole to eat" icon="ui_zonesdining">
 			<item code="CREATEZONE" name="Dining Floor" parameter="zdining" icon="ui_zonesdining" />
-<!--			<item code="QUEUEANDPLACEAREA" parameter="qwoodenchair" />
-			<item code="QUEUEANDPLACEAREA" parameter="qwoodentable" />
-			<item code="QUEUEANDPLACEAREA" parameter="qclock" /> -->
+			<item code="QUEUEANDPLACEAREA" parameter="qwoodenchair" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</bdining>
+		-->
 
 		<bpersonal name="Personal space" description="A space to where you can be alone and sleep" icon="ui_zonespersonal">
 			<item code="CREATEZONE" name="Personal Floor" parameter="zpersonal" icon="ui_zonespersonal" />
