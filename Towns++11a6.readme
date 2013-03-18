@@ -27,21 +27,21 @@ More video's and live streams will be done as time permits
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
 This mod pack changes the general layout of the right menu panel and the main (bottom)
-menu panel,so that the zones are now treated as the floors in the buildings.
+menu panel, so that the zones are now treated as the floors in the buildings.
 I see you might be a little confused. what I've done is taken workshops and added
 each as a building in the buildings menu, placing the appropriate zone in that
 building along with its utilities into a sub menu for that type of workshop (room
-or building). so no more Zones menu
+or building). So, no more Zones menu.
 
 This provides quick and easy access to what your trying to build and furnish all
 in the one menu. 
 
 A new button has been added to the main menu in place of the Zones menu its the
 Un-Till button. You can now quickly and easily Un-Till the land that you've tilled
-when you no longer need it.
+when you no longer need it. As of Towns++ v5 the Un-Till button is now located in the Terraforming section of the action menu.
 
 The production menu has also been tweaked and added to so that you can make things
-without placing them, This is handy for quickly replacing doors etc.
+without placing them, this is handy for quickly replacing doors etc.
 it will also allow for a latter addition to my modpack where you'll also be able
 to SELL them to markets as they are interested in buying (Still being worked on).
 
@@ -56,43 +56,41 @@ Note: also while going through the data files I noticed that there is a hero tha
 kills bulls and boars (this is in the standard game, I haven't edited them at all)
 so you have been warned.
 
-Stock menu's have been fixed now so that they also show the appropriate barrels.
+Stock menus have been fixed now so that they also show the appropriate barrels.
 (some were missing)
 
-Added beer and wine making (in the tavern naturally)
+Added beer and wine making (in the tavern, naturally.)
 
 Changed from one generic mine type to a mine for each raw material, including ores
-that you couldn't mine before. the mines now only need one square of ore. however
-the graphic still takes up 4 squares as I've only modified the graphic slightly,
-to signify when a mineshaft is ready to be emptied. because now if a mineshaft isn't
+that you couldn't mine before. The mines now only need one square of ore. The new mines have lights on them which identify if the mine is ready to harvest or not. If a mineshaft isn't
 used in a certain period of time it collapses to rubble due to lack of use and
 maintenance (this is the pay off for being able to mine everything and only using
-one square) you also now need a sample of the resource your going to mine to build
-the mineshaft. eg: a gold mineshaft requires one gold to build a mine for gold.
+one square). If you have a large area of rubble you can clear it using the command located in the Terraform area in the menu. You also now need a sample of the resource your going to mine to build
+the mineshaft, eg: a gold mineshaft requires one gold to build a mine for gold.
 this can be costly if you aren't mining all the time. (Which is done via the
 production menu) so keep in mind not to use ALL your mined resources or you may
 not be able to build another mine when your last one collapses due to lack of use.
-You have been warned..
+You have been warned...
 
-Changed the Font to use Metamorphous size 18 for easier reading (licence included in main diredtory) 
+Changed the Font to use Metamorphous size 18 for easier reading (licence included in main directory) 
 Incorporated Cobalt262's Rotating stairs mod 
 Incorporated Cobalt262's Rotating furnature mod
-Incorporated JackPS9 Fishing hobby priority setting mod and altered the Default order of the priorities
-Added in Terraforming (on the bottom menu. hit the red button on the right to scroll accross to it)
+Incorporated JackPS9 Fishing hobby priority setting mod and altered the default order of the priorities
+Added in Terraforming (on the bottom menu. Hit the red button on the right to scroll accross to it.)
 
-re-organized the menu's.
+Re-organized the menus.
 
-Changed all CREATEANDPLACE's etc to CREATEANDPLACEAREA so now you can place a
-group of anything down at a time
+Changed all CREATEANDPLACEs etc to CREATEANDPLACEAREA so now you can place a
+group of anything down at a time.
 
 Added TerraneChange to other miscelanous terrains, now you convert any terrain
-(except water and air and lava) to any other main terrain
+(except water and air and lava) to any other main terrain. (This will be balanced in a future update so you need a sample of the terrain you want to change to in order to convert it. For example, you will need a gold ore to terraform a tile into a gold deposit.)
 
 Split the tererrainchange priority into terrainchange and chopping,
-now chopping trees has a seperate priotity to tilling and terraforming 
+now chopping trees has a seperate priotity to tilling and terraforming.
 
 Split foodcooking priority into baking, processing, cooking,
-making seperate jobs for each (processing is making flour,sugar,salad at the moment)
+making seperate jobs for each (processing is making flour,sugar,salad at the moment).
 
 
 Remember
@@ -100,17 +98,17 @@ Remember
 The right menu is for building and placing. 
 
 The left menu is for building and storing.(or just placing a pre-built item.
-(NOTE:not all items can be pre-built eg: things that activate straight away like campfires)
-The bottom menu is the action menu
+(NOTE: Not all items can be pre-built eg: things that activate straight away like campfires)
+The bottom menu is the action menu.
 
 
-This is a big mod (getting smaller though as the Authors add more stuff into the game)
-there are a total of 21 files edited and extended. also 2 new files. there are so many
+This is a big mod (getting smaller though as the developers add more stuff into the game)
+there are a total of 21 files edited and extended, also several new files. There are so many
 changes in them (with both the layout/ordering) that at the moment i don't think that
-there is a modloader out there that can handle everything that i can do for the same effect
+there is a modloader out there that can handle everything that I can do for the same effect
 this means that this modpack is basically a standalone modpack. I'm always on the lookout
 for others mods to add into my modpack (credit is and will be given to others works I
-include with their permission of course. so if you'd like me to try to combine others
+include with their permission of course. So, if you'd like me to try to combine others
 mods into my modpack contact the authors of that mod and get them to contact me expressing
 their interest / permission. Note: the mods may have to be tweaked so that they work and play
 well with what i already have.
@@ -154,7 +152,7 @@ to keep balance in the game so that it is still difficult enough to enjoy.
 Its not a meant as Cheating mechanism or a dedicate creative mod where you
 get stuff for nothing.
 
-IF you want to use part of my mod as a seperat mod for distribution please ask and give Credit
+IF you want to use part of my mod as a seperate mod for distribution please ask and give Credit
 Feel free to link to this tread and my mod's links (d/loads,YouTube,Streaming)
 But do not place this mod anywhere else for Distribution
 
@@ -163,7 +161,7 @@ But do not place this mod anywhere else for Distribution
 To install:
 ============
 1. Backup tour Towns Folder/Directory (I'm not responsible for any losses or damages)
-2. unzip the BSM??????.zip file into your Towns directory(not the backed up one)
+2. Unzip the .zip file into your Towns directory(not the backed up one)
 4. As always feel free to leave comments, bug reports, suggestions.
 5. Run Towns as normal .. play.. be free... enjoy ;)
 
@@ -181,8 +179,21 @@ Re-organise both the stocks menu (huge task.) and production menmu
 change logs
 ===========
 
+Changes since Towns++_v11a5
+============================
+LittleMikey's Contributions:
+============================
+-> Added Fishing to menu_production.xml
+-> New Mine graphics with lighting! Thanks to Ricky for the graphics!
+-> Fixed Rubble graphics
+
+BlueSteel's Contributions
+=========================
+-> Fixed Mikey's mistakes
+
 Changes since Towns++_v11a4
 ============================
+
 LittleMikey's Contributions:
 ============================
 -> Added Mikehendi's Deeper Dungeons map option.
@@ -196,13 +207,13 @@ LittleMikey's Contributions:
 -> Changed mines to drop rubble (negative happiness) instead of wood.
 -> Added clear rubble to menu.xml and as right click action on rubble.
 -> Fixed bug with rotated ovens not cooking properly.
+
 BlueSteel's Contributions
 =========================
 -> Made a seperate campaign for Mikeheni's maps (same will be done for anyone elses maps I decide to include)
 -> added winter items to ptoduction menmu and vanity stock panel for the time beeing, until i redo the stock panel
 -> removed Bones from the butchers production panel as they are in the rawmats production panel
--> changed Burner-> coal to mats-> coal to keep things straight in the production panel (The way the burner panel is set up
-   it'll limit the amount of stock you have set it to burning off the excess. so I have read on the forums)
+-> changed Burner-> coal to mats-> coal to keep things straight in the production panel (The way the burner panel is set up it'll limit the amount of stock you have set it to burning off the excess. So I have read on the forums)
 -> Added make cold from 2 wook to right click action of butner
 
 
