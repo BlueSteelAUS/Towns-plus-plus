@@ -2610,6 +2610,7 @@
 		<glue>true</glue>
 		<base>true</base>
 		<blocky>true</blocky>
+
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12419,14 +12420,4 @@
 
 		<alwaysOperative>false</alwaysOperative>
 	</ropebridge_EW>
-	
-	<!-- WINDMILL -LM -->
-	<windmill>
-		<name esES="N/A">Windmill</name>
-		<description esES="N/A">Turns wind into power!</description>
-		<glue>true</glue>
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles><!--
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize> -->
-	</windmill>
 </items>

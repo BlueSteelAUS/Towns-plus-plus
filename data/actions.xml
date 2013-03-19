@@ -15284,25 +15284,4 @@
 			<createItem>ropebridge_EW</createItem>
 		</queue>
 	</action>
-	
-	<!-- WINDMILL -LM -->
-	<action>
-		<id>qwindmill</id>
-		
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>15</wait>
-			<destroyItem />
-			<unlock />
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>15</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>windmill</createItem>
-		</queue>
-	</action>
 </actions>
