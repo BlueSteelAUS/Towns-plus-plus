@@ -612,6 +612,12 @@
 				<item code="QUEUE" parameter="qwoodenshortsword" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</wooden>
+			<stone name="Stone" esES="Piedra" icon="ui_rweapon_stone">
+				<item code="QUEUE" parameter="qstonehammer" />
+				<item code="QUEUE" parameter="qstonemace" />
+				<item code="QUEUE" parameter="qstonespear" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</stone>
 			<iron name="Iron" esES="Hierro" icon="ui_rweapon_iron">
 				<item code="QUEUE" parameter="qironaxe" />
 				<item code="QUEUE" parameter="qironmace" />
@@ -619,12 +625,6 @@
 				<item code="QUEUE" parameter="qironshortsword" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</iron>
-			<stone name="Stone" esES="Piedra" icon="ui_rweapon_stone">
-				<item code="QUEUE" parameter="qstonehammer" />
-				<item code="QUEUE" parameter="qstonemace" />
-				<item code="QUEUE" parameter="qstonespear" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</stone>
 			<bone name="Bone" esES="Hueso" icon="ui_rweapon_bone">
 				<item code="QUEUE" parameter="qboneclub" />
 				<item code="QUEUE" parameter="qboneaxe" />
