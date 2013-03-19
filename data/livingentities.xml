@@ -28,7 +28,7 @@
 
 		<maxHungryTurns>1d1119+1760</maxHungryTurns>
 		<maxSleepTurns>1d719+2160</maxSleepTurns>
-		<eatZone>zdining</eatZone>
+		<eatZone>ztavern</eatZone>
 
 		<facingDirections>true</facingDirections>
 		<equipAllowed>metal,cloth,wood,bone,bow,hammer,spear,mace,sword,axe,misc</equipAllowed>
@@ -68,7 +68,7 @@
 
 		<maxHungryTurns>1d1119+1760</maxHungryTurns>
 		<maxSleepTurns>1d719+2160</maxSleepTurns>
-		<eatZone>zdining</eatZone>
+		<eatZone>ztavern</eatZone>
 
 		<facingDirections>true</facingDirections>
 		<equipAllowed>metal,cloth,wood,bone,bow,hammer,spear,mace,sword,axe,misc</equipAllowed>

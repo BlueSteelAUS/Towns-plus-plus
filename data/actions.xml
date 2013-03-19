@@ -15106,7 +15106,7 @@
 	<!-- CLEAR RUBBLE -LM -->
 	<action>
 		<id>qclearrubble</id>
-		<name esES="NA">Clear</name>
+		<name esES="N/A">Clear</name>
 		
 		<priorityID>itemconstruction</priorityID>
 		
@@ -15114,6 +15114,174 @@
 			<move useSource="true">rubble</move>
 			<wait>20</wait>
 			<destroyCellItem />
+		</queue>
+	</action>
+	
+	<!-- MARKET TENTS -LM -->
+	<action>
+		<id>qmarkettent</id>
+		
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>markettent</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_markettent</id>
+		<name esES="Rotate">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">markettent</move>
+			<wait>15</wait>
+			<replacecellItem>markettent_1</replacecellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_markettent_1</id>
+		<name esES="Rotate">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">markettent</move>
+			<wait>15</wait>
+			<replacecellItem>markettent</replacecellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmarkettent_a</id>
+		
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>markettent_a</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_markettent_a</id>
+		<name esES="Rotate">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">markettent_a</move>
+			<wait>15</wait>
+			<replacecellItem>markettent_a_1</replacecellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_markettent_a_1</id>
+		<name esES="Rotate">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">markettent_a</move>
+			<wait>15</wait>
+			<replacecellItem>markettent_a</replacecellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmarkettent_b</id>
+		
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>markettent_b</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_markettent_b</id>
+		<name esES="Rotate">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">markettent_b</move>
+			<wait>15</wait>
+			<replacecellItem>markettent_b_1</replacecellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_markettent_b_1</id>
+		<name esES="Rotate">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">markettent_b</move>
+			<wait>15</wait>
+			<replacecellItem>markettent_b</replacecellItem>
+		</queue>
+	</action>
+	
+	<!-- ROPE BRIDGES -LM/GreyFalcon -->
+	<action>
+		<id>qropebridge_NS</id>
+		
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ropebridge_NS</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qropebridge_EW</id>
+		
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ropebridge_EW</createItem>
 		</queue>
 	</action>
 </actions>
