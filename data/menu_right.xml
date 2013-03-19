@@ -105,6 +105,9 @@
 
 		<bmarket name="Market" description="Place to Trade with Traveling Traders" icon="ui_zonesmarket">
 			<item code="CREATEZONE" name="Create Market Area" parameter="zmarket" icon="ui_zonesmarket" />
+			<item code="QUEUEANDPLACEAREA" parameter="qmarkettent" icon="markettent" />
+			<item code="QUEUEANDPLACEAREA" parameter="qmarkettent_a" icon="markettent_a" />
+			<item code="QUEUEANDPLACEAREA" parameter="qmarkettent_b" icon="markettent_b"/>
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</bmarket>
 
@@ -513,7 +516,6 @@
 			<item code="QUEUEANDPLACEAREA" parameter="qsilverskootenbeetenstatue" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</statues>
-
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</outdoor>
 

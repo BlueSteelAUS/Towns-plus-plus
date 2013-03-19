@@ -12352,4 +12352,47 @@
 		<happiness>-1</happiness>
 		<action>qclearrubble</action> 
 	</rubble>
+	
+	<!-- MARKET TENTS -LM -->
+	<markettent>
+		<name esES="N/A">Market Tent</name>
+		<description esE="N/A">A tent for setting up your wares</description>
+		<happiness>2</happiness>
+		<action>rotate_markettent</action>
+	</markettent>
+	
+	<markettent_1>
+		<name esES="N/A">Market Tent</name>
+		<description esE="N/A">A tent for setting up your wares</description>
+		<happiness>2</happiness>
+		<action>rotate_markettent_1</action>
+	</markettent_1>
+	
+	<markettent_a>
+		<name esES="N/A">Market Tent</name>
+		<description esE="N/A">A tent for setting up your wares</description>
+		<happiness>2</happiness>
+		<action>rotate_markettent_a</action>
+	</markettent_a>
+	
+	<markettent_a_1>
+		<name esES="N/A">Market Tent</name>
+		<description esE="N/A">A tent for setting up your wares</description>
+		<happiness>2</happiness>
+		<action>rotate_markettent_a_1</action>
+	</markettent_a_1>
+	
+	<markettent_b>
+		<name esES="N/A">Market Tent</name>
+		<description esE="N/A">A tent for setting up your wares</description>
+		<happiness>2</happiness>
+		<action>rotate_markettent_b</action>
+	</markettent_b>
+	
+	<markettent_b_1>
+		<name esES="N/A">Market Tent</name>
+		<description esE="N/A">A tent for setting up your wares</description>
+		<happiness>2</happiness>
+		<action>rotate_markettent_b_1</action>
+	</markettent_b_1>
 </items>
