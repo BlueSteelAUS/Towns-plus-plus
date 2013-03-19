@@ -12395,4 +12395,29 @@
 		<happiness>2</happiness>
 		<action>rotate_markettent_b_1</action>
 	</markettent_b_1>
+	
+	<!-- ROPE BRIDGES -LM/GreyFalcon -->
+	<ropebridge_NS>
+		<name esES="N/A">Rope Bridge</name>
+		<description esES="N/A">An easy way to cross gaps!</description>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<allowFluids>true</allowFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+	</ropebridge_NS>
+	
+	<ropebridge_EW>
+		<name esES="N/A">Rope Bridge</name>
+		<description esES="N/A">An easy way to cross gaps!</description>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<allowFluids>true</allowFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+	</ropebridge_EW>
 </items>

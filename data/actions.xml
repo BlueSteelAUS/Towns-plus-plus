@@ -15106,7 +15106,7 @@
 	<!-- CLEAR RUBBLE -LM -->
 	<action>
 		<id>qclearrubble</id>
-		<name esES="NA">Clear</name>
+		<name esES="N/A">Clear</name>
 		
 		<priorityID>itemconstruction</priorityID>
 		
@@ -15120,7 +15120,6 @@
 	<!-- MARKET TENTS -LM -->
 	<action>
 		<id>qmarkettent</id>
-		<name esES="N/A">Built</name>
 		
 		<priorityID>itemconstruction</priorityID>
 		
@@ -15163,7 +15162,6 @@
 	
 	<action>
 		<id>qmarkettent_a</id>
-		<name esES="N/A">Built</name>
 		
 		<priorityID>itemconstruction</priorityID>
 		
@@ -15206,7 +15204,6 @@
 	
 	<action>
 		<id>qmarkettent_b</id>
-		<name esES="N/A">Built</name>
 		
 		<priorityID>itemconstruction</priorityID>
 		
@@ -15244,6 +15241,47 @@
 			<move useSource="true">markettent_b</move>
 			<wait>15</wait>
 			<replacecellItem>markettent_b</replacecellItem>
+		</queue>
+	</action>
+	
+	<!-- ROPE BRIDGES -LM/GreyFalcon -->
+	<action>
+		<id>qropebridge_NS</id>
+		
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ropebridge_NS</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qropebridge_EW</id>
+		
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ropebridge_EW</createItem>
 		</queue>
 	</action>
 </actions>

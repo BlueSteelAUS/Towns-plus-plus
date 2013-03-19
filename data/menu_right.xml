@@ -152,6 +152,8 @@
 				<item code="QUEUEANDPLACEAREA" parameter="qwoodenfloor" />
 				<item code="QUEUEANDPLACEAREA" parameter="qstonefloor" />
 				<item code="QUEUEANDPLACEAREA" parameter="qglassfloor" />
+				<item code="QUEUEANDPLACEAREA" parameter="qropebridge_NS" />
+				<item code="QUEUEANDPLACEAREA" parameter="qropebridge_EW" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</raisedfloors>
 
