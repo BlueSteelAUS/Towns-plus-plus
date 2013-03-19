@@ -520,6 +520,7 @@
 			<item code="QUEUEANDPLACEAREA" parameter="qsilverskootenbeetenstatue" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</statues>
+			<item code="QUEUEANDPLACEAREA" parameter="qwindmill" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</outdoor>
 
