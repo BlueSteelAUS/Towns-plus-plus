@@ -8918,8 +8918,10 @@
 		</queue>
 	</action>
 <!-- Wait times set to be the same as mining in terrain.xml -->
-	<action> <id>qminedirt</id>
+	<action> 
+		<id>qminedirt</id>
 		<generatedItem>rmmud</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">dirtmine</move>
@@ -8928,8 +8930,10 @@
 			<createItem>rmmud</createItem>
 		</queue>
 	</action>
-	<action> <id>qminestone</id>
+	<action> 
+		<id>qminestone</id>
 		<generatedItem>rmstone</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">stonemine</move>
@@ -8938,8 +8942,10 @@
 			<createItem>rmstone</createItem>
 		</queue>
 	</action>
-	<action> <id>qminesand</id>
+	<action> 
+		<id>qminesand</id>
 		<generatedItem>rmsand</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">sandmine</move>
@@ -8948,8 +8954,10 @@
 			<createItem>rmsand</createItem>
 		</queue>
 	</action>
-	<action> <id>qminegravel</id>
+	<action> 
+		<id>qminegravel</id>
 		<generatedItem>rmflint</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">gravelmine</move>
@@ -8958,8 +8966,10 @@
 			<createItem>rmflint</createItem>
 		</queue>
 	</action>
-	<action> <id>qminecoal</id>
+	<action> 
+		<id>qminecoal</id>
 		<generatedItem>rmcoal</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">coalmine</move>
@@ -8968,8 +8978,10 @@
 			<createItem>rmcoal</createItem>
 		</queue>
 	</action>
-	<action> <id>qmineiron</id>
+	<action>
+		<id>qmineiron</id>
 		<generatedItem>rmiron</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">ironmine</move>
@@ -8978,8 +8990,10 @@
 			<createItem>rmiron</createItem>
 		</queue>
 	</action>
-	<action> <id>qminecopper</id>
+	<action> 
+		<id>qminecopper</id>
 		<generatedItem>rmcopper</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">coppermine</move>
@@ -9032,8 +9046,10 @@
 		</queue>
 	</action>
 <!-- Wait times set to be the same as mining in terrain.xml -->
-	<action> <id>qminesilver</id>
+	<action> 
+		<id>qminesilver</id>
 		<generatedItem>rmsilver</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">silvermine</move>
@@ -9070,8 +9086,10 @@
 		</queue>
 	</action>
 <!-- Wait times set to be the same as mining in terrain.xml -->
-	<action> <id>qminegold</id>
+	<action> 
+		<id>qminegold</id>
 		<generatedItem>rmgold</generatedItem>
+		<name>Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">goldmine</move>
