@@ -2107,7 +2107,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>pig,cow,unifallow,milkedcow,milkedunifallow,wildpig,wildcow,wildunifallow,milkedwildcow,milkedwildunifallow</pickFriendly>
+			<pickFriendly>pig,boar,cow,bull,chicken,rooster,unifallow,milkedcow,milkedunifallow,unifallow</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
