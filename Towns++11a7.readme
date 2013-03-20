@@ -12,6 +12,7 @@ LittleMikey's Contributions:
 -> Moved glass walls to seperate file.
 -> Moved the indoor chimney/fireplace from "Roofs" to "Decorations - Indoor".
 -> Changed EFloors' Zones so Townies don't idle on them. 
+-> Fixed Coal Mines being able to be built anywhere.
 
 BlueSteel's Contributions
 =========================

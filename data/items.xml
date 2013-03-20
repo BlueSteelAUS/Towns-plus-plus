@@ -11128,6 +11128,7 @@
 
 	<coalmine>
 		<name esES="Pozo minero de carbón">Coal mineshaft</name>
+		<habitat>coal</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
 		<action>qminecoal</action>
