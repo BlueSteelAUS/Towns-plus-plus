@@ -61,5 +61,5 @@
 	<armor.special esES="Especiales" icon="ui_sp_armors">Special</armor.special>
 	
 	<!-- WINTER ITEMS -->
-	<decorative.winter esES="Winter Item">Winter Item</decorative.winter>
+	<winter esES="Winter Item" icon="xmashat">Winter Items</winter>
 </types>
