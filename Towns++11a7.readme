@@ -14,6 +14,7 @@ LittleMikey's Contributions:
 -> Changed EFloors' Zones so Townies don't idle on them. 
 -> Fixed Coal Mines being able to be built anywhere.
 -> Renamed Decorative Chest to Decoration Chest and fixed issues with it.
+-> Swapped East & West rotations for beds so now the feet of the bed "points" in that direction. 
 
 BlueSteel's Contributions
 =========================
