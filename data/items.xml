@@ -35,8 +35,7 @@
 	</utilschest>
 
 	<decorativechest>
-		<name esES="Cofre decorativo">Decoration chest</name>
-		<description esES="N/A">Store your decorations!</description>
+		<name esES="Cofre decorativo">Decorative chest</name>
 		<type>decorative</type>
 		<container>true</container>
 		<containerSize>25</containerSize>
@@ -5409,7 +5408,7 @@
 	<woodenbed_NE>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5428,7 +5427,7 @@
 	<woodenbed_SE>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5447,7 +5446,7 @@
 	<woodenbed_SW>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5466,7 +5465,7 @@
 	<camo_bed_W>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
@@ -5485,7 +5484,7 @@
 	<camo_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5504,7 +5503,7 @@
 	<camo_bed_E>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5523,7 +5522,7 @@
 	<camo_bed_S>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5542,7 +5541,7 @@
 	<green_bed_W>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
@@ -5561,7 +5560,7 @@
 	<green_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5580,7 +5579,7 @@
 	<green_bed_E>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5599,7 +5598,7 @@
 	<green_bed_S>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5618,7 +5617,7 @@
 	<blue_bed_W>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
@@ -5637,7 +5636,7 @@
 	<blue_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5656,7 +5655,7 @@
 	<blue_bed_E>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5675,7 +5674,7 @@
 	<blue_bed_S>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5694,7 +5693,7 @@
 	<red_bed_W>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
@@ -5713,7 +5712,7 @@
 	<red_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5732,7 +5731,7 @@
 	<red_bed_E>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5751,7 +5750,7 @@
 	<red_bed_S>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5770,7 +5769,7 @@
 	<purple_bed_W>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
@@ -5789,7 +5788,7 @@
 	<purple_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5808,7 +5807,7 @@
 	<purple_bed_E>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5827,7 +5826,7 @@
 	<purple_bed_S>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -5899,7 +5898,7 @@
 	<purplethrone_E>
 		<name esES="Trono púrpura">Purple throne</name>
 		<description esES="No es como el de hierro">Not unlike the iron throne</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -5922,7 +5921,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -5936,7 +5935,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -5950,7 +5949,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -5964,7 +5963,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -5978,7 +5977,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -5992,7 +5991,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6006,7 +6005,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6020,7 +6019,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6034,7 +6033,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6048,7 +6047,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6062,7 +6061,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6076,7 +6075,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6090,7 +6089,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6104,7 +6103,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6118,7 +6117,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6132,7 +6131,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6146,7 +6145,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6160,7 +6159,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6174,7 +6173,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6188,7 +6187,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6202,7 +6201,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6216,7 +6215,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6230,7 +6229,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6244,7 +6243,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6258,7 +6257,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6272,7 +6271,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6286,7 +6285,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6300,7 +6299,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6314,7 +6313,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6328,7 +6327,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6342,7 +6341,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6356,7 +6355,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6370,7 +6369,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6384,7 +6383,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6398,7 +6397,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6412,7 +6411,7 @@
 		<name esES="N/A">Chair</name>
 		<description esES="N/A">Its a chair, you sit on it stupid!</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -6769,7 +6768,7 @@
 	<medicinecabinet_W>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
 		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<zone>zhospital</zone>
 		<value>212</value>
 		<action>rotate_medicinecabinet_E</action>
@@ -8575,7 +8574,7 @@
   <clock_E>
     <name esES="Reloj">Clock</name>
     <description esES="Los tiempos están cambiando...">But the times they are a changin...</description>
-	<type>decorative.indoor</type>    
+	<type>decorative.indoor.cb262</type>    
     <happiness>2</happiness>
     <stackable>true</stackable>
     <stackableSize>1</stackableSize>
@@ -9564,7 +9563,7 @@
 	<chest_W>
 		<name esES="Cofre">Chest</name>
 		<description esES="Un cofre con candado">A chest (treasureless)</description>
-		<type>decorative.indoor</type>
+		<type>decorative.indoor.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -9762,7 +9761,7 @@
 	<stonemalestatue_W>
 		<name esES="Estatua de piedra">Stone statue</name>
 		<description esES="Una estatua de piedra de un héroe legendario">A stone statue of a legendary hero looking the other way</description>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -9844,7 +9843,7 @@
 	<goldunifallowstatue_S>
 		<name esES="Estatua de unifallow de oro">Gold unifallow statue</name>
 		<description esES="Brilla demasiado! Te puedes quedar ciego mirándola">It's so shiny, you would go blind looking at it too long!</description>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>3</happiness>
@@ -9864,7 +9863,7 @@
 
 	<goldnuxstatue_S>
 		<name esES="Estatua dorada de Nux, el rey de los dioses">Gold statue of Nux, the god king</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>3</happiness>
@@ -9886,7 +9885,7 @@
 	<silverskootenbeetenstatue_S>
 		<name esES="Estatua de skootenbeeten plateada">Silver skootenbeeten statue</name>
 		<description esES="Una obra maestra">A masterpiece</description>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>2</happiness>
@@ -9918,7 +9917,7 @@
 	<chimney2>
 		<name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -9928,7 +9927,7 @@
 	<chimney3>
 		<name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -9974,16 +9973,14 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
 		<value>175</value>
-		<action>rotate_chesstable_1</action>	
+			<action>rotate_chesstable_1</action>	
 	</chesstable>
 
 	<chesstable_2>
 		<name esES="Mesa de ajedrez">Chess table</name>
 		<description esES="Para los aldeanos ingeniosos">For those witty townies</description>
-		<type>decorative.indoor</type>
+		<type>decorative.indoor.cb262</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>2</happiness>
@@ -10192,7 +10189,7 @@
 
 	<grave_E>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10205,7 +10202,7 @@
 	
 	<grave2_W>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10218,7 +10215,7 @@
 	
 	<grave2_E>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10231,7 +10228,7 @@
 	
 	<grave3_W>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10244,7 +10241,7 @@
 	
 	<grave3_E>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10270,7 +10267,7 @@
 
 	<tomb_E>
 		<name esES="Tumba">Tomb</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10283,7 +10280,7 @@
 
 	<tomb2_W>
 		<name esES="Tumba">Tomb</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10296,7 +10293,7 @@
 	
 	<tomb2_E>
 		<name esES="Tumba">Tomb</name>
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10310,7 +10307,7 @@
 	<mosstomb>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10323,7 +10320,7 @@
 	<mosstomb_E>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10336,7 +10333,7 @@
 	<mosstomb2_W>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10349,7 +10346,7 @@
 	<mosstomb2_E>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10362,7 +10359,7 @@
 	<mosstomb3_W>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -10375,7 +10372,7 @@
 	<mosstomb3_E>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>decorative.outdoor</type>
+		<type>decorative.outdoor.cb262</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -11355,7 +11352,7 @@
 		<name esES="N/A">Wooden Drawer</name>
 		<description esES="N/A">Oddly enough, doesn't draw anything.</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11367,7 +11364,7 @@
 		<name esES="N/A">Wooden Drawer</name>
 		<description esES="N/A">Oddly enough, doesn't draw anything.</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11378,7 +11375,7 @@
 	<smallwoodendrawer_E>
 		<name esES="N/A">Small Wooden Drawer</name>
 		<description esES="N/A.">Oddly enough, doesn't draw anything.</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11389,7 +11386,7 @@
 	<smallwoodendrawer_W>
 		<name esES="N/A">Small Wooden Drawer</name>
 		<description esES="N/A.">Oddly enough, doesn't draw anything.</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11400,7 +11397,7 @@
 	<smallwoodendrawer_flower_E>
 		<name esES="N/A">Small Wooden Drawer</name>
 		<description esES="N/A.">Oooh! This one has flowers!</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11411,7 +11408,7 @@
 	<smallwoodendrawer_flower_W>
 		<name esES="N/A">Small Wooden Drawer</name>
 		<description esES="N/A.">Oooh! This one has flowers!</description>
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11423,7 +11420,7 @@
 		<name esES="Estantería">Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11435,7 +11432,7 @@
 		<name esES="Estantería">Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11447,7 +11444,7 @@
 		<name esES="Estantería">Tall Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11459,7 +11456,7 @@
 		<name esES="Estantería">Tall Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
-		<type>furniture</type>
+		<type>furniture.cb262</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11522,7 +11519,7 @@
 	<!-- WINTER ITEMS -->
 	<snowman1>
 		<name esES="Snowman 1">Snowman 1</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11530,7 +11527,7 @@
 
 	<snowman2>
 		<name esES="Snowman 2">Snowman 2</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11538,7 +11535,7 @@
 
 	<snowman3>
 		<name esES="Snowman 3">Snowman 3</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11546,7 +11543,7 @@
 
 	<snowman4>
 		<name esES="Snowman 4">Snowman 4</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11554,7 +11551,7 @@
 
 	<snowman5>
 		<name esES="Snowman 5">Snowman 5</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11562,7 +11559,7 @@
 
 	<snowman6>
 		<name esES="Snowman 6">Snowman 6</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11570,7 +11567,7 @@
 
 	<snowman7>
 		<name esES="Snowman 7">Snowman 7</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11578,38 +11575,38 @@
 
 	<undecaxmastree>
 		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<action>qdecatree</action>
 	</undecaxmastree>
 	
 	<axmastree1>
 		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<maxAge>1</maxAge>
 		<maxAgeItem>axmastree2</maxAgeItem>
 	</axmastree1>
 	<axmastree2>
 		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<maxAge>1</maxAge>
 		<maxAgeItem>axmastree3</maxAgeItem>
 	</axmastree2>
 	<axmastree3>
 		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<maxAge>1</maxAge>
 		<maxAgeItem>axmastree4</maxAgeItem>
 	</axmastree3>
 	<axmastree4>
 		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<maxAge>1</maxAge>
 		<maxAgeItem>axmastree1</maxAgeItem>
 	</axmastree4>
 
 	<giftstack>
 		<name esES="Gift Stack">Gift Stack</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11617,7 +11614,7 @@
 
 	<candycane>
 		<name esES="Candy Cane">Candy Cane</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
@@ -11653,7 +11650,7 @@
 
 	<largegiftone>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftone</action>
@@ -11662,7 +11659,7 @@
 
 	<largegiftone_E>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftone_E</action>
@@ -11671,7 +11668,7 @@
 
 	<largegifttwo>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegifttwo</action>
@@ -11680,7 +11677,7 @@
 
 	<largegifttwo_E>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegifttwo_E</action>
@@ -11689,7 +11686,7 @@
 
 	<largegiftthree>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftthree</action>
@@ -11698,7 +11695,7 @@
 
 	<largegiftthree_E>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftthree_E</action>
@@ -11707,7 +11704,7 @@
 
 	<largegiftfour>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfour</action>
@@ -11716,7 +11713,7 @@
 
 	<largegiftfour_E>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfour_E</action>
@@ -11725,7 +11722,7 @@
 
 	<largegiftfive>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfive</action>
@@ -11734,7 +11731,7 @@
 
 	<largegiftfive_E>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfive_E</action>
@@ -11743,7 +11740,7 @@
 
 	<largegiftsix>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftsix</action>
@@ -11752,7 +11749,7 @@
 
 	<largegiftsix_E>
 		<name esES="Regalo grande">Large Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftsix_E</action>
@@ -11761,7 +11758,7 @@
 
 	<smallgiftone>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftone</action>
@@ -11770,7 +11767,7 @@
 
 	<smallgiftone_E>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftone_E</action>
@@ -11779,7 +11776,7 @@
 
 	<smallgifttwo>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgifttwo</action>
@@ -11788,7 +11785,7 @@
 
 	<smallgifttwo_E>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgifttwo_E</action>
@@ -11797,7 +11794,7 @@
 
 	<smallgiftthree>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftthree</action>
@@ -11806,7 +11803,7 @@
 
 	<smallgiftthree_E>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftthree_E</action>
@@ -11815,7 +11812,7 @@
 
 	<smallgiftfour>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftfour</action>
@@ -11824,7 +11821,7 @@
 
 	<smallgiftfour_E>
 		<name esES="Small Gift">Small Gift</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftfour_E</action>
@@ -11833,7 +11830,7 @@
 
 	<xmastree>
 		<name esES="Arbol de Navidad">Christmas Tree</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>2</happiness>
 		<action>qdecoratexmastree</action>
@@ -11841,7 +11838,7 @@
 
 	<xmastree_decorated>
 		<name esES="Arbol de Navidad w/ Decoracion">Decorated Christmas Tree</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>4</happiness>
 		<action>qplacegifts</action>
@@ -11849,7 +11846,7 @@
 
 	<xmastree_decorated_gifts>
 		<name esES="Arbol de Navidad w/ Decoracion y Regalos">Decorated Christmas Tree w/ Gifts</name>
-		<type>winter</type>
+		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>6</happiness>
 		<action>qopengifts</action>
