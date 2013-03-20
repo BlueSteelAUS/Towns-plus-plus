@@ -6590,15 +6590,6 @@
 		<value>95</value>
 	</squarestable>
 
-	<taverntable>
-		<name esES="Mesa de taverna">Tavern table</name>
-		<description esES="Larga vida a la mesa">Long live the table</description>
-
-		<wallConnector>true</wallConnector>
-		<happiness>1</happiness>
-		<alwaysOperative>false</alwaysOperative>
-	</taverntable>
-
 	<claybrickwall>
 		<name esES="Muro de arcilla">Clay brick wall</name>
 		<description esES="Muro español!">Spanish looking wall</description>
@@ -11920,6 +11911,10 @@
 		<happiness>3</happiness>
 		<value>280</value>
 		<action>undecorate_fireplace</action>
+		<lightRadius>2</lightRadius>
+		<lightRed>HALF</lightRed>
+		<lightGreen>HALF</lightGreen>
+		<lightBlue>HALF</lightBlue>
 	</xmasfireplace>
 
 	<bakeroven>
@@ -12197,7 +12192,11 @@
 		<action>add_stone_decoration4</action>                  
 		<action>add_stone_decoration5</action>                  
 		<action>add_stone_decoration6</action>                  
-		<action>add_stone_decoration7</action>                  
+		<action>add_stone_decoration7</action>     
+		<lightRadius>1</lightRadius>
+		<lightRed>HALF</lightRed>
+		<lightGreen>HALF</lightGreen>
+		<lightBlue>HALF</lightBlue>		
 	</stonetable_d8>
 
 	<woodentable>
@@ -12342,7 +12341,11 @@
 		<action>add_wood_decoration4</action>                  
 		<action>add_wood_decoration5</action>                  
 		<action>add_wood_decoration6</action>                  
-		<action>add_wood_decoration7</action>                  
+		<action>add_wood_decoration7</action>  
+		<lightRadius>1</lightRadius>
+		<lightRed>HALF</lightRed>
+		<lightGreen>HALF</lightGreen>
+		<lightBlue>HALF</lightBlue>		
 	</woodentable_d8>
 	<!-- /TABLE DECORATIONS -->
 	
@@ -12421,4 +12424,42 @@
 
 		<alwaysOperative>false</alwaysOperative>
 	</ropebridge_EW>
+	
+	<!-- TAVERN TABLE DECORATIONS -LM -->
+	<taverntable>
+		<name esES="Mesa de taverna">Tavern table</name>
+		<description esES="Larga vida a la mesa">Long live the table</description>
+
+		<wallConnector>true</wallConnector>
+		<happiness>1</happiness>
+		<alwaysOperative>false</alwaysOperative>
+		<action>add_taverntable_candle</action>
+		<action>add_taverntable_drinks</action>
+	</taverntable>
+	
+	<taverntable_candle>
+		<name esES="Mesa de taverna">Tavern table</name>
+		<description esES="Larga vida a la mesa">Long live the table</description>
+
+		<wallConnector>true</wallConnector>
+		<happiness>1</happiness>
+		<alwaysOperative>false</alwaysOperative>
+		<lightRadius>1</lightRadius>
+		<lightRed>HALF</lightRed>
+		<lightGreen>HALF</lightGreen>
+		<lightBlue>HALF</lightBlue>
+		<action>add_taverntable_drinks</action>
+		<action>remove_taverntable_decoration</action>		
+	</taverntable_candle>
+	
+	<taverntable_drinks>
+		<name esES="Mesa de taverna">Tavern table</name>
+		<description esES="Larga vida a la mesa">Long live the table</description>
+
+		<wallConnector>true</wallConnector>
+		<happiness>2</happiness>
+		<alwaysOperative>false</alwaysOperative>
+		<action>add_taverntable_candle</action>
+		<action>remove_taverntable_decoration</action>
+	</taverntable_drinks>
 </items>

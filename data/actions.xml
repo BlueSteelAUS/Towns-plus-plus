@@ -15284,4 +15284,38 @@
 			<createItem>ropebridge_EW</createItem>
 		</queue>
 	</action>
+	
+	<!-- TAVERN TABLE DECORATIONS -LM -->
+	<action>
+		<id>add_taverntable_candle</id>
+		<name esES="Add a candle to">Add a candle to</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">taverntable,taverntable_drinks</move>
+			<wait>8</wait>
+			<replacecellItem>taverntable_candle</replacecellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>add_taverntable_drinks</id>
+		<name esES="Serve drinks on">Serve drinks on</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">taverntable,taverntable_candle</move>
+			<wait>8</wait>
+			<replacecellItem>taverntable_drinks</replacecellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>remove_taverntable_decoration</id>
+		<name esES="Remove decoration on">Remove decoration on</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">taverntable_drinks,taverntable_candle</move>
+			<wait>8</wait>
+			<replacecellItem>taverntable</replacecellItem>
+		</queue>
+	</action>
 </actions>
