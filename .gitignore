@@ -26,7 +26,7 @@ special*.png
 terrain*.png
 townslogo.png
 ui*.png
-walls*.png
+walls.png
 data/campaigns/c*/*/*gen_items.*
 data/campaigns/c*/*/*gen_dungeons.*
 data/campaigns/c*/*/*gen_map.*
