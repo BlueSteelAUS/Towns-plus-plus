@@ -223,7 +223,6 @@
 			<item code="QUEUEANDPLACEAREA" parameter="qwoodendarkroofitem" />
 			<item code="QUEUEANDPLACEAREA" parameter="qclayroof" />
 			<item code="QUEUEANDPLACEAREA" parameter="qmarketroof" />
-			<item code="QUEUEANDPLACEAREA" parameter="qchimney" />
 			<item code="QUEUEANDPLACEAREA" parameter="qchimney2" />
 			<item code="QUEUEANDPLACEAREA" parameter="qchimney3" />		
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
@@ -425,6 +424,7 @@
 			<item code="QUEUEANDPLACEAREA" parameter="qbarrel" />
 			<item code="QUEUEANDPLACEAREA" parameter="qbirdincage" />
 			<item code="QUEUEANDPLACEAREA" parameter="qanimalfireplace" />
+			<item code="QUEUEANDPLACEAREA" parameter="qchimney" />
 			<item code="QUEUEANDPLACEAREA" parameter="qchest" />
 			<item code="QUEUEANDPLACEAREA" parameter="qclock" />
 			<item code="QUEUEANDPLACEAREA" parameter="qharp" />
