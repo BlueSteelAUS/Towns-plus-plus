@@ -13,12 +13,9 @@ LittleMikey's Contributions:
 -> Moved the indoor chimney/fireplace from "Roofs" to "Decorations - Indoor".
 -> Changed EFloors' Zones so Townies don't idle on them. 
 -> Fixed Coal Mines being able to be built anywhere.
-<<<<<<< HEAD
--> Renamed Decorative Chest to Decoration Chest and fixed issues with it.
 -> Swapped East & West rotations for beds so now the feet of the bed "points" in that direction.
 -> Fixed issues with butchering new animals for bones.
-=======
->>>>>>> parent of 2e1b6f3... Fixed issue with decorative chest
+-> Removed Decorative Chest.
 
 BlueSteel's Contributions
 =========================
