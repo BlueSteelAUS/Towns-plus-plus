@@ -15381,6 +15381,7 @@
 	<action>
 		<id>qbreedcow</id>
 		<name esES="N/A">Breed Cow</name>
+		<generatedItem>cow</generatedItem>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pick>wheat</pick>
