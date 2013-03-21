@@ -35,12 +35,6 @@
 
 		<bpersonal name="Personal space" description="A space to where you can be alone and sleep" icon="ui_zonespersonal">
 			<item code="CREATEZONE" name="Personal Floor" parameter="zpersonal" icon="ui_zonespersonal" />
-			<item code="QUEUEANDPLACEAREA" parameter="qwoodenbed" />
-			<item code="QUEUEANDPLACEAREA" parameter="qcamo_bed_N" />
-			<item code="QUEUEANDPLACEAREA" parameter="qgreen_bed_N" />
-			<item code="QUEUEANDPLACEAREA" parameter="qblue_bed_N" />
-			<item code="QUEUEANDPLACEAREA" parameter="qred_bed_N" />
-			<item code="QUEUEANDPLACEAREA" parameter="qpurple_bed_N" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</bpersonal>
 
