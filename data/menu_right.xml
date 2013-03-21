@@ -549,11 +549,8 @@
 		    <item code="QUEUEANDPLACEAREA" parameter="qaxmastree" icon="axmastree1" />
  			<item code="QUEUEANDPLACEAREA" parameter="qxmastree" icon="xmastree_decorated_gifts"/>
 			<item code="QUEUEANDPLACEAREA" parameter="qsnowman1" />
-			<item code="QUEUEANDPLACEAREA" parameter="qsnowman2" />
 			<item code="QUEUEANDPLACEAREA" parameter="qsnowman3" />
 			<item code="QUEUEANDPLACEAREA" parameter="qsnowman4" />
-			<item code="QUEUEANDPLACEAREA" parameter="qsnowman5" />
-			<item code="QUEUEANDPLACEAREA" parameter="qsnowman6" />
 			<item code="QUEUEANDPLACEAREA" parameter="qsnowman7" />
 			<item code="QUEUEANDPLACEAREA" parameter="qgiftstack" />
 			<item code="QUEUEANDPLACEAREA" parameter="qcandycane" />

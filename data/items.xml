@@ -11530,23 +11530,17 @@
 
 	<!-- WINTER ITEMS -->
 	<snowman1>
-		<name esES="Snowman 1">Snowman 1</name>
+		<name esES="Snowman 1">Snowman</name>
+		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
 		</snowman1>
 
-	<snowman2>
-		<name esES="Snowman 2">Snowman 2</name>
-		<type>decorative.winter</type>
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>1</happiness>
-		<value>95</value>
-	</snowman2>
-
 	<snowman3>
-		<name esES="Snowman 3">Snowman 3</name>
+		<name esES="Snowman 3">Snowman</name>
+		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -11554,31 +11548,17 @@
 	</snowman3>
 
 	<snowman4>
-		<name esES="Snowman 4">Snowman 4</name>
+		<name esES="Snowman 4">Snowman</name>
+		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
 	</snowman4>
 
-	<snowman5>
-		<name esES="Snowman 5">Snowman 5</name>
-		<type>decorative.winter</type>
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>1</happiness>
-		<value>95</value>
-	</snowman5>
-
-	<snowman6>
-		<name esES="Snowman 6">Snowman 6</name>
-		<type>decorative.winter</type>
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>1</happiness>
-		<value>95</value>
-	</snowman6>
-
 	<snowman7>
-		<name esES="Snowman 7">Snowman 7</name>
+		<name esES="Snowman 7">Snowman</name>
+		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -11594,27 +11574,8 @@
 	<axmastree1>
 		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
 		<type>decorative.winter</type>
-		<maxAge>1</maxAge>
-		<maxAgeItem>axmastree2</maxAgeItem>
+		<happiness>2</happiness>
 	</axmastree1>
-	<axmastree2>
-		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>decorative.winter</type>
-		<maxAge>1</maxAge>
-		<maxAgeItem>axmastree3</maxAgeItem>
-	</axmastree2>
-	<axmastree3>
-		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>decorative.winter</type>
-		<maxAge>1</maxAge>
-		<maxAgeItem>axmastree4</maxAgeItem>
-	</axmastree3>
-	<axmastree4>
-		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
-		<type>decorative.winter</type>
-		<maxAge>1</maxAge>
-		<maxAgeItem>axmastree1</maxAgeItem>
-	</axmastree4>
 
 	<giftstack>
 		<name esES="Gift Stack">Gift Stack</name>
@@ -11648,7 +11609,7 @@
 
 	<xmashat>
 	    <level>1</level>
-	    <name esES="Santa Hat 2">Santa Hat 2</name>
+	    <name esES="Santa Hat 2">Elf Hat</name>
 	    <type>armor.vanity</type>
 	    <location>HEAD</location>
 	    <attack>1d10+20</attack>

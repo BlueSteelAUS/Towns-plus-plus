@@ -13847,18 +13847,6 @@
 	</action>
 
 	<action>
-		<id>qsnowman2</id>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<pick>snowpile,snowbucket</pick>
-			<wait>24</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>snowman2</createItem>
-		</queue>
-	</action>
-
-	<action>
 		<id>qsnowman3</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -13879,30 +13867,6 @@
 			<destroyItem />
 			<unlock />
 			<createItem>snowman4</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qsnowman5</id>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<pick>snowpile,snowbucket</pick>
-			<wait>24</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>snowman5</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qsnowman6</id>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<pick>snowpile,snowbucket</pick>
-			<wait>24</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>snowman6</createItem>
 		</queue>
 	</action>
 
@@ -14577,7 +14541,7 @@
 		<id>qsantahat2</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pick>redcolor,redgel,redflower</pick>
+			<pick>greencolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<createItem>xmashat</createItem>

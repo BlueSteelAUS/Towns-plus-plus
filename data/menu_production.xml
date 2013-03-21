@@ -315,11 +315,8 @@
 		  <item code="QUEUE" parameter="qaxmastree" icon="axmastree1" />
  			<item code="QUEUE" parameter="qxmastree" icon="xmastree_decorated_gifts"/>
 			<item code="QUEUE" parameter="qsnowman1" />
-			<item code="QUEUE" parameter="qsnowman2" />
 			<item code="QUEUE" parameter="qsnowman3" />
 			<item code="QUEUE" parameter="qsnowman4" />
-			<item code="QUEUE" parameter="qsnowman5" />
-			<item code="QUEUE" parameter="qsnowman6" />
 			<item code="QUEUE" parameter="qsnowman7" />
 			<item code="QUEUE" parameter="qgiftstack" />
 			<item code="QUEUE" parameter="qcandycane" />
