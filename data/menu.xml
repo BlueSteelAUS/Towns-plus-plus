@@ -27,29 +27,29 @@
 	<terraforming name="Terraform" icon="dirt">
 		<item name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
 		<item name="Clear Rubble" code="CUSTOMACTION" parameter="qclearrubble" icon="rubble" />
-		<item name="To dirt" code="CUSTOMACTION" parameter="quntilldirt" icon="dirt" />
-		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass" icon="grass" />
-<!--  	<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass1" icon="grass1" />
-  	<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass2" icon="grass2" />
-  	<item name="To grass" code="CUSTOMACTION" parameter="quntillgrass3" icon="grass3" /> -->
-		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrassnoflower" icon="grassnoflower" />
-		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrassnoflower1" icon="grassnoflower1" />
-		<item name="To grass" code="CUSTOMACTION" parameter="quntillgrassnoflower2" icon="grassnoflower2" />
-		<item name="To grass" code="CUSTOMACTION" parameter="quntillfloatinggrass" icon="floatinggrass" />
-		<item name="To jungle" code="CUSTOMACTION" parameter="quntilljungle" icon="jungle" />
-		<item name="To sand" code="CUSTOMACTION" parameter="quntillsand" icon="sand" />
-		<item name="To stone" code="CUSTOMACTION" parameter="quntilltone" icon="stone" />
-		<item name="To snow" code="CUSTOMACTION" parameter="quntillsnow" icon="snow" />
-		<item name="To gravel" code="CUSTOMACTION" parameter="quntillgravel" icon="gravel" />
-		<item name="To densestone" code="CUSTOMACTION" parameter="quntilldensestone" icon="densestone" />
-		<item name="To dungeon3" code="CUSTOMACTION" parameter="quntilldungeon3" icon="dungeon3" />
-		<item name="To coal" code="CUSTOMACTION" parameter="quntillcoal" icon="coal" />
-		<item name="To iron" code="CUSTOMACTION" parameter="quntilliron" icon="iron" />
-		<item name="To copper" code="CUSTOMACTION" parameter="quntillcopper" icon="copper" />
-		<item name="To silver" code="CUSTOMACTION" parameter="quntillsilver" icon="silver" />
-		<item name="To gold" code="CUSTOMACTION" parameter="quntillgold" icon="gold" />
-		<item name="To lavarock" code="CUSTOMACTION" parameter="quntilllavarock" icon="lavarock" />
-		<item name="To lavadirt" code="CUSTOMACTION" parameter="quntilllavadirt" icon="lavadirt" />
+		<item name="To dirt" code="CUSTOMACTION" parameter="qterraformtodirt" icon="dirt" />
+		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss" icon="grass" />
+<!--  	<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss1" icon="grass1" />
+  	<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss2" icon="grass2" />
+  	<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss3" icon="grass3" /> -->
+		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower" icon="grassnoflower" />
+		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower1" icon="grassnoflower1" />
+		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower2" icon="grassnoflower2" />
+		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtofloatinggrass" icon="floatinggrass" />
+		<item name="To jungle" code="CUSTOMACTION" parameter="qterraformtojungle" icon="jungle" />
+		<item name="To sand" code="CUSTOMACTION" parameter="qterraformtosand" icon="sand" />
+		<item name="To stone" code="CUSTOMACTION" parameter="qterraformtotone" icon="stone" />
+		<item name="To snow" code="CUSTOMACTION" parameter="qterraformtosnow" icon="snow" />
+		<item name="To gravel" code="CUSTOMACTION" parameter="qterraformtogravel" icon="gravel" />
+		<item name="To densestone" code="CUSTOMACTION" parameter="qterraformtodensestone" icon="densestone" />
+		<item name="To dungeon3" code="CUSTOMACTION" parameter="qterraformtodungeon3" icon="dungeon3" />
+		<item name="To coal" code="CUSTOMACTION" parameter="qterraformtocoal" icon="coal" />
+		<item name="To iron" code="CUSTOMACTION" parameter="qterraformtoiron" icon="iron" />
+		<item name="To copper" code="CUSTOMACTION" parameter="qterraformtocopper" icon="copper" />
+		<item name="To silver" code="CUSTOMACTION" parameter="qterraformtosilver" icon="silver" />
+		<item name="To gold" code="CUSTOMACTION" parameter="qterraformtogold" icon="gold" />
+		<item name="To lavarock" code="CUSTOMACTION" parameter="qterraformtolavarock" icon="lavarock" />
+		<item name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</terraforming>
 
