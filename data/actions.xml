@@ -15367,10 +15367,10 @@
 			<move useSource="true">carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
-			<pickFriendly>cow</pickFriendly>
+			<pickFriendly>cow,wildcow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
-			<pickFriendly>bull</pickFriendly>
+			<pickFriendly>bull,wildbull</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<unlock />
