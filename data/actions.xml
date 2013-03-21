@@ -28,7 +28,6 @@
 		<priorityID>tilling</priorityID>
 		<name esES="Arar">Till</name>
 		<queue>
-			<pick>rmmud</pick>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>junglehumus</changeTerrain>
