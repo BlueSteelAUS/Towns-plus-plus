@@ -20,6 +20,7 @@
 		<item name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
 		<item name="Weapons" esES="Armas" code="STOCKPILE" parameter="weapon" icon="ui_sweapon" />
 		<item name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
+		<item name="construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="scaffold" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</stockpiles>
 

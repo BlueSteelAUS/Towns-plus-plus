@@ -2205,6 +2205,7 @@
 
 	<icewall>
 		<name esES="Muro de hielo">Ice wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -2219,6 +2220,7 @@
 
 	<logblock>
 		<name esES="Muro de troncos">Log wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2231,6 +2233,7 @@
 
 	<logblock2>
 		<name esES="Muro de troncos">Log wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2257,6 +2260,7 @@
 
 	<ancientblockmoss>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2271,6 +2275,7 @@
 
 	<ancientblock>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2285,6 +2290,7 @@
 
 	<mayanblock>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
  		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2299,6 +2305,7 @@
 
 	<mayanblock1>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
  		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2313,6 +2320,7 @@
 
 	<mayanblock2>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
  		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2327,6 +2335,7 @@
 
 	<mayanblock3>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
  		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2341,6 +2350,7 @@
 
 	<mayanblock4>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
  		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2355,6 +2365,7 @@
 
 	<mayanblock5>
 		<name esES="Muro antiguo">Ancient wall</name>
+		<type>construction.walls</type>
 
  		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2369,6 +2380,7 @@
 
 	<clayblock>
 		<name esES="Muro de arcilla">Clay wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2408,6 +2420,7 @@
 
 	<woodsticks>
 		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2422,6 +2435,7 @@
 
 	<woodspikes>
 		<name esES="Muro de madera con pinchos">Wooden spiked wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2435,6 +2449,7 @@
 
 	<sandwallblock>
 		<name esES="Muro de arena">Sand wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2463,6 +2478,7 @@
 
 	<stonebrickblock>
 		<name esES="Muro de ladrillos">Stone bricks wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2477,6 +2493,7 @@
 
 	<stonebrickblock2>
 		<name esES="Muro de ladrillos">Stone bricks wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2491,6 +2508,7 @@
 
 	<stonebrickblock3>
 		<name esES="Muro de ladrillos">Stone bricks wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2505,6 +2523,7 @@
 
 	<whitebrickblock>
 		<name esES="Muro de ladrillos">Stone bricks wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2519,6 +2538,7 @@
 
 	<goldenblock>
 		<name esES="Muro de oro">Golden wall</name>
+		<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2534,6 +2554,7 @@
 
 	<ancientwall>
 		<name esES="Muro antiguo">Ancient wall</name>
+	<type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2687,7 +2708,7 @@
 	</colombagesx>
 
 	<lapedrera>
-		<name esES="Muro tipo La Pedrera">La Pedrera wall</name>
+		<name esES="Muro tipo La Pedrera">La Pedrera wall</name> <type>construction.walls</type>
 		<description esES="Tributo a un genio">A tribute to a true genius</description>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -2699,7 +2720,7 @@
 	</lapedrera>
 
 	<lapedrera2>
-		<name esES="Muro tipo La Pedrera">La Pedrera wall</name>
+		<name esES="Muro tipo La Pedrera">La Pedrera wall</name> <type>construction.walls</type>
 		<description esES="Tributo a un genio">A tribute to a true genius</description>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4557,7 +4578,7 @@
 		<name esES="Escalera de madera">Wooden ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4572,7 +4593,7 @@
 		<name esES="Escalera">Ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4587,7 +4608,7 @@
 		<name esES="Escalera de troncos">Log ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4602,7 +4623,7 @@
 		<name esES="Escalera de barro">Dirt ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4617,7 +4638,7 @@
 		<name esES="Escalera de piedra">Stone ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4632,7 +4653,7 @@
 		<name esES="Escalera de piedra">Stone spindle ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4647,7 +4668,7 @@
 		<name esES="Escalera antigua">Ancient ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4660,9 +4681,9 @@
 	
 	<limestoneramp>
 		<name esES="Rampa de caliza">Limestone ramp</name>
+		<type>construction.stairs</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		
 		<glue>true</glue>
 		<base>true</base>
 		<zoneMergerUp>true</zoneMergerUp>
@@ -4676,7 +4697,7 @@
 		<name esES="Escalera de huesos">Bone stairs</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
+		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -4757,7 +4778,7 @@
 	</hedgegate>
 
 	<logwall>
-		<name esES="Muro de troncos">Log wall</name>
+		<name esES="Muro de troncos">Log wall</name> <type>construction.walls.thin</type>
 
 		<wall>true</wall>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4843,7 +4864,7 @@
 	</lightwoodblock>
 
 	<stoneblock>
-		<name esES="Muro de piedra">Stone wall</name>
+		<name esES="Muro de piedra">Stone wall</name> <type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -4857,7 +4878,7 @@
 	</stoneblock>
 
 	<stoneblock2>
-		<name esES="Muro de piedra">Stone wall</name>
+		<name esES="Muro de piedra">Stone wall</name> <type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -4871,7 +4892,7 @@
 	</stoneblock2>
 
 	<wheatblock>
-		<name esES="Muro de grano">Wheat wall</name>
+		<name esES="Muro de grano">Wheat wall</name> <type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -4883,7 +4904,7 @@
 	</wheatblock>
 
 	<bambooblock>
-		<name esES="Muro de bambú">Bamboo wall</name>
+		<name esES="Muro de bambú">Bamboo wall</name> <type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -4895,7 +4916,7 @@
 	</bambooblock>
 
 	<stonewall>
-		<name esES="Muro de piedra">Stone wall</name>
+		<name esES="Muro de piedra">Stone wall</name> <type>construction.walls</type>
 
 		<wall>true</wall>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4906,7 +4927,7 @@
 	</stonewall>
 
 	<bonewall>
-		<name esES="Muro de hueso">Bone wall</name>
+		<name esES="Muro de hueso">Bone wall</name> <type>construction.walls</type>
 
 		<wall>true</wall>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4918,7 +4939,7 @@
 
 
 	<mudwall>
-		<name esES="Muro de barro">Mud wall</name>
+		<name esES="Muro de barro">Mud wall</name> <type>construction.walls</type>
 		<description esES="Te ahorras tener que limpiarlo">It save up in cleaning</description>
 
 		<wall>true</wall>
@@ -4930,7 +4951,7 @@
 	</mudwall>
 
 	<sandwall>
-		<name esES="Muro de arena">Sand wall</name>
+		<name esES="Muro de arena">Sand wall</name> <type>construction.walls</type>
 		<description esES="Ideal para construir castillos">Used to build castles</description>
 
 		<wall>true</wall>
@@ -4994,7 +5015,7 @@
 
 
 	<engravedstonewall>
-		<name esES="Muro de piedra grabado">Engraved stone wall</name>
+		<name esES="Muro de piedra grabado">Engraved stone wall</name> <type>construction.walls</type>
 
 		<wall>true</wall>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -5008,7 +5029,7 @@
 	</engravedstonewall>
 
 	<engravedgreenwall>
-		<name esES="Muro verde grabado con gel">Gel engraved green wall</name>
+		<name esES="Muro verde grabado con gel">Gel engraved green wall</name> <type>construction.walls</type>
 		<description esES="Aún vibra">It still vibrates</description>
 
 		<wall>true</wall>
@@ -5023,7 +5044,7 @@
 	</engravedgreenwall>
 
 	<engravedredwall>
-		<name esES="Muro rojo grabado con gel">Gel engraved red wall</name>
+		<name esES="Muro rojo grabado con gel">Gel engraved red wall</name> <type>construction.walls</type>
 		<description esES="Aún vibra">It still vibrates</description>
 
 		<wall>true</wall>
@@ -5038,7 +5059,7 @@
 	</engravedredwall>
 
 	<engravedbluewall>
-		<name esES="Muro azul grabado con gel">Gel engraved blue wall</name>
+		<name esES="Muro azul grabado con gel">Gel engraved blue wall</name> <type>construction.walls</type>
 		<description esES="Aún vibra">It still vibrates</description>
 
 		<wall>true</wall>
@@ -5053,7 +5074,7 @@
 	</engravedbluewall>
 
 	<woodenfloor>
-		<name esES="Muro-suelo de madera">Wooden floor wall</name>
+		<name esES="Muro-suelo de madera">Wooden floor wall</name> <type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -5064,7 +5085,7 @@
 	</woodenfloor>
 	
 	<stonefloor>
-		<name esES="Muro-suelo de piedra">Stone floor wall</name>
+		<name esES="Muro-suelo de piedra">Stone floor wall</name> <type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -5075,7 +5096,7 @@
 	</stonefloor>
 
 	<glassfloor>
-		<name esES="Muro-suelo de cristal">Glass floor wall</name>
+		<name esES="Muro-suelo de cristal">Glass floor wall</name> <type>construction.walls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -6591,7 +6612,7 @@
 	</squarestable>
 
 	<claybrickwall>
-		<name esES="Muro de arcilla">Clay brick wall</name>
+		<name esES="Muro de arcilla">Clay brick wall</name> <type>construction.walls.thin</type>
 		<description esES="Muro español!">Spanish looking wall</description>
 		
 		<wall>true</wall>
@@ -6603,7 +6624,7 @@
 	</claybrickwall>
 
 	<glasswall>
-		<name esES="Muro de cristal">Glass wall</name>
+		<name esES="Muro de cristal">Glass wall</name> <type>construction.walls.thin</type>
 		<description esES="Puedes correr pero no puedes esconderte!">Peekaboo! I see you!</description>
 
 		<wall>true</wall>
@@ -6616,7 +6637,7 @@
 	</glasswall>
 
 	<woodenwall>
-		<name esES="Muro de madera">Wooden wall</name>
+		<name esES="Muro de madera">Wooden wall</name> <type>construction.walls.thin</type>
 
 		<wall>true</wall>
 		<glue>true</glue>
@@ -6627,7 +6648,7 @@
 	</woodenwall>
 
 	<woodendarkwall>
-		<name esES="Muro de madera">Wooden dark wall</name>
+		<name esES="Muro de madera">Wooden dark wall</name> <type>construction.walls.thin</type>
 
 		<wall>true</wall>
 		<glue>true</glue>

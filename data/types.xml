@@ -10,6 +10,12 @@
 	<armor esES="Armaduras">Armor</armor>
 	<weapon esES="Armas">Weapons</weapon>
 	<decorative esES="Decorativo">Decorations</decorative>
+	
+	<!-- CONSTRUCTION STOCKPILES -LM -->
+	<construction esES="N/A">Construction</construction>
+	<construction.walls esES="N/A" icon="ui_rwalls">Walls</construction.walls>
+	<construction.walls.thin esES="N/A" icon="ui_rwalls">Walls</construction.walls.thin>
+	<construction.stairs esES="N/A" icon="ui_woodstairs">Stairs</construction.stairs>
 
 	<rawmaterials.materials esES="Materiales" icon="ui_rmaterials">Materials</rawmaterials.materials>
 	<rawmaterials.colors esES="Colores" icon="ui_rcolors">Colors</rawmaterials.colors>
