@@ -13521,6 +13521,7 @@
 	</action>	
 <!-- /CONVERT STAIRS -->	
 
+<!-- UNTILL -->
 	<action>
 		<id>quntilldirt</id>
 		<priorityID>terrainchange</priorityID>
@@ -13568,7 +13569,63 @@
 	<action>
 		<id>quntillsand</id>
 		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Turn to sand from </name>
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<changeTerrain>sand</changeTerrain>
+		</queue>
+	</action>
+	
+<!-- TERRAFORM -->
+	<action>
+		<id>qterraformdirt</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Turn to dirt from </name> 
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<changeTerrain>dirt</changeTerrain>
+		</queue>
+	</action>	
+
+	<action>
+		<id>qterraformgrass</id>
+		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name>
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<changeTerrain>grass</changeTerrain>
+		</queue>
+	</action>
+
+	<action>
+		<id>qterraformjungle</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Turn to jungle from </name>
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<changeTerrain>jungle</changeTerrain>
+		</queue>
+	</action>
+
+	<action>
+		<id>qterraformsnow</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Turn to snow from </name> 
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<changeTerrain>snow</changeTerrain>
+		</queue>
+	</action>
+
+	<action>
+		<id>qterraformsand</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Turn to sand from </name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13577,7 +13634,7 @@
 	</action>
 
 	<action>
-		<id>quntillstone</id>
+		<id>qterraformstone</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to stone from </name>
 		<queue>
@@ -13588,7 +13645,7 @@
 	</action>
 
 	<action>
-		<id>quntillgravel</id>
+		<id>qterraformgravel</id>
 		<priorityID>chopping</priorityID>
 		<name esES="Des-arar">Turn to gravel from </name> 
 		<queue>
@@ -13599,7 +13656,7 @@
 	</action>
 
 	<action>
-		<id>quntillcoal</id>
+		<id>qterraformcoal</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to coal from </name> 
 		<queue>
@@ -13610,7 +13667,7 @@
 	</action>
 
 	<action>
-		<id>quntilliron</id>
+		<id>qterraformiron</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to iron from </name> 
 		<queue>
@@ -13621,7 +13678,7 @@
 	</action>
 
 	<action>
-		<id>quntillsilver</id>
+		<id>qterraformsilver</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to silver from </name> 
 		<queue>
@@ -13632,7 +13689,7 @@
 	</action>
 
 	<action>
-		<id>quntillgold</id>
+		<id>qterraformgold</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to gold from </name> 
 		<queue>
@@ -13643,7 +13700,7 @@
 	</action>
 
 	<action>
-		<id>quntillgrass1</id>
+		<id>qterraformgrass1</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name> 
 		<queue>
@@ -13654,7 +13711,7 @@
 	</action>	
 
 	<action>
-		<id>quntillgrass2</id>
+		<id>qterraformgrass2</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name> 
 		<queue>
@@ -13665,7 +13722,7 @@
 	</action>	
 
 	<action>
-		<id>quntillgrass3</id>
+		<id>qterraformgrass3</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name> 
 		<queue>
@@ -13676,7 +13733,7 @@
 	</action>	
 
 	<action>
-		<id>quntillgrassnoflower</id>
+		<id>qterraformgrassnoflower</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name> 
 		<queue>
@@ -13687,7 +13744,7 @@
 	</action>	
 	
 	<action>
-		<id>quntillgrassnoflower1</id>
+		<id>qterraformgrassnoflower1</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name> 
 		<queue>
@@ -13698,7 +13755,7 @@
 	</action>	
 	
 	<action>
-		<id>quntillgrassnoflower2</id>
+		<id>qterraformgrassnoflower2</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name> 
 		<queue>
@@ -13709,7 +13766,7 @@
 	</action>	
 
 	<action>
-		<id>quntillfloatinggrass</id>
+		<id>qterraformfloatinggrass</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from </name> 
 		<queue>
@@ -13720,7 +13777,7 @@
 	</action>	
 
 	<action>
-		<id>quntillcopper</id>
+		<id>qterraformcopper</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to copper from </name> 
 		<queue>
@@ -13731,7 +13788,7 @@
 	</action>	
 
 	<action>
-		<id>quntilldensestone</id>
+		<id>qterraformdensestone</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to densestone from </name> 
 		<queue>
@@ -13742,7 +13799,7 @@
 	</action>	
 
 	<action>
-		<id>quntilldungeon3</id>
+		<id>qterraformdungeon3</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to dungeon stone from </name> 
 		<queue>
@@ -13753,7 +13810,7 @@
 	</action>	
 
 	<action>
-		<id>quntilllavarock</id>
+		<id>qterraformlavarock</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to lava rock from </name> 
 		<queue>
@@ -13764,7 +13821,7 @@
 	</action>	
 
 	<action>
-		<id>quntilllavadirt</id>
+		<id>qterraformlavadirt</id>
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to lava dirt from </name> 
 		<queue>
