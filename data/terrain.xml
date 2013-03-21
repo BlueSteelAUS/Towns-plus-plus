@@ -6,25 +6,25 @@
 		<mineTurns>20</mineTurns>
 		<drop>rmcoal</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</coal>
 
 	<grass>
@@ -34,25 +34,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		<group>grassGroup</group>
 	</grass>
 
@@ -63,25 +63,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		<group>grassGroup</group>
 	</grass1>
 
@@ -92,25 +92,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		<group>grassGroup</group>
 	</grass2>
 
@@ -121,25 +121,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		<group>grassGroup</group>
 	</grass3>
 
@@ -150,25 +150,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		<group>grassGroup</group>
 	</grassnoflower>
 
@@ -179,25 +179,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	  <group>grassGroup</group>
 	</grassnoflower1>
 
@@ -208,25 +208,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		<group>grassGroup</group>
 	</grassnoflower2>
 
@@ -237,25 +237,25 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		<group>grassGroup</group>
 	</floatinggrass>
 
@@ -263,150 +263,150 @@
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
 		<action>qtilljungle</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</jungle>
 
 	<junglefrog1>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</junglefrog1>
 
 	<junglefrog2>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</junglefrog2>
 
 	<junglefrog3>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</junglefrog3>
 
 	<junglefrog4>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</junglefrog4>
 
 	<junglefrog5>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</junglefrog5>
 
 	<snow>
@@ -415,25 +415,25 @@
 		<drop>snowpile</drop>
 		<dropPCT>25</dropPCT>
 		<action>qtillsnow</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</snow>
 
 	<dirt>
@@ -443,155 +443,155 @@
 		<dropPCT>35</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
 		<action>qtill</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</dirt>
 
 	<brownievillage>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
 		<action>qtilljungle</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</brownievillage>
 
 	<humus>
 		<name esES="Humus en hierba">Humus on grass</name>
 		<mineTurns>0</mineTurns>
 		<action>quntillgrass</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		</humus>
 
 	<junglehumus>
 		<name esES="Humus en jungla">Humus on jungle</name>
 		<mineTurns>0</mineTurns>
 		<action>quntilljungle</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</junglehumus>
 
 	<sandhumus>
 		<name esES="Humus en arena">Humus on sand</name>
 		<mineTurns>0</mineTurns>
 		<action>quntillsand</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</sandhumus>
 
 	<snowhumus>
 		<name esES="Humus en nieve">Humus on snow</name>
 		<mineTurns>0</mineTurns>
 		<action>quntillsnow</action>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</snowhumus>
 
 
@@ -600,25 +600,25 @@
 		<mineTurns>8</mineTurns>
 		<drop>rmiron</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		</iron>
 
 	<gold>
@@ -626,25 +626,25 @@
 		<mineTurns>20</mineTurns>
 		<drop>rmgold</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		</gold>
 
 	<silver>
@@ -652,25 +652,25 @@
 		<mineTurns>20</mineTurns>
 		<drop>rmsilver</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		</silver>
 
 	<copper>
@@ -678,25 +678,25 @@
 		<mineTurns>30</mineTurns>
 		<drop>rmcopper</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 		</copper>
 
 	<sand>
@@ -704,25 +704,25 @@
 		<mineTurns>4</mineTurns>
 		<drop>rmsand</drop>
 		<dropPCT>90</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</sand>
 
 	<gravel>
@@ -730,25 +730,25 @@
 		<mineTurns>6</mineTurns>
 		<drop>rmflint</drop>
 		<dropPCT>30</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</gravel>
 
 	<stone>
@@ -758,25 +758,25 @@
 		<drop>rmstone</drop>
 		<dropPCT>100</dropPCT>
 		<blocky>false</blocky>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</stone>
 
 	<densestone>
@@ -785,25 +785,25 @@
 		<ladderItem>stoneladder</ladderItem>
 		<drop>rmstone</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</densestone>
 
 	<dungeon3>
@@ -812,25 +812,25 @@
 		<ladderItem>stoneladder</ladderItem>
 		<drop>rmstone</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
+		<action>qterraformtolavadirt</action>
 	</dungeon3>
 
 	<lavarock>
@@ -838,25 +838,25 @@
 		<mineTurns>30</mineTurns>
 		<drop>rmstone</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavadirt</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavadirt</action>
 	</lavarock>
 
 	<lavadirt>
@@ -864,25 +864,25 @@
 		<mineTurns>30</mineTurns>
 		<drop>rmstone</drop>
 		<dropPCT>80</dropPCT>
-		<action>qterraformdirt</action>
-		<action>qterraformgrass</action>
-		<action>qterraformgrassnoflower</action>
-		<action>qterraformgrassnoflower1</action>
-		<action>qterraformgrassnoflower2</action>
-		<action>qterraformfloatinggrass</action>
-		<action>qterraformjungle</action>
-		<action>qterraformsand</action>
-		<action>qterraformstone</action>
-		<action>qterraformsnow</action>
-		<action>qterraformgravel</action>
-		<action>qterraformdensestone</action>
-		<action>qterraformdungeon3</action>
-		<action>qterraformcoal</action>
-		<action>qterraformiron</action>
-		<action>qterraformcopper</action>
-		<action>qterraformsilver</action>
-		<action>qterraformgold</action>
-		<action>qterraformlavarock</action>
+		<action>qterraformtodirt</action>
+		<action>qterraformtograss</action>
+		<action>qterraformtograssnoflower</action>
+		<action>qterraformtograssnoflower1</action>
+		<action>qterraformtograssnoflower2</action>
+		<action>qterraformtofloatinggrass</action>
+		<action>qterraformtojungle</action>
+		<action>qterraformtosand</action>
+		<action>qterraformtostone</action>
+		<action>qterraformtosnow</action>
+		<action>qterraformtogravel</action>
+		<action>qterraformtodensestone</action>
+		<action>qterraformtodungeon3</action>
+		<action>qterraformtocoal</action>
+		<action>qterraformtoiron</action>
+		<action>qterraformtocopper</action>
+		<action>qterraformtosilver</action>
+		<action>qterraformtogold</action>
+		<action>qterraformtolavarock</action>
 	</lavadirt>
 </terrain>
 
