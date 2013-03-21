@@ -12444,4 +12444,14 @@
 		<action>add_taverntable_candle</action>
 		<action>remove_taverntable_decoration</action>
 	</taverntable_drinks>
+	
+	<!-- NEW FARMS -LM -->
+	<newcowfarm>
+		<name esES="N/A">Cow Pasture</name>
+		<description esES="N/A">Quite smelly...</description>
+		<action>qbreedcow</action>
+		<!--
+		<action>qbreedbull</action>
+		-->
+	</newcowfarm>
 </items>

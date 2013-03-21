@@ -15356,4 +15356,62 @@
 			<replacecellItem>taverntable</replacecellItem>
 		</queue>
 	</action>
+	
+	<!-- NEW FARMS -->
+	<action>
+		<id>qnewcowfarm</id>
+		<name esES="N/A">Cow Pasture</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pickFriendly>cow</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>bull</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<unlock />
+			<createItem>newcowfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbreedcow</id>
+		<name esES="N/A">Breed Cow</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move>newcowfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move>newcowfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>cow</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	<!--
+	<action>
+		<id>qbreedbull</id>
+		<name esES="N/A">Breed Bull</name>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newcowfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newcowfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>bull</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	-->
 </actions>

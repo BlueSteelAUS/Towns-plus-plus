@@ -108,17 +108,17 @@
 		</bmarket>
 
 		<mineshafts name="Mineshafts" esES="Pozos mineros" icon="ui_mineshaft"> 
-  		<item code="QUEUEANDPLACEAREA" parameter="qbuilddirtmine" icon="ui_mudmineshaft" />
-  	  <item code="QUEUEANDPLACEAREA" parameter="qbuildsandmine" icon="ui_sandmineshaft" /> 
-   	  <item code="QUEUEANDPLACEAREA" parameter="qbuildstonemine" icon="ui_stonemineshaft"	/> 
-  	  <item code="QUEUEANDPLACEAREA" parameter="qbuildgravelmine" icon="ui_flintmineshaft" /> 
-  	  <item code="QUEUEANDPLACEAREA" parameter="qbuildcoalmine" icon="ui_coalmineshaft" /> 
-  	  <item code="QUEUEANDPLACEAREA" parameter="qbuildironemine" icon="ui_ironmineshaft" /> 
-  	  <item code="QUEUEANDPLACEAREA" parameter="qbuildcoppermine" icon="ui_coppermineshaft" /> 
-  	  <item code="QUEUEANDPLACEAREA" parameter="qbuildsilvermine" icon="ui_silvermineshaft" /> 
-  	  <item code="QUEUEANDPLACEAREA" parameter="qbuildgoldmine" icon="ui_goldmineshaft" /> 
-  	  <item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-  	</mineshafts>
+			<item code="QUEUEANDPLACEAREA" parameter="qbuilddirtmine" icon="ui_mudmineshaft" />
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildsandmine" icon="ui_sandmineshaft" /> 
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildstonemine" icon="ui_stonemineshaft"	/> 
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildgravelmine" icon="ui_flintmineshaft" /> 
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildcoalmine" icon="ui_coalmineshaft" /> 
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildironemine" icon="ui_ironmineshaft" /> 
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildcoppermine" icon="ui_coppermineshaft" /> 
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildsilvermine" icon="ui_silvermineshaft" /> 
+			<item code="QUEUEANDPLACEAREA" parameter="qbuildgoldmine" icon="ui_goldmineshaft" /> 
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</mineshafts>
 		
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</buildings>
@@ -361,7 +361,7 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</construction>
 
-		<farms name="Animal Farms" icon="chickenfarm">
+	<farms name="Animal Farms" icon="chickenfarm">
     	<item code="BUILD" parameter="chickenfarm" icon="ui_chickenfarm" />
     	<item code="BUILD" parameter="roosterfarm" icon="ui_roosterfarm" />
     	<item code="BUILD" parameter="cowfarm" icon="ui_cowfarm" />
@@ -371,6 +371,7 @@
     	<item code="BUILD" parameter="badgerfarm" icon="ui_badgerfarm" />
     	<item code="BUILD" parameter="skootenbeetenfarm" icon="ui_skootenbeetenfarm" />
     	<item code="BUILD" parameter="unifallowfarm" icon="ui_unifallowfarm" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewcowfarm" icon="cow" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
   	</farms>
 

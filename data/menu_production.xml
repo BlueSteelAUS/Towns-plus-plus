@@ -336,7 +336,8 @@
 	</decorative>
 
 	<food name="Food" esES="Comida" icon="ui_rfood">
-
+			<item code="QUEUE" parameter="qbreedcow" /><!--
+			<item code="QUEUE" parameter="qbreedbull" /> -->
 			<raw name="Raw Foods" esES="N/A" icon="ui_appleseed">
 
 			<harvesting name="Harvesting" esES="N/A" icon="ui_appleseed">
