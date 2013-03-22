@@ -15357,27 +15357,188 @@
 		</queue>
 	</action>
 	
-	<!-- NEW FARMS -->
+	<!-- BUILD NEW FARMS -->
 	<action>
 		<id>qnewcowfarm</id>
-		<name esES="N/A">Cow Pasture</name>
+		<name esES="N/A">Cow Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
-			<wait>15</wait>
-			<destroyItem />
 			<pickFriendly>cow,wildcow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>bull,wildbull</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
 			<unlock />
 			<createItem>newcowfarm</createItem>
 		</queue>
 	</action>
 	
+	<action>
+		<id>qnewbullfarm</id>
+		<name esES="N/A">Bull Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>bull,wildbull</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>bull,wildbull</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newbullfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewpigfarm</id>
+		<name esES="N/A">Pig Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>pig,wildpig</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>pig,wildpig</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newpigfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewboarfarm</id>
+		<name esES="N/A">Boar Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>boar,wildboar</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>boar,wildboar</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newboarfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewchickenfarm</id>
+		<name esES="N/A">Chicken Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>chicken,wildchicken</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>chicken,wildchicken</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newchickenfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewroosterfarm</id>
+		<name esES="N/A">Rooster Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>rooster,wildrooster</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>rooster,wildrooster</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newroosterfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewskootenbeetenfarm</id>
+		<name esES="N/A">Skootenbeeten Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newskootenbeetenfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewunifallowfarm</id>
+		<name esES="N/A">Unifallow Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>unifallow,wildunifallow</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>unifallow,wildunifallow</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newunifallowfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewbadgerfarm</id>
+		<name esES="N/A">Badger Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>badger,wildbadger</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>badger,wildbadger</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newbadgerfarm</createItem>
+		</queue>
+	</action>
+	
+	<!-- BREED NEW FARMS -->
 	<action>
 		<id>qbreedcow</id>
 		<name esES="N/A">Breed Cow</name>
@@ -15396,23 +15557,372 @@
 			<unlock />
 		</queue>
 	</action>
-	<!--
+
 	<action>
 		<id>qbreedbull</id>
 		<name esES="N/A">Breed Bull</name>
+		<generatedItem>bull</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
 			<pick>wheat</pick>
-			<move useSource="true">newcowfarm</move>
+			<move useSource="true">newbullfarm</move>
 			<wait>15</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move useSource="true">newcowfarm</move>
+			<move useSource="true">newbullfarm</move>
 			<wait>15</wait>
 			<destroyItem />
 			<createFriendly>bull</createFriendly>
 			<unlock />
 		</queue>
 	</action>
-	-->
+	
+	<action>
+		<id>qbreedpig</id>
+		<name esES="N/A">Breed Pig</name>
+		<generatedItem>pig</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newpigfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newpigfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>pig</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+
+	<action>
+		<id>qbreedboar</id>
+		<name esES="N/A">Breed Boar</name>
+		<generatedItem>boar</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newboarfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newboarfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>boar</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbreedchicken</id>
+		<name esES="N/A">Breed Chicken</name>
+		<generatedItem>chicken</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newchickenfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newchickenfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>chicken</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbreedrooster</id>
+		<name esES="N/A">Breed Rooster</name>
+		<generatedItem>rooster</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newroosterfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newroosterfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>rooster</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbreedskootenbeeten</id>
+		<name esES="N/A">Breed Skootenbeeten</name>
+		<generatedItem>skootenbeeten</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newskootenbeetenfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newskootenbeetenfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>skootenbeeten</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbreedunifallow</id>
+		<name esES="N/A">Breed Unifallow</name>
+		<generatedItem>unifallow</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newunifallowfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newunifallowfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>unifallow</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbreedbadger</id>
+		<name esES="N/A">Breed Badger</name>
+		<generatedItem>badger</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newbadgerfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newbadgerfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<createFriendly>badger</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	<!-- ROTATE NEW FARMS -->
+	<action>
+		<id>rotate_newcowfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newcowfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newcowfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newcowfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newcowfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newcowfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newbullfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newbullfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newbullfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newbullfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newbullfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newbullfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newpigfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newpigfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newpigfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newpigfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newpigfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newpigfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newboarfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newboarfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newboarfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newboarfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newboarfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newboarfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newchickenfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newchickenfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newchickenfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newchickenfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newchickenfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newchickenfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newroosterfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newroosterfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newroosterfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newroosterfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newroosterfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newroosterfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newskootenbeetenfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newskootenbeetenfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newskootenbeetenfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newskootenbeetenfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newskootenbeetenfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newskootenbeetenfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newunifallowfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newunifallowfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newunifallowfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newunifallowfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newunifallowfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newunifallowfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newbadgerfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newbadgerfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>newbadgerfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_newbadgerfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">newbadgerfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>newbadgerfarm</replaceCellItem>
+		</queue>
+	</action>
 </actions>

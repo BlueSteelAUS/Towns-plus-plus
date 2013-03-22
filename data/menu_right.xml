@@ -361,7 +361,7 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</construction>
 
-	<farms name="Animal Farms" icon="chickenfarm">
+	<farms name="Animal Farms" icon="chickenfarm"> <!--
     	<item code="BUILD" parameter="chickenfarm" icon="ui_chickenfarm" />
     	<item code="BUILD" parameter="roosterfarm" icon="ui_roosterfarm" />
     	<item code="BUILD" parameter="cowfarm" icon="ui_cowfarm" />
@@ -370,8 +370,17 @@
     	<item code="BUILD" parameter="boarfarm" icon="ui_boarfarm" />
     	<item code="BUILD" parameter="badgerfarm" icon="ui_badgerfarm" />
     	<item code="BUILD" parameter="skootenbeetenfarm" icon="ui_skootenbeetenfarm" />
-    	<item code="BUILD" parameter="unifallowfarm" icon="ui_unifallowfarm" />
+    	<item code="BUILD" parameter="unifallowfarm" icon="ui_unifallowfarm" /> -->
+		<item code="CREATEZONE" parameter="zpasture" icon="zpasture" />
 		<item code="QUEUEANDPLACEAREA" parameter="qnewcowfarm" icon="cow" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewbullfarm" icon="bull" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewpigfarm" icon="pig" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewboarfarm" icon="boar" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewchickenfarm" icon="chicken" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewroosterfarm" icon="rooster" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewskootenbeetenfarm" icon="skootenbeeten" />		
+		<item code="QUEUEANDPLACEAREA" parameter="qnewunifallowfarm" icon="unifallow" />
+		<item code="QUEUEANDPLACEAREA" parameter="qnewbadgerfarm" icon="badger" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
   	</farms>
 
