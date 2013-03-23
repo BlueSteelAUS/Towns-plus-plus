@@ -946,7 +946,7 @@
 	</rawsteak>
 
 	<rawdeersteak>
-		<name esES="Carne cruda de reno">Raw deer steak</name>
+		<name esES="Carne cruda de reno">Raw Snoat steak</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 		<type>rawfood</type>
 		<canBeEaten>true</canBeEaten>
@@ -996,7 +996,7 @@
 	</rawpoultry>
 
 	<rawbadgermeat>
-		<name esES="Carne de tejón cruda">Raw badger meat</name>
+		<name esES="Carne de tejón cruda">Raw Badger meat</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 
 		<type>rawfood</type>
@@ -2203,21 +2203,6 @@
 		<tags>misc</tags>
 	</snickerhead>
 
-	<icewall>
-		<name esES="Muro de hielo">Ice wall</name>
-		<type>construction.blockwalls</type>
-
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<glue>true</glue>
-		<base>true</base>
-		<wall>true</wall>
-		<blocky>true</blocky>
-
-		<blockFluids>true</blockFluids>
-
-		<alwaysOperative>false</alwaysOperative>
-	</icewall>
-
 	<logblock>
 		<name esES="Muro de troncos">Log wall</name>
 		<type>construction.blockwalls</type>
@@ -2252,7 +2237,7 @@
 		<glue>true</glue>
 		<base>true</base>
 		<blocky>true</blocky>
-
+		<type>construction.blockwalls</type>
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -2399,7 +2384,8 @@
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
 		<glue>true</glue>
-		<base>true</base>
+		<base>true</base>		
+		<type>construction.blockwalls</type>
 
 		<alwaysOperative>false</alwaysOperative>
 	</pillar>
@@ -2411,7 +2397,8 @@
 		<wall>true</wall>
 		<glue>true</glue>
 		<base>true</base>
-		<blocky>true</blocky>
+		<blocky>true</blocky>		
+		<type>construction.blockwalls</type>
 
 		<blockFluids>true</blockFluids>
 
@@ -4712,6 +4699,7 @@
 		<glue>true</glue>
 		<base>true</base>
 		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>35</value>
@@ -4726,6 +4714,7 @@
 		<glue>true</glue>
 		<base>true</base>
 		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>0</value>
@@ -4739,7 +4728,8 @@
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
-		<blocky>true</blocky>
+		<blocky>true</blocky>		
+		<type>construction.blockwalls</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>50</value>
@@ -4752,7 +4742,8 @@
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<base>true</base>
-		<blocky>true</blocky>
+		<blocky>true</blocky>		
+		<type>construction.blockwalls</type>
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>50</value>
@@ -4803,10 +4794,25 @@
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
 	</hedgebrickfence>
+	
+	<icewall>
+		<name esES="Muro de hielo">Ice wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+	</icewall>
 
 	<fancybrickfence>
 		<name esES="Valla de ladrillos de lujo">Fancy brick fence</name>
-		<type>blockwalls</type>
+		<type>construction.walls</type>
 		<wall>true</wall>
 		
 		<alwaysOperative>false</alwaysOperative>
@@ -5874,12 +5880,14 @@
 		<type>furniture</type>
 		<usedToSleep>true</usedToSleep>
 		<alwaysOperative>false</alwaysOperative>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
-		<base>true</base>
+		<glue>true</glue>
+		<base>true</base><!--
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
 		<zone>zhospital</zone>
-		<zone>zbarracks</zone>
+		<zone>zbarracks</zone>-->
 		<value>205</value>
 	</woodendormbed>
 
@@ -12462,289 +12470,153 @@
 		<name esES="N/A">Cow Barn</name>
 		<description esES="N/A">Quite smelly...</description>
 		
-		<action>rotate_newcowfarm</action>
 		<action>qbreedcow</action>
 	</newcowfarm>
-		
-	<newcowfarm_1>
-		<name esES="N/A">Cow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newcowfarm_1</action>
-		<action>qbreedcow</action>
-	</newcowfarm_1>
 	
 	<newbullfarm>
 		<name esES="N/A">Bull Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Don't wear your red shirt!</description>
 		
-		<action>rotate_newbullfarm</action>
 		<action>qbreedbull</action>
 	</newbullfarm>
-	
-	<newbullfarm_1>
-		<name esES="N/A">Bull Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newbullfarm_1</action>
-		<action>qbreedbull</action>
-	</newbullfarm_1>
-	
+
 	<newpigfarm>
 		<name esES="N/A">Pig Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">The floor is very dirty...</description>
 		
-		<action>rotate_newpigfarm</action>
 		<action>qbreedpig</action>
 	</newpigfarm>
 	
-	<newpigfarm_1>
-		<name esES="N/A">Pig Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newpigfarm_1</action>
-		<action>qbreedpig</action>
-	</newpigfarm_1>
-	
 	<newboarfarm>
 		<name esES="N/A">Boar Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Nobody mention Bacon...</description>
 		
-		<action>rotate_newboarfarm</action>
 		<action>qbreedboar</action>
 	</newboarfarm>
 	
-	<newboarfarm_1>
-		<name esES="N/A">Boar Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newboarfarm_1</action>
-		<action>qbreedboar</action>
-	</newboarfarm_1>
-	
 	<newchickenfarm>
 		<name esES="N/A">Chicken Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Free Range!</description>
 		
-		<action>rotate_newchickenfarm</action>
 		<action>qbreedchicken</action>
 	</newchickenfarm>
 	
-	<newchickenfarm_1>
-		<name esES="N/A">Chicken Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newchickenfarm_1</action>
-		<action>qbreedchicken</action>
-	</newchickenfarm_1>
-	
 	<newroosterfarm>
 		<name esES="N/A">Rooster Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Medeival Alarm Clock factory!</description>
 		
 		<action>rotate_newroosterfarm</action>
 		<action>qbreedrooster</action>
 	</newroosterfarm>
 	
-	<newroosterfarm_1>
-		<name esES="N/A">Rooster Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newroosterfarm_1</action>
-		<action>qbreedrooster</action>
-	</newroosterfarm_1>
-	
 	<newskootenbeetenfarm>
 		<name esES="N/A">Skootenbeeten Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Watch your head!</description>
 		
-		<action>rotate_newskootenbeetenfarm</action>
 		<action>qbreedskootenbeeten</action>
 	</newskootenbeetenfarm>
 	
-	<newskootenbeetenfarm_1>
-		<name esES="N/A">Skootenbeeten Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newskootenbeetenfarm_1</action>
-		<action>qbreedskootenbeeten</action>
-	</newskootenbeetenfarm_1>
-	
 	<newunifallowfarm>
 		<name esES="N/A">Unifallow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">How do you see things?</description>
 		
-		<action>rotate_newunifallowfarm</action>
 		<action>qbreedunifallow</action>
 	</newunifallowfarm>
 	
-	<newunifallowfarm_1>
-		<name esES="N/A">Unifallow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_newunifallowfarm_1</action>
-		<action>qbreedunifallow</action>
-	</newunifallowfarm_1>
-	
 	<newbadgerfarm>
 		<name esES="N/A">Badger Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">*Insert meme here*</description>
 		
-		<action>rotate_newbadgerfarm</action>
 		<action>qbreedbadger</action>
 	</newbadgerfarm>
 	
-	<newbadgerfarm_1>
-		<name esES="N/A">Badger Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+	<newsnoatfarm>
+		<name esES="N/A">Snoat Barn</name>
+		<description esES="N/A">How do you fit in there?</description>
 		
-		<action>rotate_newbadgerfarm_1</action>
-		<action>qbreedbadger</action>
-	</newbadgerfarm_1>
+		<action>qbreedsnoat</action>
+	</newsnoatfarm>
 	
 	<!-- NEW FARMS EMPTY -->
 	<emptycowfarm>
 		<name esES="N/A">Empty Cow Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<action>rotate_emptycowfarm</action>
-		<maxAge>1000</maxAge>
+
+		<maxAge>2880</maxAge>
 		<maxAgeItem>newcowfarm</maxAgeItem>
 	</emptycowfarm>
-		
-	<emptycowfarm_1>
-		<name esES="N/A">Cow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptycowfarm_1</action>
-		<maxAge>150</maxAge>
-		<maxAgeItem>newcowfarm_1</maxAgeItem>
-	</emptycowfarm_1>
-	
+			
 	<emptybullfarm>
 		<name esES="N/A">Bull Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Don't wear your red shirt!</description>
 		
-		<action>rotate_emptybullfarm</action>
-		<action>qbreedbull</action>
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newbullfarm</maxAgeItem>
 	</emptybullfarm>
-	
-	<emptybullfarm_1>
-		<name esES="N/A">Bull Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptybullfarm_1</action>
-		<action>qbreedbull</action>
-	</emptybullfarm_1>
 	
 	<emptypigfarm>
 		<name esES="N/A">Pig Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">The floor is very dirty...</description>
 		
-		<action>rotate_emptypigfarm</action>
-		<action>qbreedpig</action>
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newpigfarm</maxAgeItem>
 	</emptypigfarm>
-	
-	<emptypigfarm_1>
-		<name esES="N/A">Pig Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptypigfarm_1</action>
-		<action>qbreedpig</action>
-	</emptypigfarm_1>
 	
 	<emptyboarfarm>
 		<name esES="N/A">Boar Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Nobody mention Bacon...</description>
 		
-		<action>rotate_emptyboarfarm</action>
-		<action>qbreedboar</action>
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newboarfarm</maxAgeItem>
 	</emptyboarfarm>
-	
-	<emptyboarfarm_1>
-		<name esES="N/A">Boar Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptyboarfarm_1</action>
-		<action>qbreedboar</action>
-	</emptyboarfarm_1>
 	
 	<emptychickenfarm>
 		<name esES="N/A">Chicken Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptychickenfarm</action>
-		<action>qbreedchicken</action>
+		<description esES="N/A">Free Range!</description>
+
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newchickenfarm</maxAgeItem>
 	</emptychickenfarm>
-	
-	<emptychickenfarm_1>
-		<name esES="N/A">Chicken Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptychickenfarm_1</action>
-		<action>qbreedchicken</action>
-	</emptychickenfarm_1>
 	
 	<emptyroosterfarm>
 		<name esES="N/A">Rooster Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<description esES="N/A">Medeival Alarm Clock factory!</description>
 		
-		<action>rotate_emptyroosterfarm</action>
-		<action>qbreedrooster</action>
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newroosterfarm</maxAgeItem>
 	</emptyroosterfarm>
-	
-	<emptyroosterfarm_1>
-		<name esES="N/A">Rooster Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptyroosterfarm_1</action>
-		<action>qbreedrooster</action>
-	</emptyroosterfarm_1>
 	
 	<emptyskootenbeetenfarm>
 		<name esES="N/A">Skootenbeeten Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptyskootenbeetenfarm</action>
-		<action>qbreedskootenbeeten</action>
+		<description esES="N/A">Watch your head!</description>
+
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newskootenbeetenfarm</maxAgeItem>
 	</emptyskootenbeetenfarm>
 	
-	<emptyskootenbeetenfarm_1>
-		<name esES="N/A">Skootenbeeten Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptyskootenbeetenfarm_1</action>
-		<action>qbreedskootenbeeten</action>
-	</emptyskootenbeetenfarm_1>
 	
 	<emptyunifallowfarm>
 		<name esES="N/A">Unifallow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptyunifallowfarm</action>
-		<action>qbreedunifallow</action>
+		<description esES="N/A">How do you see things?</description>
+
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newunifallowfarm</maxAgeItem>
 	</emptyunifallowfarm>
 	
-	<emptyunifallowfarm_1>
-		<name esES="N/A">Unifallow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptyunifallowfarm_1</action>
-		<action>qbreedunifallow</action>
-	</emptyunifallowfarm_1>
 	
 	<emptybadgerfarm>
 		<name esES="N/A">Badger Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptybadgerfarm</action>
-		<action>qbreedbadger</action>
+		<description esES="N/A">*Insert meme here*</description>
+
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newbadgerfarm</maxAgeItem>
 	</emptybadgerfarm>
 	
-	<emptybadgerfarm_1>
-		<name esES="N/A">Badger Barn</name>
-		<description esES="N/A">Quite smelly...</description>
-		
-		<action>rotate_emptybadgerfarm_1</action>
-		<action>qbreedbadger</action>
-	</emptybadgerfarm_1>
+	<emptysnoatfarm>
+		<name esES="N/A">snoat Barn</name>
+		<description esES="N/A">How do you fit in there?</description>
+
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newsnoatfarm</maxAgeItem>
+	</emptysnoatfarm>
 </items>

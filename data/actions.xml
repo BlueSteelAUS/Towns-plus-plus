@@ -1896,7 +1896,7 @@
 		<generatedItem>rawpork</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">pig,boar,wildpig</pickFriendly>
+			<pickFriendly useSource="true">pig,boar</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpork</createItem>
@@ -1941,7 +1941,7 @@
 		<generatedItem>rawsteak</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">cow,milkedcow,wildcow,milkedwildcow,bull</pickFriendly>
+			<pickFriendly useSource="true">cow,milkedcow,bull</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawsteak</createItem>
@@ -1955,7 +1955,7 @@
 		<generatedItem>rawsteak</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">unifallow,wildunifallow</pickFriendly>
+			<pickFriendly useSource="true">unifallow</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawsteak</createItem>
@@ -1969,7 +1969,7 @@
 		<generatedItem>rawpoultry</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">chicken,rooster,layedeggchicken,wildchicken,layedeggwildchicken</pickFriendly>
+			<pickFriendly useSource="true">chicken,rooster,layedeggchicken</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpoultry</createItem>
@@ -1999,7 +1999,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly useSource="true">skootenbeeten,layedeggskooten,wildskootenbeeten,layedeggwildskooten</pickFriendly>
+			<pickFriendly useSource="true">skootenbeeten,layedeggskooten</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpoultry</createItem>
@@ -2014,7 +2014,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly useSource="true">badger,wildbadger</pickFriendly>
+			<pickFriendly useSource="true">badger</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawbadgermeat</createItem>
@@ -2027,7 +2027,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>cow,bull,milkedcow,wildcow,milkedwildcow,snoat,milkedsnoat,reindeer,doe</pickFriendly>
+			<pickFriendly>cow,bull,milkedcow,snoat,milkedsnoat</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2043,7 +2043,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>badger,wildbadger</pickFriendly>
+			<pickFriendly>badger</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2059,7 +2059,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>unifallow,milkedunifallow,wildunifallow,milkedwildunifallow</pickFriendly>
+			<pickFriendly>unifallow,milkedunifallow</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2075,7 +2075,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>skootenbeeten,layedeggskooten,wildskootenbeeten,layedeggwildskooten</pickFriendly>
+			<pickFriendly>skootenbeeten,layedeggskooten</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2091,7 +2091,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>pig,wildpig</pickFriendly>
+			<pickFriendly>pig</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2106,7 +2106,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>pig,boar,cow,bull,chicken,rooster,unifallow,milkedcow,milkedunifallow,unifallow</pickFriendly>
+			<pickFriendly>pig,boar,cow,bull,chicken,rooster,unifallow,milkedcow,milkedunifallow</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2121,7 +2121,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>badger,wildbadger</pickFriendly>
+			<pickFriendly>badger</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2136,7 +2136,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>cow,unifallow,milkedcow,milkedunifallow,wildcow,wildunifallow,milkedwildcow,milkedwildunifallow</pickFriendly>
+			<pickFriendly>cow,milkedcow</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2151,7 +2151,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>chicken,skootenbeeten,layedeggchicken,layedeggskooten,wildchicken,wildskootenbeeten,layedeggwildchicken,layedeggwildskooten</pickFriendly>
+			<pickFriendly>chicken,rooster</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2187,6 +2187,36 @@
 			<destroyFriendly />
 			<unlock />
 			<createItem>rawdeersteak</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbutcherunifallow</id>
+
+		<priorityID>butcheringkilling</priorityID>
+
+		<queue>
+			<pickFriendly>unifallow</pickFriendly>
+			<move>butchertable</move>
+			<wait>32</wait>
+			<destroyFriendly />
+			<unlock />
+			<createItem>rawsteak</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbutcherskootenbeeten</id>
+
+		<priorityID>butcheringkilling</priorityID>
+
+		<queue>
+			<pickFriendly>skootenbeeten</pickFriendly>
+			<move>butchertable</move>
+			<wait>32</wait>
+			<destroyFriendly />
+			<unlock />
+			<createItem>rawpoultry</createItem>
 		</queue>
 	</action>
 
@@ -2410,7 +2440,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
-			<pick>rawsteak</pick>
+			<pick>rawsteak,rawdeersteak</pick>
 			<move>kitchentable</move>
 			<wait>32</wait>
 			<destroyItem />
@@ -15442,13 +15472,13 @@
 		<id>qnewchickenfarm</id>
 		<name esES="N/A">Chicken Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue>
+		<queue> 
 			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly />
+			<destroyFriendly /> 
 			<pick>rmwood</pick>
 			<move useSource="true">carpentrybench</move>
 			<wait>15</wait>
@@ -15462,13 +15492,13 @@
 		<id>qnewroosterfarm</id>
 		<name esES="N/A">Rooster Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue>
+		<queue> 
 			<pickFriendly>rooster,wildrooster</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>rooster,wildrooster</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly />
+			<destroyFriendly /> 
 			<pick>rmwood</pick>
 			<move useSource="true">carpentrybench</move>
 			<wait>15</wait>
@@ -15482,13 +15512,13 @@
 		<id>qnewskootenbeetenfarm</id>
 		<name esES="N/A">Skootenbeeten Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue>
+		<queue> 
 			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly />
+			<destroyFriendly /> 
 			<pick>rmwood</pick>
 			<move useSource="true">carpentrybench</move>
 			<wait>15</wait>
@@ -15502,13 +15532,13 @@
 		<id>qnewunifallowfarm</id>
 		<name esES="N/A">Unifallow Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue>
+		<queue> 
 			<pickFriendly>unifallow,wildunifallow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>unifallow,wildunifallow</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly />
+			<destroyFriendly /> 
 			<pick>rmwood</pick>
 			<move useSource="true">carpentrybench</move>
 			<wait>15</wait>
@@ -15535,6 +15565,26 @@
 			<destroyItem />
 			<unlock />
 			<createItem>newbadgerfarm</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewsnoatfarm</id>
+		<name esES="N/A">Snoat Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>snoat</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>snoat</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly /> 
+			<pick>rmwood</pick>
+			<move useSource="true">carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newsnoatfarm</createItem>
 		</queue>
 	</action>
 	
@@ -15572,7 +15622,8 @@
 			<pick>wheat</pick>
 			<move useSource="true">newbullfarm</move>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyItem />		
+			<replaceCellItem>emptybullfarm</replaceCellItem>
 			<createFriendly>bull</createFriendly>
 			<unlock />
 		</queue>
@@ -15592,6 +15643,7 @@
 			<move useSource="true">newpigfarm</move>
 			<wait>15</wait>
 			<destroyItem />
+			<replaceCellItem>emptypigfarm</replaceCellItem>
 			<createFriendly>pig</createFriendly>
 			<unlock />
 		</queue>
@@ -15610,7 +15662,8 @@
 			<pick>wheat</pick>
 			<move useSource="true">newboarfarm</move>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyItem />			
+			<replaceCellItem>emptyboarfarm</replaceCellItem>
 			<createFriendly>boar</createFriendly>
 			<unlock />
 		</queue>
@@ -15630,6 +15683,7 @@
 			<move useSource="true">newchickenfarm</move>
 			<wait>15</wait>
 			<destroyItem />
+			<replaceCellItem>emptychickenfarm</replaceCellItem>
 			<createFriendly>chicken</createFriendly>
 			<unlock />
 		</queue>
@@ -15649,6 +15703,7 @@
 			<move useSource="true">newroosterfarm</move>
 			<wait>15</wait>
 			<destroyItem />
+			<replaceCellItem>emptyroosterfarm</replaceCellItem>
 			<createFriendly>rooster</createFriendly>
 			<unlock />
 		</queue>
@@ -15667,7 +15722,8 @@
 			<pick>wheat</pick>
 			<move useSource="true">newskootenbeetenfarm</move>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyItem />			
+			<replaceCellItem>emptyskootenbeetenfarm</replaceCellItem>
 			<createFriendly>skootenbeeten</createFriendly>
 			<unlock />
 		</queue>
@@ -15686,7 +15742,8 @@
 			<pick>wheat</pick>
 			<move useSource="true">newunifallowfarm</move>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyItem />			
+			<replaceCellItem>emptyunifallowfarm</replaceCellItem>
 			<createFriendly>unifallow</createFriendly>
 			<unlock />
 		</queue>
@@ -15705,249 +15762,30 @@
 			<pick>wheat</pick>
 			<move useSource="true">newbadgerfarm</move>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyItem />			
+			<replaceCellItem>emptybadgerfarm</replaceCellItem>
 			<createFriendly>badger</createFriendly>
 			<unlock />
 		</queue>
 	</action>
-	<!-- ROTATE NEW FARMS -->
-	<action>
-		<id>rotate_newcowfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newcowfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newcowfarm_1</replaceCellItem>
-		</queue>
-	</action>
 	
 	<action>
-		<id>rotate_newcowfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
+		<id>qbreedsnoat</id>
+		<name esES="N/A">Breed Snoat</name>
+		<generatedItem>snoat</generatedItem>
+		<priorityID>gathering</priorityID>
 		<queue>
-			<move useSource="true">newcowfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newcowfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newbullfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newbullfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newbullfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newbullfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newbullfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newbullfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newpigfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newpigfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newpigfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newpigfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newpigfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newpigfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newboarfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newboarfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newboarfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newboarfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newboarfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newboarfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newchickenfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newchickenfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newchickenfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newchickenfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newchickenfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newchickenfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newroosterfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newroosterfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newroosterfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newroosterfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newroosterfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newroosterfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newskootenbeetenfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newskootenbeetenfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newskootenbeetenfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newskootenbeetenfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newskootenbeetenfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newskootenbeetenfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newunifallowfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newunifallowfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newunifallowfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newunifallowfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newunifallowfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newunifallowfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newbadgerfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newbadgerfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>newbadgerfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_newbadgerfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">newbadgerfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>newbadgerfarm</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_emptycowfarm</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">emptycowfarm</move>
-			<wait>10</wait>
-			<replaceCellItem>emptycowfarm_1</replaceCellItem>
-		</queue>
-	</action>
-	
-	<action>
-		<id>rotate_emptycowfarm_1</id>
-		<name esES="N/A">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		
-		<queue>
-			<move useSource="true">emptycowfarm_1</move>
-			<wait>10</wait>
-			<replaceCellItem>emptycowfarm</replaceCellItem>
+			<pick>wheat</pick>
+			<move useSource="true">newsnoatfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newsnoatfarm</move>
+			<wait>15</wait>
+			<destroyItem />			
+			<replaceCellItem>emptysnoatfarm</replaceCellItem>
+			<createFriendly>snoat</createFriendly>
+			<unlock />
 		</queue>
 	</action>
 </actions>

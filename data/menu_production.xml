@@ -336,11 +336,22 @@
 	</decorative>
 
 	<food name="Food" esES="Comida" icon="ui_rfood">
+			<animals name="Animals" esES="N/A" icon="ui_cowfarm">
 			<item code="QUEUE" parameter="qbreedcow" />
 			<item code="QUEUE" parameter="qbreedbull" />
+			<item code="QUEUE" parameter="qbreedpig" />
+			<item code="QUEUE" parameter="qbreedboar" />
+			<item code="QUEUE" parameter="qbreedchicken" />
+			<item code="QUEUE" parameter="qbreedrooster" />
+			<item code="QUEUE" parameter="qbreedskootenbeeten" />
+			<item code="QUEUE" parameter="qbreedunifallow" />
+			<item code="QUEUE" parameter="qbreedbadger" />
+			<item code="QUEUE" parameter="qbreedsnoat" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</animals>
 			<raw name="Raw Foods" esES="N/A" icon="ui_appleseed">
 
-			<harvesting name="Harvesting" esES="N/A" icon="ui_appleseed">
+			<harvesting name="Harvesting" esES="N/A" icon="ui_rfoodgathering">
 				<item code="QUEUE" parameter="qharvestwheat" />
 				<item code="QUEUE" parameter="qharvestsugarcane" />
 				<item code="QUEUE" parameter="qharvestpapple" />
@@ -355,7 +366,7 @@
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</harvesting>
 
-			<animals name="Gathering" esES="Gathering" icon="ui_chickenfarm">
+			<animalsgathering name="Gathering" esES="Gathering" icon="ui_chickenfarm">
 				<item code="QUEUE" parameter="qmilkcow" />
 				<item code="QUEUE" parameter="qmilkwildcow" />
 				<item code="QUEUE" parameter="qmilkdoe" />
@@ -370,7 +381,7 @@
 				<item code="QUEUE" parameter="qwaterbucket" />
 
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</animals>
+			</animalsgathering>
 
 			<processing name="Processing" esES="N/A" icon="flour">
 			<item code="QUEUE" parameter="qflour" icon="flour" />
@@ -385,8 +396,9 @@
 			<item code="QUEUE" parameter="qbutcherpoultry" />
 			<item code="QUEUE" parameter="qbutchercow" />
 			<item code="QUEUE" parameter="qbutcherpig" />
-			<item code="QUEUE" parameter="qbutcherreindeer" />
 			<item code="QUEUE" parameter="qbutchersnoat" />
+			<item code="QUEUE" parameter="qbutcherunifallow" />
+			<item code="QUEUE" parameter="qbutcherskootenbeeten" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</butchering>
 	
