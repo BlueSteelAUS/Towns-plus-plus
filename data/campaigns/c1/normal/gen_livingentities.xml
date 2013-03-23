@@ -41,7 +41,7 @@
 
 	<add>
 		<entity>bird</entity>
-		<qtty>250</qtty>
+		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
