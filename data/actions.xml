@@ -1896,7 +1896,7 @@
 		<generatedItem>rawpork</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">pig,boar</pickFriendly>
+			<pickFriendly useSource="true">pig,boar,wildpig,wildboar</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpork</createItem>
@@ -1941,7 +1941,7 @@
 		<generatedItem>rawsteak</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">cow,milkedcow,bull</pickFriendly>
+			<pickFriendly useSource="true">cow,milkedcow,bull,wildcow,wildbull</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawsteak</createItem>
@@ -1955,7 +1955,7 @@
 		<generatedItem>rawsteak</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">unifallow</pickFriendly>
+			<pickFriendly useSource="true">unifallow,wildunifallow</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawsteak</createItem>
@@ -1969,7 +1969,7 @@
 		<generatedItem>rawpoultry</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">chicken,rooster,layedeggchicken</pickFriendly>
+			<pickFriendly useSource="true">chicken,rooster,layedeggchicken,wildchicken,wildrooster</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpoultry</createItem>
@@ -1999,7 +1999,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly useSource="true">skootenbeeten,layedeggskooten</pickFriendly>
+			<pickFriendly useSource="true">skootenbeeten,layedeggskooten,wildskootenbeeten</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpoultry</createItem>
@@ -2014,7 +2014,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly useSource="true">badger</pickFriendly>
+			<pickFriendly useSource="true">badger,wildbadger</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawbadgermeat</createItem>
@@ -2106,7 +2106,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>pig,boar,cow,bull,chicken,rooster,unifallow,milkedcow,milkedunifallow</pickFriendly>
+			<pickFriendly>pig,boar,cow,bull,chicken,rooster,unifallow,milkedcow,milkedunifallow,wildrooster</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
