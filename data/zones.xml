@@ -432,13 +432,4 @@
 		<minWidth>1</minWidth>
 		<minHeight>1</minHeight>
 	</efloor50>
-	
-	<!-- NEW FARMS -->
-	<zpasture>
-		<name esES="N/A">Pasture</name>
-		<type>WORKSHOP</type>
-		<minWidth>3</minWidth>
-		<minHeight>3</minHeight>
-	</zpasture>
-
 </zones>

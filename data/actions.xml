@@ -15553,6 +15553,7 @@
 			<move>newcowfarm</move>
 			<wait>15</wait>
 			<destroyItem />
+			<replaceCellItem>emptycowfarm</replaceCellItem>
 			<createFriendly>cow</createFriendly>
 			<unlock />
 		</queue>
@@ -15923,6 +15924,30 @@
 			<move useSource="true">newbadgerfarm_1</move>
 			<wait>10</wait>
 			<replaceCellItem>newbadgerfarm</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_emptycowfarm</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">emptycowfarm</move>
+			<wait>10</wait>
+			<replaceCellItem>emptycowfarm_1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_emptycowfarm_1</id>
+		<name esES="N/A">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		
+		<queue>
+			<move useSource="true">emptycowfarm_1</move>
+			<wait>10</wait>
+			<replaceCellItem>emptycowfarm</replaceCellItem>
 		</queue>
 	</action>
 </actions>

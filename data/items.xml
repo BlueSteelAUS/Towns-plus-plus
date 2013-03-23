@@ -12449,7 +12449,7 @@
 	<newcowfarm>
 		<name esES="N/A">Cow Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newcowfarm</action>
 		<action>qbreedcow</action>
 	</newcowfarm>
@@ -12457,7 +12457,7 @@
 	<newcowfarm_1>
 		<name esES="N/A">Cow Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newcowfarm_1</action>
 		<action>qbreedcow</action>
 	</newcowfarm_1>
@@ -12465,7 +12465,7 @@
 	<newbullfarm>
 		<name esES="N/A">Bull Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newbullfarm</action>
 		<action>qbreedbull</action>
 	</newbullfarm>
@@ -12473,7 +12473,7 @@
 	<newbullfarm_1>
 		<name esES="N/A">Bull Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newbullfarm_1</action>
 		<action>qbreedbull</action>
 	</newbullfarm_1>
@@ -12481,7 +12481,7 @@
 	<newpigfarm>
 		<name esES="N/A">Pig Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newpigfarm</action>
 		<action>qbreedpig</action>
 	</newpigfarm>
@@ -12489,7 +12489,7 @@
 	<newpigfarm_1>
 		<name esES="N/A">Pig Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newpigfarm_1</action>
 		<action>qbreedpig</action>
 	</newpigfarm_1>
@@ -12497,7 +12497,7 @@
 	<newboarfarm>
 		<name esES="N/A">Boar Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newboarfarm</action>
 		<action>qbreedboar</action>
 	</newboarfarm>
@@ -12505,7 +12505,7 @@
 	<newboarfarm_1>
 		<name esES="N/A">Boar Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newboarfarm_1</action>
 		<action>qbreedboar</action>
 	</newboarfarm_1>
@@ -12513,7 +12513,7 @@
 	<newchickenfarm>
 		<name esES="N/A">Chicken Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newchickenfarm</action>
 		<action>qbreedchicken</action>
 	</newchickenfarm>
@@ -12521,7 +12521,7 @@
 	<newchickenfarm_1>
 		<name esES="N/A">Chicken Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newchickenfarm_1</action>
 		<action>qbreedchicken</action>
 	</newchickenfarm_1>
@@ -12529,7 +12529,7 @@
 	<newroosterfarm>
 		<name esES="N/A">Rooster Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newroosterfarm</action>
 		<action>qbreedrooster</action>
 	</newroosterfarm>
@@ -12537,7 +12537,7 @@
 	<newroosterfarm_1>
 		<name esES="N/A">Rooster Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newroosterfarm_1</action>
 		<action>qbreedrooster</action>
 	</newroosterfarm_1>
@@ -12545,7 +12545,7 @@
 	<newskootenbeetenfarm>
 		<name esES="N/A">Skootenbeeten Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newskootenbeetenfarm</action>
 		<action>qbreedskootenbeeten</action>
 	</newskootenbeetenfarm>
@@ -12553,7 +12553,7 @@
 	<newskootenbeetenfarm_1>
 		<name esES="N/A">Skootenbeeten Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newskootenbeetenfarm_1</action>
 		<action>qbreedskootenbeeten</action>
 	</newskootenbeetenfarm_1>
@@ -12561,7 +12561,7 @@
 	<newunifallowfarm>
 		<name esES="N/A">Unifallow Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newunifallowfarm</action>
 		<action>qbreedunifallow</action>
 	</newunifallowfarm>
@@ -12569,7 +12569,7 @@
 	<newunifallowfarm_1>
 		<name esES="N/A">Unifallow Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newunifallowfarm_1</action>
 		<action>qbreedunifallow</action>
 	</newunifallowfarm_1>
@@ -12577,7 +12577,7 @@
 	<newbadgerfarm>
 		<name esES="N/A">Badger Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newbadgerfarm</action>
 		<action>qbreedbadger</action>
 	</newbadgerfarm>
@@ -12585,8 +12585,154 @@
 	<newbadgerfarm_1>
 		<name esES="N/A">Badger Barn</name>
 		<description esES="N/A">Quite smelly...</description>
-		<zone>zpasture</zone>
+		
 		<action>rotate_newbadgerfarm_1</action>
 		<action>qbreedbadger</action>
 	</newbadgerfarm_1>
+	
+	<!-- NEW FARMS EMPTY -->
+	<emptycowfarm>
+		<name esES="N/A">Empty Cow Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		<action>rotate_emptycowfarm</action>
+		<maxAge>1000</maxAge>
+		<maxAgeItem>newcowfarm</maxAgeItem>
+	</emptycowfarm>
+		
+	<emptycowfarm_1>
+		<name esES="N/A">Cow Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptycowfarm_1</action>
+		<maxAge>150</maxAge>
+		<maxAgeItem>newcowfarm_1</maxAgeItem>
+	</emptycowfarm_1>
+	
+	<emptybullfarm>
+		<name esES="N/A">Bull Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptybullfarm</action>
+		<action>qbreedbull</action>
+	</emptybullfarm>
+	
+	<emptybullfarm_1>
+		<name esES="N/A">Bull Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptybullfarm_1</action>
+		<action>qbreedbull</action>
+	</emptybullfarm_1>
+	
+	<emptypigfarm>
+		<name esES="N/A">Pig Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptypigfarm</action>
+		<action>qbreedpig</action>
+	</emptypigfarm>
+	
+	<emptypigfarm_1>
+		<name esES="N/A">Pig Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptypigfarm_1</action>
+		<action>qbreedpig</action>
+	</emptypigfarm_1>
+	
+	<emptyboarfarm>
+		<name esES="N/A">Boar Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyboarfarm</action>
+		<action>qbreedboar</action>
+	</emptyboarfarm>
+	
+	<emptyboarfarm_1>
+		<name esES="N/A">Boar Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyboarfarm_1</action>
+		<action>qbreedboar</action>
+	</emptyboarfarm_1>
+	
+	<emptychickenfarm>
+		<name esES="N/A">Chicken Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptychickenfarm</action>
+		<action>qbreedchicken</action>
+	</emptychickenfarm>
+	
+	<emptychickenfarm_1>
+		<name esES="N/A">Chicken Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptychickenfarm_1</action>
+		<action>qbreedchicken</action>
+	</emptychickenfarm_1>
+	
+	<emptyroosterfarm>
+		<name esES="N/A">Rooster Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyroosterfarm</action>
+		<action>qbreedrooster</action>
+	</emptyroosterfarm>
+	
+	<emptyroosterfarm_1>
+		<name esES="N/A">Rooster Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyroosterfarm_1</action>
+		<action>qbreedrooster</action>
+	</emptyroosterfarm_1>
+	
+	<emptyskootenbeetenfarm>
+		<name esES="N/A">Skootenbeeten Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyskootenbeetenfarm</action>
+		<action>qbreedskootenbeeten</action>
+	</emptyskootenbeetenfarm>
+	
+	<emptyskootenbeetenfarm_1>
+		<name esES="N/A">Skootenbeeten Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyskootenbeetenfarm_1</action>
+		<action>qbreedskootenbeeten</action>
+	</emptyskootenbeetenfarm_1>
+	
+	<emptyunifallowfarm>
+		<name esES="N/A">Unifallow Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyunifallowfarm</action>
+		<action>qbreedunifallow</action>
+	</emptyunifallowfarm>
+	
+	<emptyunifallowfarm_1>
+		<name esES="N/A">Unifallow Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptyunifallowfarm_1</action>
+		<action>qbreedunifallow</action>
+	</emptyunifallowfarm_1>
+	
+	<emptybadgerfarm>
+		<name esES="N/A">Badger Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptybadgerfarm</action>
+		<action>qbreedbadger</action>
+	</emptybadgerfarm>
+	
+	<emptybadgerfarm_1>
+		<name esES="N/A">Badger Barn</name>
+		<description esES="N/A">Quite smelly...</description>
+		
+		<action>rotate_emptybadgerfarm_1</action>
+		<action>qbreedbadger</action>
+	</emptybadgerfarm_1>
 </items>

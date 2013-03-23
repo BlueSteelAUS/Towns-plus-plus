@@ -371,7 +371,6 @@
     	<item code="BUILD" parameter="badgerfarm" icon="ui_badgerfarm" />
     	<item code="BUILD" parameter="skootenbeetenfarm" icon="ui_skootenbeetenfarm" />
     	<item code="BUILD" parameter="unifallowfarm" icon="ui_unifallowfarm" /> -->
-		<item code="CREATEZONE" parameter="zpasture" icon="zpasture" />
 		<item code="QUEUEANDPLACEAREA" parameter="qnewcowfarm" icon="cow" />
 		<item code="QUEUEANDPLACEAREA" parameter="qnewbullfarm" icon="bull" />
 		<item code="QUEUEANDPLACEAREA" parameter="qnewpigfarm" icon="pig" />
