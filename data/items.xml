@@ -12505,7 +12505,6 @@
 		<name esES="N/A">Rooster Barn</name>
 		<description esES="N/A">Medeival Alarm Clock factory!</description>
 		
-		<action>rotate_newroosterfarm</action>
 		<action>qbreedrooster</action>
 	</newroosterfarm>
 	

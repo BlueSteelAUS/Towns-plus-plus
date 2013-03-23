@@ -1617,7 +1617,6 @@
 		<movePCT>1d5+5</movePCT>
 		<walkSpeed>75</walkSpeed>
 
-		<building>roosterfarm</building>
 		<buildingTime>2880</buildingTime>
 
 		<action>qkillchicken</action>
