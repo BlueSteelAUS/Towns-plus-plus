@@ -15392,15 +15392,15 @@
 		<id>qnewcowfarm</id>
 		<name esES="N/A">Cow Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue>
+		<queue> 
 			<pickFriendly>cow,wildcow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>bull,wildbull</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly />
+			<destroyFriendly /> 
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15413,14 +15413,14 @@
 		<name esES="N/A">Bull Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly>bull,wildbull</pickFriendly>
+			<pickFriendly>cow,wildcow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>bull,wildbull</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly />
+			<destroyFriendly /> 
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15436,11 +15436,11 @@
 			<pickFriendly>pig,wildpig</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
-			<pickFriendly>pig,wildpig</pickFriendly>
+			<pickFriendly>boar,wildboar</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15453,14 +15453,14 @@
 		<name esES="N/A">Boar Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly>boar,wildboar</pickFriendly>
+			<pickFriendly>pig,wildpig</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>boar,wildboar</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15476,11 +15476,11 @@
 			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
-			<pickFriendly>chicken,wildchicken</pickFriendly>
+			<pickFriendly>rooster,wildrooster</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly /> 
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15493,14 +15493,14 @@
 		<name esES="N/A">Rooster Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue> 
-			<pickFriendly>rooster,wildrooster</pickFriendly>
+			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>rooster,wildrooster</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly /> 
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15520,7 +15520,7 @@
 			<wait>30</wait>
 			<destroyFriendly /> 
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15540,7 +15540,7 @@
 			<wait>30</wait>
 			<destroyFriendly /> 
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15560,7 +15560,7 @@
 			<wait>30</wait>
 			<destroyFriendly />
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15580,7 +15580,7 @@
 			<wait>30</wait>
 			<destroyFriendly /> 
 			<pick>rmwood</pick>
-			<move useSource="true">carpentrybench</move>
+			<move>carpentrybench</move>
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
@@ -15596,11 +15596,11 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pick>wheat</pick>
-			<move>newcowfarm</move>
+			<move useSource="true">newcowfarm</move>
 			<wait>15</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move>newcowfarm</move>
+			<move useSource="true">newcowfarm</move>
 			<wait>15</wait>
 			<destroyItem />
 			<replaceCellItem>emptycowfarm</replaceCellItem>
