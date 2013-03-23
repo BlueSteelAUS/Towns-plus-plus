@@ -35,7 +35,7 @@
 	</utilschest>
 
 	<decorativechest>
-		<name esES="Cofre decorativo">Decorative chest</name>
+		<name esES="Cofre decorativo">Decoration chest</name>
 		<type>decorative</type>
 		<container>true</container>
 		<containerSize>25</containerSize>

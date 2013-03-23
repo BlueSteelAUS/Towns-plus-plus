@@ -76,5 +76,5 @@
 	<cb262.decorative.outdoor esES="Decorativo">CB262 Decorations</cb262.decorative.outdoor>
 	
 	<!-- WINTER ITEMS -->
-	<decorative.winter esES="Winter Item">Winter Item</decorative.winter>
+	<decorative.winter esES="Winter Item" icon="winter_ui">Winter Item</decorative.winter>
 </types>

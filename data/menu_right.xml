@@ -407,9 +407,7 @@
 		<item code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
 		<item code="QUEUEANDPLACEAREA" parameter="qprepfoodbarrel" />
 		<item code="QUEUEANDPLACEAREA" parameter="qutilschest" />
-		<!-- Removed due to issues -LM
 		<item code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
-		-->
 		<item code="QUEUEANDPLACEAREA" parameter="qitechest" />
 		<item code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
 		<item code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
