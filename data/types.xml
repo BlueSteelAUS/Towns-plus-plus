@@ -13,9 +13,13 @@
 	
 	<!-- CONSTRUCTION STOCKPILES -LM -->
 	<construction esES="N/A">Construction</construction>
-	<construction.walls esES="N/A" icon="ui_rwalls">Walls</construction.walls>
-	<construction.walls.thin esES="N/A" icon="ui_rwalls">Walls</construction.walls.thin>
+	<construction.walls esES="N/A" icon="ui_rwalls">Thin Walls</construction.walls>
+	<construction.blockwalls esES="N/A" icon="ui_sb_walls">Block Walls</construction.blockwalls>
 	<construction.stairs esES="N/A" icon="ui_woodstairs">Stairs</construction.stairs>
+	<construction.doors esES="N/A" icon="ui_rdoors">Doors</construction.doors>
+	<construction.roofs esES="N/A" icon="ui_roofs">Roofs</construction.roofs>
+	<construction.windows esES="N/A" icon="ui_rwindows">Windows</construction.windows>
+	<construction.water esES="N/A" icon="waterbucket">Water Control</construction.water>
 
 	<rawmaterials.materials esES="Materiales" icon="ui_rmaterials">Materials</rawmaterials.materials>
 	<rawmaterials.colors esES="Colores" icon="ui_rcolors">Colors</rawmaterials.colors>
@@ -65,6 +69,11 @@
 	<armor.silver esES="Plata" icon="ui_rarmor_silver">Silver</armor.silver>
 	<weapon.special esES="Especiales" icon="ui_sp_weapons">Special</weapon.special>
 	<armor.special esES="Especiales" icon="ui_sp_armors">Special</armor.special>
+	
+	<!-- CB262 ROTATED ITEMS -->
+	<cb262.furniture esES="Muebles">CB262 Furniture</cb262.furniture>
+	<cb262.stairs esES="N/A">CB262 Stairs</cb262.stairs>
+	<cb262.decorative.outdoor esES="Decorativo">CB262 Decorations</cb262.decorative.outdoor>
 	
 	<!-- WINTER ITEMS -->
 	<decorative.winter esES="Winter Item">Winter Item</decorative.winter>

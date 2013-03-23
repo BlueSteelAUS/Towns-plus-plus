@@ -39,7 +39,6 @@
 			<item code="QUEUE" parameter="qwoodendarkroofitem" />
 			<item code="QUEUE" parameter="qclayroof" />
 			<item code="QUEUE" parameter="qmarketroof" />
-			<item code="QUEUE" parameter="qchimney" />
 			<item code="QUEUE" parameter="qchimney2" />
 			<item code="QUEUE" parameter="qchimney3" />		
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
@@ -197,6 +196,7 @@
 			<item code="QUEUE" parameter="qchest" />
 			<item code="QUEUE" parameter="qclock" />
 			<item code="QUEUE" parameter="qharp" />
+			<item code="QUEUE" parameter="qchimney" />
 			<item code="QUEUE" parameter="qpotplant" />
 			<item code="QUEUE" parameter="qflowerpot_red" />
 			<item code="QUEUE" parameter="qflowerpot_blue" />			
@@ -207,23 +207,23 @@
 
 		<outdoor name="Outdoor" esES="Exterior" icon="ui_outdoor">
 
-			<banners name="Banners" eeES="N/A" icon="ui_banner">
-				<item code="QUEUE" parameter="qredlongflag" />
-				<item code="QUEUE" parameter="qbluebanner" />
-				<item code="QUEUE" parameter="qgreenbanner" />
-				<item code="QUEUE" parameter="qpurplebanner" />
-				<item code="QUEUE" parameter="qblackbanner" />				
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</banners>			
+		<banners name="Banners" eeES="N/A" icon="ui_banner">
+			<item code="QUEUE" parameter="qredlongflag" />
+			<item code="QUEUE" parameter="qbluebanner" />
+			<item code="QUEUE" parameter="qgreenbanner" />
+			<item code="QUEUE" parameter="qpurplebanner" />
+			<item code="QUEUE" parameter="qblackbanner" />				
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</banners>			
 
-			<flags name="Flags" eeES="N/A" icon="ui_flag">
-				<item code="QUEUE" parameter="qredshortflag" />
-				<item code="QUEUE" parameter="qblueshortflag" />
-				<item code="QUEUE" parameter="qgreenshortflag" />
-				<item code="QUEUE" parameter="qpurpleshortflag" />
-				<item code="QUEUE" parameter="qblackshortflag" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</flags>
+		<flags name="Flags" eeES="N/A" icon="ui_flag">
+			<item code="QUEUE" parameter="qredshortflag" />
+			<item code="QUEUE" parameter="qblueshortflag" />
+			<item code="QUEUE" parameter="qgreenshortflag" />
+			<item code="QUEUE" parameter="qpurpleshortflag" />
+			<item code="QUEUE" parameter="qblackshortflag" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</flags>
 
 		<garden name="Gardens" eeES="N/A" icon="gardenbush3">
 			<item code="QUEUE" parameter="qbonsai" />
@@ -260,25 +260,25 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</poles>
 
-			<signs name="Signs" eeES="N/A" icon="ui_sign">
-				<item code="QUEUE" parameter="qdoorsignswords_E1" />			
-				<item code="QUEUE" parameter="qsign_1_E" icon="sign_1_W" />
-				<item code="QUEUE" parameter="qsign_2_E" icon="sign_2_W" />
-				<item code="QUEUE" parameter="qsign_3_E" icon="sign_3_W" />
-				<item code="QUEUE" parameter="qsign_4_E" icon="sign_4_W" />
-				<item code="QUEUE" parameter="qsign_5_E" icon="sign_5_W" />
-				<item code="QUEUE" parameter="qsign_6_E" icon="sign_6_W" />
-				<item code="QUEUE" parameter="qsign_7_E" icon="sign_7_W" />
-				<item code="QUEUE" parameter="qsign_8_E" icon="sign_8_W" />
-				<item code="QUEUE" parameter="qsign_9_E" icon="sign_9_W" />
-				<item code="QUEUE" parameter="qsign_10_E" icon="sign_10_W" />
-				<item code="QUEUE" parameter="qsign_11_E" icon="sign_11_W" />
-				<item code="QUEUE" parameter="qsign_12_E" icon="sign_12_W" />
-				<item code="QUEUE" parameter="qsign_13_E" icon="sign_13_W" />
-				<item code="QUEUE" parameter="qsign_14_E" icon="sign_14_W" />
-				<item code="QUEUE" parameter="qsign_15_E" icon="sign_15_W" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</signs>
+		<signs name="Signs" eeES="N/A" icon="ui_sign">
+			<item code="QUEUE" parameter="qdoorsignswords_E1" />			
+			<item code="QUEUE" parameter="qsign_1_E" icon="sign_1_W" />
+			<item code="QUEUE" parameter="qsign_2_E" icon="sign_2_W" />
+			<item code="QUEUE" parameter="qsign_3_E" icon="sign_3_W" />
+			<item code="QUEUE" parameter="qsign_4_E" icon="sign_4_W" />
+			<item code="QUEUE" parameter="qsign_5_E" icon="sign_5_W" />
+			<item code="QUEUE" parameter="qsign_6_E" icon="sign_6_W" />
+			<item code="QUEUE" parameter="qsign_7_E" icon="sign_7_W" />
+			<item code="QUEUE" parameter="qsign_8_E" icon="sign_8_W" />
+			<item code="QUEUE" parameter="qsign_9_E" icon="sign_9_W" />
+			<item code="QUEUE" parameter="qsign_10_E" icon="sign_10_W" />
+			<item code="QUEUE" parameter="qsign_11_E" icon="sign_11_W" />
+			<item code="QUEUE" parameter="qsign_12_E" icon="sign_12_W" />
+			<item code="QUEUE" parameter="qsign_13_E" icon="sign_13_W" />
+			<item code="QUEUE" parameter="qsign_14_E" icon="sign_14_W" />
+			<item code="QUEUE" parameter="qsign_15_E" icon="sign_15_W" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</signs>
 
 		<statues name="Statues" eeES="N/A" icon="stonemalestatue">
 			<item code="QUEUE" parameter="qstonemalestatue" />
@@ -312,7 +312,7 @@
 			<item code="QUEUE" parameter="qxmasbakeroven" />
 			<item code="QUEUE" parameter="qxmaschimney" />
 			<item code="QUEUE" parameter="qxmasfireplace" />
-		  <item code="QUEUE" parameter="qaxmastree" icon="axmastree1" />
+			<item code="QUEUE" parameter="qaxmastree" icon="axmastree1" />
  			<item code="QUEUE" parameter="qxmastree" icon="xmastree_decorated_gifts"/>
 			<item code="QUEUE" parameter="qsnowman1" />
 			<item code="QUEUE" parameter="qsnowman3" />
