@@ -65,17 +65,24 @@ Un-Till button. You can now quickly and easily Un-Till the land that you've till
 when you no longer need it. As of Towns++ v5 the Un-Till button is now located in the 
 Terraforming section of the action menu.
 
+The Dining Room has been removed. It may be re-added in a future update, but now your
+villagers will join your heroes and eat in the Tavern. This will make your taverns
+much busier, as they should be.
+
 The production menu has also been tweaked and added to so that you can make things
 without placing them, this is handy for quickly replacing doors etc.
 it will also allow for a latter addition to my modpack where you'll also be able
 to SELL them to markets as they are interested in buying (Still being worked on).
 
-You now need both genders of animals in order to farm them. this means that even
-on the farms that don't have genders you'll now need two animals. 
-EG: bull,Cow : rooster,chicken : pig,boar  badger,badger unifallow,unifallow etc.
-to help cater for this bull,boar,rooster farms have also been added, same thing
-applies with them. so don't use up all your wild animals if you still want to eat
-them, until you have your farms built.
+Farms have been converted from buildings to items, like the carpentry bench. Currently
+you can control production from the left hand menu, however the game does not count
+how many of an animal you have. If you set any production maximum above 1 they will
+automatically produce more animals.
+
+In order to construct the new farms you need a male and a female of the animal you want
+to farm (or two of animals with only one gender) and some wood. In order to produce
+an animal, you need two wheat. After producing an animal there will be a cooldown
+period identical to how long the vanilla farms took to produce a single animal.  
 
 Note: also while going through the data files I noticed that there is a hero that
 kills bulls and boars (this is in the standard game, I haven't edited them at all)
@@ -111,7 +118,7 @@ Changed all CREATEANDPLACEs etc to CREATEANDPLACEAREA so now you can place a
 group of anything down at a time.
 
 Added TerraneChange to other miscelanous terrains, now you convert any terrain
-(except water and air and lava) to any other main terrain. (This will be balanced in 
+(except water, air and lava) to any other main terrain. (This will be balanced in 
 a future update so you need a sample of the terrain you want to change to in order to 
 convert it. For example, you will need a gold ore to terraform a tile into a gold deposit.)
 
@@ -156,6 +163,8 @@ Cobalt262
 ericb1800          
 FONDZ
 Ricky
+RedValkyrie
+Wolfy
 Jontis_00 (upon request per mod) so yes only certian mods of his
 (and a few others really early on who's mods are now no long in or have been edited way beyond
 what was originaly their mod. these mods were way back in the early days, some of which
@@ -165,7 +174,7 @@ Just because i have permission doesn't mean that I have any of their work in my 
 
 Meet the team
 =============
-Some members on the Towns forum have asked me if they can HELP me they are
+Some members on the Towns forum have asked me if they can help me they are
 -> LittleMikey
 -> YetiChow
 Welcome them aboard.
@@ -196,10 +205,9 @@ To install:
 
 Still on my to do list
 =======================
-Make reindeer,doe,snoat farms (I hate doing graphics.. I'm hopeless at it)
 Remake all my SPECIAL map generators that everyone seemed to enjoy (really big task)
 Add a marketer for stuff not yet being sold
-Re-Do the Stocks menu so that it fits along with my modified menu's
+Re-Do the Stocks menu so that it fits along with my modified menus
 Contact others about including their works
 Tidy up the xnl files and make them more uniformly organised for easier editing
 Re-organise both the stocks menu (huge task.) and production menmu
