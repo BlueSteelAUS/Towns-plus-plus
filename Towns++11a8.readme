@@ -1,53 +1,25 @@
 ﻿[code]
 
-Changes since Towns++_v11a6
+Changes since Towns++_v11a7
 ============================
 LittleMikey's Contributions:
 ============================
--> Townies now eat in the Tavern with Heroes. Dining Room removed. 
--> Added new stalls for the Market. No purpose as of yet, just decorative.
--> Added Rope Bridges made by GreyFalcon and edited by LittleMikey.
--> Moved the indoor chimney/fireplace from "Roofs" to "Decorations - Indoor".
--> Changed EFloors' Zones so Townies don't idle on them. 
--> Fixed Coal Mines being able to be built anywhere.
--> Swapped East & West rotations for beds so now the feet of the bed "points" in that direction.
--> Fixed issues with butchering new animals for bones.
--> Added new decorations for Tavern Tables.
--> Added lighting to more decorations.
--> Fixed mine action name for mineshafts.
--> Fixed tilling Jungle tiles.
--> Fixed tilling Desert tiles
--> Made changes to Winter Items, including some snowmen that didn't fit in, and changed one of the hats to green.
--> Fixed issue with shadows on log stairs.
--> Fixed issue with creating a Desert map.
--> Added new stockpile for Construction items. Now you can store your building parts and construct buildings much faster!
-   NOTE: There is no container for the Construction Stockpile. Have you ever tried to put a wall into a barrel? 
--> Added new farms, with graphics by me! (Sorry about them). These count as items intead of buildings, so they only 
-   take up a 1x1 space. However they still have the same wait time as a building to produce a new animal.
-   NOTE: Queue production in the left menu. The game will not tell you how many of an animal you have, but as long
-   as you set production above 0 your villagers will produce more animals.
--> Added "Destruction" menu tab. Currently it contains delete scaffold and delete rubble from mineshafts. It will 
-   be expanded in the future.
--> Changed dead female sound effect. Now quieter and shorter. 
--> Reduced number of birds spawning on "Normal" and "Deeper Dungeons" maps.
--> Removed ability to terraform tilled land, you need to turn it back into regular terrain first. 
+
 
 BlueSteel's Contributions
 =========================
--> DEV work for later releases
--> Mentoring LittleMikey
 
 [/code]
 
 [quote]
-Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/v11a-7.zip
+Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/v11a-8.zip
 
-My Live streaming is at twitch.tv/bluesteelaus
+My Live streaming is at http://www.twitch.tv/bluesteelaus
 My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL388A502D490AE834
 More videos and live streams will be done as time permits
 [/quote]
 
-[size=200][color=#0000FF]Towns++ v11a7 (for Towns 11a)[/color][/size]
+[size=200][color=#0000FF]Towns++ v11a8 (for Towns 11a)[/color][/size]
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
 This mod pack changes the general layout of the right menu panel and the main (bottom)
@@ -215,6 +187,43 @@ Re-organise both the stocks menu (huge task.) and production menmu
 
 change logs
 ===========
+
+Changes since Towns++_v11a6
+============================
+LittleMikey's Contributions:
+============================
+-> Townies now eat in the Tavern with Heroes. Dining Room removed. 
+-> Added new stalls for the Market. No purpose as of yet, just decorative.
+-> Added Rope Bridges made by GreyFalcon and edited by LittleMikey.
+-> Moved the indoor chimney/fireplace from "Roofs" to "Decorations - Indoor".
+-> Changed EFloors' Zones so Townies don't idle on them. 
+-> Fixed Coal Mines being able to be built anywhere.
+-> Swapped East & West rotations for beds so now the feet of the bed "points" in that direction.
+-> Fixed issues with butchering new animals for bones.
+-> Added new decorations for Tavern Tables.
+-> Added lighting to more decorations.
+-> Fixed mine action name for mineshafts.
+-> Fixed tilling Jungle tiles.
+-> Fixed tilling Desert tiles
+-> Made changes to Winter Items, including some snowmen that didn't fit in, and changed one of the hats to green.
+-> Fixed issue with shadows on log stairs.
+-> Fixed issue with creating a Desert map.
+-> Added new stockpile for Construction items. Now you can store your building parts and construct buildings much faster!
+   NOTE: There is no container for the Construction Stockpile. Have you ever tried to put a wall into a barrel? 
+-> Added new farms, with graphics by me! (Sorry about them). These count as items intead of buildings, so they only 
+   take up a 1x1 space. However they still have the same wait time as a building to produce a new animal.
+   NOTE: Queue production in the left menu. The game will not tell you how many of an animal you have, but as long
+   as you set production above 0 your villagers will produce more animals.
+-> Added "Destruction" menu tab. Currently it contains delete scaffold and delete rubble from mineshafts. It will 
+   be expanded in the future.
+-> Changed dead female sound effect. Now quieter and shorter. 
+-> Reduced number of birds spawning on "Normal" and "Deeper Dungeons" maps.
+-> Removed ability to terraform tilled land, you need to turn it back into regular terrain first. 
+
+BlueSteel's Contributions
+=========================
+-> DEV work for later releases
+-> Mentoring LittleMikey
 
 Changes since Towns++_v11a5
 ============================
