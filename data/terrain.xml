@@ -494,104 +494,24 @@
 		<name esES="Humus en hierba">Humus on grass</name>
 		<mineTurns>0</mineTurns>
 		<action>quntillgrass</action>
-		<action>qterraformtodirt</action>
-		<action>qterraformtograss</action>
-		<action>qterraformtograssnoflower</action>
-		<action>qterraformtograssnoflower1</action>
-		<action>qterraformtograssnoflower2</action>
-		<action>qterraformtofloatinggrass</action>
-		<action>qterraformtojungle</action>
-		<action>qterraformtosand</action>
-		<action>qterraformtostone</action>
-		<action>qterraformtosnow</action>
-		<action>qterraformtogravel</action>
-		<action>qterraformtodensestone</action>
-		<action>qterraformtodungeon3</action>
-		<action>qterraformtocoal</action>
-		<action>qterraformtoiron</action>
-		<action>qterraformtocopper</action>
-		<action>qterraformtosilver</action>
-		<action>qterraformtogold</action>
-		<action>qterraformtolavarock</action>
-		<action>qterraformtolavadirt</action>
 		</humus>
 
 	<junglehumus>
 		<name esES="Humus en jungla">Humus on jungle</name>
 		<mineTurns>0</mineTurns>
 		<action>quntilljungle</action>
-		<action>qterraformtodirt</action>
-		<action>qterraformtograss</action>
-		<action>qterraformtograssnoflower</action>
-		<action>qterraformtograssnoflower1</action>
-		<action>qterraformtograssnoflower2</action>
-		<action>qterraformtofloatinggrass</action>
-		<action>qterraformtojungle</action>
-		<action>qterraformtosand</action>
-		<action>qterraformtostone</action>
-		<action>qterraformtosnow</action>
-		<action>qterraformtogravel</action>
-		<action>qterraformtodensestone</action>
-		<action>qterraformtodungeon3</action>
-		<action>qterraformtocoal</action>
-		<action>qterraformtoiron</action>
-		<action>qterraformtocopper</action>
-		<action>qterraformtosilver</action>
-		<action>qterraformtogold</action>
-		<action>qterraformtolavarock</action>
-		<action>qterraformtolavadirt</action>
 	</junglehumus>
 
 	<sandhumus>
 		<name esES="Humus en arena">Humus on sand</name>
 		<mineTurns>0</mineTurns>
 		<action>quntillsand</action>
-		<action>qterraformtodirt</action>
-		<action>qterraformtograss</action>
-		<action>qterraformtograssnoflower</action>
-		<action>qterraformtograssnoflower1</action>
-		<action>qterraformtograssnoflower2</action>
-		<action>qterraformtofloatinggrass</action>
-		<action>qterraformtojungle</action>
-		<action>qterraformtosand</action>
-		<action>qterraformtostone</action>
-		<action>qterraformtosnow</action>
-		<action>qterraformtogravel</action>
-		<action>qterraformtodensestone</action>
-		<action>qterraformtodungeon3</action>
-		<action>qterraformtocoal</action>
-		<action>qterraformtoiron</action>
-		<action>qterraformtocopper</action>
-		<action>qterraformtosilver</action>
-		<action>qterraformtogold</action>
-		<action>qterraformtolavarock</action>
-		<action>qterraformtolavadirt</action>
 	</sandhumus>
 
 	<snowhumus>
 		<name esES="Humus en nieve">Humus on snow</name>
 		<mineTurns>0</mineTurns>
 		<action>quntillsnow</action>
-		<action>qterraformtodirt</action>
-		<action>qterraformtograss</action>
-		<action>qterraformtograssnoflower</action>
-		<action>qterraformtograssnoflower1</action>
-		<action>qterraformtograssnoflower2</action>
-		<action>qterraformtofloatinggrass</action>
-		<action>qterraformtojungle</action>
-		<action>qterraformtosand</action>
-		<action>qterraformtostone</action>
-		<action>qterraformtosnow</action>
-		<action>qterraformtogravel</action>
-		<action>qterraformtodensestone</action>
-		<action>qterraformtodungeon3</action>
-		<action>qterraformtocoal</action>
-		<action>qterraformtoiron</action>
-		<action>qterraformtocopper</action>
-		<action>qterraformtosilver</action>
-		<action>qterraformtogold</action>
-		<action>qterraformtolavarock</action>
-		<action>qterraformtolavadirt</action>
 	</snowhumus>
 
 
