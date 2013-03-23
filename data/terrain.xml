@@ -545,7 +545,7 @@
 	<sandhumus>
 		<name esES="Humus en arena">Humus on sand</name>
 		<mineTurns>0</mineTurns>
-		<action>qtillsand</action>
+		<action>quntillsand</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
