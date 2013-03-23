@@ -2,7 +2,6 @@
 ## Towns
 #############
 
-data/audio/
 lib/
 
 *.bak
@@ -48,6 +47,15 @@ smplogo.png
 townslogo.png
 walls*.png
 
+fx_building.ogg
+fx_chop.ogg
+fx_click.ogg
+fx_deadenemy.ogg
+fx_deadmale.ogg
+fx_eat.ogg
+fx_mine.ogg
+music_IG.ogg
+music_MM.ogg
 
 #################
 ## Eclipse
