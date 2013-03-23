@@ -17,15 +17,18 @@ LittleMikey's Contributions:
 -> Added lighting to more decorations.
 -> Fixed mine action name for mineshafts.
 -> Fixed tilling Jungle tiles.
+-> Fixed tilling Desert tiles
 -> Made changes to Winter Items, including some snowmen that didn't fit in, and changed one of the hats to green.
 -> Fixed issue with shadows on log stairs.
 -> Fixed issue with creating a Desert map.
 -> Added new stockpile for Construction items. Now you can store your building parts and construct buildings much faster!
 NOTE: There is no container for the Construction Stockpile. Have you ever tried to put a wall into a barrel? 
--> Added new farms, with graphics by me! (Sorry about them). These count as items intead of buildings, so they only take up a 1x1 space. However they still
-have the same wait time as a building to produce a new animal. Currently you can set up automatic production using the
-left hand menu, but it will not tell you how many of the animal you have. If you set production maximum to be 1 
-it should just constantly produce animals once the farm is ready.
+-> Added new farms, with graphics by me! (Sorry about them). These count as items intead of buildings, so they only 
+take up a 1x1 space. However they still have the same wait time as a building to produce a new animal. Currently 
+you can set up automatic production using the left hand menu, but it will not tell you how many of the animal 
+you have. If you set production maximum to be 1 it should just constantly produce animals once the farm is ready.
+-> Added "Destruction" menu tab. Currently it contains delete scaffold and delete rubble for mineshafts. It will 
+be expanded in the future.
 
 BlueSteel's Contributions
 =========================

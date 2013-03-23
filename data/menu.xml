@@ -8,7 +8,6 @@
 	<item name="Mine" esES="Minar" code="MINE" icon="ui_mine" />
 	<item name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
 	<item name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
-	<item code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
 
 	<stockpiles name="Stockpiles" esES="Pilas" icon="ui_stockpile">
 		<item name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
@@ -20,13 +19,16 @@
 		<item name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
 		<item name="Weapons" esES="Armas" code="STOCKPILE" parameter="weapon" icon="ui_sweapon" />
 		<item name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
-		<item name="construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="scaffold" />
+		<item name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="scaffold" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</stockpiles>
-
+	<destruction name="Destruction" icon="fireball">
+			<item code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
+			<item name="Clear Rubble" code="CUSTOMACTION" parameter="qclearrubble" icon="rubble" />	
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</destruction>
 	<terraforming name="Terraform" icon="dirt">
 		<item name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
-		<item name="Clear Rubble" code="CUSTOMACTION" parameter="qclearrubble" icon="rubble" />
 		<item name="To dirt" code="CUSTOMACTION" parameter="qterraformtodirt" icon="dirt" />
 		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss" icon="grass" />
 <!--  	<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss1" icon="grass1" />
@@ -48,8 +50,8 @@
 		<item name="To copper" code="CUSTOMACTION" parameter="qterraformtocopper" icon="copper" />
 		<item name="To silver" code="CUSTOMACTION" parameter="qterraformtosilver" icon="silver" />
 		<item name="To gold" code="CUSTOMACTION" parameter="qterraformtogold" icon="gold" />
-		<item name="To lavarock" code="CUSTOMACTION" parameter="qterraformtolavarock" icon="lavarock" />
-		<item name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" />
+		<item name="To lavarock" code="CUSTOMACTION" parameter="qterraformtolavarock" icon="lavarock" />	<!--
+		<item name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" /> -->
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</terraforming>
 
