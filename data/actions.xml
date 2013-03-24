@@ -2136,7 +2136,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>cow,milkedcow</pickFriendly>
+			<pickFriendly>cow,milkedcow,bull</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
