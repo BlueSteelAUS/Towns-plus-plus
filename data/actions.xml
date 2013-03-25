@@ -8983,7 +8983,7 @@
 			<createItem>rmsand</createItem>
 		</queue>
 	</action>
-	<action> 
+	<action>
 		<id>qminegravel</id>
 		<generatedItem>rmflint</generatedItem>
 		<name>Mine</name>
@@ -8991,11 +8991,11 @@
 		<queue>
 			<move useSource="true">gravelmine</move>
 			<wait>6</wait>
-			<replaceCellItem>harvestedravelmine</replaceCellItem>
+			<replaceCellItem>harvestedgravelmine</replaceCellItem>
 			<createItem>rmflint</createItem>
 		</queue>
 	</action>
-	<action> 
+	<action>
 		<id>qminecoal</id>
 		<generatedItem>rmcoal</generatedItem>
 		<name>Mine</name>
