@@ -11159,9 +11159,6 @@
 		<locked>true</locked>
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
-		<locked>true</locked>
-		<stackable>false</stackable>
-		<stackableSize>1</stackableSize>
 	</harvestedgravelmine>
 
 	<coalmine>
