@@ -11146,7 +11146,11 @@
 		<maxAgeItem>rubble</maxAgeItem>
 		<action>qminegravel</action>
 		<alwaysOperative>false</alwaysOperative>
+		<locked>true</locked>
+		<stackable>false</stackable>
+		<stackableSize>1</stackableSize>
 	</gravelmine>
+	
 	<harvestedgravelmine>
 		<name esES="Pozo minero de gravilla">Gravel mineshaft</name>
 		<habitat>gravel</habitat>
