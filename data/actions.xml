@@ -11,7 +11,7 @@
 			<destroyCellItem />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qtill</id>
 		<priorityID>tilling</priorityID>
@@ -1082,7 +1082,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qmilksnoat</id>
 
@@ -1903,7 +1903,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qkillsnoat</id>
 		<name esES="Matar">Kill</name>
@@ -2091,7 +2091,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>pig</pickFriendly>
+			<pickFriendly>pig,boar</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2189,7 +2189,7 @@
 			<createItem>rawdeersteak</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbutcherunifallow</id>
 
@@ -2204,7 +2204,7 @@
 			<createItem>rawsteak</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbutcherskootenbeeten</id>
 
@@ -2269,7 +2269,7 @@
 
 	<action>
 		<id>qomelette</id>
-		
+
 		<priorityID>cooking</priorityID>
 
 		<queue>
@@ -2338,7 +2338,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qcookedfish</id>
 
@@ -2866,7 +2866,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qfancybrickfence</id>
 
@@ -2896,7 +2896,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>farmfence</createItem>
 		</queue>
 	</action>
@@ -2954,7 +2954,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lightwoodblock</createItem>
 		</queue>
 	</action>
@@ -3582,7 +3582,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qflagblockwhite</id>
 
@@ -3678,7 +3678,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodenblock</createItem>
 		</queue>
 	</action>
@@ -3693,7 +3693,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodenmossblock</createItem>
 		</queue>
 	</action>
@@ -4302,7 +4302,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>colombages</createItem>
 		</queue>
 	</action>
@@ -4322,7 +4322,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>colombagesx</createItem>
 		</queue>
 	</action>
@@ -4335,7 +4335,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>logblock</createItem>
 		</queue>
 	</action>
@@ -4348,7 +4348,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>logblock2</createItem>
 		</queue>
 	</action>
@@ -4363,7 +4363,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>ancientblock</createItem>
 		</queue>
 	</action>
@@ -4378,12 +4378,12 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>ancientblockmoss</createItem>
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qmayanblock</id>
 
@@ -4398,7 +4398,7 @@
 			<move>masonbench</move>
 			<wait>20</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>mayanblock</createItem>
 		</queue>
 	</action>
@@ -4418,7 +4418,7 @@
 			<move>smelter</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>goldenblock</createItem>
 		</queue>
 	</action>
@@ -4438,7 +4438,7 @@
 			<move>carpentrybench</move>
 			<wait>26</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodenstoneblock</createItem>
 		</queue>
 	</action>
@@ -4453,7 +4453,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodsticks</createItem>
 		</queue>
 	</action>
@@ -4468,12 +4468,12 @@
 			<move>carpentrybench</move>
 			<wait>30</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodspikes</createItem>
 		</queue>
 	</action>
@@ -4488,7 +4488,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stonebrickblock</createItem>
 		</queue>
 	</action>
@@ -4503,7 +4503,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stonebrickblock2</createItem>
 		</queue>
 	</action>
@@ -4518,7 +4518,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stonebrickblock3</createItem>
 		</queue>
 	</action>
@@ -4533,7 +4533,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stoneblock</createItem>
 		</queue>
 	</action>
@@ -4548,7 +4548,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stoneblock2</createItem>
 		</queue>
 	</action>
@@ -4565,7 +4565,7 @@
 			<pick>wheat</pick>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>wheatblock</createItem>
 		</queue>
 	</action>
@@ -4582,7 +4582,7 @@
 			<pick>bamboo</pick>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>bambooblock</createItem>
 		</queue>
 	</action>
@@ -4597,7 +4597,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>whitebrickblock</createItem>
 		</queue>
 	</action>
@@ -4616,7 +4616,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>pillar</createItem>
 		</queue>
 	</action>
@@ -4670,7 +4670,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lapedrera2</createItem>
 		</queue>
 	</action>
@@ -4685,7 +4685,7 @@
 			<move>masonbench</move>
 			<wait>36</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>roughbricks</createItem>
 		</queue>
 	</action>
@@ -4708,7 +4708,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qicewall</id>
 
@@ -5006,7 +5006,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qcyantileroof</id>
 
@@ -5278,7 +5278,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qpond</id>
 
@@ -5493,7 +5493,7 @@
 			<createItem>woodentable</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qarchitecttable</id>
 
@@ -5775,7 +5775,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qwoodendormbed</id>
 
@@ -6553,7 +6553,7 @@
 			<createItem>bamboostick</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qwoodensnakesword</id>
 
@@ -8043,7 +8043,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			
+
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8065,7 +8065,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			
+
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8660,7 +8660,7 @@
 
 	<action>
 		<id>qdestroymud</id>
-		<name esES="N/A">Destroy mud</name>		
+		<name esES="N/A">Destroy mud</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>rmmud</generatedItem>
@@ -8676,14 +8676,14 @@
 
 	<action>
 		<id>qdestroywood</id>
-		<name esES="N/A">Destroy wood</name>		
+		<name esES="N/A">Destroy wood</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>rmwood</generatedItem>
 		<inverted>true</inverted>
 
 		<queue>
-			
+
 			<pick>rmwood</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -8693,7 +8693,7 @@
 
 	<action>
 		<id>qdestroybones</id>
-		<name esES="N/A">Destroy bones</name>		
+		<name esES="N/A">Destroy bones</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>bones</generatedItem>
@@ -8709,14 +8709,14 @@
 
 	<action>
 		<id>qdestroyflour</id>
-		<name esES="N/A">Destroy flour</name>		
+		<name esES="N/A">Destroy flour</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>flour</generatedItem>
 		<inverted>true</inverted>
 
 		<queue>
-			
+
 			<pick>flour</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -8947,7 +8947,7 @@
 		</queue>
 	</action>
 <!-- Wait times set to be the same as mining in terrain.xml -->
-	<action> 
+	<action>
 		<id>qminedirt</id>
 		<generatedItem>rmmud</generatedItem>
 		<name>Mine</name>
@@ -8959,7 +8959,7 @@
 			<createItem>rmmud</createItem>
 		</queue>
 	</action>
-	<action> 
+	<action>
 		<id>qminestone</id>
 		<generatedItem>rmstone</generatedItem>
 		<name>Mine</name>
@@ -8971,7 +8971,7 @@
 			<createItem>rmstone</createItem>
 		</queue>
 	</action>
-	<action> 
+	<action>
 		<id>qminesand</id>
 		<generatedItem>rmsand</generatedItem>
 		<name>Mine</name>
@@ -9019,7 +9019,7 @@
 			<createItem>rmiron</createItem>
 		</queue>
 	</action>
-	<action> 
+	<action>
 		<id>qminecopper</id>
 		<generatedItem>rmcopper</generatedItem>
 		<name>Mine</name>
@@ -9075,7 +9075,7 @@
 		</queue>
 	</action>
 <!-- Wait times set to be the same as mining in terrain.xml -->
-	<action> 
+	<action>
 		<id>qminesilver</id>
 		<generatedItem>rmsilver</generatedItem>
 		<name>Mine</name>
@@ -9115,7 +9115,7 @@
 		</queue>
 	</action>
 <!-- Wait times set to be the same as mining in terrain.xml -->
-	<action> 
+	<action>
 		<id>qminegold</id>
 		<generatedItem>rmgold</generatedItem>
 		<name>Mine</name>
@@ -9167,8 +9167,8 @@
 			<createItem>winebarrel</createItem>
 		</queue>
 	</action>
-	
-	
+
+
 	<action>
 		<id>qbeer</id>
 
@@ -9199,7 +9199,7 @@
 			<createItem>beer</createItem>
 		</queue>
 	</action>
-	
+
 
 	<action>
 		<id>qwine</id>
@@ -9234,246 +9234,246 @@
 
 	<action>
 		<id>rotate_woodenbed_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodenbed_NE,woodenbed_SE,woodenbed_SW</move>		
+			<move useSource="true">woodenbed_E,woodenbed_S,woodenbed_W</move>
 			<replaceCellItem>woodenbed</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodenbed_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodenbed,woodenbed_NE,woodenbed_SW</move>		
-			<replaceCellItem>woodenbed_NE</replaceCellItem>
-		</queue>
-	</action>		
-	
-	<action>
-		<id>rotate_woodenbed_S</id>
-		<name esES="N/A">Rotate South</name>		
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">woodenbed,woodenbed_SW,woodenbed_NE</move>		
-			<replaceCellItem>woodenbed_SE</replaceCellItem>
+			<move useSource="true">woodenbed,woodenbed_S,woodenbed_W</move>
+			<replaceCellItem>woodenbed_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
-		<id>rotate_woodenbed_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<id>rotate_woodenbed_S</id>
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodenbed_NE,woodenbed_SE,woodenbed</move>		
+			<move useSource="true">woodenbed,woodenbed_E,woodenbed_W</move>
+			<replaceCellItem>woodenbed_S</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_woodenbed_W</id>
+		<name esES="N/A">Rotate West</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">woodenbed_E,woodenbed_S,woodenbed</move>
 			<replaceCellItem>woodenbed_SW</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_camo_bed_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">camo_bed_W,camo_bed_E,camo_bed_S</move>		
+			<move useSource="true">camo_bed_W,camo_bed_E,camo_bed_S</move>
 			<replaceCellItem>camo_bed_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_camo_bed_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">camo_bed_W,camo_bed_N,camo_bed_S</move>		
+			<move useSource="true">camo_bed_W,camo_bed_N,camo_bed_S</move>
 			<replaceCellItem>camo_bed_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_camo_bed_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">camo_bed_W,camo_bed_E,camo_bed_N</move>		
+			<move useSource="true">camo_bed_W,camo_bed_E,camo_bed_N</move>
 			<replaceCellItem>camo_bed_S</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_camo_bed_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">camo_bed_N,camo_bed_E,camo_bed_S</move>		
+			<move useSource="true">camo_bed_N,camo_bed_E,camo_bed_S</move>
 			<replaceCellItem>camo_bed_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_green_bed_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">green_bed_W,green_bed_E,green_bed_S</move>		
+			<move useSource="true">green_bed_W,green_bed_E,green_bed_S</move>
 			<replaceCellItem>green_bed_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_green_bed_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">green_bed_W,green_bed_N,green_bed_S</move>		
+			<move useSource="true">green_bed_W,green_bed_N,green_bed_S</move>
 			<replaceCellItem>green_bed_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_green_bed_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">green_bed_W,green_bed_E,green_bed_N</move>		
+			<move useSource="true">green_bed_W,green_bed_E,green_bed_N</move>
 			<replaceCellItem>green_bed_S</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_green_bed_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">green_bed_N,green_bed_E,green_bed_S</move>		
+			<move useSource="true">green_bed_N,green_bed_E,green_bed_S</move>
 			<replaceCellItem>green_bed_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_blue_bed_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">blue_bed_W,blue_bed_E,blue_bed_S</move>		
+			<move useSource="true">blue_bed_W,blue_bed_E,blue_bed_S</move>
 			<replaceCellItem>blue_bed_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_blue_bed_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">blue_bed_W,blue_bed_N,blue_bed_S</move>		
+			<move useSource="true">blue_bed_W,blue_bed_N,blue_bed_S</move>
 			<replaceCellItem>blue_bed_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_blue_bed_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">blue_bed_W,blue_bed_E,blue_bed_N</move>		
+			<move useSource="true">blue_bed_W,blue_bed_E,blue_bed_N</move>
 			<replaceCellItem>blue_bed_S</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_blue_bed_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">blue_bed_N,blue_bed_E,blue_bed_S</move>		
+			<move useSource="true">blue_bed_N,blue_bed_E,blue_bed_S</move>
 			<replaceCellItem>blue_bed_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_red_bed_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">red_bed_W,red_bed_E,red_bed_S</move>		
+			<move useSource="true">red_bed_W,red_bed_E,red_bed_S</move>
 			<replaceCellItem>red_bed_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_red_bed_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">red_bed_W,red_bed_N,red_bed_S</move>		
+			<move useSource="true">red_bed_W,red_bed_N,red_bed_S</move>
 			<replaceCellItem>red_bed_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_red_bed_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">red_bed_W,red_bed_E,red_bed_N</move>		
+			<move useSource="true">red_bed_W,red_bed_E,red_bed_N</move>
 			<replaceCellItem>red_bed_S</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_red_bed_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">red_bed_N,red_bed_E,red_bed_S</move>		
+			<move useSource="true">red_bed_N,red_bed_E,red_bed_S</move>
 			<replaceCellItem>red_bed_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_purple_bed_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purple_bed_W,purple_bed_E,purple_bed_S</move>		
+			<move useSource="true">purple_bed_W,purple_bed_E,purple_bed_S</move>
 			<replaceCellItem>purple_bed_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purple_bed_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purple_bed_W,purple_bed_N,purple_bed_S</move>		
+			<move useSource="true">purple_bed_W,purple_bed_N,purple_bed_S</move>
 			<replaceCellItem>purple_bed_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_purple_bed_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purple_bed_W,purple_bed_E,purple_bed_N</move>		
+			<move useSource="true">purple_bed_W,purple_bed_E,purple_bed_N</move>
 			<replaceCellItem>purple_bed_S</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_purple_bed_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purple_bed_N,purple_bed_E,purple_bed_S</move>		
+			<move useSource="true">purple_bed_N,purple_bed_E,purple_bed_S</move>
 			<replaceCellItem>purple_bed_W</replaceCellItem>
 		</queue>
 	</action>
 <!-- /ROTATE BEDS -->
-	
-<!-- CONSTRUCT BEDS -->	
+
+<!-- CONSTRUCT BEDS -->
 	<action>
 		<id>qcamo_bed_N</id>
 
@@ -9496,7 +9496,7 @@
 			<createItem>camo_bed_N</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qgreen_bed_N</id>
 
@@ -9518,8 +9518,8 @@
 			<unlock />
 			<createItem>green_bed_N</createItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>qblue_bed_N</id>
 
@@ -9541,8 +9541,8 @@
 			<unlock />
 			<createItem>blue_bed_N</createItem>
 		</queue>
-	</action>			
-		
+	</action>
+
 	<action>
 		<id>qred_bed_N</id>
 
@@ -9564,7 +9564,7 @@
 			<unlock />
 			<createItem>red_bed_N</createItem>
 		</queue>
-	</action>		
+	</action>
 
 	<action>
 		<id>qpurple_bed_N</id>
@@ -9588,253 +9588,253 @@
 			<createItem>purple_bed_N</createItem>
 		</queue>
 	</action>
-<!-- /CONSTRUCT BEDS -->	
-	
-<!-- ROTATE UTILS -->	
+<!-- /CONSTRUCT BEDS -->
+
+<!-- ROTATE UTILS -->
 	<action>
 		<id>rotate_medicinecabinet_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">medicinecabinet</move>		
+			<move useSource="true">medicinecabinet</move>
 			<replaceCellItem>medicinecabinet_W</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_medicinecabinet_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">medicinecabinet_W</move>		
+			<move useSource="true">medicinecabinet_W</move>
 			<replaceCellItem>medicinecabinet</replaceCellItem>
 		</queue>
 	</action>
-<!-- /ROTATE UTILS -->	
+<!-- /ROTATE UTILS -->
 
 <!-- ROTATE DECORATIONS -->
 	<action>
 		<id>rotate_clock_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">clock_E</move>		
+			<move useSource="true">clock_E</move>
 			<replaceCellItem>clock</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_clock_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">clock</move>		
+			<move useSource="true">clock</move>
 			<replaceCellItem>clock_E</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_chest_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">chest</move>		
+			<move useSource="true">chest</move>
 			<replaceCellItem>chest_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_chest_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">chest_W</move>		
+			<move useSource="true">chest_W</move>
 			<replaceCellItem>chest</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_chesstable_1</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">chesstable</move>		
+			<move useSource="true">chesstable</move>
 			<replaceCellItem>chesstable_2</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_chesstable_2</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">chesstable_2</move>		
+			<move useSource="true">chesstable_2</move>
 			<replaceCellItem>chesstable</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonemalestatue_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonemalestatue</move>		
+			<move useSource="true">stonemalestatue</move>
 			<replaceCellItem>stonemalestatue_W</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_stonemalestatue_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonemalestatue_W</move>		
+			<move useSource="true">stonemalestatue_W</move>
 			<replaceCellItem>stonemalestatue</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_necromancerstatue_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">necromancerstatue_E</move>		
+			<move useSource="true">necromancerstatue_E</move>
 			<replaceCellItem>necromancerstatue</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_gargoylestatue_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">gargoylestatue_E</move>		
+			<move useSource="true">gargoylestatue_E</move>
 			<replaceCellItem>gargoylestatue</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_necromancerstatue_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">necromancerstatue</move>		
+			<move useSource="true">necromancerstatue</move>
 			<replaceCellItem>necromancerstatue_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_gargoylestatue_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">gargoylestatue</move>		
+			<move useSource="true">gargoylestatue</move>
 			<replaceCellItem>gargoylestatue_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_goldunifallowstatue_S</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldunifallowstatue</move>		
+			<move useSource="true">goldunifallowstatue</move>
 			<replaceCellItem>goldunifallowstatue_S</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_goldunifallowstatue_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldunifallowstatue_S</move>		
+			<move useSource="true">goldunifallowstatue_S</move>
 			<replaceCellItem>goldunifallowstatue</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_goldnuxstatue_S</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldnuxstatue</move>		
+			<move useSource="true">goldnuxstatue</move>
 			<replaceCellItem>goldnuxstatue_S</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_goldnuxstatue_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldnuxstatue_S</move>		
+			<move useSource="true">goldnuxstatue_S</move>
 			<replaceCellItem>goldnuxstatue</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_silverskootenbeetenstatue_S</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">silverskootenbeetenstatue</move>		
+			<move useSource="true">silverskootenbeetenstatue</move>
 			<replaceCellItem>silverskootenbeetenstatue_S</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_silverskootenbeetenstatue_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">silverskootenbeetenstatue_S</move>		
+			<move useSource="true">silverskootenbeetenstatue_S</move>
 			<replaceCellItem>silverskootenbeetenstatue</replaceCellItem>
 		</queue>
-	</action>	
-<!-- /ROTATE DECORATIONS -->  						
+	</action>
+<!-- /ROTATE DECORATIONS -->
 
-<!-- ROTATE CONATINERS -->				
+<!-- ROTATE CONATINERS -->
 	<action>
 		<id>rotate_armorcabinet_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">armorcabinet</move>		
+			<move useSource="true">armorcabinet</move>
 			<replaceCellItem>armorcabinet_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_armorcabinet_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">armorcabinet_W</move>		
+			<move useSource="true">armorcabinet_W</move>
 			<replaceCellItem>armorcabinet</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_weaponcabinet_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">weaponcabinet</move>		
+			<move useSource="true">weaponcabinet</move>
 			<replaceCellItem>weaponcabinet_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_weaponcabinet_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">weaponcabinet_W</move>		
+			<move useSource="true">weaponcabinet_W</move>
 			<replaceCellItem>weaponcabinet</replaceCellItem>
 		</queue>
 	</action>
-<!-- /ROTATE CONATINERS -->  			
+<!-- /ROTATE CONATINERS -->
 
 <!-- CONSTRUCT DECORATIONS -->
 	<action>
@@ -9856,7 +9856,7 @@
 			<createItem>flowerpot_red</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qflowerpot_blue</id>
 
@@ -9876,7 +9876,7 @@
 			<createItem>flowerpot_blue</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qflowerpot_yellow</id>
 
@@ -9895,8 +9895,8 @@
 			<unlock />
 			<createItem>flowerpot_yellow</createItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>qflowerpot_mixed</id>
 
@@ -9946,7 +9946,7 @@
 			<unlock />
 			<createItem>chimney2</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qchimney3</id>
@@ -9970,10 +9970,10 @@
 			<createItem>chimney3</createItem>
 		</queue>
 	</action>
-<!-- /CONSTRUCT DECORATIONS -->  		
+<!-- /CONSTRUCT DECORATIONS -->
 
 <!-- CONSTRUCT FLAGS -->
-	
+
 	<action>
 		<id>qblueshortflag</id>
 
@@ -9997,7 +9997,7 @@
 			<unlock />
 			<createItem>blueshortflag</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qgreenshortflag</id>
@@ -10073,7 +10073,7 @@
 			<createItem>blackshortflag</createItem>
 		</queue>
 	</action>
-<!-- /CONSTRUCT FLAGS -->  		
+<!-- /CONSTRUCT FLAGS -->
 
 <!-- CONSTRUCT BANNERS -->
 	<action>
@@ -10100,7 +10100,7 @@
 			<createItem>bluebanner</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qgreenbanner</id>
 
@@ -10123,8 +10123,8 @@
 			<destroyItem />
 			<unlock />
 			<createItem>greenbanner</createItem>
-		</queue>		
-	</action>	
+		</queue>
+	</action>
 
 	<action>
 		<id>qpurplebanner</id>
@@ -10175,9 +10175,9 @@
 			<createItem>blackbanner</createItem>
 		</queue>
 	</action>
-<!-- /CONSTRUCT BANNERS -->  	
+<!-- /CONSTRUCT BANNERS -->
 
-<!-- CONSTRUCT GRAVES & TOMBS --> 
+<!-- CONSTRUCT GRAVES & TOMBS -->
 <action>
 	    <id>qtomb2_W</id>
 	    <priorityID>itemconstruction</priorityID>
@@ -10199,7 +10199,7 @@
 	      <createItem>tomb2_W</createItem>
 	   </queue>
   </action>
-  
+
 <action>
 	    <id>qmosstomb2_W</id>
 	    <priorityID>itemconstruction</priorityID>
@@ -10220,8 +10220,8 @@
 	      <wait>21</wait>
 	      <createItem>mosstomb2_W</createItem>
 	   </queue>
-  </action>  
-  
+  </action>
+
 <action>
 	    <id>qmosstomb3_W</id>
 	    <priorityID>itemconstruction</priorityID>
@@ -10243,7 +10243,7 @@
 	      <createItem>mosstomb3_W</createItem>
 	   </queue>
   </action>
-  
+
   <action>
 	    <id>qgrave2_W</id>
 	    <priorityID>itemconstruction</priorityID>
@@ -10257,7 +10257,7 @@
 	      <createItem>grave2_W</createItem>
 	    </queue>
   </action>
-  
+
     <action>
 	    <id>qgrave3_W</id>
 	    <priorityID>itemconstruction</priorityID>
@@ -10271,168 +10271,168 @@
 	      <createItem>grave3_W</createItem>
 	    </queue>
   </action>
-<!-- /CONSTRUCT GRAVES & TOMBS -->  
+<!-- /CONSTRUCT GRAVES & TOMBS -->
 
-<!-- ROTATE GRAVES & TOMBS -->  
+<!-- ROTATE GRAVES & TOMBS -->
 	<action>
 		<id>rotate_grave_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">grave</move>		
+			<move useSource="true">grave</move>
 			<replaceCellItem>grave_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_grave_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">grave_E</move>		
+			<move useSource="true">grave_E</move>
 			<replaceCellItem>grave</replaceCellItem>
 		</queue>
 	</action>
-    
+
 	<action>
 		<id>rotate_grave2_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">grave2_W</move>		
+			<move useSource="true">grave2_W</move>
 			<replaceCellItem>grave2_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_grave2_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">grave2_E</move>		
+			<move useSource="true">grave2_E</move>
 			<replaceCellItem>grave2_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_grave3_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">grave3_W</move>		
+			<move useSource="true">grave3_W</move>
 			<replaceCellItem>grave3_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_grave3_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">grave3_E</move>		
+			<move useSource="true">grave3_E</move>
 			<replaceCellItem>grave3_W</replaceCellItem>
 		</queue>
-	</action>	
-    
+	</action>
+
    	<action>
 		<id>rotate_tomb_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">tomb</move>		
+			<move useSource="true">tomb</move>
 			<replaceCellItem>tomb_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_tomb_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">tomb_E</move>		
+			<move useSource="true">tomb_E</move>
 			<replaceCellItem>tomb</replaceCellItem>
 		</queue>
 	</action>
-	
+
    	<action>
 		<id>rotate_mosstomb_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">mosstomb</move>		
+			<move useSource="true">mosstomb</move>
 			<replaceCellItem>mosstomb_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_mosstomb_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">mosstomb_E</move>		
+			<move useSource="true">mosstomb_E</move>
 			<replaceCellItem>mosstomb</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_tomb2_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">tomb2_W</move>		
+			<move useSource="true">tomb2_W</move>
 			<replaceCellItem>tomb2_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_tomb2_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">tomb2_E</move>		
+			<move useSource="true">tomb2_E</move>
 			<replaceCellItem>tomb2_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_mosstomb2_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">mosstomb2_E</move>		
+			<move useSource="true">mosstomb2_E</move>
 			<replaceCellItem>mosstomb2_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_mosstomb2_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">mosstomb2_W</move>		
+			<move useSource="true">mosstomb2_W</move>
 			<replaceCellItem>mosstomb2_E</replaceCellItem>
 		</queue>
-	</action>			
-	
+	</action>
+
 	<action>
 		<id>rotate_mosstomb3_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">mosstomb3_E</move>		
+			<move useSource="true">mosstomb3_E</move>
 			<replaceCellItem>mosstomb3_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_mosstomb3_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">mosstomb3_W</move>		
+			<move useSource="true">mosstomb3_W</move>
 			<replaceCellItem>mosstomb3_E</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 <!-- /ROTATE GRAVES & TOMBS -->
 
 <!-- CONSTRUCT FURNITURE -->
@@ -10455,7 +10455,7 @@
 			<createItem>woodencupboard_E</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qtallwoodencupboard_E</id>
 
@@ -10478,7 +10478,7 @@
 			<unlock />
 			<createItem>tallwoodencupboard_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qwoodendrawer_E</id>
@@ -10499,7 +10499,7 @@
 			<createItem>woodendrawer_E</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsmallwoodendrawer_E</id>
 
@@ -10519,7 +10519,7 @@
 			<createItem>smallwoodendrawer_E</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsmallwoodendrawer_flower_E</id>
 
@@ -10551,12 +10551,12 @@
 			<move>wooddetailer</move>
 			<wait>32</wait>
 			<destroyItem />
-			<unlock />		
+			<unlock />
 			<destroyItem />
 			<unlock />
 			<createItem>smallwoodendrawer_flower_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qredchair_S</id>
@@ -10564,7 +10564,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>redcolor,redgel</pick>		
+			<pick>redcolor,redgel</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10576,14 +10576,14 @@
 			<createItem>redchair_S</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qredchair_2_S</id>
 
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>redcolor,redgel</pick>		
+			<pick>redcolor,redgel</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10594,15 +10594,15 @@
 			<unlock />
 			<createItem>redchair_2_S</createItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>qgreenchair_S</id>
 
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>greencolor,greengel</pick>		
+			<pick>greencolor,greengel</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10613,7 +10613,7 @@
 			<unlock />
 			<createItem>greenchair_S</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qbluechair_S</id>
@@ -10621,7 +10621,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>bluecolor,bluegel</pick>		
+			<pick>bluecolor,bluegel</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10633,7 +10633,7 @@
 			<createItem>bluechair_S</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qwoodchair_1_S</id>
 
@@ -10648,7 +10648,7 @@
 			<createItem>woodchair_1_S</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qwoodchair_2_S</id>
 
@@ -10663,7 +10663,7 @@
 			<createItem>woodchair_2_S</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qwoodchair_3_S</id>
 
@@ -10677,15 +10677,15 @@
 			<unlock />
 			<createItem>woodchair_3_S</createItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>qwhitechair_S</id>
 
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>bones</pick>		
+			<pick>bones</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10697,14 +10697,14 @@
 			<createItem>whitechair_S</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qpurplechair_S</id>
 
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>purplecolor</pick>		
+			<pick>purplecolor</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10715,491 +10715,491 @@
 			<unlock />
 			<createItem>purplechair_S</createItem>
 		</queue>
-	</action>	
+	</action>
 <!-- /CONSTRUCT FURNITURE -->
-	
+
 <!-- ROTATE FURNITURE -->
 	<action>
 		<id>rotate_purplethrone_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplethrone_E</move>		
+			<move useSource="true">purplethrone_E</move>
 			<replaceCellItem>purplethrone</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_purplethrone_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplethrone</move>		
+			<move useSource="true">purplethrone</move>
 			<replaceCellItem>purplethrone_E</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_woodencupboard_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodencupboard_W</move>		
+			<move useSource="true">woodencupboard_W</move>
 			<replaceCellItem>woodencupboard_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodencupboard_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodencupboard_E</move>		
+			<move useSource="true">woodencupboard_E</move>
 			<replaceCellItem>woodencupboard_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_tallwoodencupboard_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">tallwoodencupboard_W</move>		
+			<move useSource="true">tallwoodencupboard_W</move>
 			<replaceCellItem>tallwoodencupboard_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_tallwoodencupboard_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">tallwoodencupboard_E</move>		
+			<move useSource="true">tallwoodencupboard_E</move>
 			<replaceCellItem>tallwoodencupboard_W</replaceCellItem>
 		</queue>
-	</action>	
-    
+	</action>
+
 	<action>
 		<id>rotate_woodendrawer_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodendrawer_W</move>		
+			<move useSource="true">woodendrawer_W</move>
 			<replaceCellItem>woodendrawer_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodendrawer_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodendrawer_E</move>		
+			<move useSource="true">woodendrawer_E</move>
 			<replaceCellItem>woodendrawer_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_smallwoodendrawer_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">smallwoodendrawer_W</move>		
+			<move useSource="true">smallwoodendrawer_W</move>
 			<replaceCellItem>smallwoodendrawer_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_smallwoodendrawer_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">smallwoodendrawer_E</move>		
+			<move useSource="true">smallwoodendrawer_E</move>
 			<replaceCellItem>smallwoodendrawer_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_smallwoodendrawer_flower_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">smallwoodendrawer_flower_W</move>		
+			<move useSource="true">smallwoodendrawer_flower_W</move>
 			<replaceCellItem>smallwoodendrawer_flower_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_smallwoodendrawer_flower_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">smallwoodendrawer_flower_E</move>		
+			<move useSource="true">smallwoodendrawer_flower_E</move>
 			<replaceCellItem>smallwoodendrawer_flower_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 
 	<action>
 		<id>rotate_redchair_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_S,redchair_E,redchair_W</move>		
+			<move useSource="true">redchair_S,redchair_E,redchair_W</move>
 			<replaceCellItem>redchair_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redchair_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_N,redchair_E,redchair_W</move>		
+			<move useSource="true">redchair_N,redchair_E,redchair_W</move>
 			<replaceCellItem>redchair_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redchair_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_S,redchair_N,redchair_W</move>		
+			<move useSource="true">redchair_S,redchair_N,redchair_W</move>
 			<replaceCellItem>redchair_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redchair_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_S,redchair_E,redchair_N</move>		
+			<move useSource="true">redchair_S,redchair_E,redchair_N</move>
 			<replaceCellItem>redchair_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 <action>
 		<id>rotate_redchair_2_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_2_S,redchair_2_E,redchair_2_W</move>		
+			<move useSource="true">redchair_2_S,redchair_2_E,redchair_2_W</move>
 			<replaceCellItem>redchair_2_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redchair_2_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_2_N,redchair_2_E,redchair_2_W</move>		
+			<move useSource="true">redchair_2_N,redchair_2_E,redchair_2_W</move>
 			<replaceCellItem>redchair_2_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redchair_2_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_2_S,redchair_2_N,redchair_2_W</move>		
+			<move useSource="true">redchair_2_S,redchair_2_N,redchair_2_W</move>
 			<replaceCellItem>redchair_2_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redchair_2_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redchair_2_S,redchair_2_E,redchair_2_N</move>		
+			<move useSource="true">redchair_2_S,redchair_2_E,redchair_2_N</move>
 			<replaceCellItem>redchair_2_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_bluechair_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluechair_S,bluechair_E,bluechair_W</move>		
+			<move useSource="true">bluechair_S,bluechair_E,bluechair_W</move>
 			<replaceCellItem>bluechair_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluechair_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluechair_N,bluechair_E,bluechair_W</move>		
+			<move useSource="true">bluechair_N,bluechair_E,bluechair_W</move>
 			<replaceCellItem>bluechair_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluechair_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluechair_S,bluechair_N,bluechair_W</move>		
+			<move useSource="true">bluechair_S,bluechair_N,bluechair_W</move>
 			<replaceCellItem>bluechair_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluechair_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluechair_S,bluechair_E,bluechair_N</move>		
+			<move useSource="true">bluechair_S,bluechair_E,bluechair_N</move>
 			<replaceCellItem>bluechair_W</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_greenchair_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenchair_S,greenchair_E,greenchair_W</move>		
+			<move useSource="true">greenchair_S,greenchair_E,greenchair_W</move>
 			<replaceCellItem>greenchair_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenchair_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenchair_N,greenchair_E,greenchair_W</move>		
+			<move useSource="true">greenchair_N,greenchair_E,greenchair_W</move>
 			<replaceCellItem>greenchair_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenchair_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenchair_S,greenchair_N,greenchair_W</move>		
+			<move useSource="true">greenchair_S,greenchair_N,greenchair_W</move>
 			<replaceCellItem>greenchair_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenchair_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenchair_S,greenchair_E,greenchair_N</move>		
+			<move useSource="true">greenchair_S,greenchair_E,greenchair_N</move>
 			<replaceCellItem>greenchair_W</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_whitechair_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">whitechair_S,whitechair_E,whitechair_W</move>		
+			<move useSource="true">whitechair_S,whitechair_E,whitechair_W</move>
 			<replaceCellItem>whitechair_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_whitechair_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">whitechair_N,whitechair_E,whitechair_W</move>		
+			<move useSource="true">whitechair_N,whitechair_E,whitechair_W</move>
 			<replaceCellItem>whitechair_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_whitechair_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">whitechair_S,whitechair_N,whitechair_W</move>		
+			<move useSource="true">whitechair_S,whitechair_N,whitechair_W</move>
 			<replaceCellItem>whitechair_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_whitechair_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">whitechair_S,whitechair_E,whitechair_N</move>		
+			<move useSource="true">whitechair_S,whitechair_E,whitechair_N</move>
 			<replaceCellItem>whitechair_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 		<action>
 		<id>rotate_purplechair_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplechair_S,purplechair_E,purplechair_W</move>		
+			<move useSource="true">purplechair_S,purplechair_E,purplechair_W</move>
 			<replaceCellItem>purplechair_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplechair_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplechair_N,purplechair_E,purplechair_W</move>		
+			<move useSource="true">purplechair_N,purplechair_E,purplechair_W</move>
 			<replaceCellItem>purplechair_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplechair_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplechair_S,purplechair_N,purplechair_W</move>		
+			<move useSource="true">purplechair_S,purplechair_N,purplechair_W</move>
 			<replaceCellItem>purplechair_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplechair_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplechair_S,purplechair_E,purplechair_N</move>		
+			<move useSource="true">purplechair_S,purplechair_E,purplechair_N</move>
 			<replaceCellItem>purplechair_W</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_woodchair_1_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_1_S,woodchair_1_E,woodchair_1_W</move>		
+			<move useSource="true">woodchair_1_S,woodchair_1_E,woodchair_1_W</move>
 			<replaceCellItem>woodchair_1_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_1_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_1_N,woodchair_1_E,woodchair_1_W</move>		
+			<move useSource="true">woodchair_1_N,woodchair_1_E,woodchair_1_W</move>
 			<replaceCellItem>woodchair_1_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_1_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_1_S,woodchair_1_N,woodchair_1_W</move>		
+			<move useSource="true">woodchair_1_S,woodchair_1_N,woodchair_1_W</move>
 			<replaceCellItem>woodchair_1_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_1_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_1_S,woodchair_1_E,woodchair_1_N</move>		
+			<move useSource="true">woodchair_1_S,woodchair_1_E,woodchair_1_N</move>
 			<replaceCellItem>woodchair_1_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_2_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_2_S,woodchair_2_E,woodchair_2_W</move>		
+			<move useSource="true">woodchair_2_S,woodchair_2_E,woodchair_2_W</move>
 			<replaceCellItem>woodchair_2_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_2_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_2_N,woodchair_2_E,woodchair_2_W</move>		
+			<move useSource="true">woodchair_2_N,woodchair_2_E,woodchair_2_W</move>
 			<replaceCellItem>woodchair_2_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_2_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_2_S,woodchair_2_N,woodchair_2_W</move>		
+			<move useSource="true">woodchair_2_S,woodchair_2_N,woodchair_2_W</move>
 			<replaceCellItem>woodchair_2_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_2_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_2_S,woodchair_2_E,woodchair_2_N</move>		
+			<move useSource="true">woodchair_2_S,woodchair_2_E,woodchair_2_N</move>
 			<replaceCellItem>woodchair_2_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_woodchair_3_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_3_S,woodchair_3_E,woodchair_3_W</move>		
+			<move useSource="true">woodchair_3_S,woodchair_3_E,woodchair_3_W</move>
 			<replaceCellItem>woodchair_3_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_3_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_3_N,woodchair_3_E,woodchair_3_W</move>		
+			<move useSource="true">woodchair_3_N,woodchair_3_E,woodchair_3_W</move>
 			<replaceCellItem>woodchair_3_S</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_3_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_3_S,woodchair_3_N,woodchair_3_W</move>		
+			<move useSource="true">woodchair_3_S,woodchair_3_N,woodchair_3_W</move>
 			<replaceCellItem>woodchair_3_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodchair_3_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodchair_3_S,woodchair_3_E,woodchair_3_N</move>		
+			<move useSource="true">woodchair_3_S,woodchair_3_E,woodchair_3_N</move>
 			<replaceCellItem>woodchair_3_W</replaceCellItem>
 		</queue>
-	</action>	
-<!-- /ROTATE FURNITURE -->	    	
+	</action>
+<!-- /ROTATE FURNITURE -->
 
 <!-- CONSTRUCT WINDOWS -->
   <action>
@@ -11218,7 +11218,7 @@
       <createItem>woodenwindow_2</createItem>
     </queue>
   </action>
-<!-- /CONSTRUCT WINDOWS -->	    
+<!-- /CONSTRUCT WINDOWS -->
 
 <!-- CONSTRUCT SIGNS -->
 	<action>
@@ -11240,7 +11240,7 @@
 			<createItem>doorsignswords_E1</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsign_1_E</id>
 
@@ -11260,7 +11260,7 @@
 			<createItem>sign_1_E</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsign_2_E</id>
 
@@ -11279,7 +11279,7 @@
 			<unlock />
 			<createItem>sign_2_E</createItem>
 		</queue>
-	</action>		
+	</action>
 
 	<action>
 		<id>qsign_3_E</id>
@@ -11299,8 +11299,8 @@
 			<unlock />
 			<createItem>sign_3_E</createItem>
 		</queue>
-	</action>	
-		
+	</action>
+
 	<action>
 		<id>qsign_4_E</id>
 
@@ -11319,7 +11319,7 @@
 			<unlock />
 			<createItem>sign_4_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_5_E</id>
@@ -11339,7 +11339,7 @@
 			<unlock />
 			<createItem>sign_5_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_6_E</id>
@@ -11359,7 +11359,7 @@
 			<unlock />
 			<createItem>sign_6_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_7_E</id>
@@ -11379,8 +11379,8 @@
 			<unlock />
 			<createItem>sign_7_E</createItem>
 		</queue>
-	</action>	
-		
+	</action>
+
 	<action>
 		<id>qsign_8_E</id>
 
@@ -11399,7 +11399,7 @@
 			<unlock />
 			<createItem>sign_8_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_9_E</id>
@@ -11419,7 +11419,7 @@
 			<unlock />
 			<createItem>sign_9_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_10_E</id>
@@ -11439,7 +11439,7 @@
 			<unlock />
 			<createItem>sign_10_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_11_E</id>
@@ -11459,7 +11459,7 @@
 			<unlock />
 			<createItem>sign_11_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_12_E</id>
@@ -11479,7 +11479,7 @@
 			<unlock />
 			<createItem>sign_12_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_13_E</id>
@@ -11499,7 +11499,7 @@
 			<unlock />
 			<createItem>sign_13_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_14_E</id>
@@ -11519,7 +11519,7 @@
 			<unlock />
 			<createItem>sign_14_E</createItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qsign_15_E</id>
@@ -11540,487 +11540,487 @@
 			<createItem>sign_15_E</createItem>
 		</queue>
 	</action>
-<!-- /CONSTRUCT SIGNS -->	
+<!-- /CONSTRUCT SIGNS -->
 
 <!-- ROTATE SIGNS -->
 	<action>
 		<id>rotate_doorsignswords_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">doorsignswords_E1</move>		
+			<move useSource="true">doorsignswords_E1</move>
 			<replaceCellItem>doorsignswords</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_doorsignswords_E1</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">doorsignswords</move>		
+			<move useSource="true">doorsignswords</move>
 			<replaceCellItem>doorsignswords_E1</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_sign_1_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_1_W</move>		
+			<move useSource="true">sign_1_W</move>
 			<replaceCellItem>sign_1_E</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_sign_2_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_2_W</move>		
+			<move useSource="true">sign_2_W</move>
 			<replaceCellItem>sign_2_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sign_3_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_3_W</move>		
+			<move useSource="true">sign_3_W</move>
 			<replaceCellItem>sign_3_E</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_sign_4_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_4_W</move>		
+			<move useSource="true">sign_4_W</move>
 			<replaceCellItem>sign_4_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sign_5_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_5_W</move>		
+			<move useSource="true">sign_5_W</move>
 			<replaceCellItem>sign_5_E</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_sign_6_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_6_W</move>		
+			<move useSource="true">sign_6_W</move>
 			<replaceCellItem>sign_6_E</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sign_7_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_7_W</move>		
+			<move useSource="true">sign_7_W</move>
 			<replaceCellItem>sign_7_E</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_sign_8_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_8_W</move>		
+			<move useSource="true">sign_8_W</move>
 			<replaceCellItem>sign_8_E</replaceCellItem>
 		</queue>
 	</action>
-		
+
 	<action>
 		<id>rotate_sign_9_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_9_W</move>		
+			<move useSource="true">sign_9_W</move>
 			<replaceCellItem>sign_9_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_10_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_10_W</move>		
+			<move useSource="true">sign_10_W</move>
 			<replaceCellItem>sign_10_E</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_11_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_11_W</move>		
+			<move useSource="true">sign_11_W</move>
 			<replaceCellItem>sign_11_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_12_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_12_W</move>		
+			<move useSource="true">sign_12_W</move>
 			<replaceCellItem>sign_12_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_13_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_13_W</move>		
+			<move useSource="true">sign_13_W</move>
 			<replaceCellItem>sign_13_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_14_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_14_W</move>		
+			<move useSource="true">sign_14_W</move>
 			<replaceCellItem>sign_14_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_15_E</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_15_W</move>		
+			<move useSource="true">sign_15_W</move>
 			<replaceCellItem>sign_15_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_1_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_1_E</move>		
+			<move useSource="true">sign_1_E</move>
 			<replaceCellItem>sign_1_W</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_sign_2_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_2_E</move>		
+			<move useSource="true">sign_2_E</move>
 			<replaceCellItem>sign_2_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sign_3_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_3_E</move>		
+			<move useSource="true">sign_3_E</move>
 			<replaceCellItem>sign_3_W</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_sign_4_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_4_E</move>		
+			<move useSource="true">sign_4_E</move>
 			<replaceCellItem>sign_4_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sign_5_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_5_E</move>		
+			<move useSource="true">sign_5_E</move>
 			<replaceCellItem>sign_5_W</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_sign_6_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_6_E</move>		
+			<move useSource="true">sign_6_E</move>
 			<replaceCellItem>sign_6_W</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sign_7_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_7_E</move>		
+			<move useSource="true">sign_7_E</move>
 			<replaceCellItem>sign_7_W</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_sign_8_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_8_E</move>		
+			<move useSource="true">sign_8_E</move>
 			<replaceCellItem>sign_8_W</replaceCellItem>
 		</queue>
 	</action>
-		
+
 	<action>
 		<id>rotate_sign_9_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_9_E</move>		
+			<move useSource="true">sign_9_E</move>
 			<replaceCellItem>sign_9_W</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_10_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_10_E</move>		
+			<move useSource="true">sign_10_E</move>
 			<replaceCellItem>sign_10_W</replaceCellItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_11_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_11_E</move>		
+			<move useSource="true">sign_11_E</move>
 			<replaceCellItem>sign_11_W</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_12_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_12_E</move>		
+			<move useSource="true">sign_12_E</move>
 			<replaceCellItem>sign_12_W</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_13_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_13_E</move>		
+			<move useSource="true">sign_13_E</move>
 			<replaceCellItem>sign_13_W</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_14_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_14_E</move>		
+			<move useSource="true">sign_14_E</move>
 			<replaceCellItem>sign_14_W</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_sign_15_W</id>
-		<name esES="N/A">Rotate</name>		
+		<name esES="N/A">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sign_15_E</move>		
+			<move useSource="true">sign_15_E</move>
 			<replaceCellItem>sign_15_W</replaceCellItem>
 		</queue>
 	</action>
-<!-- /ROTATE SIGNS -->		
+<!-- /ROTATE SIGNS -->
 
 <!-- ROTATE STAIRS -->
 	<action>
 		<id>rotate_woodstairs1a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1c</move>		
+			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1c</move>
 			<replaceCellItem>woodstairs1a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_woodstairs1b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs1a,woodstairs1d,woodstairs1c</move>		
+			<move useSource="true">woodstairs1a,woodstairs1d,woodstairs1c</move>
 			<replaceCellItem>woodstairs1b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodstairs1d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs1b,woodstairs1a,woodstairs1c</move>		
+			<move useSource="true">woodstairs1b,woodstairs1a,woodstairs1c</move>
 			<replaceCellItem>woodstairs1d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodstairs1c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1a</move>		
+			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1a</move>
 			<replaceCellItem>woodstairs1c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodstairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2c</move>		
+			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2c</move>
 			<replaceCellItem>woodstairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_woodstairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs2a,woodstairs2d,woodstairs2c</move>		
+			<move useSource="true">woodstairs2a,woodstairs2d,woodstairs2c</move>
 			<replaceCellItem>woodstairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodstairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs2b,woodstairs2a,woodstairs2c</move>		
+			<move useSource="true">woodstairs2b,woodstairs2a,woodstairs2c</move>
 			<replaceCellItem>woodstairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodstairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2a</move>		
+			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2a</move>
 			<replaceCellItem>woodstairs2c</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_woodstairs3a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3c</move>		
+			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3c</move>
 			<replaceCellItem>woodstairs3a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_woodstairs3b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs3a,woodstairs3d,woodstairs3c</move>		
+			<move useSource="true">woodstairs3a,woodstairs3d,woodstairs3c</move>
 			<replaceCellItem>woodstairs3b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodstairs3d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs3b,woodstairs3a,woodstairs3c</move>		
+			<move useSource="true">woodstairs3b,woodstairs3a,woodstairs3c</move>
 			<replaceCellItem>woodstairs3d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_woodstairs3c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3a</move>		
+			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3a</move>
 			<replaceCellItem>woodstairs3c</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_dirtstairs1a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1c</move>		
+			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1c</move>
 			<replaceCellItem>dirtstairs1a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_dirtstairs1b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs1a,dirtstairs1d,dirtstairs1c</move>		
+			<move useSource="true">dirtstairs1a,dirtstairs1d,dirtstairs1c</move>
 			<replaceCellItem>dirtstairs1b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_dirtstairs1d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs1b,dirtstairs1a,dirtstairs1c</move>		
+			<move useSource="true">dirtstairs1b,dirtstairs1a,dirtstairs1c</move>
 			<replaceCellItem>dirtstairs1d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_dirtstairs1c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1a</move>		
+			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1a</move>
 			<replaceCellItem>dirtstairs1c</replaceCellItem>
 		</queue>
 	</action>
@@ -12028,884 +12028,884 @@
 
 	<action>
 		<id>rotate_dirtstairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs2b,dirtstairs2d,dirtstairs2c</move>		
+			<move useSource="true">dirtstairs2b,dirtstairs2d,dirtstairs2c</move>
 			<replaceCellItem>dirtstairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_dirtstairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs2a,dirtstairs2d,dirtstairs2c</move>		
+			<move useSource="true">dirtstairs2a,dirtstairs2d,dirtstairs2c</move>
 			<replaceCellItem>dirtstairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_dirtstairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs2b,dirtstairs2a,dirtstairs2c</move>		
+			<move useSource="true">dirtstairs2b,dirtstairs2a,dirtstairs2c</move>
 			<replaceCellItem>dirtstairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_dirtstairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs2b,dirtstairs2d,dirtstairs2a</move>		
+			<move useSource="true">dirtstairs2b,dirtstairs2d,dirtstairs2a</move>
 			<replaceCellItem>dirtstairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs1a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1c</move>		
+			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1c</move>
 			<replaceCellItem>stonestairs1a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_stonestairs1b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs1a,stonestairs1d,stonestairs1c</move>		
+			<move useSource="true">stonestairs1a,stonestairs1d,stonestairs1c</move>
 			<replaceCellItem>stonestairs1b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs1d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs1b,stonestairs1a,stonestairs1c</move>		
+			<move useSource="true">stonestairs1b,stonestairs1a,stonestairs1c</move>
 			<replaceCellItem>stonestairs1d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs1c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1a</move>		
+			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1a</move>
 			<replaceCellItem>stonestairs1c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2c</move>		
+			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2c</move>
 			<replaceCellItem>stonestairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_stonestairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs2a,stonestairs2d,stonestairs2c</move>		
+			<move useSource="true">stonestairs2a,stonestairs2d,stonestairs2c</move>
 			<replaceCellItem>stonestairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs2b,stonestairs2a,stonestairs2c</move>		
+			<move useSource="true">stonestairs2b,stonestairs2a,stonestairs2c</move>
 			<replaceCellItem>stonestairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2a</move>		
+			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2a</move>
 			<replaceCellItem>stonestairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs3a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3c</move>		
+			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3c</move>
 			<replaceCellItem>stonestairs3a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_stonestairs3b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs3a,stonestairs3d,stonestairs3c</move>		
+			<move useSource="true">stonestairs3a,stonestairs3d,stonestairs3c</move>
 			<replaceCellItem>stonestairs3b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs3d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs3b,stonestairs3a,stonestairs3c</move>		
+			<move useSource="true">stonestairs3b,stonestairs3a,stonestairs3c</move>
 			<replaceCellItem>stonestairs3d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs3c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3a</move>		
+			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3a</move>
 			<replaceCellItem>stonestairs3c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs4a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs4b,stonestairs4d,stonestairs4c</move>		
+			<move useSource="true">stonestairs4b,stonestairs4d,stonestairs4c</move>
 			<replaceCellItem>stonestairs4a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_stonestairs4b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs4a,stonestairs4d,stonestairs4c</move>		
+			<move useSource="true">stonestairs4a,stonestairs4d,stonestairs4c</move>
 			<replaceCellItem>stonestairs4b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs4d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs4b,stonestairs4a,stonestairs4c</move>		
+			<move useSource="true">stonestairs4b,stonestairs4a,stonestairs4c</move>
 			<replaceCellItem>stonestairs4d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs4c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs4b,stonestairs4d,stonestairs4a</move>		
+			<move useSource="true">stonestairs4b,stonestairs4d,stonestairs4a</move>
 			<replaceCellItem>stonestairs4c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs5a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs5b,stonestairs5d,stonestairs5c</move>		
+			<move useSource="true">stonestairs5b,stonestairs5d,stonestairs5c</move>
 			<replaceCellItem>stonestairs5a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_stonestairs5b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs5a,stonestairs5d,stonestairs5c</move>		
+			<move useSource="true">stonestairs5a,stonestairs5d,stonestairs5c</move>
 			<replaceCellItem>stonestairs5b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs5d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs5b,stonestairs5a,stonestairs5c</move>		
+			<move useSource="true">stonestairs5b,stonestairs5a,stonestairs5c</move>
 			<replaceCellItem>stonestairs5d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_stonestairs5c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs5b,stonestairs5d,stonestairs5a</move>		
+			<move useSource="true">stonestairs5b,stonestairs5d,stonestairs5a</move>
 			<replaceCellItem>stonestairs5c</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>rotate_sandstairs1a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1c</move>		
+			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1c</move>
 			<replaceCellItem>sandstairs1a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_sandstairs1b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs1a,sandstairs1d,sandstairs1c</move>		
+			<move useSource="true">sandstairs1a,sandstairs1d,sandstairs1c</move>
 			<replaceCellItem>sandstairs1b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sandstairs1d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs1b,sandstairs1a,sandstairs1c</move>		
+			<move useSource="true">sandstairs1b,sandstairs1a,sandstairs1c</move>
 			<replaceCellItem>sandstairs1d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sandstairs1c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1a</move>		
+			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1a</move>
 			<replaceCellItem>sandstairs1c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 		<action>
 		<id>rotate_sandstairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs2b,sandstairs2d,sandstairs2c</move>		
+			<move useSource="true">sandstairs2b,sandstairs2d,sandstairs2c</move>
 			<replaceCellItem>sandstairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_sandstairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs2a,sandstairs2d,sandstairs2c</move>		
+			<move useSource="true">sandstairs2a,sandstairs2d,sandstairs2c</move>
 			<replaceCellItem>sandstairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sandstairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs2b,sandstairs2a,sandstairs2c</move>		
+			<move useSource="true">sandstairs2b,sandstairs2a,sandstairs2c</move>
 			<replaceCellItem>sandstairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sandstairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs2b,sandstairs2d,sandstairs2a</move>		
+			<move useSource="true">sandstairs2b,sandstairs2d,sandstairs2a</move>
 			<replaceCellItem>sandstairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sandstairs3a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs3b,sandstairs3d,sandstairs3c</move>		
+			<move useSource="true">sandstairs3b,sandstairs3d,sandstairs3c</move>
 			<replaceCellItem>sandstairs3a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_sandstairs3b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs3a,sandstairs3d,sandstairs3c</move>		
+			<move useSource="true">sandstairs3a,sandstairs3d,sandstairs3c</move>
 			<replaceCellItem>sandstairs3b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sandstairs3d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs3b,sandstairs3a,sandstairs3c</move>		
+			<move useSource="true">sandstairs3b,sandstairs3a,sandstairs3c</move>
 			<replaceCellItem>sandstairs3d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_sandstairs3c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs3b,sandstairs3d,sandstairs3a</move>		
+			<move useSource="true">sandstairs3b,sandstairs3d,sandstairs3a</move>
 			<replaceCellItem>sandstairs3c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redstonestairs1</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs2,redstonestairs4,redstonestairs3</move>		
+			<move useSource="true">redstonestairs2,redstonestairs4,redstonestairs3</move>
 			<replaceCellItem>redstonestairs1</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_redstonestairs2</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs1,redstonestairs4,redstonestairs3</move>		
+			<move useSource="true">redstonestairs1,redstonestairs4,redstonestairs3</move>
 			<replaceCellItem>redstonestairs2</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redstonestairs4</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs2,redstonestairs1,redstonestairs3</move>		
+			<move useSource="true">redstonestairs2,redstonestairs1,redstonestairs3</move>
 			<replaceCellItem>redstonestairs4</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redstonestairs3</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs2,redstonestairs4,redstonestairs1</move>		
+			<move useSource="true">redstonestairs2,redstonestairs4,redstonestairs1</move>
 			<replaceCellItem>redstonestairs3</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_redstonestairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs2b,redstonestairs2d,redstonestairs2c</move>		
+			<move useSource="true">redstonestairs2b,redstonestairs2d,redstonestairs2c</move>
 			<replaceCellItem>redstonestairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_redstonestairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs2a,redstonestairs2d,redstonestairs2c</move>		
+			<move useSource="true">redstonestairs2a,redstonestairs2d,redstonestairs2c</move>
 			<replaceCellItem>redstonestairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redstonestairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs2b,redstonestairs2a,redstonestairs2c</move>		
+			<move useSource="true">redstonestairs2b,redstonestairs2a,redstonestairs2c</move>
 			<replaceCellItem>redstonestairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_redstonestairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">redstonestairs2b,redstonestairs2d,redstonestairs2a</move>		
+			<move useSource="true">redstonestairs2b,redstonestairs2d,redstonestairs2a</move>
 			<replaceCellItem>redstonestairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluestonestairs1</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs2,bluestonestairs4,bluestonestairs3</move>		
+			<move useSource="true">bluestonestairs2,bluestonestairs4,bluestonestairs3</move>
 			<replaceCellItem>bluestonestairs1</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_bluestonestairs2</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs1,bluestonestairs4,bluestonestairs3</move>		
+			<move useSource="true">bluestonestairs1,bluestonestairs4,bluestonestairs3</move>
 			<replaceCellItem>bluestonestairs2</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluestonestairs4</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs2,bluestonestairs1,bluestonestairs3</move>		
+			<move useSource="true">bluestonestairs2,bluestonestairs1,bluestonestairs3</move>
 			<replaceCellItem>bluestonestairs4</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluestonestairs3</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs2,bluestonestairs4,bluestonestairs1</move>		
+			<move useSource="true">bluestonestairs2,bluestonestairs4,bluestonestairs1</move>
 			<replaceCellItem>bluestonestairs3</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluestonestairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs2b,bluestonestairs2d,bluestonestairs2c</move>		
+			<move useSource="true">bluestonestairs2b,bluestonestairs2d,bluestonestairs2c</move>
 			<replaceCellItem>bluestonestairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_bluestonestairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs2a,bluestonestairs2d,bluestonestairs2c</move>		
+			<move useSource="true">bluestonestairs2a,bluestonestairs2d,bluestonestairs2c</move>
 			<replaceCellItem>bluestonestairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluestonestairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs2b,bluestonestairs2a,bluestonestairs2c</move>		
+			<move useSource="true">bluestonestairs2b,bluestonestairs2a,bluestonestairs2c</move>
 			<replaceCellItem>bluestonestairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bluestonestairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bluestonestairs2b,bluestonestairs2d,bluestonestairs2a</move>		
+			<move useSource="true">bluestonestairs2b,bluestonestairs2d,bluestonestairs2a</move>
 			<replaceCellItem>bluestonestairs2c</replaceCellItem>
 		</queue>
-	</action>			
-	
+	</action>
+
 	<action>
 		<id>rotate_yellowstonestairs1</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs2,yellowstonestairs4,yellowstonestairs3</move>		
+			<move useSource="true">yellowstonestairs2,yellowstonestairs4,yellowstonestairs3</move>
 			<replaceCellItem>yellowstonestairs1</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_yellowstonestairs2</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs1,yellowstonestairs4,yellowstonestairs3</move>		
+			<move useSource="true">yellowstonestairs1,yellowstonestairs4,yellowstonestairs3</move>
 			<replaceCellItem>yellowstonestairs2</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_yellowstonestairs4</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs2,yellowstonestairs1,yellowstonestairs3</move>		
+			<move useSource="true">yellowstonestairs2,yellowstonestairs1,yellowstonestairs3</move>
 			<replaceCellItem>yellowstonestairs4</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_yellowstonestairs3</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs2,yellowstonestairs4,yellowstonestairs1</move>		
+			<move useSource="true">yellowstonestairs2,yellowstonestairs4,yellowstonestairs1</move>
 			<replaceCellItem>yellowstonestairs3</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_yellowstonestairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs2b,yellowstonestairs2d,yellowstonestairs2c</move>		
+			<move useSource="true">yellowstonestairs2b,yellowstonestairs2d,yellowstonestairs2c</move>
 			<replaceCellItem>yellowstonestairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_yellowstonestairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs2a,yellowstonestairs2d,yellowstonestairs2c</move>		
+			<move useSource="true">yellowstonestairs2a,yellowstonestairs2d,yellowstonestairs2c</move>
 			<replaceCellItem>yellowstonestairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_yellowstonestairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs2b,yellowstonestairs2a,yellowstonestairs2c</move>		
+			<move useSource="true">yellowstonestairs2b,yellowstonestairs2a,yellowstonestairs2c</move>
 			<replaceCellItem>yellowstonestairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_yellowstonestairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">yellowstonestairs2b,yellowstonestairs2d,yellowstonestairs2a</move>		
+			<move useSource="true">yellowstonestairs2b,yellowstonestairs2d,yellowstonestairs2a</move>
 			<replaceCellItem>yellowstonestairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenstonestairs1</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs2,greenstonestairs4,greenstonestairs3</move>		
+			<move useSource="true">greenstonestairs2,greenstonestairs4,greenstonestairs3</move>
 			<replaceCellItem>greenstonestairs1</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_greenstonestairs2</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs1,greenstonestairs4,greenstonestairs3</move>		
+			<move useSource="true">greenstonestairs1,greenstonestairs4,greenstonestairs3</move>
 			<replaceCellItem>greenstonestairs2</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenstonestairs4</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs2,greenstonestairs1,greenstonestairs3</move>		
+			<move useSource="true">greenstonestairs2,greenstonestairs1,greenstonestairs3</move>
 			<replaceCellItem>greenstonestairs4</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenstonestairs3</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs2,greenstonestairs4,greenstonestairs1</move>		
+			<move useSource="true">greenstonestairs2,greenstonestairs4,greenstonestairs1</move>
 			<replaceCellItem>greenstonestairs3</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenstonestairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs2b,greenstonestairs2d,greenstonestairs2c</move>		
+			<move useSource="true">greenstonestairs2b,greenstonestairs2d,greenstonestairs2c</move>
 			<replaceCellItem>greenstonestairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_greenstonestairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs2a,greenstonestairs2d,greenstonestairs2c</move>		
+			<move useSource="true">greenstonestairs2a,greenstonestairs2d,greenstonestairs2c</move>
 			<replaceCellItem>greenstonestairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenstonestairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs2b,greenstonestairs2a,greenstonestairs2c</move>		
+			<move useSource="true">greenstonestairs2b,greenstonestairs2a,greenstonestairs2c</move>
 			<replaceCellItem>greenstonestairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_greenstonestairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">greenstonestairs2b,greenstonestairs2d,greenstonestairs2a</move>		
+			<move useSource="true">greenstonestairs2b,greenstonestairs2d,greenstonestairs2a</move>
 			<replaceCellItem>greenstonestairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_orangestonestairs1</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs2,orangestonestairs4,orangestonestairs3</move>		
+			<move useSource="true">orangestonestairs2,orangestonestairs4,orangestonestairs3</move>
 			<replaceCellItem>orangestonestairs1</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_orangestonestairs2</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs1,orangestonestairs4,orangestonestairs3</move>		
+			<move useSource="true">orangestonestairs1,orangestonestairs4,orangestonestairs3</move>
 			<replaceCellItem>orangestonestairs2</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_orangestonestairs4</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs2,orangestonestairs1,orangestonestairs3</move>		
+			<move useSource="true">orangestonestairs2,orangestonestairs1,orangestonestairs3</move>
 			<replaceCellItem>orangestonestairs4</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_orangestonestairs3</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs2,orangestonestairs4,orangestonestairs1</move>		
+			<move useSource="true">orangestonestairs2,orangestonestairs4,orangestonestairs1</move>
 			<replaceCellItem>orangestonestairs3</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_orangestonestairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs2b,orangestonestairs2d,orangestonestairs2c</move>		
+			<move useSource="true">orangestonestairs2b,orangestonestairs2d,orangestonestairs2c</move>
 			<replaceCellItem>orangestonestairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_orangestonestairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs2a,orangestonestairs2d,orangestonestairs2c</move>		
+			<move useSource="true">orangestonestairs2a,orangestonestairs2d,orangestonestairs2c</move>
 			<replaceCellItem>orangestonestairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_orangestonestairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs2b,orangestonestairs2a,orangestonestairs2c</move>		
+			<move useSource="true">orangestonestairs2b,orangestonestairs2a,orangestonestairs2c</move>
 			<replaceCellItem>orangestonestairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_orangestonestairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">orangestonestairs2b,orangestonestairs2d,orangestonestairs2a</move>		
+			<move useSource="true">orangestonestairs2b,orangestonestairs2d,orangestonestairs2a</move>
 			<replaceCellItem>orangestonestairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplestonestairs1</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs2,purplestonestairs4,purplestonestairs3</move>		
+			<move useSource="true">purplestonestairs2,purplestonestairs4,purplestonestairs3</move>
 			<replaceCellItem>purplestonestairs1</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_purplestonestairs2</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs1,purplestonestairs4,purplestonestairs3</move>		
+			<move useSource="true">purplestonestairs1,purplestonestairs4,purplestonestairs3</move>
 			<replaceCellItem>purplestonestairs2</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplestonestairs4</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs2,purplestonestairs1,purplestonestairs3</move>		
+			<move useSource="true">purplestonestairs2,purplestonestairs1,purplestonestairs3</move>
 			<replaceCellItem>purplestonestairs4</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplestonestairs3</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs2,purplestonestairs4,purplestonestairs1</move>		
+			<move useSource="true">purplestonestairs2,purplestonestairs4,purplestonestairs1</move>
 			<replaceCellItem>purplestonestairs3</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplestonestairs2a</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs2b,purplestonestairs2d,purplestonestairs2c</move>		
+			<move useSource="true">purplestonestairs2b,purplestonestairs2d,purplestonestairs2c</move>
 			<replaceCellItem>purplestonestairs2a</replaceCellItem>
 		</queue>
 	</action>
 
 	<action>
 		<id>rotate_purplestonestairs2b</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs2a,purplestonestairs2d,purplestonestairs2c</move>		
+			<move useSource="true">purplestonestairs2a,purplestonestairs2d,purplestonestairs2c</move>
 			<replaceCellItem>purplestonestairs2b</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplestonestairs2d</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs2b,purplestonestairs2a,purplestonestairs2c</move>		
+			<move useSource="true">purplestonestairs2b,purplestonestairs2a,purplestonestairs2c</move>
 			<replaceCellItem>purplestonestairs2d</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_purplestonestairs2c</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">purplestonestairs2b,purplestonestairs2d,purplestonestairs2a</move>		
+			<move useSource="true">purplestonestairs2b,purplestonestairs2d,purplestonestairs2a</move>
 			<replaceCellItem>purplestonestairs2c</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bonestairs_1_N</id>
-		<name esES="N/A">Rotate North</name>		
+		<name esES="N/A">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_S</move>		
+			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_S</move>
 			<replaceCellItem>bonestairs_1_N</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_bonestairs_1_E</id>
-		<name esES="N/A">Rotate East</name>		
+		<name esES="N/A">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs_1_W,bonestairs_1_N,bonestairs_1_S</move>		
+			<move useSource="true">bonestairs_1_W,bonestairs_1_N,bonestairs_1_S</move>
 			<replaceCellItem>bonestairs_1_E</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_bonestairs_1_S</id>
-		<name esES="N/A">Rotate South</name>		
+		<name esES="N/A">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_N</move>		
+			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_N</move>
 			<replaceCellItem>bonestairs_1_S</replaceCellItem>
 		</queue>
-	</action>		
-	
+	</action>
+
 	<action>
 		<id>rotate_bonestairs_1_W</id>
-		<name esES="N/A">Rotate West</name>		
+		<name esES="N/A">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs_1_N,bonestairs_1_E,bonestairs_1_S</move>		
+			<move useSource="true">bonestairs_1_N,bonestairs_1_E,bonestairs_1_S</move>
 			<replaceCellItem>bonestairs_1_W</replaceCellItem>
 		</queue>
-	</action>	
-<!-- /ROTATE STAIRS -->				
+	</action>
+<!-- /ROTATE STAIRS -->
 
 <!-- CONSTRUCT STAIRS -->
 	<action>
@@ -12930,7 +12930,7 @@
 			<createItem>woodstairs1a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qwoodstairs2a</id>
 
@@ -12949,7 +12949,7 @@
 			<createItem>woodstairs2a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qwoodstairs3a</id>
 
@@ -12978,7 +12978,7 @@
 			<createItem>dirtstairs1a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qdirtstairs2a</id>
 
@@ -13034,7 +13034,7 @@
 			<createItem>stonestairs2a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qstonestairs3a</id>
 
@@ -13057,7 +13057,7 @@
 			<createItem>stonestairs3a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qstonestairs4a</id>
 
@@ -13080,7 +13080,7 @@
 			<createItem>stonestairs4a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qstonestairs5a</id>
 
@@ -13094,8 +13094,8 @@
 			<unlock />
 			<createItem>stonestairs5a</createItem>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>qbonestairs_1_N</id>
 
@@ -13110,7 +13110,7 @@
 			<createItem>bonestairs_1_N</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsandstairs1a</id>
 
@@ -13125,7 +13125,7 @@
 			<createItem>sandstairs1a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsandstairs2a</id>
 
@@ -13144,7 +13144,7 @@
 			<createItem>sandstairs2a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsandstairs3a</id>
 
@@ -13167,7 +13167,7 @@
 			<createItem>sandstairs3a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qredstonestairs1</id>
 
@@ -13190,7 +13190,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qbluestonestairs1</id>
 
@@ -13256,7 +13256,7 @@
 			<createItem>yellowstonestairs1</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qorangestonestairs1</id>
 
@@ -13300,7 +13300,7 @@
 			<createItem>purplestonestairs1</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qredstonestairs2a</id>
 
@@ -13327,7 +13327,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qbluestonestairs2a</id>
 
@@ -13405,7 +13405,7 @@
 			<createItem>yellowstonestairs2a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qorangestonestairs2a</id>
 
@@ -13457,111 +13457,111 @@
 			<createItem>purplestonestairs2a</createItem>
 		</queue>
 	</action>
-<!-- /CONSTRUCT STAIRS -->	
+<!-- /CONSTRUCT STAIRS -->
 
 <!-- CONVERT STAIRS -->
 	<action>
 		<id>convert_to_woodstairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodenladder</move>		
+			<move useSource="true">woodenladder</move>
 			<replaceCellItem>woodstairs1a</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>convert_to_woodstairs2a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ladder</move>		
+			<move useSource="true">ladder</move>
 			<replaceCellItem>woodstairs2a</replaceCellItem>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>convert_to_woodstairs3a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">logladder</move>		
+			<move useSource="true">logladder</move>
 			<replaceCellItem>woodstairs3a</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>convert_to_dirtstairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtladder</move>		
+			<move useSource="true">dirtladder</move>
 			<replaceCellItem>dirtstairs1a</replaceCellItem>
-		</queue>		
+		</queue>
 	</action>
-		
+
 	<action>
 		<id>convert_to_stonestairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stoneladder</move>		
+			<move useSource="true">stoneladder</move>
 			<replaceCellItem>stonestairs1a</replaceCellItem>
 		</queue>
-	</action>		
-		
+	</action>
+
 	<action>
 		<id>convert_to_stonestairs2a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonespindleladder</move>		
+			<move useSource="true">stonespindleladder</move>
 			<replaceCellItem>stonestairs2a</replaceCellItem>
 		</queue>
 	</action>
-		
+
 	<action>
 		<id>convert_to_stonestairs3a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ancientladder</move>		
+			<move useSource="true">ancientladder</move>
 			<replaceCellItem>stonestairs3a</replaceCellItem>
 		</queue>
-	</action>		
+	</action>
 
 	<action>
 		<id>convert_to_sandstairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">limestoneramp</move>		
+			<move useSource="true">limestoneramp</move>
 			<replaceCellItem>sandstairs1a</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>convert_to_bonestairs_1_N</id>
-		<name esES="N/A">Make Me Rotate!</name>		
+		<name esES="N/A">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs</move>		
+			<move useSource="true">bonestairs</move>
 			<replaceCellItem>bonestairs_1_N</replaceCellItem>
 		</queue>
-	</action>	
-<!-- /CONVERT STAIRS -->	
+	</action>
+<!-- /CONVERT STAIRS -->
 
 <!-- UNTILL -->
 	<action>
 		<id>quntilldirt</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to dirt from</name> 
+		<name esES="Des-arar">Turn to dirt from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>dirt</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>quntillgrass</id>
@@ -13588,7 +13588,7 @@
 	<action>
 		<id>quntillsnow</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to snow from</name> 
+		<name esES="Des-arar">Turn to snow from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13606,18 +13606,18 @@
 			<changeTerrain>sand</changeTerrain>
 		</queue>
 	</action>
-	
+
 <!-- TERRAFORMING -->
 	<action>
 		<id>qterraformtodirt</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to dirt from</name> 
+		<name esES="Des-arar">Turn to dirt from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>dirt</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtograss</id>
@@ -13644,7 +13644,7 @@
 	<action>
 		<id>qterraformtosnow</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to snow from</name> 
+		<name esES="Des-arar">Turn to snow from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13677,7 +13677,7 @@
 	<action>
 		<id>qterraformtogravel</id>
 		<priorityID>chopping</priorityID>
-		<name esES="Des-arar">Turn to gravel from</name> 
+		<name esES="Des-arar">Turn to gravel from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13688,7 +13688,7 @@
 	<action>
 		<id>qterraformtocoal</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to coal from</name> 
+		<name esES="Des-arar">Turn to coal from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13699,7 +13699,7 @@
 	<action>
 		<id>qterraformtoiron</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to iron from</name> 
+		<name esES="Des-arar">Turn to iron from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13710,7 +13710,7 @@
 	<action>
 		<id>qterraformtosilver</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to silver from</name> 
+		<name esES="Des-arar">Turn to silver from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13721,7 +13721,7 @@
 	<action>
 		<id>qterraformtogold</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to gold from</name> 
+		<name esES="Des-arar">Turn to gold from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
@@ -13732,137 +13732,137 @@
 	<action>
 		<id>qterraformtograss1</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name> 
+		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>grass1</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtograss2</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name> 
+		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>grass2</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtograss3</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name> 
+		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>grass3</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtograssnoflower</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name> 
+		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>grassnoflower</changeTerrain>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>qterraformtograssnoflower1</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name> 
+		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>grassnoflower1</changeTerrain>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<action>
 		<id>qterraformtograssnoflower2</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name> 
+		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>grassnoflower2</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtofloatinggrass</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name> 
+		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>floatinggrass</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtocopper</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to copper from</name> 
+		<name esES="Des-arar">Turn to copper from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>copper</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtodensestone</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to densestone from</name> 
+		<name esES="Des-arar">Turn to densestone from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>densestone</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtodungeon3</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to dungeon stone from</name> 
+		<name esES="Des-arar">Turn to dungeon stone from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>dungeon3</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtolavarock</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to lava rock from</name> 
+		<name esES="Des-arar">Turn to lava rock from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>lavarock</changeTerrain>
 		</queue>
-	</action>	
+	</action>
 
 	<action>
 		<id>qterraformtolavadirt</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to lava dirt from</name> 
+		<name esES="Des-arar">Turn to lava dirt from</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>lavadirt</changeTerrain>
 		</queue>
-	</action>	
-	
+	</action>
+
 	<!-- WINTER ITEMS -->
-	
+
 
 	<action>
 		<id>qsnowman1</id>
@@ -13924,7 +13924,7 @@
 			<createitem>undecaxmastree</createitem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qdecatree</id>
 		<name esES="Decorate">Decorate</name>
@@ -15147,7 +15147,7 @@
 		</queue>
 	</action>
 	<!-- /TABLE DECORATIONS -->
-	
+
 	<!-- CHARCOAL -LM -->
 	<action>
 		<id>qcharcoal</id>
@@ -15170,27 +15170,27 @@
 			<createItem>rmcoal</createItem>
 		</queue>
 	</action>
-	
+
 	<!-- CLEAR RUBBLE -LM -->
 	<action>
 		<id>qclearrubble</id>
 		<name esES="N/A">Clear</name>
-		
+
 		<priorityID>itemconstruction</priorityID>
-		
+
 		<queue>
 			<move useSource="true">rubble</move>
 			<wait>20</wait>
 			<destroyCellItem />
 		</queue>
 	</action>
-	
+
 	<!-- MARKET TENTS -LM -->
 	<action>
 		<id>qmarkettent</id>
-		
+
 		<priorityID>itemconstruction</priorityID>
-		
+
 		<queue>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
@@ -15205,7 +15205,7 @@
 			<createItem>markettent</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_markettent</id>
 		<name esES="Rotate">Rotate</name>
@@ -15216,7 +15216,7 @@
 			<replacecellItem>markettent_1</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_markettent_1</id>
 		<name esES="Rotate">Rotate</name>
@@ -15227,12 +15227,12 @@
 			<replacecellItem>markettent</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qmarkettent_a</id>
-		
+
 		<priorityID>itemconstruction</priorityID>
-		
+
 		<queue>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
@@ -15247,7 +15247,7 @@
 			<createItem>markettent_a</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_markettent_a</id>
 		<name esES="Rotate">Rotate</name>
@@ -15258,7 +15258,7 @@
 			<replacecellItem>markettent_a_1</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_markettent_a_1</id>
 		<name esES="Rotate">Rotate</name>
@@ -15269,12 +15269,12 @@
 			<replacecellItem>markettent_a</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qmarkettent_b</id>
-		
+
 		<priorityID>itemconstruction</priorityID>
-		
+
 		<queue>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
@@ -15289,7 +15289,7 @@
 			<createItem>markettent_b</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_markettent_b</id>
 		<name esES="Rotate">Rotate</name>
@@ -15300,7 +15300,7 @@
 			<replacecellItem>markettent_b_1</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>rotate_markettent_b_1</id>
 		<name esES="Rotate">Rotate</name>
@@ -15311,13 +15311,13 @@
 			<replacecellItem>markettent_b</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<!-- ROPE BRIDGES -LM/GreyFalcon -->
 	<action>
 		<id>qropebridge_NS</id>
-		
+
 		<priorityID>itemconstruction</priorityID>
-		
+
 		<queue>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
@@ -15332,12 +15332,12 @@
 			<createItem>ropebridge_NS</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qropebridge_EW</id>
-		
+
 		<priorityID>itemconstruction</priorityID>
-		
+
 		<queue>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
@@ -15352,7 +15352,7 @@
 			<createItem>ropebridge_EW</createItem>
 		</queue>
 	</action>
-	
+
 	<!-- TAVERN TABLE DECORATIONS -LM -->
 	<action>
 		<id>add_taverntable_candle</id>
@@ -15364,7 +15364,7 @@
 			<replacecellItem>taverntable_candle</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>add_taverntable_drinks</id>
 		<name esES="Serve drinks on">Serve drinks on</name>
@@ -15375,7 +15375,7 @@
 			<replacecellItem>taverntable_drinks</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>remove_taverntable_decoration</id>
 		<name esES="Remove decoration on">Remove decoration on</name>
@@ -15386,19 +15386,19 @@
 			<replacecellItem>taverntable</replacecellItem>
 		</queue>
 	</action>
-	
+
 	<!-- BUILD NEW FARMS -->
 	<action>
 		<id>qnewcowfarm</id>
 		<name esES="N/A">Cow Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue> 
+		<queue>
 			<pickFriendly>cow,wildcow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>bull,wildbull</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly /> 
+			<destroyFriendly />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -15407,7 +15407,7 @@
 			<createItem>newcowfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewbullfarm</id>
 		<name esES="N/A">Bull Barn</name>
@@ -15418,7 +15418,7 @@
 			<destroyFriendly />
 			<pickFriendly>bull,wildbull</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly /> 
+			<destroyFriendly />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -15427,7 +15427,7 @@
 			<createItem>newbullfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewpigfarm</id>
 		<name esES="N/A">Pig Barn</name>
@@ -15447,7 +15447,7 @@
 			<createItem>newpigfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewboarfarm</id>
 		<name esES="N/A">Boar Barn</name>
@@ -15467,18 +15467,18 @@
 			<createItem>newboarfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewchickenfarm</id>
 		<name esES="N/A">Chicken Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue> 
+		<queue>
 			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>rooster,wildrooster</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly /> 
+			<destroyFriendly />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -15487,18 +15487,18 @@
 			<createItem>newchickenfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewroosterfarm</id>
 		<name esES="N/A">Rooster Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue> 
+		<queue>
 			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>rooster,wildrooster</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly /> 
+			<destroyFriendly />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -15507,18 +15507,18 @@
 			<createItem>newroosterfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewskootenbeetenfarm</id>
 		<name esES="N/A">Skootenbeeten Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue> 
+		<queue>
 			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly /> 
+			<destroyFriendly />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -15527,18 +15527,18 @@
 			<createItem>newskootenbeetenfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewunifallowfarm</id>
 		<name esES="N/A">Unifallow Barn</name>
 		<priorityID>itemconstruction</priorityID>
-		<queue> 
+		<queue>
 			<pickFriendly>unifallow,wildunifallow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>unifallow,wildunifallow</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly /> 
+			<destroyFriendly />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -15547,7 +15547,7 @@
 			<createItem>newunifallowfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewbadgerfarm</id>
 		<name esES="N/A">Badger Barn</name>
@@ -15567,7 +15567,7 @@
 			<createItem>newbadgerfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qnewsnoatfarm</id>
 		<name esES="N/A">Snoat Barn</name>
@@ -15578,7 +15578,7 @@
 			<destroyFriendly />
 			<pickFriendly>snoat</pickFriendly>
 			<wait>30</wait>
-			<destroyFriendly /> 
+			<destroyFriendly />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -15587,7 +15587,7 @@
 			<createItem>newsnoatfarm</createItem>
 		</queue>
 	</action>
-	
+
 	<!-- BREED NEW FARMS -->
 	<action>
 		<id>qbreedcow</id>
@@ -15622,13 +15622,13 @@
 			<pick>wheat</pick>
 			<move useSource="true">newbullfarm</move>
 			<wait>15</wait>
-			<destroyItem />		
+			<destroyItem />
 			<replaceCellItem>emptybullfarm</replaceCellItem>
 			<createFriendly>bull</createFriendly>
 			<unlock />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbreedpig</id>
 		<name esES="N/A">Breed Pig</name>
@@ -15662,13 +15662,13 @@
 			<pick>wheat</pick>
 			<move useSource="true">newboarfarm</move>
 			<wait>15</wait>
-			<destroyItem />			
+			<destroyItem />
 			<replaceCellItem>emptyboarfarm</replaceCellItem>
 			<createFriendly>boar</createFriendly>
 			<unlock />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbreedchicken</id>
 		<name esES="N/A">Breed Chicken</name>
@@ -15688,7 +15688,7 @@
 			<unlock />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbreedrooster</id>
 		<name esES="N/A">Breed Rooster</name>
@@ -15708,7 +15708,7 @@
 			<unlock />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbreedskootenbeeten</id>
 		<name esES="N/A">Breed Skootenbeeten</name>
@@ -15722,13 +15722,13 @@
 			<pick>wheat</pick>
 			<move useSource="true">newskootenbeetenfarm</move>
 			<wait>15</wait>
-			<destroyItem />			
+			<destroyItem />
 			<replaceCellItem>emptyskootenbeetenfarm</replaceCellItem>
 			<createFriendly>skootenbeeten</createFriendly>
 			<unlock />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbreedunifallow</id>
 		<name esES="N/A">Breed Unifallow</name>
@@ -15742,13 +15742,13 @@
 			<pick>wheat</pick>
 			<move useSource="true">newunifallowfarm</move>
 			<wait>15</wait>
-			<destroyItem />			
+			<destroyItem />
 			<replaceCellItem>emptyunifallowfarm</replaceCellItem>
 			<createFriendly>unifallow</createFriendly>
 			<unlock />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbreedbadger</id>
 		<name esES="N/A">Breed Badger</name>
@@ -15762,13 +15762,13 @@
 			<pick>wheat</pick>
 			<move useSource="true">newbadgerfarm</move>
 			<wait>15</wait>
-			<destroyItem />			
+			<destroyItem />
 			<replaceCellItem>emptybadgerfarm</replaceCellItem>
 			<createFriendly>badger</createFriendly>
 			<unlock />
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qbreedsnoat</id>
 		<name esES="N/A">Breed Snoat</name>
@@ -15782,10 +15782,1966 @@
 			<pick>wheat</pick>
 			<move useSource="true">newsnoatfarm</move>
 			<wait>15</wait>
-			<destroyItem />			
+			<destroyItem />
 			<replaceCellItem>emptysnoatfarm</replaceCellItem>
 			<createFriendly>snoat</createFriendly>
 			<unlock />
 		</queue>
 	</action>
+
+	<!-- REMOVABLE ITEMS BY BLURPSL-->
+
+	<action>
+		  <id>del_mill</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">mill</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>mill</createItem>
+		  </queue>
+	</action>
+
+	<action>
+		  <id>del_verticalladder</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">verticalladder</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>verticalladder</createItem>
+		  </queue>
+	</action>
+	<action>
+		<id>del_ladder</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ladder,woodstairs2a,woodstairs2b,woodstairs2c,woodstairs2d</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>woodstairs2a</createItem>
+		</queue>
+	</action>
+	<action>
+		  <id>del_woodenladder</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodenladder,woodstairs1a,woodstairs1b,woodstairs1c,woodstairs1d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodstairs1a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stoneladder</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stoneladder,stonestairs1a,stonestairs1b,stonestairs1c,stonestairs1d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stonestairs1a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stoneladder4</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+				<move useSource="true">stoneladder,stonestairs4a,stonestairs4b,stonestairs4c,stonestairs4d</move>
+				<wait>16</wait>
+				<destroyCellItem />
+				<createItem>stonestairs4a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stoneladder5</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+				<move useSource="true">stoneladder,stonestairs5a,stonestairs5b,stonestairs5c,stonestairs5d</move>
+				<wait>16</wait>
+				<destroyCellItem />
+				<createItem>stonestairs5a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_logladder</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+				<move useSource="true">logladder,woodstairs3a,woodstairs3b,woodstairs3c,woodstairs3d</move>
+				<wait>16</wait>
+				<destroyCellItem />
+				<createItem>woodstairs3a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_dirtladder</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">dirtladder,dirtstairs1a,dirtstairs1b,dirtstairs1c,dirtstairs1d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>dirtstairs1a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_dirtladder2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">dirtstairs2a,dirtstairs2b,dirtstairs2c,dirtstairs2d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>dirtstairs2a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stonespindleladder</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stonespindleladder,stonestairs2a,stonestairs2b,stonestairs2c,stonestairs2d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stonestairs2a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_ancientladder</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+				<move useSource="true">ancientladder,stonestairs3a,stonestairs3b,stonestairs3c,stonestairs3d</move>
+				<wait>16</wait>
+				<destroyCellItem />
+				<createItem>stonestairs3a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bonestairs</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bonestairs,bonestairs_1_N,bonestairs_1_W,bonestairs_1_E,bonestairs_1_S</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bonestairs_1_N</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_hedgegate</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">hedgegate</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>hedgegate</createItem>
+		  </queue>
+	</action>
+	<!-- DELETE FURNITURE -->
+	<action>
+		  <id>del_woodenbed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodenbed,woodenbed_E,woodenbed_S,woodenbed_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodenbed</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_camobed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">camo_bed_N,camo_bed_E,camo_bed_S,camo_bed_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>camo_bed_N</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_greenbed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">green_bed_N,green_bed_E,green_bed_S,green_bed_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>green_bed_N</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bluebed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">blue_bed_N,blue_bed_E,blue_bed_S,blue_bed_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>blue_bed_N</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_redbed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">red_bed_N,red_bed_E,red_bed_S,red_bed_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>red_bed_N</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_purplebed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">purple_bed_N,purple_bed_E,purple_bed_S,purple_bed_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>purple_bed_N</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodendormbed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodendormbed</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodendormbed</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bonebed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bonebed</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bonebed</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stonechair</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stonechair</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stonechair</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_purplethrone</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">purplethrone,purplethrone_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>purplethrone</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodenchair</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodenchair</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodenchair</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_redchair</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">redchair_N,redchair_E,redchair_S,redchair_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>redchair_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_redchair_2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">redchair_2_N,redchair_2_E,redchair_2_S,redchair_2_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>redchair_2_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bluechair</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bluechair_N,bluechair_E,bluechair_S,bluechair_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bluechair_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_greenchair</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">greenchair_N,greenchair_E,greenchair_S,greenchair_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>greenchair_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodchair_1</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodchair_1_N,woodchair_1_E,woodchair_1_S,woodchair_1_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodchair_1_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodchair_2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodchair_2_N,woodchair_2_E,woodchair_2_S,woodchair_2_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodchair_2_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodchair_3</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodchair_3_N,woodchair_3_E,woodchair_3_S,woodchair_3_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodchair_3_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_whitechair</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">whitechair_N,whitechair_E,whitechair_S,whitechair_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>whitechair_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_purplechair</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">purplechair_N,purplechair_E,purplechair_S,purplechair_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>purplechair_S</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodencupboard</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodencupboard</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodencupboard</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodencupboard_E</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodencupboard_E,woodencupboard_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodencupboard_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodendrawer_E</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodendrawer_E,woodendrawer_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodendrawer_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_smallwoodendrawer_E</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">smallwoodendrawer_E,smallwoodendrawer_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>smallwoodendrawer_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_smallwoodendrawer_flower_E</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">smallwoodendrawer_flower_E,smallwoodendrawer_flower_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>smallwoodendrawer_flower_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_tallwoodencupboard_E</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">tallwoodencupboard_E,tallwoodencupboard_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>tallwoodencupboard_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_floodgate</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">floodgate</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>floodgate</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_fluidselevator</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">fluidselevator</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>fluidselevator</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_fencedoor</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">fencedoor</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>fencedoor</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_halfdoor</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">halfdoor</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>halfdoor</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_blockdoor</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">blockdoor,xmasblockdoor</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>blockdoor</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_logdoor</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">logdoor,xmaslogdoor</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>logdoor</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodendoor</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodendoor,xmaswoodendoor</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodendoor</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bonedoor</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bonedoor</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bonedoor</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_architecttable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">architecttable</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>architecttable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stonetable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stonetable,stonetable_d1,stonetable_d2,stonetable_d3,stonetable_d4,stonetable_d5,stonetable_d6,stonetable_d7,stonetable_d8</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stonetable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_woodentable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">woodentable,woodentable_d1,woodentable_d2,woodentable_d3,woodentable_d4,woodentable_d5,woodentable_d6,woodentable_d7,woodentable_d8</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>woodentable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_squarestable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">squarestable</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>squarestable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_taverntable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">taverntable,taverntable_candle,taverntable_drinks</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>taverntable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stonearcdoor1</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stonearcdoor1</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stonearcdoor1</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stonearcdoor2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stonearcdoor2</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stonearcdoor2</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_anvil</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">anvil</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>anvil</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_itesmithy</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">itesmithy</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>itesmithy</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_kitchentable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">kitchentable</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>kitchentable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_butchertable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">butchertable</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>butchertable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_cookingbowl</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">cookingbowl</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>cookingbowl</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_medicinecabinet</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">medicinecabinet,medicinecabinet_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>medicinecabinet</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_smelter</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">smelter</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>smelter</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bonecarver</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bonecarver</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bonecarver</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stove</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stove</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stove</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bakeroven</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bakeroven</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bakertable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bakertable</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bakertable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_carpentrybench</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">carpentrybench</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>carpentrybench</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_skinner</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">skinner</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>skinner</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_colormixer</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">colormixer</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>colormixer</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_carvingbench</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">carvingbench</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>carvingbench</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_masonbench</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">masonbench</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>masonbench</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_wooddetailer</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">wooddetailer</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>wooddetailer</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_clock</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">clock,clock_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>clock</createItem>
+		  </queue>
+	</action>
+	<!-- DELETE FLAGS -->
+	<action>
+		  <id>del_redlongflag</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">redlongflag</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>redlongflag</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bluebanner</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bluebanner</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bluebanner</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_greenbanner</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">greenbanner</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>greenbanner</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_purplebanner</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">purplebanner</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>purplebanner</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_blackbanner</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">blackbanner</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>blackbanner</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_redshortflag</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">redshortflag</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>redshortflag</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_blueshortflag</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">blueshortflag</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>blueshortflag</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_greenshortflag</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">greenshortflag</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>greenshortflag</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_purpleshortflag</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">purpleshortflag</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>purpleshortflag</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_blackshortflag</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">blackshortflag</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>blackshortflag</createItem>
+		  </queue>
+	</action>
+
+	<!-- DELETE SIGNS -->
+	<action>
+		  <id>del_doorsignswords</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">doorsignswords,doorsignswords_E1</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>doorsignswords</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_1</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_1_W,sign_1_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_1_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_2_W,sign_2_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_2_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_3</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_3_W,sign_3_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_3_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_4</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_4_W,sign_4_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_4_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_5</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_5_W,sign_5_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_5_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_6</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_6_W,sign_6_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_6_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_7</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_7_W,sign_7_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_7_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_8</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_8_W,sign_8_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_8_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_9</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_9_W,sign_9_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_9_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_10</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_10_W,sign_10_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_10_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_11</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_11_W,sign_11_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_11_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_12</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_12_W,sign_12_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_12_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_13</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_13_W,sign_13_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_13_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_14</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_14_W,sign_14_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_14_E</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sign_15</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sign_15_W,sign_15_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sign_15_E</createItem>
+		  </queue>
+	</action>
+	<!-- DELETE STATUES -->
+	<action>
+		  <id>del_necromancerstatue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">necromancerstatue,necromancerstatue_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>necromancerstatue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_gargoylestatue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">gargoylestatue,gargoylestatue_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>gargoylestatue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_stonemalestatue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">stonemalestatue,stonemalestatue_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>stonemalestatue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_goldunifallowstatue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">goldunifallowstatue,goldunifallowstatue_S</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>goldunifallowstatue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_goldnuxstatue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">goldnuxstatue,goldnuxstatue_S</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>goldnuxstatue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_silverskootenbeetenstatue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">silverskootenbeetenstatue,silverskootenbeetenstatue_S</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>silverskootenbeetenstatue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_barrel</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">barrel</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>barrel</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_burner</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">burner</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>burner</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_chest</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">chest,chest_W</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>chest</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_candle</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">candle</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>candle</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_hangedlamp</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">hangedlamp</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>hangedlamp</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bluehangedlamp</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bluehangedlamp</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bluehangedlamp</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_yellowhangedlamp</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">yellowhangedlamp</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>yellowhangedlamp</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_greenhangedlamp</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">greenhangedlamp</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>greenhangedlamp</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_redhangedlamp</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">redhangedlamp</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>redhangedlamp</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bonecandle</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bonecandle</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bonecandle</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_goblinpole</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">goblinpole</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>goblinpole</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_hobgoblinpole</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">hobgoblinpole</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>hobgoblinpole</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_ghoulpole</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">ghoulpole</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>ghoulpole</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_trollpole</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">trollpole</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>trollpole</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_birdincage</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">birdincage</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>birdincage</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_snickerpole</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">snickerpole</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>snickerpole</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_chimney</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">chimney,chimney_E,xmaschimney,xmaschimney_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>chimney</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_animalfireplace</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">animalfireplace,xmasfireplace</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>animalfireplace</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_potplant</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">potplant</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>potplant</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_chesstable</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">chesstable,chesstable_2</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>chesstable</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_harp</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">harp</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>harp</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bonsai</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bonsai</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bonsai</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bonsaired</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">bonsaired</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>bonsaired</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_gardenred</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">gardenred</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>gardenred</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_gardenblue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">gardenblue</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>gardenblue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_gardenyellow</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">gardenyellow</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>gardenyellow</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_gardenbush1</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">gardenbush1</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>gardenbush1</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_gardenbush2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">gardenbush2</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>gardenbush2</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_gardenbush3</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">gardenbush3</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>gardenbush3</createItem>
+		  </queue>
+	</action>
+	<!-- DELETE GRAVES -->
+	<action>
+		  <id>del_grave</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">grave,grave_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>grave</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_grave2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">grave2_W,grave2_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>grave2_W</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_grave3</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">grave3_W,grave3_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>grave3_W</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_tomb</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">tomb,tomb_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>tomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_tomb2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">tomb2_W,tomb2_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>tomb2_W</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_mosstomb</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">mosstomb,mosstomb_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>mosstomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_mosstomb2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">mosstomb2_W,mosstomb2_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>mosstomb2_W</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_mosstomb3</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">mosstomb3_W,mosstomb3_E</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>mosstomb3_W</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_lizardtomb</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">lizardtomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>lizardtomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_beerbarrel</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">beerbarrel</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>beerbarrel</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_winebarrel</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">winebarrel</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>winebarrel</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_flowerpot_red</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">flowerpot_red</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>flowerpot_red</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_flowerpot_blue</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">flowerpot_blue</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>flowerpot_blue</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_flowerpot_yellow</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">flowerpot_yellow</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>flowerpot_yellow</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_flowerpot_mixed</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">flowerpot_mixed</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>flowerpot_mixed</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_markettent</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">markettent,markettent_1</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>markettent</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_markettent_a</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">markettent_a,markettent_a_1</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>markettent_a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_markettent_b</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">markettent_b,markettent_b_1</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>markettent_b</createItem>
+		  </queue>
+	</action>
+<!-- DELETE FARMS -->
+	<action>
+		  <id>del_cowfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newcowfarm,emptycowfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newcowfarm</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_bullfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newbullfarm,emptybullfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newbullfarm</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_pigfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newpigfarm,emptypigfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newpigfarm</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_boarfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newboarfarm,emptyboarfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newboarfarm</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_chickenfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newchickenfarm,emptychickenfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newchickenfarm</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_roosterfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newroosterfarm,emptyroosterfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newroosterfarm</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_skootenbeetenfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newskootenbeetenfarm,emptyskootenbeetenfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newskootenbeetenfarm</createItem>
+		  </queue>
+	</action>
+	<action>
+		<id>del_unifallowfarm</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">newunifallowfarm,emptyunifallowfarm</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>newunifallowfarm</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_snoatfarm</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">newsnoatfarm,emptysnoatfarm</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>newsnoatfarm</createItem>
+		</queue>
+	</action>
+	<action>
+		  <id>del_badgerfarm</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newbadgerfarm,emptybadgerfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newbadgerfarm</createItem>
+		  </queue>
+	</action>
+<!-- REMOVE ITEMS END -->
 </actions>
