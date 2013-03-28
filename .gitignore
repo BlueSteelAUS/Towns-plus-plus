@@ -21,9 +21,12 @@ special*.png
 terrain*.png
 ui*.png
 
-data/campaigns/c*/*/*gen_dungeons.*
-data/campaigns/c*/*/*gen_items.*
-data/campaigns/c*/*/*gen_map.*
+data/campaigns/c1/*/*gen_dungeons.*
+data/campaigns/c1/*/*gen_items.*
+data/campaigns/c1/*/*gen_map.*
+data/campaigns/c2/*/*gen_dungeons.*
+data/campaigns/c2/*/*gen_items.*
+data/campaigns/c2/*/*gen_map.*
 
 audio.ini
 Abattis Cantarell GPL License.txt

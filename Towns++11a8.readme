@@ -10,7 +10,9 @@ LittleMikey's Contributions:
    furniture and stairs.
    NOTE: Removing a rotated item will return you the original rotation. This is neccicary so you can
    place the item back down again from the right menu, as well as sell it at a caravan if applicable.
--> Added "Kill area" order for clearing an area of animals. Use with caution!    
+-> Added "Kill area" order for clearing an area of animals. Use with caution!
+-> Added new "Custom" map menu and moved Deeper Dungeons there. Also added a new Desert based map, the
+   new map contains no river but medium sized Oasises. 
 
 BlueSteel's Contributions
 =========================

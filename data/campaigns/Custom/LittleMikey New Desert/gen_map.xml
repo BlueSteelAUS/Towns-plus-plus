@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gen_map>
+	<init>
+		<numLevelsOutside>12</numLevelsOutside>
+		<numLevelsUnderground>20</numLevelsUnderground>
+		<mainTerrain>sand,sand,dirt,dungeon3,stone</mainTerrain>
+		<numCitizens>11</numCitizens>
+		<startingLevel>11</startingLevel>
+	</init>
+
+	<!-- 80 stone seeds -->
+	<seed>
+		<type>stone</type>
+		<num>120</num>
+		<turns>50</turns>
+		<level>1d3+15</level>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 8 dense stone seeds -->
+	<seed>
+		<type>densestone</type>
+		<num>12</num>
+		<level>1d7+23</level>
+		<turns>20</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>1</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+	<!-- 8 coal seeds -->
+	<seed>
+		<type>coal</type>
+		<num>12</num>
+		<level>1d7+18</level>
+		<turns>50</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 8 dense stone seeds -->
+	<seed>
+		<type>densestone</type>
+		<num>12</num>
+		<level>1d7+23</level>
+		<turns>20</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>1</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 8 iron seeds -->
+	<seed>
+		<type>iron</type>
+		<num>12</num>
+		<level>1d9+19</level>
+		<turns>50</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 8 copper seeds -->
+	<seed>
+		<type>copper</type>
+		<num>12</num>
+		<level>1d9+19</level>
+		<turns>50</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 3 gold seeds , very rare -->
+	<seed>
+		<type>gold</type>
+		<num>5</num>
+		<level>1d6+22</level>
+		<turns>20</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>2</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 4 silver seeds, pretty rare -->
+	<seed>
+		<type>silver</type>
+		<num>6</num>
+		<level>1d6+22</level>
+		<turns>30</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>2</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+
+	<!-- 7 gravel seeds -->
+	<seed>
+		<type>gravel</type>
+		<num>10</num>
+		<level>1d7+16</level>
+		<turns>40</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>5</upPCT>
+		<downPCT>3</downPCT>
+	</seed>
+
+	<!-- lake -->
+	<seed>
+		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
+		<type>_WATER_</type>
+		<num>3</num>
+		<level>12</level>
+		<turns>150</turns>
+
+		<northPCT>8</northPCT>
+		<southPCT>8</southPCT>
+		<eastPCT>8</eastPCT>
+		<westPCT>8</westPCT>
+		<downPCT>2</downPCT>
+	</seed>
+
+	<!-- mountain seeds -->
+	<heightSeed>
+		<num>2</num>
+		<turns>25</turns>
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+	<heightSeed>
+		<num>5</num>
+		<turns>25</turns>
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+	<heightSeed>
+		<num>2</num>
+		<turns>25</turns>
+		<flatsBetweenLevels>3</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+
+	<!-- Change some sand tiles into grass tiles if water around -->
+	<change>
+		<source>sand</source>
+		<destination>grass</destination>
+		<terrain>_WATER_INF_</terrain>
+		<PCT>100</PCT>
+		<radius>4</radius>
+	</change>
+	<change>
+		<source>sand</source>
+		<destination>grass</destination>
+		<terrain>_WATER_</terrain>
+		<PCT>100</PCT>
+		<radius>4</radius>
+	</change>
+	<change>
+		<source>sand</source>
+		<destination>grass</destination>
+		<terrain>_WATER_INF_</terrain>
+		<PCT>70</PCT>
+		<radius>8</radius>
+	</change>
+	<change>
+		<source>sand</source>
+		<destination>grass</destination>
+		<terrain>_WATER_</terrain>
+		<PCT>70</PCT>
+		<radius>8</radius>
+	</change>
+</gen_map>

@@ -9,16 +9,20 @@
 		</mission>
 	</campaign>
 -->
+
+
 	<campaign>
-		<id>MikeHendi</id>
-		<name>MikeHendi's Maps</name>
+		<id>Custom</id>
+		<name>Custom Maps</name>
 		<mission>
-			<id>Deep Dungeons</id>
-			<name esES="Deep Dungeons">Deep Dungeons</name>
+			<id>MikeHendi Deep Dungeons</id>
+			<name esES="N/A">MikeHendi: Deep Dungeons</name>
+		</mission>
+		<mission>
+			<id>LittleMikey New Desert</id>
+			<name esES="N/A">LittleMikey: New Desert</name>
 		</mission>
 	</campaign>
-
-
 
 	<campaign>	
 		<id>c1</id>
