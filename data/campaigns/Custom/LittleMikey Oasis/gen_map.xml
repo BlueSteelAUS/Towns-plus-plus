@@ -147,15 +147,29 @@
 	<seed>
 		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
 		<type>_WATER_</type>
-		<num>3</num>
+		<num>1</num>
+		<level>12</level>
+		<turns>300</turns>
+
+		<northPCT>7</northPCT>
+		<southPCT>7</southPCT>
+		<eastPCT>7</eastPCT>
+		<westPCT>7</westPCT>
+		<downPCT>3</downPCT>
+	</seed>	
+	
+	<seed>
+		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
+		<type>_WATER_</type>
+		<num>2</num>
 		<level>12</level>
 		<turns>150</turns>
 
-		<northPCT>8</northPCT>
-		<southPCT>8</southPCT>
-		<eastPCT>8</eastPCT>
-		<westPCT>8</westPCT>
-		<downPCT>2</downPCT>
+		<northPCT>4</northPCT>
+		<southPCT>4</southPCT>
+		<eastPCT>4</eastPCT>
+		<westPCT>4</westPCT>
+		<downPCT>1</downPCT>
 	</seed>
 
 	<!-- mountain seeds -->

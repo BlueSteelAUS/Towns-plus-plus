@@ -872,9 +872,9 @@
 		<generatedItem>rmwood</generatedItem>
 		<priorityID>chopping</priorityID>
 		<queue>
-			<move useSource="true">tree,tree2,snowtree,jungletree,palmtree,deadtree</move>
+			<move useSource="true">tree,tree2,snowtree,jungletree,palmtree,deadtree,oasispalmtree</move>
 			<wait fx="fxchop" fxTurns="5">27</wait>
-			<move useSource="true">tree,tree2,snowtree,jungletree,palmtree,deadtree</move>
+			<move useSource="true">tree,tree2,snowtree,jungletree,palmtree,deadtree,oasispalmtree</move>
 			<destroyCellItem />
 			<createItem>rmwood</createItem>
 		</queue>

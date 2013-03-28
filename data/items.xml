@@ -2043,7 +2043,15 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>palmtree</maxAgeItem>
 		<action>qcut</action>
-	</bushpalmtree>
+	</bushpalmtree>	
+	
+	<oasisbushpalmtree>
+		<name esES="Arbusto de palmera">Palm tree bush</name>
+		<habitat>grass</habitat>
+		<maxAge>1d14400+14400</maxAge>
+		<maxAgeItem>oasispalmtree</maxAgeItem>
+		<action>qcut</action>
+	</oasisbushpalmtree>
 
 	<plantedbushpalmtree>
 		<name esES="Arbusto de palmera plantado">Planted palm tree bush</name>
@@ -2071,7 +2079,18 @@
 		<spawnTurns>1d43200</spawnTurns>
 		<locked>true</locked>
 		<action>qchop</action>
-	</palmtree>
+	</palmtree>	
+	
+	<oasispalmtree>
+		<name esES="Palmera">Palm tree</name>
+		<habitat>grass</habitat>
+		<maxAge>1d57600+28800</maxAge>
+		<spawn>oasisbushpalmtree</spawn>
+		<spawnMaxItems>1</spawnMaxItems>
+		<spawnTurns>1d43200</spawnTurns>
+		<locked>true</locked>
+		<action>qchop</action>
+	</oasispalmtree>
 
 
 	<mill>
@@ -12455,6 +12474,7 @@
 	    <description esES="Te mantendra caliente">It gets you warm and fuzzy</description>
 		<type>furniture</type>
 		<alwaysOperative>false</alwaysOperative>
+		<blocky>false</blocky>
 		<happiness>1</happiness>
 		<value>180</value>
 		<action>decorate_chimney</action>
@@ -12488,6 +12508,7 @@
 		<action>decorate_chimney_E</action>
 		<action>qrotate_chimney_E</action>
 		<action>del_chimney</action>
+		<blocky>false</blocky>
 	</chimney_E>
 
 	<xmaschimney>
@@ -12497,6 +12518,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>2</happiness>
 		<value>180</value>
+		<blocky>false</blocky>
 		<action>undecorate_xmaschimney</action>
 		<action>qrotate_xmaschimney</action>
 		<action>del_chimney</action>
@@ -12512,6 +12534,7 @@
 		<action>undecorate_xmaschimney_E</action>
 		<action>qrotate_xmaschimney_E</action>
 		<action>del_chimney</action>
+		<blocky>false</blocky>
 	</xmaschimney_E>
 
 	<xmasfireplace>

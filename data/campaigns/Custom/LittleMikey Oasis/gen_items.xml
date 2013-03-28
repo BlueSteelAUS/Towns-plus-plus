@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_items>
 	<add>
-		<item>palmtree</item>
+		<item>oasispalmtree</item>
 		<qtty>600</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>	
+	
+	<add>
+		<item>palmtree</item>
+		<qtty>200</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -25,7 +33,7 @@
 	</add>
 
 	<add>
-		<item>bushpalmtree</item>
+		<item>oasisbushpalmtree</item>
 		<qtty>75</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
