@@ -3,7 +3,7 @@
 	<init>
 		<numLevelsOutside>12</numLevelsOutside>
 		<numLevelsUnderground>20</numLevelsUnderground>
-		<mainTerrain>sand,sand,dirt,dungeon3,stone</mainTerrain>
+		<mainTerrain>sand,grass,dirt,dungeon3,stone</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
 	</init>
@@ -11,7 +11,7 @@
 	<!-- 80 stone seeds -->
 	<seed>
 		<type>stone</type>
-		<num>120</num>
+		<num>80</num>
 		<turns>50</turns>
 		<level>1d3+15</level>
 
@@ -41,7 +41,7 @@
 	<seed>
 		<type>coal</type>
 		<num>12</num>
-		<level>1d7+18</level>
+		<level>1d10+18</level>
 		<turns>50</turns>
 
 		<northPCT>6</northPCT>
@@ -71,7 +71,7 @@
 	<seed>
 		<type>iron</type>
 		<num>12</num>
-		<level>1d9+19</level>
+		<level>1d11+19</level>
 		<turns>50</turns>
 
 		<northPCT>6</northPCT>
@@ -86,7 +86,7 @@
 	<seed>
 		<type>copper</type>
 		<num>12</num>
-		<level>1d9+19</level>
+		<level>1d11+19</level>
 		<turns>50</turns>
 
 		<northPCT>6</northPCT>
@@ -132,7 +132,7 @@
 	<seed>
 		<type>gravel</type>
 		<num>10</num>
-		<level>1d7+16</level>
+		<level>1d10+18</level>
 		<turns>40</turns>
 
 		<northPCT>6</northPCT>
@@ -143,27 +143,29 @@
 		<downPCT>3</downPCT>
 	</seed>
 
-	<!-- lake -->
+	<!-- Oasis -->
 	<seed>
 		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
 		<type>_WATER_</type>
 		<num>1</num>
 		<level>12</level>
-		<turns>300</turns>		
-
-		<northPCT>7</northPCT>
-		<southPCT>7</southPCT>
-		<eastPCT>7</eastPCT>
-		<westPCT>7</westPCT>
+		<turns>250</turns>		
+		<pointx>1d100+50</pointx>
+		<pointy>1d100+50</pointy>
+		<northPCT>8</northPCT>
+		<southPCT>8</southPCT>
+		<eastPCT>8</eastPCT>
+		<westPCT>8</westPCT>
 		<downPCT>3</downPCT>
 	</seed>	
 	
+	<!-- Smaller lakes -->
 	<seed>
 		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
 		<type>_WATER_</type>
-		<num>2</num>
+		<num>1d3</num>
 		<level>12</level>
-		<turns>150</turns>
+		<turns>180</turns>
 
 		<northPCT>4</northPCT>
 		<southPCT>4</southPCT>
@@ -174,30 +176,44 @@
 
 	<!-- mountain seeds -->
 	<heightSeed>
-		<num>2</num>
+		<num>1d2</num>
 		<turns>25</turns>
 		<flatsBetweenLevels>2</flatsBetweenLevels>
-
+		<pointx>1d25</pointx>
+		<pointy>1d25</pointy>
 		<northPCT>45</northPCT>
 		<southPCT>45</southPCT>
 		<eastPCT>45</eastPCT>
 		<westPCT>45</westPCT>
 	</heightSeed>
 	<heightSeed>
-		<num>5</num>
+		<num>1d2</num>
 		<turns>25</turns>
 		<flatsBetweenLevels>2</flatsBetweenLevels>
-
+		<pointx>1d25+150</pointx>
+		<pointy>1d25+150</pointy>
 		<northPCT>45</northPCT>
 		<southPCT>45</southPCT>
 		<eastPCT>45</eastPCT>
 		<westPCT>45</westPCT>
 	</heightSeed>
 	<heightSeed>
-		<num>2</num>
+		<num>1d2</num>
 		<turns>25</turns>
-		<flatsBetweenLevels>3</flatsBetweenLevels>
-
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+		<pointx>1d75+25</pointx>
+		<pointy>1d75+25</pointy>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>	
+	<heightSeed>
+		<num>1d2</num>
+		<turns>25</turns>
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+		<pointx>1d150+25</pointx>
+		<pointy>1d150+25</pointy>
 		<northPCT>45</northPCT>
 		<southPCT>45</southPCT>
 		<eastPCT>45</eastPCT>

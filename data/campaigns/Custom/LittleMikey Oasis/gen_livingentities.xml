@@ -2,21 +2,21 @@
 <gen_livingentities>
 	<add>
 		<entity>wildchicken</entity>
-		<qtty>70</qtty>
+		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
 	<add>
 		<entity>wildrooster</entity>
-		<qtty>20</qtty>
+		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
 	<add>
 		<entity>wildunifallow</entity>
-		<qtty>70</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>

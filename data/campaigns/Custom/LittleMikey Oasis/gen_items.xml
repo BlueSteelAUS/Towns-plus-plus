@@ -10,7 +10,7 @@
 	
 	<add>
 		<item>palmtree</item>
-		<qtty>200</qtty>
+		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -26,7 +26,7 @@
 
 	<add>
 		<item>bush</item>
-		<qtty>25</qtty>
+		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -42,7 +42,7 @@
 
 	<add>
 		<item>cactus</item>
-		<qtty>150</qtty>
+		<qtty>75</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
