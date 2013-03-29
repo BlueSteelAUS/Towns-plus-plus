@@ -2,7 +2,7 @@
 <gen_items>
 	<add>
 		<item>oasispalmtree</item>
-		<qtty>600</qtty>
+		<qtty>400</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -34,7 +34,7 @@
 
 	<add>
 		<item>oasisbushpalmtree</item>
-		<qtty>75</qtty>
+		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>

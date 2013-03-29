@@ -149,7 +149,7 @@
 		<type>_WATER_</type>
 		<num>1</num>
 		<level>12</level>
-		<turns>300</turns>
+		<turns>300</turns>		
 
 		<northPCT>7</northPCT>
 		<southPCT>7</southPCT>
