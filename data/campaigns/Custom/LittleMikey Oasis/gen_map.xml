@@ -3,7 +3,7 @@
 	<init>
 		<numLevelsOutside>12</numLevelsOutside>
 		<numLevelsUnderground>20</numLevelsUnderground>
-		<mainTerrain>sand,grass,dirt,dungeon3,stone</mainTerrain>
+		<mainTerrain>sand,dirt,stone,dungeon3</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
 	</init>
@@ -174,52 +174,30 @@
 		<downPCT>1</downPCT>
 	</seed>
 
-	<!-- mountain seeds -->
-	<heightSeed>
-		<num>1d2</num>
-		<turns>25</turns>
-		<flatsBetweenLevels>2</flatsBetweenLevels>
-		<pointx>1d25</pointx>
-		<pointy>1d25</pointy>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-	</heightSeed>
-	<heightSeed>
-		<num>1d2</num>
-		<turns>25</turns>
-		<flatsBetweenLevels>2</flatsBetweenLevels>
+	<!-- Sand Dunes -->
+	<!-- Top Left -->
+<!-- 	<seed>
+		<type>sand</type>
+		<num>1</num>
+		<turns>150</turns>
+		<level>11</level>
+		<pointx>1d25+25</pointx>
+		<pointy>1d25+25</pointy>
+		<westPCT>100</westPCT>
+		<northPCT>1</northPCT>
+		<upPCT>3</upPCT>
+	</seed> -->
+	<!-- Top Right -->
+<!-- 	<seed>
+		<type>sand</type>
+		<num>1</num>
+		<turns>0</turns>
+		<level>5</level>
 		<pointx>1d25+150</pointx>
-		<pointy>1d25+150</pointy>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-	</heightSeed>
-	<heightSeed>
-		<num>1d2</num>
-		<turns>25</turns>
-		<flatsBetweenLevels>2</flatsBetweenLevels>
-		<pointx>1d75+25</pointx>
-		<pointy>1d75+25</pointy>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-	</heightSeed>	
-	<heightSeed>
-		<num>1d2</num>
-		<turns>25</turns>
-		<flatsBetweenLevels>2</flatsBetweenLevels>
-		<pointx>1d150+25</pointx>
-		<pointy>1d150+25</pointy>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-	</heightSeed>
-
+		<pointy>1d25+25</pointy>
+		<eastPCT>100</eastPCT>
+		<downPCT>100</downPCT>
+	</seed> -->
 	<!-- Change some sand tiles into grass tiles if water around -->
 	<change>
 		<source>sand</source>

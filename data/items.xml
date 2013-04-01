@@ -13083,6 +13083,7 @@
 		<description esE="N/A">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent</action>
+		<action>del_markettent</action>
 	</markettent>
 
 	<markettent_1>
@@ -13090,6 +13091,7 @@
 		<description esE="N/A">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_1</action>
+		<action>del_markettent</action>
 	</markettent_1>
 
 	<markettent_a>
@@ -13097,6 +13099,7 @@
 		<description esE="N/A">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_a</action>
+		<action>del_markettent_a</action>
 	</markettent_a>
 
 	<markettent_a_1>
@@ -13104,6 +13107,7 @@
 		<description esE="N/A">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_a_1</action>
+		<action>del_markettent_a</action>
 	</markettent_a_1>
 
 	<markettent_b>
@@ -13111,6 +13115,7 @@
 		<description esE="N/A">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_b</action>
+		<action>del_markettent_b</action>
 	</markettent_b>
 
 	<markettent_b_1>
@@ -13118,6 +13123,7 @@
 		<description esE="N/A">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_b_1</action>
+		<action>del_markettent_b</action>
 	</markettent_b_1>
 
 	<!-- ROPE BRIDGES -LM/GreyFalcon -->

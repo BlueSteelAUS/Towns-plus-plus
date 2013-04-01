@@ -274,7 +274,7 @@
 		<priorityID>harvesting</priorityID>
 
 		<queue>
-			<pick>bushpalmtree</pick>
+			<pick>bushpalmtree,oasisbushpalmtree</pick>
 			<wait>20</wait>
 			<unlock />
 			<createitem>palmtreeseed</createitem>
@@ -2251,15 +2251,15 @@
 
 		<queue>
 			<pick>cactusfruit</pick>
-			<move>cookingbowl</move>
+			<move>cookingbowl,cookingfire,cookingfirelow</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>cactusfruit</pick>
-			<move>cookingbowl</move>
+			<move>cookingbowl,cookingfire,cookingfirelow</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>waterbucket,milk</pick>
-			<move>cookingbowl</move>
+			<move>cookingbowl,cookingfire,cookingfirelow</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
