@@ -37,26 +37,21 @@
 	<dungeon>
 		<level>5</level>
 		<type>__CAVE__</type>
-
-		<monster>
-			<id>spider</id>
-			<number>100</number>
-		</monster>
-		<monster>
-			<id>giantspider</id>
-			<number>100</number>
-		</monster>
-		<monster>
-			<id>goblin</id>
-			<number>300</number>
-		</monster>
 		<monster>
 			<id>redslime</id>
 			<number>200</number>
 		</monster>
 		<monster>
-			<id>goblinleader</id>
-			<number>50</number>
+			<id>yellowslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
+			<id>orangeslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
+			<id>purpleslime</id>
+			<number>200</number>
 		</monster>
 		<monster>
 			<id>hobgoblin</id>

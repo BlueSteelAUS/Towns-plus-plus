@@ -2,7 +2,7 @@
 <gen_map>
 	<init>
 		<numLevelsOutside>12</numLevelsOutside>
-		<numLevelsUnderground>20</numLevelsUnderground>
+		<numLevelsUnderground>50</numLevelsUnderground>
 		<mainTerrain>sand,dirt,stone,dungeon3</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
@@ -198,8 +198,49 @@
 		<eastPCT>100</eastPCT>
 		<downPCT>100</downPCT>
 	</seed> -->
+	
+	<!-- 10 dungeon3 seeds -->
+	<seed>
+		<type>dungeon3</type>
+		<num>8</num>
+		<level>1d2+15</level>
+		<turns>50</turns>
+
+		<northPCT>95</northPCT>
+		<southPCT>95</southPCT>
+		<eastPCT>95</eastPCT>
+		<westPCT>95</westPCT>
+		<downPCT>7</downPCT>
+	</seed>
+
+		<seed>
+		<type>dungeon3</type>
+		<num>8</num>
+		<level>1d2+30</level>
+		<turns>50</turns>
+
+		<northPCT>95</northPCT>
+		<southPCT>95</southPCT>
+		<eastPCT>95</eastPCT>
+		<westPCT>95</westPCT>
+		<downPCT>7</downPCT>
+	</seed>
+
+	<seed>
+		<type>dungeon3</type>
+		<num>8</num>
+		<level>1d2+45</level>
+		<turns>50</turns>
+
+		<northPCT>95</northPCT>
+		<southPCT>95</southPCT>
+		<eastPCT>95</eastPCT>
+		<westPCT>95</westPCT>
+		<downPCT>7</downPCT>
+	</seed>
+	
 	<!-- Change some sand tiles into grass tiles if water around -->
-	<change>
+		<change>
 		<source>sand</source>
 		<destination>grass</destination>
 		<terrain>_WATER_INF_</terrain>

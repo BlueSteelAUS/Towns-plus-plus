@@ -195,7 +195,7 @@
 	</glass>
 
 	<greengel>
-		<name esES="Gel verde">Green gel</name>
+		<name esES="Gel verde">Green Gel</name>
 		<type>rawmaterials.colors</type>
 
 		<stackable>true</stackable>
@@ -204,7 +204,7 @@
 	</greengel>
 
 	<redgel>
-		<name esES="Gel rojo">Red gel</name>
+		<name esES="Gel rojo">Red Gel</name>
 		<type>rawmaterials.colors</type>
 
 		<stackable>true</stackable>
@@ -213,7 +213,7 @@
 	</redgel>
 
 	<bluegel>
-		<name esES="Gel azul">Blue gel</name>
+		<name esES="Gel azul">Blue Gel</name>
 		<type>rawmaterials.colors</type>
 
 		<stackable>true</stackable>
@@ -13402,7 +13402,7 @@
 	</emptybadgerfarm>
 
 	<emptysnoatfarm>
-		<name esES="N/A">snoat Barn</name>
+		<name esES="N/A">Snoat Barn</name>
 		<description esES="N/A">How do you fit in there?</description>
 
 		<maxAge>2880</maxAge>
@@ -13411,4 +13411,487 @@
 		<stackableSize>1</stackableSize>
 		<action>del_snoatfarm</action>
 	</emptysnoatfarm>
+	
+	<!-- NEW COLOURS -->
+	
+	<yellowgel>
+		<name esES="N/A">Yellow Gel</name>
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>40</value>
+	</yellowgel>
+
+	<orangegel>
+		<name esES="N/A">Orange Gel</name>
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>40</value>
+	</orangegel>
+
+	<purplegel>
+		<name esES="N/A">Purple Gel</name>
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>40</value>
+	</purplegel>
+	
+	<yellowjelly>
+		<name esES="N/A">Yellow Jelly</name>
+		<description esES="N/A">Watch it wobble!</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</yellowjelly>
+	
+	<orangejelly>
+		<name esES="N/A">Orange Jelly</name>
+		<description esES="N/A">Watch it wobble!</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</orangejelly>	
+
+	<purplejelly>
+		<name esES="N/A">Purple Jelly</name>
+		<description esES="N/A">Watch it wobble!</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</purplejelly>
+
+	<bluejelly>
+		<name esES="N/A">Blue Jelly</name>
+		<description esES="N/A">Watch it wobble!</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</bluejelly>
+
+	<redjelly>
+		<name esES="N/A">Red Jelly</name>
+		<description esES="N/A">Watch it wobble!</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</redjelly>
+
+	<greenjelly>
+		<name esES="N/A">Green Jelly</name>
+		<description esES="N/A">Watch it wobble!</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</greenjelly>
+	
+	<!-- NEW FLOWERS -->
+	<orangeflower>
+		<name esES="N/A">Orange Flowers</name>
+		<habitat>grassnoflower</habitat>
+		<action>qcut</action>
+		<action>qgatherorangeflower</action>
+	</orangeflower>
+
+	<orangeflowerseed>
+		<name esES="N/A">Orange Flower Seedling</name>
+		<habitat>humus</habitat>
+		<maxAge>1d720+720</maxAge>
+		<maxAgeItem>plantedorangeflower</maxAgeItem>
+		<action>qcut</action>
+		<value>35</value>
+	</orangeflowerseed>
+
+	<plantedorangeflower>
+		<name esES="N/A">Orange Flowers</name>
+		<habitat>humus</habitat>
+		<action>qcut</action>
+		<action>qgatherplantedorangeflower</action>
+	</plantedorangeflower>
+	
+	<gatheredorangeflower>
+		<name esES="N/A">Orange Flowers</name>
+		<type>rawmaterials.colors</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>38</value>
+	</gatheredorangeflower>
+	
+	<purpleflower>
+		<name esES="N/A">Purple Flowers</name>
+		<habitat>grassnoflower</habitat>
+		<action>qcut</action>
+		<action>qgatherpurpleflower</action>
+	</purpleflower>
+
+	<purpleflowerseed>
+		<name esES="N/A">Purple Flower Seedling</name>
+		<habitat>humus</habitat>
+		<maxAge>1d720+720</maxAge>
+		<maxAgeItem>plantedpurpleflower</maxAgeItem>
+		<action>qcut</action>
+		<value>35</value>
+	</purpleflowerseed>
+
+	<plantedpurpleflower>
+		<name esES="N/A">Purple Flowers</name>
+		<habitat>humus</habitat>
+		<action>qcut</action>
+		<action>qgatherplantedpurpleflower</action>
+	</plantedpurpleflower>
+		
+	<gatheredpurpleflower>
+		<name esES="N/A">Purple Flowers</name>
+		<type>rawmaterials.colors</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>38</value>
+	</gatheredpurpleflower>
+	
+	<greenflower>
+		<name esES="N/A">Green Flowers</name>
+		<habitat>grassnoflower</habitat>
+		<action>qcut</action>
+		<action>qgathergreenflower</action>
+	</greenflower>
+
+	<greenflowerseed>
+		<name esES="N/A">Green Flower Seedling</name>
+		<habitat>humus</habitat>
+		<maxAge>1d720+720</maxAge>
+		<maxAgeItem>plantedgreenflower</maxAgeItem>
+		<action>qcut</action>
+		<value>35</value>
+	</greenflowerseed>
+
+	<plantedgreenflower>
+		<name esES="N/A">Green Flowers</name>
+		<habitat>humus</habitat>
+		<action>qcut</action>
+		<action>qgatherplantedgreenflower</action>
+	</plantedgreenflower>
+		
+	<gatheredgreenflower>
+		<name esES="N/A">Green Flowers</name>
+		<type>rawmaterials.colors</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>38</value>
+	</gatheredgreenflower>
+	
+	<pinkflower>
+		<name esES="N/A">Pink Flowers</name>
+		<habitat>grassnoflower</habitat>
+		<action>qcut</action>
+		<action>qgatherpinkflower</action>
+	</pinkflower>
+
+	<pinkflowerseed>
+		<name esES="N/A">Pink Flower Seedling</name>
+		<habitat>humus</habitat>
+		<maxAge>1d720+720</maxAge>
+		<maxAgeItem>plantedpinkflower</maxAgeItem>
+		<action>qcut</action>
+		<value>35</value>
+	</pinkflowerseed>
+
+	<plantedpinkflower>
+		<name esES="N/A">Pink Flowers</name>
+		<habitat>humus</habitat>
+		<action>qcut</action>
+		<action>qgatherplantedpinkflower</action>
+	</plantedpinkflower>	
+	
+	<gatheredpinkflower>
+		<name esES="N/A">Pink Flowers</name>
+		<type>rawmaterials.colors</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>38</value>
+	</gatheredpinkflower>
+	
+	<whiteflower>
+		<name esES="N/A">White Flowers</name>
+		<habitat>grassnoflower</habitat>
+		<action>qcut</action>
+		<action>qgatherwhiteflower</action>
+	</whiteflower>
+
+	<whiteflowerseed>
+		<name esES="N/A">White Flower Seedling</name>
+		<habitat>humus</habitat>
+		<maxAge>1d720+720</maxAge>
+		<maxAgeItem>plantedwhiteflower</maxAgeItem>
+		<action>qcut</action>
+		<value>35</value>
+	</whiteflowerseed>
+
+	<plantedwhiteflower>
+		<name esES="N/A">White Flowers</name>
+		<habitat>humus</habitat>
+		<action>qcut</action>
+		<action>qgatherplantedwhiteflower</action>
+	</plantedwhiteflower>
+		
+	<gatheredwhiteflower>
+		<name esES="N/A">White Flowers</name>
+		<type>rawmaterials.colors</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>38</value>
+	</gatheredwhiteflower>
+	
+	<blackflower>
+		<name esES="N/A">Black Flowers</name>
+		<habitat>grassnoflower</habitat>
+		<action>qcut</action>
+		<action>qgatherblackflower</action>
+	</blackflower>
+
+	<blackflowerseed>
+		<name esES="N/A">Black Flower Seedling</name>
+		<habitat>humus</habitat>
+		<maxAge>1d720+720</maxAge>
+		<maxAgeItem>plantedblackflower</maxAgeItem>
+		<action>qcut</action>
+		<value>35</value>
+	</blackflowerseed>
+
+	<plantedblackflower>
+		<name esES="N/A">Black Flowers</name>
+		<habitat>humus</habitat>
+		<action>qcut</action>
+		<action>qgatherplantedblackflower</action>
+	</plantedblackflower>	
+	
+	<gatheredblackflower>
+		<name esES="N/A">Black Flowers</name>
+		<type>rawmaterials.colors</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>38</value>
+	</gatheredblackflower>
+	
+	<!-- NEW GARDENS -->
+	<gardenorange>
+		<name esES="N/A">Orange Flowers Garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
+		<type>decorative.outdoor</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>102</value>
+		<action>del_gardenorange</action>
+	</gardenorange>
+
+	<gardenpurple>
+		<name esES="N/A">Purple Flowers Garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
+		<type>decorative.outdoor</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>102</value>
+		<action>del_gardenpurple</action>
+	</gardenpurple>
+
+	<gardengreen>
+		<name esES="N/A">Green Flowers Garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
+		<type>decorative.outdoor</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>102</value>
+		<action>del_gardengreen</action>
+	</gardengreen>
+	
+	<gardenpink>
+		<name esES="N/A">Pink Flowers Garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
+		<type>decorative.outdoor</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>102</value>
+		<action>del_gardenpink</action>
+	</gardenpink>
+
+	<gardenwhite>
+		<name esES="N/A">White Flowers Garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
+		<type>decorative.outdoor</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>102</value>
+		<action>del_gardenwhite</action>
+	</gardenwhite>
+
+	<gardenblack>
+		<name esES="N/A">Black Flowers Garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
+		<type>decorative.outdoor</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>102</value>
+		<action>del_gardenblack</action>
+	</gardenblack>
+	
+	<!-- NEW HEDGES -->
+	<orangeflowerhedge>
+		<name esES="Seto de flores rojas">Orange Flower Hedge</name>
+
+		<wall>true</wall>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>0</value>
+		<value>50</value>
+	</orangeflowerhedge>
+
+	<purpleflowerhedge>
+		<name esES="Seto de flores amarillas">Purple Flower Hedge</name>
+
+		<wall>true</wall>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</purpleflowerhedge>
+
+	<greenflowerhedge>
+		<name esES="Seto de flores azules">Green Flower Hedge</name>
+
+		<wall>true</wall>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</greenflowerhedge>
+
+	<pinkflowerhedge>
+		<name esES="Seto de flores azules">Pink Flower Hedge</name>
+
+		<wall>true</wall>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</pinkflowerhedge>
+
+	<whiteflowerhedge>
+		<name esES="Seto de flores azules">White Flower Hedge</name>
+
+		<wall>true</wall>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</whiteflowerhedge>
+
+	<blackflowerhedge>
+		<name esES="Seto de flores azules">Black Flower Hedge</name>
+
+		<wall>true</wall>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<type>construction.blockwalls</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</blackflowerhedge>
 </items>

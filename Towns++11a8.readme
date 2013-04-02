@@ -5,7 +5,7 @@ Changes since Towns++_v11a7
 LittleMikey's Contributions:
 ============================
 -> Fixed butcher Boars for Pork
--> New Names by EricB1800
+-> New Names by ericb1800
 -> Integrated blurpsl's Removable Items mod. Enhanced original mod to allow removal of all rotatable
    furniture and stairs.
    NOTE: Removing a rotated item will return you the original rotation. This is neccicary so you can
@@ -15,6 +15,13 @@ LittleMikey's Contributions:
    new map contains no river but medium sized Oasises. 
 -> Cactus Soup can now be made on a cooking fire.
 -> Fixed removing Market Stalls. 
+-> Integrated ericb1800's Complete Colours mod, and added a few new colours of Flower, Garden and Hedge.
+   Flowers can be found naturally in new maps, but have also been added to some Caravans so you can 
+   still find them on old save games.
+-> Also from ericb1800, added new Slime colours. Now you will find Yellow, Orange and Purple Slimes.
+   These slimes currently have the same stats and rarity as Red Slimes.
+-> All slimes drop different coloured Gel, and this can be made into a new food item, Jelly! Jelly
+   doesn't fill as much as meat products, but it does provide a happiness boost to anyone who eats it.   
 
 BlueSteel's Contributions
 =========================

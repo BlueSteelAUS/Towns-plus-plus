@@ -319,6 +319,12 @@
 			<item code="QUEUEANDPLACEAREA" parameter="qbluehedge" />
 			<item code="QUEUEANDPLACEAREA" parameter="qredhedge" />
 			<item code="QUEUEANDPLACEAREA" parameter="qyellowhedge" />
+			<item code="QUEUEANDPLACEAREA" parameter="qorangehedge" />
+			<item code="QUEUEANDPLACEAREA" parameter="qpurplehedge" />
+			<item code="QUEUEANDPLACEAREA" parameter="qgreenhedge" />
+			<item code="QUEUEANDPLACEAREA" parameter="qpinkhedge" />
+			<item code="QUEUEANDPLACEAREA" parameter="qwhitehedge" />
+			<item code="QUEUEANDPLACEAREA" parameter="qblackhedge" />
 			<item code="QUEUEANDPLACEAREA" parameter="qhedgebrickfence" />
 			<item code="QUEUEANDPLACEAREA" parameter="qfancybrickfence" />
 			<item code="QUEUEANDPLACEAREA" parameter="qgrassterrace" />
@@ -391,6 +397,12 @@
 		<item code="QUEUEANDPLACEAREA" parameter="qredflowerseed" icon="ui_redflower" />
 		<item code="QUEUEANDPLACEAREA" parameter="qblueflowerseed" icon="ui_blueflower" />
 		<item code="QUEUEANDPLACEAREA" parameter="qyellowflowerseed" icon="ui_yellowflower" />
+		<item code="QUEUEANDPLACEAREA" parameter="qorangeflowerseed" icon="ui_orangeflower" />
+		<item code="QUEUEANDPLACEAREA" parameter="qpurpleflowerseed" icon="ui_purpleflower" />
+		<item code="QUEUEANDPLACEAREA" parameter="qgreenflowerseed" icon="ui_greenflower" />
+		<item code="QUEUEANDPLACEAREA" parameter="qpinkflowerseed" icon="ui_pinkflower" />
+		<item code="QUEUEANDPLACEAREA" parameter="qwhiteflowerseed" icon="ui_whiteflower" />
+		<item code="QUEUEANDPLACEAREA" parameter="qblackflowerseed" icon="ui_blackflower" />
 
 		<item code="QUEUEANDPLACEAREA" parameter="qtreeseed" icon="ui_treeseed" />
 		<item code="QUEUEANDPLACEAREA" parameter="qtree2seed" icon="ui_tree2seed" />
@@ -456,7 +468,13 @@
 			<item code="QUEUEANDPLACEAREA" parameter="qbonsaired" />
 			<item code="QUEUEANDPLACEAREA" parameter="qgardenred" />
 			<item code="QUEUEANDPLACEAREA" parameter="qgardenblue" />
-			<item code="QUEUEANDPLACEAREA" parameter="qgardenyellow" />
+			<item code="QUEUEANDPLACEAREA" parameter="qgardenyellow" />			
+			<item code="QUEUEANDPLACEAREA" parameter="qgardenorange" />
+			<item code="QUEUEANDPLACEAREA" parameter="qgardenpurple" />
+			<item code="QUEUEANDPLACEAREA" parameter="qgardengreen" />			
+			<item code="QUEUEANDPLACEAREA" parameter="qgardenpink" />
+			<item code="QUEUEANDPLACEAREA" parameter="qgardenwhite" />
+			<item code="QUEUEANDPLACEAREA" parameter="qgardenblack" />
 			<item code="QUEUEANDPLACEAREA" parameter="qgardenbush1" />
 			<item code="QUEUEANDPLACEAREA" parameter="qgardenbush2" />
 			<item code="QUEUEANDPLACEAREA" parameter="qgardenbush3" />

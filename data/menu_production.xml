@@ -134,6 +134,12 @@
 			<item code="QUEUE" parameter="qbluehedge" />
 			<item code="QUEUE" parameter="qredhedge" />
 			<item code="QUEUE" parameter="qyellowhedge" />
+			<item code="QUEUE" parameter="qorangehedge" />
+			<item code="QUEUE" parameter="qpurplehedge" />
+			<item code="QUEUE" parameter="qgreenhedge" />
+			<item code="QUEUE" parameter="qpinkhedge" />
+			<item code="QUEUE" parameter="qwhitehedge" />
+			<item code="QUEUE" parameter="qblackhedge" />
 			<item code="QUEUE" parameter="qhedgebrickfence" />
 			<item code="QUEUE" parameter="qfancybrickfence" />
 			<item code="QUEUE" parameter="qgrassterrace" />
@@ -231,6 +237,12 @@
 			<item code="QUEUE" parameter="qgardenred" />
 			<item code="QUEUE" parameter="qgardenblue" />
 			<item code="QUEUE" parameter="qgardenyellow" />
+			<item code="QUEUE" parameter="qgardenorange" />
+			<item code="QUEUE" parameter="qgardenpurple" />
+			<item code="QUEUE" parameter="qgardengreen" />
+			<item code="QUEUE" parameter="qgardenpink" />
+			<item code="QUEUE" parameter="qgardenwhite" />
+			<item code="QUEUE" parameter="qgardenblack" />
 			<item code="QUEUE" parameter="qgardenbush1" />
 			<item code="QUEUE" parameter="qgardenbush2" />
 			<item code="QUEUE" parameter="qgardenbush3" />
@@ -428,6 +440,15 @@
 				<item code="QUEUE" parameter="qcookedfish" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</meat>
+			<jelly name="Jelly" esES="N/A" icon="redjelly" >
+				<item code="QUEUE" parameter="qredjelly" />
+				<item code="QUEUE" parameter="qyellowjelly" />
+				<item code="QUEUE" parameter="qbluejelly" />
+				<item code="QUEUE" parameter="qorangejelly" />
+				<item code="QUEUE" parameter="qgreenjelly" />
+				<item code="QUEUE" parameter="qpurplejelly" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</jelly>
 			<item code="QUEUE" parameter="qomelette" />
 			<item code="QUEUE" parameter="qbakedbanana" />
 			<item code="QUEUE" parameter="qhamandeggs" />
@@ -784,6 +805,12 @@
 			<item code="QUEUE" parameter="qgatherplantedblueflower" />
 			<item code="QUEUE" parameter="qgatherplantedredflower" />
 			<item code="QUEUE" parameter="qgatherplantedyellowflower" />
+			<item code="QUEUE" parameter="qgatherplantedorangeflower" />
+			<item code="QUEUE" parameter="qgatherplantedpurpleflower" />
+			<item code="QUEUE" parameter="qgatherplantedgreenflower" />
+			<item code="QUEUE" parameter="qgatherplantedpinkflower" />
+			<item code="QUEUE" parameter="qgatherplantedwhiteflower" />
+			<item code="QUEUE" parameter="qgatherplantedblackflower" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</colors>
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />

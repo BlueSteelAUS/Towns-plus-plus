@@ -8559,7 +8559,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>gatheredblueflower,bluegel</pick>
+			<pick>gatheredblueflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -8574,7 +8574,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>gatheredredflower,redgel</pick>
+			<pick>gatheredredflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -8604,12 +8604,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>yellowcolor</pick>
-			<move>colormixer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
-			<pick>bluecolor</pick>
+			<pick>gatheredgreenflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -8624,12 +8619,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>redcolor</pick>
-			<move>colormixer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
-			<pick>bluecolor</pick>
+			<pick>gatheredpurpleflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -8644,12 +8634,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>redcolor</pick>
-			<move>colormixer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
-			<pick>yellowcolor</pick>
+			<pick>gatheredorangeflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -17744,4 +17729,602 @@
 		  </queue>
 	</action>
 <!-- REMOVE ITEMS END -->
+
+<!-- COOKING JELLY -->
+	<action>
+		<id>qredjelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<unlock />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<pick>redgel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>redjelly</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qgreenjelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<unlock />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<pick>greengel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>greenjelly</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbluejelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<unlock />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<pick>bluegel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>bluejelly</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qyellowjelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<unlock />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<pick>yellowgel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>yellowjelly</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qorangejelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<unlock />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<pick>orangegel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>orangejelly</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qpurplejelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<unlock />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<pick>purplegel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>purplejelly</createItem>
+		</queue>
+	</action>
+	
+	<!-- NEW FLOWERS -->
+	<action>
+		<id>qgatherorangeflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredorangeflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">orangeflower</move>
+			<wait>30</wait>
+			<destroyCellItem />
+			<createItem>gatheredorangeflower</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qorangeflowerseed</id>
+		<name esES="N/A">Plant Orange Flower</name>
+
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<pick>gatheredorangeflower,orangeflower</pick>
+			<wait>20</wait>
+			<destroyItem />
+			<createItem>orangeflowerseed</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgatherplantedorangeflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredorangeflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">plantedorangeflower</move>
+			<wait>36</wait>
+			<replaceCellItem>orangeflowerseed</replaceCellItem>
+			<createItem>gatheredorangeflower</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qgatherpurpleflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredpurpleflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">purpleflower</move>
+			<wait>30</wait>
+			<destroyCellItem />
+			<createItem>gatheredpurpleflower</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qpurpleflowerseed</id>
+		<name esES="N/A">Plant Purple Flower</name>
+
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<pick>gatheredpurpleflower,purpleflower</pick>
+			<wait>20</wait>
+			<destroyItem />
+			<createItem>purpleflowerseed</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgatherplantedpurpleflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredpurpleflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">plantedpurpleflower</move>
+			<wait>36</wait>
+			<replaceCellItem>purpleflowerseed</replaceCellItem>
+			<createItem>gatheredpurpleflower</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qgathergreenflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredgreenflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">greenflower</move>
+			<wait>30</wait>
+			<destroyCellItem />
+			<createItem>gatheredgreenflower</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgreenflowerseed</id>
+		<name esES="N/A">Plant Green Flower</name>
+
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<pick>gatheredgreenflower,greenflower</pick>
+			<wait>20</wait>
+			<destroyItem />
+			<createItem>greenflowerseed</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgatherplantedgreenflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredgreenflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">plantedgreenflower</move>
+			<wait>36</wait>
+			<replaceCellItem>greenflowerseed</replaceCellItem>
+			<createItem>gatheredgreenflower</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qgatherpinkflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredpinkflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">pinkflower</move>
+			<wait>30</wait>
+			<destroyCellItem />
+			<createItem>gatheredpinkflower</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qpinkflowerseed</id>
+		<name esES="N/A">Plant Pink Flower</name>
+
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<pick>gatheredpinkflower,pinkflower</pick>
+			<wait>20</wait>
+			<destroyItem />
+			<createItem>pinkflowerseed</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgatherplantedpinkflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredpinkflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">plantedpinkflower</move>
+			<wait>36</wait>
+			<replaceCellItem>pinkflowerseed</replaceCellItem>
+			<createItem>gatheredpinkflower</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qgatherwhiteflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredwhiteflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">whiteflower</move>
+			<wait>30</wait>
+			<destroyCellItem />
+			<createItem>gatheredwhiteflower</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwhiteflowerseed</id>
+		<name esES="N/A">Plant White Flower</name>
+
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<pick>gatheredwhiteflower,whiteflower</pick>
+			<wait>20</wait>
+			<destroyItem />
+			<createItem>whiteflowerseed</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgatherplantedwhiteflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredwhiteflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">plantedwhiteflower</move>
+			<wait>36</wait>
+			<replaceCellItem>whiteflowerseed</replaceCellItem>
+			<createItem>gatheredwhiteflower</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qgatherblackflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredblackflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">blackflower</move>
+			<wait>30</wait>
+			<destroyCellItem />
+			<createItem>gatheredblackflower</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qblackflowerseed</id>
+		<name esES="N/A">Plant Black Flower</name>
+
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<pick>gatheredblackflower,blackflower</pick>
+			<wait>20</wait>
+			<destroyItem />
+			<createItem>blackflowerseed</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgatherplantedblackflower</id>
+		<name esES="N/A">Gather</name>
+
+		<generatedItem>gatheredblackflower</generatedItem>
+		<priorityID>harvesting</priorityID>
+		<queue>
+			<move useSource="true">plantedblackflower</move>
+			<wait>36</wait>
+			<replaceCellItem>blackflowerseed</replaceCellItem>
+			<createItem>gatheredblackflower</createItem>
+		</queue>
+	</action>
+	
+	<!-- NEW GARDENS -->
+	<action>
+		<id>qgardenorange</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredorangeflower</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmmud</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<createItem>gardenorange</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgardenpurple</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredpurpleflower</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmmud</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<createItem>gardenpurple</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgardengreen</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredgreenflower</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmmud</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<createItem>gardengreen</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>qgardenpink</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredpinkflower</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmmud</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<createItem>gardenpink</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgardenwhite</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredwhiteflower</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmmud</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<createItem>gardenwhite</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgardenblack</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredblackflower</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmmud</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<createItem>gardenblack</createItem>
+		</queue>
+	</action>
+	
+	<!-- NEW HEDGES -->
+	<action>
+		<id>qorangehedge</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredorangeflower</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<pick>bush,bush2,bush3</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<createItem>orangeflowerhedge</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qpurplehedge</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredpurpleflower</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<pick>bush,bush2,bush3</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<createItem>purpleflowerhedge</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgreenhedge</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredgreenflower</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<pick>bush,bush2,bush3</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<createItem>greenflowerhedge</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qpinkhedge</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredpinkflower</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<pick>bush,bush2,bush3</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<createItem>pinkflowerhedge</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwhitehedge</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredwhiteflower</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<pick>bush,bush2,bush3</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<createItem>whiteflowerhedge</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qblackhedge</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>gatheredblackflower</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<pick>bush,bush2,bush3</pick>
+			<wait>25</wait>
+			<destroyItem />
+			<createItem>blackflowerhedge</createItem>
+		</queue>
+	</action>
 </actions>

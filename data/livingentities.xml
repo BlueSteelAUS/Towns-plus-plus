@@ -2677,7 +2677,7 @@
 		<hate>CITIZEN,HERO</hate>
 		<level>1</level>
 
-		<name esES="Gelatina verde">Green slime</name>
+		<name esES="Gelatina verde">Green Slime</name>
 		<attack>1d209+595</attack>
 		<attackSpeed>4</attackSpeed>
 		<defense>1d249+595</defense>
@@ -2815,7 +2815,7 @@
 		<type>ENEMY</type>
 		<hate>CITIZEN,HERO</hate>
 		<level>2</level>
-		<name esES="Gelatina roja">Red slime</name>
+		<name esES="Gelatina roja">Red Slime</name>
 		<attack>1d419+1190</attack>
 		<attackSpeed>2</attackSpeed>
 		<defense>1d539+1530</defense>
@@ -3230,7 +3230,7 @@
 		<hate>CITIZEN,HERO</hate>
 		<level>5</level>
 
-		<name esES="Gelatina azul">Blue slime</name>
+		<name esES="Gelatina azul">Blue Slime</name>
 		<attack>1d539+1530</attack>
 		<attackSpeed>2</attackSpeed>
 		<defense>1d599+1700</defense>
@@ -4180,4 +4180,110 @@
 			<levelMax>3</levelMax>
 		</drop>
 	</treegift>
+	
+	<!-- NEW SLIMES -->
+	<yellowslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name esES="N/A">Yellow Slime</name>
+		<attack>1d419+1190</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d539+1530</defense>
+		<healthPoints>1d299+850</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d59+370</damage>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>80</movePCT>
+		<walkSpeed>25</walkSpeed>
+		<grouping>true</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>3</levelMin>
+			<levelMax>7</levelMax>
+		</drop>
+		<drop>
+			<item>yellowgel</item>
+			<PCT>100</PCT>
+		</drop>
+
+	</yellowslime>
+	
+	<orangeslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name esES="N/A">Orange Slime</name>
+		<attack>1d419+1190</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d539+1530</defense>
+		<healthPoints>1d299+850</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d59+370</damage>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>80</movePCT>
+		<walkSpeed>25</walkSpeed>
+		<grouping>true</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>orangegel</item>
+			<PCT>100</PCT>
+		</drop>
+
+	</orangeslime>
+	
+	<purpleslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>2</level>
+
+		<name esES="N/A">Purple Slime</name>
+		<attack>1d419+1190</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d539+1530</defense>
+		<healthPoints>1d299+850</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d59+370</damage>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>4</LOS>
+		<movePCT>80</movePCT>
+		<walkSpeed>25</walkSpeed>
+		<grouping>true</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>purplegel</item>
+			<PCT>100</PCT>
+		</drop>
+
+	</purpleslime>
 </livingentities>
