@@ -2043,8 +2043,8 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>palmtree</maxAgeItem>
 		<action>qcut</action>
-	</bushpalmtree>	
-	
+	</bushpalmtree>
+
 	<oasisbushpalmtree>
 		<name esES="Arbusto de palmera">Palm tree bush</name>
 		<habitat>grass</habitat>
@@ -2079,8 +2079,8 @@
 		<spawnTurns>1d43200</spawnTurns>
 		<locked>true</locked>
 		<action>qchop</action>
-	</palmtree>	
-	
+	</palmtree>
+
 	<oasispalmtree>
 		<name esES="Palmera">Palm tree</name>
 		<habitat>grass</habitat>
@@ -3482,7 +3482,7 @@
 		<action>rotate_stonestairs3d</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_stoneladder3</action>
+		<action>del_ancientladder</action>
 	</stonestairs3a>
 
 	<stonestairs3b>
@@ -3501,7 +3501,7 @@
 		<action>rotate_stonestairs3d</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_stoneladder3</action>
+		<action>del_ancientladder</action>
 	</stonestairs3b>
 
 	<stonestairs3c>
@@ -3520,7 +3520,7 @@
 		<action>rotate_stonestairs3d</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_stoneladder3</action>
+		<action>del_ancientladder</action>
 	</stonestairs3c>
 
 	<stonestairs3d>
@@ -3539,7 +3539,7 @@
 		<action>rotate_stonestairs3c</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_stoneladder3</action>
+		<action>del_ancientladder</action>
 	</stonestairs3d>
 
     <stonestairs4a>
@@ -3759,37 +3759,43 @@
 		<action>del_bonestairs</action>
 	</bonestairs_1_S>
 
-   <sandstairs1a>
-      <name esES="N/A">Sandstone Ramp</name>
+	<sandstairs1a>
+		<name esES="N/A">Sandstone Ramp</name>
 
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_sandstairs1b</action>
-      <action>rotate_sandstairs1c</action>
-      <action>rotate_sandstairs1d</action>
-   </sandstairs1a>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_sandstairs1b</action>
+		<action>rotate_sandstairs1c</action>
+		<action>rotate_sandstairs1d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs1</action>
+	</sandstairs1a>
 
-   <sandstairs1b>
-      <name esES="N/A">Sandstone Ramp</name>
+	<sandstairs1b>
+		<name esES="N/A">Sandstone Ramp</name>
 
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_sandstairs1a</action>
-      <action>rotate_sandstairs1c</action>
-      <action>rotate_sandstairs1d</action>
-   </sandstairs1b>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_sandstairs1a</action>
+		<action>rotate_sandstairs1c</action>
+		<action>rotate_sandstairs1d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs1</action>
+	</sandstairs1b>
 
 	<sandstairs1c>
 		<name esES="N/A">Sandstone Ramp</name>
@@ -3805,6 +3811,9 @@
 		<action>rotate_sandstairs1a</action>
 		<action>rotate_sandstairs1b</action>
 		<action>rotate_sandstairs1d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs1</action>
 	</sandstairs1c>
 
 	<sandstairs1d>
@@ -3821,6 +3830,9 @@
 		<action>rotate_sandstairs1a</action>
 		<action>rotate_sandstairs1b</action>
 		<action>rotate_sandstairs1c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs1</action>
 	</sandstairs1d>
 
 	<sandstairs2a>
@@ -3837,6 +3849,9 @@
 		<action>rotate_sandstairs2b</action>
 		<action>rotate_sandstairs2c</action>
 		<action>rotate_sandstairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs2</action>
 	</sandstairs2a>
 
 	<sandstairs2b>
@@ -3853,6 +3868,9 @@
 		<action>rotate_sandstairs2a</action>
 		<action>rotate_sandstairs2c</action>
 		<action>rotate_sandstairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs2</action>
 	</sandstairs2b>
 
 	<sandstairs2c>
@@ -3869,6 +3887,9 @@
 		<action>rotate_sandstairs2a</action>
 		<action>rotate_sandstairs2b</action>
 		<action>rotate_sandstairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs2</action>
 	</sandstairs2c>
 
 	<sandstairs2d>
@@ -3885,6 +3906,9 @@
 		<action>rotate_sandstairs2a</action>
 		<action>rotate_sandstairs2b</action>
 		<action>rotate_sandstairs2c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs2</action>
 	</sandstairs2d>
 
 	<sandstairs3a>
@@ -3901,6 +3925,9 @@
 		<action>rotate_sandstairs3b</action>
 		<action>rotate_sandstairs3c</action>
 		<action>rotate_sandstairs3d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs3</action>
 	</sandstairs3a>
 
 	<sandstairs3b>
@@ -3917,6 +3944,9 @@
 		<action>rotate_sandstairs3a</action>
 		<action>rotate_sandstairs3c</action>
 		<action>rotate_sandstairs3d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs3</action>
 	</sandstairs3b>
 
 	<sandstairs3c>
@@ -3933,6 +3963,9 @@
 		<action>rotate_sandstairs3a</action>
 		<action>rotate_sandstairs3b</action>
 		<action>rotate_sandstairs3d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs3</action>
 	</sandstairs3c>
 
 	<sandstairs3d>
@@ -3949,6 +3982,9 @@
 		<action>rotate_sandstairs3a</action>
 		<action>rotate_sandstairs3c</action>
 		<action>rotate_sandstairs3b</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs3</action>
 	</sandstairs3d>
 
 	<redstonestairs1>
@@ -3965,6 +4001,9 @@
 		<action>rotate_redstonestairs2</action>
 		<action>rotate_redstonestairs3</action>
 		<action>rotate_redstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs</action>
 	</redstonestairs1>
 
     <redstonestairs2>
@@ -3981,6 +4020,9 @@
 		<action>rotate_redstonestairs1</action>
 		<action>rotate_redstonestairs3</action>
 		<action>rotate_redstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs</action>
 	</redstonestairs2>
 
 	<redstonestairs3>
@@ -3997,6 +4039,9 @@
 		<action>rotate_redstonestairs1</action>
 		<action>rotate_redstonestairs2</action>
 		<action>rotate_redstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs</action>
 	</redstonestairs3>
 
 	<redstonestairs4>
@@ -4013,6 +4058,9 @@
 		<action>rotate_redstonestairs1</action>
 		<action>rotate_redstonestairs2</action>
 		<action>rotate_redstonestairs3</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs</action>
 	</redstonestairs4>
 
     <bluestonestairs1>
@@ -4029,6 +4077,9 @@
 		<action>rotate_bluestonestairs2</action>
 		<action>rotate_bluestonestairs3</action>
 		<action>rotate_bluestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs</action>
 	</bluestonestairs1>
 
 	<bluestonestairs2>
@@ -4045,679 +4096,808 @@
 		<action>rotate_bluestonestairs1</action>
 		<action>rotate_bluestonestairs3</action>
 		<action>rotate_bluestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs</action>
 	</bluestonestairs2>
 
-   <bluestonestairs3>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_bluestonestairs1</action>
-      <action>rotate_bluestonestairs2</action>
-      <action>rotate_bluestonestairs4</action>
-   </bluestonestairs3>
-
-   <bluestonestairs4>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_bluestonestairs1</action>
-      <action>rotate_bluestonestairs2</action>
-      <action>rotate_bluestonestairs3</action>
-   </bluestonestairs4>
-
-   <yellowstonestairs1>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs2</action>
-      <action>rotate_yellowstonestairs3</action>
-      <action>rotate_yellowstonestairs4</action>
-   </yellowstonestairs1>
-
-      <yellowstonestairs2>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs1</action>
-      <action>rotate_yellowstonestairs3</action>
-      <action>rotate_yellowstonestairs4</action>
-   </yellowstonestairs2>
-
-   <yellowstonestairs3>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs1</action>
-      <action>rotate_yellowstonestairs2</action>
-      <action>rotate_yellowstonestairs4</action>
-   </yellowstonestairs3>
-
-   <yellowstonestairs4>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs1</action>
-      <action>rotate_yellowstonestairs2</action>
-      <action>rotate_yellowstonestairs3</action>
-   </yellowstonestairs4>
-
-   <greenstonestairs1>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs2</action>
-      <action>rotate_greenstonestairs3</action>
-      <action>rotate_greenstonestairs4</action>
-   </greenstonestairs1>
-
-      <greenstonestairs2>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs1</action>
-      <action>rotate_greenstonestairs3</action>
-      <action>rotate_greenstonestairs4</action>
-   </greenstonestairs2>
-
-   <greenstonestairs3>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs1</action>
-      <action>rotate_greenstonestairs2</action>
-      <action>rotate_greenstonestairs4</action>
-   </greenstonestairs3>
-
-   <greenstonestairs4>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs1</action>
-      <action>rotate_greenstonestairs2</action>
-      <action>rotate_greenstonestairs3</action>
-   </greenstonestairs4>
-
-   <orangestonestairs1>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs2</action>
-      <action>rotate_orangestonestairs3</action>
-      <action>rotate_orangestonestairs4</action>
-   </orangestonestairs1>
-
-      <orangestonestairs2>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs1</action>
-      <action>rotate_orangestonestairs3</action>
-      <action>rotate_orangestonestairs4</action>
-   </orangestonestairs2>
-
-   <orangestonestairs3>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs1</action>
-      <action>rotate_orangestonestairs4</action>
-      <action>rotate_orangestonestairs2</action>
-   </orangestonestairs3>
-
-   <orangestonestairs4>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs1</action>
-      <action>rotate_orangestonestairs2</action>
-      <action>rotate_orangestonestairs3</action>
-   </orangestonestairs4>
-
-   <purplestonestairs1>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs2</action>
-      <action>rotate_purplestonestairs3</action>
-      <action>rotate_purplestonestairs4</action>
-   </purplestonestairs1>
-
-      <purplestonestairs2>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs1</action>
-      <action>rotate_purplestonestairs3</action>
-      <action>rotate_purplestonestairs4</action>
-   </purplestonestairs2>
-
-   <purplestonestairs3>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs1</action>
-      <action>rotate_purplestonestairs2</action>
-      <action>rotate_purplestonestairs4</action>
-   </purplestonestairs3>
-
-   <purplestonestairs4>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs1</action>
-      <action>rotate_purplestonestairs2</action>
-      <action>rotate_purplestonestairs3</action>
-   </purplestonestairs4>
-
-   <redstonestairs2a>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_redstonestairs2b</action>
-      <action>rotate_redstonestairs2c</action>
-      <action>rotate_redstonestairs2d</action>
-   </redstonestairs2a>
-
-      <redstonestairs2b>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_redstonestairs2a</action>
-      <action>rotate_redstonestairs2c</action>
-      <action>rotate_redstonestairs2d</action>
-   </redstonestairs2b>
-
-   <redstonestairs2c>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_redstonestairs2a</action>
-      <action>rotate_redstonestairs2b</action>
-      <action>rotate_redstonestairs2d</action>
-   </redstonestairs2c>
-
-   <redstonestairs2d>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_redstonestairs2a</action>
-      <action>rotate_redstonestairs2b</action>
-      <action>rotate_redstonestairs2c</action>
-   </redstonestairs2d>
-
-      <bluestonestairs2a>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_bluestonestairs2b</action>
-      <action>rotate_bluestonestairs2c</action>
-      <action>rotate_bluestonestairs2d</action>
-   </bluestonestairs2a>
-
-      <bluestonestairs2b>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_bluestonestairs2a</action>
-      <action>rotate_bluestonestairs2c</action>
-      <action>rotate_bluestonestairs2d</action>
-   </bluestonestairs2b>
-
-   <bluestonestairs2c>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_bluestonestairs2a</action>
-      <action>rotate_bluestonestairs2b</action>
-      <action>rotate_bluestonestairs2d</action>
-   </bluestonestairs2c>
-
-   <bluestonestairs2d>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_bluestonestairs2a</action>
-      <action>rotate_bluestonestairs2b</action>
-      <action>rotate_bluestonestairs2c</action>
-   </bluestonestairs2d>
-
-   <yellowstonestairs2a>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs2b</action>
-      <action>rotate_yellowstonestairs2c</action>
-      <action>rotate_yellowstonestairs2d</action>
-   </yellowstonestairs2a>
-
-      <yellowstonestairs2b>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs2a</action>
-      <action>rotate_yellowstonestairs2c</action>
-      <action>rotate_yellowstonestairs2d</action>
-   </yellowstonestairs2b>
-
-   <yellowstonestairs2c>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs2a</action>
-      <action>rotate_yellowstonestairs2b</action>
-      <action>rotate_yellowstonestairs2d</action>
-   </yellowstonestairs2c>
-
-   <yellowstonestairs2d>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_yellowstonestairs2a</action>
-      <action>rotate_yellowstonestairs2b</action>
-      <action>rotate_yellowstonestairs2c</action>
-   </yellowstonestairs2d>
-
-   <greenstonestairs2a>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs2b</action>
-      <action>rotate_greenstonestairs2c</action>
-      <action>rotate_greenstonestairs2d</action>
-   </greenstonestairs2a>
-
-      <greenstonestairs2b>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs2a</action>
-      <action>rotate_greenstonestairs2c</action>
-      <action>rotate_greenstonestairs2d</action>
-   </greenstonestairs2b>
-
-   <greenstonestairs2c>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs2a</action>
-      <action>rotate_greenstonestairs2b</action>
-      <action>rotate_greenstonestairs2d</action>
-   </greenstonestairs2c>
-
-   <greenstonestairs2d>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_greenstonestairs2a</action>
-      <action>rotate_greenstonestairs2b</action>
-      <action>rotate_greenstonestairs2c</action>
-   </greenstonestairs2d>
-
-   <orangestonestairs2a>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs2b</action>
-      <action>rotate_orangestonestairs2c</action>
-      <action>rotate_orangestonestairs2d</action>
-   </orangestonestairs2a>
-
-      <orangestonestairs2b>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs2a</action>
-      <action>rotate_orangestonestairs2c</action>
-      <action>rotate_orangestonestairs2d</action>
-   </orangestonestairs2b>
-
-   <orangestonestairs2c>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs2a</action>
-      <action>rotate_orangestonestairs2b</action>
-      <action>rotate_orangestonestairs2d</action>
-   </orangestonestairs2c>
-
-   <orangestonestairs2d>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_orangestonestairs2a</action>
-      <action>rotate_orangestonestairs2b</action>
-      <action>rotate_orangestonestairs2c</action>
-   </orangestonestairs2d>
-
-   <purplestonestairs2a>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>construction.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs2b</action>
-      <action>rotate_purplestonestairs2c</action>
-      <action>rotate_purplestonestairs2d</action>
-   </purplestonestairs2a>
-
-      <purplestonestairs2b>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs2a</action>
-      <action>rotate_purplestonestairs2c</action>
-      <action>rotate_purplestonestairs2d</action>
-   </purplestonestairs2b>
-
-   <purplestonestairs2c>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs2a</action>
-      <action>rotate_purplestonestairs2b</action>
-      <action>rotate_purplestonestairs2d</action>
-   </purplestonestairs2c>
-
-   <purplestonestairs2d>
-      <name esES="N/A">Stone Stairs</name>
-
-      <type>cb262.stairs</type>
-      <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-      <zoneMergerUp>true</zoneMergerUp>
-      <glue>true</glue>
-      <base>true</base>
-
-      <alwaysOperative>false</alwaysOperative>
-      <value>90</value>
-      <action>rotate_purplestonestairs2a</action>
-      <action>rotate_purplestonestairs2b</action>
-      <action>rotate_purplestonestairs2c</action>
-   </purplestonestairs2d>
+	<bluestonestairs3>
+		<name esES="N/A">Stone Stairs</name>
+
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_bluestonestairs1</action>
+		<action>rotate_bluestonestairs2</action>
+		<action>rotate_bluestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs</action>
+	</bluestonestairs3>
+
+	<bluestonestairs4>
+		<name esES="N/A">Stone Stairs</name>
+
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_bluestonestairs1</action>
+		<action>rotate_bluestonestairs2</action>
+		<action>rotate_bluestonestairs3</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs</action>
+	</bluestonestairs4>
+	
+	<yellowstonestairs1>
+		<name esES="N/A">Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_yellowstonestairs2</action>
+		<action>rotate_yellowstonestairs3</action>
+		<action>rotate_yellowstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs</action>
+	</yellowstonestairs1>
+
+    <yellowstonestairs2>
+		<name esES="N/A">Stone Stairs</name>
+
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_yellowstonestairs1</action>
+		<action>rotate_yellowstonestairs3</action>
+		<action>rotate_yellowstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs</action>
+	</yellowstonestairs2>
+
+	<yellowstonestairs3>
+		<name esES="N/A">Stone Stairs</name>
+
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_yellowstonestairs1</action>
+		<action>rotate_yellowstonestairs2</action>
+		<action>rotate_yellowstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs</action>
+	</yellowstonestairs3>
+
+    <yellowstonestairs4>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_yellowstonestairs1</action>
+        <action>rotate_yellowstonestairs2</action>
+        <action>rotate_yellowstonestairs3</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs</action>
+    </yellowstonestairs4>
+
+	<greenstonestairs1>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+	
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs2</action>
+        <action>rotate_greenstonestairs3</action>
+        <action>rotate_greenstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs</action>
+    </greenstonestairs1>
+
+	<greenstonestairs2>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs1</action>
+        <action>rotate_greenstonestairs3</action>
+        <action>rotate_greenstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs</action>
+    </greenstonestairs2>
+
+    <greenstonestairs3>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs1</action>
+        <action>rotate_greenstonestairs2</action>
+        <action>rotate_greenstonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs</action>
+    </greenstonestairs3>
+
+    <greenstonestairs4>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs1</action>
+        <action>rotate_greenstonestairs2</action>
+        <action>rotate_greenstonestairs3</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs</action>
+    </greenstonestairs4>
+
+    <orangestonestairs1>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs2</action>
+        <action>rotate_orangestonestairs3</action>
+        <action>rotate_orangestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs</action>
+    </orangestonestairs1>
+
+	<orangestonestairs2>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs1</action>
+        <action>rotate_orangestonestairs3</action>
+        <action>rotate_orangestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs</action>
+    </orangestonestairs2>
+
+	<orangestonestairs3>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs1</action>
+        <action>rotate_orangestonestairs4</action>
+        <action>rotate_orangestonestairs2</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs</action>
+    </orangestonestairs3>
+
+    <orangestonestairs4>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs1</action>
+        <action>rotate_orangestonestairs2</action>
+        <action>rotate_orangestonestairs3</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs</action>
+    </orangestonestairs4>
+
+    <purplestonestairs1>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs2</action>
+        <action>rotate_purplestonestairs3</action>
+        <action>rotate_purplestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs</action>
+    </purplestonestairs1>
+
+	<purplestonestairs2>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs1</action>
+        <action>rotate_purplestonestairs3</action>
+        <action>rotate_purplestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs</action>
+    </purplestonestairs2>
+
+    <purplestonestairs3>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs1</action>
+        <action>rotate_purplestonestairs2</action>
+        <action>rotate_purplestonestairs4</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs</action>
+    </purplestonestairs3>
+
+    <purplestonestairs4>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs1</action>
+        <action>rotate_purplestonestairs2</action>
+        <action>rotate_purplestonestairs3</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs</action>
+    </purplestonestairs4>
+
+    <redstonestairs2a>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_redstonestairs2b</action>
+        <action>rotate_redstonestairs2c</action>
+        <action>rotate_redstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs2</action>
+    </redstonestairs2a>
+
+	<redstonestairs2b>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_redstonestairs2a</action>
+        <action>rotate_redstonestairs2c</action>
+        <action>rotate_redstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs2</action>
+    </redstonestairs2b>
+
+    <redstonestairs2c>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_redstonestairs2a</action>
+        <action>rotate_redstonestairs2b</action>
+        <action>rotate_redstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs2</action>
+    </redstonestairs2c>
+
+    <redstonestairs2d>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+	
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_redstonestairs2a</action>
+        <action>rotate_redstonestairs2b</action>
+        <action>rotate_redstonestairs2c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_redstonestairs2</action>
+    </redstonestairs2d>
+
+	<bluestonestairs2a>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_bluestonestairs2b</action>
+        <action>rotate_bluestonestairs2c</action>
+        <action>rotate_bluestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs2</action>
+    </bluestonestairs2a>
+
+	<bluestonestairs2b>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_bluestonestairs2a</action>
+        <action>rotate_bluestonestairs2c</action>
+        <action>rotate_bluestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs2</action>
+    </bluestonestairs2b>
+
+    <bluestonestairs2c>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_bluestonestairs2a</action>
+        <action>rotate_bluestonestairs2b</action>
+        <action>rotate_bluestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs2</action>
+    </bluestonestairs2c>
+
+    <bluestonestairs2d>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_bluestonestairs2a</action>
+        <action>rotate_bluestonestairs2b</action>
+        <action>rotate_bluestonestairs2c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bluestonestairs2</action>
+    </bluestonestairs2d>
+
+    <yellowstonestairs2a>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_yellowstonestairs2b</action>
+        <action>rotate_yellowstonestairs2c</action>
+        <action>rotate_yellowstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs2</action>
+    </yellowstonestairs2a>
+
+	<yellowstonestairs2b>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_yellowstonestairs2a</action>
+        <action>rotate_yellowstonestairs2c</action>
+        <action>rotate_yellowstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs2</action>
+    </yellowstonestairs2b>
+
+    <yellowstonestairs2c>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_yellowstonestairs2a</action>
+        <action>rotate_yellowstonestairs2b</action>
+        <action>rotate_yellowstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs2</action>
+    </yellowstonestairs2c>
+
+    <yellowstonestairs2d>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_yellowstonestairs2a</action>
+        <action>rotate_yellowstonestairs2b</action>
+        <action>rotate_yellowstonestairs2c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_yellowstonestairs2</action>
+    </yellowstonestairs2d>
+
+	<greenstonestairs2a>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs2b</action>
+        <action>rotate_greenstonestairs2c</action>
+        <action>rotate_greenstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs2</action>
+    </greenstonestairs2a>
+
+	<greenstonestairs2b>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs2a</action>
+        <action>rotate_greenstonestairs2c</action>
+        <action>rotate_greenstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs2</action>
+    </greenstonestairs2b>
+
+    <greenstonestairs2c>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs2a</action>
+        <action>rotate_greenstonestairs2b</action>
+        <action>rotate_greenstonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs2</action>
+    </greenstonestairs2c>
+
+    <greenstonestairs2d>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_greenstonestairs2a</action>
+        <action>rotate_greenstonestairs2b</action>
+        <action>rotate_greenstonestairs2c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_greenstonestairs2</action>
+    </greenstonestairs2d>
+
+    <orangestonestairs2a>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs2b</action>
+        <action>rotate_orangestonestairs2c</action>
+        <action>rotate_orangestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs2</action>
+    </orangestonestairs2a>
+
+	<orangestonestairs2b>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs2a</action>
+        <action>rotate_orangestonestairs2c</action>
+        <action>rotate_orangestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs2</action>
+    </orangestonestairs2b>
+
+    <orangestonestairs2c>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs2a</action>
+        <action>rotate_orangestonestairs2b</action>
+        <action>rotate_orangestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs2</action>
+    </orangestonestairs2c>
+
+    <orangestonestairs2d>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_orangestonestairs2a</action>
+        <action>rotate_orangestonestairs2b</action>
+        <action>rotate_orangestonestairs2c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_orangestonestairs2</action>
+    </orangestonestairs2d>
+
+    <purplestonestairs2a>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>construction.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs2b</action>
+        <action>rotate_purplestonestairs2c</action>
+        <action>rotate_purplestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs2</action>
+    </purplestonestairs2a>
+
+	<purplestonestairs2b>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs2a</action>
+        <action>rotate_purplestonestairs2c</action>
+        <action>rotate_purplestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs2</action>
+    </purplestonestairs2b>
+
+    <purplestonestairs2c>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs2a</action>
+        <action>rotate_purplestonestairs2b</action>
+        <action>rotate_purplestonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs2</action>
+    </purplestonestairs2c>
+
+    <purplestonestairs2d>
+        <name esES="N/A">Stone Stairs</name>
+
+        <type>cb262.stairs</type>
+        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+        <zoneMergerUp>true</zoneMergerUp>
+        <glue>true</glue>
+        <base>true</base>
+
+        <alwaysOperative>false</alwaysOperative>
+        <value>90</value>
+        <action>rotate_purplestonestairs2a</action>
+        <action>rotate_purplestonestairs2b</action>
+        <action>rotate_purplestonestairs2c</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_purplestonestairs2</action>
+    </purplestonestairs2d>
 <!-- /STAIRS -->
 
 <!-- CONVERTING DEFAULT STAIRS TO ROTATING STAIRS -->
@@ -4851,6 +5031,9 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<action>convert_to_sandstairs1a</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs1</action>
 	</limestoneramp>
 
 	<bonestairs>
@@ -13411,9 +13594,9 @@
 		<stackableSize>1</stackableSize>
 		<action>del_snoatfarm</action>
 	</emptysnoatfarm>
-	
+
 	<!-- NEW COLOURS -->
-	
+
 	<yellowgel>
 		<name esES="N/A">Yellow Gel</name>
 		<type>rawmaterials.colors</type>
@@ -13440,7 +13623,7 @@
 		<stackableSize>1</stackableSize>
 		<value>40</value>
 	</purplegel>
-	
+
 	<yellowjelly>
 		<name esES="N/A">Yellow Jelly</name>
 		<description esES="N/A">Watch it wobble!</description>
@@ -13456,7 +13639,7 @@
 		<foodEffects>happy</foodEffects>
 		<value>200</value>
 	</yellowjelly>
-	
+
 	<orangejelly>
 		<name esES="N/A">Orange Jelly</name>
 		<description esES="N/A">Watch it wobble!</description>
@@ -13471,7 +13654,7 @@
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
 		<value>200</value>
-	</orangejelly>	
+	</orangejelly>
 
 	<purplejelly>
 		<name esES="N/A">Purple Jelly</name>
@@ -13536,7 +13719,7 @@
 		<foodEffects>happy</foodEffects>
 		<value>200</value>
 	</greenjelly>
-	
+
 	<!-- NEW FLOWERS -->
 	<orangeflower>
 		<name esES="N/A">Orange Flowers</name>
@@ -13560,7 +13743,7 @@
 		<action>qcut</action>
 		<action>qgatherplantedorangeflower</action>
 	</plantedorangeflower>
-	
+
 	<gatheredorangeflower>
 		<name esES="N/A">Orange Flowers</name>
 		<type>rawmaterials.colors</type>
@@ -13568,7 +13751,7 @@
 		<stackableSize>1</stackableSize>
 		<value>38</value>
 	</gatheredorangeflower>
-	
+
 	<purpleflower>
 		<name esES="N/A">Purple Flowers</name>
 		<habitat>grassnoflower</habitat>
@@ -13591,7 +13774,7 @@
 		<action>qcut</action>
 		<action>qgatherplantedpurpleflower</action>
 	</plantedpurpleflower>
-		
+
 	<gatheredpurpleflower>
 		<name esES="N/A">Purple Flowers</name>
 		<type>rawmaterials.colors</type>
@@ -13599,7 +13782,7 @@
 		<stackableSize>1</stackableSize>
 		<value>38</value>
 	</gatheredpurpleflower>
-	
+
 	<greenflower>
 		<name esES="N/A">Green Flowers</name>
 		<habitat>grassnoflower</habitat>
@@ -13622,7 +13805,7 @@
 		<action>qcut</action>
 		<action>qgatherplantedgreenflower</action>
 	</plantedgreenflower>
-		
+
 	<gatheredgreenflower>
 		<name esES="N/A">Green Flowers</name>
 		<type>rawmaterials.colors</type>
@@ -13630,7 +13813,7 @@
 		<stackableSize>1</stackableSize>
 		<value>38</value>
 	</gatheredgreenflower>
-	
+
 	<pinkflower>
 		<name esES="N/A">Pink Flowers</name>
 		<habitat>grassnoflower</habitat>
@@ -13652,8 +13835,8 @@
 		<habitat>humus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedpinkflower</action>
-	</plantedpinkflower>	
-	
+	</plantedpinkflower>
+
 	<gatheredpinkflower>
 		<name esES="N/A">Pink Flowers</name>
 		<type>rawmaterials.colors</type>
@@ -13661,7 +13844,7 @@
 		<stackableSize>1</stackableSize>
 		<value>38</value>
 	</gatheredpinkflower>
-	
+
 	<whiteflower>
 		<name esES="N/A">White Flowers</name>
 		<habitat>grassnoflower</habitat>
@@ -13684,7 +13867,7 @@
 		<action>qcut</action>
 		<action>qgatherplantedwhiteflower</action>
 	</plantedwhiteflower>
-		
+
 	<gatheredwhiteflower>
 		<name esES="N/A">White Flowers</name>
 		<type>rawmaterials.colors</type>
@@ -13692,7 +13875,7 @@
 		<stackableSize>1</stackableSize>
 		<value>38</value>
 	</gatheredwhiteflower>
-	
+
 	<blackflower>
 		<name esES="N/A">Black Flowers</name>
 		<habitat>grassnoflower</habitat>
@@ -13714,8 +13897,8 @@
 		<habitat>humus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedblackflower</action>
-	</plantedblackflower>	
-	
+	</plantedblackflower>
+
 	<gatheredblackflower>
 		<name esES="N/A">Black Flowers</name>
 		<type>rawmaterials.colors</type>
@@ -13723,7 +13906,7 @@
 		<stackableSize>1</stackableSize>
 		<value>38</value>
 	</gatheredblackflower>
-	
+
 	<!-- NEW GARDENS -->
 	<gardenorange>
 		<name esES="N/A">Orange Flowers Garden</name>
@@ -13766,7 +13949,7 @@
 		<value>102</value>
 		<action>del_gardengreen</action>
 	</gardengreen>
-	
+
 	<gardenpink>
 		<name esES="N/A">Pink Flowers Garden</name>
 		<description esES="Jardín en miniatura">Miniature garden</description>
@@ -13808,7 +13991,7 @@
 		<value>102</value>
 		<action>del_gardenblack</action>
 	</gardenblack>
-	
+
 	<!-- NEW HEDGES -->
 	<orangeflowerhedge>
 		<name esES="Seto de flores rojas">Orange Flower Hedge</name>
@@ -13894,7 +14077,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>50</value>
 	</blackflowerhedge>
-	
+
 	<!-- REMOVE GRAVES -->
 	<unearthedremains>
 		<name esES="N/A">Unearthed Remains</name>

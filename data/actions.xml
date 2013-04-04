@@ -15932,7 +15932,190 @@
 			 <destroyCellItem />
 			 <createItem>bonestairs_1_N</createItem>
 		  </queue>
+	</action>	
+	<action>
+		  <id>del_sandstairs1</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">limestoneramp,sandstairs1a,sandstairs1b,sandstairs1c,sandstairs1d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sandstairs1a</createItem>
+		  </queue>
 	</action>
+	<action>
+		  <id>del_sandstairs2</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sandstairs2a,sandstairs2b,sandstairs2c,sandstairs2d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sandstairs2a</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sandstairs3</id>
+		  <name>Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sandstairs3a,sandstairs3b,sandstairs3c,sandstairs3d</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sandstairs3a</createItem>
+		  </queue>
+	</action>
+	<!-- DELETE COLOURED STAIRS -->
+	<action>
+		<id>del_redstonestairs</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">redstonestairs1,redstonestairs2,redstonestairs3,redstonestairs4</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>redstonestairs1</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_bluestonestairs</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bluestonestairs1,bluestonestairs2,bluestonestairs3,bluestonestairs4</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bluestonestairs1</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_yellowstonestairs</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">yellowstonestairs1,yellowstonestairs2,yellowstonestairs3,yellowstonestairs4</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>yellowstonestairs1</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_greenstonestairs</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">greenstonestairs1,greenstonestairs2,greenstonestairs3,greenstonestairs4</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>greenstonestairs1</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_orangestonestairs</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">orangestonestairs1,orangestonestairs2,orangestonestairs3,orangestonestairs4</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>orangestonestairs1</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_purplestonestairs</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">purplestonestairs1,purplestonestairs2,purplestonestairs3,purplestonestairs4</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>purplestonestairs1</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_redstonestairs2</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">redstonestairs2a,redstonestairs2b,redstonestairs2c,redstonestairs2d,</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>redstonestairs2a</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_bluestonestairs2</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bluestonestairs2a,bluestonestairs2b,bluestonestairs2c,bluestonestairs2d,</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bluestonestairs2a</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_yellowstonestairs2</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">yellowstonestairs2a,yellowstonestairs2b,yellowstonestairs2c,yellowstonestairs2d,</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>yellowstonestairs2a</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_greenstonestairs2</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">greenstonestairs2a,greenstonestairs2b,greenstonestairs2c,greenstonestairs2d,</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>greenstonestairs2a</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_orangestonestairs2</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">orangestonestairs2a,orangestonestairs2b,orangestonestairs2c,orangestonestairs2d,</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>orangestonestairs2a</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>del_purplestonestairs2</id>
+		<name>Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">purplestonestairs2a,purplestonestairs2b,purplestonestairs2c,purplestonestairs2d,</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>purplestonestairs2a</createItem>
+		</queue>
+	</action>
+	
 	<action>
 		  <id>del_hedgegate</id>
 		  <name>Remove</name>

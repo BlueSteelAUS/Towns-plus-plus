@@ -25,6 +25,8 @@ LittleMikey's Contributions:
 -> Fixed removal of Graves. Graves now produce "Unearthed Remains" when removed, so you can use these
    to rebuild any type of grave with the one you unearthed. You will still need the usual materials to
    build the new grave.   
+-> Fixed crash with Ancient Stone Stairs right click context menu.
+-> Added remove ability to cb262's Coloured Stairs. 
 
 BlueSteel's Contributions
 =========================
