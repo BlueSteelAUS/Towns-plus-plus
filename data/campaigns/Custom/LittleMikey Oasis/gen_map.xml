@@ -71,7 +71,7 @@
 	<seed>
 		<type>iron</type>
 		<num>12</num>
-		<level>1d11+19</level>
+		<level>1d11+20</level>
 		<turns>50</turns>
 
 		<northPCT>6</northPCT>
@@ -132,7 +132,7 @@
 	<seed>
 		<type>gravel</type>
 		<num>10</num>
-		<level>1d10+18</level>
+		<level>1d8+18</level>
 		<turns>40</turns>
 
 		<northPCT>6</northPCT>

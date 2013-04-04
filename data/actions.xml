@@ -292,7 +292,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
-			<pick>corpse,humanremains,purgedhumanremains</pick>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>grave</createItem>
 		</queue>
@@ -344,7 +344,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
-			<pick>corpse,humanremains,purgedhumanremains</pick>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>tomb</createItem>
 		</queue>
@@ -368,7 +368,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
-			<pick>corpse,humanremains,purgedhumanremains</pick>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>mosstomb</createItem>
 		</queue>
@@ -392,7 +392,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
-			<pick>corpse,humanremains,purgedhumanremains</pick>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>lizardtomb</createItem>
 		</queue>
@@ -10179,7 +10179,7 @@
 	      <move>masonbench</move>
 	      <wait>21</wait>
 	      <destroyItem />
-	      <pick>corpse,humanremains</pick>
+	      <pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 	      <wait>21</wait>
 	      <createItem>tomb2_W</createItem>
 	   </queue>
@@ -10201,7 +10201,7 @@
 	      <move>masonbench</move>
 	      <wait>21</wait>
 	      <destroyItem />
-	      <pick>corpse,humanremains</pick>
+	      <pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 	      <wait>21</wait>
 	      <createItem>mosstomb2_W</createItem>
 	   </queue>
@@ -10223,7 +10223,7 @@
 	      <move>masonbench</move>
 	      <wait>21</wait>
 	      <destroyItem />
-	      <pick>corpse,humanremains</pick>
+	      <pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 	      <wait>21</wait>
 	      <createItem>mosstomb3_W</createItem>
 	   </queue>
@@ -10237,7 +10237,7 @@
 	      <move>carpentrybench</move>
 	      <wait>21</wait>
 	      <destroyItem />
-	      <pick>corpse,humanremains</pick>
+	      <pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 	      <wait>21</wait>
 	      <createItem>grave2_W</createItem>
 	    </queue>
@@ -10251,7 +10251,7 @@
 	      <move>carpentrybench</move>
 	      <wait>21</wait>
 	      <destroyItem />
-	      <pick>corpse,humanremains</pick>
+	      <pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 	      <wait>21</wait>
 	      <createItem>grave3_W</createItem>
 	    </queue>
@@ -17400,7 +17400,7 @@
 			 <move useSource="true">grave,grave_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>grave</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17412,7 +17412,7 @@
 			 <move useSource="true">grave2_W,grave2_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>grave2_W</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17424,7 +17424,7 @@
 			 <move useSource="true">grave3_W,grave3_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>grave3_W</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17436,7 +17436,7 @@
 			 <move useSource="true">tomb,tomb_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>tomb</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17448,7 +17448,7 @@
 			 <move useSource="true">tomb2_W,tomb2_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>tomb2_W</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17460,7 +17460,7 @@
 			 <move useSource="true">mosstomb,mosstomb_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>mosstomb</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17472,7 +17472,7 @@
 			 <move useSource="true">mosstomb2_W,mosstomb2_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>mosstomb2_W</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17484,7 +17484,7 @@
 			 <move useSource="true">mosstomb3_W,mosstomb3_E</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>mosstomb3_W</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
 	<action>
@@ -17496,9 +17496,10 @@
 			 <move useSource="true">lizardtomb</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>lizardtomb</createItem>
+			 <createItem>unearthedremains</createItem>
 		  </queue>
 	</action>
+	<!-- /DELETE GRAVES -->
 	<action>
 		  <id>del_beerbarrel</id>
 		  <name>Remove</name>

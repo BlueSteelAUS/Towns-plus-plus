@@ -21,7 +21,10 @@ LittleMikey's Contributions:
 -> Also from ericb1800, added new Slime colours. Now you will find Yellow, Orange and Purple Slimes.
    These slimes currently have the same stats and rarity as Red Slimes.
 -> All slimes drop different coloured Gel, and this can be made into a new food item, Jelly! Jelly
-   doesn't fill as much as meat products, but it does provide a happiness boost to anyone who eats it.   
+   doesn't fill as much as meat products, but it does provide a happiness boost to anyone who eats it.
+-> Fixed removal of Graves. Graves now produce "Unearthed Remains" when removed, so you can use these
+   to rebuild any type of grave with the one you unearthed. You will still need the usual materials to
+   build the new grave.   
 
 BlueSteel's Contributions
 =========================

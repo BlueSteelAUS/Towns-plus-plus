@@ -13894,4 +13894,14 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>50</value>
 	</blackflowerhedge>
+	
+	<!-- REMOVE GRAVES -->
+	<unearthedremains>
+		<name esES="N/A">Unearthed Remains</name>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<value>2</value>
+	</unearthedremains>
 </items>
