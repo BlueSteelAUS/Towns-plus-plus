@@ -7,7 +7,7 @@
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
 	</init>
-
+	
 	<!-- 80 stone seeds -->
 	<seed>
 		<type>stone</type>
@@ -162,7 +162,7 @@
 	<!-- Smaller lakes -->
 	<seed>
 		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
-		<type>_WATER_</type>
+		<type>_WATER_INF_</type>
 		<num>1d3</num>
 		<level>12</level>
 		<turns>180</turns>
@@ -174,30 +174,70 @@
 		<downPCT>1</downPCT>
 	</seed>
 
-	<!-- Sand Dunes -->
-	<!-- Top Left -->
-<!-- 	<seed>
+<!-- 	Sand Dunes
+	<bezier>
 		<type>sand</type>
-		<num>1</num>
-		<turns>150</turns>
-		<level>11</level>
-		<pointx>1d25+25</pointx>
-		<pointy>1d25+25</pointy>
-		<westPCT>100</westPCT>
-		<northPCT>1</northPCT>
-		<upPCT>3</upPCT>
-	</seed> -->
-	<!-- Top Right -->
-<!-- 	<seed>
+		<level>10</level>
+		<depth>2</depth>
+		<height>2</height>
+		<wide>1d5+4</wide>
+
+		First Bezier point
+		<point1_x_min>10</point1_x_min>
+		<point1_x_max>25</point1_x_max>
+		<point1_y_min>10</point1_y_min>
+		<point1_y_max>25</point1_y_max>
+
+		Second Bezier point
+		<point2_x_min>150</point2_x_min>
+		<point2_x_max>175</point2_x_max>
+		<point2_y_min>25</point2_y_min>
+		<point2_y_max>50</point2_y_max>
+
+		First Bezier control point
+		<controlpoint1_x_min>25</controlpoint1_x_min>
+		<controlpoint1_x_max>50</controlpoint1_x_max>
+		<controlpoint1_y_min>25</controlpoint1_y_min>
+		<controlpoint1_y_max>50</controlpoint1_y_max>
+
+		Second Bezier control point
+		<controlpoint2_x_min>150</controlpoint2_x_min>
+		<controlpoint2_x_max>200</controlpoint2_x_max>
+		<controlpoint2_y_min>0</controlpoint2_y_min>
+		<controlpoint2_y_max>50</controlpoint2_y_max>
+	</bezier>	 -->
+	
+<!-- 	<bezier>
 		<type>sand</type>
-		<num>1</num>
-		<turns>0</turns>
-		<level>5</level>
-		<pointx>1d25+150</pointx>
-		<pointy>1d25+25</pointy>
-		<eastPCT>100</eastPCT>
-		<downPCT>100</downPCT>
-	</seed> -->
+		<level>10</level>
+		<depth>2</depth>
+		<height>2</height>
+		<wide>1d5+2</wide>
+
+		First Bezier point
+		<point1_x_min>0</point1_x_min>
+		<point1_x_max>50</point1_x_max>
+		<point1_y_min>0</point1_y_min>
+		<point1_y_max>50</point1_y_max>
+
+		Second Bezier point
+		<point2_x_min>150</point2_x_min>
+		<point2_x_max>200</point2_x_max>
+		<point2_y_min>0</point2_y_min>
+		<point2_y_max>50</point2_y_max>
+
+		First Bezier control point
+		<controlpoint1_x_min>0</controlpoint1_x_min>
+		<controlpoint1_x_max>75</controlpoint1_x_max>
+		<controlpoint1_y_min>0</controlpoint1_y_min>
+		<controlpoint1_y_max>75</controlpoint1_y_max>
+
+		Second Bezier control point
+		<controlpoint2_x_min>150</controlpoint2_x_min>
+		<controlpoint2_x_max>200</controlpoint2_x_max>
+		<controlpoint2_y_min>0</controlpoint2_y_min>
+		<controlpoint2_y_max>50</controlpoint2_y_max>
+	</bezier> -->
 	
 	<!-- 10 dungeon3 seeds -->
 	<seed>
@@ -267,5 +307,36 @@
 		<terrain>_WATER_</terrain>
 		<PCT>70</PCT>
 		<radius>8</radius>
-	</change>
+	</change> 	
+	
+	<!-- Top Left -->	
+	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>15</turns>
+		<level>11</level>
+		<pointx>1d25+25</pointx>
+		<pointy>1d25+25</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<upPCT>3</upPCT>
+	</seed>
+	<!-- Top Right -->
+	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>15</turns>
+		<level>11</level>
+		<pointx>1d25+150</pointx>
+		<pointy>1d25+25</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<upPCT>3</upPCT>
+	</seed>
 </gen_map>
