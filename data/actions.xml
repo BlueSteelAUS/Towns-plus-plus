@@ -8645,7 +8645,7 @@
 
 	<action>
 		<id>qdestroymud</id>
-		<name esES="N/A">Destroy mud</name>
+		<name esES="Destruir Barro">Destroy Mud</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>rmmud</generatedItem>
@@ -8661,7 +8661,7 @@
 
 	<action>
 		<id>qdestroywood</id>
-		<name esES="N/A">Destroy wood</name>
+		<name esES="Destruir Madera">Destroy Wood</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>rmwood</generatedItem>
@@ -8678,7 +8678,7 @@
 
 	<action>
 		<id>qdestroybones</id>
-		<name esES="N/A">Destroy bones</name>
+		<name esES="Destruir Huesos">Destroy Bones</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>bones</generatedItem>
@@ -8694,7 +8694,7 @@
 
 	<action>
 		<id>qdestroyflour</id>
-		<name esES="N/A">Destroy flour</name>
+		<name esES="Destruir Harina">Destroy Flour</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>flour</generatedItem>
@@ -8935,7 +8935,7 @@
 	<action>
 		<id>qminedirt</id>
 		<generatedItem>rmmud</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">dirtmine</move>
@@ -8947,7 +8947,7 @@
 	<action>
 		<id>qminestone</id>
 		<generatedItem>rmstone</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">stonemine</move>
@@ -8959,7 +8959,7 @@
 	<action>
 		<id>qminesand</id>
 		<generatedItem>rmsand</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">sandmine</move>
@@ -8971,7 +8971,7 @@
 	<action>
 		<id>qminegravel</id>
 		<generatedItem>rmflint</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">gravelmine</move>
@@ -8983,7 +8983,7 @@
 	<action>
 		<id>qminecoal</id>
 		<generatedItem>rmcoal</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">coalmine</move>
@@ -8995,7 +8995,7 @@
 	<action>
 		<id>qmineiron</id>
 		<generatedItem>rmiron</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">ironmine</move>
@@ -9007,7 +9007,7 @@
 	<action>
 		<id>qminecopper</id>
 		<generatedItem>rmcopper</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">coppermine</move>
@@ -9063,7 +9063,7 @@
 	<action>
 		<id>qminesilver</id>
 		<generatedItem>rmsilver</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">silvermine</move>
@@ -9103,7 +9103,7 @@
 	<action>
 		<id>qminegold</id>
 		<generatedItem>rmgold</generatedItem>
-		<name>Mine</name>
+		<name esES="Minar">Mine</name>
 		<priorityID>_MINEDIG_</priorityID>
 		<queue>
 			<move useSource="true">goldmine</move>
@@ -9219,7 +9219,7 @@
 
 	<action>
 		<id>rotate_woodenbed_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodenbed_E,woodenbed_S,woodenbed_W</move>
@@ -9229,7 +9229,7 @@
 
 	<action>
 		<id>rotate_woodenbed_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodenbed,woodenbed_S,woodenbed_W</move>
@@ -9239,7 +9239,7 @@
 
 	<action>
 		<id>rotate_woodenbed_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodenbed,woodenbed_E,woodenbed_W</move>
@@ -9249,7 +9249,7 @@
 
 	<action>
 		<id>rotate_woodenbed_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodenbed_E,woodenbed_S,woodenbed</move>
@@ -9259,7 +9259,7 @@
 
 	<action>
 		<id>rotate_camo_bed_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">camo_bed_W,camo_bed_E,camo_bed_S</move>
@@ -9269,7 +9269,7 @@
 
 	<action>
 		<id>rotate_camo_bed_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">camo_bed_W,camo_bed_N,camo_bed_S</move>
@@ -9279,7 +9279,7 @@
 
 	<action>
 		<id>rotate_camo_bed_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">camo_bed_W,camo_bed_E,camo_bed_N</move>
@@ -9289,7 +9289,8 @@
 
 	<action>
 		<id>rotate_camo_bed_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">camo_bed_N,camo_bed_E,camo_bed_S</move>
@@ -9299,7 +9300,7 @@
 
 	<action>
 		<id>rotate_green_bed_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">green_bed_W,green_bed_E,green_bed_S</move>
@@ -9309,7 +9310,7 @@
 
 	<action>
 		<id>rotate_green_bed_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">green_bed_W,green_bed_N,green_bed_S</move>
@@ -9319,7 +9320,7 @@
 
 	<action>
 		<id>rotate_green_bed_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">green_bed_W,green_bed_E,green_bed_N</move>
@@ -9329,7 +9330,8 @@
 
 	<action>
 		<id>rotate_green_bed_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">green_bed_N,green_bed_E,green_bed_S</move>
@@ -9339,7 +9341,7 @@
 
 	<action>
 		<id>rotate_blue_bed_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">blue_bed_W,blue_bed_E,blue_bed_S</move>
@@ -9349,7 +9351,7 @@
 
 	<action>
 		<id>rotate_blue_bed_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">blue_bed_W,blue_bed_N,blue_bed_S</move>
@@ -9359,7 +9361,7 @@
 
 	<action>
 		<id>rotate_blue_bed_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">blue_bed_W,blue_bed_E,blue_bed_N</move>
@@ -9369,7 +9371,8 @@
 
 	<action>
 		<id>rotate_blue_bed_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">blue_bed_N,blue_bed_E,blue_bed_S</move>
@@ -9379,7 +9382,7 @@
 
 	<action>
 		<id>rotate_red_bed_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">red_bed_W,red_bed_E,red_bed_S</move>
@@ -9389,7 +9392,7 @@
 
 	<action>
 		<id>rotate_red_bed_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">red_bed_W,red_bed_N,red_bed_S</move>
@@ -9399,7 +9402,7 @@
 
 	<action>
 		<id>rotate_red_bed_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">red_bed_W,red_bed_E,red_bed_N</move>
@@ -9409,7 +9412,8 @@
 
 	<action>
 		<id>rotate_red_bed_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">red_bed_N,red_bed_E,red_bed_S</move>
@@ -9419,7 +9423,7 @@
 
 	<action>
 		<id>rotate_purple_bed_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purple_bed_W,purple_bed_E,purple_bed_S</move>
@@ -9429,7 +9433,7 @@
 
 	<action>
 		<id>rotate_purple_bed_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purple_bed_W,purple_bed_N,purple_bed_S</move>
@@ -9439,7 +9443,7 @@
 
 	<action>
 		<id>rotate_purple_bed_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purple_bed_W,purple_bed_E,purple_bed_N</move>
@@ -9449,7 +9453,8 @@
 
 	<action>
 		<id>rotate_purple_bed_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purple_bed_N,purple_bed_E,purple_bed_S</move>
@@ -9578,7 +9583,7 @@
 <!-- ROTATE UTILS -->
 	<action>
 		<id>rotate_medicinecabinet_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">medicinecabinet</move>
@@ -9588,7 +9593,7 @@
 
 	<action>
 		<id>rotate_medicinecabinet_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">medicinecabinet_W</move>
@@ -9600,7 +9605,7 @@
 <!-- ROTATE DECORATIONS -->
 	<action>
 		<id>rotate_clock_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">clock_E</move>
@@ -9610,7 +9615,7 @@
 
 	<action>
 		<id>rotate_clock_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">clock</move>
@@ -9620,7 +9625,7 @@
 
 	<action>
 		<id>rotate_chest_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chest</move>
@@ -9630,7 +9635,7 @@
 
 	<action>
 		<id>rotate_chest_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chest_W</move>
@@ -9640,7 +9645,7 @@
 
 	<action>
 		<id>rotate_chesstable_1</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chesstable</move>
@@ -9650,7 +9655,7 @@
 
 	<action>
 		<id>rotate_chesstable_2</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chesstable_2</move>
@@ -9660,7 +9665,7 @@
 
 	<action>
 		<id>rotate_stonemalestatue_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonemalestatue</move>
@@ -9670,7 +9675,7 @@
 
 	<action>
 		<id>rotate_stonemalestatue_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonemalestatue_W</move>
@@ -9680,7 +9685,7 @@
 
 	<action>
 		<id>rotate_necromancerstatue_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">necromancerstatue_E</move>
@@ -9690,7 +9695,7 @@
 
 	<action>
 		<id>rotate_gargoylestatue_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">gargoylestatue_E</move>
@@ -9700,7 +9705,7 @@
 
 	<action>
 		<id>rotate_necromancerstatue_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">necromancerstatue</move>
@@ -9710,7 +9715,7 @@
 
 	<action>
 		<id>rotate_gargoylestatue_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">gargoylestatue</move>
@@ -9720,7 +9725,7 @@
 
 	<action>
 		<id>rotate_goldunifallowstatue_S</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">goldunifallowstatue</move>
@@ -9730,7 +9735,7 @@
 
 	<action>
 		<id>rotate_goldunifallowstatue_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">goldunifallowstatue_S</move>
@@ -9740,7 +9745,7 @@
 
 	<action>
 		<id>rotate_goldnuxstatue_S</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">goldnuxstatue</move>
@@ -9750,7 +9755,7 @@
 
 	<action>
 		<id>rotate_goldnuxstatue_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">goldnuxstatue_S</move>
@@ -9760,7 +9765,7 @@
 
 	<action>
 		<id>rotate_silverskootenbeetenstatue_S</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">silverskootenbeetenstatue</move>
@@ -9770,7 +9775,7 @@
 
 	<action>
 		<id>rotate_silverskootenbeetenstatue_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">silverskootenbeetenstatue_S</move>
@@ -9782,7 +9787,7 @@
 <!-- ROTATE CONATINERS -->
 	<action>
 		<id>rotate_armorcabinet_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">armorcabinet</move>
@@ -9792,7 +9797,7 @@
 
 	<action>
 		<id>rotate_armorcabinet_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">armorcabinet_W</move>
@@ -9802,7 +9807,7 @@
 
 	<action>
 		<id>rotate_weaponcabinet_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">weaponcabinet</move>
@@ -9812,7 +9817,7 @@
 
 	<action>
 		<id>rotate_weaponcabinet_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">weaponcabinet_W</move>
@@ -10261,7 +10266,7 @@
 <!-- ROTATE GRAVES & TOMBS -->
 	<action>
 		<id>rotate_grave_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">grave</move>
@@ -10271,7 +10276,7 @@
 
 	<action>
 		<id>rotate_grave_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">grave_E</move>
@@ -10281,7 +10286,7 @@
 
 	<action>
 		<id>rotate_grave2_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">grave2_W</move>
@@ -10291,7 +10296,7 @@
 
 	<action>
 		<id>rotate_grave2_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">grave2_E</move>
@@ -10301,7 +10306,7 @@
 
 	<action>
 		<id>rotate_grave3_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">grave3_W</move>
@@ -10311,7 +10316,7 @@
 
 	<action>
 		<id>rotate_grave3_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">grave3_E</move>
@@ -10321,7 +10326,7 @@
 
    	<action>
 		<id>rotate_tomb_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">tomb</move>
@@ -10331,7 +10336,7 @@
 
 	<action>
 		<id>rotate_tomb_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">tomb_E</move>
@@ -10341,7 +10346,7 @@
 
    	<action>
 		<id>rotate_mosstomb_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">mosstomb</move>
@@ -10351,7 +10356,7 @@
 
 	<action>
 		<id>rotate_mosstomb_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">mosstomb_E</move>
@@ -10361,7 +10366,7 @@
 
 	<action>
 		<id>rotate_tomb2_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">tomb2_W</move>
@@ -10371,7 +10376,7 @@
 
 	<action>
 		<id>rotate_tomb2_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">tomb2_E</move>
@@ -10381,7 +10386,7 @@
 
 	<action>
 		<id>rotate_mosstomb2_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">mosstomb2_E</move>
@@ -10391,7 +10396,7 @@
 
 	<action>
 		<id>rotate_mosstomb2_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">mosstomb2_W</move>
@@ -10401,7 +10406,7 @@
 
 	<action>
 		<id>rotate_mosstomb3_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">mosstomb3_E</move>
@@ -10411,7 +10416,7 @@
 
 	<action>
 		<id>rotate_mosstomb3_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">mosstomb3_W</move>
@@ -10706,7 +10711,7 @@
 <!-- ROTATE FURNITURE -->
 	<action>
 		<id>rotate_purplethrone_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplethrone_E</move>
@@ -10716,7 +10721,7 @@
 
 	<action>
 		<id>rotate_purplethrone_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplethrone</move>
@@ -10726,7 +10731,7 @@
 
 	<action>
 		<id>rotate_woodencupboard_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodencupboard_W</move>
@@ -10736,7 +10741,7 @@
 
 	<action>
 		<id>rotate_woodencupboard_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodencupboard_E</move>
@@ -10746,7 +10751,7 @@
 
 	<action>
 		<id>rotate_tallwoodencupboard_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">tallwoodencupboard_W</move>
@@ -10756,7 +10761,7 @@
 
 	<action>
 		<id>rotate_tallwoodencupboard_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">tallwoodencupboard_E</move>
@@ -10766,7 +10771,7 @@
 
 	<action>
 		<id>rotate_woodendrawer_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodendrawer_W</move>
@@ -10776,7 +10781,7 @@
 
 	<action>
 		<id>rotate_woodendrawer_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodendrawer_E</move>
@@ -10786,7 +10791,7 @@
 
 	<action>
 		<id>rotate_smallwoodendrawer_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">smallwoodendrawer_W</move>
@@ -10796,7 +10801,7 @@
 
 	<action>
 		<id>rotate_smallwoodendrawer_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">smallwoodendrawer_E</move>
@@ -10806,7 +10811,7 @@
 
 	<action>
 		<id>rotate_smallwoodendrawer_flower_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">smallwoodendrawer_flower_W</move>
@@ -10816,7 +10821,7 @@
 
 	<action>
 		<id>rotate_smallwoodendrawer_flower_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">smallwoodendrawer_flower_E</move>
@@ -10827,7 +10832,7 @@
 
 	<action>
 		<id>rotate_redchair_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_S,redchair_E,redchair_W</move>
@@ -10837,7 +10842,7 @@
 
 	<action>
 		<id>rotate_redchair_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_N,redchair_E,redchair_W</move>
@@ -10847,7 +10852,7 @@
 
 	<action>
 		<id>rotate_redchair_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_S,redchair_N,redchair_W</move>
@@ -10857,7 +10862,8 @@
 
 	<action>
 		<id>rotate_redchair_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_S,redchair_E,redchair_N</move>
@@ -10867,7 +10873,7 @@
 
 <action>
 		<id>rotate_redchair_2_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_2_S,redchair_2_E,redchair_2_W</move>
@@ -10877,7 +10883,7 @@
 
 	<action>
 		<id>rotate_redchair_2_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_2_N,redchair_2_E,redchair_2_W</move>
@@ -10887,7 +10893,7 @@
 
 	<action>
 		<id>rotate_redchair_2_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_2_S,redchair_2_N,redchair_2_W</move>
@@ -10897,7 +10903,8 @@
 
 	<action>
 		<id>rotate_redchair_2_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redchair_2_S,redchair_2_E,redchair_2_N</move>
@@ -10907,7 +10914,7 @@
 
 	<action>
 		<id>rotate_bluechair_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluechair_S,bluechair_E,bluechair_W</move>
@@ -10917,7 +10924,7 @@
 
 	<action>
 		<id>rotate_bluechair_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluechair_N,bluechair_E,bluechair_W</move>
@@ -10927,7 +10934,7 @@
 
 	<action>
 		<id>rotate_bluechair_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluechair_S,bluechair_N,bluechair_W</move>
@@ -10937,7 +10944,8 @@
 
 	<action>
 		<id>rotate_bluechair_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluechair_S,bluechair_E,bluechair_N</move>
@@ -10947,7 +10955,7 @@
 
 	<action>
 		<id>rotate_greenchair_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenchair_S,greenchair_E,greenchair_W</move>
@@ -10957,7 +10965,7 @@
 
 	<action>
 		<id>rotate_greenchair_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenchair_N,greenchair_E,greenchair_W</move>
@@ -10967,7 +10975,7 @@
 
 	<action>
 		<id>rotate_greenchair_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenchair_S,greenchair_N,greenchair_W</move>
@@ -10977,7 +10985,8 @@
 
 	<action>
 		<id>rotate_greenchair_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenchair_S,greenchair_E,greenchair_N</move>
@@ -10987,7 +10996,7 @@
 
 	<action>
 		<id>rotate_whitechair_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">whitechair_S,whitechair_E,whitechair_W</move>
@@ -10997,7 +11006,7 @@
 
 	<action>
 		<id>rotate_whitechair_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">whitechair_N,whitechair_E,whitechair_W</move>
@@ -11007,7 +11016,7 @@
 
 	<action>
 		<id>rotate_whitechair_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">whitechair_S,whitechair_N,whitechair_W</move>
@@ -11017,7 +11026,8 @@
 
 	<action>
 		<id>rotate_whitechair_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">whitechair_S,whitechair_E,whitechair_N</move>
@@ -11027,7 +11037,7 @@
 
 		<action>
 		<id>rotate_purplechair_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplechair_S,purplechair_E,purplechair_W</move>
@@ -11037,7 +11047,7 @@
 
 	<action>
 		<id>rotate_purplechair_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplechair_N,purplechair_E,purplechair_W</move>
@@ -11047,7 +11057,7 @@
 
 	<action>
 		<id>rotate_purplechair_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplechair_S,purplechair_N,purplechair_W</move>
@@ -11057,7 +11067,8 @@
 
 	<action>
 		<id>rotate_purplechair_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplechair_S,purplechair_E,purplechair_N</move>
@@ -11067,7 +11078,7 @@
 
 	<action>
 		<id>rotate_woodchair_1_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_1_S,woodchair_1_E,woodchair_1_W</move>
@@ -11077,7 +11088,7 @@
 
 	<action>
 		<id>rotate_woodchair_1_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_1_N,woodchair_1_E,woodchair_1_W</move>
@@ -11087,7 +11098,7 @@
 
 	<action>
 		<id>rotate_woodchair_1_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_1_S,woodchair_1_N,woodchair_1_W</move>
@@ -11097,7 +11108,8 @@
 
 	<action>
 		<id>rotate_woodchair_1_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_1_S,woodchair_1_E,woodchair_1_N</move>
@@ -11107,7 +11119,7 @@
 
 	<action>
 		<id>rotate_woodchair_2_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_2_S,woodchair_2_E,woodchair_2_W</move>
@@ -11117,7 +11129,7 @@
 
 	<action>
 		<id>rotate_woodchair_2_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_2_N,woodchair_2_E,woodchair_2_W</move>
@@ -11127,7 +11139,7 @@
 
 	<action>
 		<id>rotate_woodchair_2_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_2_S,woodchair_2_N,woodchair_2_W</move>
@@ -11137,7 +11149,8 @@
 
 	<action>
 		<id>rotate_woodchair_2_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_2_S,woodchair_2_E,woodchair_2_N</move>
@@ -11147,7 +11160,7 @@
 
 	<action>
 		<id>rotate_woodchair_3_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_3_S,woodchair_3_E,woodchair_3_W</move>
@@ -11157,7 +11170,7 @@
 
 	<action>
 		<id>rotate_woodchair_3_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_3_N,woodchair_3_E,woodchair_3_W</move>
@@ -11167,7 +11180,7 @@
 
 	<action>
 		<id>rotate_woodchair_3_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_3_S,woodchair_3_N,woodchair_3_W</move>
@@ -11177,7 +11190,8 @@
 
 	<action>
 		<id>rotate_woodchair_3_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodchair_3_S,woodchair_3_E,woodchair_3_N</move>
@@ -11530,7 +11544,7 @@
 <!-- ROTATE SIGNS -->
 	<action>
 		<id>rotate_doorsignswords_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">doorsignswords_E1</move>
@@ -11540,7 +11554,7 @@
 
 	<action>
 		<id>rotate_doorsignswords_E1</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">doorsignswords</move>
@@ -11550,7 +11564,7 @@
 
 	<action>
 		<id>rotate_sign_1_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_1_W</move>
@@ -11560,7 +11574,7 @@
 
 	<action>
 		<id>rotate_sign_2_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_2_W</move>
@@ -11570,7 +11584,7 @@
 
 	<action>
 		<id>rotate_sign_3_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_3_W</move>
@@ -11580,7 +11594,7 @@
 
 	<action>
 		<id>rotate_sign_4_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_4_W</move>
@@ -11590,7 +11604,7 @@
 
 	<action>
 		<id>rotate_sign_5_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_5_W</move>
@@ -11600,7 +11614,7 @@
 
 	<action>
 		<id>rotate_sign_6_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_6_W</move>
@@ -11610,7 +11624,7 @@
 
 	<action>
 		<id>rotate_sign_7_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_7_W</move>
@@ -11620,7 +11634,7 @@
 
 	<action>
 		<id>rotate_sign_8_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_8_W</move>
@@ -11630,7 +11644,7 @@
 
 	<action>
 		<id>rotate_sign_9_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_9_W</move>
@@ -11640,7 +11654,7 @@
 
 	<action>
 		<id>rotate_sign_10_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_10_W</move>
@@ -11650,7 +11664,7 @@
 
 	<action>
 		<id>rotate_sign_11_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_11_W</move>
@@ -11660,7 +11674,7 @@
 
 	<action>
 		<id>rotate_sign_12_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_12_W</move>
@@ -11670,7 +11684,7 @@
 
 	<action>
 		<id>rotate_sign_13_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_13_W</move>
@@ -11680,7 +11694,7 @@
 
 	<action>
 		<id>rotate_sign_14_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_14_W</move>
@@ -11690,7 +11704,7 @@
 
 	<action>
 		<id>rotate_sign_15_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_15_W</move>
@@ -11700,7 +11714,7 @@
 
 	<action>
 		<id>rotate_sign_1_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_1_E</move>
@@ -11710,7 +11724,7 @@
 
 	<action>
 		<id>rotate_sign_2_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_2_E</move>
@@ -11720,7 +11734,7 @@
 
 	<action>
 		<id>rotate_sign_3_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_3_E</move>
@@ -11730,7 +11744,7 @@
 
 	<action>
 		<id>rotate_sign_4_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_4_E</move>
@@ -11740,7 +11754,7 @@
 
 	<action>
 		<id>rotate_sign_5_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_5_E</move>
@@ -11750,7 +11764,7 @@
 
 	<action>
 		<id>rotate_sign_6_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_6_E</move>
@@ -11760,7 +11774,7 @@
 
 	<action>
 		<id>rotate_sign_7_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_7_E</move>
@@ -11770,7 +11784,7 @@
 
 	<action>
 		<id>rotate_sign_8_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_8_E</move>
@@ -11780,7 +11794,7 @@
 
 	<action>
 		<id>rotate_sign_9_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_9_E</move>
@@ -11790,7 +11804,7 @@
 
 	<action>
 		<id>rotate_sign_10_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_10_E</move>
@@ -11800,7 +11814,7 @@
 
 	<action>
 		<id>rotate_sign_11_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_11_E</move>
@@ -11810,7 +11824,7 @@
 
 	<action>
 		<id>rotate_sign_12_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_12_E</move>
@@ -11820,7 +11834,7 @@
 
 	<action>
 		<id>rotate_sign_13_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_13_E</move>
@@ -11830,7 +11844,7 @@
 
 	<action>
 		<id>rotate_sign_14_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_14_E</move>
@@ -11840,7 +11854,7 @@
 
 	<action>
 		<id>rotate_sign_15_W</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sign_15_E</move>
@@ -11852,7 +11866,7 @@
 <!-- ROTATE STAIRS -->
 	<action>
 		<id>rotate_woodstairs1a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1c</move>
@@ -11862,7 +11876,8 @@
 
 	<action>
 		<id>rotate_woodstairs1b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs1a,woodstairs1d,woodstairs1c</move>
@@ -11872,7 +11887,7 @@
 
 	<action>
 		<id>rotate_woodstairs1d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs1b,woodstairs1a,woodstairs1c</move>
@@ -11882,7 +11897,7 @@
 
 	<action>
 		<id>rotate_woodstairs1c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1a</move>
@@ -11892,7 +11907,7 @@
 
 	<action>
 		<id>rotate_woodstairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2c</move>
@@ -11902,7 +11917,8 @@
 
 	<action>
 		<id>rotate_woodstairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs2a,woodstairs2d,woodstairs2c</move>
@@ -11912,7 +11928,7 @@
 
 	<action>
 		<id>rotate_woodstairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs2b,woodstairs2a,woodstairs2c</move>
@@ -11922,7 +11938,7 @@
 
 	<action>
 		<id>rotate_woodstairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2a</move>
@@ -11932,7 +11948,7 @@
 
 	<action>
 		<id>rotate_woodstairs3a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3c</move>
@@ -11942,7 +11958,8 @@
 
 	<action>
 		<id>rotate_woodstairs3b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs3a,woodstairs3d,woodstairs3c</move>
@@ -11952,7 +11969,7 @@
 
 	<action>
 		<id>rotate_woodstairs3d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs3b,woodstairs3a,woodstairs3c</move>
@@ -11962,7 +11979,7 @@
 
 	<action>
 		<id>rotate_woodstairs3c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3a</move>
@@ -11972,7 +11989,7 @@
 
 	<action>
 		<id>rotate_dirtstairs1a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1c</move>
@@ -11982,7 +11999,8 @@
 
 	<action>
 		<id>rotate_dirtstairs1b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs1a,dirtstairs1d,dirtstairs1c</move>
@@ -11992,7 +12010,7 @@
 
 	<action>
 		<id>rotate_dirtstairs1d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs1b,dirtstairs1a,dirtstairs1c</move>
@@ -12002,7 +12020,7 @@
 
 	<action>
 		<id>rotate_dirtstairs1c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1a</move>
@@ -12013,7 +12031,7 @@
 
 	<action>
 		<id>rotate_dirtstairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs2b,dirtstairs2d,dirtstairs2c</move>
@@ -12023,7 +12041,8 @@
 
 	<action>
 		<id>rotate_dirtstairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs2a,dirtstairs2d,dirtstairs2c</move>
@@ -12033,7 +12052,7 @@
 
 	<action>
 		<id>rotate_dirtstairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs2b,dirtstairs2a,dirtstairs2c</move>
@@ -12043,7 +12062,7 @@
 
 	<action>
 		<id>rotate_dirtstairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs2b,dirtstairs2d,dirtstairs2a</move>
@@ -12053,7 +12072,7 @@
 
 	<action>
 		<id>rotate_stonestairs1a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1c</move>
@@ -12063,7 +12082,8 @@
 
 	<action>
 		<id>rotate_stonestairs1b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs1a,stonestairs1d,stonestairs1c</move>
@@ -12073,7 +12093,7 @@
 
 	<action>
 		<id>rotate_stonestairs1d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs1b,stonestairs1a,stonestairs1c</move>
@@ -12083,7 +12103,7 @@
 
 	<action>
 		<id>rotate_stonestairs1c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1a</move>
@@ -12093,7 +12113,7 @@
 
 	<action>
 		<id>rotate_stonestairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2c</move>
@@ -12103,7 +12123,8 @@
 
 	<action>
 		<id>rotate_stonestairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs2a,stonestairs2d,stonestairs2c</move>
@@ -12113,7 +12134,7 @@
 
 	<action>
 		<id>rotate_stonestairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs2b,stonestairs2a,stonestairs2c</move>
@@ -12123,7 +12144,7 @@
 
 	<action>
 		<id>rotate_stonestairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2a</move>
@@ -12133,7 +12154,7 @@
 
 	<action>
 		<id>rotate_stonestairs3a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3c</move>
@@ -12143,7 +12164,8 @@
 
 	<action>
 		<id>rotate_stonestairs3b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs3a,stonestairs3d,stonestairs3c</move>
@@ -12153,7 +12175,7 @@
 
 	<action>
 		<id>rotate_stonestairs3d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs3b,stonestairs3a,stonestairs3c</move>
@@ -12163,7 +12185,7 @@
 
 	<action>
 		<id>rotate_stonestairs3c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3a</move>
@@ -12173,7 +12195,7 @@
 
 	<action>
 		<id>rotate_stonestairs4a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs4b,stonestairs4d,stonestairs4c</move>
@@ -12183,7 +12205,8 @@
 
 	<action>
 		<id>rotate_stonestairs4b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs4a,stonestairs4d,stonestairs4c</move>
@@ -12193,7 +12216,7 @@
 
 	<action>
 		<id>rotate_stonestairs4d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs4b,stonestairs4a,stonestairs4c</move>
@@ -12203,7 +12226,7 @@
 
 	<action>
 		<id>rotate_stonestairs4c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs4b,stonestairs4d,stonestairs4a</move>
@@ -12213,7 +12236,7 @@
 
 	<action>
 		<id>rotate_stonestairs5a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs5b,stonestairs5d,stonestairs5c</move>
@@ -12223,7 +12246,8 @@
 
 	<action>
 		<id>rotate_stonestairs5b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs5a,stonestairs5d,stonestairs5c</move>
@@ -12233,7 +12257,7 @@
 
 	<action>
 		<id>rotate_stonestairs5d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs5b,stonestairs5a,stonestairs5c</move>
@@ -12243,7 +12267,7 @@
 
 	<action>
 		<id>rotate_stonestairs5c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs5b,stonestairs5d,stonestairs5a</move>
@@ -12253,7 +12277,7 @@
 
 	<action>
 		<id>rotate_sandstairs1a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1c</move>
@@ -12263,7 +12287,8 @@
 
 	<action>
 		<id>rotate_sandstairs1b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs1a,sandstairs1d,sandstairs1c</move>
@@ -12273,7 +12298,7 @@
 
 	<action>
 		<id>rotate_sandstairs1d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs1b,sandstairs1a,sandstairs1c</move>
@@ -12283,7 +12308,7 @@
 
 	<action>
 		<id>rotate_sandstairs1c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1a</move>
@@ -12293,7 +12318,7 @@
 
 		<action>
 		<id>rotate_sandstairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs2b,sandstairs2d,sandstairs2c</move>
@@ -12303,7 +12328,8 @@
 
 	<action>
 		<id>rotate_sandstairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs2a,sandstairs2d,sandstairs2c</move>
@@ -12313,7 +12339,7 @@
 
 	<action>
 		<id>rotate_sandstairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs2b,sandstairs2a,sandstairs2c</move>
@@ -12323,7 +12349,7 @@
 
 	<action>
 		<id>rotate_sandstairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs2b,sandstairs2d,sandstairs2a</move>
@@ -12333,7 +12359,7 @@
 
 	<action>
 		<id>rotate_sandstairs3a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs3b,sandstairs3d,sandstairs3c</move>
@@ -12343,7 +12369,8 @@
 
 	<action>
 		<id>rotate_sandstairs3b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs3a,sandstairs3d,sandstairs3c</move>
@@ -12353,7 +12380,7 @@
 
 	<action>
 		<id>rotate_sandstairs3d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs3b,sandstairs3a,sandstairs3c</move>
@@ -12363,7 +12390,7 @@
 
 	<action>
 		<id>rotate_sandstairs3c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs3b,sandstairs3d,sandstairs3a</move>
@@ -12373,7 +12400,7 @@
 
 	<action>
 		<id>rotate_redstonestairs1</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs2,redstonestairs4,redstonestairs3</move>
@@ -12383,7 +12410,8 @@
 
 	<action>
 		<id>rotate_redstonestairs2</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs1,redstonestairs4,redstonestairs3</move>
@@ -12393,7 +12421,7 @@
 
 	<action>
 		<id>rotate_redstonestairs4</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs2,redstonestairs1,redstonestairs3</move>
@@ -12403,7 +12431,7 @@
 
 	<action>
 		<id>rotate_redstonestairs3</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs2,redstonestairs4,redstonestairs1</move>
@@ -12413,7 +12441,7 @@
 
 	<action>
 		<id>rotate_redstonestairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs2b,redstonestairs2d,redstonestairs2c</move>
@@ -12423,7 +12451,8 @@
 
 	<action>
 		<id>rotate_redstonestairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs2a,redstonestairs2d,redstonestairs2c</move>
@@ -12433,7 +12462,7 @@
 
 	<action>
 		<id>rotate_redstonestairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs2b,redstonestairs2a,redstonestairs2c</move>
@@ -12443,7 +12472,7 @@
 
 	<action>
 		<id>rotate_redstonestairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">redstonestairs2b,redstonestairs2d,redstonestairs2a</move>
@@ -12453,7 +12482,7 @@
 
 	<action>
 		<id>rotate_bluestonestairs1</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs2,bluestonestairs4,bluestonestairs3</move>
@@ -12463,7 +12492,8 @@
 
 	<action>
 		<id>rotate_bluestonestairs2</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs1,bluestonestairs4,bluestonestairs3</move>
@@ -12473,7 +12503,7 @@
 
 	<action>
 		<id>rotate_bluestonestairs4</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs2,bluestonestairs1,bluestonestairs3</move>
@@ -12483,7 +12513,7 @@
 
 	<action>
 		<id>rotate_bluestonestairs3</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs2,bluestonestairs4,bluestonestairs1</move>
@@ -12493,7 +12523,7 @@
 
 	<action>
 		<id>rotate_bluestonestairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs2b,bluestonestairs2d,bluestonestairs2c</move>
@@ -12503,7 +12533,8 @@
 
 	<action>
 		<id>rotate_bluestonestairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs2a,bluestonestairs2d,bluestonestairs2c</move>
@@ -12513,7 +12544,7 @@
 
 	<action>
 		<id>rotate_bluestonestairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs2b,bluestonestairs2a,bluestonestairs2c</move>
@@ -12523,7 +12554,7 @@
 
 	<action>
 		<id>rotate_bluestonestairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bluestonestairs2b,bluestonestairs2d,bluestonestairs2a</move>
@@ -12533,7 +12564,7 @@
 
 	<action>
 		<id>rotate_yellowstonestairs1</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs2,yellowstonestairs4,yellowstonestairs3</move>
@@ -12543,7 +12574,8 @@
 
 	<action>
 		<id>rotate_yellowstonestairs2</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs1,yellowstonestairs4,yellowstonestairs3</move>
@@ -12553,7 +12585,7 @@
 
 	<action>
 		<id>rotate_yellowstonestairs4</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs2,yellowstonestairs1,yellowstonestairs3</move>
@@ -12563,7 +12595,7 @@
 
 	<action>
 		<id>rotate_yellowstonestairs3</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs2,yellowstonestairs4,yellowstonestairs1</move>
@@ -12573,7 +12605,7 @@
 
 	<action>
 		<id>rotate_yellowstonestairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs2b,yellowstonestairs2d,yellowstonestairs2c</move>
@@ -12583,7 +12615,8 @@
 
 	<action>
 		<id>rotate_yellowstonestairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs2a,yellowstonestairs2d,yellowstonestairs2c</move>
@@ -12593,7 +12626,7 @@
 
 	<action>
 		<id>rotate_yellowstonestairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs2b,yellowstonestairs2a,yellowstonestairs2c</move>
@@ -12603,7 +12636,7 @@
 
 	<action>
 		<id>rotate_yellowstonestairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">yellowstonestairs2b,yellowstonestairs2d,yellowstonestairs2a</move>
@@ -12613,7 +12646,7 @@
 
 	<action>
 		<id>rotate_greenstonestairs1</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs2,greenstonestairs4,greenstonestairs3</move>
@@ -12623,7 +12656,8 @@
 
 	<action>
 		<id>rotate_greenstonestairs2</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs1,greenstonestairs4,greenstonestairs3</move>
@@ -12633,7 +12667,7 @@
 
 	<action>
 		<id>rotate_greenstonestairs4</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs2,greenstonestairs1,greenstonestairs3</move>
@@ -12643,7 +12677,7 @@
 
 	<action>
 		<id>rotate_greenstonestairs3</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs2,greenstonestairs4,greenstonestairs1</move>
@@ -12653,7 +12687,7 @@
 
 	<action>
 		<id>rotate_greenstonestairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs2b,greenstonestairs2d,greenstonestairs2c</move>
@@ -12663,7 +12697,8 @@
 
 	<action>
 		<id>rotate_greenstonestairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs2a,greenstonestairs2d,greenstonestairs2c</move>
@@ -12673,7 +12708,7 @@
 
 	<action>
 		<id>rotate_greenstonestairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs2b,greenstonestairs2a,greenstonestairs2c</move>
@@ -12683,7 +12718,7 @@
 
 	<action>
 		<id>rotate_greenstonestairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">greenstonestairs2b,greenstonestairs2d,greenstonestairs2a</move>
@@ -12693,7 +12728,7 @@
 
 	<action>
 		<id>rotate_orangestonestairs1</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs2,orangestonestairs4,orangestonestairs3</move>
@@ -12703,7 +12738,8 @@
 
 	<action>
 		<id>rotate_orangestonestairs2</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs1,orangestonestairs4,orangestonestairs3</move>
@@ -12713,7 +12749,7 @@
 
 	<action>
 		<id>rotate_orangestonestairs4</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs2,orangestonestairs1,orangestonestairs3</move>
@@ -12723,7 +12759,7 @@
 
 	<action>
 		<id>rotate_orangestonestairs3</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs2,orangestonestairs4,orangestonestairs1</move>
@@ -12733,7 +12769,7 @@
 
 	<action>
 		<id>rotate_orangestonestairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs2b,orangestonestairs2d,orangestonestairs2c</move>
@@ -12743,7 +12779,8 @@
 
 	<action>
 		<id>rotate_orangestonestairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs2a,orangestonestairs2d,orangestonestairs2c</move>
@@ -12753,7 +12790,7 @@
 
 	<action>
 		<id>rotate_orangestonestairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs2b,orangestonestairs2a,orangestonestairs2c</move>
@@ -12763,7 +12800,7 @@
 
 	<action>
 		<id>rotate_orangestonestairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">orangestonestairs2b,orangestonestairs2d,orangestonestairs2a</move>
@@ -12773,7 +12810,7 @@
 
 	<action>
 		<id>rotate_purplestonestairs1</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs2,purplestonestairs4,purplestonestairs3</move>
@@ -12783,7 +12820,8 @@
 
 	<action>
 		<id>rotate_purplestonestairs2</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs1,purplestonestairs4,purplestonestairs3</move>
@@ -12793,7 +12831,7 @@
 
 	<action>
 		<id>rotate_purplestonestairs4</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs2,purplestonestairs1,purplestonestairs3</move>
@@ -12803,7 +12841,7 @@
 
 	<action>
 		<id>rotate_purplestonestairs3</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs2,purplestonestairs4,purplestonestairs1</move>
@@ -12813,7 +12851,7 @@
 
 	<action>
 		<id>rotate_purplestonestairs2a</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs2b,purplestonestairs2d,purplestonestairs2c</move>
@@ -12823,7 +12861,8 @@
 
 	<action>
 		<id>rotate_purplestonestairs2b</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs2a,purplestonestairs2d,purplestonestairs2c</move>
@@ -12833,7 +12872,7 @@
 
 	<action>
 		<id>rotate_purplestonestairs2d</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs2b,purplestonestairs2a,purplestonestairs2c</move>
@@ -12843,7 +12882,7 @@
 
 	<action>
 		<id>rotate_purplestonestairs2c</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">purplestonestairs2b,purplestonestairs2d,purplestonestairs2a</move>
@@ -12853,7 +12892,7 @@
 
 	<action>
 		<id>rotate_bonestairs_1_N</id>
-		<name esES="N/A">Rotate North</name>
+		<name esES="Rotar al Norte">Rotate North</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_S</move>
@@ -12863,7 +12902,7 @@
 
 	<action>
 		<id>rotate_bonestairs_1_E</id>
-		<name esES="N/A">Rotate East</name>
+		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bonestairs_1_W,bonestairs_1_N,bonestairs_1_S</move>
@@ -12873,7 +12912,7 @@
 
 	<action>
 		<id>rotate_bonestairs_1_S</id>
-		<name esES="N/A">Rotate South</name>
+		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_N</move>
@@ -12883,7 +12922,8 @@
 
 	<action>
 		<id>rotate_bonestairs_1_W</id>
-		<name esES="N/A">Rotate West</name>
+		<name esES="Rotar al Oeste">Rotate West</name>		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bonestairs_1_N,bonestairs_1_E,bonestairs_1_S</move>
@@ -13447,7 +13487,7 @@
 <!-- CONVERT STAIRS -->
 	<action>
 		<id>convert_to_woodstairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodenladder</move>
@@ -13457,7 +13497,7 @@
 
 	<action>
 		<id>convert_to_woodstairs2a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">ladder</move>
@@ -13467,7 +13507,7 @@
 
 	<action>
 		<id>convert_to_woodstairs3a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">logladder</move>
@@ -13477,7 +13517,7 @@
 
 	<action>
 		<id>convert_to_dirtstairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtladder</move>
@@ -13487,7 +13527,7 @@
 
 	<action>
 		<id>convert_to_stonestairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stoneladder</move>
@@ -13497,7 +13537,7 @@
 
 	<action>
 		<id>convert_to_stonestairs2a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonespindleladder</move>
@@ -13507,7 +13547,7 @@
 
 	<action>
 		<id>convert_to_stonestairs3a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">ancientladder</move>
@@ -13517,7 +13557,7 @@
 
 	<action>
 		<id>convert_to_sandstairs1a</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">limestoneramp</move>
@@ -13527,7 +13567,7 @@
 
 	<action>
 		<id>convert_to_bonestairs_1_N</id>
-		<name esES="N/A">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bonestairs</move>
@@ -13961,7 +14001,7 @@
 
 	<action>
 		<id>qlargegiftone</id>
-		<name esES="N/A">Large Gift</name>
+		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<wait>32</wait>
@@ -13972,7 +14012,7 @@
 
 	<action>
 		<id>qrotate_largegiftone</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">largegiftone</move>
@@ -13982,7 +14022,7 @@
 
 	<action>
 		<id>qrotate_largegiftone_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">largegiftone_E</move>
@@ -13992,7 +14032,7 @@
 
 	<action>
 		<id>qopen_largegiftone</id>
-		<name esES="N/A">Open</name>
+		<name esES="Abrir">Open</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">largegiftone</move>
@@ -14004,7 +14044,7 @@
 
 	<action>
 		<id>qopen_largegiftone_E</id>
-		<name esES="N/A">Open</name>
+		<name esES="Abrir">Open</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">largegiftone_E</move>
@@ -14016,7 +14056,7 @@
 
 	<action>
 		<id>qlargegifttwo</id>
-		<name esES="N/A">Large Gift</name>
+		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<wait>32</wait>
@@ -14027,7 +14067,7 @@
 
 	<action>
 		<id>qrotate_largegifttwo</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">largegifttwo</move>
@@ -14037,7 +14077,7 @@
 
 	<action>
 		<id>qrotate_largegifttwo_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">largegifttwo_E</move>
@@ -14047,7 +14087,7 @@
 
 	<action>
 		<id>qopen_largegifttwo</id>
-		<name esES="N/A">Open</name>
+		<name esES="Abrir">Open</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">largegifttwo</move>
@@ -14059,7 +14099,7 @@
 
   <action>
     <id>qopen_largegifttwo_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegifttwo_E</move>
@@ -14071,7 +14111,7 @@
 
   <action>
     <id>qlargegiftthree</id>
-	<name esES="N/A">Large Gift</name>
+	<name esES="Regalo Grande">Large Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14082,7 +14122,7 @@
 
   <action>
     <id>qrotate_largegiftthree</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftthree</move>
@@ -14092,7 +14132,7 @@
 
   <action>
     <id>qrotate_largegiftthree_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftthree_E</move>
@@ -14102,7 +14142,7 @@
 
   <action>
     <id>qopen_largegiftthree</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftthree</move>
@@ -14114,7 +14154,7 @@
 
   <action>
     <id>qopen_largegiftthree_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftthree_E</move>
@@ -14126,7 +14166,7 @@
 
   <action>
     <id>qlargegiftfour</id>
-	<name esES="N/A">Large Gift</name>
+	<name esES="Regalo Grande">Large Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14137,7 +14177,7 @@
 
   <action>
     <id>qrotate_largegiftfour</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfour</move>
@@ -14147,7 +14187,7 @@
 
   <action>
     <id>qrotate_largegiftfour_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfour_E</move>
@@ -14157,7 +14197,7 @@
 
   <action>
     <id>qopen_largegiftfour</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfour</move>
@@ -14169,7 +14209,7 @@
 
   <action>
     <id>qopen_largegiftfour_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfour_E</move>
@@ -14181,7 +14221,7 @@
 
   <action>
     <id>qlargegiftfive</id>
-	<name esES="N/A">Large Gift</name>
+	<name esES="Regalo Grande">Large Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14192,7 +14232,7 @@
 
   <action>
     <id>qrotate_largegiftfive</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfive</move>
@@ -14202,7 +14242,7 @@
 
   <action>
     <id>qrotate_largegiftfive_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfive_E</move>
@@ -14212,7 +14252,7 @@
 
   <action>
     <id>qopen_largegiftfive</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfive</move>
@@ -14224,7 +14264,7 @@
 
   <action>
     <id>qopen_largegiftfive_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftfive_E</move>
@@ -14236,7 +14276,7 @@
 
   <action>
     <id>qlargegiftsix</id>
-	<name esES="N/A">Large Gift</name>
+	<name esES="Regalo Grande">Large Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14247,7 +14287,7 @@
 
   <action>
     <id>qrotate_largegiftsix</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftsix</move>
@@ -14257,7 +14297,7 @@
 
   <action>
     <id>qrotate_largegiftsix_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftsix_E</move>
@@ -14267,7 +14307,7 @@
 
   <action>
     <id>qopen_largegiftsix</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftsix</move>
@@ -14279,7 +14319,7 @@
 
   <action>
     <id>qopen_largegiftsix_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">largegiftsix_E</move>
@@ -14291,7 +14331,7 @@
 
   <action>
     <id>qsmallgiftone</id>
-	<name esES="N/A">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14302,7 +14342,7 @@
 
   <action>
     <id>qrotate_smallgiftone</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftone</move>
@@ -14312,7 +14352,7 @@
 
   <action>
     <id>qrotate_smallgiftone_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftone_E</move>
@@ -14322,7 +14362,7 @@
 
   <action>
     <id>qopen_smallgiftone</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
 	  <move useSource="true">smallgiftone</move>
@@ -14334,7 +14374,7 @@
 
   <action>
     <id>qopen_smallgiftone_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
 	  <move useSource="true">smallgiftone_E</move>
@@ -14346,7 +14386,7 @@
 
   <action>
     <id>qsmallgifttwo</id>
-	<name esES="N/A">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14357,7 +14397,7 @@
 
   <action>
     <id>qrotate_smallgifttwo</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgifttwo</move>
@@ -14367,7 +14407,7 @@
 
   <action>
     <id>qrotate_smallgifttwo_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgifttwo_E</move>
@@ -14377,7 +14417,7 @@
 
   <action>
     <id>qopen_smallgifttwo</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgifttwo</move>
@@ -14389,7 +14429,7 @@
 
   <action>
     <id>qopen_smallgifttwo_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgifttwo_E</move>
@@ -14401,7 +14441,7 @@
 
   <action>
     <id>qsmallgiftthree</id>
-	<name esES="N/A">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14412,7 +14452,7 @@
 
   <action>
     <id>qrotate_smallgiftthree</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftthree</move>
@@ -14422,7 +14462,7 @@
 
   <action>
     <id>qrotate_smallgiftthree_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftthree_E</move>
@@ -14432,7 +14472,7 @@
 
   <action>
     <id>qopen_smallgiftthree</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftthree</move>
@@ -14444,7 +14484,7 @@
 
   <action>
     <id>qopen_smallgiftthree_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftthree_E</move>
@@ -14456,7 +14496,7 @@
 
   <action>
     <id>qsmallgiftfour</id>
-	<name esES="N/A">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -14467,7 +14507,7 @@
 
   <action>
     <id>qrotate_smallgiftfour</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftfour</move>
@@ -14477,7 +14517,7 @@
 
   <action>
     <id>qrotate_smallgiftfour_E</id>
-    <name esES="N/A">Rotate</name>
+    <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftfour_E</move>
@@ -14487,7 +14527,7 @@
 
   <action>
     <id>qopen_smallgiftfour</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftfour</move>
@@ -14498,7 +14538,7 @@
 
   <action>
     <id>qopen_smallgiftfour_E</id>
-    <name esES="N/A">Open</name>
+    <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <move useSource="true">smallgiftfour_E</move>
@@ -14510,7 +14550,7 @@
 
 	<action>
 		<id>qxmastree</id>
-		<name esES="N/A">Christmas Tree</name>
+		<name esES="Árbol de Navidad">Christmas Tree</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move>tree2</move>
@@ -14523,7 +14563,7 @@
 
 	<action>
 		<id>qdecoratexmastree</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmastree</move>
@@ -14533,7 +14573,7 @@
 
 	<action>
 		<id>qplacegifts</id>
-		<name esES="N/A">Place gifts under</name>
+		<name esES="Colocar regalos debajo">Place gifts under</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmastree_decorated</move>
@@ -14543,7 +14583,7 @@
 
 	<action>
 		<id>qopengifts</id>
-		<name esES="N/A">Open a gift from under</name>
+		<name esES="Abrir regalos">Open a gift from under</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmastree_decorated_gifts</move>
@@ -14565,7 +14605,7 @@
 
 	<action>
 		<id>qrotate_chimney</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chimney</move>
@@ -14575,7 +14615,7 @@
 
 	<action>
 		<id>qrotate_chimney_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chimney_E</move>
@@ -14606,7 +14646,7 @@
 
 	<action>
 		<id>decorate_chimney</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chimney</move>
@@ -14616,7 +14656,7 @@
 
 	<action>
 		<id>decorate_chimney_E</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">chimney_E</move>
@@ -14626,7 +14666,7 @@
 
 	<action>
 		<id>undecorate_xmaschimney</id>
-		<name esES="N/A">Remove Decorations</name>
+		<name esES="Quitar Decorado">Remove Decorations</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmaschimney</move>
@@ -14636,7 +14676,7 @@
 
 	<action>
 		<id>undecorate_xmaschimney_E</id>
-		<name esES="N/A">Remove Decorations</name>
+		<name esES="Quitar Decorado">Remove Decorations</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmaschimney_E</move>
@@ -14646,7 +14686,7 @@
 
 	<action>
 		<id>qrotate_xmaschimney</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmaschimney</move>
@@ -14656,7 +14696,7 @@
 
 	<action>
 		<id>qrotate_xmaschimney_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmaschimney_E</move>
@@ -14690,7 +14730,7 @@
 
 	<action>
 		<id>decorate_fireplace</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">animalfireplace</move>
@@ -14700,7 +14740,7 @@
 
 	<action>
 		<id>undecorate_fireplace</id>
-		<name esES="N/A">Remove Decorations</name>
+		<name esES="Quitar Decorado">Remove Decorations</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmasfireplace</move>
@@ -14710,7 +14750,7 @@
 
 	<action>
 		<id>qrotate_bakeroven</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bakeroven</move>
@@ -14720,7 +14760,7 @@
 
 	<action>
 		<id>qrotate_bakeroven_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bakeroven_E</move>
@@ -14747,7 +14787,7 @@
 
 	<action>
 		<id>decorate_bakeroven</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bakeroven</move>
@@ -14757,7 +14797,7 @@
 
 	<action>
 		<id>decorate_bakeroven_E</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bakeroven_E</move>
@@ -14767,7 +14807,7 @@
 
 	<action>
 		<id>undecorate_xmasbakeroven</id>
-		<name esES="N/A">Remove Decorations</name>
+		<name esES="Quitar Decorado">Remove Decorations</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmasbakeroven</move>
@@ -14777,7 +14817,7 @@
 
 	<action>
 		<id>undecorate_xmasbakeroven_E</id>
-		<name esES="N/A">Remove Decorations</name>
+		<name esES="Quitar Decorado">Remove Decorations</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmasbakeroven_E</move>
@@ -14787,7 +14827,7 @@
 
 	<action>
 		<id>qrotate_xmasbakeroven</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmasbakeroven</move>
@@ -14797,7 +14837,7 @@
 
 	<action>
 		<id>qrotate_xmasbakeroven_E</id>
-		<name esES="N/A">Rotate</name>
+		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmasbakeroven_E</move>
@@ -14818,7 +14858,7 @@
 
 	<action>
 		<id>decorate_logdoor</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">logdoor</move>
@@ -14828,7 +14868,7 @@
 
 	<action>
 		<id>undecorate_logdoor</id>
-		<name esES="N/A">Undecorate</name>
+		<name esES="Quitar decorado">Undecorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmaslogdoor</move>
@@ -14849,7 +14889,7 @@
 
 	<action>
 		<id>decorate_woodendoor</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodendoor</move>
@@ -14859,7 +14899,7 @@
 
 	<action>
 		<id>undecorate_woodendoor</id>
-		<name esES="N/A">Undecorate</name>
+		<name esES="Quitar decorado">Undecorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmaswoodendoor</move>
@@ -14886,7 +14926,7 @@
 
 	<action>
 		<id>decorate_blockdoor</id>
-		<name esES="N/A">Decorate</name>
+		<name esES="Decorar">Decorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">blockdoor</move>
@@ -14896,7 +14936,7 @@
 
 	<action>
 		<id>undecorate_blockdoor</id>
-		<name esES="N/A">Undecorate</name>
+		<name esES="Quitar decorado">Undecorate</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">xmasblockdoor</move>
@@ -14936,7 +14976,7 @@
 	<!-- TABLE DECORATIONS -->
 	<action>
 		<id>remove_decoration</id>
-		<name esES="Remove decoration from">Remove decoration from</name>
+		<name esES="N/A">Remove decoration from</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable_d1,stonetable_d2,stonetable_d3,stonetable_d4,stonetable_d5,stonetable_d6,stonetable_d7,stonetable_d8</move>
@@ -14947,7 +14987,7 @@
 
 	<action>
 		<id>add_stone_decoration1</id>
-		<name esES="Add Christmas decoration to">Add Christmas decoration to</name>
+		<name esES="N/A">Add Christmas decoration to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d2,stonetable_d3,stonetable_d4,stonetable_d5,stonetable_d6,stonetable_d7,stonetable_d8</move>
@@ -14958,7 +14998,7 @@
 
 	<action>
 		<id>add_stone_decoration2</id>
-		<name esES="Add yellow flowers to">Add yellow flowers to</name>
+		<name esES="N/A">Add yellow flowers to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d1,stonetable_d3,stonetable_d4,stonetable_d5,stonetable_d6,stonetable_d7,stonetable_d8</move>
@@ -14969,7 +15009,7 @@
 
 	<action>
 		<id>add_stone_decoration3</id>
-		<name esES="Add a potted plant to">Add a potted plant to</name>
+		<name esES="N/A">Add a potted plant to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d1,stonetable_d2,stonetable_d4,stonetable_d5,stonetable_d6,stonetable_d7,stonetable_d8</move>
@@ -14980,7 +15020,7 @@
 
 	<action>
 		<id>add_stone_decoration4</id>
-		<name esES="Add red flowers to">Add red flowers to</name>
+		<name esES="N/A">Add red flowers to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d1,stonetable_d2,stonetable_d3,stonetable_d5,stonetable_d6,stonetable_d7,stonetable_d8</move>
@@ -14991,7 +15031,7 @@
 
 	<action>
 		<id>add_stone_decoration5</id>
-		<name esES="Add a yellow flower to">Add a yellow flower to</name>
+		<name esES="N/A">Add a yellow flower to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d1,stonetable_d2,stonetable_d3,stonetable_d4,stonetable_d6,stonetable_d7,stonetable_d8</move>
@@ -15002,7 +15042,7 @@
 
 	<action>
 		<id>add_stone_decoration6</id>
-		<name esES="Add a blue flower to">Add a blue flower to</name>
+		<name esES="N/A">Add a blue flower to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d1,stonetable_d2,stonetable_d3,stonetable_d4,stonetable_d5,stonetable_d7,stonetable_d8</move>
@@ -15013,7 +15053,7 @@
 
 	<action>
 		<id>add_stone_decoration7</id>
-		<name esES="Add a purple flower to">Add a purple flower to</name>
+		<name esES="N/A">Add a purple flower to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d1,stonetable_d2,stonetable_d3,stonetable_d4,stonetable_d5,stonetable_d6,stonetable_d8</move>
@@ -15024,7 +15064,7 @@
 
 	<action>
 		<id>add_stone_decoration8</id>
-		<name esES="Add a candle to">Add a candle to</name>
+		<name esES="N/A">Add a candle to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonetable,stonetable_d1,stonetable_d2,stonetable_d3,stonetable_d4,stonetable_d5,stonetable_d6,stonetable_d7</move>
@@ -15035,7 +15075,7 @@
 
 	<action>
 		<id>remove_wood_decoration</id>
-		<name esES="Remove decoration from">Remove decoration from</name>
+		<name esES="N/A">Remove decoration from</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable_d1,woodentable_d2,woodentable_d3,woodentable_d4,woodentable_d5,woodentable_d6,woodentable_d7,woodentable_d8</move>
@@ -15046,7 +15086,7 @@
 
 	<action>
 		<id>add_wood_decoration1</id>
-		<name esES="Add Christmas decoration to">Add Christmas decoration to</name>
+		<name esES="N/A">Add Christmas decoration to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d2,woodentable_d3,woodentable_d4,woodentable_d5,woodentable_d6,woodentable_d7,woodentable_d8</move>
@@ -15057,7 +15097,7 @@
 
 	<action>
 		<id>add_wood_decoration2</id>
-		<name esES="Add yellow flowers to">Add yellow flowers to</name>
+		<name esES="N/A">Add yellow flowers to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d1,woodentable_d3,woodentable_d4,woodentable_d5,woodentable_d6,woodentable_d7,woodentable_d8</move>
@@ -15068,7 +15108,7 @@
 
 	<action>
 		<id>add_wood_decoration3</id>
-		<name esES="Add a potted plant to">Add a potted plant to</name>
+		<name esES="N/A">Add a potted plant to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d1,woodentable_d2,woodentable_d4,woodentable_d5,woodentable_d6,woodentable_d7,woodentable_d8</move>
@@ -15079,7 +15119,7 @@
 
 	<action>
 		<id>add_wood_decoration4</id>
-		<name esES="Add red flowers to">Add red flowers to</name>
+		<name esES="N/A">Add red flowers to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d1,woodentable_d2,woodentable_d3,woodentable_d5,woodentable_d6,woodentable_d7,woodentable_d8</move>
@@ -15090,7 +15130,7 @@
 
 	<action>
 		<id>add_wood_decoration5</id>
-		<name esES="Add a yellow flower to">Add a yellow flower to</name>
+		<name esES="N/A">Add a yellow flower to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d1,woodentable_d2,woodentable_d3,woodentable_d4,woodentable_d6,woodentable_d7,woodentable_d8</move>
@@ -15101,7 +15141,7 @@
 
 	<action>
 		<id>add_wood_decoration6</id>
-		<name esES="Add a blue flower to">Add a blue flower to</name>
+		<name esES="N/A">Add a blue flower to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d1,woodentable_d2,woodentable_d3,woodentable_d4,woodentable_d5,woodentable_d7,woodentable_d8</move>
@@ -15112,7 +15152,7 @@
 
 	<action>
 		<id>add_wood_decoration7</id>
-		<name esES="Add a purple flower to">Add a purple flower to</name>
+		<name esES="N/A">Add a purple flower to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d1,woodentable_d2,woodentable_d3,woodentable_d4,woodentable_d5,woodentable_d6,woodentable_d8</move>
@@ -15123,7 +15163,7 @@
 
 	<action>
 		<id>add_wood_decoration8</id>
-		<name esES="Add a candle to">Add a candle to</name>
+		<name esES="N/A">Add a candle to</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodentable,woodentable_d1,woodentable_d2,woodentable_d3,woodentable_d4,woodentable_d5,woodentable_d6,woodentable_d7</move>
@@ -15136,7 +15176,7 @@
 	<!-- CHARCOAL -LM -->
 	<action>
 		<id>qcharcoal</id>
-		<name esES="N/A">Create 1 Coal from 2 Wood using</name>
+		<name esES="Crear 1 carbón desde 2 Maderas usando">Create 1 Coal from 2 Wood using</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>rmcoal</generatedItem>
@@ -15159,7 +15199,7 @@
 	<!-- CLEAR RUBBLE -LM -->
 	<action>
 		<id>qclearrubble</id>
-		<name esES="N/A">Clear</name>
+		<name esES="Limpiar">Clear</name>
 
 		<priorityID>itemconstruction</priorityID>
 
@@ -15375,7 +15415,7 @@
 	<!-- BUILD NEW FARMS -->
 	<action>
 		<id>qnewcowfarm</id>
-		<name esES="N/A">Cow Barn</name>
+		<name esES="Granja de Vacas">Cow Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>cow,wildcow</pickFriendly>
@@ -15395,7 +15435,7 @@
 
 	<action>
 		<id>qnewbullfarm</id>
-		<name esES="N/A">Bull Barn</name>
+		<name esES="Granja de Toros">Bull Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>cow,wildcow</pickFriendly>
@@ -15415,7 +15455,7 @@
 
 	<action>
 		<id>qnewpigfarm</id>
-		<name esES="N/A">Pig Barn</name>
+		<name esES="Granja de Cerdos">Pig Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>pig,wildpig</pickFriendly>
@@ -15435,7 +15475,7 @@
 
 	<action>
 		<id>qnewboarfarm</id>
-		<name esES="N/A">Boar Barn</name>
+		<name esES="Granja de Jabalíes">Boar Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>pig,wildpig</pickFriendly>
@@ -15455,7 +15495,7 @@
 
 	<action>
 		<id>qnewchickenfarm</id>
-		<name esES="N/A">Chicken Barn</name>
+		<name esES="Granja de Gallinas">Chicken Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>chicken,wildchicken</pickFriendly>
@@ -15475,7 +15515,7 @@
 
 	<action>
 		<id>qnewroosterfarm</id>
-		<name esES="N/A">Rooster Barn</name>
+		<name esES="Granja de Gallos">Rooster Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>chicken,wildchicken</pickFriendly>
@@ -15495,7 +15535,7 @@
 
 	<action>
 		<id>qnewskootenbeetenfarm</id>
-		<name esES="N/A">Skootenbeeten Barn</name>
+		<name esES="Granja de Skootenbeetens">Skootenbeeten Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
@@ -15515,7 +15555,7 @@
 
 	<action>
 		<id>qnewunifallowfarm</id>
-		<name esES="N/A">Unifallow Barn</name>
+		<name esES="Granja de Unifallow">Unifallow Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>unifallow,wildunifallow</pickFriendly>
@@ -15535,7 +15575,7 @@
 
 	<action>
 		<id>qnewbadgerfarm</id>
-		<name esES="N/A">Badger Barn</name>
+		<name esES="Granja de Tejon">Badger Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>badger,wildbadger</pickFriendly>
@@ -15555,7 +15595,7 @@
 
 	<action>
 		<id>qnewsnoatfarm</id>
-		<name esES="N/A">Snoat Barn</name>
+		<name esES="Granja de Snoats">Snoat Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>snoat</pickFriendly>
@@ -15576,7 +15616,7 @@
 	<!-- BREED NEW FARMS -->
 	<action>
 		<id>qbreedcow</id>
-		<name esES="N/A">Breed Cow</name>
+		<name esES="Críar Vaca">Breed Cow</name>
 		<generatedItem>cow</generatedItem>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -15596,7 +15636,7 @@
 
 	<action>
 		<id>qbreedbull</id>
-		<name esES="N/A">Breed Bull</name>
+		<name esES="Críar Toro">Breed Bull</name>
 		<generatedItem>bull</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15616,7 +15656,7 @@
 
 	<action>
 		<id>qbreedpig</id>
-		<name esES="N/A">Breed Pig</name>
+		<name esES="Críar Cerdo">Breed Pig</name>
 		<generatedItem>pig</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15636,7 +15676,7 @@
 
 	<action>
 		<id>qbreedboar</id>
-		<name esES="N/A">Breed Boar</name>
+		<name esES="Críar Jabalí">Breed Boar</name>
 		<generatedItem>boar</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15656,7 +15696,7 @@
 
 	<action>
 		<id>qbreedchicken</id>
-		<name esES="N/A">Breed Chicken</name>
+		<name esES="Críar Gallina">Breed Chicken</name>
 		<generatedItem>chicken</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15676,7 +15716,7 @@
 
 	<action>
 		<id>qbreedrooster</id>
-		<name esES="N/A">Breed Rooster</name>
+		<name esES="Críar Gallo">Breed Rooster</name>
 		<generatedItem>rooster</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15696,7 +15736,7 @@
 
 	<action>
 		<id>qbreedskootenbeeten</id>
-		<name esES="N/A">Breed Skootenbeeten</name>
+		<name esES="Críar Skootenbeeten">Breed Skootenbeeten</name>
 		<generatedItem>skootenbeeten</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15716,7 +15756,7 @@
 
 	<action>
 		<id>qbreedunifallow</id>
-		<name esES="N/A">Breed Unifallow</name>
+		<name esES="Críar Unifallow">Breed Unifallow</name>
 		<generatedItem>unifallow</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15736,7 +15776,7 @@
 
 	<action>
 		<id>qbreedbadger</id>
-		<name esES="N/A">Breed Badger</name>
+		<name esES="Críar Tejon">Breed Badger</name>
 		<generatedItem>badger</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -15756,7 +15796,7 @@
 
 	<action>
 		<id>qbreedsnoat</id>
-		<name esES="N/A">Breed Snoat</name>
+		<name esES="Críar Snoat">Breed Snoat</name>
 		<generatedItem>snoat</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -18056,7 +18096,7 @@
 	<!-- NEW FLOWERS -->
 	<action>
 		<id>qgatherorangeflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredorangeflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18083,7 +18123,7 @@
 
 	<action>
 		<id>qgatherplantedorangeflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredorangeflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18097,7 +18137,7 @@
 	
 	<action>
 		<id>qgatherpurpleflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredpurpleflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18124,7 +18164,7 @@
 
 	<action>
 		<id>qgatherplantedpurpleflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredpurpleflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18138,7 +18178,7 @@
 	
 	<action>
 		<id>qgathergreenflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredgreenflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18165,7 +18205,7 @@
 
 	<action>
 		<id>qgatherplantedgreenflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredgreenflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18179,7 +18219,7 @@
 	
 	<action>
 		<id>qgatherpinkflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredpinkflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18206,7 +18246,7 @@
 
 	<action>
 		<id>qgatherplantedpinkflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredpinkflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18220,7 +18260,7 @@
 	
 	<action>
 		<id>qgatherwhiteflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredwhiteflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18247,7 +18287,7 @@
 
 	<action>
 		<id>qgatherplantedwhiteflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredwhiteflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18261,7 +18301,7 @@
 	
 	<action>
 		<id>qgatherblackflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredblackflower</generatedItem>
 		<priorityID>harvesting</priorityID>
@@ -18288,7 +18328,7 @@
 
 	<action>
 		<id>qgatherplantedblackflower</id>
-		<name esES="N/A">Gather</name>
+		<name esES="Recolectar">Gather</name>
 
 		<generatedItem>gatheredblackflower</generatedItem>
 		<priorityID>harvesting</priorityID>

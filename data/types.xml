@@ -12,14 +12,14 @@
 	<decorative esES="Decorativo">Decorations</decorative>
 	
 	<!-- CONSTRUCTION STOCKPILES -LM -->
-	<construction esES="N/A">Construction</construction>
-	<construction.walls esES="N/A" icon="ui_rwalls">Thin Walls</construction.walls>
-	<construction.blockwalls esES="N/A" icon="ui_sb_walls">Block Walls</construction.blockwalls>
-	<construction.stairs esES="N/A" icon="ui_woodstairs">Stairs</construction.stairs>
-	<construction.doors esES="N/A" icon="ui_rdoors">Doors</construction.doors>
-	<construction.roofs esES="N/A" icon="ui_roofs">Roofs</construction.roofs>
-	<construction.windows esES="N/A" icon="ui_rwindows">Windows</construction.windows>
-	<construction.water esES="N/A" icon="waterbucket">Water Control</construction.water>
+	<construction esES="Construcción">Construction</construction>
+	<construction.walls esES="Paredes finas" icon="ui_rwalls">Thin Walls</construction.walls>
+	<construction.blockwalls esES="Bloques de muros" icon="ui_sb_walls">Block Walls</construction.blockwalls>
+	<construction.stairs esES="Escaleras" icon="ui_woodstairs">Stairs</construction.stairs>
+	<construction.doors esES="Puertas" icon="ui_rdoors">Doors</construction.doors>
+	<construction.roofs esES="Techos" icon="ui_roofs">Roofs</construction.roofs>
+	<construction.windows esES="Ventanas" icon="ui_rwindows">Windows</construction.windows>
+	<construction.water esES="Control de fluidos" icon="waterbucket">Water Control</construction.water>
 
 	<rawmaterials.materials esES="Materiales" icon="ui_rmaterials">Materials</rawmaterials.materials>
 	<rawmaterials.colors esES="Colores" icon="ui_rcolors">Colors</rawmaterials.colors>
@@ -72,9 +72,9 @@
 	
 	<!-- CB262 ROTATED ITEMS -->
 	<cb262.furniture esES="Muebles">CB262 Furniture</cb262.furniture>
-	<cb262.stairs esES="N/A">CB262 Stairs</cb262.stairs>
+	<cb262.stairs esES="Escaleras">CB262 Stairs</cb262.stairs>
 	<cb262.decorative.outdoor esES="Decorativo">CB262 Decorations</cb262.decorative.outdoor>
 	
 	<!-- WINTER ITEMS -->
-	<decorative.winter esES="Winter Item" icon="winter_ui">Winter Item</decorative.winter>
+	<decorative.winter esES="Objetos invernales" icon="winter_ui">Winter Items</decorative.winter>
 </types>

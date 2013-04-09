@@ -2,7 +2,7 @@
 
 <menu>
 
-	<construction name="Construction" esES="N/A" icon="scaffold">
+	<construction name="Construction" esES="Construcción" icon="scaffold">
 			<item code="QUEUE" parameter="qscaffold" />
 
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
@@ -19,7 +19,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</doors>
 
-			<raisedfloors name="Raised Floors" icon="fishingdock">
+			<raisedfloors name="Raised Floors" esES="Pisos flotantes" icon="fishingdock">
 				<item code="QUEUE" parameter="qfishingdock" />
 				<item code="QUEUE" parameter="qwoodenfloor" />
 				<item code="QUEUE" parameter="qstonefloor" />
@@ -44,7 +44,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</roof>
 
-		<cb262_stairs name="Stairs" esES="N/A" icon="ui_stonestairs">
+		<cb262_stairs name="Stairs" esES="Escaleras" icon="ui_stonestairs">
 			<item code="QUEUE" parameter="qdirtstairs2a" />
 			<item code="QUEUE" parameter="qdirtstairs1a" />
 			<item code="QUEUE" parameter="qbonestairs_1_N" />			
@@ -60,7 +60,7 @@
 			<item code="QUEUE" parameter="qsandstairs1a" />
 			<item code="QUEUE" parameter="qsandstairs2a" />
 			<item code="QUEUE" parameter="qsandstairs3a" />
-    		<cb262_stairs2 name="Coloured Stairs" esES="N/A" icon="ui_colouredstairs">
+    		<cb262_stairs2 name="Coloured Stairs" esES="Escaleras de Colores" icon="ui_colouredstairs">
     			<item code="QUEUE" parameter="qredstonestairs1" />
     			<item code="QUEUE" parameter="qbluestonestairs1" />
     			<item code="QUEUE" parameter="qyellowstonestairs1" />
@@ -213,7 +213,7 @@
 
 		<outdoor name="Outdoor" esES="Exterior" icon="ui_outdoor">
 
-		<banners name="Banners" eeES="N/A" icon="ui_banner">
+		<banners name="Banners" eeES="Estandartes" icon="ui_banner">
 			<item code="QUEUE" parameter="qredlongflag" />
 			<item code="QUEUE" parameter="qbluebanner" />
 			<item code="QUEUE" parameter="qgreenbanner" />
@@ -222,7 +222,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</banners>			
 
-		<flags name="Flags" eeES="N/A" icon="ui_flag">
+		<flags name="Flags" eeES="Banderas" icon="ui_flag">
 			<item code="QUEUE" parameter="qredshortflag" />
 			<item code="QUEUE" parameter="qblueshortflag" />
 			<item code="QUEUE" parameter="qgreenshortflag" />
@@ -231,7 +231,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</flags>
 
-		<garden name="Gardens" eeES="N/A" icon="gardenbush3">
+		<garden name="Gardens" eeES="Jardines" icon="gardenbush3">
 			<item code="QUEUE" parameter="qbonsai" />
 			<item code="QUEUE" parameter="qbonsaired" />
 			<item code="QUEUE" parameter="qgardenred" />
@@ -250,7 +250,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</garden>
 
-		<graves name="Graves" eeES="N/A" icon="lizardtomb">
+		<graves name="Graves" eeES="Tumbas" icon="lizardtomb">
 			<item code="QUEUE" parameter="qgrave" />
 			<item code="QUEUE" parameter="qgrave2_W" />
 			<item code="QUEUE" parameter="qgrave3_W" />
@@ -263,7 +263,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</graves>
 
-		<poles name="Poles" eeES="N/A" icon="goblinpole">
+		<poles name="Poles" eeES="Cabezas" icon="goblinpole">
 			<item code="QUEUE" parameter="qgoblinpole" />
 			<item code="QUEUE" parameter="qhobgoblinpole" />
 			<item code="QUEUE" parameter="qghoulpole" />
@@ -272,7 +272,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</poles>
 
-		<signs name="Signs" eeES="N/A" icon="ui_sign">
+		<signs name="Signs" eeES="Letreros" icon="ui_sign">
 			<item code="QUEUE" parameter="qdoorsignswords_E1" />			
 			<item code="QUEUE" parameter="qsign_1_E" icon="sign_1_W" />
 			<item code="QUEUE" parameter="qsign_2_E" icon="sign_2_W" />
@@ -292,7 +292,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</signs>
 
-		<statues name="Statues" eeES="N/A" icon="stonemalestatue">
+		<statues name="Statues" eeES="Estatuas" icon="stonemalestatue">
 			<item code="QUEUE" parameter="qstonemalestatue" />
 			<item code="QUEUE" parameter="qnecromancerstatue" />
 			<item code="QUEUE" parameter="qgargoylestatue" />
@@ -305,7 +305,7 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</outdoor>
 
-		<lighting name="Lighting" icon="yellowhangedlamp" >
+		<lighting name="Lighting" esES="Iluminación" icon="yellowhangedlamp" >
 			<item code="QUEUE" parameter="qcandle" />
 			<item code="QUEUE" parameter="qbonecandle" />
 			<item code="QUEUE" parameter="qhangedlamp" />
@@ -315,7 +315,7 @@
 			<item code="QUEUE" parameter="qredhangedlamp" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</lighting>
-		<winter name="Winter Items" esES="Winter Items" icon="winter_ui">
+		<winter name="Winter Items" esES="Items de invierno" icon="winter_ui">
 			<item code="QUEUE" parameter="qsnowbrokenroof" />
 			<item code="QUEUE" parameter="qsnowwoodendarkroofitem" />
 			<item code="QUEUE" parameter="qxmaslogdoor" />
@@ -348,7 +348,7 @@
 	</decorative>
 
 	<food name="Food" esES="Comida" icon="ui_rfood">
-			<animals name="Animals" esES="N/A" icon="ui_cowfarm">
+			<animals name="Animals" esES="Animales" icon="ui_cowfarm">
 			<item code="QUEUE" parameter="qbreedcow" />
 			<item code="QUEUE" parameter="qbreedbull" />
 			<item code="QUEUE" parameter="qbreedpig" />
@@ -361,9 +361,9 @@
 			<item code="QUEUE" parameter="qbreedsnoat" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</animals>
-			<raw name="Raw Foods" esES="N/A" icon="ui_appleseed">
+			<raw name="Raw Foods" esES="Comidas Crudas" icon="ui_appleseed">
 
-			<harvesting name="Harvesting" esES="N/A" icon="ui_rfoodgathering">
+			<harvesting name="Harvesting" esES="Cosechas" icon="ui_rfoodgathering">
 				<item code="QUEUE" parameter="qharvestwheat" />
 				<item code="QUEUE" parameter="qharvestsugarcane" />
 				<item code="QUEUE" parameter="qharvestpapple" />
@@ -378,7 +378,7 @@
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</harvesting>
 
-			<animalsgathering name="Gathering" esES="Gathering" icon="ui_chickenfarm">
+			<animalsgathering name="Gathering" esES="Recolección" icon="ui_chickenfarm">
 				<item code="QUEUE" parameter="qmilkcow" />
 				<item code="QUEUE" parameter="qmilkwildcow" />
 				<item code="QUEUE" parameter="qmilkdoe" />
@@ -395,7 +395,7 @@
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</animalsgathering>
 
-			<processing name="Processing" esES="N/A" icon="flour">
+			<processing name="Processing" esES="Procesados" icon="flour">
 			<item code="QUEUE" parameter="qflour" icon="flour" />
 			<item code="QUEUE" parameter="qsugar" icon="sugar" />
 			<item code="QUEUE" parameter="qjunglesalad" />
@@ -475,7 +475,7 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</beds>
 		
-	<chairs name="Chairs" icon="woodenchair">
+	<chairs name="Chairs" esES="Sillas" icon="woodenchair">
 		<item code="QUEUE" parameter="qwoodenchair" />
 		<item code="QUEUE" parameter="qstonechair" />
 		<item code="QUEUE" parameter="qpurplethrone" />
@@ -491,7 +491,7 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</chairs>
 
-	<cupboards name="Cupboards" icon="smallwoodendrawer_flower_E">
+	<cupboards name="Cupboards" esES="Alacenas" icon="smallwoodendrawer_flower_E">
 		<item code="QUEUE" parameter="qwoodencupboard" />
 		<item code="QUEUE" parameter="qtallwoodencupboard_E" />
 		<item code="QUEUE" parameter="qwoodencupboard_E" />
@@ -501,7 +501,7 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</cupboards>
 
-	<tables name="Tables" icon="woodentable">
+	<tables name="Tables" esES="Mesas" icon="woodentable">
 		<item code="QUEUE" parameter="qwoodentable" />
 		<item code="QUEUE" parameter="qstonetable" />
 		<item code="QUEUE" parameter="qsquarestable" />

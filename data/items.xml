@@ -2934,7 +2934,7 @@
 
 
 	<woodstairs1a>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -2953,7 +2953,7 @@
 	</woodstairs1a>
 
 	<woodstairs1b>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -2972,7 +2972,7 @@
 	</woodstairs1b>
 
 	<woodstairs1c>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -2991,7 +2991,7 @@
 	</woodstairs1c>
 
 	<woodstairs1d>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3010,7 +3010,7 @@
 	</woodstairs1d>
 
 	<woodstairs2a>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3029,7 +3029,7 @@
 	</woodstairs2a>
 
 	<woodstairs2b>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3048,7 +3048,7 @@
 	</woodstairs2b>
 
    <woodstairs2c>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3067,7 +3067,7 @@
 	</woodstairs2c>
 
 	<woodstairs2d>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3086,7 +3086,7 @@
 	</woodstairs2d>
 
     <woodstairs3a>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3105,7 +3105,7 @@
 	</woodstairs3a>
 
 	<woodstairs3b>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3124,7 +3124,7 @@
 	</woodstairs3b>
 
 	<woodstairs3c>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3143,7 +3143,7 @@
 	</woodstairs3c>
 
 	<woodstairs3d>
-		<name esES="N/A">Wooden Stairs</name>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3162,7 +3162,7 @@
 	</woodstairs3d>
 
     <dirtstairs1a>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3181,7 +3181,7 @@
 	</dirtstairs1a>
 
 	<dirtstairs1b>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3200,7 +3200,7 @@
 	</dirtstairs1b>
 
 	<dirtstairs1c>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3219,7 +3219,7 @@
 	</dirtstairs1c>
 
 	<dirtstairs1d>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3238,7 +3238,7 @@
 	</dirtstairs1d>
 
     <dirtstairs2a>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3257,7 +3257,7 @@
 	</dirtstairs2a>
 
 	<dirtstairs2b>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3276,7 +3276,7 @@
 	</dirtstairs2b>
 
 	<dirtstairs2c>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3295,7 +3295,7 @@
 	</dirtstairs2c>
 
 	<dirtstairs2d>
-		<name esES="N/A">Dirt Stairs</name>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3314,7 +3314,7 @@
 	</dirtstairs2d>
 
 	<stonestairs1a>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3333,7 +3333,7 @@
 	</stonestairs1a>
 
 	<stonestairs1b>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3352,7 +3352,7 @@
 	</stonestairs1b>
 
 	<stonestairs1c>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3371,7 +3371,7 @@
 	</stonestairs1c>
 
    <stonestairs1d>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3390,7 +3390,7 @@
 	</stonestairs1d>
 
 	<stonestairs2a>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3410,7 +3410,7 @@
 	</stonestairs2a>
 
 	<stonestairs2b>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3429,7 +3429,7 @@
 	</stonestairs2b>
 
 	<stonestairs2c>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3448,7 +3448,7 @@
 	</stonestairs2c>
 
 	<stonestairs2d>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3467,7 +3467,7 @@
 	</stonestairs2d>
 
     <stonestairs3a>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3486,7 +3486,7 @@
 	</stonestairs3a>
 
 	<stonestairs3b>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3505,7 +3505,7 @@
 	</stonestairs3b>
 
 	<stonestairs3c>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3524,7 +3524,7 @@
 	</stonestairs3c>
 
 	<stonestairs3d>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3543,7 +3543,7 @@
 	</stonestairs3d>
 
     <stonestairs4a>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3562,7 +3562,7 @@
 	</stonestairs4a>
 
 	<stonestairs4b>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3581,7 +3581,7 @@
 	</stonestairs4b>
 
 	<stonestairs4c>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3600,7 +3600,7 @@
 	</stonestairs4c>
 
 	<stonestairs4d>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3619,7 +3619,7 @@
 	</stonestairs4d>
 
 		<stonestairs5a>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3638,7 +3638,7 @@
 	</stonestairs5a>
 
 	<stonestairs5b>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3657,7 +3657,7 @@
 	</stonestairs5b>
 
 	<stonestairs5c>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3676,7 +3676,7 @@
 	</stonestairs5c>
 
 	<stonestairs5d>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3695,7 +3695,7 @@
 	</stonestairs5d>
 
 	<bonestairs_1_W>
-		<name esES="N/A">Bone Stairs</name>
+		<name esES="Escaleras de Hueso">Bone Stairs</name>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3711,7 +3711,7 @@
 	</bonestairs_1_W>
 
 	<bonestairs_1_N>
-		<name esES="N/A">Bone Stairs</name>
+		<name esES="Escaleras de Hueso">Bone Stairs</name>
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
@@ -3728,7 +3728,7 @@
 	</bonestairs_1_N>
 
 	<bonestairs_1_E>
-		<name esES="N/A">Bone Stairs</name>
+		<name esES="Escaleras de Hueso">Bone Stairs</name>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3744,7 +3744,7 @@
 	</bonestairs_1_E>
 
 	<bonestairs_1_S>
-		<name esES="N/A">Bone Stairs</name>
+		<name esES="Escaleras de Hueso">Bone Stairs</name>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3760,7 +3760,7 @@
 	</bonestairs_1_S>
 
 	<sandstairs1a>
-		<name esES="N/A">Sandstone Ramp</name>
+		<name esES="Rampa de Arena">Sandstone Ramp</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3779,7 +3779,7 @@
 	</sandstairs1a>
 
 	<sandstairs1b>
-		<name esES="N/A">Sandstone Ramp</name>
+		<name esES="Rampa de Arena">Sandstone Ramp</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3798,7 +3798,7 @@
 	</sandstairs1b>
 
 	<sandstairs1c>
-		<name esES="N/A">Sandstone Ramp</name>
+		<name esES="Rampa de Arena">Sandstone Ramp</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3817,7 +3817,7 @@
 	</sandstairs1c>
 
 	<sandstairs1d>
-		<name esES="N/A">Sandstone Ramp</name>
+		<name esES="Rampa de Arena">Sandstone Ramp</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3836,7 +3836,7 @@
 	</sandstairs1d>
 
 	<sandstairs2a>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3855,7 +3855,7 @@
 	</sandstairs2a>
 
 	<sandstairs2b>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3874,7 +3874,7 @@
 	</sandstairs2b>
 
 	<sandstairs2c>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3893,7 +3893,7 @@
 	</sandstairs2c>
 
 	<sandstairs2d>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3912,7 +3912,7 @@
 	</sandstairs2d>
 
 	<sandstairs3a>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3931,7 +3931,7 @@
 	</sandstairs3a>
 
 	<sandstairs3b>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3950,7 +3950,7 @@
 	</sandstairs3b>
 
 	<sandstairs3c>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3969,7 +3969,7 @@
 	</sandstairs3c>
 
 	<sandstairs3d>
-		<name esES="N/A">Sandstone Stairs</name>
+		<name esES="Escaleras de Arenisca">Sandstone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3988,7 +3988,7 @@
 	</sandstairs3d>
 
 	<redstonestairs1>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4007,7 +4007,7 @@
 	</redstonestairs1>
 
     <redstonestairs2>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4026,7 +4026,7 @@
 	</redstonestairs2>
 
 	<redstonestairs3>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4045,7 +4045,7 @@
 	</redstonestairs3>
 
 	<redstonestairs4>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4064,7 +4064,7 @@
 	</redstonestairs4>
 
     <bluestonestairs1>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4083,7 +4083,7 @@
 	</bluestonestairs1>
 
 	<bluestonestairs2>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4102,7 +4102,7 @@
 	</bluestonestairs2>
 
 	<bluestonestairs3>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4121,7 +4121,7 @@
 	</bluestonestairs3>
 
 	<bluestonestairs4>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4140,7 +4140,7 @@
 	</bluestonestairs4>
 	
 	<yellowstonestairs1>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4159,7 +4159,7 @@
 	</yellowstonestairs1>
 
     <yellowstonestairs2>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4178,7 +4178,7 @@
 	</yellowstonestairs2>
 
 	<yellowstonestairs3>
-		<name esES="N/A">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4197,7 +4197,7 @@
 	</yellowstonestairs3>
 
     <yellowstonestairs4>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4216,7 +4216,7 @@
     </yellowstonestairs4>
 
 	<greenstonestairs1>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4235,7 +4235,7 @@
     </greenstonestairs1>
 
 	<greenstonestairs2>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4254,7 +4254,7 @@
     </greenstonestairs2>
 
     <greenstonestairs3>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4273,7 +4273,7 @@
     </greenstonestairs3>
 
     <greenstonestairs4>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4292,7 +4292,7 @@
     </greenstonestairs4>
 
     <orangestonestairs1>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4311,7 +4311,7 @@
     </orangestonestairs1>
 
 	<orangestonestairs2>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4330,7 +4330,7 @@
     </orangestonestairs2>
 
 	<orangestonestairs3>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4349,7 +4349,7 @@
     </orangestonestairs3>
 
     <orangestonestairs4>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4368,7 +4368,7 @@
     </orangestonestairs4>
 
     <purplestonestairs1>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4387,7 +4387,7 @@
     </purplestonestairs1>
 
 	<purplestonestairs2>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4406,7 +4406,7 @@
     </purplestonestairs2>
 
     <purplestonestairs3>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4425,7 +4425,7 @@
     </purplestonestairs3>
 
     <purplestonestairs4>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4444,7 +4444,7 @@
     </purplestonestairs4>
 
     <redstonestairs2a>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4463,7 +4463,7 @@
     </redstonestairs2a>
 
 	<redstonestairs2b>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4482,7 +4482,7 @@
     </redstonestairs2b>
 
     <redstonestairs2c>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4501,7 +4501,7 @@
     </redstonestairs2c>
 
     <redstonestairs2d>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4520,7 +4520,7 @@
     </redstonestairs2d>
 
 	<bluestonestairs2a>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4539,7 +4539,7 @@
     </bluestonestairs2a>
 
 	<bluestonestairs2b>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4558,7 +4558,7 @@
     </bluestonestairs2b>
 
     <bluestonestairs2c>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4577,7 +4577,7 @@
     </bluestonestairs2c>
 
     <bluestonestairs2d>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4596,7 +4596,7 @@
     </bluestonestairs2d>
 
     <yellowstonestairs2a>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4615,7 +4615,7 @@
     </yellowstonestairs2a>
 
 	<yellowstonestairs2b>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4634,7 +4634,7 @@
     </yellowstonestairs2b>
 
     <yellowstonestairs2c>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4653,7 +4653,7 @@
     </yellowstonestairs2c>
 
     <yellowstonestairs2d>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4672,7 +4672,7 @@
     </yellowstonestairs2d>
 
 	<greenstonestairs2a>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4691,7 +4691,7 @@
     </greenstonestairs2a>
 
 	<greenstonestairs2b>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4710,7 +4710,7 @@
     </greenstonestairs2b>
 
     <greenstonestairs2c>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4729,7 +4729,7 @@
     </greenstonestairs2c>
 
     <greenstonestairs2d>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4748,7 +4748,7 @@
     </greenstonestairs2d>
 
     <orangestonestairs2a>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4767,7 +4767,7 @@
     </orangestonestairs2a>
 
 	<orangestonestairs2b>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4786,7 +4786,7 @@
     </orangestonestairs2b>
 
     <orangestonestairs2c>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4805,7 +4805,7 @@
     </orangestonestairs2c>
 
     <orangestonestairs2d>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4824,7 +4824,7 @@
     </orangestonestairs2d>
 
     <purplestonestairs2a>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>construction.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4843,7 +4843,7 @@
     </purplestonestairs2a>
 
 	<purplestonestairs2b>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4862,7 +4862,7 @@
     </purplestonestairs2b>
 
     <purplestonestairs2c>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4881,7 +4881,7 @@
     </purplestonestairs2c>
 
     <purplestonestairs2d>
-        <name esES="N/A">Stone Stairs</name>
+        <name esES="Escaleras de Piedra">Stone Stairs</name>
 
         <type>cb262.stairs</type>
         <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -6404,8 +6404,8 @@
 	</woodenchair>
 
 	<redchair_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6421,8 +6421,8 @@
 	</redchair_N>
 
 	<redchair_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6438,8 +6438,8 @@
 	</redchair_E>
 
 	<redchair_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6455,8 +6455,8 @@
 	</redchair_S>
 
 	<redchair_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6472,8 +6472,8 @@
 	</redchair_W>
 
 	<redchair_2_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6489,8 +6489,8 @@
 	</redchair_2_N>
 
 	<redchair_2_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6506,8 +6506,8 @@
 	</redchair_2_E>
 
 	<redchair_2_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6523,8 +6523,8 @@
 	</redchair_2_S>
 
 	<redchair_2_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6540,8 +6540,8 @@
 	</redchair_2_W>
 
 	<bluechair_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6557,8 +6557,8 @@
 	</bluechair_N>
 
 	<bluechair_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6574,8 +6574,8 @@
 	</bluechair_E>
 
 	<bluechair_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6591,8 +6591,8 @@
 	</bluechair_S>
 
 	<bluechair_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6608,8 +6608,8 @@
 	</bluechair_W>
 
 	<greenchair_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6625,8 +6625,8 @@
 	</greenchair_N>
 
 	<greenchair_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6642,8 +6642,8 @@
 	</greenchair_E>
 
 	<greenchair_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6659,8 +6659,8 @@
 	</greenchair_S>
 
 	<greenchair_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6676,8 +6676,8 @@
 	</greenchair_W>
 
 	<woodchair_1_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6693,8 +6693,8 @@
 	</woodchair_1_N>
 
 	<woodchair_1_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6710,8 +6710,8 @@
 	</woodchair_1_E>
 
 	<woodchair_1_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6727,8 +6727,8 @@
 	</woodchair_1_S>
 
 	<woodchair_1_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6744,8 +6744,8 @@
 	</woodchair_1_W>
 
 	<woodchair_2_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6761,8 +6761,8 @@
 	</woodchair_2_N>
 
 	<woodchair_2_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6778,8 +6778,8 @@
 	</woodchair_2_E>
 
 	<woodchair_2_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6795,8 +6795,8 @@
 	</woodchair_2_S>
 
 	<woodchair_2_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6812,8 +6812,8 @@
 	</woodchair_2_W>
 
 	<woodchair_3_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6829,8 +6829,8 @@
 	</woodchair_3_N>
 
 	<woodchair_3_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6846,8 +6846,8 @@
 	</woodchair_3_E>
 
 	<woodchair_3_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6863,8 +6863,8 @@
 	</woodchair_3_S>
 
 	<woodchair_3_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6880,8 +6880,8 @@
 	</woodchair_3_W>
 
 	<whitechair_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6897,8 +6897,8 @@
 	</whitechair_N>
 
 	<whitechair_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6914,8 +6914,8 @@
 	</whitechair_E>
 
 	<whitechair_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6931,8 +6931,8 @@
 	</whitechair_S>
 
 	<whitechair_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6948,8 +6948,8 @@
 	</whitechair_W>
 
 	<purplechair_N>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6965,8 +6965,8 @@
 	</purplechair_N>
 
 	<purplechair_E>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6982,8 +6982,8 @@
 	</purplechair_E>
 
 	<purplechair_S>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -6999,8 +6999,8 @@
 	</purplechair_S>
 
 	<purplechair_W>
-		<name esES="N/A">Chair</name>
-		<description esES="N/A">Its a chair, you sit on it stupid!</description>
+		<name esES="Silla de Madera">Chair</name>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -9263,7 +9263,7 @@
 	</clock_E>
 
 	<redlongflag>
-		<name esES="N/A">Red Banner</name>
+		<name esES="Estandarte Rojo">Red Banner</name>
 
 		<happiness>1</happiness>
 
@@ -9280,7 +9280,7 @@
 	</redlongflag>
 
 	<bluebanner>
-		<name esES="N/A">Blue Banner</name>
+		<name esES="Estandarte Azul">Blue Banner</name>
 
 		<happiness>1</happiness>
 
@@ -9297,7 +9297,7 @@
 	</bluebanner>
 
 	<greenbanner>
-		<name esES="N/A">Green Banner</name>
+		<name esES="Estandarte Verde">Green Banner</name>
 
 		<happiness>1</happiness>
 
@@ -9314,7 +9314,7 @@
 	</greenbanner>
 
 	<purplebanner>
-		<name esES="N/A">Purple Banner</name>
+		<name esES="Estandarte Purpura">Purple Banner</name>
 
 		<happiness>1</happiness>
 
@@ -9331,7 +9331,7 @@
 	</purplebanner>
 
 	<blackbanner>
-		<name esES="N/A">Black Banner</name>
+		<name esES="Estandarte Negro">Black Banner</name>
 
 		<happiness>1</happiness>
 
@@ -9361,7 +9361,7 @@
 	</redshortflag>
 
 	<blueshortflag>
-		<name esES="N/A">Blue Flag</name>
+		<name esES="Bandera Azul">Blue Flag</name>
 
 		<happiness>1</happiness>
 
@@ -9374,7 +9374,7 @@
 	</blueshortflag>
 
 	<greenshortflag>
-		<name esES="N/A">Green Flag</name>
+		<name esES="Bandera Verde">Green Flag</name>
 
 		<happiness>1</happiness>
 
@@ -9387,7 +9387,7 @@
 	</greenshortflag>
 
 	<purpleshortflag>
-		<name esES="N/A">Purple Flag</name>
+		<name esES="Bandera Purpura">Purple Flag</name>
 
 		<happiness>1</happiness>
 
@@ -9400,7 +9400,7 @@
 	</purpleshortflag>
 
 	<blackshortflag>
-		<name esES="N/A">Black Flag</name>
+		<name esES="Bandera Negra">Black Flag</name>
 
 		<happiness>1</happiness>
 
@@ -9431,7 +9431,7 @@
 
 	<doorsignswords_E1>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has helmet painted on it</description>
+		<description esES="Tiene un casco pintado en él">It has helmet painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9448,7 +9448,7 @@
 
 	<sign_1_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has slice of pie painted on it</description>
+		<description esES="Tiene una porcion de pastel pintada en él">It has slice of pie painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9465,7 +9465,7 @@
 
 	<sign_1_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has slice of pie painted on it</description>
+		<description esES="Tiene una porcion de pastel pintada en él">It has slice of pie painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9482,7 +9482,7 @@
 
 	<sign_2_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has loaf of bread painted on it</description>
+		<description esES="Tiene un pedazo de pan pintado en él">It has loaf of bread painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9499,7 +9499,7 @@
 
 	<sign_2_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has loaf of bread painted on it</description>
+		<description esES="Tiene un pedazo de pan pintado en él">It has loaf of bread painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9516,7 +9516,7 @@
 
 	<sign_3_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has cutlery painted on it</description>
+		<description esES="Tiene unos cubiertos pintados en él">It has cutlery painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9533,7 +9533,7 @@
 
 	<sign_3_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has cutlery painted on it</description>
+		<description esES="Tiene unos cubiertos pintados en él">It has cutlery painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9550,7 +9550,7 @@
 
 	<sign_4_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a feathered hat painted on it</description>
+		<description esES="Tiene un sombrero con plumas pintado en él">It has a feathered hat painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9567,7 +9567,7 @@
 
 	<sign_4_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a feathered hat painted on it</description>
+		<description esES="Tiene un sombrero con plumas pintado en él">It has a feathered hat painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9584,7 +9584,7 @@
 
 	<sign_5_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a hero statue painted on it</description>
+		<description esES="Tiene pintado la estatua de un héroe">It has a hero statue painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9601,7 +9601,7 @@
 
 	<sign_5_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a hero statue painted on it</description>
+		<description esES="Tiene pintado la estatua de un héroe">It has a hero statue painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9618,7 +9618,7 @@
 
 	<sign_6_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has an anvil painted on it</description>
+		<description esES="Tiene un yunque pintado en él">It has an anvil painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9635,7 +9635,7 @@
 
 	<sign_6_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has an anvil painted on it</description>
+		<description esES="Tiene un yunque pintado en él">It has an anvil painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9652,7 +9652,7 @@
 
 	<sign_7_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a hammer and tongs painted on it</description>
+		<description esES="Tiene un martillo pintado en él">It has a hammer and tongs painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9669,7 +9669,7 @@
 
 	<sign_7_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a hammer and tongs painted on it</description>
+		<description esES="Tiene un martillo pintado en él">It has a hammer and tongs painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9686,7 +9686,7 @@
 
 	<sign_8_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a wood saw and log painted on it</description>
+		<description esES="Tiene pintado una sierra y un tronco">It has a wood saw and log painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9703,7 +9703,7 @@
 
 	<sign_8_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a wood saw and log painted on it</description>
+		<description esES="Tiene pintado una sierra y un tronco">It has a wood saw and log painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9720,7 +9720,7 @@
 
 	<sign_9_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has crossed swords painted on it</description>
+		<description esES="Dos espadas cruzadas estan pintadas en el">It has crossed swords painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9737,7 +9737,7 @@
 
 	<sign_9_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has crossed swords painted on it</description>
+		<description esES="Dos espadas cruzadas estan pintadas en el">It has crossed swords painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9754,7 +9754,7 @@
 
 	<sign_10_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has large box painted on it</description>
+		<description esES="Tiene una gran caja pintada en él">It has large box painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9771,7 +9771,7 @@
 
 	<sign_10_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has large box painted on it</description>
+		<description esES="Tiene una gran caja pintada en él">It has large box painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9788,7 +9788,7 @@
 
 	<sign_11_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has red medical cross painted on it</description>
+		<description esES="Una gran cruz roja, para señalar el hospital">It has red medical cross painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9805,7 +9805,7 @@
 
 	<sign_11_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has red medical cross painted on it</description>
+		<description esES="Una gran cruz roja, para señalar el hospital">It has red medical cross painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9822,7 +9822,7 @@
 
 	<sign_12_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a hammer and stone painted on it</description>
+		<description esES="Un martillo y una piedra, típico de un albañil">It has a hammer and stone painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9839,7 +9839,7 @@
 
 	<sign_12_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a hammer and stone painted on it</description>
+		<description esES="Un martillo y una piedra, típico de un albañil">It has a hammer and stone painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9856,7 +9856,7 @@
 
 	<sign_13_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a cooking pot painted on it</description>
+		<description esES="Tiene una olla pintada en él">It has a cooking pot painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9873,7 +9873,7 @@
 
 	<sign_13_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a cooking pot painted on it</description>
+		<description esES="Tiene una olla pintada en él">It has a cooking pot painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9890,7 +9890,7 @@
 
 	<sign_14_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a sword and battleaxe painted on it</description>
+		<description esES="Una espada y un hacha, listos para la batalla">It has a sword and battleaxe painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9907,7 +9907,7 @@
 
 	<sign_14_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has a sword and battleaxe painted on it</description>
+		<description esES="Una espada y un hacha, listos para la batalla">It has a sword and battleaxe painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9924,7 +9924,7 @@
 
 	<sign_15_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has nothing painted on it</description>
+		<description esES="Esta vacío!">It has nothing painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9941,7 +9941,7 @@
 
 	<sign_15_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="N/A">It has nothing painted on it</description>
+		<description esES="Esta vacío!">It has nothing painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -12085,7 +12085,7 @@
 	</harvestedgoldmine>
 
 	<beerbarrel>
-		<name>Beer Barrel</name>
+		<name esES="Barril de Cerveza">Beer Barrel</name>
 		<description >Used to make beer</description>
 		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12096,7 +12096,7 @@
 	</beerbarrel>
 
 	<winebarrel>
-		<name>Wine Barrel</name>
+		<name esES="Barril de Vino">Wine Barrel</name>
 		<description >Used to make Wine</description>
 		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12107,7 +12107,7 @@
 	</winebarrel>
 
 	<wine>
-		<name>wine</name>
+		<name esES="Vino">wine</name>
 		<type>prepfood</type>
 
 		<canBeEaten>true</canBeEaten>
@@ -12125,7 +12125,7 @@
 	</wine>
 
 	<beer>
-		<name>beer</name>
+		<name esES="Cerveza">beer</name>
 		<type>prepfood</type>
 
 		<canBeEaten>true</canBeEaten>
@@ -12154,8 +12154,8 @@
 
 <!-- FURNITURE -->
 	<woodendrawer_E>
-		<name esES="N/A">Wooden Drawer</name>
-		<description esES="N/A">Oddly enough, doesn't draw anything.</description>
+		<name esES="Cajonera de Madera">Wooden Drawer</name>
+		<description esES="Extrañamente, los cajones son sólidos">Oddly enough, doesn't draw anything.</description>
 
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
@@ -12169,8 +12169,8 @@
 	</woodendrawer_E>
 
 	<woodendrawer_W>
-		<name esES="N/A">Wooden Drawer</name>
-		<description esES="N/A">Oddly enough, doesn't draw anything.</description>
+		<name esES="Cajonera de Madera">Wooden Drawer</name>
+		<description esES="Extrañamente, los cajones son sólidos">Oddly enough, doesn't draw anything.</description>
 
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
@@ -12184,8 +12184,8 @@
 	</woodendrawer_W>
 
 	<smallwoodendrawer_E>
-		<name esES="N/A">Small Wooden Drawer</name>
-		<description esES="N/A.">Oddly enough, doesn't draw anything.</description>
+		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
+		<description esES="Que extraño... juraria que había uno mas grande">Oddly enough, doesn't draw anything.</description>
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -12198,8 +12198,8 @@
 	</smallwoodendrawer_E>
 
 	<smallwoodendrawer_W>
-		<name esES="N/A">Small Wooden Drawer</name>
-		<description esES="N/A.">Oddly enough, doesn't draw anything.</description>
+		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
+		<description esES="Que extraño... juraria que había uno mas grande">Oddly enough, doesn't draw anything.</description>
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -12212,8 +12212,8 @@
 	</smallwoodendrawer_W>
 
 	<smallwoodendrawer_flower_E>
-		<name esES="N/A">Small Wooden Drawer</name>
-		<description esES="N/A.">Oooh! This one has flowers!</description>
+		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
+		<description esES="¡Ooooh! ¡Este tiene flores!">Oooh! This one has flowers!</description>
 		<type>cb262.furniture</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -12226,8 +12226,8 @@
 	</smallwoodendrawer_flower_E>
 
 	<smallwoodendrawer_flower_W>
-		<name esES="N/A">Small Wooden Drawer</name>
-		<description esES="N/A.">Oooh! This one has flowers!</description>
+		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
+		<description esES="¡Ooooh! ¡Este tiene flores!">Oooh! This one has flowers!</description>
 		<type>cb262.furniture</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -12300,8 +12300,8 @@
 	</tallwoodencupboard_W>
 
 	<flowerpot_red>
-		<name esES="Planta">Potted Red Flower</name>
-		<description esES="N/A">A pretty potted red flower</description>
+		<name esES="Flor Roja en maceta">Potted Red Flower</name>
+		<description esES="Una muy bonita flor roja ¡Ahora en macetas!">A pretty potted red flower</description>
 		<type>decorative.indoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12314,8 +12314,8 @@
 	</flowerpot_red>
 
 	<flowerpot_blue>
-		<name esES="Planta">Potted blue Flower</name>
-		<description esES="N/A">A pretty potted blue flower</description>
+		<name esES="Flor Azul en maceta">Potted blue Flower</name>
+		<description esES="Una muy bonita flor azul, awww">A pretty potted blue flower</description>
 		<type>decorative.indoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12328,8 +12328,8 @@
 	</flowerpot_blue>
 
 	<flowerpot_yellow>
-		<name esES="Planta">Potted Yellow Flower</name>
-		<description esES="N/A">A pretty potted yellow flower</description>
+		<name esES="Flor Amarilla en maceta">Potted Yellow Flower</name>
+		<description esES="Tan amarilla como el sol">A pretty potted yellow flower</description>
 		<type>decorative.indoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12342,8 +12342,8 @@
 	</flowerpot_yellow>
 
 	<flowerpot_mixed>
-		<name esES="Planta">Potted Flower Arrangement</name>
-		<description esES="N/A">A pretty potted flower arrangement</description>
+		<name esES="Flores en maceta">Potted Flower Arrangement</name>
+		<description esES="Mucho mejor de a varias">A pretty potted flower arrangement</description>
 		<type>decorative.indoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12357,7 +12357,7 @@
 
 	<!-- WINTER ITEMS -->
 	<snowman1>
-		<name esES="Snowman 1">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12366,7 +12366,7 @@
 		</snowman1>
 
 	<snowman3>
-		<name esES="Snowman 3">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12375,7 +12375,7 @@
 	</snowman3>
 
 	<snowman4>
-		<name esES="Snowman 4">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12384,7 +12384,7 @@
 	</snowman4>
 
 	<snowman7>
-		<name esES="Snowman 7">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12393,19 +12393,19 @@
 	</snowman7>
 
 	<undecaxmastree>
-		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
+		<name esES="Árbol de navidad animado">Animated Christmas Tree</name>
 		<type>decorative.winter</type>
 		<action>qdecatree</action>
 	</undecaxmastree>
 
 	<axmastree1>
-		<name esES="Animated Christmas Tree">Animated Christmas Tree</name>
+		<name esES="Árbol de navidad animado">Animated Christmas Tree</name>
 		<type>decorative.winter</type>
 		<happiness>2</happiness>
 	</axmastree1>
 
 	<giftstack>
-		<name esES="Gift Stack">Gift Stack</name>
+		<name esES="Pila de regalos">Gift Stack</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -12413,7 +12413,7 @@
 	</giftstack>
 
 	<candycane>
-		<name esES="Candy Cane">Candy Cane</name>
+		<name esES="Palito de Caramelo">Candy Cane</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
@@ -12422,7 +12422,7 @@
 
 	<santahat>
 		<level>1</level>
-		<name esES="Santa Hat 1">Santa Hat 1</name>
+		<name esES="Sombrero de Santa">Santa Hat 1</name>
 		<type>armor.vanity</type>
 		<location>HEAD</location>
 		<attack>1d10+20</attack>
@@ -12436,7 +12436,7 @@
 
 	<xmashat>
 	    <level>1</level>
-	    <name esES="Santa Hat 2">Elf Hat</name>
+	    <name esES="Sombrero de Elfo">Elf Hat</name>
 	    <type>armor.vanity</type>
 	    <location>HEAD</location>
 	    <attack>1d10+20</attack>
@@ -12557,7 +12557,7 @@
 	</largegiftsix_E>
 
 	<smallgiftone>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -12566,7 +12566,7 @@
 	</smallgiftone>
 
 	<smallgiftone_E>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -12575,7 +12575,7 @@
 	</smallgiftone_E>
 
 	<smallgifttwo>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -12584,7 +12584,7 @@
 	</smallgifttwo>
 
 	<smallgifttwo_E>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -12593,7 +12593,7 @@
 	</smallgifttwo_E>
 
 	<smallgiftthree>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -12602,7 +12602,7 @@
 	</smallgiftthree>
 
 	<smallgiftthree_E>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -12611,7 +12611,7 @@
 	</smallgiftthree_E>
 
 	<smallgiftfour>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -12620,7 +12620,7 @@
 	</smallgiftfour>
 
 	<smallgiftfour_E>
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
@@ -13254,56 +13254,56 @@
 
 	<!-- RUBBLE FOR MINES -LM -->
 	<rubble>
-		<name esES="Rubble">Rubble</name>
-		<description esES="N/A">A collapsed mine</description>
+		<name esES="N/A">Empty Mineshaft</name>
+		<description esES="N/A">This mineshaft has run dry!</description>
 		<happiness>-1</happiness>
 		<action>qclearrubble</action>
 	</rubble>
 
 	<!-- MARKET TENTS -LM -->
 	<markettent>
-		<name esES="N/A">Market Tent</name>
-		<description esE="N/A">A tent for setting up your wares</description>
+		<name esES="Tienda de Mercado">Market Tent</name>
+		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent</action>
 		<action>del_markettent</action>
 	</markettent>
 
 	<markettent_1>
-		<name esES="N/A">Market Tent</name>
-		<description esE="N/A">A tent for setting up your wares</description>
+		<name esES="Tienda de Mercado">Market Tent</name>
+		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_1</action>
 		<action>del_markettent</action>
 	</markettent_1>
 
 	<markettent_a>
-		<name esES="N/A">Market Tent</name>
-		<description esE="N/A">A tent for setting up your wares</description>
+		<name esES="Tienda de Mercado">Market Tent</name>
+		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_a</action>
 		<action>del_markettent_a</action>
 	</markettent_a>
 
 	<markettent_a_1>
-		<name esES="N/A">Market Tent</name>
-		<description esE="N/A">A tent for setting up your wares</description>
+		<name esES="Tienda de Mercado">Market Tent</name>
+		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_a_1</action>
 		<action>del_markettent_a</action>
 	</markettent_a_1>
 
 	<markettent_b>
-		<name esES="N/A">Market Tent</name>
-		<description esE="N/A">A tent for setting up your wares</description>
+		<name esES="Tienda de Mercado">Market Tent</name>
+		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_b</action>
 		<action>del_markettent_b</action>
 	</markettent_b>
 
 	<markettent_b_1>
-		<name esES="N/A">Market Tent</name>
-		<description esE="N/A">A tent for setting up your wares</description>
+		<name esES="Tienda de Mercado">Market Tent</name>
+		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
 		<happiness>2</happiness>
 		<action>rotate_markettent_b_1</action>
 		<action>del_markettent_b</action>
@@ -13311,8 +13311,8 @@
 
 	<!-- ROPE BRIDGES -LM/GreyFalcon -->
 	<ropebridge_NS>
-		<name esES="N/A">Rope Bridge</name>
-		<description esES="N/A">An easy way to cross gaps!</description>
+		<name esES="Puente de Cuerdas">Rope Bridge</name>
+		<description esES="Una forma facil de cruzar">An easy way to cross gaps!</description>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -13323,8 +13323,8 @@
 	</ropebridge_NS>
 
 	<ropebridge_EW>
-		<name esES="N/A">Rope Bridge</name>
-		<description esES="N/A">An easy way to cross gaps!</description>
+		<name esES="Puente de Cuerdas">Rope Bridge</name>
+		<description esES="Una forma facil de cruzar">An easy way to cross gaps!</description>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -13336,7 +13336,7 @@
 
 	<!-- TAVERN TABLE DECORATIONS -LM -->
 	<taverntable>
-		<name esES="Mesa de taverna">Tavern table</name>
+		<name esES="Mesa de taberna">Tavern table</name>
 		<description esES="Larga vida a la mesa">Long live the table</description>
 
 		<wallConnector>true</wallConnector>
@@ -13350,7 +13350,7 @@
 	</taverntable>
 
 	<taverntable_candle>
-		<name esES="Mesa de taverna">Tavern table</name>
+		<name esES="Mesa de taberna">Tavern table</name>
 		<description esES="Larga vida a la mesa">Long live the table</description>
 
 		<wallConnector>true</wallConnector>
@@ -13368,7 +13368,7 @@
 	</taverntable_candle>
 
 	<taverntable_drinks>
-		<name esES="Mesa de taverna">Tavern table</name>
+		<name esES="Mesa de taberna">Tavern table</name>
 		<description esES="Larga vida a la mesa">Long live the table</description>
 
 		<wallConnector>true</wallConnector>
@@ -13383,8 +13383,8 @@
 
 	<!-- NEW FARMS -LM -->
 	<newcowfarm>
-		<name esES="N/A">Cow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<name esES="Granja de Vacas">Cow Barn</name>
+		<description esES="Algo oloroso">Quite smelly...</description>
 
 		<action>qbreedcow</action>
 		<stackable>true</stackable>
@@ -13393,8 +13393,8 @@
 	</newcowfarm>
 
 	<newbullfarm>
-		<name esES="N/A">Bull Barn</name>
-		<description esES="N/A">Don't wear your red shirt!</description>
+		<name esES="Granja de Toros">Bull Barn</name>
+		<description esES="¡No uses tu remera roja!">Don't wear your red shirt!</description>
 
 		<action>qbreedbull</action>
 		<stackable>true</stackable>
@@ -13403,8 +13403,8 @@
 	</newbullfarm>
 
 	<newpigfarm>
-		<name esES="N/A">Pig Barn</name>
-		<description esES="N/A">The floor is very dirty...</description>
+		<name esES="Granja de Cerdos">Pig Barn</name>
+		<description esES="¡Puaj! Este piso da asco">The floor is very dirty...</description>
 
 		<action>qbreedpig</action>
 		<stackable>true</stackable>
@@ -13413,8 +13413,8 @@
 	</newpigfarm>
 
 	<newboarfarm>
-		<name esES="N/A">Boar Barn</name>
-		<description esES="N/A">Nobody mention Bacon...</description>
+		<name esES="Granja de Jabalí">Boar Barn</name>
+		<description esES="Nadie ha dicho tocino...">Nobody mention Bacon...</description>
 
 		<action>qbreedboar</action>
 		<stackable>true</stackable>
@@ -13423,8 +13423,8 @@
 	</newboarfarm>
 
 	<newchickenfarm>
-		<name esES="N/A">Chicken Barn</name>
-		<description esES="N/A">Free Range!</description>
+		<name esES="Granja de Gallina">Chicken Barn</name>
+		<description esES="¡Blancos de tiro gratis!">Free Range!</description>
 
 		<action>qbreedchicken</action>
 		<stackable>true</stackable>
@@ -13433,8 +13433,8 @@
 	</newchickenfarm>
 
 	<newroosterfarm>
-		<name esES="N/A">Rooster Barn</name>
-		<description esES="N/A">Medeival Alarm Clock factory!</description>
+		<name esES="Granja de Gallos">Rooster Barn</name>
+		<description esES="¡Fabrica de despertadores medievales!">Medeival Alarm Clock factory!</description>
 
 		<action>qbreedrooster</action>
 		<stackable>true</stackable>
@@ -13443,8 +13443,8 @@
 	</newroosterfarm>
 
 	<newskootenbeetenfarm>
-		<name esES="N/A">Skootenbeeten Barn</name>
-		<description esES="N/A">Watch your head!</description>
+		<name esES="Granja de Skootenbeetens">Skootenbeeten Barn</name>
+		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
 		<action>qbreedskootenbeeten</action>
 		<stackable>true</stackable>
@@ -13453,8 +13453,8 @@
 	</newskootenbeetenfarm>
 
 	<newunifallowfarm>
-		<name esES="N/A">Unifallow Barn</name>
-		<description esES="N/A">How do you see things?</description>
+		<name esES="Granja de Unifallows">Unifallow Barn</name>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
 		<action>qbreedunifallow</action>
 		<stackable>true</stackable>
@@ -13463,8 +13463,8 @@
 	</newunifallowfarm>
 
 	<newbadgerfarm>
-		<name esES="N/A">Badger Barn</name>
-		<description esES="N/A">*Insert meme here*</description>
+		<name esES="Granja de Tejones">Badger Barn</name>
+		<description esES="*Inserte el meme aqui*">*Insert meme here*</description>
 
 		<action>qbreedbadger</action>
 		<stackable>true</stackable>
@@ -13473,8 +13473,8 @@
 	</newbadgerfarm>
 
 	<newsnoatfarm>
-		<name esES="N/A">Snoat Barn</name>
-		<description esES="N/A">How do you fit in there?</description>
+		<name esES="Granja de Snoats">Snoat Barn</name>
+		<description esES="¿Cómo hizo para entrar ahí?">How do you fit in there?</description>
 
 		<action>qbreedsnoat</action>
 		<stackable>true</stackable>
@@ -13484,8 +13484,8 @@
 
 	<!-- NEW FARMS EMPTY -->
 	<emptycowfarm>
-		<name esES="N/A">Empty Cow Barn</name>
-		<description esES="N/A">Quite smelly...</description>
+		<name esES="Granja de Vacas vacía">Empty Cow Barn</name>
+		<description esES="Algo oloroso">Quite smelly...</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newcowfarm</maxAgeItem>
@@ -13495,8 +13495,8 @@
 	</emptycowfarm>
 
 	<emptybullfarm>
-		<name esES="N/A">Bull Barn</name>
-		<description esES="N/A">Don't wear your red shirt!</description>
+		<name esES="Granja de Toros vacía">Empty Bull Barn</name>
+		<description esES="¡No uses tu remera roja!">Don't wear your red shirt!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newbullfarm</maxAgeItem>
@@ -13506,8 +13506,8 @@
 	</emptybullfarm>
 
 	<emptypigfarm>
-		<name esES="N/A">Pig Barn</name>
-		<description esES="N/A">The floor is very dirty...</description>
+		<name esES="Granja de Cerdos vacía">Empty Pig Barn</name>
+		<description esES="¡Puaj! Este piso da asco">The floor is very dirty...</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newpigfarm</maxAgeItem>
@@ -13517,8 +13517,8 @@
 	</emptypigfarm>
 
 	<emptyboarfarm>
-		<name esES="N/A">Boar Barn</name>
-		<description esES="N/A">Nobody mention Bacon...</description>
+		<name esES="Granja de Jabalíes vacía">Empty Boar Barn</name>
+		<description esES="Nadie ha dicho tocino...">Nobody mention Bacon...</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newboarfarm</maxAgeItem>
@@ -13528,8 +13528,8 @@
 	</emptyboarfarm>
 
 	<emptychickenfarm>
-		<name esES="N/A">Chicken Barn</name>
-		<description esES="N/A">Free Range!</description>
+		<name esES="Granja de Gallinas vacía">Empty Chicken Barn</name>
+		<description esES="¡Blancos de tiro gratis!">Free Range!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newchickenfarm</maxAgeItem>
@@ -13539,8 +13539,8 @@
 	</emptychickenfarm>
 
 	<emptyroosterfarm>
-		<name esES="N/A">Rooster Barn</name>
-		<description esES="N/A">Medeival Alarm Clock factory!</description>
+		<name esES="Granja de Gallos vacia">Empty Rooster Barn</name>
+		<description esES="¡Fabrica de despertadores medievales!">Medeival Alarm Clock factory!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newroosterfarm</maxAgeItem>
@@ -13550,8 +13550,8 @@
 	</emptyroosterfarm>
 
 	<emptyskootenbeetenfarm>
-		<name esES="N/A">Skootenbeeten Barn</name>
-		<description esES="N/A">Watch your head!</description>
+		<name esES="Granja de Skootenbeetens vacía">Empty Skootenbeeten Barn</name>
+		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newskootenbeetenfarm</maxAgeItem>
@@ -13562,8 +13562,8 @@
 
 
 	<emptyunifallowfarm>
-		<name esES="N/A">Unifallow Barn</name>
-		<description esES="N/A">How do you see things?</description>
+		<name esES="Granja de Unifallows Vacía">Empty Unifallow Barn</name>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newunifallowfarm</maxAgeItem>
@@ -13574,8 +13574,8 @@
 
 
 	<emptybadgerfarm>
-		<name esES="N/A">Badger Barn</name>
-		<description esES="N/A">*Insert meme here*</description>
+		<name esES="Granja de Tejones vacía">Badger Barn</name>
+		<description esES="*Inserte un meme aquí*">*Insert meme here*</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newbadgerfarm</maxAgeItem>
@@ -13585,8 +13585,8 @@
 	</emptybadgerfarm>
 
 	<emptysnoatfarm>
-		<name esES="N/A">Snoat Barn</name>
-		<description esES="N/A">How do you fit in there?</description>
+		<name esES="Granja de Snoats vacía">Snoat Barn</name>
+		<description esES="¿Cómo hizo para entrar ahi?">How do you fit in there?</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newsnoatfarm</maxAgeItem>

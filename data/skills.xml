@@ -189,7 +189,7 @@
 
 
   <giftgiving>
-    <name esES="Gift Giving">Gift Giving</name>
+    <name esES="N/A">Gift Giving</name>
     <coolDown>360</coolDown>
     <use>ALWAYS</use>
     <raiseDead>treegift</raiseDead>

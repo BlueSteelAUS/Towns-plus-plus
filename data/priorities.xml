@@ -49,7 +49,7 @@
 	<!-- Terraforming and Tilling jobs -->
 	<priority>
 		<id>terrainchange</id>
-		<name esES="N/A">Terraforming</name>
+		<name esES="Terraformar">Terraforming</name>
 		<icon>dirt</icon>
 	</priority>
 

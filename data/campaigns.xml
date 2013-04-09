@@ -10,17 +10,21 @@
 	</campaign>
 -->
 
-
 	<campaign>
-		<id>Custom</id>
-		<name>Custom Maps</name>
+		<id>MikeHendi</id>
+		<name esES="Mapas de MikeHend">MikeHendi's Maps</name>
 		<mission>
-			<id>MikeHendi Deep Dungeons</id>
-			<name esES="N/A">MikeHendi: Deep Dungeons</name>
+			<id>Deep Dungeons</id>
+			<name esES="Mazmorras Profundas">Deep Dungeons</name>
 		</mission>
+	</campaign>
+	
+	<campaign>
+		<id>LittleMikey</id>
+		<name esES="Mapas de LittleMikey">LittleMikey's Maps</name>
 		<mission>
 			<id>LittleMikey Oasis</id>
-			<name esES="N/A">LittleMikey: Oasis</name>
+			<name esES="N/A">Oasis</name>
 		</mission>
 	</campaign>
 
