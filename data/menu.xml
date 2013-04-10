@@ -1,63 +1,64 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <menu>
-	<item name="Harvest" esES="Recolectar" code="CUSTOMACTION" parameter="qharvestapple,qharvestpear,qharvestwheat,qharvestsugarcane,qharvestbamboo,qharvestplanttrap,qharvestwildwheat,qharvestwildsugarcane,qharvestwildbamboo,qharvestblueradish,qharvestsnowcherry,qharvestbanana,qpickmushroom,qpickcavemushroom,qharvestcactus,qgatherredflower,qgatherplantedredflower,qgatherblueflower,qgatherplantedblueflower,qgatheryellowflower,qgatherplantedyellowflower,qharvestppear,qharvestpapple,qharvestpbanana,qharvestpblueradish,qharvestpcactus,qharvestpsnowcherry,qpickpcavemushroom,qpickpmushroom" icon="ui_harvest" />
-	<item name="Chop" esES="Talar" code="CUSTOMACTION" parameter="qchop,qchopplantedtree,qchopplantedtree2,qchopplantedsnowtree,qchopplantedjungletree,qchopplantedpalmtree,qchopsleeper,qchopsleeper2" icon="ui_chop" />
-	<item name="Cut" esES="Cortar" code="CUSTOMACTION" parameter="qcut" icon="ui_cut" />
-	<item name="Dig" esES="Cavar" code="DIG" icon="ui_dig" />
-	<item name="Mine" esES="Minar" code="MINE" icon="ui_mine" />
-	<item name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
-	<item name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
+
+	<item id="harvest" name="Harvest" esES="Recolectar" code="CUSTOMACTION" parameter="qharvestapple,qharvestpear,qharvestwheat,qharvestsugarcane,qharvestbamboo,qharvestplanttrap,qharvestwildwheat,qharvestwildsugarcane,qharvestwildbamboo,qharvestblueradish,qharvestsnowcherry,qharvestbanana,qpickmushroom,qpickcavemushroom,qharvestcactus,qgatherredflower,qgatherplantedredflower,qgatherblueflower,qgatherplantedblueflower,qgatheryellowflower,qgatherplantedyellowflower,qharvestppear,qharvestpapple,qharvestpbanana,qharvestpblueradish,qharvestpcactus,qharvestpsnowcherry,qpickpcavemushroom,qpickpmushroom" icon="ui_harvest" />
+	<item id="chop" name="Chop" esES="Talar" code="CUSTOMACTION" parameter="qchop,qchopplantedtree,qchopplantedtree2,qchopplantedsnowtree,qchopplantedjungletree,qchopplantedpalmtree,qchopsleeper,qchopsleeper2" icon="ui_chop" />
+	<item id="cut" name="Cut" esES="Cortar" code="CUSTOMACTION" parameter="qcut" icon="ui_cut" />
+	<item id="dig" name="Dig" esES="Cavar" code="DIG" icon="ui_dig" />
+	<item id="mine" name="Mine" esES="Minar" code="MINE" icon="ui_mine" />
+	<item id="till" name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
+	<item id="cancelorder" name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
 
 	<stockpiles name="Stockpiles" esES="Pilas" icon="ui_stockpile">
-		<item name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
-		<item name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
-		<item name="Prepared food" esES="Comida preparada" code="STOCKPILE" parameter="prepfood" icon="ui_sprepfood" />
-		<item name="Utilities" esES="Útiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
-		<item name="Furniture" esES="Muebles" code="STOCKPILE" parameter="furniture" icon="ui_sfurniture" />
-		<item name="ITEs" esES="ITEs" code="STOCKPILE" parameter="ites" icon="ui_sites" />
-		<item name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
-		<item name="Weapons" esES="Armas" code="STOCKPILE" parameter="weapon" icon="ui_sweapon" />
-		<item name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
-		<item name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="scaffold" />
-		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
+		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
+		<item id="prepfood" name="Prepared food" esES="Comida preparada" code="STOCKPILE" parameter="prepfood" icon="ui_sprepfood" />
+		<item id="utils" name="Utilities" esES="Útiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
+		<item id="furniture" name="Furniture" esES="Muebles" code="STOCKPILE" parameter="furniture" icon="ui_sfurniture" />
+		<item id="ites" name="ITEs" esES="ITEs" code="STOCKPILE" parameter="ites" icon="ui_sites" />
+		<item id="armor" name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
+		<item id="weapon" name="Weapons" esES="Armas" code="STOCKPILE" parameter="weapon" icon="ui_sweapon" />
+		<item id="decorative" name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
+		<item id="conctruction" name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="scaffold" />
+		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</stockpiles>
+
 	<destruction name="Destruction" icon="fireball">
-		<item code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
-		<item name="Remove Empty Mineshafts" esES="N/A" code="CUSTOMACTION" parameter="qclearrubble" icon="rubble" />
-		<item name="Kill Animals" esES="N/A" code="CUSTOMACTION" parameter="qkillpig,qkillcow,qkillchicken,qkillsnoat,qkillreindeer,qkillunifallow,qkillbadger,qkillbird,qkillskootenbeeten" icon="ui_deleteanimals" />
-		<item name="Remove Farms" esES="N/A" code="CUSTOMACTION" parameter="del_cowfarm,del_bullfarm,del_pigfarm,del_boarfarm,del_chickenfarm,del_roosterfarm,del_snoatfarm,del_unifallowfarm,del_skootenbeetenfarm,del_badgerfarm" icon="ui_deletefarms" />
-		<item name="Remove Furniture" esES="N/A" code="CUSTOMACTION" parameter="del_mill,,del_hedgegate,del_woodenbed,del_camobed,del_greenbed,del_bluebed,del_redbed,del_purplebed,del_woodendormbed,del_bonebed,del_stonechair,del_purplethrone,del_woodenchair,del_redchair,del_redchair2,del_bluechair,del_greenchair,del_woodenchair_1,del_woodchair_2,del_woodchair_3,del_whitechair,del_purplechair,del_woodencupboard,del_woodencupboard_E,del_woodendrawer_E,del_smallwoodendrawer_E,del_smallwoodendrawer_flower_E,del_tallwoodencupboard_E,del_floodgate,del_fluidselevator,del_fencedoor,del_halfdoor,del_logdoor,del_woodendoor,del_bonedoor,del_architecttable,del_stonetable,del_woodentable,del_squarestable,del_taverntable,del_stonearcdoor1,del_stonearcdoor2,del_anvil,del_itesmithy,del_kitchentable,del_butchertable,del_cookingbowl,del_medicinecabinet,del_smelter,del_bonecarver,del_stove,del_bakeroven,del_bakertable,del_carpentrybench,del_skinner,del_colormixer,del_carvingbench,del_masonbench,del_wooddetailer,del_clock,del_redlongflag,del_bluebanner,del_greenbanner,del_purplebanner,del_blackbanner,del_redshortflag,del_blueshortflag,del_greenshortflag,del_purpleshortflag,del_blackshortflag,del_doorsignswords,del_sign_1,del_sign_2,del_sign_3,del_sign_4,del_sign_5,del_sign_6,del_sign_7,del_sign_8,del_sign_9,del_sign_10,del_sign_11,del_sign_12,del_sign_13,del_sign_14,del_sign_15,del_gargoylestatue,del_stonemalestatue,del_goldunifallowstatue,del_silverskootenbeetenstatue,del_barrel,del_burner,del_chest,del_necromancerstatue,del_candle,del_bluehangedlamp,del_yellowhangedlamp,del_greenhangedlamp,del_redhangedlamp,del_bonecandle,del_goblinpole,del_hobgoblinpole,del_ghoulpole,del_trollpole,del_birdincage,del_snickerpole,del_chimney,del_animalfireplace,del_potplant,del_harp,del_bonsai,del_bonsaired,del_gardenred,del_gardenblue,del_gardenbush1,del_gardenbush2,del_gardenbush3,del_beerbarrel,del_winebarrel,del_flowerpot_red,del_flowerpot_blue,del_flowerpot_yellow,del_flowerpot_mixed,del_markettent,del_markettent_a,del_markettent_b,del_ladder,del_mill" icon="ui_deletefurniture" /><!-- HELP I'M LOST! -->
-		<item name="Remove Stairs" esES="N/A" code="CUSTOMACTION" parameter="del_verticalladder,del_ladder,del_woodenladder,del_stoneladder,del_stoneladder4,del_stoneladder5,del_logladder,del_dirtladder,del_dirtladder2,del_stonespindleladder,del_ancientladder,del_redstonestairs,del_redstonestairs2,del_bluestonestairs,del_bluestonestairs2,del_yellowstonestairs,del_yellowstonestairs2,del_greenstonestairs,del_greenstonestairs2,del_orangestonestairs,del_orangestonestairs2,del_purplestonestairs,del_purplestonestairs2,del_sandstairs1,del_sandstairs2,del_sandstairs3" icon="ui_deleteconstruction" />
-		<item name="Remove Graves" esES="N/A" code="CUSTOMACTION" parameter="del_grave,del_grave2,del_grave3,del_tomb,del_tomb2,del_mosstomb,del_mosstomb2,del_mosstomb3,del_lizardtomb" icon="ui_deletegraves" />
+		<item id="destroyscaffold" code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
+		<item id="qclearrubble" name="Clear mineshaft rubble" esES="N/A" code="CUSTOMACTION" parameter="qclearrubble" icon="rubble" />
+		<item id="killanimals" name="Kill animals" esES="N/A" code="CUSTOMACTION" parameter="qkillpig,qkillcow,qkillchicken,qkillsnoat,qkillreindeer,qkillunifallow,qkillbadger,qkillbird,qkillskootenbeeten" icon="ui_deleteanimals" />
+		<item id="removefarms" name="Remove farms" esES="N/A" code="CUSTOMACTION" parameter="del_cowfarm,del_bullfarm,del_pigfarm,del_boarfarm,del_chickenfarm,del_roosterfarm,del_snoatfarm,del_unifallowfarm,del_skootenbeetenfarm,del_badgerfarm" icon="ui_deletefarms" />
+		<item id="removefurniture" name="Remove furniture" esES="N/A" code="CUSTOMACTION" parameter="del_mill,,del_hedgegate,del_woodenbed,del_camobed,del_greenbed,del_bluebed,del_redbed,del_purplebed,del_woodendormbed,del_bonebed,del_stonechair,del_purplethrone,del_woodenchair,del_redchair,del_redchair2,del_bluechair,del_greenchair,del_woodenchair_1,del_woodchair_2,del_woodchair_3,del_whitechair,del_purplechair,del_woodencupboard,del_woodencupboard_E,del_woodendrawer_E,del_smallwoodendrawer_E,del_smallwoodendrawer_flower_E,del_tallwoodencupboard_E,del_floodgate,del_fluidselevator,del_fencedoor,del_halfdoor,del_logdoor,del_woodendoor,del_bonedoor,del_architecttable,del_stonetable,del_woodentable,del_squarestable,del_taverntable,del_stonearcdoor1,del_stonearcdoor2,del_anvil,del_itesmithy,del_kitchentable,del_butchertable,del_cookingbowl,del_medicinecabinet,del_smelter,del_bonecarver,del_stove,del_bakeroven,del_bakertable,del_carpentrybench,del_skinner,del_colormixer,del_carvingbench,del_masonbench,del_wooddetailer,del_clock,del_redlongflag,del_bluebanner,del_greenbanner,del_purplebanner,del_blackbanner,del_redshortflag,del_blueshortflag,del_greenshortflag,del_purpleshortflag,del_blackshortflag,del_doorsignswords,del_sign_1,del_sign_2,del_sign_3,del_sign_4,del_sign_5,del_sign_6,del_sign_7,del_sign_8,del_sign_9,del_sign_10,del_sign_11,del_sign_12,del_sign_13,del_sign_14,del_sign_15,del_gargoylestatue,del_stonemalestatue,del_goldunifallowstatue,del_silverskootenbeetenstatue,del_barrel,del_burner,del_chest,del_necromancerstatue,del_candle,del_bluehangedlamp,del_yellowhangedlamp,del_greenhangedlamp,del_redhangedlamp,del_bonecandle,del_goblinpole,del_hobgoblinpole,del_ghoulpole,del_trollpole,del_birdincage,del_snickerpole,del_chimney,del_animalfireplace,del_potplant,del_harp,del_bonsai,del_bonsaired,del_gardenred,del_gardenblue,del_gardenbush1,del_gardenbush2,del_gardenbush3,del_beerbarrel,del_winebarrel,del_flowerpot_red,del_flowerpot_blue,del_flowerpot_yellow,del_flowerpot_mixed,del_markettent,del_markettent_a,del_markettent_b,del_ladder,del_mill" icon="ui_deletefurniture" /><!-- HELP I'M LOST! -->
+		<item id="removestairs" name="Remove stairs" esES="N/A" code="CUSTOMACTION" parameter="del_verticalladder,del_ladder,del_woodenladder,del_stoneladder,del_stoneladder4,del_stoneladder5,del_logladder,del_dirtladder,del_dirtladder2,del_stonespindleladder,del_ancientladder,del_redstonestairs,del_redstonestairs2,del_bluestonestairs,del_bluestonestairs2,del_yellowstonestairs,del_yellowstonestairs2,del_greenstonestairs,del_greenstonestairs2,del_orangestonestairs,del_orangestonestairs2,del_purplestonestairs,del_purplestonestairs2,del_sandstairs1,del_sandstairs2,del_sandstairs3" icon="ui_deleteconstruction" />
+		<item id="exumegraves"name="Exume graves" esES="N/A" code="CUSTOMACTION" parameter="del_grave,del_grave2,del_grave3,del_tomb,del_tomb2,del_mosstomb,del_mosstomb2,del_mosstomb3,del_lizardtomb" icon="ui_deletegraves" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</destruction>
 	<terraforming name="Terraform" icon="dirt">
-		<item name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
-		<item name="To dirt" code="CUSTOMACTION" parameter="qterraformtodirt" icon="dirt" />
-		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss" icon="grass" />
-		<!--  	<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss1" icon="grass1" />
-	  	<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss2" icon="grass2" />
-	  	<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograss3" icon="grass3" /> -->
-		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower" icon="grassnoflower" />
-		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower1" icon="grassnoflower1" />
-		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower2" icon="grassnoflower2" />
-		<item name="To grass" code="CUSTOMACTION" parameter="qterraformtofloatinggrass" icon="floatinggrass" />
-		<item name="To jungle" code="CUSTOMACTION" parameter="qterraformtojungle" icon="jungle" />
-		<item name="To sand" code="CUSTOMACTION" parameter="qterraformtosand" icon="sand" />
-		<item name="To stone" code="CUSTOMACTION" parameter="qterraformtotone" icon="stone" />
-		<item name="To snow" code="CUSTOMACTION" parameter="qterraformtosnow" icon="snow" />
-		<item name="To gravel" code="CUSTOMACTION" parameter="qterraformtogravel" icon="gravel" />
-		<item name="To densestone" code="CUSTOMACTION" parameter="qterraformtodensestone" icon="densestone" />
-		<item name="To dungeon3" code="CUSTOMACTION" parameter="qterraformtodungeon3" icon="dungeon3" />
-		<item name="To coal" code="CUSTOMACTION" parameter="qterraformtocoal" icon="coal" />
-		<item name="To iron" code="CUSTOMACTION" parameter="qterraformtoiron" icon="iron" />
-		<item name="To copper" code="CUSTOMACTION" parameter="qterraformtocopper" icon="copper" />
-		<item name="To silver" code="CUSTOMACTION" parameter="qterraformtosilver" icon="silver" />
-		<item name="To gold" code="CUSTOMACTION" parameter="qterraformtogold" icon="gold" />
-		<item name="To lavarock" code="CUSTOMACTION" parameter="qterraformtolavarock" icon="lavarock" />
-		<!--
-		<item name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" /> -->
+		<item id="untill" name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
+		<item id="qterraformtodirt" name="To dirt" code="CUSTOMACTION" parameter="qterraformtodirt" icon="dirt" />
+		<item id="qterraformtograss" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss" icon="grass" />
+		<!--  	<item id="qterraformtograss1" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss1" icon="grass1" />
+	  	<item id="qterraformtograss2" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss2" icon="grass2" />
+	  	<item id="qterraformtograss3" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss3" icon="grass3" /> -->
+		<item id="qterraformtograssnoflower" name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower" icon="grassnoflower" />
+		<item id="qterraformtograssnoflower1" name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower1" icon="grassnoflower1" />
+		<item id="qterraformtograssnoflower2" name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower2" icon="grassnoflower2" />
+		<item id="qterraformtofloatinggrass" name="To grass" code="CUSTOMACTION" parameter="qterraformtofloatinggrass" icon="floatinggrass" />
+		<item id="qterraformtojungle" name="To jungle" code="CUSTOMACTION" parameter="qterraformtojungle" icon="jungle" />
+		<item id="qterraformtosand" name="To sand" code="CUSTOMACTION" parameter="qterraformtosand" icon="sand" />
+		<item id="qterraformtotone" name="To stone" code="CUSTOMACTION" parameter="qterraformtotone" icon="stone" />
+		<item id="qterraformtosnow" name="To snow" code="CUSTOMACTION" parameter="qterraformtosnow" icon="snow" />
+		<item id="qterraformtogravel" name="To gravel" code="CUSTOMACTION" parameter="qterraformtogravel" icon="gravel" />
+		<item id="qterraformtodensestone" name="To densestone" code="CUSTOMACTION" parameter="qterraformtodensestone" icon="densestone" />
+		<item id="qterraformtodungeon3" name="To dungeon3" code="CUSTOMACTION" parameter="qterraformtodungeon3" icon="dungeon3" />
+		<item id="qterraformtocoal" name="To coal" code="CUSTOMACTION" parameter="qterraformtocoal" icon="coal" />
+		<item id="qterraformtoiron" name="To iron" code="CUSTOMACTION" parameter="qterraformtoiron" icon="iron" />
+		<item id="qterraformtocopper" name="To copper" code="CUSTOMACTION" parameter="qterraformtocopper" icon="copper" />
+		<item id="qterraformtosilver" name="To silver" code="CUSTOMACTION" parameter="qterraformtosilver" icon="silver" />
+		<item id="qterraformtogold" name="To gold" code="CUSTOMACTION" parameter="qterraformtogold" icon="gold" />
+		<item id="qterraformtolavarock" name="To lavarock" code="CUSTOMACTION" parameter="qterraformtolavarock" icon="lavarock" />
+		<!-- <item id="qterraformtolavadirt" name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" /> -->
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</terraforming>
 </menu>
