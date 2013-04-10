@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_items>
- 	<add>
+ 	<add id="palmtree">
 		<item>palmtree</item>
 		<qtty>100</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="tree">
 		<item>tree</item>
 		<qtty>400</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="treekeepersleep">
 		<item>treekeepersleep</item>
 		<qtty>1d5+5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="treekeepersleep2">
 		<item>treekeepersleep2</item>
 		<qtty>1d5+5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="tree2">
 		<item>tree2</item>
 		<qtty>400</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="peartree">
 		<item>peartree</item>
 		<qtty>60</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="appletree">
 		<item>appletree</item>
 		<qtty>60</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="jungletree">
 		<item>jungletree</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="bananatree">
 		<item>bananatree</item>
 		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="blueradishplant">
 		<item>blueradishplant</item>
 		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="bush">
 		<item>bush</item>
 		<qtty>70</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="bush2">
 		<item>bush2</item>
 		<qtty>70</qtty>
 		<pointx>1d200-1</pointx>
@@ -85,7 +85,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="bush3">
 		<item>bush3</item>
 		<qtty>140</qtty>
 		<pointx>1d200-1</pointx>
@@ -93,42 +93,42 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="junglebush">
 		<item>junglebush</item>
 		<qtty>30</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="bushbanana">
 		<item>bushbanana</item>
 		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="sproutblueradish">
 		<item>sproutblueradish</item>
 		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="bushapple">
 		<item>bushapple</item>
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="bushpear">
 		<item>bushpear</item>
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="mushroom">
 		<item>mushroom</item>
 		<qtty>8</qtty>
 		<pointx>1d200-1</pointx>
@@ -136,7 +136,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="redflower">
 		<item>redflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -144,7 +144,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="blueflower">
 		<item>blueflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -152,7 +152,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="yellowflower">
 		<item>yellowflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -160,7 +160,7 @@
 		<level>1d11</level>
 	</add>
 	
-	<add>
+	<add id="orangeflower">
 		<item>orangeflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -168,7 +168,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="purpleflower">
 		<item>purpleflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -176,7 +176,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="greenflower">
 		<item>greenflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -184,7 +184,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="pinkflower">
 		<item>pinkflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -192,7 +192,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="whiteflower">
 		<item>whiteflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -200,7 +200,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="blackflower">
 		<item>blackflower</item>
 		<qtty>40</qtty>
 		<pointx>1d200-1</pointx>
@@ -208,7 +208,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildwheat">
 		<item>wildwheat</item>
 		<qtty>70</qtty>
 		<pointx>1d200-1</pointx>
@@ -216,7 +216,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildsugarcane">
 		<item>wildsugarcane</item>
 		<qtty>60</qtty>
 		<pointx>1d200-1</pointx>
@@ -224,7 +224,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildbamboo">
 		<item>wildbamboo</item>
 		<qtty>60</qtty>
 		<pointx>1d200-1</pointx>
@@ -232,7 +232,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="planttrap">
 		<item>planttrap</item>
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>

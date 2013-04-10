@@ -180,18 +180,29 @@
 	<dungeon>
 		<level>11</level>
 		<type>__CAVE__</type>
-		
+		<monster>
+			<id>yellowslime</id>
+			<number>800</number>
+		</monster>
+		<monster>
+			<id>orangeslime</id>
+			<number>800</number>
+		</monster>
+		<monster>
+			<id>purpleslime</id>
+			<number>800</number>
+		</monster>
 		<monster>
 			<id>greenslime</id>
-			<number>1500</number>
+			<number>1000</number>
 		</monster>
 		<monster>
 			<id>redslime</id>
-			<number>1200</number>
+			<number>800</number>
 		</monster>
 		<monster>
 			<id>blueslime</id>
-			<number>900</number>
+			<number>500</number>
 		</monster>
 		
 	</dungeon>
