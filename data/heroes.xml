@@ -2,6 +2,7 @@
 <heroes>
 	<comePrerequisites>
 		<barbarian>
+			<freeRoom>true</freeRoom>
 			<levelDiscovered>2</levelDiscovered>
 			<minCitizens>10</minCitizens>
 			<zone>ztavern</zone>
@@ -54,6 +55,13 @@
 			<zone>ztavern</zone>
 		</sips>
 
+		<vechs>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>14</minCitizens>
+			<zone>ztavern</zone>
+		</vechs>
+
 		<punchwood>
 			<freeRoom>true</freeRoom>
 			<levelDiscovered>4</levelDiscovered>
@@ -61,6 +69,12 @@
 			<zone>ztavern</zone>
 		</punchwood>
 
+		<herbalist>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>14</minCitizens>
+			<zone>ztavern</zone>
+		</herbalist>
 
 		<santa>
       <freeRoom>true</freeRoom>
@@ -72,6 +86,7 @@
 
 	<stayPrerequisites>
 		<barbarian>
+			<freeRoom>true</freeRoom>
 			<levelDiscovered>2</levelDiscovered>
 			<minCitizens>8</minCitizens>
 			<zone>ztavern</zone>
@@ -124,12 +139,26 @@
 			<zone>ztavern</zone>
 		</sips>
 
+		<vechs>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>12</minCitizens>
+			<zone>ztavern</zone>
+		</vechs>
+
 		<punchwood>
 			<freeRoom>true</freeRoom>
 			<levelDiscovered>4</levelDiscovered>
 			<minCitizens>12</minCitizens>
 			<zone>ztavern</zone>
 		</punchwood>
+
+		<herbalist>
+			<freeRoom>true</freeRoom>
+			<levelDiscovered>4</levelDiscovered>
+			<minCitizens>12</minCitizens>
+			<zone>ztavern</zone>
+		</herbalist>
 
 		<santa>
       <freeRoom>true</freeRoom>
@@ -180,10 +209,20 @@
 			<explorePCT>65</explorePCT>
 		</sips>
 
+		<vechs>
+			<idlePCT>70</idlePCT>
+			<explorePCT>30</explorePCT>
+		</vechs>
+
 		<punchwood>
 			<idlePCT>30</idlePCT>
 			<explorePCT>70</explorePCT>
 		</punchwood>
+		
+		<herbalist>
+			<idlePCT>35</idlePCT>
+			<explorePCT>65</explorePCT>
+		</herbalist>
 
 		<santa>
 			<idlePCT>98</idlePCT>
@@ -234,10 +273,20 @@
 			<levels>6,11</levels>
 		</sips>
 
+		<vechs>
+			<skills>spawnbat,dropturrets,heal</skills>
+			<levels>4,7,11</levels>
+		</vechs>
+
 		<punchwood>
 			<skills>defenseaura,heal</skills>
 			<levels>6,11</levels>
 		</punchwood>
+
+		<herbalist>
+			<skills>explodingsprout,natureaid</skills>
+			<levels>4,11</levels>
+		</herbalist>
 
 		<santa>
 			<skills>giftgiving,heal</skills>

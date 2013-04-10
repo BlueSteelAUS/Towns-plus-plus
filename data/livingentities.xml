@@ -88,7 +88,7 @@
 		<type>HERO</type>
 		<hate>ENEMY</hate>
 
-		<name esES="Sips, el creador de campamentos">Sips, the Campmaker</name>
+		<name esES="Sips, el creador de campamentos">Sips, the campmaker</name>
 
 		<attack>1d900+1800</attack>
 		<attackSpeed>6</attackSpeed>
@@ -119,13 +119,112 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d20+50</moral>
 		<drop>
-			<item>corpse</item>
+			<item>sipscorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</sips>
 
+	<herbalist>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<name esES="El Herbalista">The Herbalist</name>
+
+		<attack>1d900+1800</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d450+350</defense>
+		<healthPoints>1d600+2000</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+200</damage>
+		<LOS>1d4+3</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>50</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+4160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>herbalist</heroComePrerequisite>
+		<heroStayPrerequisite>herbalist</heroStayPrerequisite>
+		<heroBehaviour>herbalist</heroBehaviour>
+		<heroSkills>herbalist</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>naturewand</equip>
+		<equipAllowed>cloth,bone,wand,misc</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d20+50</moral>
+		<drop>
+			<item>herbalistcorpse</item>
+			<PCT>100</PCT>
+		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
+	</herbalist>
+
+	<explosivesprout>
+		<type>ALLY</type>
+		<hate>ENEMY</hate>
+
+		<name esES="Brote explosivo">Explosive sprout</name>
+		<attack>1d419+190</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d139+30</defense>
+		<healthPoints>1d2050+2350</healthPoints>
+		<attackVerb esES="muerde">bite</attackVerb>
+		<attackVerbInfinitive esES="morder">bites</attackVerbInfinitive>
+		<damage>1d59+100</damage>
+
+		<LOS>1d2+3</LOS>
+		<movePCT>50</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<facingDirections>true</facingDirections>
+
+		<followEntity>herbalist</followEntity>
+		<followTurns>20</followTurns>
+
+		<effects>sproutexplosion,sproutexplosionpoison</effects>
+
+		<evadeTraps>true</evadeTraps>
+	</explosivesprout>
+
+	<tauntingtrunk>
+		<type>ALLY</type>
+		<hate>ENEMY</hate>
+
+		<name esES="Tronco provocador">Taunting trunk</name>
+		<attack>1d419+190</attack>
+		<attackSpeed>4</attackSpeed>
+		<defense>1d539+430</defense>
+		<healthPoints>1d2050+2550</healthPoints>
+		<attackVerb esES="cabezagolpea">headpunches</attackVerb>
+		<attackVerbInfinitive esES="cabezagolpear">headpunch</attackVerbInfinitive>
+		<damage>1d59+200</damage>
+
+		<LOS>1d2+3</LOS>
+		<movePCT>50</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<facingDirections>true</facingDirections>
+
+		<followEntity>herbalist</followEntity>
+		<followTurns>20</followTurns>
+
+		<effects>treeprotector</effects>
+
+		<evadeTraps>true</evadeTraps>
+	</tauntingtrunk>
+
+
 	<sadonskeleton>
-		<type>FRIENDLY</type>
+		<type>ALLY</type>
 		<hate>ENEMY</hate>
 
 		<name esES="Esquele-sadon">Sadon-keleton</name>
@@ -152,6 +251,132 @@
 			<PCT>100</PCT>
 		</drop>
 	</sadonskeleton>
+
+	<vechs>
+		<type>HERO</type>
+		<hate>ENEMY</hate>
+
+		<name esES="Vechs, el minero de pájaros">Vechs, the birds miner</name>
+
+		<attack>1d900+1800</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d450+550</defense>
+		<healthPoints>1d800+2000</healthPoints>
+		<attackVerb esES="golpea">punches</attackVerb>
+		<attackVerbInfinitive esES="golpear">punch</attackVerbInfinitive>
+		<damage>1d90+200</damage>
+		<LOS>1d4+4</LOS>
+
+		<movePCT>1d12+12</movePCT>
+		<walkSpeed>55</walkSpeed>
+
+		<HPRegeneration>1</HPRegeneration>
+		<maxHungryTurns>1d360+3440</maxHungryTurns>
+		<maxSleepTurns>1d240+4160</maxSleepTurns>
+		<eatZone>ztavern</eatZone>
+
+		<heroComePrerequisite>vechs</heroComePrerequisite>
+		<heroStayPrerequisite>vechs</heroStayPrerequisite>
+		<heroBehaviour>vechs</heroBehaviour>
+		<heroSkills>vechs</heroSkills>
+
+		<facingDirections>true</facingDirections>
+
+		<equip>firebow</equip>
+		<equipAllowed>cloth,wood,bone,misc,bow</equipAllowed>
+		<evadeTraps>true</evadeTraps>
+		<moral>1d20+55</moral>
+		<drop>
+			<item>vechscorpse</item>
+			<PCT>100</PCT>
+		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
+	</vechs>
+
+	<bat>
+		<type>ALLY</type>
+
+		<name>Fwap'a Durp</name>
+		<attack>1d419+190</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d539+530</defense>
+		<healthPoints>1d299+450</healthPoints>
+		<attackVerb esES="muerde">bite</attackVerb>
+		<attackVerbInfinitive esES="morder">bites</attackVerbInfinitive>
+		<damage>1d59+100</damage>
+
+		<LOS>1d3+3</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>55</walkSpeed>
+
+		<maxAge>1d2440+1440</maxAge>
+		<maxAgeLiving>bat2</maxAgeLiving>
+
+		<facingDirections>true</facingDirections>
+		<followEntity>citizenmale,citizenmale2,citizenmale3,citizenmale4,citizenmale5,citizenmale6,citizenfemale,citizenfemale2,citizenfemale3,citizenfemale4,citizenfemale5,citizenfemale6</followEntity>
+		<followTurns>164</followTurns>
+
+		<animatedWhenIdle>true</animatedWhenIdle>
+		<effects>batskill</effects>
+
+		<evadeTraps>true</evadeTraps>
+
+	</bat>
+
+	
+	<bat2>
+		<type>ALLY</type>
+
+		<name>Fwap'a Durp</name>
+		<attack>1d419+190</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d539+530</defense>
+		<healthPoints>1d299+450</healthPoints>
+		<attackVerb esES="muerde">bite</attackVerb>
+		<attackVerbInfinitive esES="morder">bites</attackVerbInfinitive>
+		<damage>1d59+100</damage>
+
+		<LOS>1d3+3</LOS>
+		<movePCT>80</movePCT>
+		<walkSpeed>65</walkSpeed>
+
+		<maxAge>150</maxAge>
+
+		<facingDirections>true</facingDirections>
+		<followEntity>vechs</followEntity>
+		<followTurns>20</followTurns>
+
+		<animatedWhenIdle>true</animatedWhenIdle>
+
+		<evadeTraps>true</evadeTraps>
+	</bat2>
+
+	<firespitter>
+		<type>ALLY</type>
+		<hate>ENEMY</hate>
+
+		<name esES="Escupidor de fuego">Fire spitter</name>
+		<attack>1d619+690</attack>
+		<attackSpeed>7</attackSpeed>
+		<defense>1d539+530</defense>
+		<healthPoints>1d599+550</healthPoints>
+		<attackVerb esES="quema">burn</attackVerb>
+		<attackVerbInfinitive esES="quemar">burns</attackVerbInfinitive>
+		<damage>1d389+200</damage>
+		<equip>firebow</equip>
+
+		<LOS>1d3+3</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>0</walkSpeed>
+
+		<maxAge>1950</maxAge>
+
+		<animatedWhenIdle>true</animatedWhenIdle>
+		<facingDirections>true</facingDirections>
+
+		<evadeTraps>true</evadeTraps>
+	</firespitter>
 
 	<punchwood>
 		<type>HERO</type>
@@ -188,11 +413,12 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d35+65</moral>
 
-
 		<drop>
-			<item>corpse</item>
+			<item>punchwoodcorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</punchwood>
 
 	<barbarian>
@@ -232,9 +458,11 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d50+20</moral>
 		<drop>
-			<item>corpse</item>
+			<item>barbariancorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</barbarian>
 
 	<dwarf>
@@ -273,17 +501,19 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d40+40</moral>
 		<drop>
-			<item>corpse</item>
+			<item>dwarfcorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</dwarf>
 
 	<elf>
 		<type>HERO</type>
 		<hate>ENEMY</hate>
 
-		<namePoolTag>norsename</namePoolTag>
-		<surnamePoolTag>surname</surnamePoolTag>
+		<namePoolTag>elvenname</namePoolTag>
+		<surnamePoolTag>elvensurname</surnamePoolTag>
 
 		<attack>1d1200+2000</attack>
 		<attackSpeed>6</attackSpeed>
@@ -314,9 +544,11 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d60+40</moral>
 		<drop>
-			<item>corpse</item>
+			<item>elfcorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</elf>
 
 
@@ -356,9 +588,11 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d70+30</moral>
 		<drop>
-			<item>corpse</item>
+			<item>magecorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</mage>
 
 
@@ -398,9 +632,11 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d60</moral>
 		<drop>
-			<item>corpse</item>
+			<item>roguemalecorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</malethief>
 
 	<femalethief>
@@ -440,9 +676,11 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d60</moral>
 		<drop>
-			<item>corpse</item>
+			<item>roguefemalecorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadfemale</fxDead>
 	</femalethief>
 
 	<highlander>
@@ -481,9 +719,11 @@
 		<evadeTraps>true</evadeTraps>
 		<moral>1d40+30</moral>
 		<drop>
-			<item>corpse</item>
+			<item>highlandercorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</highlander>
 
 	<knight>
@@ -523,9 +763,11 @@
 		<moral>1d35+65</moral>
 
 		<drop>
-			<item>corpse</item>
+			<item>knightcorpse</item>
 			<PCT>100</PCT>
 		</drop>
+
+		<fxDead>fxdeadmale</fxDead>
 	</knight>
 
 	<!-- FRIENDLY UNITS -->
@@ -872,6 +1114,127 @@
 		</drop>
 
 	</wildbull>
+
+	<sheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja">Sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>sheepfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<action>qkillsheep</action>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</sheep>
+
+	<skinnedsheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja trasquilada">Skinned sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>sheep</maxAgeLiving>
+
+		<action>qkillsheep</action>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</skinnedsheep>
+
+	<wildsheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja salvaje">Wild sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillsheep</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</wildsheep>
+
+	<skinnedwildsheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja salvaje trasquilada">Skinned wild sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillsheep</action>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildsheep</maxAgeLiving>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</skinnedwildsheep>
 
 	<bird>
 		<type>FRIENDLY</type>
@@ -1248,8 +1611,34 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
 	</snoat>
+
+	<skinnedsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Snoat trasquilado">Skinned snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>snoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</skinnedsnoat>
 
 	<milkedsnoat>
 		<type>FRIENDLY</type>
@@ -1897,7 +2286,7 @@
 
 	<ghost>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Fantasma de un antiguo héroe">Ghost of past heroes</name>
 		<habitat>snow</habitat>
@@ -1933,7 +2322,7 @@
 
 	<yeti>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Yeti">Yeti</name>
 		<habitat>snow</habitat>
@@ -1962,7 +2351,7 @@
 
 	<skyshark>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Tiburón volador">Flying shark</name>
 		<habitat>floatinggrass</habitat>
@@ -1989,7 +2378,7 @@
 
 	<treekeeper>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<habitat>grass2</habitat>
 
 		<name esES="Árbol guardián">Tree keeper</name>
@@ -2018,7 +2407,7 @@
 
 	<treekeeper2>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<habitat>grass3</habitat>
 
 		<name esES="Árbolguardián ">Tree keeper</name>
@@ -2048,7 +2437,7 @@
 
 	<undeadtree>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Árbol">Tree</name>
 		<habitat>lavadirt</habitat>
@@ -2074,7 +2463,7 @@
 
 	<browniechief>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<name esES="Brownie jefe">Brownie chieftain</name>
 		<habitat>brownievillage</habitat>
 		<attack>1d479+1360</attack>
@@ -2100,7 +2489,7 @@
 
 	<browniebat>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<name esES="Brownie jinete murciélago">Brownie bat rider</name>
 		<habitat>brownievillage</habitat>
 		<attack>1d479+1360</attack>
@@ -2129,7 +2518,7 @@
 
 	<browniewarrior>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Brownie guerrero">Brownie warrior</name>
 		<habitat>brownievillage</habitat>
@@ -2156,7 +2545,7 @@
 
 	<browniehunter>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<name esES="Brownie cazador">Brownie hunter</name>
 		<habitat>brownievillage</habitat>
 		<attack>1d239+680</attack>
@@ -2183,7 +2572,7 @@
 
 	<blacksnakecrab>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Serpiente cangrejo negra">Black snakecrab</name>
 		<habitat>sand</habitat>
@@ -2218,7 +2607,7 @@
 
 	<yellowsnakecrab>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Serpiente cangrejo amarilla">Yellow snakecrab</name>
 		<habitat>sand</habitat>
@@ -2253,7 +2642,7 @@
 
 	<froggy>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Froggy">Froggy</name>
 		<habitat>jungle</habitat>
@@ -2290,7 +2679,7 @@
 
 	<toady>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Toady">Toady</name>
 		<habitat>jungle</habitat>
@@ -2326,7 +2715,7 @@
 
 	<campfroggy>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Froggy">Froggy</name>
 		<habitat>junglefrog3</habitat>
@@ -2362,7 +2751,7 @@
 
 	<camptoady>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Toady">Toady</name>
 		<habitat>junglefrog3</habitat>
@@ -2432,7 +2821,7 @@
 
 	<werepig_transformed>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 
 		<name esES="Hombre cerdo">Werepig</name>
 		<habitat>grass</habitat>
@@ -2472,7 +2861,7 @@
 
 	<firehead>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>5</level>
 
 		<name esES="Cabeza de fuego">Fire head</name>
@@ -2507,7 +2896,6 @@
 
 	<stealingwolf>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
 		<level>2</level>
 
 		<name esES="Lobo ladrón">Snatching wolf</name>
@@ -2525,7 +2913,7 @@
 		<grouping>true</grouping>
 
 		<facingDirections>true</facingDirections>
-		<stealLivings>cow,bull,chicken,pig,skootenbeeten,unifallow</stealLivings>
+		<stealLivings>cow,milkedcow,bull,chicken,rooster,pig,boar,skootenbeeten,unifallow,milkedinufallow,snoat,milkedsnoat,</stealLivings>
 
 		<drop>
 			<item>RANDOM</item>
@@ -2545,7 +2933,6 @@
 
 	<evilbadger>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
 		<level>1</level>
 
 		<name esES="Tejón malvado">Evil badger</name>
@@ -2576,7 +2963,6 @@
 
 	<evilrogue>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
 		<level>2</level>
 
 		<name esES="Ladrón">Thief</name>
@@ -2607,7 +2993,7 @@
 	
 	<firespider>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<habitat>lavarock</habitat>
 
 		<name esES="Araña del fuego">Fire Spider</name>
@@ -2640,7 +3026,7 @@
 
 	<spider>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>1</level>
 
 		<name esES="Araña">Spider</name>
@@ -2674,10 +3060,10 @@
 
 	<greenslime>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>1</level>
 
-		<name esES="Gelatina verde">Green Slime</name>
+		<name esES="Gelatina verde">Green slime</name>
 		<attack>1d209+595</attack>
 		<attackSpeed>4</attackSpeed>
 		<defense>1d249+595</defense>
@@ -2707,7 +3093,7 @@
 
 	<giantspider>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>2</level>
 
 		<name esES="Araña gigante">Giant spider</name>
@@ -2741,7 +3127,7 @@
 
 	<spiderqueen>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
 		<name esES="Araña reina">Spider queen</name>
@@ -2773,7 +3159,7 @@
 
 	<goblin>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>2</level>
 
 		<name>Goblin</name>
@@ -2813,9 +3199,9 @@
 
 	<redslime>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>2</level>
-		<name esES="Gelatina roja">Red Slime</name>
+		<name esES="Gelatina roja">Red slime</name>
 		<attack>1d419+1190</attack>
 		<attackSpeed>2</attackSpeed>
 		<defense>1d539+1530</defense>
@@ -2845,7 +3231,7 @@
 
 	<goblinleader>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>2</level>
 
 		<name esES="Lider goblin">Goblin leader</name>
@@ -2888,8 +3274,10 @@
 
 	<nusepthegoblinking>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
+
+		<namePoolTag>goblin</namePoolTag>
 
 		<name esES="Nusep, el goblin rey">Nusep, the goblin king</name>
 		<attack>1d599+1700</attack>
@@ -2919,7 +3307,7 @@
 
 	<hobgoblin>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>3</level>
 
 		<name>Hobgoblin</name>
@@ -2963,7 +3351,7 @@
 
 	<cyclop>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>3</level>
 
 		<name esES="Cíclope">Cyclop</name>
@@ -2975,7 +3363,7 @@
 		<attackVerbInfinitive esES="quemar">burns</attackVerbInfinitive>
 		<damage>1d149+425</damage>
 
-		<effects>blunt5</effects>
+		<effects>blunt5,dauntingscream</effects>
 		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
 
 		<LOS>1d3+1</LOS>
@@ -3000,7 +3388,7 @@
 
 	<hobgoblinkaiser>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>3</level>
 
 		<name>Hobgoblin kaiser</name>
@@ -3044,7 +3432,7 @@
 
 	<draukthehobgoblinking>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
 		<name esES="Drauk, el rey hobgoblin">Drauk, the hobgoblin king</name>
@@ -3076,7 +3464,7 @@
 
 	<direwolf>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>4</level>
 
 		<name esES="Huargo">Direwolf</name>
@@ -3115,7 +3503,7 @@
 
 	<direwolfalpha>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>4</level>
 
 		<name esES="Huargo alfa">Direwolf alpha</name>
@@ -3154,7 +3542,7 @@
 
 	<sikuthewolf>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
 		<name esES="Siku, el lobo">Siku, the wolf</name>
@@ -3187,7 +3575,7 @@
 
 	<snickerblade>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>5</level>
 
 		<name>Snicker Blade</name>
@@ -3227,10 +3615,10 @@
 
 	<blueslime>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>5</level>
 
-		<name esES="Gelatina azul">Blue Slime</name>
+		<name esES="Gelatina azul">Blue slime</name>
 		<attack>1d539+1530</attack>
 		<attackSpeed>2</attackSpeed>
 		<defense>1d599+1700</defense>
@@ -3262,7 +3650,7 @@
 
 	<werewolf>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>6</level>
 
 		<name esES="Hombre lobo">Werewolf</name>
@@ -3295,7 +3683,7 @@
 
 	<snickerbladewizard>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>6</level>
 
 		<name esES="Snickerblade mago">Snickerblade wizard</name>
@@ -3336,7 +3724,7 @@
 
 	<nexythesnickeredge>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
 		<name esES="Nexy, el filosonriente">Nexy, the snicker edge</name>
@@ -3367,7 +3755,7 @@
 
 	<zombie>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>6</level>
 
 		<name>Zombie</name>
@@ -3405,7 +3793,7 @@
 
 	<infectedzombie>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>6</level>
 
 		<name esES="Zombie infectado">Infected zombie</name>
@@ -3442,7 +3830,7 @@
 
 	<toponovichthezombie>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
 		<name esES="Toponovich, el zombie">Toponovich, the zombie</name>
@@ -3472,7 +3860,7 @@
 
 	<ghoul>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>8</level>
 
 		<name>Ghoul</name>
@@ -3513,7 +3901,7 @@
 
 	<sneakyghoul>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>8</level>
 
 		<name esES="Ghoul sigiloso">Sneaky ghoul</name>
@@ -3554,7 +3942,7 @@
 
 	<vampire>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>8</level>
 
 		<name esES="Vampiro">Vampire</name>
@@ -3586,7 +3974,7 @@
 
 	<gaskonetheghoul>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
 		<name esES="Gaskone, el ghoul">Gaskone, the ghoul</name>
@@ -3617,7 +4005,7 @@
 
 	<ogre>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>9</level>
 
 		<name esES="Ogro">Ogre</name>
@@ -3656,7 +4044,7 @@
 
 	<lustyogre>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>9</level>
 
 		<name esES="Ogro vigoroso">Lusty ogre</name>
@@ -3694,7 +4082,7 @@
 
 	<humethealmightyogre>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
 		<name esES="Hume, el ogro todopoderoso">Hume, the almighty ogre</name>
@@ -3726,7 +4114,7 @@
 
 	<theburningpet>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>9</level>
 
 		<name esES="La mascota ardiente">The burning pet</name>
@@ -3768,7 +4156,7 @@
 
 	<cavetroll>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>6</level>
 
 		<name esES="Troll de las cavernas">Cave troll</name>
@@ -3812,7 +4200,7 @@
 
 	<berserkertroll>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>8</level>
 
 		<name esES="Troll berserker">Berserker troll</name>
@@ -3857,7 +4245,7 @@
 
 	<stonetroll>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>9</level>
 
 		<name esES="Troll de piedra">Stone troll</name>
@@ -3901,7 +4289,7 @@
 
 	<stonegolem>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>8</level>
 
 		<name esES="Golem de piedra">Stone golem</name>
@@ -3936,7 +4324,7 @@
 
 	<irongolem>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>9</level>
 
 		<name esES="Golem de hierro">Iron Golem</name>
@@ -3970,7 +4358,7 @@
 
 	<weretiger>
 		<type>ENEMY</type>
-		<hate>CITIZEN,HERO</hate>
+		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>9</level>
 
 		<name esES="Hombre tigre">Weretiger</name>
@@ -4029,6 +4417,7 @@
 		<moral>1d20+50</moral>
 		
 		<drop>
+<!-- need to get a santa corpse and death sound effect -->
 			<item>corpse</item>
 			<PCT>100</PCT>
 		</drop>

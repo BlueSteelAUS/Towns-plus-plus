@@ -1,6 +1,7 @@
-ï»¿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <buildings>
+<!-- no longer in use
 	<pigfarm>
 		<name esES="Granja de cerdos">Pig farm</name>
 		<description esES="Oinc, oinc!">Oink, oink!</description>
@@ -150,13 +151,12 @@
 		<prerequisiteFriendly>skootenbeeten,wildskootenbeeten</prerequisiteFriendly>
 
 		<automatic>true</automatic>
-	</skootenbeetenfarm>
-
+	</skootenbeetenfarm> -->
 <!--
 	<mill>
 		<name esES="Molino">Mill</name>
 		<description esES="Se usa para obtener harina">Use this to create flour</description>
-		<description esES="TambiÃ©n conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
+		<description esES="También conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
 		<width>2</width>
 		<height>2</height>
 		<groundData>00E1</groundData>
@@ -191,8 +191,9 @@
 
 
 	<!-- Blue Steel's mod Pack -->
+<!-- no longer in use 
 	<boarfarm>
-		<name esES="Granja de JabalÃ­">Boar farm</name>
+		<name esES="Granja de Jabalí">Boar farm</name>
 		<description esES="Oinc, oinc!">Oink, oink!</description>
 		<width>3</width>
 		<height>3</height>
@@ -280,5 +281,5 @@
 
 		<automatic>true</automatic>
 	</roosterfarm>
-
+-->
 </buildings>
