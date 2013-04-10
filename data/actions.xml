@@ -28,19 +28,6 @@
 	</action>
 
 	<action>
-		<id>quntillgrass</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Untill</name>
-
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<moveTerrain />
-			<changeTerrain>grass</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
 		<id>qtilljungle</id>
 		<priorityID>tilling</priorityID>
 		<name esES="Arar">Till</name>
@@ -50,19 +37,6 @@
 			<wait>54</wait>
 			<moveTerrain />
 			<changeTerrain>junglehumus</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
-		<id>quntilljungle</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Untill</name>
-
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<moveTerrain />
-			<changeTerrain>jungle</changeTerrain>
 		</queue>
 	</action>
 
@@ -80,19 +54,6 @@
 	</action>
 
 	<action>
-		<id>quntillsnow</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Untill</name>
-
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<moveTerrain />
-			<changeTerrain>snow</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
 		<id>qtillsand</id>
 		<priorityID>tilling</priorityID>
 		<name esES="Arar">Till</name>
@@ -102,19 +63,6 @@
 			<wait>54</wait>
 			<moveTerrain />
 			<changeTerrain>sandhumus</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
-		<id>quntillsand</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Untill</name>
-
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<moveTerrain />
-			<changeTerrain>sand</changeTerrain>
 		</queue>
 	</action>
 

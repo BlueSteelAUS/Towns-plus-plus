@@ -20,6 +20,7 @@ military*.png
 special*.png
 terrain*.png
 ui*.png
+bury.png
 
 data/campaigns/c1/*/*gen_dungeons.*
 data/campaigns/c1/*/*gen_items.*
@@ -33,6 +34,7 @@ Abattis Cantarell GPL License.txt
 changelog.txt
 license.txt
 steam_appid.txt
+changelog_language.txt
 
 caravans.xml
 effects.xml

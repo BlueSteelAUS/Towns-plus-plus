@@ -85,7 +85,7 @@
 		<prerequisiteFriendly>bull,wildbull</prerequisiteFriendly>
 
 		<automatic>true</automatic>
-	</cowfarm>
+	</cowfarm> -->
 
 	<sheepfarm>
 		<name esES="Granja de ovejas">Sheep farm</name>
@@ -115,7 +115,7 @@
 	</sheepfarm>
 
 
-	<badgerfarm>
+<!-- 	<badgerfarm>
 		<name esES="Granja de tejones">Badger farm</name>
 		<width>3</width>
 		<height>3</height>

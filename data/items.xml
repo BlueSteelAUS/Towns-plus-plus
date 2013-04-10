@@ -2573,21 +2573,6 @@
 		<alwaysOperative>false</alwaysOperative>
 	</roundbrickblock>
 
-	<icewall>
-		<name esES="Muro de hielo">Ice wall</name>
-
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<glue>true</glue>
-		<base>true</base>
-		<wall>true</wall>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<blocky>true</blocky>
-
-		<blockFluids>true</blockFluids>
-
-		<alwaysOperative>false</alwaysOperative>
-	</icewall>
 	<logblock>
 		<name esES="Muro de troncos">Log wall</name>
 		<type>construction.blockwalls</type>
@@ -3272,7 +3257,23 @@
 		<action>del_verticalladder</action>
 		<value>90</value>
 	</verticalladder>
+	
+	<domeroof>
+		<name esES="Techo cúpula">Dome roof</name>
 
+		<type>utils.misc</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>70</value>
+	</domeroof>
+	
 	<strawroofitem>
 		<name esES="Techo de paja">Straw roof</name>
 
@@ -14189,23 +14190,7 @@
 		<value>122</value>
 		<action>del_lizardtomb</action>
 	</lizardtomb>
-	
-	<gravebury>
-		<name esES="Tumba">Grave</name>
-		<alwaysOperative>false</alwaysOperative>
-		<locked>true</locked>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<buryLivings>ghost,zombie,vampire</buryLivings>
-		<buryLivingsPCT>55,25,5</buryLivingsPCT>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<value>22</value>
-	</gravebury>
-	
+		
 	<tombbury>
 		<name esES="Sepulcro">Tomb</name>
 		

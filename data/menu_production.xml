@@ -450,8 +450,6 @@
 			<item id="qbutchercow" code="QUEUE" parameter="qbutchercow" />
 			<item id="qbutcherpig" code="QUEUE" parameter="qbutcherpig" />
 			<item id="qbutchersnoat" code="QUEUE" parameter="qbutchersnoat" />
-			<item id="qbutcherunifallow" code="QUEUE" parameter="qbutcherunifallow" />
-			<item id="qbutcherskootenbeeten" code="QUEUE" parameter="qbutcherskootenbeeten" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</butchering>
 	
@@ -848,9 +846,6 @@
 			<item id="qsantahat2" code="QUEUE" parameter="qsantahat2" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</clothes>
-		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-	</vanity>
-
 
 		<colors name="Colors" esES="Colores" icon="ui_rcolors">
 			<item id="qbluecolor" code="QUEUE" parameter="qbluecolor" />
@@ -861,7 +856,8 @@
 			<item id="qorangecolor" code="QUEUE" parameter="qorangecolor" />
 			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</colors>
-		<colors name="Flowers" esES="Flores" icon="ui_flower">
+		
+		<flowers name="Flowers" esES="Flores" icon="ui_flower">
 			<item id="qgatherplantedblueflower" code="QUEUE" parameter="qgatherplantedblueflower" />
 			<item id="qgatherplantedredflower" code="QUEUE" parameter="qgatherplantedredflower" />
 			<item id="qgatherplantedyellowflower" code="QUEUE" parameter="qgatherplantedyellowflower" />
@@ -872,7 +868,7 @@
 			<item id="qgatherplantedwhiteflower" code="QUEUE" parameter="qgatherplantedwhiteflower" />
 			<item id="qgatherplantedblackflower" code="QUEUE" parameter="qgatherplantedblackflower" />
 			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</colors>
+		</flowers>
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</vanity>
 	

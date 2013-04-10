@@ -400,7 +400,7 @@
 		<item id="qnewunifallowfarm" code="QUEUEANDPLACEAREA" parameter="qnewunifallowfarm" icon="unifallow" />
 		<item id="qnewbadgerfarm" code="QUEUEANDPLACEAREA" parameter="qnewbadgerfarm" icon="badger" />
 		<item id="qnewsnoatfarm" code="QUEUEANDPLACEAREA" parameter="qnewsnoatfarm" icon="snoat" />
-		<item id="qsheepfarm" code="QUEUEANDPLACEAREA" parameter="qnewsheepfarm" icon="sheepfarm" />
+		<item id="sheepfarm" code="BUILD" parameter="sheepfarm" icon="sheepfarm" />
 
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
   	</farms>
