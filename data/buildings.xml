@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 
 <buildings>
 <!-- no longer in use
@@ -87,6 +87,34 @@
 		<automatic>true</automatic>
 	</cowfarm>
 
+	<sheepfarm>
+		<name esES="Granja de ovejas">Sheep farm</name>
+		<description esES="Beeeeeeeeeh!">Meeeeeeeeeeeeeeeeeeeee</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+		<mustBeBuiltOver>humus</mustBeBuiltOver>
+		<mustBeBuiltOver>jungle</mustBeBuiltOver>
+		<mustBeBuiltOver>grass</mustBeBuiltOver>
+		<mustBeBuiltOver>grass1</mustBeBuiltOver>
+		<mustBeBuiltOver>grass2</mustBeBuiltOver>
+		<mustBeBuiltOver>grass3</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower1</mustBeBuiltOver>
+		<mustBeBuiltOver>grassnoflower2</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>sheep,wildsheep</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</sheepfarm>
+
+
 	<badgerfarm>
 		<name esES="Granja de tejones">Badger farm</name>
 		<width>3</width>
@@ -156,7 +184,7 @@
 	<mill>
 		<name esES="Molino">Mill</name>
 		<description esES="Se usa para obtener harina">Use this to create flour</description>
-		<description esES="También conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
+		<description esES="Tambiè¬ conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
 		<width>2</width>
 		<height>2</height>
 		<groundData>00E1</groundData>
@@ -193,7 +221,7 @@
 	<!-- Blue Steel's mod Pack -->
 <!-- no longer in use 
 	<boarfarm>
-		<name esES="Granja de Jabalí">Boar farm</name>
+		<name esES="Granja de Jabalë ¾Boar farm</name>
 		<description esES="Oinc, oinc!">Oink, oink!</description>
 		<width>3</width>
 		<height>3</height>
