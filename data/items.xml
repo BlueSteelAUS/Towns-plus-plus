@@ -17305,6 +17305,8 @@
 	<orangeflower>
 		<name esES="N/A">Orange Flowers</name>
 		<habitat>grassnoflower</habitat>
+		<habitat>grassnoflower1</habitat>
+		<habitat>grassnoflower2</habitat>
 		<action>qcut</action>
 		<action>qgatherorangeflower</action>
 	</orangeflower>
@@ -17336,6 +17338,8 @@
 	<purpleflower>
 		<name esES="N/A">Purple Flowers</name>
 		<habitat>grassnoflower</habitat>
+		<habitat>grassnoflower1</habitat>
+		<habitat>grassnoflower2</habitat>
 		<action>qcut</action>
 		<action>qgatherpurpleflower</action>
 	</purpleflower>
@@ -17367,6 +17371,8 @@
 	<greenflower>
 		<name esES="N/A">Green Flowers</name>
 		<habitat>grassnoflower</habitat>
+		<habitat>grassnoflower1</habitat>
+		<habitat>grassnoflower2</habitat>
 		<action>qcut</action>
 		<action>qgathergreenflower</action>
 	</greenflower>
@@ -17398,6 +17404,8 @@
 	<pinkflower>
 		<name esES="N/A">Pink Flowers</name>
 		<habitat>grassnoflower</habitat>
+		<habitat>grassnoflower1</habitat>
+		<habitat>grassnoflower2</habitat>
 		<action>qcut</action>
 		<action>qgatherpinkflower</action>
 	</pinkflower>
@@ -17429,6 +17437,8 @@
 	<whiteflower>
 		<name esES="N/A">White Flowers</name>
 		<habitat>grassnoflower</habitat>
+		<habitat>grassnoflower1</habitat>
+		<habitat>grassnoflower2</habitat>
 		<action>qcut</action>
 		<action>qgatherwhiteflower</action>
 	</whiteflower>
@@ -17460,6 +17470,8 @@
 	<blackflower>
 		<name esES="N/A">Black Flowers</name>
 		<habitat>grassnoflower</habitat>
+		<habitat>grassnoflower1</habitat>
+		<habitat>grassnoflower2</habitat>
 		<action>qcut</action>
 		<action>qgatherblackflower</action>
 	</blackflower>
