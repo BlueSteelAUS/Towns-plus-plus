@@ -172,6 +172,24 @@
 		</effect>
 	</twistedmind>
 
+	<dropturrets>
+		<name esES="Saca escupidores de fuego">Spawn fire spitters</name>
+		<coolDown>1d150+150</coolDown>
+		<use>ENEMIES_IN_LOS</use>
+
+		<raiseDead>firespitter</raiseDead>
+		<maxRaised>5</maxRaised>
+	</dropturrets>
+
+	<spawnbat>
+		<name esES="Hurping">Hurping</name>
+		<coolDown>1d460+360</coolDown>
+		<use>ALWAYS</use>
+
+		<raiseDead>bat</raiseDead>
+		<maxRaised>1</maxRaised>
+	</spawnbat>
+
 	<defenseaura>
 		<name esES="Aura de defensa">Defense aura</name>
 		<coolDown>1d270+270</coolDown>
@@ -187,6 +205,23 @@
 		</effect>
 	</defenseaura>
 
+	<explodingsprout>
+		<name esES="Saca brotes explosivos">Spawn exploding sprouts</name>
+		<coolDown>1d150+150</coolDown>
+		<use>ALWAYS</use>
+
+		<raiseDead>explosivesprout</raiseDead>
+		<maxRaised>5</maxRaised>
+	</explodingsprout>
+
+	<natureaid>
+		<name esES="CHANGETHIS">Nature aid</name>
+		<coolDown>1d650+650</coolDown>
+		<use>ALWAYS</use>
+
+		<raiseDead>tauntingtrunk</raiseDead>
+		<maxRaised>1</maxRaised>
+	</natureaid>
 
   <giftgiving>
     <name esES="N/A">Gift Giving</name>
