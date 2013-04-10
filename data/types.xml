@@ -23,13 +23,13 @@
 
 	<rawmaterials.materials esES="Materiales" icon="ui_rmaterials">Materials</rawmaterials.materials>
 	<rawmaterials.colors esES="Colores" icon="ui_rcolors">Colors</rawmaterials.colors>
-	<rawmaterials.hides esES="Pieles" icon="ui_rhides">Hides</rawmaterials.hides>
-	<rawmaterials.misc esES="Misc." icon="ui_misc">Misc.</rawmaterials.misc>
 
 	<prepfood.fruit esES="Fruta" icon="ui_fruit">Fruit</prepfood.fruit>
 	<prepfood.baked esES="Horneada" icon="ui_rbaking">Baked</prepfood.baked>
 	<prepfood.cooked esES="Cocinada" icon="ui_rfoodcooking">Cooked</prepfood.cooked>
 
+	<rawmaterials.hides esES="Pieles" icon="ui_rhides">Hides</rawmaterials.hides>
+	<rawmaterials.misc esES="Misc." icon="ui_misc">Misc.</rawmaterials.misc>
 
 	<utils.misc esES="Misc." icon="ui_misc">Misc.</utils.misc>
 	<utils.materials esES="Materiales" icon="ui_rmaterials">Materials</utils.materials>
@@ -63,12 +63,14 @@
 	<armor.vanity esES="Vanidad" icon="ui_rclothes">Vanity</armor.vanity>
 	<decorative.indoor esES="Interior" icon="ui_indoor">Indoor</decorative.indoor>
 	<decorative.outdoor esES="Exterior" icon="ui_outdoor">Outdoor</decorative.outdoor>
+	<decorative.special esES="Especiales" icon="ui_outdoor">Special</decorative.special>
 	<weapon.gold esES="Oro" icon="ui_rweapon_golden">Gold</weapon.gold>
 	<armor.gold esES="Oro" icon="ui_rarmor_golden">Gold</armor.gold>
 	<weapon.silver esES="Plata" icon="ui_rweapon_silver">Silver</weapon.silver>
 	<armor.silver esES="Plata" icon="ui_rarmor_silver">Silver</armor.silver>
 	<weapon.special esES="Especiales" icon="ui_sp_weapons">Special</weapon.special>
 	<armor.special esES="Especiales" icon="ui_sp_armors">Special</armor.special>
+	<armor.cloth esES="Tela" icon="ui_rarmor_cloth">Cloth</armor.cloth>
 	
 	<!-- CB262 ROTATED ITEMS -->
 	<cb262.furniture esES="Muebles">CB262 Furniture</cb262.furniture>
