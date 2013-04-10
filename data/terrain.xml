@@ -34,6 +34,7 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograssnoflower</action>
 		<action>qterraformtograssnoflower1</action>
@@ -63,6 +64,7 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograssnoflower</action>
 		<action>qterraformtograssnoflower1</action>
@@ -92,6 +94,7 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograssnoflower</action>
 		<action>qterraformtograssnoflower1</action>
@@ -121,6 +124,7 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograssnoflower</action>
 		<action>qterraformtograssnoflower1</action>
@@ -150,6 +154,7 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower1</action>
@@ -179,6 +184,8 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -208,6 +215,7 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -237,6 +245,7 @@
 		<dropPCT>20</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
