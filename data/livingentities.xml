@@ -4417,7 +4417,6 @@
 		<moral>1d20+50</moral>
 		
 		<drop>
-<!-- need to get a santa corpse and death sound effect -->
 			<item>corpse</item>
 			<PCT>100</PCT>
 		</drop>

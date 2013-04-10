@@ -9478,7 +9478,9 @@
 			<pick>gatheredorangeflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
-			<destroyI			<pick>gatheredorangeflower</pick>m>orangecolor</createItem>
+			<destroyItem />
+			<unlock />
+			<createItem>orangecolor</createItem>
 		</queue>
 	</action>
 
