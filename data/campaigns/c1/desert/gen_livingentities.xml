@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_livingentities>
-	<add>
+	<add id="wildchicken">
 		<entity>wildchicken</entity>
 		<qtty>70</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="wildrooster">
 		<entity>wildrooster</entity>
 		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="wildunifallow">
 		<entity>wildunifallow</entity>
 		<qtty>70</qtty>
 		<pointx>1d200-1</pointx>
@@ -22,7 +22,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="blacksnakecrab">
 		<entity>blacksnakecrab</entity>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
@@ -30,7 +30,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="yellowsnakecrab">
 		<entity>yellowsnakecrab</entity>
 		<qtty>5</qtty>
 		<pointx>1d200-1</pointx>

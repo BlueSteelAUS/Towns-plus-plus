@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_livingentities>
-	<add>
+	<add id="wildcow">
 		<entity>wildcow</entity>
 		<qtty>35</qtty>
 		<pointx>1d200-1</pointx>
@@ -8,7 +8,15 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildsheep">
+		<entity>wildsheep</entity>
+		<qtty>35</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add id="wildbull">
 		<entity>wildbull</entity>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
@@ -16,14 +24,15 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildpig">
 		<entity>wildpig</entity>
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+
+	<add id="wildboar">
 		<entity>wildboar</entity>
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
@@ -31,7 +40,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildskootenbeeten">
 		<entity>wildskootenbeeten</entity>
 		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
@@ -39,14 +48,14 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="bird">
 		<entity>bird</entity>
 		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="werepig">
 		<entity>werepig</entity>
 		<qtty>1d2</qtty>
 		<pointx>1d200-1</pointx>
@@ -54,7 +63,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildbadger">
 		<entity>wildbadger</entity>
 		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
@@ -62,7 +71,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildchicken">
 		<entity>wildchicken</entity>
 		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
@@ -70,7 +79,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="wildrooster">
 		<entity>wildrooster</entity>
 		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
@@ -78,8 +87,7 @@
 		<level>1d11</level>
 	</add>
 
-
-	<add>
+	<add id="froggy">
 		<entity>froggy</entity>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
@@ -87,7 +95,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="toady">
 		<entity>toady</entity>
 		<qtty>1</qtty>
 		<pointx>1d200-1</pointx>

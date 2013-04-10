@@ -1,62 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_livingentities>
-	<add>
+	<add id="wildcow">
 		<entity>wildcow</entity>
 		<qtty>5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
-		<entity>wildbull</entity>
-		<qtty>15</qtty>
+
+	<add id="wildsheep">
+		<entity>wildsheep</entity>
+		<qtty>5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+
+	<add id="werepig">
 		<entity>werepig</entity>
 		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+
+	<add id="wildpig">
 		<entity>wildpig</entity>
 		<qtty>5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+	<add id="wildboar">
 		<entity>wildboar</entity>
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-		<add>
+	<add id="wildbadger">
 		<entity>wildbadger</entity>
 		<qtty>5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+
+	<add id="wildskootenbeeten">
 		<entity>wildskootenbeeten</entity>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+
+	<add id="froggy">
 		<entity>froggy</entity>
 		<qtty>80</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add>
+
+	<add id="toady">
 		<entity>toady</entity>
 		<qtty>3</qtty>
 		<pointx>1d200-1</pointx>
@@ -64,7 +70,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="campfroggy">
 		<entity>campfroggy</entity>
 		<qtty>45</qtty>
 		<pointx>1d200-1</pointx>
@@ -72,7 +78,7 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="camptoady">
 		<entity>camptoady</entity>
 		<qtty>3</qtty>
 		<pointx>1d200-1</pointx>
@@ -80,37 +86,35 @@
 		<level>1d11</level>
 	</add>
 
-	<add>
+	<add id="browniechief">
 		<entity>browniechief</entity>
 		<qtty>3</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
-
 	</add>
-	<add>
+
+	<add id="browniebat">
 		<entity>browniebat</entity>
 		<qtty>5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
-
 	</add>
 
-	<add>
+	<add id="browniehunter">
 		<entity>browniehunter</entity>
 		<qtty>18</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
-
 	</add>
-	<add>
+
+	<add id="browniewarrior">
 		<entity>browniewarrior</entity>
 		<qtty>18</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
-
 	</add>
 </gen_livingentities>
