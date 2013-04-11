@@ -1,4 +1,4 @@
-﻿[code]
+[code]
 
 Changes since Towns++_v11a7
 ============================
@@ -34,6 +34,13 @@ LittleMikey's Contributions:
 
 BlueSteel's Contributions
 =========================
+-> Finished terraforming , now requires 4 * resource obtained from what your converting to
+-> Deleted rotatable gifts ( difference not very noticable when rotated)
+-> Rebalanced resources gained from mining/digging
+-> Added rmmud to all forests when digging/mining
+
+
+
 
 [/code]
 
@@ -45,7 +52,7 @@ My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL3
 More videos and live streams will be done as time permits
 [/quote]
 
-[size=200][color=#0000FF]Towns++ v11a8 (for Towns 11a)[/color][/size]
+[size=200][color=#0000FF]Towns++ v12 (for Towns v12)[/color][/size]
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
 This mod pack changes the general layout of the right menu panel and the main (bottom)
@@ -208,8 +215,6 @@ Add a marketer for stuff not yet being sold
 Re-Do the Stocks menu so that it fits along with my modified menus
 Contact others about including their works
 Tidy up the xnl files and make them more uniformly organised for easier editing
-Re-organise both the stocks menu (huge task.) and production menmu
-
 
 change logs
 ===========
