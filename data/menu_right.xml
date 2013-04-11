@@ -228,13 +228,13 @@
 			<item id="qbonestairs" code="QUEUEANDPLACEAREA" parameter="qbonestairs" />
 -->
 			<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
+			<item id="qverticalladder" code="QUEUEANDPLACEAREA" parameter="qverticalladder" />
 			<item id="qdirtstairs2a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs2a" />
 			<item id="qdirtstairs1a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs1a" />
 			<item id="qbonestairs_1_N" code="QUEUEANDPLACEAREA" parameter="qbonestairs_1_N" />			
 			<item id="qwoodstairs3a" code="QUEUEANDPLACEAREA" parameter="qwoodstairs3a" />
 			<item id="qwoodstairs2a" code="QUEUEANDPLACEAREA" parameter="qwoodstairs2a" />
 			<item id="qwoodstairs1a" code="QUEUEANDPLACEAREA" parameter="qwoodstairs1a"/>
-			<item id="qverticalladder" code="QUEUEANDPLACEAREA" parameter="qverticalladder" />
 			<item id="qstonestairs5a" code="QUEUEANDPLACEAREA" parameter="qstonestairs5a" />			
 			<item id="qstonestairs1a" code="QUEUEANDPLACEAREA" parameter="qstonestairs1a" />
 			<item id="qstonestairs2a" code="QUEUEANDPLACEAREA" parameter="qstonestairs2a" />
@@ -243,7 +243,7 @@
 			<item id="qsandstairs1a" code="QUEUEANDPLACEAREA" parameter="qsandstairs1a" />
 			<item id="qsandstairs2a" code="QUEUEANDPLACEAREA" parameter="qsandstairs2a" />
 			<item id="qsandstairs3a" code="QUEUEANDPLACEAREA" parameter="qsandstairs3a" />
-			<cb262_stairs2 name="Coloured Stairs" esES="Escaleras de colores" icon="ui_colouredstairs">
+			<cb262_stairs2 name="Coloured Stairs" esES="Escaleras de colores" icon="redstonestairs1">
 				<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 				<item id="qredstonestairs1" code="QUEUEANDPLACEAREA" parameter="qredstonestairs1" />
 				<item id="qbluestonestairs1" code="QUEUEANDPLACEAREA" parameter="qbluestonestairs1" />
@@ -269,7 +269,6 @@
 				<item id="qlogwall" code="QUEUEANDPLACEAREA" parameter="qlogwall" />
 				<item id="qlogblock" code="QUEUEANDPLACEAREA" parameter="qlogblock" />
 				<item id="qlogblock2" code="QUEUEANDPLACEAREA" parameter="qlogblock2" />
-				<item id="qdiagonallogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonallogblock" />
 				<item id="qdiagonallogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonallogblock" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</log>
