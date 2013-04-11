@@ -5,7 +5,7 @@ Changes since Towns++_v11a7
 BlueSteel's Contributions
 =========================
 -> Finished terraforming , now requires 4x resource obtained from what you're converting to
--> Deleted rotatable gifts (difference not very noticable when rotated)
+-> Deleted rotatable gifts (difference not very noticeable when rotated)
 -> Rebalanced resources gained from mining/digging
 -> Added rmmud to all forests when digging/mining
 
@@ -13,7 +13,7 @@ LittleMikey's Contributions:
 ============================
 -> Fixed butcher Boars for Pork.
 -> New Names by ericb1800.
--> New Oasis map by me. This map features a large Oasis, with a very empty desert surounding it.
+-> New Oasis map by me. This map features a large Oasis, with a very empty desert surrounding it.
    Resources are hard to find, it's very rare to get surface minerals, and the only easy to get
    food sources are Fish from the Oasis and Cactus Fruit. You will need to rely on Market Caravans
    to bring you more food types if you want to expand!
@@ -111,25 +111,25 @@ You have been warned...
 
 Changed the Font to use Metamorphous size 18 for easier reading (licence included in main directory) 
 Incorporated Cobalt262's Rotating stairs mod 
-Incorporated Cobalt262's Rotating furnature mod
+Incorporated Cobalt262's Rotating furniture mod
 Incorporated JackPS9 Fishing hobby priority setting mod and altered the default order of the priorities
-Added in Terraforming (on the bottom menu. Hit the red button on the right to scroll accross to it.)
+Added in Terraforming (on the bottom menu. Hit the red button on the right to scroll across to it.)
 
 Re-organized the menus.
 
 Changed all CREATEANDPLACEs etc to CREATEANDPLACEAREA so now you can place a
 group of anything down at a time.
 
-Added TerraneChange to other miscelanous terrains, now you convert any terrain
+Added terrain change to other miscellaneous terrains, now you convert any terrain
 (except water, air and lava) to any other main terrain. (This will be balanced in 
 a future update so you need a sample of the terrain you want to change to in order to 
 convert it. For example, you will need a gold ore to terraform a tile into a gold deposit.)
 
-Split the tererrainchange priority into terrainchange and chopping,
-now chopping trees has a seperate priotity to tilling and terraforming.
+Split the terrainchange priority into terrainchange and chopping,
+now chopping trees has a separate priority to tilling and terraforming.
 
 Split foodcooking priority into baking, processing, cooking,
-making seperate jobs for each (processing is making flour,sugar,salad at the moment).
+making separate jobs for each (processing is making flour,sugar,salad at the moment).
 
 
 Remember
@@ -155,10 +155,10 @@ well with what i already have.
 NOTES: * Waiting on Xavi to get back to me on not being able to add resources consumption in Terraforming
         * Terraforming at the moment free. but will eventually cost resources
         * All item placement (right menu) is now set to QUEUEANDPLACEAREA to make
-          the game more accessable to disabled prople like myself, who can't easily
+          the game more accessible to disabled people like myself, who can't easily
           hold down keys and move the mouse at the same time.
 
-Permissions to include their work recieved from:
+Permissions to include their work received from:
 ================================================
 JackPS9
 YetiChow
@@ -168,9 +168,9 @@ FONDZ
 Ricky
 RedValkyrie
 Wolfy
-Jontis_00 (upon request per mod) so yes only certian mods of his
+Jontis_00 (upon request per mod) so yes only certain mods of his
 (and a few others really early on who's mods are now no long in or have been edited way beyond
-what was originaly their mod. these mods were way back in the early days, some of which
+what was originally their mod. these mods were way back in the early days, some of which
 (including some of my own work) have even made their way into the main game of Towns in one form or another 
 
 Just because i have permission doesn't mean that I have any of their work in my mod
@@ -193,7 +193,7 @@ to keep balance in the game so that it is still difficult enough to enjoy.
 Its not a meant as Cheating mechanism or a dedicate creative mod where you
 get stuff for nothing.
 
-IF you want to use part of my mod as a seperate mod for distribution please ask and give Credit
+IF you want to use part of my mod as a separate mod for distribution please ask and give Credit
 Feel free to link to this tread and my mod's links (d/loads,YouTube,Streaming)
 But do not place this mod anywhere else for Distribution
 
@@ -212,7 +212,7 @@ Remake all my SPECIAL map generators that everyone seemed to enjoy (really big t
 Add a marketer for stuff not yet being sold
 Re-Do the Stocks menu so that it fits along with my modified menus
 Contact others about including their works
-Tidy up the xnl files and make them more uniformly organised for easier editing
+Tidy up the XML files and make them more uniformly organised for easier editing
 
 change logs
 ===========
@@ -231,7 +231,7 @@ LittleMikey's Contributions:
 -> Fixed issues with butchering new animals for bones.
 -> Added new decorations for Tavern Tables.
 -> Added lighting to more decorations.
--> Fixed mine action name for mineshafts.
+-> Fixed mine action name for mine-shafts.
 -> Fixed tilling Jungle tiles.
 -> Fixed tilling Desert tiles
 -> Made changes to Winter Items, including some snowmen that didn't fit in, and changed one of the hats to green.
@@ -239,11 +239,11 @@ LittleMikey's Contributions:
 -> Fixed issue with creating a Desert map.
 -> Added new stockpile for Construction items. Now you can store your building parts and construct buildings much faster!
    NOTE: There is no container for the Construction Stockpile. Have you ever tried to put a wall into a barrel? 
--> Added new farms, with graphics by me! (Sorry about them). These count as items intead of buildings, so they only 
+-> Added new farms, with graphics by me! (Sorry about them). These count as items instead of buildings, so they only 
    take up a 1x1 space. However they still have the same wait time as a building to produce a new animal.
    NOTE: Queue production in the left menu. The game will not tell you how many of an animal you have, but as long
    as you set production above 0 your villagers will produce more animals.
--> Added "Destruction" menu tab. Currently it contains delete scaffold and delete rubble from mineshafts. It will 
+-> Added "Destruction" menu tab. Currently it contains delete scaffold and delete rubble from mine-shafts. It will 
    be expanded in the future.
 -> Changed dead female sound effect. Now quieter and shorter. 
 -> Reduced number of birds spawning on "Normal" and "Deeper Dungeons" maps.
@@ -285,12 +285,12 @@ LittleMikey's Contributions:
 
 BlueSteel's Contributions
 =========================
--> Made a seperate campaign for Mikeheni's maps (same will be done for anyone elses maps I decide to include)
--> added winter items to ptoduction menmu and vanity stock panel for the time beeing, until i redo the stock panel
+-> Made a separate campaign for Mikehendi's maps (same will be done for anyone else's maps I decide to include)
+-> added winter items to production menu and vanity stock panel for the time being, until i redo the stock panel
 -> removed Bones from the butchers production panel as they are in the rawmats production panel
 -> changed Burner-> coal to mats-> coal to keep things straight in the production panel (The way the burner panel 
  is set up it'll limit the amount of stock you have set it to burning off the excess, so I have read on the forums)
--> Added make cold from 2 wook to right click action of butner
+-> Added make coal from 2 wood to right click action of burner
 
 
 
@@ -300,9 +300,9 @@ Re-Organised menu_right again,
 -> Combined walls,doors,roofs,floors into a submenu called Construction (not happy with the name but it'll do for now)
 -> Moved Animal farms out of buildings menu into its own spot next to Crops menu(was Planting)
 
-Re-organised and added lots of Stuff to menu_production to better syncronise with the menu_right
+Re-organised and added lots of Stuff to menu_production to better synchronise with the menu_right
 
-Split terranechange into Tilling and terrainchange (for Terraforming)
+Split terrainchange into Tilling and terrainchange (for Terraforming)
 Split gathering and harvesting job/priority (gathering is anything non plant related, eg: water,snow buckets, milk, eggs etc)
 To make sugar you now need to use the mill just as you do with flour
 Moved making sugar to processing jobs/priority
@@ -314,30 +314,30 @@ Changes since BSMP_11a2
 Changed all CREATEANDPLACE's etc to CREATEANDPLACEAREA so now you can place a
 group of anything down at a time
 
-Added TerraneChange to other miscelanous terrains, now you convert any terrain
+Added TerraneChange to other miscellaneous terrains, now you convert any terrain
 (except water and air and lava) to any other main terrain
 
 Split the tererrainchange priority into terrainchange and chopping,
-now chopping trees has a seperate priotity to tilling and terraforming 
+now chopping trees has a separate priority to tilling and terraforming 
 
 Split foodcooking priority into baking, processing, cooking,
-making seperate jobs for each (processing is making flour,sugar,salad at the moment)
+making separate jobs for each (processing is making flour,sugar,salad at the moment)
 
 Changes since BSMP_11a
 ========================
-Changed the Font to use Metamorphous size 18 for easier reading (licence included in main diredtory) 
+Changed the Font to use Metamorphous size 18 for easier reading (licence included in main directory) 
 Incorporated Cobalt262's Rotating stairs mod 
-Incorporated Cobalt262's Rotating furnature mod (adds some new stuff and changes barrels capacities to 25,
+Incorporated Cobalt262's Rotating furniture mod (adds some new stuff and changes barrels capacities to 25,
 still have more things to make rotatable though)
 Incorporated JackPS9 Fishing hobby priority setting mod and altered the Default order of the priorities
-Added in Terraforming (on the bottom menu. hit the red button on the right to scroll accross to it)
+Added in Terraforming (on the bottom menu. hit the red button on the right to scroll across to it)
 Edited all the menu's again because of the huge number of additions
 
 
 Changes since BSMP_10b.1
 ========================
-Implimented graphics from morefarms mod by EricB1800
-Implimented EFloors mod by EricB1800
+Implemented graphics from morefarms mod by EricB1800
+Implemented EFloors mod by EricB1800
 
 tweaked animal feeding times making them only need food half as fast same for them starving
 added apples/pears to pigs and boars diets
@@ -360,20 +360,20 @@ Changes made to BSMP_8a_20121111_1308 version.
 =============================================
 fixed: missing butchering of bulls,roosters,boars
 fixed: missing butcherforbones of bulls,boars
-fixed: wrong UI inages for rooster and boar farms
+fixed: wrong UI images for rooster and boar farms
 added: gather red/yellow/blue flowers to vanity / materials production menu
  
 
 Changes to previous version.
 
 updated to run on 8a
-minor tweaks for consistancy
+minor tweaks for consistency
 updated to run on 0.60
 removed old custom maps
 
 on the way
 looking into problems with spawned wheat seedlings able to be being moved
-looking into making my own catagories in the stock panel for better grouping inline with my UI
+looking into making my own categories in the stock panel for better grouping in-line with my UI
 work on new custom maps / difficulty / terrain  etc...
 
 Changes in BS_MP_0-47b_20120606_1225 from previous version of mod pack
@@ -442,7 +442,7 @@ Changes in BS_MP_0-47a_20120527_1445  from previous version of modpack
 Fixed missing Flour entry in AP food gathering menu
 removed bones from ap menu food butchering menu (because bones aren't food) they are in the ap materials menu
 
-no other changes apart from updating iit all to work with the new stuff in 0.47a
+no other changes apart from updating it all to work with the new stuff in 0.47a
 
 
 Changes in BS_MP_0-47_20120526_1422 from previous version of modpack
