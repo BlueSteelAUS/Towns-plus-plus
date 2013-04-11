@@ -1,61 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <campaigns>
-<!-- Not included yet
-	<campaign>
-		<id>c0</id>
-		<name>BlueSteel's Maps</name>
-		<mission>
-			<id>WIP</id>
-			<name>BlueSteel's WIP map</name>
-		</mission>
-	</campaign>
--->
-	<campaign>
-		<id>LittleMikey</id>
-		<name esES="Mapas de LittleMikey">LittleMikey's Maps</name>
-		<mission>
-			<id>LittleMikey Oasis</id>
-			<name esES="N/A">Oasis</name>
-		</mission>
-	</campaign>
 
-	<campaign>
-		<id>MikeHendi</id>
-		<name esES="Mapas de MikeHend">MikeHendi's Maps</name>
-		<mission>
-			<id>MikeHendi Deep Dungeons</id>
-			<name esES="Mazmorras Profundas">Deep Dungeons</name>
-		</mission>
-	</campaign>
-
-	<campaign>
-		<id>c1</id>
-		<name esES="Mapas">Maps</name>
-		<mission>
-			<id>normal</id>
-			<name esES="Mapa normal">Normal map</name>
-		</mission>
-		<mission>
-			<id>desert</id>
-			<name esES="Desierto">Desert</name>
-		</mission>
-		<mission>
-			<id>jungle</id>
-			<name esES="Jungla">Jungle</name>
-		</mission>
-		<mission>
-			<id>mixed</id>
-			<name esES="Mezclado">Mixed</name>
-		</mission>
-		<mission>
-			<id>snow</id>
-			<name esES="Nieve">Snow</name>
-		</mission>
-		<mission>
-			<id>mountains</id>
-			<name esES="Montañas">Mountains</name>
-		</mission>
-	</campaign>
 	<campaign>
 		<id>c2</id>
 		<name esES="Tutorial">Tutorial</name>
@@ -137,4 +82,64 @@
 			</objective>
 		</mission>
 	</campaign>
+
+	<campaign>
+		<id>c1</id>
+		<name esES="N/A">Default Maps</name>
+		<mission>
+			<id>normal</id>
+			<name esES="Mapa normal">Normal map</name>
+		</mission>
+		<mission>
+			<id>desert</id>
+			<name esES="Desierto">Desert</name>
+		</mission>
+		<mission>
+			<id>jungle</id>
+			<name esES="Jungla">Jungle</name>
+		</mission>
+		<mission>
+			<id>mixed</id>
+			<name esES="Mezclado">Mixed</name>
+		</mission>
+		<mission>
+			<id>snow</id>
+			<name esES="Nieve">Snow</name>
+		</mission>
+		<mission>
+			<id>mountains</id>
+			<name esES="Montañas">Mountains</name>
+		</mission>
+	</campaign>
+
+<!-- Not included yet
+	<campaign>
+		<id>c0</id>
+		<name>BlueSteel's Maps</name>
+		<mission>
+			<id>WIP</id>
+			<name>BlueSteel's WIP map</name>
+		</mission>
+	</campaign>
+-->
+
+	<campaign>
+		<id>LittleMikey</id>
+		<name esES="Mapas de LittleMikey">LittleMikey's Maps</name>
+		<mission>
+			<id>LittleMikey Oasis</id>
+			<name esES="N/A">Oasis</name>
+		</mission>
+	</campaign>
+
+	<campaign>
+		<id>MikeHendi</id>
+		<name esES="Mapas de MikeHend">MikeHendi's Maps</name>
+		<mission>
+			<id>MikeHendi Deep Dungeons</id>
+			<name esES="Mazmorras Profundas">Deep Dungeons</name>
+		</mission>
+	</campaign>
+
+
 </campaigns>
