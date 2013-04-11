@@ -14654,7 +14654,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to dirt from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>dirt</changeTerrain>
 		</queue>
@@ -14665,7 +14676,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>grass</changeTerrain>
 		</queue>
@@ -14676,7 +14698,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to jungle from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>jungle</changeTerrain>
 		</queue>
@@ -14687,7 +14720,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to snow from</name>
 		<queue>
+			<pick>snowpile</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>snowpile</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>snowpile</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>snowpile</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>snow</changeTerrain>
 		</queue>
@@ -14698,7 +14742,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to sand from</name>
 		<queue>
+			<pick>rmsand</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmsand</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmsand</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmsand</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>sand</changeTerrain>
 		</queue>
@@ -14709,7 +14764,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to stone from</name>
 		<queue>
+			<pick>rmstone</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>stone</changeTerrain>
 		</queue>
@@ -14720,7 +14786,18 @@
 		<priorityID>chopping</priorityID>
 		<name esES="Des-arar">Turn to gravel from</name>
 		<queue>
+			<pick>rmflint</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmflint</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmflint</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmflint</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>gravel</changeTerrain>
 		</queue>
@@ -14731,7 +14808,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to coal from</name>
 		<queue>
+			<pick>rmcoal</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmcoal</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmcoal</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmcoal</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>coal</changeTerrain>
 		</queue>
@@ -14742,7 +14830,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to iron from</name>
 		<queue>
+			<pick>rmiron</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmiron</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmiron</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmiron</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>iron</changeTerrain>
 		</queue>
@@ -14753,7 +14852,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to silver from</name>
 		<queue>
+			<pick>rmsilver</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>silver</changeTerrain>
 		</queue>
@@ -14764,7 +14874,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to gold from</name>
 		<queue>
+			<pick>rmgold</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmgold</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmgold</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmgold</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>gold</changeTerrain>
 		</queue>
@@ -14775,7 +14896,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>grass1</changeTerrain>
 		</queue>
@@ -14786,7 +14918,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>grass2</changeTerrain>
 		</queue>
@@ -14797,7 +14940,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>grass3</changeTerrain>
 		</queue>
@@ -14808,7 +14962,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>grassnoflower</changeTerrain>
 		</queue>
@@ -14819,7 +14984,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>grassnoflower1</changeTerrain>
 		</queue>
@@ -14830,7 +15006,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>grassnoflower2</changeTerrain>
 		</queue>
@@ -14841,7 +15028,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to grass from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>floatinggrass</changeTerrain>
 		</queue>
@@ -14852,7 +15050,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to copper from</name>
 		<queue>
+			<pick>rmcopper</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>copper</changeTerrain>
 		</queue>
@@ -14874,7 +15083,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to dungeon stone from</name>
 		<queue>
+			<pick>rmstone</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>dungeon3</changeTerrain>
 		</queue>
@@ -14885,7 +15105,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to lava rock from</name>
 		<queue>
+			<pick>rmstone</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>lavarock</changeTerrain>
 		</queue>
@@ -14896,7 +15127,18 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to lava dirt from</name>
 		<queue>
+			<pick>rmmud</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmmud</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
 			<changeTerrain>lavadirt</changeTerrain>
 		</queue>

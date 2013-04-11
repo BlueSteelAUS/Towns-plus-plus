@@ -31,7 +31,7 @@
 		<name esES="Hierba">Grass</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -61,7 +61,7 @@
 		<name esES="Hierba">Grass</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -91,7 +91,7 @@
 		<name esES="Hierba">Grass</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -121,7 +121,7 @@
 		<name esES="Hierba">Grass</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -151,7 +151,7 @@
 		<name esES="Hierba">Grass</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -181,7 +181,7 @@
 		<name esES="Hierba">Grass</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -212,7 +212,7 @@
 		<name esES="Hierba">Grass</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -240,9 +240,9 @@
 
 	<floatinggrass>
 		<name esES="Hierba">Grass</name>
-		<mineTurns>15</mineTurns>
+		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>20</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>ladder</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
@@ -271,6 +271,8 @@
 	<jungle>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>50</dropPCT>
 		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -296,6 +298,8 @@
 	<junglefrog1>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>50</dropPCT>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -321,6 +325,8 @@
 	<junglefrog2>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>50</dropPCT>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -346,6 +352,8 @@
 	<junglefrog3>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>50</dropPCT>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -371,6 +379,8 @@
 	<junglefrog4>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>50</dropPCT>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -395,6 +405,8 @@
 
 	<junglefrog5>
 		<name esES="Jungla">Jungle</name>
+		<drop>rmmud</drop>
+		<dropPCT>50</dropPCT>
 		<mineTurns>7</mineTurns>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -422,7 +434,7 @@
 		<name esES="Nieve">Snow</name>
 		<mineTurns>7</mineTurns>
 		<drop>snowpile</drop>
-		<dropPCT>25</dropPCT>
+		<dropPCT>50</dropPCT>
 		<action>qtillsnow</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -449,7 +461,7 @@
 		<name esES="Tierra">Dirt</name>
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
-		<dropPCT>35</dropPCT>
+		<dropPCT>50</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
 		<action>qtill</action>
 		<action>qterraformtograss</action>
@@ -476,6 +488,8 @@
 	<brownievillage>
 		<name esES="Jungla">Jungle</name>
 		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>50</dropPCT>
 		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -632,7 +646,7 @@
 		<name esES="Arena">Sand</name>
 		<mineTurns>4</mineTurns>
 		<drop>rmsand</drop>
-		<dropPCT>90</dropPCT>
+		<dropPCT>50</dropPCT>
 		<action>qtillsand</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -659,7 +673,7 @@
 		<name esES="Gravilla">Gravel</name>
 		<mineTurns>6</mineTurns>
 		<drop>rmflint</drop>
-		<dropPCT>30</dropPCT>
+		<dropPCT>80</dropPCT>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -686,7 +700,7 @@
 		<mineTurns>15</mineTurns>
 		<ladderItem>stoneladder</ladderItem>
 		<drop>rmstone</drop>
-		<dropPCT>100</dropPCT>
+		<dropPCT>80</dropPCT>
 		<blocky>false</blocky>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
