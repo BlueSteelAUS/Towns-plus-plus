@@ -15268,7 +15268,7 @@
 		</queue>
 	</action>
 
-	<action>
+<!--	<action>
 		<id>qrotate_largegiftone</id>
 		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
@@ -15276,9 +15276,9 @@
 			<move useSource="true">largegiftone</move>
 			<replaceCellItem>largegiftone_E</replaceCellItem>
 		</queue>
-	</action>
+	</action>-->
 
-	<action>
+<!--	<action>
 		<id>qrotate_largegiftone_E</id>
 		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
@@ -15286,7 +15286,7 @@
 			<move useSource="true">largegiftone_E</move>
 			<replaceCellItem>largegiftone</replaceCellItem>
 		</queue>
-	</action>
+	</action>-->
 
 	<action>
 		<id>qopen_largegiftone</id>
@@ -15300,7 +15300,7 @@
 		</queue>
 	</action>
 
-	<action>
+<!--	<action>
 		<id>qopen_largegiftone_E</id>
 		<name esES="Abrir">Open</name>
 		<priorityID>itemconstruction</priorityID>
@@ -15310,7 +15310,7 @@
 			<destroyCellItem />
 			<createItem>bluehat</createItem>
 		</queue>
-	</action>
+	</action>-->
 
 	<action>
 		<id>qlargegifttwo</id>
@@ -15323,7 +15323,7 @@
 		</queue>
 	</action>
 
-	<action>
+<!--	<action>
 		<id>qrotate_largegifttwo</id>
 		<name esES="Girar">Rotate</name>
 		<priorityID>itemconstruction</priorityID>
@@ -15342,7 +15342,7 @@
 			<replaceCellItem>largegifttwo</replaceCellItem>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qopen_largegifttwo</id>
 		<name esES="Abrir">Open</name>
@@ -15355,7 +15355,7 @@
 		</queue>
 	</action>
 
-  <action>
+<!--  <action>
     <id>qopen_largegifttwo_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15365,7 +15365,7 @@
 	  <destroyCellItem />
       <createItem>featherhat</createItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qlargegiftthree</id>
@@ -15377,7 +15377,7 @@
       <createItem>largegiftthree</createItem>
     </queue>
   </action>
-
+<!--
   <action>
     <id>qrotate_largegiftthree</id>
     <name esES="Girar">Rotate</name>
@@ -15397,7 +15397,7 @@
       <replaceCellItem>largegiftthree</replaceCellItem>
     </queue>
   </action>
-
+-->
   <action>
     <id>qopen_largegiftthree</id>
     <name esES="Abrir">Open</name>
@@ -15409,7 +15409,7 @@
       <createItem>redhat</createItem>
     </queue>
   </action>
-
+<!--
   <action>
     <id>qopen_largegiftthree_E</id>
     <name esES="Abrir">Open</name>
@@ -15420,7 +15420,7 @@
 	  <destroyCellItem />
       <createItem>redhat</createItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qlargegiftfour</id>
@@ -15433,7 +15433,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qrotate_largegiftfour</id>
     <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
@@ -15451,7 +15451,7 @@
       <move useSource="true">largegiftfour_E</move>
       <replaceCellItem>largegiftfour</replaceCellItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qopen_largegiftfour</id>
@@ -15465,7 +15465,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qopen_largegiftfour_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15475,7 +15475,7 @@
 	  <destroyCellItem />
       <createItem>greenhat</createItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qlargegiftfive</id>
@@ -15488,7 +15488,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qrotate_largegiftfive</id>
     <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
@@ -15507,7 +15507,7 @@
       <replaceCellItem>largegiftfive</replaceCellItem>
     </queue>
   </action>
-
+-->
   <action>
     <id>qopen_largegiftfive</id>
     <name esES="Abrir">Open</name>
@@ -15520,7 +15520,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qopen_largegiftfive_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15530,7 +15530,7 @@
 	  <destroyCellItem />
       <createItem>badgerhat</createItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qlargegiftsix</id>
@@ -15543,7 +15543,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qrotate_largegiftsix</id>
     <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
@@ -15561,7 +15561,7 @@
       <move useSource="true">largegiftsix_E</move>
       <replaceCellItem>largegiftsix</replaceCellItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qopen_largegiftsix</id>
@@ -15575,7 +15575,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qopen_largegiftsix_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15585,7 +15585,7 @@
 	  <destroyCellItem />
       <createFriendly>ghost</createFriendly>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qsmallgiftone</id>
@@ -15598,7 +15598,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qrotate_smallgiftone</id>
     <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
@@ -15616,7 +15616,7 @@
       <move useSource="true">smallgiftone_E</move>
       <replaceCellItem>smallgiftone</replaceCellItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qopen_smallgiftone</id>
@@ -15630,7 +15630,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qopen_smallgiftone_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15640,7 +15640,7 @@
 	  <destroyCellItem />
       <createFriendly>smallgift1</createFriendly>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qsmallgifttwo</id>
@@ -15653,7 +15653,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qrotate_smallgifttwo</id>
     <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
@@ -15671,7 +15671,7 @@
       <move useSource="true">smallgifttwo_E</move>
       <replaceCellItem>smallgifttwo</replaceCellItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qopen_smallgifttwo</id>
@@ -15685,7 +15685,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qopen_smallgifttwo_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15695,7 +15695,7 @@
 	  <destroyCellItem />
       <createFriendly>smallgift2</createFriendly>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qsmallgiftthree</id>
@@ -15708,7 +15708,7 @@
     </queue>
   </action>
 
-  <action>
+ <!-- <action>
     <id>qrotate_smallgiftthree</id>
     <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
@@ -15726,7 +15726,7 @@
       <move useSource="true">smallgiftthree_E</move>
       <replaceCellItem>smallgiftthree</replaceCellItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qopen_smallgiftthree</id>
@@ -15740,7 +15740,7 @@
     </queue>
   </action>
 
-  <action>
+ <!-- <action>
     <id>qopen_smallgiftthree_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15750,7 +15750,7 @@
 	  <destroyCellItem />
       <createFriendly>smallgift3</createFriendly>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qsmallgiftfour</id>
@@ -15763,7 +15763,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qrotate_smallgiftfour</id>
     <name esES="Girar">Rotate</name>
     <priorityID>itemconstruction</priorityID>
@@ -15781,7 +15781,7 @@
       <move useSource="true">smallgiftfour_E</move>
       <replaceCellItem>smallgiftfour</replaceCellItem>
     </queue>
-  </action>
+  </action>-->
 
   <action>
     <id>qopen_smallgiftfour</id>
@@ -15794,7 +15794,7 @@
     </queue>
   </action>
 
-  <action>
+<!--  <action>
     <id>qopen_smallgiftfour_E</id>
     <name esES="Abrir">Open</name>
     <priorityID>itemconstruction</priorityID>
@@ -15804,7 +15804,7 @@
 	  <destroyCellItem />
       <createFriendly>smallgift4</createFriendly>
     </queue>
-  </action>
+  </action>-->
 
 	<action>
 		<id>qxmastree</id>

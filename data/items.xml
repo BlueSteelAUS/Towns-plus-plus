@@ -15743,17 +15743,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftone</action>
-		<action>qrotate_largegiftone</action>
+<!--		<action>qrotate_largegiftone</action> -->
 	</largegiftone>
 
-	<largegiftone_E>
+<!--	<largegiftone_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftone_E</action>
 		<action>qrotate_largegiftone_E</action>
-	</largegiftone_E>
+	</largegiftone_E>-->
 
 	<largegifttwo>
 		<name esES="Regalo grande">Large Gift</name>
@@ -15761,17 +15761,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegifttwo</action>
-		<action>qrotate_largegifttwo</action>
+<!--		<action>qrotate_largegifttwo</action>-->
 	</largegifttwo>
 
-	<largegifttwo_E>
+<!--	<largegifttwo_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegifttwo_E</action>
 		<action>qrotate_largegifttwo_E</action>
-	</largegifttwo_E>
+	</largegifttwo_E>-->
 
 	<largegiftthree>
 		<name esES="Regalo grande">Large Gift</name>
@@ -15779,17 +15779,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftthree</action>
-		<action>qrotate_largegiftthree</action>
+<!--		<action>qrotate_largegiftthree</action>-->
 	</largegiftthree>
 
-	<largegiftthree_E>
+<!--	<largegiftthree_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftthree_E</action>
 		<action>qrotate_largegiftthree_E</action>
-	</largegiftthree_E>
+	</largegiftthree_E>-->
 
 	<largegiftfour>
 		<name esES="Regalo grande">Large Gift</name>
@@ -15797,17 +15797,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfour</action>
-		<action>qrotate_largegiftfour</action>
+<!--		<action>qrotate_largegiftfour</action>-->
 	</largegiftfour>
 
-	<largegiftfour_E>
+<!--	<largegiftfour_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfour_E</action>
 		<action>qrotate_largegiftfour_E</action>
-	</largegiftfour_E>
+	</largegiftfour_E>-->
 
 	<largegiftfive>
 		<name esES="Regalo grande">Large Gift</name>
@@ -15815,17 +15815,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfive</action>
-		<action>qrotate_largegiftfive</action>
+<!--		<action>qrotate_largegiftfive</action>-->
 	</largegiftfive>
 
-	<largegiftfive_E>
+<!--	<largegiftfive_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfive_E</action>
 		<action>qrotate_largegiftfive_E</action>
-	</largegiftfive_E>
+	</largegiftfive_E>-->
 
 	<largegiftsix>
 		<name esES="Regalo grande">Large Gift</name>
@@ -15833,10 +15833,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftsix</action>
-		<action>qrotate_largegiftsix</action>
+<!--		<action>qrotate_largegiftsix</action>-->
 	</largegiftsix>
 
-	<largegiftsix_E>
+<!--	<largegiftsix_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -15844,24 +15844,24 @@
 		<action>qopen_largegiftsix_E</action>
 		<action>qrotate_largegiftsix_E</action>
 	</largegiftsix_E>
-
+-->
 	<smallgiftone>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftone</action>
-		<action>qrotate_smallgiftone</action>
+<!--		<action>qrotate_smallgiftone</action>-->
 	</smallgiftone>
 
-	<smallgiftone_E>
+<!--	<smallgiftone_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftone_E</action>
 		<action>qrotate_smallgiftone_E</action>
-	</smallgiftone_E>
+	</smallgiftone_E>-->
 
 	<smallgifttwo>
 		<name esES="Regalo">Small Gift</name>
@@ -15869,17 +15869,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgifttwo</action>
-		<action>qrotate_smallgifttwo</action>
+<!--		<action>qrotate_smallgifttwo</action>-->
 	</smallgifttwo>
 
-	<smallgifttwo_E>
+<!--	<smallgifttwo_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgifttwo_E</action>
 		<action>qrotate_smallgifttwo_E</action>
-	</smallgifttwo_E>
+	</smallgifttwo_E>-->
 
 	<smallgiftthree>
 		<name esES="Regalo">Small Gift</name>
@@ -15887,17 +15887,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftthree</action>
-		<action>qrotate_smallgiftthree</action>
+<!--		<action>qrotate_smallgiftthree</action>-->
 	</smallgiftthree>
 
-	<smallgiftthree_E>
+<!--	<smallgiftthree_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftthree_E</action>
 		<action>qrotate_smallgiftthree_E</action>
-	</smallgiftthree_E>
+	</smallgiftthree_E>-->
 
 	<smallgiftfour>
 		<name esES="Regalo">Small Gift</name>
@@ -15905,17 +15905,17 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftfour</action>
-		<action>qrotate_smallgiftfour</action>
+<!--		<action>qrotate_smallgiftfour</action>-->
 	</smallgiftfour>
 
-	<smallgiftfour_E>
+<!--	<smallgiftfour_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftfour_E</action>
 		<action>qrotate_smallgiftfour_E</action>
-	</smallgiftfour_E>
+	</smallgiftfour_E>-->
 
 	<xmastree>
 		<name esES="Arbol de Navidad">Christmas Tree</name>
