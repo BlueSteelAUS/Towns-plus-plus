@@ -19981,19 +19981,6 @@
 	</action>	
 	
 	<action>
-		<id>del_woodenroadtile</id>
-		<name esES="N/A">Remove</name>
-
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">woodenroadtile</move>
-			<wait>16</wait>
-			<destroyCellItem />
-			<createItem>woodenroadtile</createItem>
-		</queue>
-	</action>	
-	
-	<action>
 		<id>del_greenroadtile</id>
 		<name esES="N/A">Remove</name>
 

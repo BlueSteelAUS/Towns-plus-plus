@@ -6304,7 +6304,7 @@
 		<name esES="Carretera pavimentada">Pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6317,7 +6317,7 @@
 		<name esES="Carretera pavimentada roja">Red pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6330,7 +6330,7 @@
 		<name esES="Carretera pavimentada blanca">White pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6343,7 +6343,7 @@
 		<name esES="Carretera pavimentada verde">Green pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6356,7 +6356,7 @@
 		<name esES="Carretera pavimentada azul">Blue pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6369,7 +6369,7 @@
 		<name esES="Carretera pavimentada lila">Purple pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6382,7 +6382,7 @@
 		<name esES="Carretera pavimentada naranja">Orange pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6395,7 +6395,7 @@
 		<name esES="Carretera pavimentada amarilla">Yellow pavement road</name>
 		<description esES="Mantedrá tus pies secos">Follow the yellow brick road!</description>
 
-		<floorWalkSpeed>65</floorWalkSpeed>
+		<floorWalkSpeed>55</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6408,7 +6408,7 @@
 		<name esES="Carretera de piedra">Stone road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>72</floorWalkSpeed>
+		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6431,7 +6431,7 @@
 		<name esES="Carretera de gel verde">Green gel road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>55</floorWalkSpeed>
+		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6444,7 +6444,7 @@
 		<name esES="Carretera de gel rojo">Red gel road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>55</floorWalkSpeed>
+		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -6457,7 +6457,7 @@
 		<name esES="Carretera de gel azul">Blue gel road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
-		<floorWalkSpeed>55</floorWalkSpeed>
+		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
