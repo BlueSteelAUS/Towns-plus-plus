@@ -20018,4 +20018,30 @@
 			<createItem>blueroadtile</createItem>
 		</queue>
 	</action>
+	
+	<!-- DEAD SANTA -->
+	<action>
+		<id>qsantatomb</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>21</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>21</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>21</wait>
+			<destroyItem />
+			<unlock />
+			<pick>santacorpse</pick>
+			<wait>21</wait>
+			<createItem>santatomb</createItem>
+		</queue>
+	</action>
 </actions>

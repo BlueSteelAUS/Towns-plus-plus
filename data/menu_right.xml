@@ -361,9 +361,6 @@
 				<item id="qgoldenblock" code="QUEUEANDPLACEAREA" parameter="qgoldenblock" />
 				<item id="qwheatblock" code="QUEUEANDPLACEAREA" parameter="qwheatblock" />
 				<item id="qbambooblock" code="QUEUEANDPLACEAREA" parameter="qbambooblock" />
-				<item id="qwoodenfloor" code="QUEUEANDPLACEAREA" parameter="qwoodenfloor" />
-				<item id="qstonefloor" code="QUEUEANDPLACEAREA" parameter="qstonefloor" />
-				<item id="qglassfloor" code="QUEUEANDPLACEAREA" parameter="qglassfloor" />
 				<item id="qrounddarkblock" code="QUEUEANDPLACEAREA" parameter="qrounddarkblock" />
 				<item id="qroundgrayblock" code="QUEUEANDPLACEAREA" parameter="qroundgrayblock" />
 				<item id="qroundwhiteblock" code="QUEUEANDPLACEAREA" parameter="qroundwhiteblock" />
@@ -521,6 +518,7 @@
 				<item id="qsipstomb" code="QUEUEANDPLACEAREA" parameter="qsipstomb" />
 				<item id="qvechstomb" code="QUEUEANDPLACEAREA" parameter="qvechstomb" />
 				<item id="qpunchwoodtomb" code="QUEUEANDPLACEAREA" parameter="qpunchwoodtomb" />
+				<item id="qsantatomb" code="QUEUEANDPLACEAREA" parameter="qsantatomb" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</graves>
 
@@ -634,7 +632,7 @@
 			<item id="qbluechair_S" code="QUEUEANDPLACEAREA" parameter="qbluechair_S" />				
 			<item id="qgreenchair_S" code="QUEUEANDPLACEAREA" parameter="qgreenchair_S" />				
 			<item id="qwoodchair_1_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_1_S" />
-			<item id="qwoodchair_2_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_2_S" />
+			<!-- <item id="qwoodchair_2_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_2_S" /> -->
 			<item id="qwoodchair_3_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_3_S" />				
 			<item id="qwhitechair_S" code="QUEUEANDPLACEAREA" parameter="qwhitechair_S" />
 			<item id="qpurplechair_S" code="QUEUEANDPLACEAREA" parameter="qpurplechair_S" />
