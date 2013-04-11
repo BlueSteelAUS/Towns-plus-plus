@@ -2,17 +2,24 @@
 
 Changes since Towns++_v11a7
 ============================
+BlueSteel's Contributions
+=========================
+-> Finished terraforming , now requires 4x resource obtained from what you're converting to
+-> Deleted rotatable gifts (difference not very noticable when rotated)
+-> Rebalanced resources gained from mining/digging
+-> Added rmmud to all forests when digging/mining
+
 LittleMikey's Contributions:
 ============================
--> Fixed butcher Boars for Pork
--> New Names by ericb1800
+-> Fixed butcher Boars for Pork.
+-> New Names by ericb1800.
 -> New Oasis map by me. This map features a large Oasis, with a very empty desert surounding it.
    Resources are hard to find, it's very rare to get surface minerals, and the only easy to get
    food sources are Fish from the Oasis and Cactus Fruit. You will need to rely on Market Caravans
    to bring you more food types if you want to expand!
 -> Integrated blurpsl's Removable Items mod. Enhanced original mod to allow removal of all rotatable
-   furniture and stairs.
-   NOTE: Removing a rotated item will return you the original rotation. This is neccicary so you can
+   furniture, roads and stairs.
+   NOTE: Removing a rotated item will return you the original rotation. This is necessary so you can
    place the item back down again from the right menu, as well as sell it at a caravan if applicable.
 -> Added "Kill area" order for clearing an area of animals. Use with caution!
 -> Cactus Soup can now be made on a cooking fire.
@@ -31,16 +38,7 @@ LittleMikey's Contributions:
 -> Fixed crash with Ancient Stone Stairs right click context menu.
 -> Added remove ability to cb262's Coloured Stairs.
 -> Spanish translations by frenchiveruti
-
-BlueSteel's Contributions
-=========================
--> Finished terraforming , now requires 4 * resource obtained from what your converting to
--> Deleted rotatable gifts ( difference not very noticable when rotated)
--> Rebalanced resources gained from mining/digging
--> Added rmmud to all forests when digging/mining
-
-
-
+-> Sheep farm updated to use new method of farming.
 
 [/code]
 
