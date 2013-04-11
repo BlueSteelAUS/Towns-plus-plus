@@ -16871,6 +16871,26 @@
 		</queue>
 	</action>
 
+	<action>
+		<id>qnewsheepfarm</id>
+		<name esES="N/A">Sheep Barn</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly>sheep,wildsheep</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pickFriendly>sheep,wildsheep</pickFriendly>
+			<wait>30</wait>
+			<destroyFriendly />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newsheepfarm</createItem>
+		</queue>
+	</action>
+	
 	<!-- BREED NEW FARMS -->
 	<action>
 		<id>qbreedcow</id>
@@ -17072,11 +17092,30 @@
 		</queue>
 	</action>
 
+	<action>
+		<id>qbreedsheep</id>
+		<name esES="N/A">Breed Sheep</name>
+		<generatedItem>sheep</generatedItem>
+		<priorityID>gathering</priorityID>
+		<queue>
+			<pick>wheat</pick>
+			<move useSource="true">newsheepfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move useSource="true">newsheepfarm</move>
+			<wait>15</wait>
+			<destroyItem />
+			<replaceCellItem>emptysheepfarm</replaceCellItem>
+			<createFriendly>sheep</createFriendly>
+			<unlock />
+		</queue>
+	</action>
+	
 	<!-- REMOVABLE ITEMS BY BLURPSL-->
-
 	<action>
 		  <id>del_mill</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17089,7 +17128,7 @@
 
 	<action>
 		  <id>del_verticalladder</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17101,7 +17140,7 @@
 	</action>
 	<action>
 		<id>del_ladder</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17113,7 +17152,7 @@
 	</action>
 	<action>
 		  <id>del_woodenladder</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17125,7 +17164,7 @@
 	</action>
 	<action>
 		  <id>del_stoneladder</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17137,7 +17176,7 @@
 	</action>
 	<action>
 		  <id>del_stoneladder4</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17149,7 +17188,7 @@
 	</action>
 	<action>
 		  <id>del_stoneladder5</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17161,7 +17200,7 @@
 	</action>
 	<action>
 		  <id>del_logladder</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17173,7 +17212,7 @@
 	</action>
 	<action>
 		  <id>del_dirtladder</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17185,7 +17224,7 @@
 	</action>
 	<action>
 		  <id>del_dirtladder2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17197,7 +17236,7 @@
 	</action>
 	<action>
 		  <id>del_stonespindleladder</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17209,7 +17248,7 @@
 	</action>
 	<action>
 		  <id>del_ancientladder</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17221,7 +17260,7 @@
 	</action>
 	<action>
 		  <id>del_bonestairs</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17233,7 +17272,7 @@
 	</action>	
 	<action>
 		  <id>del_sandstairs1</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17245,7 +17284,7 @@
 	</action>
 	<action>
 		  <id>del_sandstairs2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17257,7 +17296,7 @@
 	</action>
 	<action>
 		  <id>del_sandstairs3</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17270,7 +17309,7 @@
 	<!-- DELETE COLOURED STAIRS -->
 	<action>
 		<id>del_redstonestairs</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17282,7 +17321,7 @@
 	</action>
 	<action>
 		<id>del_bluestonestairs</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17294,7 +17333,7 @@
 	</action>
 	<action>
 		<id>del_yellowstonestairs</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17306,7 +17345,7 @@
 	</action>
 	<action>
 		<id>del_greenstonestairs</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17318,7 +17357,7 @@
 	</action>
 	<action>
 		<id>del_orangestonestairs</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17330,7 +17369,7 @@
 	</action>
 	<action>
 		<id>del_purplestonestairs</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17343,7 +17382,7 @@
 	
 	<action>
 		<id>del_redstonestairs2</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17355,7 +17394,7 @@
 	</action>
 	<action>
 		<id>del_bluestonestairs2</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17367,7 +17406,7 @@
 	</action>
 	<action>
 		<id>del_yellowstonestairs2</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17379,7 +17418,7 @@
 	</action>
 	<action>
 		<id>del_greenstonestairs2</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17391,7 +17430,7 @@
 	</action>
 	<action>
 		<id>del_orangestonestairs2</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17403,7 +17442,7 @@
 	</action>
 	<action>
 		<id>del_purplestonestairs2</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -17416,7 +17455,7 @@
 	
 	<action>
 		  <id>del_hedgegate</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17429,7 +17468,7 @@
 	<!-- DELETE FURNITURE -->
 	<action>
 		  <id>del_woodenbed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17441,7 +17480,7 @@
 	</action>
 	<action>
 		  <id>del_camobed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17453,7 +17492,7 @@
 	</action>
 	<action>
 		  <id>del_greenbed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17465,7 +17504,7 @@
 	</action>
 	<action>
 		  <id>del_bluebed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17477,7 +17516,7 @@
 	</action>
 	<action>
 		  <id>del_redbed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17489,7 +17528,7 @@
 	</action>
 	<action>
 		  <id>del_purplebed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17501,7 +17540,7 @@
 	</action>
 	<action>
 		  <id>del_woodendormbed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17513,7 +17552,7 @@
 	</action>
 	<action>
 		  <id>del_bonebed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17525,7 +17564,7 @@
 	</action>
 	<action>
 		  <id>del_stonechair</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17537,7 +17576,7 @@
 	</action>
 	<action>
 		  <id>del_purplethrone</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17549,7 +17588,7 @@
 	</action>
 	<action>
 		  <id>del_woodenchair</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17561,7 +17600,7 @@
 	</action>
 	<action>
 		  <id>del_redchair</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17573,7 +17612,7 @@
 	</action>
 	<action>
 		  <id>del_redchair_2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17585,7 +17624,7 @@
 	</action>
 	<action>
 		  <id>del_bluechair</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17597,7 +17636,7 @@
 	</action>
 	<action>
 		  <id>del_greenchair</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17609,7 +17648,7 @@
 	</action>
 	<action>
 		  <id>del_woodchair_1</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17621,7 +17660,7 @@
 	</action>
 	<action>
 		  <id>del_woodchair_2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17633,7 +17672,7 @@
 	</action>
 	<action>
 		  <id>del_woodchair_3</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17645,7 +17684,7 @@
 	</action>
 	<action>
 		  <id>del_whitechair</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17657,7 +17696,7 @@
 	</action>
 	<action>
 		  <id>del_purplechair</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17669,7 +17708,7 @@
 	</action>
 	<action>
 		  <id>del_woodencupboard</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17681,7 +17720,7 @@
 	</action>
 	<action>
 		  <id>del_woodencupboard_E</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17693,7 +17732,7 @@
 	</action>
 	<action>
 		  <id>del_woodendrawer_E</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17705,7 +17744,7 @@
 	</action>
 	<action>
 		  <id>del_smallwoodendrawer_E</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17717,7 +17756,7 @@
 	</action>
 	<action>
 		  <id>del_smallwoodendrawer_flower_E</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17729,7 +17768,7 @@
 	</action>
 	<action>
 		  <id>del_tallwoodencupboard_E</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17741,7 +17780,7 @@
 	</action>
 	<action>
 		  <id>del_floodgate</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17753,7 +17792,7 @@
 	</action>
 	<action>
 		  <id>del_fluidselevator</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17765,7 +17804,7 @@
 	</action>
 	<action>
 		  <id>del_fencedoor</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17777,7 +17816,7 @@
 	</action>
 	<action>
 		  <id>del_halfdoor</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17789,7 +17828,7 @@
 	</action>
 	<action>
 		  <id>del_blockdoor</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17801,7 +17840,7 @@
 	</action>
 	<action>
 		  <id>del_logdoor</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17813,7 +17852,7 @@
 	</action>
 	<action>
 		  <id>del_woodendoor</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17825,7 +17864,7 @@
 	</action>
 	<action>
 		  <id>del_bonedoor</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17837,7 +17876,7 @@
 	</action>
 	<action>
 		  <id>del_architecttable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17849,7 +17888,7 @@
 	</action>
 	<action>
 		  <id>del_stonetable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17861,7 +17900,7 @@
 	</action>
 	<action>
 		  <id>del_woodentable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17873,7 +17912,7 @@
 	</action>
 	<action>
 		  <id>del_squarestable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17885,7 +17924,7 @@
 	</action>
 	<action>
 		  <id>del_taverntable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17897,7 +17936,7 @@
 	</action>
 	<action>
 		  <id>del_stonearcdoor1</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17909,7 +17948,7 @@
 	</action>
 	<action>
 		  <id>del_stonearcdoor2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17921,7 +17960,7 @@
 	</action>
 	<action>
 		  <id>del_anvil</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17933,7 +17972,7 @@
 	</action>
 	<action>
 		  <id>del_itesmithy</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17945,7 +17984,7 @@
 	</action>
 	<action>
 		  <id>del_kitchentable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17957,7 +17996,7 @@
 	</action>
 	<action>
 		  <id>del_butchertable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17969,7 +18008,7 @@
 	</action>
 	<action>
 		  <id>del_cookingbowl</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17981,7 +18020,7 @@
 	</action>
 	<action>
 		  <id>del_medicinecabinet</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -17993,7 +18032,7 @@
 	</action>
 	<action>
 		  <id>del_smelter</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18005,7 +18044,7 @@
 	</action>
 	<action>
 		  <id>del_bonecarver</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18017,7 +18056,7 @@
 	</action>
 	<action>
 		  <id>del_stove</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18029,7 +18068,7 @@
 	</action>
 	<action>
 		  <id>del_bakeroven</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18041,7 +18080,7 @@
 	</action>
 	<action>
 		  <id>del_bakertable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18053,7 +18092,7 @@
 	</action>
 	<action>
 		  <id>del_carpentrybench</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18065,7 +18104,7 @@
 	</action>
 	<action>
 		  <id>del_skinner</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18077,7 +18116,7 @@
 	</action>
 	<action>
 		  <id>del_colormixer</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18089,7 +18128,7 @@
 	</action>
 	<action>
 		  <id>del_carvingbench</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18101,7 +18140,7 @@
 	</action>
 	<action>
 		  <id>del_masonbench</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18113,7 +18152,7 @@
 	</action>
 	<action>
 		  <id>del_wooddetailer</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18125,7 +18164,7 @@
 	</action>
 	<action>
 		  <id>del_clock</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18138,7 +18177,7 @@
 	<!-- DELETE FLAGS -->
 	<action>
 		  <id>del_redlongflag</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18150,7 +18189,7 @@
 	</action>
 	<action>
 		  <id>del_bluebanner</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18162,7 +18201,7 @@
 	</action>
 	<action>
 		  <id>del_greenbanner</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18174,7 +18213,7 @@
 	</action>
 	<action>
 		  <id>del_purplebanner</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18186,7 +18225,7 @@
 	</action>
 	<action>
 		  <id>del_blackbanner</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18198,7 +18237,7 @@
 	</action>
 	<action>
 		  <id>del_redshortflag</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18210,7 +18249,7 @@
 	</action>
 	<action>
 		  <id>del_blueshortflag</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18222,7 +18261,7 @@
 	</action>
 	<action>
 		  <id>del_greenshortflag</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18234,7 +18273,7 @@
 	</action>
 	<action>
 		  <id>del_purpleshortflag</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18246,7 +18285,7 @@
 	</action>
 	<action>
 		  <id>del_blackshortflag</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18260,7 +18299,7 @@
 	<!-- DELETE SIGNS -->
 	<action>
 		  <id>del_doorsignswords</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18272,7 +18311,7 @@
 	</action>
 	<action>
 		  <id>del_sign_1</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18284,7 +18323,7 @@
 	</action>
 	<action>
 		  <id>del_sign_2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18296,7 +18335,7 @@
 	</action>
 	<action>
 		  <id>del_sign_3</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18308,7 +18347,7 @@
 	</action>
 	<action>
 		  <id>del_sign_4</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18320,7 +18359,7 @@
 	</action>
 	<action>
 		  <id>del_sign_5</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18332,7 +18371,7 @@
 	</action>
 	<action>
 		  <id>del_sign_6</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18344,7 +18383,7 @@
 	</action>
 	<action>
 		  <id>del_sign_7</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18356,7 +18395,7 @@
 	</action>
 	<action>
 		  <id>del_sign_8</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18368,7 +18407,7 @@
 	</action>
 	<action>
 		  <id>del_sign_9</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18380,7 +18419,7 @@
 	</action>
 	<action>
 		  <id>del_sign_10</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18392,7 +18431,7 @@
 	</action>
 	<action>
 		  <id>del_sign_11</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18404,7 +18443,7 @@
 	</action>
 	<action>
 		  <id>del_sign_12</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18416,7 +18455,7 @@
 	</action>
 	<action>
 		  <id>del_sign_13</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18428,7 +18467,7 @@
 	</action>
 	<action>
 		  <id>del_sign_14</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18440,7 +18479,7 @@
 	</action>
 	<action>
 		  <id>del_sign_15</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18453,7 +18492,7 @@
 	<!-- DELETE STATUES -->
 	<action>
 		  <id>del_necromancerstatue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18465,7 +18504,7 @@
 	</action>
 	<action>
 		  <id>del_gargoylestatue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18477,7 +18516,7 @@
 	</action>
 	<action>
 		  <id>del_stonemalestatue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18489,7 +18528,7 @@
 	</action>
 	<action>
 		  <id>del_goldunifallowstatue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18501,7 +18540,7 @@
 	</action>
 	<action>
 		  <id>del_goldnuxstatue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18513,7 +18552,7 @@
 	</action>
 	<action>
 		  <id>del_silverskootenbeetenstatue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18525,7 +18564,7 @@
 	</action>
 	<action>
 		  <id>del_barrel</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18537,7 +18576,7 @@
 	</action>
 	<action>
 		  <id>del_burner</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18549,7 +18588,7 @@
 	</action>
 	<action>
 		  <id>del_chest</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18561,7 +18600,7 @@
 	</action>
 	<action>
 		  <id>del_candle</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18573,7 +18612,7 @@
 	</action>
 	<action>
 		  <id>del_hangedlamp</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18585,7 +18624,7 @@
 	</action>
 	<action>
 		  <id>del_bluehangedlamp</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18597,7 +18636,7 @@
 	</action>
 	<action>
 		  <id>del_yellowhangedlamp</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18609,7 +18648,7 @@
 	</action>
 	<action>
 		  <id>del_greenhangedlamp</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18621,7 +18660,7 @@
 	</action>
 	<action>
 		  <id>del_redhangedlamp</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18633,7 +18672,7 @@
 	</action>
 	<action>
 		  <id>del_bonecandle</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18645,7 +18684,7 @@
 	</action>
 	<action>
 		  <id>del_goblinpole</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18657,7 +18696,7 @@
 	</action>
 	<action>
 		  <id>del_hobgoblinpole</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18669,7 +18708,7 @@
 	</action>
 	<action>
 		  <id>del_ghoulpole</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18681,7 +18720,7 @@
 	</action>
 	<action>
 		  <id>del_trollpole</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18693,7 +18732,7 @@
 	</action>
 	<action>
 		  <id>del_birdincage</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18705,7 +18744,7 @@
 	</action>
 	<action>
 		  <id>del_snickerpole</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18717,7 +18756,7 @@
 	</action>
 	<action>
 		  <id>del_chimney</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18729,7 +18768,7 @@
 	</action>
 	<action>
 		  <id>del_animalfireplace</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18741,7 +18780,7 @@
 	</action>
 	<action>
 		  <id>del_potplant</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18753,7 +18792,7 @@
 	</action>
 	<action>
 		  <id>del_chesstable</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18765,7 +18804,7 @@
 	</action>
 	<action>
 		  <id>del_harp</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18777,7 +18816,7 @@
 	</action>
 	<action>
 		  <id>del_bonsai</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18789,7 +18828,7 @@
 	</action>
 	<action>
 		  <id>del_bonsaired</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18801,7 +18840,7 @@
 	</action>
 	<action>
 		  <id>del_gardenred</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18813,7 +18852,7 @@
 	</action>
 	<action>
 		  <id>del_gardenblue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18825,7 +18864,7 @@
 	</action>
 	<action>
 		  <id>del_gardenyellow</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18837,7 +18876,7 @@
 	</action>
 	<action>
 		  <id>del_gardenbush1</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18849,7 +18888,7 @@
 	</action>
 	<action>
 		  <id>del_gardenbush2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18861,7 +18900,7 @@
 	</action>
 	<action>
 		  <id>del_gardenbush3</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18874,7 +18913,7 @@
 	<!-- DELETE GRAVES -->
 	<action>
 		  <id>del_grave</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18886,7 +18925,7 @@
 	</action>
 	<action>
 		  <id>del_grave2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18898,7 +18937,7 @@
 	</action>
 	<action>
 		  <id>del_grave3</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18910,7 +18949,7 @@
 	</action>
 	<action>
 		  <id>del_tomb</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18922,7 +18961,7 @@
 	</action>
 	<action>
 		  <id>del_tomb2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18934,7 +18973,7 @@
 	</action>
 	<action>
 		  <id>del_mosstomb</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18946,7 +18985,7 @@
 	</action>
 	<action>
 		  <id>del_mosstomb2</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18958,7 +18997,7 @@
 	</action>
 	<action>
 		  <id>del_mosstomb3</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18970,7 +19009,7 @@
 	</action>
 	<action>
 		  <id>del_lizardtomb</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18983,7 +19022,7 @@
 	<!-- /DELETE GRAVES -->
 	<action>
 		  <id>del_beerbarrel</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -18995,7 +19034,7 @@
 	</action>
 	<action>
 		  <id>del_winebarrel</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19007,7 +19046,7 @@
 	</action>
 	<action>
 		  <id>del_flowerpot_red</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19019,7 +19058,7 @@
 	</action>
 	<action>
 		  <id>del_flowerpot_blue</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19031,7 +19070,7 @@
 	</action>
 	<action>
 		  <id>del_flowerpot_yellow</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19043,7 +19082,7 @@
 	</action>
 	<action>
 		  <id>del_flowerpot_mixed</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19055,7 +19094,7 @@
 	</action>
 	<action>
 		  <id>del_markettent</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19067,7 +19106,7 @@
 	</action>
 	<action>
 		  <id>del_markettent_a</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19079,7 +19118,7 @@
 	</action>
 	<action>
 		  <id>del_markettent_b</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19092,7 +19131,7 @@
 <!-- DELETE FARMS -->
 	<action>
 		  <id>del_cowfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19104,7 +19143,7 @@
 	</action>
 	<action>
 		  <id>del_bullfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19116,7 +19155,7 @@
 	</action>
 	<action>
 		  <id>del_pigfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19128,7 +19167,7 @@
 	</action>
 	<action>
 		  <id>del_boarfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19140,7 +19179,7 @@
 	</action>
 	<action>
 		  <id>del_chickenfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19152,7 +19191,7 @@
 	</action>
 	<action>
 		  <id>del_roosterfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19164,7 +19203,7 @@
 	</action>
 	<action>
 		  <id>del_skootenbeetenfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19176,7 +19215,7 @@
 	</action>
 	<action>
 		<id>del_unifallowfarm</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -19188,7 +19227,7 @@
 	</action>
 	<action>
 		<id>del_snoatfarm</id>
-		<name>Remove</name>
+		<name esES="N/A">Remove</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -19200,7 +19239,7 @@
 	</action>
 	<action>
 		  <id>del_badgerfarm</id>
-		  <name>Remove</name>
+		  <name esES="N/A">Remove</name>
 
 		  <priorityID>itemconstruction</priorityID>
 		  <queue>
@@ -19807,6 +19846,189 @@
 			<wait>25</wait>
 			<destroyItem />
 			<createItem>blackflowerhedge</createItem>
+		</queue>
+	</action>
+	
+	<!-- DELETE ROADS -->
+	<action>
+		<id>del_woodenroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">woodenroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>woodenroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_stoneroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">stoneroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>stoneroadtile</createItem>
+		</queue>
+	</action>		
+	
+	<action>
+		<id>del_pavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">pavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>pavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_redpavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">redpavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>redpavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_whitepavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">whitepavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>whitepavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_greenpavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">greenpavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>greenpavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_bluepavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bluepavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bluepavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_purplepavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">purplepavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>purplepavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_orangepavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">orangepavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>orangepavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_yellowpavementroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">yellowpavementroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>yellowpavementroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_woodenroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">woodenroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>woodenroadtile</createItem>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>del_greenroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">greenroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>greenroadtile</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_redroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">redroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>redroadtile</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_blueroadtile</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">blueroadtile</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>blueroadtile</createItem>
 		</queue>
 	</action>
 </actions>

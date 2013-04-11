@@ -55,6 +55,7 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
+	
 	<add id="werepig">
 		<entity>werepig</entity>
 		<qtty>1d2</qtty>

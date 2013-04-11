@@ -373,9 +373,6 @@
 		<stackableSize>1</stackableSize>
 		<value>60</value>
 	</orangecolor>
-
-
-
 	<!--/RESOURCES -->
 
 	<!--ITEs -->
@@ -954,6 +951,7 @@
 		<stackableSize>1</stackableSize>
 		<value>35</value>
 	</wool>
+	
 	<pear>
 		<name esES="Pera">Pear</name>
 
@@ -985,7 +983,6 @@
 		<foodEffects>mixhappy</foodEffects>
 		<value>80</value>
 	</pearpie>
-
 
 	<cookedfish>
 		<name esES="Pescado cocido">Cooked fish</name>
@@ -3261,7 +3258,7 @@
 	<domeroof>
 		<name esES="Techo cúpula">Dome roof</name>
 
-		<type>utils.misc</type>
+		<type>construction.roofs</type>
 		<wall>true</wall>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -6312,6 +6309,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_pavementroadtile</action>
 	</pavementroadtile>
 
 	<redpavementroadtile>
@@ -6323,6 +6322,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_redpavementroadtile</action>
 	</redpavementroadtile>
 
 	<whitepavementroadtile>
@@ -6334,6 +6335,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_whitepavementroadtile</action>
 	</whitepavementroadtile>
 
 	<greenpavementroadtile>
@@ -6345,6 +6348,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_greenpavementroadtile</action>
 	</greenpavementroadtile>
 
 	<bluepavementroadtile>
@@ -6356,6 +6361,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_bluepavementroadtile</action>
 	</bluepavementroadtile>
 
 	<purplepavementroadtile>
@@ -6367,6 +6374,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_purplepavementroadtile</action>
 	</purplepavementroadtile>
 
 	<orangepavementroadtile>
@@ -6378,6 +6387,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_orangepavementroadtile</action>
 	</orangepavementroadtile>
 
 	<yellowpavementroadtile>
@@ -6389,6 +6400,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_yellowpavementroadtile</action>
 	</yellowpavementroadtile>
 
 	<stoneroadtile>
@@ -6400,6 +6413,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_stoneroadtile</action>
 	</stoneroadtile>
 
 	<woodenroadtile>
@@ -6408,7 +6423,8 @@
 
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
-
+		
+		<action>del_woodenroadtile</action>
 	</woodenroadtile>
 
 	<greenroadtile>
@@ -6420,6 +6436,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_greenroadtile</action>
 	</greenroadtile>
 
 	<redroadtile>
@@ -6431,6 +6449,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_redroadtile</action>
 	</redroadtile>
 
 	<blueroadtile>
@@ -6442,6 +6462,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		
+		<action>del_blueroadtile</action>
 	</blueroadtile>
 
 	<pond>
@@ -17062,6 +17084,16 @@
 		<stackableSize>1</stackableSize>
 		<action>del_snoatfarm</action>
 	</newsnoatfarm>
+	
+	<newsheepfarm>
+		<name esES="N/A">Sheep Barn</name>
+		<description esES="N/A">Baa Ram Ewe</description>
+
+		<action>qbreedsheep</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sheepfarm</action>
+	</newsheepfarm>
 
 	<!-- NEW FARMS EMPTY -->
 	<emptycowfarm>
@@ -17141,7 +17173,6 @@
 		<action>del_skootenbeetenfarm</action>
 	</emptyskootenbeetenfarm>
 
-
 	<emptyunifallowfarm>
 		<name esES="Granja de Unifallows Vacía">Empty Unifallow Barn</name>
 		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
@@ -17152,7 +17183,6 @@
 		<stackableSize>1</stackableSize>
 		<action>del_unifallowfarm</action>
 	</emptyunifallowfarm>
-
 
 	<emptybadgerfarm>
 		<name esES="Granja de Tejones vacía">Badger Barn</name>
@@ -17176,8 +17206,18 @@
 		<action>del_snoatfarm</action>
 	</emptysnoatfarm>
 
-	<!-- NEW COLOURS -->
+	<emptysheepfarm>
+		<name esES="N/A">Empty Sheep Barn</name>
+		<description esES="N/A">Baa Ram Ewe</description>
 
+		<maxAge>2880</maxAge>
+		<maxAgeItem>newsheepfarm</maxAgeItem>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sheepfarm</action>
+	</emptysheepfarm>
+	
+	<!-- NEW COLOURS -->
 	<yellowgel>
 		<name esES="N/A">Yellow Gel</name>
 		<type>rawmaterials.colors</type>
