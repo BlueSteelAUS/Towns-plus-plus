@@ -464,6 +464,7 @@
 		<dropPCT>50</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
 		<action>qtill</action>
+		<action>quntilldirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
 		<action>qterraformtograssnoflower1</action>
