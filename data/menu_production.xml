@@ -401,6 +401,7 @@
   			<item id="qbreedunifallow" code="QUEUE" parameter="qbreedunifallow" />
   			<item id="qbreedbadger" code="QUEUE" parameter="qbreedbadger" />
   			<item id="qbreedsnoat" code="QUEUE" parameter="qbreedsnoat" />
+  			<item id="qbreedsheep" code="QUEUE" parameter="qbreedsheep" />
   			<produce name="Animal Produce" esES="N/A" icon="milk">
   				<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
   				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
