@@ -28,6 +28,19 @@
 	</action>
 
 	<action>
+		<id>quntillgrass</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Untill</name>
+
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<moveTerrain />
+			<changeTerrain>grass</changeTerrain>
+		</queue>
+	</action>
+
+	<action>
 		<id>qtilljungle</id>
 		<priorityID>tilling</priorityID>
 		<name esES="Arar">Till</name>
@@ -37,6 +50,19 @@
 			<wait>54</wait>
 			<moveTerrain />
 			<changeTerrain>junglehumus</changeTerrain>
+		</queue>
+	</action>
+
+	<action>
+		<id>quntilljungle</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Untill</name>
+
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<moveTerrain />
+			<changeTerrain>jungle</changeTerrain>
 		</queue>
 	</action>
 
@@ -54,6 +80,19 @@
 	</action>
 
 	<action>
+		<id>quntillsnow</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Untill</name>
+
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<moveTerrain />
+			<changeTerrain>snow</changeTerrain>
+		</queue>
+	</action>
+
+	<action>
 		<id>qtillsand</id>
 		<priorityID>tilling</priorityID>
 		<name esES="Arar">Till</name>
@@ -63,6 +102,19 @@
 			<wait>54</wait>
 			<moveTerrain />
 			<changeTerrain>sandhumus</changeTerrain>
+		</queue>
+	</action>
+
+	<action>
+		<id>quntillsand</id>
+		<priorityID>terrainchange</priorityID>
+		<name esES="Des-arar">Untill</name>
+
+		<queue>
+			<moveTerrain />
+			<wait>54</wait>
+			<moveTerrain />
+			<changeTerrain>sand</changeTerrain>
 		</queue>
 	</action>
 
@@ -218,6 +270,7 @@
 	<action>
 		<id>qbananaseed</id>
 		<name esES="Plantar semilla de banano">Plant banana tree seedling</name>
+
 		<priorityID>harvesting</priorityID>
 
 		<queue>
@@ -233,6 +286,7 @@
 		<id>qblueradishseed</id>
 		<name esES="Plantar semilla de rábano azul">Plant blue radish seedling</name>
 
+
 		<priorityID>harvesting</priorityID>
 
 		<queue>
@@ -243,6 +297,7 @@
 		</queue>
 
 	</action>
+
 
 	<action>
 		<id>qjungleseed</id>
@@ -261,6 +316,7 @@
 	<action>
 		<id>qsnowseed</id>
 		<name esES="Plantar semilla de árbol de nieve">Plant snow tree seedling</name>
+
 
 		<priorityID>harvesting</priorityID>
 
@@ -2417,7 +2473,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>cow,bull,milkedcow,snoat,reindeer,doe,wildcow,milkedwildcow,milkedsnoat</pickFriendly>
+			<pickFriendly>cow,bull,milkedcow,wildcow,milkedwildcow,snoat,milkedsnoat,reindeer,doe</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2630,6 +2686,8 @@
 	<action>
 		<id>qomelette</id>
 
+
+
 		<priorityID>cooking</priorityID>
 
 		<queue>
@@ -2649,6 +2707,8 @@
 
 	<action>
 		<id>qhamandeggs</id>
+
+
 
 		<priorityID>cooking</priorityID>
 
@@ -4219,7 +4279,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodenblock</createItem>
 		</queue>
 	</action>
@@ -4876,7 +4936,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>logblock</createItem>
 		</queue>
 	</action>
@@ -9348,7 +9408,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>gatheredblueflower</pick>
+			<pick>gatheredblueflower,bluegel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -9363,7 +9423,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>gatheredredflower</pick>
+			<pick>gatheredredflower,redgel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -9496,7 +9556,7 @@
 
 	<action>
 		<id>destroyscaffold</id>
-		<name esES="Eliminar Andamios">Delete Scaffolds</name>
+		<name esES="Eliminar">Delete</name>
 
 		<priorityID>itemconstruction</priorityID>
 
@@ -14592,59 +14652,15 @@
 	</action>
 <!-- /CONVERT STAIRS -->
 
-<!-- UNTILL -->
+<!-- missed UNTILL's -->
 	<action>
 		<id>quntilldirt</id>
 		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to dirt from</name>
+		<name esES="Des-arar">Untill</name>
 		<queue>
 			<moveTerrain />
 			<wait>54</wait>
 			<changeTerrain>dirt</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
-		<id>quntillgrass</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to grass from</name>
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<changeTerrain>grass</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
-		<id>quntilljungle</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to jungle from</name>
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<changeTerrain>jungle</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
-		<id>quntillsnow</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to snow from</name>
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<changeTerrain>snow</changeTerrain>
-		</queue>
-	</action>
-
-	<action>
-		<id>quntillsand</id>
-		<priorityID>terrainchange</priorityID>
-		<name esES="Des-arar">Turn to sand from</name>
-		<queue>
-			<moveTerrain />
-			<wait>54</wait>
-			<changeTerrain>sand</changeTerrain>
 		</queue>
 	</action>
 
