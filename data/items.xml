@@ -3497,6 +3497,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>0</value>
 		<action>convert_to_stonestairs1a</action>
@@ -4467,12 +4468,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenbedbury,woodenbedbury1,woodenbedbury2</buryItem>
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
+
 
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
@@ -4683,6 +4686,7 @@
 		<buryLivings>nusepthegoblinking</buryLivings>
 		<buryLivingsPCT>5</buryLivingsPCT>
 
+
 	</purplethrone>
 
 	<purplethronebury>
@@ -4865,7 +4869,6 @@
 		<action>del_halfdoor</action>
 	</halfdoor>
 
-	<!-- REPLACED WITH WINTER ITEMS -LM
 	<blockdoor>
 		<name esES="Puerta-bloque de madera">Block wooden door</name>
 		<description esES="Encaja en las mazmorras">Fit for caves</description>
@@ -4878,11 +4881,15 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>doortrap</buryItem>
 		<buryItemPCT>10</buryItemPCT>
-
+		
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
+		
+		<action>decorate_blockdoor</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_blockdoor</action>
 	</blockdoor>
-	-->
 
 	<jungledoor>
 		<name esES="Puerta de jungla">Jungle door</name>
@@ -4903,7 +4910,6 @@
 		<value>49</value>
 	</jungledoor>
 
-	<!-- REPLACED WITH WINTER ITEMS -LM
 	<logdoor>
 		<name esES="Puerta de troncos">Log door</name>
 
@@ -4918,8 +4924,12 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
+		
+		<action>decorate_logdoor</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_logdoor</action>
 	</logdoor>
-
 	<woodendoor>
 		<name esES="Puerta de madera">Wooden door</name>
 
@@ -4934,7 +4944,6 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
 	</woodendoor>
-	-->
 
 	<bonedoor>
 		<name esES="Puerta de hueso">Bone door</name>
@@ -4987,7 +4996,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</architecttablebury>
-	<!-- REPLACED WITH TABLE DECORATIONS -LM
+	
 	<stonetable>
 		<name esES="Mesa de piedra">Stone table</name>
 		<description esES="Robusta, pero fria">Sturdy, but cold</description>
@@ -5005,6 +5014,17 @@
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
 
+		<action>add_stone_decoration1</action>
+		<action>add_stone_decoration2</action>
+		<action>add_stone_decoration3</action>
+		<action>add_stone_decoration4</action>
+		<action>add_stone_decoration5</action>
+		<action>add_stone_decoration6</action>
+		<action>add_stone_decoration7</action>
+		<action>add_stone_decoration8</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_stonetable</action>
 	</stonetable>
 
 	<stonetablebury>
@@ -5025,11 +5045,21 @@
 	<woodentable>
 		<name esES="Mesa de madera">Wooden table</name>
 		<description esES="Cojea de una pata">Oh great, one of the legs is shorter than the others</description>
-
 		<type>furniture</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>92</value>
+		<action>add_wood_decoration1</action>
+		<action>add_wood_decoration2</action>
+		<action>add_wood_decoration3</action>
+		<action>add_wood_decoration4</action>
+		<action>add_wood_decoration5</action>
+		<action>add_wood_decoration6</action>
+		<action>add_wood_decoration7</action>
+		<action>add_wood_decoration8</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_stonetable</action>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -5038,9 +5068,7 @@
 		<buryItemPCT>50,75</buryItemPCT>
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-
 	</woodentable>
-	-->
 
 	<woodentablebury>
 		<name esES="Mesa de madera">Wooden table</name>
@@ -5053,7 +5081,6 @@
 
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-
 	</woodentablebury>
 
 	<woodentablebury1>
@@ -5067,9 +5094,7 @@
 
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-
 	</woodentablebury1>
-
 
 	<squarestable>
 		<name esES="Mesa de madera a cuadros">Wooden squares table</name>
@@ -5093,6 +5118,11 @@
 		<wallConnector>true</wallConnector>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
+		<action>add_taverntable_candle</action>
+		<action>add_taverntable_drinks</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_taverntable</action>
 	</taverntable>
 
 	<claybrickwall>
@@ -5422,7 +5452,6 @@
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>15,1</buryLivingsPCT>
 
-
 		<zone>zforge</zone>
 		<value>212</value>
 		<stackable>true</stackable>
@@ -5451,6 +5480,7 @@
 		<stackable>true</stackable>
 		<stackableSize>2</stackableSize>
 		<value>100</value>
+		
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bonecarver</action>
@@ -5696,7 +5726,6 @@
 		<tags>hammer</tags>
 		<value>100</value>
 	</stonehammer>
-
 
 	<finebeaterclub>
 		<level>12</level>
@@ -6565,7 +6594,7 @@
 		<value>100</value>
 	</leatherogreitearmor>
 
-	<!--    cloth armors	-->
+	<!--    /cloth armors	-->
 
 	<ironarmor>
 		<level>5</level>
@@ -7487,8 +7516,6 @@
 	<!--/ITE Armors -->
 
 	<!--Workshop Benches -->
-
-	<!-- REPLACED WITH WINTER ITEMS -LM
 	<bakeroven>
 		<name esES="Horno de panadero">Baker's oven</name>
 		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
@@ -7505,8 +7532,13 @@
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
+		
+		<action>decorate_bakeroven</action>
+		<action>qrotate_bakeroven</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bakeroven</action>
 	</bakeroven>
-	-->
 
 	<bakerovenbury>
 		<name esES="Horno de panadero">Baker's oven</name>
@@ -7818,6 +7850,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>139</value>
 	</redlongflagbury>
@@ -7852,7 +7885,7 @@
 
 	<doorsignswords>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una espada pintado en él">It has sword painted on it</description>
+		<description esES="Tiene una espada pintado en él">It has helmet painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -7881,6 +7914,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
@@ -7899,6 +7933,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
@@ -7916,6 +7951,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
@@ -8623,6 +8659,7 @@
 		<value>93</value>
 	</bonecandlebury>
 
+
 	<goblinpole>
 		<name esES="Estaca goblin">Goblin pole</name>
 		<type>decorative.outdoor</type>
@@ -8783,7 +8820,6 @@
 		<action>del_snickerpole</action>
 	</snickerpole>
 
-	<!-- REPLACED WITH WINTER ITEMS CHIMNEY -LM
 	<chimney>
 		<name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
@@ -8792,18 +8828,21 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
 		<buryItem>bakerovenbury,bakerovenbury1</buryItem>
 		<buryItemPCT>50,75</buryItemPCT>
 
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>180</value>
-	</chimney>
-	-->
 
-	<!-- REPLACED WITH WINTER ITEMS -LM
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		
+		<action>decorate_chimney</action>
+		<action>qrotate_chimney</action>
+		<action>del_chimney</action>
+	</chimney>
+
 	<animalfireplace>
 		<name esES="Chimenea con cabeza de toro">Bull head decorated fireplace</name>
 		<description esES="Haz que no me mire!">Make it stop staring at me!</description>
@@ -8822,9 +8861,10 @@
 		<lightRed>HALF</lightRed>
 		<lightGreen>HALF</lightGreen>
 		<lightBlue>HALF</lightBlue>
+		<action>decorate_fireplace</action>
+		<action>del_animalfireplace</action>
 	</animalfireplace>
-	-->
-
+	
 	<potplant>
 		<name esES="Planta">Potted plant</name>
 		<description esES="Una pequeña planta perfecta">A pretty pristine potted plant</description>
@@ -9427,7 +9467,7 @@
 
 	<grave>
 		<name esES="Tumba">Grave</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9467,7 +9507,7 @@
 
 	<tomb>
 		<name esES="Sepulcro">Tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9499,6 +9539,7 @@
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>55,25,5</buryLivingsPCT>
 
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
@@ -9513,6 +9554,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
+
 		<action>qexaminetomb</action>
 		
 		<buryLivings>ghost,zombie,vampire</buryLivings>
@@ -9526,7 +9568,7 @@
 	<mosstomb>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -9546,7 +9588,7 @@
 
 	<lizardtomb>
 		<name esES="Tumba lagarto">Lizard tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -9554,6 +9596,7 @@
 
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
+
 
 		<locked>true</locked>
 
@@ -9565,7 +9608,7 @@
 		
 	<sipstomb>
 		<name esES="Tumba de Sips">Sips tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -9583,7 +9626,7 @@
 
 	<vechstomb>
 		<name esES="Tumba de Vechs">Vechs tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9601,7 +9644,7 @@
 
 	<punchwoodtomb>
 		<name esES="Tumba de Punchwood">Punchwood tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9619,7 +9662,7 @@
 
 	<maleroguetomb>
 		<name esES="Tumba de ladrón">Rogue tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9637,7 +9680,7 @@
 
 	<femaleroguetomb>
 		<name esES="Tumba de ladrona">Rogue tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9655,7 +9698,7 @@
 
 	<dwarftomb>
 		<name esES="Tumba de enano">Dwarf tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9673,7 +9716,7 @@
 
 	<barbariantomb>
 		<name esES="Tumba de bárbaro">Barbarian tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9691,7 +9734,7 @@
 
 	<elftomb>
 		<name esES="Tumba de elfo">Elf tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9709,7 +9752,7 @@
 
 	<magetomb>
 		<name esES="Tumba de mago">Mage tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9727,7 +9770,7 @@
 
 	<knighttomb>
 		<name esES="Tumba de caballero">Knight tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9745,7 +9788,7 @@
 
 	<highlandertomb>
 		<name esES="Tumba de montañés">Highlander tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -9763,7 +9806,7 @@
 
 	<herbalisttomb>
 		<name esES="Tumba del Herbalista">Herbalist tomb</name>
-		<type>decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -11455,42 +11498,6 @@
 		<action>qopengifts</action>
 	</xmastree_decorated_gifts>
 
-	<chimney>
-	    <name esES="Chimenea">Chimney</name>
-	    <description esES="Te mantendra caliente">It gets you warm and fuzzy</description>
-		<type>furniture</type>
-		<alwaysOperative>false</alwaysOperative>
-		<blocky>false</blocky>
-		<happiness>1</happiness>
-		<value>180</value>
-		<action>decorate_chimney</action>
-		<action>qrotate_chimney</action>
-		<action>del_chimney</action>
-		
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryItem>bakerovenbury,bakerovenbury1</buryItem>
-		<buryItemPCT>50,75</buryItemPCT>
-	</chimney>
-
-	<animalfireplace>
-	    <name esES="Chimenea con cabeza de toro">Bull head decorated fireplace</name>
-	    <description esES="Haz que no me mire!">Make it stop staring at me!</description>
-	    <type>furniture</type>
-	    <wallConnector>true</wallConnector>
-	    <alwaysOperative>false</alwaysOperative>
-	    <happiness>2</happiness>
-	    <value>280</value>
-		<action>decorate_fireplace</action>
-		<lightRadius>2</lightRadius>
-		<lightRed>HALF</lightRed>
-		<lightGreen>HALF</lightGreen>
-		<lightBlue>HALF</lightBlue>
-		<action>del_animalfireplace</action>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-	</animalfireplace>
-
 	<chimney_E>
 	    <name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendra caliente">It gets you warm and fuzzy</description>
@@ -11559,28 +11566,6 @@
 		<buryLocked>true</buryLocked>
 	</xmasfireplace>
 
-	<bakeroven>
-		<name esES="Horno de panadero">Baker's oven</name>
-		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
-		<type>utils.workshops</type>
-		<alwaysOperative>false</alwaysOperative>
-		<zone>zbakery</zone>
-		<value>212</value>
-		<action>decorate_bakeroven</action>
-		<action>qrotate_bakeroven</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_bakeroven</action>
-		
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryItem>bakerovenbury,bakerovenbury1</buryItem>
-		<buryItemPCT>50,100</buryItemPCT>
-
-		<buryLivings>firehead,burningpet</buryLivings>
-		<buryLivingsPCT>25,1</buryLivingsPCT>
-	</bakeroven>
-
 	<bakeroven_E>
 		<name esES="Horno de panadero">Baker's oven</name>
 		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
@@ -11643,30 +11628,6 @@
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>25,1</buryLivingsPCT>
 	</xmasbakeroven_E>
-
-	<bakerovenbury>
-		<name esES="Horno de panadero">Baker's oven</name>
-		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryLivings>firehead,burningpet</buryLivings>
-		<buryLivingsPCT>25,5</buryLivingsPCT>
-
-		<value>212</value>
-	</bakerovenbury>
-
-	<bakerovenbury1>
-		<name esES="Horno de panadero">Baker's oven</name>
-		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryLivings>firehead,burningpet</buryLivings>
-		<buryLivingsPCT>25,5</buryLivingsPCT>
-
-		<value>212</value>
-	</bakerovenbury1>
 	
 	<logdoor>
 		<name esES="Puerta de troncos">Log door</name>
@@ -11740,25 +11701,6 @@
 		<buryItemPCT>10</buryItemPCT>
 	</xmaswoodendoor>
 
-	<blockdoor>
-		<name esES="Puerta-bloque de madera">Block wooden door</name>
-		<description esES="Encaja en las mazmorras">Fit for caves</description>
-		<type>construction.doors</type>
-		<wallConnector>true</wallConnector>
-		<door>true</door>
-		<alwaysOperative>false</alwaysOperative>
-		<value>49</value>
-		<action>decorate_blockdoor</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_blockdoor</action>
-		
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryItem>doortrap</buryItem>
-		<buryItemPCT>10</buryItemPCT>
-	</blockdoor>
-
 	<xmasblockdoor>
 		<name esES="Puerta-bloque de madera">Decorated Block wooden door</name>
 		<description esES="Encaja en las mazmorras">Fit for caves</description>
@@ -11805,35 +11747,6 @@
 		<buryLocked>true</buryLocked>
 	</snowwoodendarkroofitem>
 	<!-- /WINTER ITEMS -->
-
-	<!-- TABLE DECORATIONS -->
-	<stonetable>
-		<name esES="Mesa de piedra">Stone table</name>
-		<description esES="Robusta, pero fria">Sturdy, but cold</description>
-		<type>furniture</type>
-		<happiness>1</happiness>
-		<alwaysOperative>false</alwaysOperative>
-		<value>92</value>
-		<action>add_stone_decoration1</action>
-		<action>add_stone_decoration2</action>
-		<action>add_stone_decoration3</action>
-		<action>add_stone_decoration4</action>
-		<action>add_stone_decoration5</action>
-		<action>add_stone_decoration6</action>
-		<action>add_stone_decoration7</action>
-		<action>add_stone_decoration8</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_stonetable</action>
-		
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryItem>stonetablebury</buryItem>
-
-		<buryItemPCT>75</buryItemPCT>
-		<buryLivings>goblin,goblinleader,ogre</buryLivings>
-		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-	</stonetable>
 
 	<stonetable_d1>
 		<name esES="Mesa de piedra">Stone table</name>
@@ -12055,34 +11968,6 @@
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
 	</stonetable_d8>
 
-	<woodentable>
-		<name esES="Mesa de madera">Wooden table</name>
-		<description esES="Cojea de una pata">Oh great, one of the legs is shorter than the others</description>
-		<type>furniture</type>
-		<happiness>1</happiness>
-		<alwaysOperative>false</alwaysOperative>
-		<value>92</value>
-		<action>add_wood_decoration1</action>
-		<action>add_wood_decoration2</action>
-		<action>add_wood_decoration3</action>
-		<action>add_wood_decoration4</action>
-		<action>add_wood_decoration5</action>
-		<action>add_wood_decoration6</action>
-		<action>add_wood_decoration7</action>
-		<action>add_wood_decoration8</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_stonetable</action>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryItem>woodentablebury,woodentablebury1</buryItem>
-
-		<buryItemPCT>50,75</buryItemPCT>
-		<buryLivings>goblin,goblinleader,ogre</buryLivings>
-		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-	</woodentable>
-
 	<woodentable_d1>
 		<name esES="Mesa de madera">Wooden table</name>
 		<description esES="Cojea de una pata">Oh great, one of the legs is shorter than the others</description>
@@ -12302,45 +12187,6 @@
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
 	</woodentable_d8>
-	
-	<woodentablebury>
-		<name esES="Mesa de madera">Wooden table</name>
-		<description esES="Cojea de una pata">Oh great, one of the legs is shorter than the others</description>
-
-		<value>92</value>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<buryLivings>goblin,goblinleader,ogre</buryLivings>
-		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-	</woodentablebury>
-
-	<woodentablebury1>
-		<name esES="Mesa de madera">Wooden table</name>
-		<description esES="Cojea de una pata">Oh great, one of the legs is shorter than the others</description>
-
-		<value>92</value>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<buryLivings>goblin,goblinleader,ogre</buryLivings>
-		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-	</woodentablebury1>
-	
-	<stonetablebury>
-		<name esES="Mesa de piedra">Stone table</name>
-		<description esES="Robusta, pero fria">Sturdy, but cold</description>
-
-		<value>92</value>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<buryLivings>goblin,goblinleader,ogre</buryLivings>
-		<buryLivingsPCT>25,15,1</buryLivingsPCT>
-	</stonetablebury>
 	<!-- /TABLE DECORATIONS -->
 
 	<!-- RUBBLE FOR MINES -LM -->
@@ -12426,20 +12272,6 @@
 	</ropebridge_EW>
 
 	<!-- TAVERN TABLE DECORATIONS -LM -->
-	<taverntable>
-		<name esES="Mesa de taberna">Tavern table</name>
-		<description esES="Larga vida a la mesa">Long live the table</description>
-
-		<wallConnector>true</wallConnector>
-		<happiness>1</happiness>
-		<alwaysOperative>false</alwaysOperative>
-		<action>add_taverntable_candle</action>
-		<action>add_taverntable_drinks</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_taverntable</action>
-	</taverntable>
-
 	<taverntable_candle>
 		<name esES="Mesa de taberna">Tavern table</name>
 		<description esES="Larga vida a la mesa">Long live the table</description>
@@ -13137,17 +12969,6 @@
 		<buryItemPCT>75</buryItemPCT>
 	</gardenblack>
 	
-	<!-- BURIED GARDEN -->
-	<gardenbury>
-		<name esES="Jardín de dos niveles">Dirt garden</name>
-		<description esES="Jardín en miniatura">Miniature garden</description>
-
-		<alwaysOperative>false</alwaysOperative>
-		
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<value>102</value>
-	</gardenbury>
 	<!-- NEW HEDGES -->
 	<orangeflowerhedge>
 		<name esES="Seto de flores rojas">Orange Flower Hedge</name>
@@ -13257,22 +13078,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>50</value>
 	</blackflowerhedge>
-	
-	<!-- BURIED HEDGE -->
-	<hedgebury>
-		<name esES="Seto">Hedge</name>
 
-		<wall>true</wall>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<glue>true</glue>
-		<base>true</base>
-		<blocky>true</blocky>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>35</value>
-	</hedgebury>
 	<!-- REMOVE GRAVES -->
 	<unearthedremains>
 		<name esES="N/A">Unearthed Remains</name>
@@ -13314,7 +13120,7 @@
 	<santatomb>
 		<name esES="N/A">Santa's Tomb</name>
 		<alwaysOperative>false</alwaysOperative>
-
+		<type>graves</type>
 		<locked>true</locked>
 
 		<bury>true</bury>
@@ -15589,6 +15395,7 @@
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
+
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
 		<zone>zhospital</zone>
@@ -15616,6 +15423,7 @@
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
+
 
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
@@ -15645,6 +15453,7 @@
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
+
 
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
@@ -15702,6 +15511,7 @@
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
+
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
 		<zone>zhospital</zone>
@@ -15751,6 +15561,7 @@
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
+
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -15815,6 +15626,7 @@
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
+
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
 		<zone>zhospital</zone>
@@ -15844,6 +15656,7 @@
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
+
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
 		<zone>zhospital</zone>
@@ -15872,6 +15685,7 @@
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
+
 
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
@@ -17322,7 +17136,6 @@
 		<action>del_blackshortflag</action>
 	</blackshortflag>
 
-
 	<doorsignswords_E1>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un casco pintado en él">It has helmet painted on it</description>
@@ -17988,7 +17801,6 @@
 		<action>del_gargoylestatue</action>
 	</gargoylestatue_E>
 
-
 	<goldunifallowstatue_S>
 		<name esES="Estatua de unifallow de oro">Gold unifallow statue</name>
 		<description esES="Brilla demasiado! Te puedes quedar ciego mirándola">It's so shiny, you would go blind looking at it too long!</description>
@@ -18030,7 +17842,6 @@
 		<action>del_silverskootenbeetenstatue</action>
 	</silverskootenbeetenstatue_S>
 
-
 	<chimney2>
 		<name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
@@ -18071,7 +17882,7 @@
 
 	<grave_E>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18092,7 +17903,7 @@
 
 	<grave2_W>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18106,7 +17917,7 @@
 
 	<grave2_E>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18120,7 +17931,7 @@
 
 	<grave3_W>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18134,7 +17945,7 @@
 
 	<grave3_E>
 		<name esES="Tumba (Grave)">Grave</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18148,7 +17959,7 @@
 
 	<tomb_E>
 		<name esES="Sepulcro">Tomb</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18169,7 +17980,7 @@
 
 	<tomb2_W>
 		<name esES="Sepulcro">Tomb</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18190,7 +18001,7 @@
 
 	<tomb2_E>
 		<name esES="Sepulcro">Tomb</name>
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18212,7 +18023,7 @@
 	<mosstomb_E>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18233,7 +18044,7 @@
 	<mosstomb2_W>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18254,7 +18065,7 @@
 	<mosstomb2_E>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18275,7 +18086,7 @@
 	<mosstomb3_W>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
 
-		<type>cb262.decorative.outdoor</type>
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
@@ -18296,8 +18107,8 @@
 
 	<mosstomb3_E>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
-
-		<type>cb262.decorative.outdoor</type>
+		
+		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
 		

@@ -79,4 +79,7 @@
 	
 	<!-- WINTER ITEMS -->
 	<decorative.winter esES="Objetos invernales" icon="winter_ui">Winter Items</decorative.winter>
+
+	<!-- GRAVES -->
+	<graves esES="N/A" icon="corpse">Graves</graves>
 </types>
