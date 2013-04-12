@@ -389,18 +389,31 @@
 	</decorative>
 
 	<food name="Food" esES="Comida" icon="ui_rfood">
-			<animals name="Animals" esES="Animales" icon="ui_cowfarm">
-			<item id="qbreedcow" code="QUEUE" parameter="qbreedcow" />
-			<item id="qbreedbull" code="QUEUE" parameter="qbreedbull" />
-			<item id="qbreedpig" code="QUEUE" parameter="qbreedpig" />
-			<item id="qbreedboar" code="QUEUE" parameter="qbreedboar" />
-			<item id="qbreedchicken" code="QUEUE" parameter="qbreedchicken" />
-			<item id="qbreedrooster" code="QUEUE" parameter="qbreedrooster" />
-			<item id="qbreedskootenbeeten" code="QUEUE" parameter="qbreedskootenbeeten" />
-			<item id="qbreedunifallow" code="QUEUE" parameter="qbreedunifallow" />
-			<item id="qbreedbadger" code="QUEUE" parameter="qbreedbadger" />
-			<item id="qbreedsnoat" code="QUEUE" parameter="qbreedsnoat" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			<animals name="Animal Farms" esES="N/A" icon="ui_cowfarm">
+  			<item id="qbreedcow" code="QUEUE" parameter="qbreedcow" />
+  			<item id="qbreedbull" code="QUEUE" parameter="qbreedbull" />
+  			<item id="qbreedpig" code="QUEUE" parameter="qbreedpig" />
+  			<item id="qbreedboar" code="QUEUE" parameter="qbreedboar" />
+  			<item id="qbreedchicken" code="QUEUE" parameter="qbreedchicken" />
+  			<item id="qbreedrooster" code="QUEUE" parameter="qbreedrooster" />
+  			<item id="qbreedskootenbeeten" code="QUEUE" parameter="qbreedskootenbeeten" />
+  			<item id="qbreedunifallow" code="QUEUE" parameter="qbreedunifallow" />
+  			<item id="qbreedbadger" code="QUEUE" parameter="qbreedbadger" />
+  			<item id="qbreedsnoat" code="QUEUE" parameter="qbreedsnoat" />
+  			<produce name="Animal Procuce" esES="N/A" icon="ui_rfood">
+  				<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
+  				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
+  				<item id="qmilkdoe" code="QUEUE" parameter="qmilkdoe" />
+  				<item id="qmilksnoat" code="QUEUE" parameter="qmilksnoat" />
+  				<item id="qmilkunifallow" code="QUEUE" parameter="qmilkunifallow" />
+  				<item id="qmilkwildunifallow" code="QUEUE" parameter="qmilkwildunifallow" />
+  				<item id="qgatherchickenegg" code="QUEUE" parameter="qgatherchickenegg" />
+  				<item id="qgatherwildchickenegg" code="QUEUE" parameter="qgatherwildchickenegg" />
+  				<item id="qgatherskootenegg" code="QUEUE" parameter="qgatherskootenegg" />
+  				<item id="qgatherwildskootenegg" code="QUEUE" parameter="qgatherwildskootenegg" />
+  				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+  			</produce>
+  			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</animals>
 			<raw name="Raw Foods" esES="Comidas Crudas" icon="ui_appleseed">
 
@@ -419,27 +432,14 @@
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</harvesting>
 
-			<animalsgathering name="Gathering" esES="Recolección" icon="ui_chickenfarm">
-				<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
-				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
-				<item id="qmilkdoe" code="QUEUE" parameter="qmilkdoe" />
-				<item id="qmilksnoat" code="QUEUE" parameter="qmilksnoat" />
-				<item id="qmilkunifallow" code="QUEUE" parameter="qmilkunifallow" />
-				<item id="qmilkwildunifallow" code="QUEUE" parameter="qmilkwildunifallow" />
-				<item id="qgatherchickenegg" code="QUEUE" parameter="qgatherchickenegg" />
-				<item id="qgatherwildchickenegg" code="QUEUE" parameter="qgatherwildchickenegg" />
-				<item id="qgatherskootenegg" code="QUEUE" parameter="qgatherskootenegg" />
-				<item id="qgatherwildskootenegg" code="QUEUE" parameter="qgatherwildskootenegg" />
-				<item id="qgathersnowpile" code="QUEUE" parameter="qgathersnowpile" />
-				<item id="qwaterbucket" code="QUEUE" parameter="qwaterbucket" />
-
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</animalsgathering>
-
 			<processing name="Processing" esES="Procesados" icon="flour">
 			<item id="qflour" code="QUEUE" parameter="qflour" icon="flour" />
 			<item id="qsugar" code="QUEUE" parameter="qsugar" icon="sugar" />
 			<item id="qjunglesalad" code="QUEUE" parameter="qjunglesalad" />
+			<item id="qjunglesalad" code="QUEUE" parameter="qjunglesalad" />
+			<item id="qjunglesalad" code="QUEUE" parameter="qjunglesalad" />
+			<item id="qgathersnowpile" code="QUEUE" parameter="qgathersnowpile" />
+			<item id="qwaterbucket" code="QUEUE" parameter="qwaterbucket" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</processing>
 
@@ -496,10 +496,10 @@
 			<item id="qmountainstew" code="QUEUE" parameter="qmountainstew" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</cooking>
-
+			<item id="qbeer" code="QUEUE" parameter="qbeer" />
+			<item id="qwine" code="QUEUE" parameter="qwine" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</food>
-
 
 	<furniture name="Furniture" esES="Muebles" icon="ui_rfurniture">
 	<beds name="Beds" icon="woodenbed">
