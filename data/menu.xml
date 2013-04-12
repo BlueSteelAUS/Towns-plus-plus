@@ -9,7 +9,6 @@
 	<item id="mine" name="Mine" esES="Minar" code="MINE" icon="ui_mine" />
 	<item id="till" name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
 	<item id="cancelorder" name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
-	<item id="destroyscaffold" code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
 	<stockpiles name="Stockpiles" esES="Pilas" icon="ui_stockpile">
 		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
 		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
@@ -25,6 +24,7 @@
 	</stockpiles>
 
 	<destruction name="Destruction" icon="fireball">
+		<item id="destroyscaffold" code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
 		<item id="untill" name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
 		<item id="qclearrubble" name="Clear empty mineshafts" esES="N/A" code="CUSTOMACTION" parameter="qclearrubble" icon="ui_deleterubble" />
 		<item id="killanimals" name="Kill animals" esES="N/A" code="CUSTOMACTION" parameter="qkillpig,qkillcow,qkillchicken,qkillsnoat,qkillreindeer,qkillunifallow,qkillbadger,qkillbird,qkillskootenbeeten,qkillsheep" icon="ui_deleteanimals" />

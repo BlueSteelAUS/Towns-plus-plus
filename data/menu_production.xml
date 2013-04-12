@@ -390,6 +390,7 @@
 
 	<food name="Food" esES="Comida" icon="ui_rfood">
 			<animals name="Animal Farms" esES="N/A" icon="ui_cowfarm">
+
   			<item id="qbreedcow" code="QUEUE" parameter="qbreedcow" />
   			<item id="qbreedbull" code="QUEUE" parameter="qbreedbull" />
   			<item id="qbreedpig" code="QUEUE" parameter="qbreedpig" />
@@ -400,7 +401,7 @@
   			<item id="qbreedunifallow" code="QUEUE" parameter="qbreedunifallow" />
   			<item id="qbreedbadger" code="QUEUE" parameter="qbreedbadger" />
   			<item id="qbreedsnoat" code="QUEUE" parameter="qbreedsnoat" />
-  			<produce name="Animal Procuce" esES="N/A" icon="ui_rfood">
+  			<produce name="Animal Procuce" esES="N/A" icon="milk">
   				<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
   				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
   				<item id="qmilkdoe" code="QUEUE" parameter="qmilkdoe" />
