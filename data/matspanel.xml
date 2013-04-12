@@ -3,7 +3,7 @@
 	<group>
 		<name esES="Armaduras">Armors</name>
 		<icon>icon_mats_armors</icon>
-		<types>armor.iron,armor.bone,armor.spiderite,armor.direite,armor.misc,armor.ghoulite,armor.goblinite,armor.hobgoblinite,armor.ogreite,armor.snickerite,armor.wood,armor.zombite,armor,armor.gold,armor.silver,armor.special</types>
+		<types>armor.iron,armor.bone,armor.spiderite,armor.direite,armor.misc,armor.ghoulite,armor.goblinite,armor.hobgoblinite,armor.ogreite,armor.snickerite,armor.wood,armor.zombite,armor,armor.gold,armor.silver,armor.special,armor.cloth</types>
 	</group>
 
 	<group>
