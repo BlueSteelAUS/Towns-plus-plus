@@ -1151,7 +1151,7 @@
 	<skinnedsheep>
 		<type>FRIENDLY</type>
 
-		<name esES="Oveja trasquilada">Skinned sheep</name>
+		<name esES="Oveja trasquilada">Shorn sheep</name>
 		<habitat>grass</habitat>
 		<habitat>grass1</habitat>
 		<attack>1d59+170</attack>
@@ -1210,7 +1210,7 @@
 	<skinnedwildsheep>
 		<type>FRIENDLY</type>
 
-		<name esES="Oveja salvaje trasquilada">Skinned wild sheep</name>
+		<name esES="Oveja salvaje trasquilada">Shorn wild sheep</name>
 		<habitat>grass</habitat>
 		<habitat>grass1</habitat>
 		<attack>1d59+170</attack>
@@ -3678,8 +3678,39 @@
 			<levelMin>8</levelMin>
 			<levelMax>15</levelMax>
 		</drop>
-
 	</werewolf>
+
+	<wolfy>
+		<type>ENEMY</type>
+		<hate>CITIZEN,ALLY,HERO</hate>
+		<level>7</level>
+
+		<name esES="Wolfy, reina de los hombres lobo">Wolfy, queen of the werewolves</name>
+		<attack>1d539+1630</attack>
+		<attackSpeed>8</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d569+1515</healthPoints>
+		<attackVerb esES="patea">kicks</attackVerb>
+		<attackVerbInfinitive esES="patear">kick</attackVerbInfinitive>
+		<damage>1d139+325</damage>
+
+		<LOS>1d4</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>65</walkSpeed>
+		<grouping>false</grouping>
+
+		<effects>lycanthropyenhanced</effects>
+		<effectsImmune>lycanthropyinfected</effectsImmune>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>19</levelMax>
+		</drop>
+	</wolfy>
 
 	<snickerbladewizard>
 		<type>ENEMY</type>
