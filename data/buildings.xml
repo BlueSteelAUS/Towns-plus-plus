@@ -184,7 +184,7 @@
 	<mill>
 		<name esES="Molino">Mill</name>
 		<description esES="Se usa para obtener harina">Use this to create flour</description>
-		<description esES="Tambi謠conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
+		<description esES="También conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
 		<width>2</width>
 		<height>2</height>
 		<groundData>00E1</groundData>
