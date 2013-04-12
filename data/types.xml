@@ -63,7 +63,7 @@
 	<armor.vanity esES="Vanidad" icon="ui_rclothes">Vanity</armor.vanity>
 	<decorative.indoor esES="Interior" icon="ui_indoor">Indoor</decorative.indoor>
 	<decorative.outdoor esES="Exterior" icon="ui_outdoor">Outdoor</decorative.outdoor>
-	<decorative.special esES="Especiales" icon="ui_outdoor">Special</decorative.special>
+	<decorative.special esES="Especiales" icon="ui_decspecial">Special</decorative.special>
 	<weapon.gold esES="Oro" icon="ui_rweapon_golden">Gold</weapon.gold>
 	<armor.gold esES="Oro" icon="ui_rarmor_golden">Gold</armor.gold>
 	<weapon.silver esES="Plata" icon="ui_rweapon_silver">Silver</weapon.silver>
