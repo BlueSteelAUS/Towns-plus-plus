@@ -5,6 +5,10 @@ Changes since Towns++_v12
 BlueSteel's Contributions
 =========================
 -> added missing untill dirt action to terrain.xml
+-> Tidy'd up items.xml for better comparing
+-> changed road (75), pavement (65) walk speeds to be constant
+-> re-added Beer and wine to production menu
+-> re-organised food production menu
 
 
 LittleMikey's Contributions:
