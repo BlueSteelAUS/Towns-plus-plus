@@ -215,7 +215,7 @@
 	</explodingsprout>
 
 	<natureaid>
-		<name esES="CHANGETHIS">Nature aid</name>
+		<name esES="Curación de la naturaleza">Nature aid</name>
 		<coolDown>1d650+650</coolDown>
 		<use>ALWAYS</use>
 
