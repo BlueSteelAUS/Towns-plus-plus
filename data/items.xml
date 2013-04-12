@@ -4930,6 +4930,7 @@
 		<stackableSize>1</stackableSize>
 		<action>del_logdoor</action>
 	</logdoor>
+	
 	<woodendoor>
 		<name esES="Puerta de madera">Wooden door</name>
 
@@ -4943,6 +4944,11 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
+		
+		<action>decorate_woodendoor</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_woodendoor</action>
 	</woodendoor>
 
 	<bonedoor>
@@ -11629,25 +11635,6 @@
 		<buryLivingsPCT>25,1</buryLivingsPCT>
 	</xmasbakeroven_E>
 	
-	<logdoor>
-		<name esES="Puerta de troncos">Log door</name>
-		<description esES="Puerta básica">Basic door</description>
-		<type>construction.doors</type>
-		<wallConnector>true</wallConnector>
-		<door>true</door>
-		<alwaysOperative>false</alwaysOperative>
-		<value>49</value>
-		<action>decorate_logdoor</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_logdoor</action>
-		
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryItem>doortrap</buryItem>
-		<buryItemPCT>10</buryItemPCT>
-	</logdoor>
-
 	<xmaslogdoor>
 		<name esES="Puerta de troncos">Decorated Log door</name>
 		<description esES="Puerta básica">Basic door</description>
@@ -11666,23 +11653,6 @@
 		<buryItem>doortrap</buryItem>
 		<buryItemPCT>10</buryItemPCT>
 	</xmaslogdoor>
-
-	<woodendoor>
-		<name esES="Puerta de madera">Wooden door</name>
-		<type>construction.doors</type>
-		<wallConnector>true</wallConnector>
-		<door>true</door>
-		<alwaysOperative>false</alwaysOperative>
-		<value>49</value>
-		<action>decorate_woodendoor</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_woodendoor</action>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<buryItem>doortrap</buryItem>
-		<buryItemPCT>10</buryItemPCT>
-	</woodendoor>
 
 	<xmaswoodendoor>
 		<name esES="Puerta de madera">Decorated Wooden door</name>
