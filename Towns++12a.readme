@@ -1,46 +1,14 @@
 [code]
 
-Changes since Towns++_v11a7
+Changes since Towns++_v12
 ============================
 BlueSteel's Contributions
 =========================
--> Finished terraforming , now requires 4x resource obtained from what you're converting to
--> Deleted rotatable gifts (difference not very noticeable when rotated)
--> Rebalanced resources gained from mining/digging
--> Added rmmud to all forests when digging/mining
+-> added missing untill dirt action to terrain.xml
+
 
 LittleMikey's Contributions:
 ============================
--> Fixed butcher Boars for Pork.
--> New Names by ericb1800.
--> New Oasis map by me. This map features a large Oasis, with a very empty desert surrounding it.
-   Resources are hard to find, it's very rare to get surface minerals, and the only easy to get
-   food sources are Fish from the Oasis and Cactus Fruit. You will need to rely on Market Caravans
-   to bring you more food types if you want to expand!
--> Integrated blurpsl's Removable Items mod. Enhanced original mod to allow removal of all rotatable
-   furniture, roads and stairs.
-   NOTE: Removing a rotated item will return you the original rotation. This is necessary so you can
-   place the item back down again from the right menu, as well as sell it at a caravan if applicable.
--> Added "Kill area" order for clearing an area of animals. Use with caution!
--> Cactus Soup can now be made on a cooking fire.
--> Fixed removing Market Stalls. 
--> Integrated ericb1800's Complete Colours mod, and added a few new colours of Flower, Garden and Hedge.
-   Flowers can be found naturally in new maps, but have also been added to some Caravans so you can 
-   still find them on old save games.
--> Also from ericb1800, added new Slime colours. Now you will find Yellow, Orange and Purple Slimes.
-   These slimes currently have the same stats and rarity as Red Slimes. New slimes will only spawn in
-   the Oasis and Deeper Dungeons map for now.
--> All slimes drop different coloured Gel, and this can be made into a new food item, Jelly! Jelly
-   doesn't fill as much as meat products, but it does provide a happiness boost to anyone who eats it.
--> Fixed removal of Graves. Graves now produce "Unearthed Remains" when removed, so you can use these
-   to rebuild any type of grave with the one you unearthed. You will still need the usual materials to
-   build the new grave.   
--> Fixed crash with Ancient Stone Stairs right click context menu.
--> Added remove ability to cb262's Coloured Stairs.
--> Spanish translations by frenchiveruti
--> Sheep farm updated to use new method of farming.
--> Fixed types for some rotated items showing up in stock menu.
--> New Tomb/Corpse for Santa. Sorry kids!
 
 [/code]
 
@@ -219,6 +187,47 @@ Tidy up the XML files and make them more uniformly organised for easier editing
 
 change logs
 ===========
+Changes since Towns++_v11a7
+============================
+BlueSteel's Contributions
+=========================
+-> Finished terraforming , now requires 4x resource obtained from what you're converting to
+-> Deleted rotatable gifts (difference not very noticeable when rotated)
+-> Rebalanced resources gained from mining/digging
+-> Added rmmud to all forests when digging/mining
+
+LittleMikey's Contributions:
+============================
+-> Fixed butcher Boars for Pork.
+-> New Names by ericb1800.
+-> New Oasis map by me. This map features a large Oasis, with a very empty desert surrounding it.
+   Resources are hard to find, it's very rare to get surface minerals, and the only easy to get
+   food sources are Fish from the Oasis and Cactus Fruit. You will need to rely on Market Caravans
+   to bring you more food types if you want to expand!
+-> Integrated blurpsl's Removable Items mod. Enhanced original mod to allow removal of all rotatable
+   furniture, roads and stairs.
+   NOTE: Removing a rotated item will return you the original rotation. This is necessary so you can
+   place the item back down again from the right menu, as well as sell it at a caravan if applicable.
+-> Added "Kill area" order for clearing an area of animals. Use with caution!
+-> Cactus Soup can now be made on a cooking fire.
+-> Fixed removing Market Stalls. 
+-> Integrated ericb1800's Complete Colours mod, and added a few new colours of Flower, Garden and Hedge.
+   Flowers can be found naturally in new maps, but have also been added to some Caravans so you can 
+   still find them on old save games.
+-> Also from ericb1800, added new Slime colours. Now you will find Yellow, Orange and Purple Slimes.
+   These slimes currently have the same stats and rarity as Red Slimes. New slimes will only spawn in
+   the Oasis and Deeper Dungeons map for now.
+-> All slimes drop different coloured Gel, and this can be made into a new food item, Jelly! Jelly
+   doesn't fill as much as meat products, but it does provide a happiness boost to anyone who eats it.
+-> Fixed removal of Graves. Graves now produce "Unearthed Remains" when removed, so you can use these
+   to rebuild any type of grave with the one you unearthed. You will still need the usual materials to
+   build the new grave.   
+-> Fixed crash with Ancient Stone Stairs right click context menu.
+-> Added remove ability to cb262's Coloured Stairs.
+-> Spanish translations by frenchiveruti
+-> Sheep farm updated to use new method of farming.
+-> Fixed types for some rotated items showing up in stock menu.
+-> New Tomb/Corpse for Santa. Sorry kids!
 
 Changes since Towns++_v11a6
 ============================
