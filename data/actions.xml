@@ -19249,6 +19249,19 @@
 			 <createItem>newbadgerfarm</createItem>
 		  </queue>
 	</action>
+	
+	<action>
+		  <id>del_sheepfarm</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">newsheepfarm,emptysheepfarm</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>newsheepfarm</createItem>
+		  </queue>
+	</action>
 <!-- REMOVE ITEMS END -->
 
 <!-- COOKING JELLY -->
