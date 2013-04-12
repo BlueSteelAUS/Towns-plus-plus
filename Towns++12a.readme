@@ -10,9 +10,13 @@ BlueSteel's Contributions
 -> re-added Beer and wine to production menu
 -> re-organised food production menu
 -> updated to 12A
+-> changes to menu_right and menu_production
 
 LittleMikey's Contributions:
 ============================
+-> New type for Graves, so they don't show up in Caravans.
+-> Fixed missing action for Sheep Farms.
+-> Removed duplicate items from items.xml
 
 [/code]
 
