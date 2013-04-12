@@ -444,6 +444,33 @@
 	</containers>
 
 	<decorative name="Decorative" esES="Decorativo" icon="ui_sdecorative">
+
+			<graves name="Graves" eeES="Tumbas" icon="lizardtomb">
+				<item id="qgrave" code="QUEUEANDPLACEAREA" parameter="qgrave" />
+				<item id="qgrave2_W" code="QUEUEANDPLACEAREA" parameter="qgrave2_W" />
+				<item id="qgrave3_W" code="QUEUEANDPLACEAREA" parameter="qgrave3_W" />
+				<item id="qtomb" code="QUEUEANDPLACEAREA" parameter="qtomb" />
+				<item id="qmosstomb" code="QUEUEANDPLACEAREA" parameter="qmosstomb" />
+				<item id="qtomb2_W" code="QUEUEANDPLACEAREA" parameter="qtomb2_W" />
+				<item id="qmosstomb2_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb2_W" />
+				<item id="qmosstomb3_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb3_W" />
+				<item id="qlizardtomb" code="QUEUEANDPLACEAREA" parameter="qlizardtomb" />
+				<item id="qelftomb" code="QUEUEANDPLACEAREA" parameter="qelftomb" />
+				<item id="qdwarftomb" code="QUEUEANDPLACEAREA" parameter="qdwarftomb" />
+				<item id="qknighttomb" code="QUEUEANDPLACEAREA" parameter="qknighttomb" />
+				<item id="qhighlandertomb" code="QUEUEANDPLACE" parameter="qhighlandertomb" />
+				<item id="qroguemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguemaletomb" />
+				<item id="qroguefemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguefemaletomb" />
+				<item id="qherbalisttomb" code="QUEUEANDPLACEAREA" parameter="qherbalisttomb" />
+				<item id="qmagetomb" code="QUEUEANDPLACEAREA" parameter="qmagetomb" />
+				<item id="qbarbariantomb" code="QUEUEANDPLACEAREA" parameter="qbarbariantomb" />
+				<item id="qsipstomb" code="QUEUEANDPLACEAREA" parameter="qsipstomb" />
+				<item id="qvechstomb" code="QUEUEANDPLACEAREA" parameter="qvechstomb" />
+				<item id="qpunchwoodtomb" code="QUEUEANDPLACEAREA" parameter="qpunchwoodtomb" />
+				<item id="qsantatomb" code="QUEUEANDPLACEAREA" parameter="qsantatomb" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</graves>
+
 		<indoor name="Indoor" esES="Interior" icon="animalfireplace">
 			<item id="qbarrel" code="QUEUEANDPLACEAREA" parameter="qbarrel" />
 			<item id="qchest" code="QUEUEANDPLACEAREA" parameter="qchest" />
@@ -457,6 +484,17 @@
 			<item id="qflowerpot_mixed"  code="QUEUEANDPLACEAREA" parameter="qflowerpot_mixed" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</indoor>
+
+		<lighting name="Lighting" esES="Lamparas" icon="yellowhangedlamp" >
+			<item id="qcandle" code="QUEUEANDPLACEAREA" parameter="qcandle" />
+			<item id="qbonecandle" code="QUEUEANDPLACEAREA" parameter="qbonecandle" />
+			<item id="qhangedlamp" code="QUEUEANDPLACEAREA" parameter="qhangedlamp" />
+			<item id="qbluehangedlamp" code="QUEUEANDPLACEAREA" parameter="qbluehangedlamp" />
+			<item id="qgreenhangedlamp" code="QUEUEANDPLACEAREA" parameter="qgreenhangedlamp" />
+			<item id="qyellowhangedlamp" code="QUEUEANDPLACEAREA" parameter="qyellowhangedlamp" />
+			<item id="qredhangedlamp" code="QUEUEANDPLACEAREA" parameter="qredhangedlamp" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</lighting>
 
 		<outdoor name="Outdoor" esES="Exterior" icon="ui_outdoor">
 			<banners name="Banners" eeES="Estandartes" icon="ui_banner">
@@ -494,32 +532,6 @@
 				<item id="qgardenbush3" code="QUEUEANDPLACEAREA" parameter="qgardenbush3" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</garden>
-
-			<graves name="Graves" eeES="Tumbas" icon="lizardtomb">
-				<item id="qgrave" code="QUEUEANDPLACEAREA" parameter="qgrave" />
-				<item id="qgrave2_W" code="QUEUEANDPLACEAREA" parameter="qgrave2_W" />
-				<item id="qgrave3_W" code="QUEUEANDPLACEAREA" parameter="qgrave3_W" />
-				<item id="qtomb" code="QUEUEANDPLACEAREA" parameter="qtomb" />
-				<item id="qmosstomb" code="QUEUEANDPLACEAREA" parameter="qmosstomb" />
-				<item id="qtomb2_W" code="QUEUEANDPLACEAREA" parameter="qtomb2_W" />
-				<item id="qmosstomb2_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb2_W" />
-				<item id="qmosstomb3_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb3_W" />
-				<item id="qlizardtomb" code="QUEUEANDPLACEAREA" parameter="qlizardtomb" />
-				<item id="qelftomb" code="QUEUEANDPLACEAREA" parameter="qelftomb" />
-				<item id="qdwarftomb" code="QUEUEANDPLACEAREA" parameter="qdwarftomb" />
-				<item id="qknighttomb" code="QUEUEANDPLACEAREA" parameter="qknighttomb" />
-				<item id="qhighlandertomb" code="QUEUEANDPLACE" parameter="qhighlandertomb" />
-				<item id="qroguemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguemaletomb" />
-				<item id="qroguefemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguefemaletomb" />
-				<item id="qherbalisttomb" code="QUEUEANDPLACEAREA" parameter="qherbalisttomb" />
-				<item id="qmagetomb" code="QUEUEANDPLACEAREA" parameter="qmagetomb" />
-				<item id="qbarbariantomb" code="QUEUEANDPLACEAREA" parameter="qbarbariantomb" />
-				<item id="qsipstomb" code="QUEUEANDPLACEAREA" parameter="qsipstomb" />
-				<item id="qvechstomb" code="QUEUEANDPLACEAREA" parameter="qvechstomb" />
-				<item id="qpunchwoodtomb" code="QUEUEANDPLACEAREA" parameter="qpunchwoodtomb" />
-				<item id="qsantatomb" code="QUEUEANDPLACEAREA" parameter="qsantatomb" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</graves>
 
 			<poles name="Poles" eeES="Cabezas" icon="goblinpole">
 				<item id="qgoblinpole" code="QUEUEANDPLACEAREA" parameter="qgoblinpole" />
@@ -562,17 +574,6 @@
 			</statues>
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</outdoor>
-
-		<lighting name="Lighting" esES="Lamparas" icon="yellowhangedlamp" >
-			<item id="qcandle" code="QUEUEANDPLACEAREA" parameter="qcandle" />
-			<item id="qbonecandle" code="QUEUEANDPLACEAREA" parameter="qbonecandle" />
-			<item id="qhangedlamp" code="QUEUEANDPLACEAREA" parameter="qhangedlamp" />
-			<item id="qbluehangedlamp" code="QUEUEANDPLACEAREA" parameter="qbluehangedlamp" />
-			<item id="qgreenhangedlamp" code="QUEUEANDPLACEAREA" parameter="qgreenhangedlamp" />
-			<item id="qyellowhangedlamp" code="QUEUEANDPLACEAREA" parameter="qyellowhangedlamp" />
-			<item id="qredhangedlamp" code="QUEUEANDPLACEAREA" parameter="qredhangedlamp" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</lighting>
 
 		<!-- WINTER ITEMS -->
 		<winter name="Winter Items" esES="Objetos invernales" icon="winter_ui">
