@@ -10715,6 +10715,7 @@
 <!-- BlueSteel's Mod pack -->
 	<dirtmine>
 		<name esES="Pozo minero de barro">Mud mineshaft</name>
+		<type>mine</type>
 		<habitat>grass</habitat>
 		<habitat>grass1</habitat>
 		<habitat>grass2</habitat>
@@ -10735,6 +10736,7 @@
 	
 	<harvesteddirtmine>
 		<name esES="Pozo minero de barro">Mud mineshaft</name>
+		<type>mine</type>
 		<habitat>grass</habitat>
 		<habitat>grass1</habitat>
 		<habitat>grass2</habitat>
@@ -10754,6 +10756,7 @@
 
 	<gravelmine>
 		<name esES="Pozo minero de gravilla">Gravel mineshaft</name>
+		<type>mine</type>
 		<habitat>gravel</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
@@ -10766,6 +10769,7 @@
 
 	<harvestedgravelmine>
 		<name esES="Pozo minero de gravilla">Gravel mineshaft</name>
+		<type>mine</type>
 		<habitat>gravel</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>gravelmine</maxAgeItem>
@@ -10777,6 +10781,7 @@
 
 	<coalmine>
 		<name esES="Pozo minero de carbón">Coal mineshaft</name>
+		<type>mine</type>
 		<habitat>coal</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
@@ -10789,6 +10794,7 @@
 	
 	<harvestedcoalmine>
 		<name esES="Pozo minero de carbón">Coal mineshaft</name>
+		<type>mine</type>
 		<habitat>coal</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>coalmine</maxAgeItem>
@@ -10800,6 +10806,7 @@
 
 	<stonemine>
 		<name esES="Pozo minero de piedra">Stone mineshaft</name>
+		<type>mine</type>
 		<habitat>stone</habitat>
 		<habitat>densestone</habitat>
 		<maxAge>14400</maxAge>
@@ -10813,6 +10820,7 @@
 	
 	<harvestedstonemine>
 		<name esES="Pozo minero de piedra">Stone mineshaft</name>
+		<type>mine</type>
 		<habitat>stone</habitat>
 		<habitat>densestone</habitat>
 		<maxAge>120</maxAge>
@@ -10825,6 +10833,7 @@
 
 	<sandmine>
 		<name esES="Pozo minero de Arena">Sand mineshaft</name>
+		<type>mine</type>
 		<habitat>sand</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
@@ -10837,6 +10846,7 @@
 	
 	<harvestedsandmine>
 		<name esES="Pozo minero de Arena">Sand mineshaft</name>
+		<type>mine</type>
 		<habitat>sand</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>sandmine</maxAgeItem>
@@ -10848,6 +10858,7 @@
 
 	<ironmine>
 		<name esES="Pozo minero de hierro">Iron mineshaft</name>
+		<type>mine</type>
 		<habitat>iron</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
@@ -10859,6 +10870,7 @@
 	</ironmine>
 	<harvestedironmine>
 		<name esES="Pozo minero de hierro">Iron mineshaft</name>
+		<type>mine</type>
 		<habitat>iron</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>ironmine</maxAgeItem>
@@ -10870,6 +10882,7 @@
 
 	<coppermine>
 		<name esES="Pozo minero de cobre">Copper mineshaft</name>
+		<type>mine</type>
 		<habitat>copper</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
@@ -10882,6 +10895,7 @@
 
 	<harvestedcoppermine>
 		<name esES="Pozo minero de cobre">Copper mineshaft</name>
+		<type>mine</type>
 		<habitat>copper</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>coppermine</maxAgeItem>
@@ -10893,6 +10907,7 @@
 
 	<silvermine>
 		<name esES="Pozo minero de Platae">Silver mineshaft</name>
+		<type>mine</type>
 		<habitat>silver</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
@@ -10905,6 +10920,7 @@
 	
 	<harvestedsilvermine>
 		<name esES="Pozo minero de Plata">Silver mineshaft</name>
+		<type>mine</type>
 		<habitat>silver</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>silvermine</maxAgeItem>
@@ -10916,6 +10932,7 @@
 
 	<goldmine>
 		<name esES="Pozo minero de Oro">Gold mineshaft</name>
+		<type>mine</type>
 		<habitat>gold</habitat>
 		<maxAge>14400</maxAge>
 		<maxAgeItem>rubble</maxAgeItem>
@@ -10928,6 +10945,7 @@
 	
 	<harvestedgoldmine>
 		<name esES="Pozo minero de Oro">Gold mineshaft</name>
+		<type>mine</type>
 		<habitat>gold</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>goldmine</maxAgeItem>
