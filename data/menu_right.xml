@@ -148,7 +148,6 @@
 				<item id="qropebridge_EW" code="QUEUEANDPLACEAREA" parameter="qropebridge_EW" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</raisedfloors>
-
 			<item id="efloor1" code="CREATEZONE" parameter="efloor1" icon="efloor1" />
 			<item id="efloor2" code="CREATEZONE" parameter="efloor2" icon="efloor2" />
 			<item id="efloor3" code="CREATEZONE" parameter="efloor3" icon="efloor3" />
@@ -233,7 +232,6 @@
 			<item id="qlimestoneramp" code="QUEUEANDPLACEAREA" parameter="qlimestoneramp" />
 			<item id="qbonestairs" code="QUEUEANDPLACEAREA" parameter="qbonestairs" />
 -->
-			<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 			<item id="qverticalladder" code="QUEUEANDPLACEAREA" parameter="qverticalladder" />
 			<item id="qdirtstairs2a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs2a" />
 			<item id="qdirtstairs1a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs1a" />
@@ -271,7 +269,6 @@
 		<walls name="Walls" esES="Muros" icon="ui_rwalls">
 
 			<log name="Log walls" esES="Muros de troncos" icon="ui_l_walls">
-				<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 				<item id="qlogwall" code="QUEUEANDPLACEAREA" parameter="qlogwall" />
 				<item id="qlogblock" code="QUEUEANDPLACEAREA" parameter="qlogblock" />
 				<item id="qlogblock2" code="QUEUEANDPLACEAREA" parameter="qlogblock2" />
@@ -280,7 +277,6 @@
 			</log>
 
 			<wooden name="Wooden walls" esES="Muros de madera" icon="ui_w_walls">
-				<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 				<item id="qwoodenwall" code="QUEUEANDPLACEAREA" parameter="qwoodenwall" />
 				<item id="qwoodendarkwall" code="QUEUEANDPLACEAREA" parameter="qwoodendarkwall" />
 				<item id="qlightwoodblock" code="QUEUEANDPLACEAREA" parameter="qlightwoodblock" />
@@ -293,7 +289,6 @@
 			</wooden>
 
 			<stone name="Stone walls" esES="Muros de piedra" icon="ui_s_walls">
-				<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 				<item id="qstonewall" code="QUEUEANDPLACEAREA" parameter="qstonewall" />
 				<item id="qengravedstonewall" code="QUEUEANDPLACEAREA" parameter="qengravedstonewall" />
 				<item id="qengravedgreenwall" code="QUEUEANDPLACEAREA" parameter="qengravedgreenwall" />
@@ -315,7 +310,6 @@
 			</stone>
 
 			<brick name="Stone brick walls" esES="Muros de ladrillos de piedra" icon="ui_sb_walls">
-				<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 				<item id="qstonebrickblock" code="QUEUEANDPLACEAREA" parameter="qstonebrickblock" />
 				<item id="qstonebrickblock2" code="QUEUEANDPLACEAREA" parameter="qstonebrickblock2" />
 				<item id="qstonebrickblock3" code="QUEUEANDPLACEAREA" parameter="qstonebrickblock3" />
@@ -328,7 +322,6 @@
 			</brick>
 
 			<decorative name="Decorative walls" esES="Muros decorativos" icon="ui_d_walls">
-				<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 				<item id="qhedge" code="QUEUEANDPLACEAREA" parameter="qhedge" />
 				<item id="qbluehedge" code="QUEUEANDPLACEAREA" parameter="qbluehedge" />
 				<item id="qredhedge" code="QUEUEANDPLACEAREA" parameter="qredhedge" />
@@ -354,7 +347,6 @@
 			</decorative>
 
 			<other name="Other" esES="Otros" icon="ui_o_walls">
-				<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 				<item id="qbonewall" code="QUEUEANDPLACEAREA" parameter="qbonewall" />
 				<item id="qmudwall" code="QUEUEANDPLACEAREA" parameter="qmudwall" />
 				<item id="qsandwall" code="QUEUEANDPLACEAREA" parameter="qsandwall" />

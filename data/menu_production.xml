@@ -3,7 +3,6 @@
 <menu>
 
 	<construction name="Construction" esES="Construcción" icon="scaffold">
-			<item code="QUEUE" parameter="qscaffold" />
 
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
 			<item id="qlogdoor" code="QUEUE" parameter="qlogdoor" />
@@ -48,7 +47,6 @@
 		</roof>
 
 		<cb262_stairs name="Stairs" esES="Escaleras" icon="ui_stonestairs">
-			<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
 			<item id="qdirtstairs2a" code="QUEUE" parameter="qdirtstairs2a" />
 			<item id="qdirtstairs1a" code="QUEUE" parameter="qdirtstairs1a" />
 			<item id="qbonestairs_1_N" code="QUEUE" parameter="qbonestairs_1_N" />			
@@ -65,7 +63,6 @@
 			<item id="qsandstairs2a" code="QUEUE" parameter="qsandstairs2a" />
 			<item id="qsandstairs3a" code="QUEUE" parameter="qsandstairs3a" />
     		<cb262_stairs2 name="Coloured Stairs" esES="Escaleras de colores" icon="ui_colouredstairs">
-    			<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
     			<item id="qredstonestairs1" code="QUEUE" parameter="qredstonestairs1" />
     			<item id="qbluestonestairs1" code="QUEUE" parameter="qbluestonestairs1" />
     			<item id="qyellowstonestairs1" code="QUEUE" parameter="qyellowstonestairs1" />
@@ -85,7 +82,6 @@
 	<walls name="Walls" esES="Muros" icon="ui_rwalls">
 
 		<log name="Log walls" esES="Muros de troncos" icon="ui_l_walls">
-			<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
 			<item id="qlogwall" code="QUEUE" parameter="qlogwall" />
 			<item id="qlogblock" code="QUEUE" parameter="qlogblock" />
 			<item id="qlogblock2" code="QUEUE" parameter="qlogblock2" />
@@ -95,7 +91,6 @@
 		</log>
 
 		<wooden name="Wooden walls" esES="Muros de madera" icon="ui_w_walls">
-			<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
 			<item id="qwoodenwall" code="QUEUE" parameter="qwoodenwall" />
 			<item id="qwoodendarkwall" code="QUEUE" parameter="qwoodendarkwall" />
 			<item id="qlightwoodblock" code="QUEUE" parameter="qlightwoodblock" />
@@ -108,7 +103,6 @@
 		</wooden>
 
 		<stone name="Stone walls" esES="Muros de piedra" icon="ui_s_walls">
-			<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
 			<item id="qstonewall" code="QUEUE" parameter="qstonewall" />
 			<item id="qengravedstonewall" code="QUEUE" parameter="qengravedstonewall" />
 			<item id="qengravedgreenwall" code="QUEUE" parameter="qengravedgreenwall" />
@@ -130,7 +124,6 @@
 		</stone>
 
 		<brick name="Stone brick walls" esES="Muros de ladrillos de piedra" icon="ui_sb_walls">
-				<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
 				<item id="qstonebrickblock" code="QUEUE" parameter="qstonebrickblock" />
 				<item id="qstonebrickblock2" code="QUEUE" parameter="qstonebrickblock2" />
 				<item id="qstonebrickblock3" code="QUEUE" parameter="qstonebrickblock3" />
@@ -143,8 +136,6 @@
 		</brick>
 
 		<decorative name="Decorative walls" esES="Muros decorativos" icon="ui_d_walls">
-
-			<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
 			<item id="qhedge" code="QUEUE" parameter="qhedge" />
 			<item id="qbluehedge" code="QUEUE" parameter="qbluehedge" />
 			<item id="qredhedge" code="QUEUE" parameter="qredhedge" />
@@ -170,7 +161,6 @@
 		</decorative>
 
 		<other name="Other" esES="Otros" icon="ui_o_walls">
-			<item id="qscaffold" code="QUEUE" parameter="qscaffold" />
 			<item id="qbonewall" code="QUEUE" parameter="qbonewall" />
 			<item id="qmudwall" code="QUEUE" parameter="qmudwall" />
 			<item id="qsandwall" code="QUEUE" parameter="qsandwall" />
@@ -392,8 +382,28 @@
 
 	<food name="Food" esES="Comida" icon="ui_rfood">
 			<animals name="Animal Farms" esES="N/A" icon="ui_cowfarm">
-
-  			<item id="qbreedcow" code="QUEUE" parameter="qbreedcow" />
+     		<butchering name="Butchering" esES="Descuartizar" icon="ui_rfoodbutchering">
+    			<item id="qbutcherbadger" code="QUEUE" parameter="qbutcherbadger" />
+    			<item id="qbutcherpoultry" code="QUEUE" parameter="qbutcherpoultry" />
+    			<item id="qbutchercow" code="QUEUE" parameter="qbutchercow" />
+    			<item id="qbutcherpig" code="QUEUE" parameter="qbutcherpig" />
+    			<item id="qbutchersnoat" code="QUEUE" parameter="qbutchersnoat" />
+    			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+    		</butchering>
+      	<produce name="Animal Produce" esES="N/A" icon="milk">
+      		<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
+      		<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
+      		<item id="qmilkdoe" code="QUEUE" parameter="qmilkdoe" />
+      		<item id="qmilksnoat" code="QUEUE" parameter="qmilksnoat" />
+      		<item id="qmilkunifallow" code="QUEUE" parameter="qmilkunifallow" />
+      		<item id="qmilkwildunifallow" code="QUEUE" parameter="qmilkwildunifallow" />
+      		<item id="qgatherchickenegg" code="QUEUE" parameter="qgatherchickenegg" />
+      		<item id="qgatherwildchickenegg" code="QUEUE" parameter="qgatherwildchickenegg" />
+      		<item id="qgatherskootenegg" code="QUEUE" parameter="qgatherskootenegg" />
+      		<item id="qgatherwildskootenegg" code="QUEUE" parameter="qgatherwildskootenegg" />
+      		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+      	</produce>
+	 			<item id="qbreedcow" code="QUEUE" parameter="qbreedcow" />
   			<item id="qbreedbull" code="QUEUE" parameter="qbreedbull" />
   			<item id="qbreedpig" code="QUEUE" parameter="qbreedpig" />
   			<item id="qbreedboar" code="QUEUE" parameter="qbreedboar" />
@@ -404,23 +414,10 @@
   			<item id="qbreedbadger" code="QUEUE" parameter="qbreedbadger" />
   			<item id="qbreedsnoat" code="QUEUE" parameter="qbreedsnoat" />
   			<item id="qbreedsheep" code="QUEUE" parameter="qbreedsheep" />
-  			<produce name="Animal Produce" esES="N/A" icon="milk">
-  				<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
-  				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
-  				<item id="qmilkdoe" code="QUEUE" parameter="qmilkdoe" />
-  				<item id="qmilksnoat" code="QUEUE" parameter="qmilksnoat" />
-  				<item id="qmilkunifallow" code="QUEUE" parameter="qmilkunifallow" />
-  				<item id="qmilkwildunifallow" code="QUEUE" parameter="qmilkwildunifallow" />
-  				<item id="qgatherchickenegg" code="QUEUE" parameter="qgatherchickenegg" />
-  				<item id="qgatherwildchickenegg" code="QUEUE" parameter="qgatherwildchickenegg" />
-  				<item id="qgatherskootenegg" code="QUEUE" parameter="qgatherskootenegg" />
-  				<item id="qgatherwildskootenegg" code="QUEUE" parameter="qgatherwildskootenegg" />
-  				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-  			</produce>
+
   			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</animals>
-			<raw name="Raw Foods" esES="Comidas Crudas" icon="ui_appleseed">
-
+			<raw name="Crops" esES="N/A" icon="ui_appleseed">
 			<harvesting name="Harvesting" esES="Cosechas" icon="ui_rfoodgathering">
 				<item id="qharvestwheat" code="QUEUE" parameter="qharvestwheat" />
 				<item id="qharvestsugarcane" code="QUEUE" parameter="qharvestsugarcane" />
@@ -435,7 +432,6 @@
 				<item id="qfishing" code="QUEUE" parameter="qfishing" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</harvesting>
-
 			<processing name="Processing" esES="Procesados" icon="flour">
 			<item id="qflour" code="QUEUE" parameter="qflour" icon="flour" />
 			<item id="qsugar" code="QUEUE" parameter="qsugar" icon="sugar" />
@@ -446,16 +442,6 @@
 			<item id="qwaterbucket" code="QUEUE" parameter="qwaterbucket" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</processing>
-
-
-		<butchering name="Butchering" esES="Descuartizar" icon="ui_rfoodbutchering">
-			<item id="qbutcherbadger" code="QUEUE" parameter="qbutcherbadger" />
-			<item id="qbutcherpoultry" code="QUEUE" parameter="qbutcherpoultry" />
-			<item id="qbutchercow" code="QUEUE" parameter="qbutchercow" />
-			<item id="qbutcherpig" code="QUEUE" parameter="qbutcherpig" />
-			<item id="qbutchersnoat" code="QUEUE" parameter="qbutchersnoat" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</butchering>
 	
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</raw>

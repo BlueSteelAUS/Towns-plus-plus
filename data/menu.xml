@@ -8,7 +8,7 @@
 	<item id="dig" name="Dig" esES="Cavar" code="DIG" icon="ui_dig" />
 	<item id="mine" name="Mine" esES="Minar" code="MINE" icon="ui_mine" />
 	<item id="till" name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
-	<item id="cancelorder" name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
+	<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 	<stockpiles name="Stockpiles" esES="Pilas" icon="ui_stockpile">
 		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
 		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
@@ -24,7 +24,7 @@
 		<item name="Metals" esES="Gems" code="STOCKPILE" parameter="metal" icon="ui_smetal" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</stockpiles>
-
+	<item id="cancelorder" name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
 	<destruction name="Destruction" icon="fireball">
 		<item id="destroyscaffold" code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
 		<item id="untill" name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
