@@ -172,9 +172,6 @@
 			<item id="qgoldenblock" code="QUEUE" parameter="qgoldenblock" />
 			<item id="qwheatblock" code="QUEUE" parameter="qwheatblock" />
 			<item id="qbambooblock" code="QUEUE" parameter="qbambooblock" />
-			<item id="qwoodenfloor" code="QUEUE" parameter="qwoodenfloor" />
-			<item id="qstonefloor" code="QUEUE" parameter="qstonefloor" />
-			<item id="qglassfloor" code="QUEUE" parameter="qglassfloor" />
 			<item id="qrounddarkblock" code="QUEUE" parameter="qrounddarkblock" />
 			<item id="qroundgrayblock" code="QUEUE" parameter="qroundgrayblock" />
 			<item id="qroundwhiteblock" code="QUEUE" parameter="qroundwhiteblock" />
@@ -561,6 +558,7 @@
 				<item id="qdiamondround" code="QUEUE" parameter="qdiamondround" />
 				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
 			</roundgems>
+
 			<teardropgems name="Teardrop Gems" esES="Conservas" icon="ui_teardrop">
 				<item id="qsmokyquartzteardrop" code="QUEUE" parameter="qsmokyquartzteardrop" />
 				<item id="qemeraldteardrop" code="QUEUE" parameter="qemeraldteardrop" />
@@ -574,6 +572,7 @@
 				<item id="qdiamondteardrop" code="QUEUE" parameter="qdiamondteardrop" />
 				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
 			</teardropgems>
+
 			<trilliongems name="Trillion Gems" esES="Conservas" icon="ui_trillion">
 				<item id="qsmokyquartztrillion" code="QUEUE" parameter="qsmokyquartztrillion" />
 				<item id="qemeraldtrillion" code="QUEUE" parameter="qemeraldtrillion" />
@@ -587,6 +586,7 @@
 				<item id="qdiamondtrillion" code="QUEUE" parameter="qdiamondtrillion" />
 				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
 			</trilliongems>
+
 			<heartgems name="Heart Gems" esES="Conservas" icon="ui_heart">
 				<item id="qsmokyquartzheart" code="QUEUE" parameter="qsmokyquartzheart" />
 				<item id="qemeraldheart" code="QUEUE" parameter="qemeraldheart" />
@@ -600,6 +600,7 @@
 				<item id="qdiamondheart" code="QUEUE" parameter="qdiamondheart" />
 				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
 			</heartgems>
+
 			<gems name="Brilliant Gems" esES="Conservas" icon="ui_brilliant">
 				<item id="qsmokyquartzgem" code="QUEUE" parameter="qsmokyquartzgem" />
 				<item id="qemeraldgem" code="QUEUE" parameter="qemeraldgem" />
@@ -616,6 +617,40 @@
 			<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
 		</gems>
 
+		<colors name="Colors" esES="Colores" icon="ui_rcolors">
+			<item id="qbluecolor" code="QUEUE" parameter="qbluecolor" />
+			<item id="qredcolor" code="QUEUE" parameter="qredcolor" />
+			<item id="qyellowcolor" code="QUEUE" parameter="qyellowcolor" />
+			<item id="qgreencolor" code="QUEUE" parameter="qgreencolor" />
+			<item id="qpurplecolor" code="QUEUE" parameter="qpurplecolor" />
+			<item id="qorangecolor" code="QUEUE" parameter="qorangecolor" />
+			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</colors>
+		
+		<flowers name="Flowers" esES="Flores" icon="ui_flower">
+			<item id="qgatherplantedblueflower" code="QUEUE" parameter="qgatherplantedblueflower" />
+			<item id="qgatherplantedredflower" code="QUEUE" parameter="qgatherplantedredflower" />
+			<item id="qgatherplantedyellowflower" code="QUEUE" parameter="qgatherplantedyellowflower" />
+			<item id="qgatherplantedorangeflower" code="QUEUE" parameter="qgatherplantedorangeflower" />
+			<item id="qgatherplantedpurpleflower" code="QUEUE" parameter="qgatherplantedpurpleflower" />
+			<item id="qgatherplantedgreenflower" code="QUEUE" parameter="qgatherplantedgreenflower" />
+			<item id="qgatherplantedpinkflower" code="QUEUE" parameter="qgatherplantedpinkflower" />
+			<item id="qgatherplantedwhiteflower" code="QUEUE" parameter="qgatherplantedwhiteflower" />
+			<item id="qgatherplantedblackflower" code="QUEUE" parameter="qgatherplantedblackflower" />
+			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</flowers>
+
+		<hides name="Hides and materials" esES="Pieles y materiales" icon="ui_rhides">
+			<item id="qanimalhide" code="QUEUE" parameter="qanimalhide" />
+			<item id="qbadgerhide" code="QUEUE" parameter="qbadgerhide" />
+			<item id="qunifallowhide" code="QUEUE" parameter="qunifallowhide" />
+			<item id="qskootenfeather" code="QUEUE" parameter="qskootenfeather" />
+			<item id="qtrimsheep" code="QUEUE" parameter="qtrimsheep" />
+			<item id="qtrimwildsheep" code="QUEUE" parameter="qtrimwildsheep" />
+			<item id="qtrimsnoat" code="QUEUE" parameter="qtrimsnoat" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</hides>
+
 		<metals name="Precious Metals" esES="Conservas" icon="ui_metals">
 			<item id="qresiduumingot" code="QUEUE" parameter="qresiduumingot" />
 			<item id="qquantoniumingot" code="QUEUE" parameter="qquantoniumingot" />
@@ -627,15 +662,19 @@
 			<item id="qsolarboniteingot" code="QUEUE" parameter="qsolarboniteingot" />
 			<item id="qzexoniteingot" code="QUEUE" parameter="qzexoniteingot" />
 			<item id="qplasteelingot" code="QUEUE" parameter="qplasteelingot" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
+			<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
 		</metals>
-		<item id="qchopplantedtree" code="QUEUE" parameter="qchopplantedtree" />
-		<item id="qchopplantedtree2" code="QUEUE" parameter="qchopplantedtree2" />
-		<item id="qchopplantedjungletree" code="QUEUE" parameter="qchopplantedjungletree" />
-		<item id="qchopplantedsnowtree" code="QUEUE" parameter="qchopplantedsnowtree" />
-		<item id="qchopplantedpalmtree" code="QUEUE" parameter="qchopplantedpalmtree" />
-		<item id="qharvestbamboo" code="QUEUE" parameter="qharvestbamboo" />
-		<item id="qglass" code="QUEUE" parameter="qglass" />
+
+		<timber name="Timbers" esES="N/A" icon="rmwood">
+  		<item id="qchopplantedtree" code="QUEUE" parameter="qchopplantedtree" />
+  		<item id="qchopplantedtree2" code="QUEUE" parameter="qchopplantedtree2" />
+  		<item id="qchopplantedjungletree" code="QUEUE" parameter="qchopplantedjungletree" />
+  		<item id="qchopplantedsnowtree" code="QUEUE" parameter="qchopplantedsnowtree" />
+  		<item id="qchopplantedpalmtree" code="QUEUE" parameter="qchopplantedpalmtree" />
+  		<item id="qharvestbamboo" code="QUEUE" parameter="qharvestbamboo" />
+  		<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
+		</timber>
+		<item id="qbutcherforbones" code="QUEUE" parameter="qbutcherforbones" />
 		<item id="qminedirt" code="QUEUE" name="Mud" esES="Barro" parameter="qminedirt" />
 		<item id="qminesand" code="QUEUE" name="Sand" esES="Arena" parameter="qminesand" />
 		<item id="qminestone" code="QUEUE" name="Stone" esES="Piedra" parameter="qminestone" />
@@ -646,7 +685,7 @@
 		<item id="qminecopper" code="QUEUE" name="Copper" esES="Cobre" parameter="qminecopper" />
 		<item id="qminesilver" code="QUEUE" name="Silver" esES="Plata" parameter="qminesilver" />
 		<item id="qminegold" code="QUEUE" name="Gold" esES="Oro" parameter="qminegold" />
-		<item id="qbutcherforbones" code="QUEUE" parameter="qbutcherforbones" />
+		<item id="qglass" code="QUEUE" parameter="qglass" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</materials>
 
@@ -960,18 +999,7 @@
 	</utils>
 
 	<vanity name="Vanity" esES="Vanidad" icon="ui_rvanity">
-		<hides name="Hides and materials" esES="Pieles y materiales" icon="ui_rhides">
-			<item id="qanimalhide" code="QUEUE" parameter="qanimalhide" />
-			<item id="qbadgerhide" code="QUEUE" parameter="qbadgerhide" />
-			<item id="qunifallowhide" code="QUEUE" parameter="qunifallowhide" />
-			<item id="qskootenfeather" code="QUEUE" parameter="qskootenfeather" />
-			<item id="qtrimsheep" code="QUEUE" parameter="qtrimsheep" />
-			<item id="qtrimwildsheep" code="QUEUE" parameter="qtrimwildsheep" />
-			<item id="qtrimsnoat" code="QUEUE" parameter="qtrimsnoat" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</hides>
-
-		<clothes name="Vanity items" esES="Objetos de vanidad" icon="ui_rclothes">
+		<clothes name="Clothes" esES="N/A" icon="ui_rclothes">
 			<item id="qbluehat" code="QUEUE" parameter="qbluehat" />
 			<item id="qredhat" code="QUEUE" parameter="qredhat" />
 			<item id="qyellowhat" code="QUEUE" parameter="qyellowhat" />
@@ -1018,29 +1046,6 @@
       <item id="qnecklace_10" code="QUEUE" parameter="qnecklace_10" />
       <item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
     </necklaces>
-
-		<colors name="Colors" esES="Colores" icon="ui_rcolors">
-			<item id="qbluecolor" code="QUEUE" parameter="qbluecolor" />
-			<item id="qredcolor" code="QUEUE" parameter="qredcolor" />
-			<item id="qyellowcolor" code="QUEUE" parameter="qyellowcolor" />
-			<item id="qgreencolor" code="QUEUE" parameter="qgreencolor" />
-			<item id="qpurplecolor" code="QUEUE" parameter="qpurplecolor" />
-			<item id="qorangecolor" code="QUEUE" parameter="qorangecolor" />
-			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</colors>
-		
-		<flowers name="Flowers" esES="Flores" icon="ui_flower">
-			<item id="qgatherplantedblueflower" code="QUEUE" parameter="qgatherplantedblueflower" />
-			<item id="qgatherplantedredflower" code="QUEUE" parameter="qgatherplantedredflower" />
-			<item id="qgatherplantedyellowflower" code="QUEUE" parameter="qgatherplantedyellowflower" />
-			<item id="qgatherplantedorangeflower" code="QUEUE" parameter="qgatherplantedorangeflower" />
-			<item id="qgatherplantedpurpleflower" code="QUEUE" parameter="qgatherplantedpurpleflower" />
-			<item id="qgatherplantedgreenflower" code="QUEUE" parameter="qgatherplantedgreenflower" />
-			<item id="qgatherplantedpinkflower" code="QUEUE" parameter="qgatherplantedpinkflower" />
-			<item id="qgatherplantedwhiteflower" code="QUEUE" parameter="qgatherplantedwhiteflower" />
-			<item id="qgatherplantedblackflower" code="QUEUE" parameter="qgatherplantedblackflower" />
-			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</flowers>
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</vanity>
 	
