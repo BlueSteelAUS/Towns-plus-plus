@@ -1,4 +1,4 @@
-ï»¿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <actions>
 	<!-- non AP actions -->
@@ -161,7 +161,7 @@
 
 	<action>
 		<id>qsugarcaneseed</id>
-		<name esES="Plantar caÃ±a de azÃºcar">Plant sugarcane</name>
+		<name esES="Plantar caña de azúcar">Plant sugarcane</name>
 
 		<priorityID>harvesting</priorityID>
 		<queue>
@@ -174,7 +174,7 @@
 
 	<action>
 		<id>qbambooseed</id>
-		<name esES="Plantar bambÃº">Plant bamboo</name>
+		<name esES="Plantar bambú">Plant bamboo</name>
 
 		<priorityID>harvesting</priorityID>
 		<queue>
@@ -227,7 +227,7 @@
 
 	<action>
 		<id>qtreeseed</id>
-		<name esES="Plantar semilla de Ã¡rbol">Plant tree seedling</name>
+		<name esES="Plantar semilla de árbol">Plant tree seedling</name>
 
 		<priorityID>harvesting</priorityID>
 		<queue>
@@ -284,7 +284,7 @@
 
 	<action>
 		<id>qblueradishseed</id>
-		<name esES="Plantar semilla de rÃ¡bano azul">Plant blue radish seedling</name>
+		<name esES="Plantar semilla de rábano azul">Plant blue radish seedling</name>
 
 
 		<priorityID>harvesting</priorityID>
@@ -301,7 +301,7 @@
 
 	<action>
 		<id>qjungleseed</id>
-		<name esES="Plantar semilla de Ã¡rbol de jungla">Plant jungle tree seedling</name>
+		<name esES="Plantar semilla de árbol de jungla">Plant jungle tree seedling</name>
 
 		<priorityID>harvesting</priorityID>
 
@@ -315,7 +315,7 @@
 
 	<action>
 		<id>qsnowseed</id>
-		<name esES="Plantar semilla de Ã¡rbol de nieve">Plant snow tree seedling</name>
+		<name esES="Plantar semilla de árbol de nieve">Plant snow tree seedling</name>
 
 
 		<priorityID>harvesting</priorityID>
@@ -14563,7 +14563,7 @@
 <!-- CONVERT STAIRS -->
 	<action>
 		<id>convert_to_woodstairs1a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodenladder</move>
@@ -14573,7 +14573,7 @@
 
 	<action>
 		<id>convert_to_woodstairs2a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">ladder</move>
@@ -14583,7 +14583,7 @@
 
 	<action>
 		<id>convert_to_woodstairs3a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">logladder</move>
@@ -14593,7 +14593,7 @@
 
 	<action>
 		<id>convert_to_dirtstairs1a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtladder</move>
@@ -14603,7 +14603,7 @@
 
 	<action>
 		<id>convert_to_stonestairs1a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stoneladder</move>
@@ -14613,7 +14613,7 @@
 
 	<action>
 		<id>convert_to_stonestairs2a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonespindleladder</move>
@@ -14623,7 +14623,7 @@
 
 	<action>
 		<id>convert_to_stonestairs3a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">ancientladder</move>
@@ -14633,7 +14633,7 @@
 
 	<action>
 		<id>convert_to_sandstairs1a</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">limestoneramp</move>
@@ -14643,7 +14643,7 @@
 
 	<action>
 		<id>convert_to_bonestairs_1_N</id>
-		<name esES="Â¡Girame!">Make Me Rotate!</name>
+		<name esES="¡Girame!">Make Me Rotate!</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bonestairs</move>
@@ -15605,7 +15605,7 @@
 
   <action>
     <id>qsmallgiftone</id>
-	<name esES="Regalo PequeÃ±o">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -15660,7 +15660,7 @@
 
   <action>
     <id>qsmallgifttwo</id>
-	<name esES="Regalo PequeÃ±o">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -15715,7 +15715,7 @@
 
   <action>
     <id>qsmallgiftthree</id>
-	<name esES="Regalo PequeÃ±o">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -15770,7 +15770,7 @@
 
   <action>
     <id>qsmallgiftfour</id>
-	<name esES="Regalo PequeÃ±o">Small Gift</name>
+	<name esES="Regalo Pequeño">Small Gift</name>
     <priorityID>itemconstruction</priorityID>
     <queue>
       <wait>32</wait>
@@ -15824,7 +15824,7 @@
 
 	<action>
 		<id>qxmastree</id>
-		<name esES="Ãrbol de Navidad">Christmas Tree</name>
+		<name esES="Árbol de Navidad">Christmas Tree</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move>tree2</move>
@@ -16450,7 +16450,7 @@
 	<!-- CHARCOAL -LM -->
 	<action>
 		<id>qcharcoal</id>
-		<name esES="Crear 1 carbÃ³n desde 2 Maderas usando">Create 1 Coal from 2 Wood using</name>
+		<name esES="Crear 1 carbón desde 2 Maderas usando">Create 1 Coal from 2 Wood using</name>
 
 		<priorityID>itemconstruction</priorityID>
 		<generatedItem>rmcoal</generatedItem>
@@ -16749,7 +16749,7 @@
 
 	<action>
 		<id>qnewboarfarm</id>
-		<name esES="Granja de JabalÃ­es">Boar Barn</name>
+		<name esES="Granja de Jabalíes">Boar Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly>pig,wildpig</pickFriendly>
@@ -16910,7 +16910,7 @@
 	<!-- BREED NEW FARMS -->
 	<action>
 		<id>qbreedcow</id>
-		<name esES="CrÃ­ar Vaca">Breed Cow</name>
+		<name esES="Críar Vaca">Breed Cow</name>
 		<generatedItem>cow</generatedItem>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -16930,7 +16930,7 @@
 
 	<action>
 		<id>qbreedbull</id>
-		<name esES="CrÃ­ar Toro">Breed Bull</name>
+		<name esES="Críar Toro">Breed Bull</name>
 		<generatedItem>bull</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -16950,7 +16950,7 @@
 
 	<action>
 		<id>qbreedpig</id>
-		<name esES="CrÃ­ar Cerdo">Breed Pig</name>
+		<name esES="Críar Cerdo">Breed Pig</name>
 		<generatedItem>pig</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -16970,7 +16970,7 @@
 
 	<action>
 		<id>qbreedboar</id>
-		<name esES="CrÃ­ar JabalÃ­">Breed Boar</name>
+		<name esES="Críar Jabalí">Breed Boar</name>
 		<generatedItem>boar</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -16990,7 +16990,7 @@
 
 	<action>
 		<id>qbreedchicken</id>
-		<name esES="CrÃ­ar Gallina">Breed Chicken</name>
+		<name esES="Críar Gallina">Breed Chicken</name>
 		<generatedItem>chicken</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -17010,7 +17010,7 @@
 
 	<action>
 		<id>qbreedrooster</id>
-		<name esES="CrÃ­ar Gallo">Breed Rooster</name>
+		<name esES="Críar Gallo">Breed Rooster</name>
 		<generatedItem>rooster</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -17030,7 +17030,7 @@
 
 	<action>
 		<id>qbreedskootenbeeten</id>
-		<name esES="CrÃ­ar Skootenbeeten">Breed Skootenbeeten</name>
+		<name esES="Críar Skootenbeeten">Breed Skootenbeeten</name>
 		<generatedItem>skootenbeeten</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -17050,7 +17050,7 @@
 
 	<action>
 		<id>qbreedunifallow</id>
-		<name esES="CrÃ­ar Unifallow">Breed Unifallow</name>
+		<name esES="Críar Unifallow">Breed Unifallow</name>
 		<generatedItem>unifallow</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -17070,7 +17070,7 @@
 
 	<action>
 		<id>qbreedbadger</id>
-		<name esES="CrÃ­ar Tejon">Breed Badger</name>
+		<name esES="Críar Tejon">Breed Badger</name>
 		<generatedItem>badger</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -17090,7 +17090,7 @@
 
 	<action>
 		<id>qbreedsnoat</id>
-		<name esES="CrÃ­ar Snoat">Breed Snoat</name>
+		<name esES="Críar Snoat">Breed Snoat</name>
 		<generatedItem>snoat</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
@@ -19034,56 +19034,7 @@
 			 <destroyCellItem />
 			 <createItem>unearthedremains</createItem>
 		  </queue>
-	</action>	
-	<action>
-		  <id>del_barbariantomb</id>
-		  <name esES="N/A">Remove</name>
-
-		  <priorityID>itemconstruction</priorityID>
-		  <queue>
-			 <move useSource="true">barbariantomb</move>
-			 <wait>16</wait>
-			 <destroyCellItem />
-			 <createItem>barbariancorpse</createItem>
-		  </queue>
-	</action>	
-	<action>
-		  <id>del_elftomb</id>
-		  <name esES="N/A">Remove</name>
-
-		  <priorityID>itemconstruction</priorityID>
-		  <queue>
-			 <move useSource="true">elftomb</move>
-			 <wait>16</wait>
-			 <destroyCellItem />
-			 <createItem>elfcorpse</createItem>
-		  </queue>
-	</action>	
-	<action>
-		  <id>del_magetomb</id>
-		  <name esES="N/A">Remove</name>
-
-		  <priorityID>itemconstruction</priorityID>
-		  <queue>
-			 <move useSource="true">magetomb</move>
-			 <wait>16</wait>
-			 <destroyCellItem />
-			 <createItem>magecorpse</createItem>
-		  </queue>
-	</action>	
-	<action>
-		  <id>del_knighttomb</id>
-		  <name esES="N/A">Remove</name>
-
-		  <priorityID>itemconstruction</priorityID>
-		  <queue>
-			 <move useSource="true">knighttomb</move>
-			 <wait>16</wait>
-			 <destroyCellItem />
-			 <createItem>knightcorpse</createItem>
-		  </queue>
-	</action>	
-
+	</action>
 	<!-- /DELETE GRAVES -->
 	<action>
 		  <id>del_beerbarrel</id>
@@ -22584,5 +22535,6 @@
       <createItem>plasteelpants</createItem>
     </queue>
   </action>
+
 
 </actions>

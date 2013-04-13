@@ -4735,5 +4735,25 @@
 
 	</trimmedmilkedsnoat>
 
+	<metalgemcaravan>
+		<type>FRIENDLY</type>
+
+		<name esES="Metals and Gems">Metals and Gems</name>
+		<attack>150</attack>
+		<attackSpeed>50</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>250</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>100</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>metalgem</caravan>
+	</metalgemcaravan>
+
 
 </livingentities>

@@ -83,4 +83,25 @@
 
 	<!-- GRAVES -->
 	<graves esES="N/A" icon="corpse">Graves</graves>
+ <!-- metals and gems -->
+	<metal.raw esES="Metal">Raw Precious Metal</metal.raw>
+	<metal.ingot esES="Metal">Precious Metal Ingot</metal.ingot>
+	<gem.rawgem esES="Gem">Raw Gem</gem.rawgem>
+	<gem.brilliant esES="Gem">Brilliant Gem</gem.brilliant>
+	<gem.heart esES="Gem">Heart Gem</gem.heart>
+	<gem.trillion esES="Gem">Trillion Gem</gem.trillion>
+	<gem.teardrop esES="Gem">Teardrop Gem</gem.teardrop>
+	<gem.round esES="Gem">Round Gem</gem.round>
+	<gem.necklace esES="Necklace">Necklace</gem.necklace>
+	<gem.ring esES="Ring">Ring</gem.ring>
+  <armor.residuum esES="Residuum">Residuum</armor.residuum>
+  <armor.quantonium esES="Quantonium">Quantonium</armor.quantonium>
+  <armor.oxium esES="Oxium">Oxium</armor.oxium>
+  <armor.onnesium esES="Onnesium">Onnesium</armor.onnesium>
+  <armor.dilithium esES="Dilithium">Dilithium</armor.dilithium>
+  <armor.viridium esES="Viridium">Viridium</armor.viridium>
+  <armor.tarydium esES="Tarydium">Tarydium</armor.tarydium>
+  <armor.solarbonite esES="Solarbonite">Solarbonite</armor.solarbonite>
+  <armor.zexonite esES="Zexonite">Zexonite</armor.zexonite>
+  <armor.plasteel esES="Plasteel">Plasteel</armor.plasteel>
 </types>

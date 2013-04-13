@@ -1,4 +1,4 @@
-ï»¿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <menu>
 
@@ -13,7 +13,7 @@
 		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
 		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
 		<item id="prepfood" name="Prepared food" esES="Comida preparada" code="STOCKPILE" parameter="prepfood" icon="ui_sprepfood" />
-		<item id="utils" name="Utilities" esES="Utiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
+		<item id="utils" name="Utilities" esES="Útiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
 		<item id="furniture" name="Furniture" esES="Muebles" code="STOCKPILE" parameter="furniture" icon="ui_sfurniture" />
 		<item id="ites" name="ITEs" esES="ITEs" code="STOCKPILE" parameter="ites" icon="ui_sites" />
 		<item id="armor" name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
@@ -22,7 +22,7 @@
 		<item id="conctruction" name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="scaffold" />
 		<item name="Gems" esES="Gems" code="STOCKPILE" parameter="gem" icon="ui_sgem" />
 		<item name="Metals" esES="Gems" code="STOCKPILE" parameter="metal" icon="ui_smetal" />
-		<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
+		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</stockpiles>
 
 	<destruction name="Destruction" icon="fireball">
@@ -34,8 +34,8 @@
 		<item id="removefurniture" name="Remove furniture" esES="N/A" code="CUSTOMACTION" parameter="del_mill,,del_hedgegate,del_woodenbed,del_camobed,del_greenbed,del_bluebed,del_redbed,del_purplebed,del_woodendormbed,del_bonebed,del_stonechair,del_purplethrone,del_woodenchair,del_redchair,del_redchair2,del_bluechair,del_greenchair,del_woodenchair_1,del_woodchair_2,del_woodchair_3,del_whitechair,del_purplechair,del_woodencupboard,del_woodencupboard_E,del_woodendrawer_E,del_smallwoodendrawer_E,del_smallwoodendrawer_flower_E,del_tallwoodencupboard_E,del_floodgate,del_fluidselevator,del_fencedoor,del_halfdoor,del_logdoor,del_woodendoor,del_bonedoor,del_architecttable,del_stonetable,del_woodentable,del_squarestable,del_taverntable,del_stonearcdoor1,del_stonearcdoor2,del_anvil,del_itesmithy,del_kitchentable,del_butchertable,del_cookingbowl,del_medicinecabinet,del_smelter,del_bonecarver,del_stove,del_bakeroven,del_bakertable,del_carpentrybench,del_skinner,del_colormixer,del_carvingbench,del_masonbench,del_wooddetailer,del_clock,del_redlongflag,del_bluebanner,del_greenbanner,del_purplebanner,del_blackbanner,del_redshortflag,del_blueshortflag,del_greenshortflag,del_purpleshortflag,del_blackshortflag,del_doorsignswords,del_sign_1,del_sign_2,del_sign_3,del_sign_4,del_sign_5,del_sign_6,del_sign_7,del_sign_8,del_sign_9,del_sign_10,del_sign_11,del_sign_12,del_sign_13,del_sign_14,del_sign_15,del_gargoylestatue,del_stonemalestatue,del_goldunifallowstatue,del_silverskootenbeetenstatue,del_barrel,del_burner,del_chest,del_necromancerstatue,del_candle,del_bluehangedlamp,del_yellowhangedlamp,del_greenhangedlamp,del_redhangedlamp,del_bonecandle,del_goblinpole,del_hobgoblinpole,del_ghoulpole,del_trollpole,del_birdincage,del_snickerpole,del_chimney,del_animalfireplace,del_potplant,del_harp,del_bonsai,del_bonsaired,del_gardenred,del_gardenblue,del_gardenbush1,del_gardenbush2,del_gardenbush3,del_beerbarrel,del_winebarrel,del_flowerpot_red,del_flowerpot_blue,del_flowerpot_yellow,del_flowerpot_mixed,del_markettent,del_markettent_a,del_markettent_b,del_ladder,del_mill" icon="ui_deletefurniture" /><!-- HELP I'M LOST! -->
 		<item id="removestairs" name="Remove stairs" esES="N/A" code="CUSTOMACTION" parameter="del_verticalladder,del_ladder,del_woodenladder,del_stoneladder,del_stoneladder4,del_stoneladder5,del_logladder,del_dirtladder,del_dirtladder2,del_stonespindleladder,del_ancientladder,del_redstonestairs,del_redstonestairs2,del_bluestonestairs,del_bluestonestairs2,del_yellowstonestairs,del_yellowstonestairs2,del_greenstonestairs,del_greenstonestairs2,del_orangestonestairs,del_orangestonestairs2,del_purplestonestairs,del_purplestonestairs2,del_sandstairs1,del_sandstairs2,del_sandstairs3" icon="ui_deleteconstruction" />
 		<item id="removeroads" name="Remove roads" esES="N/A" code="CUSTOMACTION" parameter="del_woodenroadtile,del_stoneroadtile,del_pavementroadtile,del_redpavementroadtile,del_whitepavementroadtile,del_greenpavementroadtile,del_bluepavementroadtile,del_purplepavementroadtile,del_orangepavementroadtile,del_yellowpavementroadtile,del_greenroadtile,del_redroadtile,del_blueroadtile" icon="ui_deleteroads" />
-		<item id="exumegraves" name="Exume graves" esES="N/A" code="CUSTOMACTION" parameter="del_grave,del_grave2,del_grave3,del_tomb,del_tomb2,del_mosstomb,del_mosstomb2,del_mosstomb3,del_lizardtomb,del_barbariantomb,del_elftomb,del_magetomb,del_knighttomb" icon="ui_deletegraves" />
-		<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
+		<item id="exumegraves" name="Exume graves" esES="N/A" code="CUSTOMACTION" parameter="del_grave,del_grave2,del_grave3,del_tomb,del_tomb2,del_mosstomb,del_mosstomb2,del_mosstomb3,del_lizardtomb" icon="ui_deletegraves" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</destruction>		
 	<terraforming name="Terraform" icon="dirt">
 		<item id="qterraformtodirt" name="To dirt" code="CUSTOMACTION" parameter="qterraformtodirt" icon="dirt" />
@@ -61,6 +61,6 @@
 		<item id="qterraformtogold" name="To gold" code="CUSTOMACTION" parameter="qterraformtogold" icon="gold" />
 		<item id="qterraformtolavarock" name="To lavarock" code="CUSTOMACTION" parameter="qterraformtolavarock" icon="lavarock" />
 		<!-- <item id="qterraformtolavadirt" name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" /> -->
-		<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</terraforming>
 </menu>

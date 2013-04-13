@@ -112,6 +112,12 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</mineshafts>
 
+		<jewler name="Jewler" esES="N/A" description="Make Sparkling baubles and trinkets here" icon="ui_jeweler">
+			<item id="zjewler" code="CREATEZONE" esES="N/A" name="Create Jewler Area" parameter="zjweler" icon="ui_jeweler" />
+			<item id="qgembench" code="QUEUEANDPLACEAREA" parameter="qgembench" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</jewler>
+
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</buildings>
 
@@ -440,6 +446,8 @@
 		<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
 		<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
 		<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
+		<item id="qgemchest" code="QUEUEANDPLACE" parameter="qgemchest" />
+		<item id="qmetalchest" code="QUEUEANDPLACE" parameter="qmetalchest" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</containers>
 

@@ -10,11 +10,19 @@ BlueSteel's Contributions
        (includes the wild ones, no shed = no shearing)
 -> Changed mines to <type>mine</type> (hopefully stop monsters droppong the mines as loot)
 -> Added shearing of milked snoat (trimmedmilkedsnoat)         
+-> incorporated ericb1800's Metals and Gems
 
 LittleMikey's Contributions:
 ============================
 
 [/code]
+[size=200][color=#FF0000]NOT a MODLOADER mod.[/color][/size]
+To install:
+============
+1. Backup tour Towns Folder/Directory (I'm not responsible for any losses or damages)
+2. Unzip the .zip file into your Towns directory(not the backed up one)
+4. As always feel free to leave comments, bug reports, suggestions.
+5. Run Towns as normal .. play.. be free... enjoy ;)
 
 [quote]
 Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12a1.zip
@@ -171,15 +179,6 @@ get stuff for nothing.
 IF you want to use part of my mod as a separate mod for distribution please ask and give Credit
 Feel free to link to this tread and my mod's links (d/loads,YouTube,Streaming)
 But do not place this mod anywhere else for Distribution
-
-
-
-To install:
-============
-1. Backup tour Towns Folder/Directory (I'm not responsible for any losses or damages)
-2. Unzip the .zip file into your Towns directory(not the backed up one)
-4. As always feel free to leave comments, bug reports, suggestions.
-5. Run Towns as normal .. play.. be free... enjoy ;)
 
 Still on my to do list
 =======================

@@ -1,4 +1,4 @@
-ï»¿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <items>
 	<!-- CONTAINERS -->
@@ -138,7 +138,7 @@
 
 	<!-- RESOURCES -->
 	<rmcoal>
-		<name esES="CarbÃ³n">Coal</name>
+		<name esES="Carbón">Coal</name>
 		<type>rawmaterials.materials</type>
 		<buildingTime>5760</buildingTime>
 
@@ -497,7 +497,7 @@
 	</banana>
 
 	<blueradish>
-		<name esES="RÃ¡bano azul">Blue radish</name>
+		<name esES="Rábano azul">Blue radish</name>
 		<type>prepfood.fruit</type>
 
 		<canBeEaten>true</canBeEaten>
@@ -597,7 +597,7 @@
 
 	<bread>
 		<name esES="Pan">Bread</name>
-		<description esES="Algo insÃ­pido, pero llena">Kind of stale, but it'll still fill you up</description>
+		<description esES="Algo insípido, pero llena">Kind of stale, but it'll still fill you up</description>
 		<type>prepfood.baked</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -613,7 +613,7 @@
 
 	<cake>
 		<name esES="Pastel">Cake</name>
-		<description esES="HarÃ¡ a tus aldeanos mÃ¡s felices">It will boost the happiness of your citizens</description>
+		<description esES="Hará a tus aldeanos más felices">It will boost the happiness of your citizens</description>
 		<type>prepfood.baked</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -644,7 +644,7 @@
 	</cookie>
 
 	<cookedbadgermeat>
-		<name esES="Carne de tejÃ³n cocida">Cooked badger meat</name>
+		<name esES="Carne de tejón cocida">Cooked badger meat</name>
 		<type>prepfood.cooked</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -660,7 +660,7 @@
 
 	<cookedpoultry>
 		<name esES="Ave cocinada">Cooked poultry</name>
-		<description esES="EstÃ¡ de rechupete!">Finger-licken good!</description>
+		<description esES="Está de rechupete!">Finger-licken good!</description>
 		<type>prepfood.cooked</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -752,7 +752,7 @@
 	</soup>
 
 	<mountainstew>
-		<name esES="Guiso montaÃ±Ã©s">Mountain stew</name>
+		<name esES="Guiso montañés">Mountain stew</name>
 		<type>prepfood.cooked</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -783,7 +783,7 @@
 	</meatpie>
 
 	<junglesalad>
-		<name esES="Ensalada selvÃ¡tica">Jungle salad</name>
+		<name esES="Ensalada selvática">Jungle salad</name>
 		<description esES="Espero que hayas quitado los bichos">I hope you washed all the insects off</description>
 		<type>prepfood.cooked</type>
 		<canBeEaten>true</canBeEaten>
@@ -830,7 +830,7 @@
 	</omelette>
 
 	<hamandeggs>
-		<name esES="Huevos con jamÃ³n">Ham and eggs</name>
+		<name esES="Huevos con jamón">Ham and eggs</name>
 		<type>prepfood.cooked</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -872,7 +872,7 @@
 	</unifallowhide>
 
 	<badgerhide>
-		<name esES="Piel de tejÃ³n">Badger hide</name>
+		<name esES="Piel de tejón">Badger hide</name>
 
 		<type>rawmaterials.hides</type>
 
@@ -956,7 +956,7 @@
 
 	<cookedfish>
 		<name esES="Pescado cocido">Cooked fish</name>
-		<description esES="Realmente quieres comÃ©rtelo!">You really want to eat this!</description>
+		<description esES="Realmente quieres comértelo!">You really want to eat this!</description>
 
 		<type>prepfood.cooked</type>
 		<canBeEaten>true</canBeEaten>
@@ -974,7 +974,7 @@
 
 	<rawpork>
 		<name esES="Carne de cerdo cruda">Raw pork</name>
-		<description esES="Â¿Vas a comerte Ã©sto?">Do you really want to eat this?</description>
+		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 		<type>rawfood</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -990,7 +990,7 @@
 
 	<rawsteak>
 		<name esES="Filete crudo">Raw steak</name>
-		<description esES="Â¿Vas a comerte Ã©sto?">Do you really want to eat this?</description>
+		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 		<type>rawfood</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -1006,7 +1006,7 @@
 
 	<rawdeersteak>
 		<name esES="Carne cruda de snoat">Raw snoat steak</name>
-		<description esES="Â¿Vas a comerte Ã©sto?">Do you really want to eat this?</description>
+		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 		<type>rawfood</type>
 		<canBeEaten>true</canBeEaten>
 
@@ -1022,7 +1022,7 @@
 
 	<rawfish>
 		<name esES="Pescado crudo">Raw fish</name>
-		<description esES="Â¿Vas a comerte Ã©sto?">Do you really want to eat this?</description>
+		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 
 		<type>rawfood</type>
 		<canBeEaten>true</canBeEaten>
@@ -1039,7 +1039,7 @@
 
 	<rawpoultry>
 		<name esES="Carne cruda de ave">Raw poultry</name>
-		<description esES="Â¿Vas a comerte Ã©sto?">Do you really want to eat this?</description>
+		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 
 		<type>rawfood</type>
 		<canBeEaten>true</canBeEaten>
@@ -1055,8 +1055,8 @@
 	</rawpoultry>
 
 	<rawbadgermeat>
-		<name esES="Carne de tejÃ³n cruda">Raw badger meat</name>
-		<description esES="Â¿Vas a comerte Ã©sto?">Do you really want to eat this?</description>
+		<name esES="Carne de tejón cruda">Raw badger meat</name>
+		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 
 		<type>rawfood</type>
 		<canBeEaten>true</canBeEaten>
@@ -1412,7 +1412,7 @@
 	</plantedwheat>
 
 	<sugarcaneseed>
-		<name esES="Semilla de caÃ±a de azÃºcar">Sugarcane seed</name>
+		<name esES="Semilla de caña de azúcar">Sugarcane seed</name>
 		<description esES="Necesita estar cerca del agua para crecer">Needs to be close to water to grow</description>
 		<habitat>humus</habitat>
 		<habitat>junglehumus</habitat>
@@ -1425,7 +1425,7 @@
 	</sugarcaneseed>
 
 	<sugarcane>
-		<name esES="CaÃ±a de azÃºcar">Sugarcane</name>
+		<name esES="Caña de azúcar">Sugarcane</name>
 		<type>rawfood</type>
 
 		<stackable>true</stackable>
@@ -1434,7 +1434,7 @@
 	</sugarcane>
 
 	<wildsugarcane>
-		<name esES="CaÃ±a de azÃºcar salvaje">Wild sugarcane</name>
+		<name esES="Caña de azúcar salvaje">Wild sugarcane</name>
 		<habitat>jungle</habitat>
 		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
@@ -1443,7 +1443,7 @@
 	</wildsugarcane>
 
 	<plantedsugarcane>
-		<name esES="CaÃ±a de azÃºcar">Sugarcane</name>
+		<name esES="Caña de azúcar">Sugarcane</name>
 		<habitat>humus</habitat>
 		<habitat>junglehumus</habitat>
 
@@ -1452,7 +1452,7 @@
 	</plantedsugarcane>
 
 	<bambooseed>
-		<name esES="Semilla bambÃº">Bamboo seed</name>
+		<name esES="Semilla bambú">Bamboo seed</name>
 		<description esES="Necesita estar cerca del agua para crecer">Needs to be close to water to grow</description>
 		<habitat>humus</habitat>
 		<habitat>junglehumus</habitat>
@@ -1465,7 +1465,7 @@
 	</bambooseed>
 
 	<bamboo>
-		<name esES="BambÃº">Bamboo</name>
+		<name esES="Bambú">Bamboo</name>
 		<type>rawmaterials.materials</type>
 
 		<stackable>true</stackable>
@@ -1474,7 +1474,7 @@
 	</bamboo>
 
 	<wildbamboo>
-		<name esES="BambÃº salvaje">Wild bamboo</name>
+		<name esES="Bambú salvaje">Wild bamboo</name>
 		<habitat>jungle</habitat>
 		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
@@ -1483,7 +1483,7 @@
 	</wildbamboo>
 
 	<plantedbamboo>
-		<name esES="BambÃº">Bamboo</name>
+		<name esES="Bambú">Bamboo</name>
 		<habitat>humus</habitat>
 		<habitat>junglehumus</habitat>
 
@@ -1500,7 +1500,7 @@
 	</bush>
 
 	<tree>
-		<name esES="Ãrbol">Tree</name>
+		<name esES="Árbol">Tree</name>
 		<habitat>grass2</habitat>
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>bush</spawn>
@@ -1511,7 +1511,7 @@
 	</tree>
 
 	<treekeepersleep>
-		<name esES="Ãrbol">Tree</name>
+		<name esES="Árbol">Tree</name>
 		<habitat>grass2</habitat>
 		<action>qchopsleeper</action>
 		<locked>true</locked>
@@ -1519,7 +1519,7 @@
 
 
 	<treeseed>
-		<name esES="Semilla de Ã¡rbol">Tree seedling</name>
+		<name esES="Semilla de árbol">Tree seedling</name>
 		<habitat>humus</habitat>
 		<maxAge>100</maxAge>
 		<maxAgeItem>plantedbush</maxAgeItem>
@@ -1535,7 +1535,7 @@
 	</plantedbush>
 
 	<plantedtree>
-		<name esES="Ãrbol plantado">Planted tree</name>
+		<name esES="Árbol plantado">Planted tree</name>
 		<habitat>humus</habitat>
 		<spawn>treeseed</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -1820,7 +1820,7 @@
 	</harvestedbananatree>
 
 	<blueradishseed>
-		<name esES="Semilla de rÃ¡bano azul">Blue radish seedling</name>
+		<name esES="Semilla de rábano azul">Blue radish seedling</name>
 		<habitat>junglehumus</habitat>
 		<maxAge>100</maxAge>
 		<maxAgeItem>plantedsproutblueradish</maxAgeItem>
@@ -1828,7 +1828,7 @@
 	</blueradishseed>
 
 	<plantedsproutblueradish>
-		<name esES="Brote de rÃ¡bano azul">Blue radish sprout</name>
+		<name esES="Brote de rábano azul">Blue radish sprout</name>
 		<habitat>junglehumus</habitat>
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedblueradishplant</maxAgeItem>
@@ -1836,7 +1836,7 @@
 	</plantedsproutblueradish>
 
 	<plantedblueradishplant>
-		<name esES="Planta de rÃ¡bano azul">Blue radish plant</name>
+		<name esES="Planta de rábano azul">Blue radish plant</name>
 		<habitat>junglehumus</habitat>
 		<spawn>blueradishseed</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -1848,7 +1848,7 @@
 
 
 	<plantedharvestingblueradishplant>
-		<name esES="Planta de rÃ¡bano azul">Blue radish plant</name>
+		<name esES="Planta de rábano azul">Blue radish plant</name>
 		<habitat>junglehumus</habitat>
 		<spawn>blueradish</spawn>
 		<spawnTurns>1</spawnTurns>
@@ -1858,7 +1858,7 @@
 	</plantedharvestingblueradishplant>
 
 	<plantedharvestedblueradishplant>
-		<name esES="Planta de rÃ¡bano azul">Blue radish plant</name>
+		<name esES="Planta de rábano azul">Blue radish plant</name>
 		<habitat>junglehumus</habitat>
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>plantedblueradishplant</maxAgeItem>
@@ -1866,7 +1866,7 @@
 	</plantedharvestedblueradishplant>
 
 	<sproutblueradish>
-		<name esES="Brote de rÃ¡bano azul">Blue radish sprout</name>
+		<name esES="Brote de rábano azul">Blue radish sprout</name>
 		<habitat>jungle</habitat>
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>blueradishplant</maxAgeItem>
@@ -1874,7 +1874,7 @@
 	</sproutblueradish>
 
 	<blueradishplant>
-		<name esES="Planta de rÃ¡bano azul">Blue radish plant</name>
+		<name esES="Planta de rábano azul">Blue radish plant</name>
 		<habitat>jungle</habitat>
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>sproutblueradish</spawn>
@@ -1886,7 +1886,7 @@
 	</blueradishplant>
 
 	<harvestingblueradishplant>
-		<name esES="Planta de rÃ¡bano azul">Blue radish plant</name>
+		<name esES="Planta de rábano azul">Blue radish plant</name>
 		<habitat>jungle</habitat>
 		<spawn>blueradish</spawn>
 		<spawnTurns>1</spawnTurns>
@@ -1896,7 +1896,7 @@
 	</harvestingblueradishplant>
 
 	<harvestedblueradishplant>
-		<name esES="Planta de rÃ¡bano azul">Blue radish plant</name>
+		<name esES="Planta de rábano azul">Blue radish plant</name>
 		<habitat>jungle</habitat>
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>blueradishplant</maxAgeItem>
@@ -2042,7 +2042,7 @@
 	</harvestedcactus>
 
 	<jungleseed>
-		<name esES="Semilla de Ã¡rbol de jungla">Jungle tree seedling</name>
+		<name esES="Semilla de árbol de jungla">Jungle tree seedling</name>
 		<habitat>junglehumus</habitat>
 		<maxAge>100</maxAge>
 		<maxAgeItem>plantedjunglebush</maxAgeItem>
@@ -2050,7 +2050,7 @@
 	</jungleseed>
 
 	<plantedjunglebush>
-		<name esES="Arbusto de Ã¡rbol de jungla plantado">Planted jungle tree bush</name>
+		<name esES="Arbusto de árbol de jungla plantado">Planted jungle tree bush</name>
 		<habitat>junglehumus</habitat>
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedjungletree</maxAgeItem>
@@ -2058,7 +2058,7 @@
 	</plantedjunglebush>
 
 	<plantedjungletree>
-		<name esES="Ãrbol de jungla plantado">Planted jungle tree</name>
+		<name esES="Árbol de jungla plantado">Planted jungle tree</name>
 		<habitat>junglehumus</habitat>
 		<spawn>jungle</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -2067,7 +2067,7 @@
 	</plantedjungletree>
 
 	<junglebush>
-		<name esES="Arbusto de Ã¡rbol de jungla">Jungle tree bush</name>
+		<name esES="Arbusto de árbol de jungla">Jungle tree bush</name>
 		<habitat>jungle</habitat>
 		<habitat>brownievillage</habitat>
 		<maxAge>1d14400+14400</maxAge>
@@ -2076,7 +2076,7 @@
 	</junglebush>
 
 	<jungletree>
-		<name esES="Ãrbol de jungla">Jungle tree</name>
+		<name esES="Árbol de jungla">Jungle tree</name>
 		<habitat>jungle</habitat>
 		<habitat>brownievillage</habitat>
 		<maxAge>1d57600+28800</maxAge>
@@ -2088,7 +2088,7 @@
 
 
 	<snowseed>
-		<name esES="Semilla de Ã¡rbol de nieve">Snow tree seedling</name>
+		<name esES="Semilla de árbol de nieve">Snow tree seedling</name>
 		<habitat>snowhumus</habitat>
 		<maxAge>100</maxAge>
 		<maxAgeItem>plantedsnowbush</maxAgeItem>
@@ -2096,7 +2096,7 @@
 	</snowseed>
 
 	<snowbush>
-		<name esES="Arbusto de Ã¡rbol de nieve">Snow tree bush</name>
+		<name esES="Arbusto de árbol de nieve">Snow tree bush</name>
 		<habitat>snow</habitat>
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>snowtree</maxAgeItem>
@@ -2104,7 +2104,7 @@
 	</snowbush>
 
 	<plantedsnowbush>
-		<name esES="Arbusto de Ã¡rbol de nieve plantado">Planted snow tree bush</name>
+		<name esES="Arbusto de árbol de nieve plantado">Planted snow tree bush</name>
 		<habitat>snowhumus</habitat>
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedsnowtree</maxAgeItem>
@@ -2112,7 +2112,7 @@
 	</plantedsnowbush>
 
 	<snowtree>
-		<name esES="Ãrbol de nieve">Snow tree</name>
+		<name esES="Árbol de nieve">Snow tree</name>
 		<habitat>snow</habitat>
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>snowbush</spawn>
@@ -2122,7 +2122,7 @@
 	</snowtree>
 
 	<plantedsnowtree>
-		<name esES="Ãrbol de nieve plantado">Planted snow tree</name>
+		<name esES="Árbol de nieve plantado">Planted snow tree</name>
 		<habitat>snowhumus</habitat>
 		<spawn>snowseed</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -2219,7 +2219,7 @@
 	</flour>
 
 	<sugar>
-		<name esES="AzÃºcar">Sugar</name>
+		<name esES="Azúcar">Sugar</name>
 
 		<type>rawfood</type>
 		<canBeEaten>false</canBeEaten>
@@ -2266,7 +2266,7 @@
 	</pigincage>
 
 	<badgerincage>
-		<name esES="TejÃ³n enjaulado">Badger in a cage</name>
+		<name esES="Tejón enjaulado">Badger in a cage</name>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -2277,7 +2277,7 @@
 	</badgerincage>
 
 	<birdinironcage>
-		<name esES="PÃ¡jaro enjaulado">Bird in a cage</name>
+		<name esES="Pájaro enjaulado">Bird in a cage</name>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -2321,8 +2321,8 @@
 	</cowincage>
 
 	<browniehouse>
-		<name esES="Tronco de Ã¡rbol">Tree stump</name>
-		<description esES="Un tronco de Ã¡rbol con ventanas y... Â¿una puerta?">A tiny tree stump, with windows and... a door?</description>
+		<name esES="Tronco de árbol">Tree stump</name>
+		<description esES="Un tronco de árbol con ventanas y... ¿una puerta?">A tiny tree stump, with windows and... a door?</description>
 		<habitat>brownievillage</habitat>
 	</browniehouse>
 
@@ -3132,7 +3132,7 @@
 	</limestoneblock>
 
 	<colombages>
-		<name esES="CelosÃ­a">Colombages</name>
+		<name esES="Celosía">Colombages</name>
 		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -3148,7 +3148,7 @@
 	</colombages>
 
 	<colombagesx>
-		<name esES="CelosÃ­a con forma de X">Colombages with an X frame</name>
+		<name esES="Celosía con forma de X">Colombages with an X frame</name>
 		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -3215,7 +3215,7 @@
 
 	<scaffold>
 		<name esES="Andamio">Scaffold</name>
-		<description esES="FÃ¡cil de construir, fÃ¡cil de romperse">Easy come, easy go</description>
+		<description esES="Fácil de construir, fácil de romperse">Easy come, easy go</description>
 
 		<type>construction</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3289,7 +3289,7 @@
 	</woodenladder>
 
 	<domeroof>
-		<name esES="Techo cÃºpula">Dome roof</name>
+		<name esES="Techo cúpula">Dome roof</name>
 
 		<type>construction.roofs</type>
 		<wall>true</wall>
@@ -3451,8 +3451,8 @@
 	</greentileroof>
 
 	<purpletileroof>
-		<name esES="Techo pÃºrpura">Purple roof</name>
-		<description esES="Orgulloso de vivir ahÃ­!">Proud to live here</description>
+		<name esES="Techo púrpura">Purple roof</name>
+		<description esES="Orgulloso de vivir ahí!">Proud to live here</description>
 
 		<type>construction.roofs</type>
 		<wall>true</wall>
@@ -3778,7 +3778,7 @@
 	</farmfence>
 
 	<totem>
-		<name esES="TÃ³tem">Totem pole</name>
+		<name esES="Tótem">Totem pole</name>
 
 		<habitat>junglefrog2</habitat>
 
@@ -3865,7 +3865,7 @@
 	</wheatblock>
 
 	<bambooblock>
-		<name esES="Muro de bambÃº">Bamboo wall</name>
+		<name esES="Muro de bambú">Bamboo wall</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -4016,7 +4016,7 @@
 	<engravedgreenwall>
 		<name esES="Muro verde grabado con gel">Gel engraved green wall</name>
 		<type>construction.blockwalls</type>
-		<description esES="AÃºn vibra">It still vibrates</description>
+		<description esES="Aún vibra">It still vibrates</description>
 
 		<wall>true</wall>
 		<bury>true</bury>
@@ -4034,7 +4034,7 @@
 	<engravedredwall>
 		<name esES="Muro rojo grabado con gel">Gel engraved red wall</name>
 		<type>construction.blockwalls</type>
-		<description esES="AÃºn vibra">It still vibrates</description>
+		<description esES="Aún vibra">It still vibrates</description>
 
 		<wall>true</wall>
 		<bury>true</bury>
@@ -4052,7 +4052,7 @@
 	<engravedbluewall>
 		<name esES="Muro azul grabado con gel">Gel engraved blue wall</name>
 		<type>construction.blockwalls</type>
-		<description esES="AÃºn vibra">It still vibrates</description>
+		<description esES="Aún vibra">It still vibrates</description>
 
 		<wall>true</wall>
 		<bury>true</bury>
@@ -4112,7 +4112,7 @@
 
 	<pavementroadtile>
 		<name esES="Carretera pavimentada">Pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4123,7 +4123,7 @@
 
 	<redpavementroadtile>
 		<name esES="Carretera pavimentada roja">Red pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4134,7 +4134,7 @@
 
 	<whitepavementroadtile>
 		<name esES="Carretera pavimentada blanca">White pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4145,7 +4145,7 @@
 
 	<greenpavementroadtile>
 		<name esES="Carretera pavimentada verde">Green pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4156,7 +4156,7 @@
 
 	<bluepavementroadtile>
 		<name esES="Carretera pavimentada azul">Blue pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4167,7 +4167,7 @@
 
 	<purplepavementroadtile>
 		<name esES="Carretera pavimentada lila">Purple pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4178,7 +4178,7 @@
 
 	<orangepavementroadtile>
 		<name esES="Carretera pavimentada naranja">Orange pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4189,7 +4189,7 @@
 
 	<yellowpavementroadtile>
 		<name esES="Carretera pavimentada amarilla">Yellow pavement road</name>
-		<description esES="MantedrÃ¡ tus pies secos">Follow the yellow brick road!</description>
+		<description esES="Mantedrá tus pies secos">Follow the yellow brick road!</description>
 
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4200,7 +4200,7 @@
 
 	<stoneroadtile>
 		<name esES="Carretera de piedra">Stone road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4211,7 +4211,7 @@
 
 	<woodenroadtile>
 		<name esES="Carretera de madera">Wooden road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4222,7 +4222,7 @@
 
 	<greenroadtile>
 		<name esES="Carretera de gel verde">Green gel road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4233,7 +4233,7 @@
 
 	<redroadtile>
 		<name esES="Carretera de gel rojo">Red gel road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4244,7 +4244,7 @@
 
 	<blueroadtile>
 		<name esES="Carretera de gel azul">Blue gel road</name>
-		<description esES="MantedrÃ¡ tus pies secos">A road tile, to keep your feet dry</description>
+		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
 
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
@@ -4286,7 +4286,7 @@
 
 	<well>
 		<name esES="Pozo">Well</name>
-		<description esES="Tiene que estar cerca del agua, Ãºtil para fabricar cerveza">Must be near water, good for beer</description>
+		<description esES="Tiene que estar cerca del agua, útil para fabricar cerveza">Must be near water, good for beer</description>
 
 		<maxAge>10</maxAge>
 		<maxAgeItem>filledwell</maxAgeItem>
@@ -4301,7 +4301,7 @@
 
 	<filledwell>
 		<name esES="Pozo">Well</name>
-		<description esES="Tiene que estar cerca del agua, Ãºtil para fabricar cerveza">Must be near water, good for beer</description>
+		<description esES="Tiene que estar cerca del agua, útil para fabricar cerveza">Must be near water, good for beer</description>
 
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4440,7 +4440,7 @@
 
 	<torch>
 		<name esES="Antorcha">Torch</name>
-		<description esES="Brilla como un gusilÃº">Star bright, star light...</description>
+		<description esES="Brilla como un gusilú">Star bright, star light...</description>
 		<type>utils.misc</type>
 
 		<lightRadius>2</lightRadius>
@@ -4667,7 +4667,7 @@
 	</stonechairbury1>
 
 	<purplethrone>
-		<name esES="Trono pÃºrpura">Purple throne</name>
+		<name esES="Trono púrpura">Purple throne</name>
 		<description esES="No es como el de hierro">Not unlike the iron throne</description>
 		<type>furniture</type>
 		<usedToSit>true</usedToSit>
@@ -4690,7 +4690,7 @@
 	</purplethrone>
 
 	<purplethronebury>
-		<name esES="Trono pÃºrpura">Purple throne</name>
+		<name esES="Trono púrpura">Purple throne</name>
 		<description esES="No es como el de hierro">Not unlike the iron throne</description>
 
 		<usedToSit>true</usedToSit>
@@ -4706,7 +4706,7 @@
 
 	<woodenchair>
 		<name esES="Silla de madera">Wooden chair</name>
-		<description esES="LlÃ¡mame Astillator">Call me Splinter</description>
+		<description esES="Llámame Astillator">Call me Splinter</description>
 
 		<type>furniture</type>
 		<usedToSit>true</usedToSit>
@@ -4725,7 +4725,7 @@
 
 	<woodenchairbury>
 		<name esES="Silla de madera">Wooden chair</name>
-		<description esES="LlÃ¡mame Astillator">Call me Splinter</description>
+		<description esES="Llámame Astillator">Call me Splinter</description>
 
 		<value>46</value>
 
@@ -4737,7 +4737,7 @@
 
 	<woodenchairbury1>
 		<name esES="Silla de madera">Wooden chair</name>
-		<description esES="LlÃ¡mame Astillator">Call me Splinter</description>
+		<description esES="Llámame Astillator">Call me Splinter</description>
 
 		<value>46</value>
 
@@ -4749,7 +4749,7 @@
 
 	<woodenchairbury2>
 		<name esES="Silla de madera">Wooden chair</name>
-		<description esES="LlÃ¡mame Astillator">Call me Splinter</description>
+		<description esES="Llámame Astillator">Call me Splinter</description>
 
 		<value>46</value>
 
@@ -4760,7 +4760,7 @@
 	</woodenchairbury2>
 
 	<woodencupboard>
-		<name esES="EstanterÃ­a">Cupboard</name>
+		<name esES="Estantería">Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
 		<type>furniture</type>
@@ -4778,7 +4778,7 @@
 	</woodencupboard>
 
 	<woodencupboardbury>
-		<name esES="EstanterÃ­a">Cupboard</name>
+		<name esES="Estantería">Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
 		<base>true</base>
@@ -4812,7 +4812,7 @@
 
 	<fluidselevator>
 		<name esES="Elevador de fluidos">Fluids elevator</name>
-		<description esES="Ãštil para llevar el agua a las montaÃ±as">Useful to bring water to the mountains</description>
+		<description esES="Útil para llevar el agua a las montañas">Useful to bring water to the mountains</description>
 
 		<type>construction.water</type>
 
@@ -5134,7 +5134,7 @@
 	<claybrickwall>
 		<name esES="Muro de arcilla">Clay brick wall</name>
 		<type>construction.walls</type>
-		<description esES="Muro espaÃ±ol!">Spanish looking wall</description>
+		<description esES="Muro español!">Spanish looking wall</description>
 
 		<wall>true</wall>
 		<bury>true</bury>
@@ -5272,7 +5272,7 @@
 
 	<anvil>
 		<name esES="Yunque">Anvil</name>
-		<description esES="Se usa en la fabricaciÃ³n de objetos de hierro">Used in the construction of iron based items</description>
+		<description esES="Se usa en la fabricación de objetos de hierro">Used in the construction of iron based items</description>
 		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zforge</zone>
@@ -5317,7 +5317,7 @@
 
 	<kitchentable>
 		<name esES="Mesa de cocina">Kitchen table</name>
-		<description esES="Se usa en la fabricaciÃ³n de comida preparada a base de carne">Used to make meat based foods</description>
+		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
 		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 
@@ -5338,7 +5338,7 @@
 
 	<kitchentablebury>
 		<name esES="Mesa de cocina">Kitchen table</name>
-		<description esES="Se usa en la fabricaciÃ³n de comida preparada a base de carne">Used to make meat based foods</description>
+		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -5400,7 +5400,7 @@
 
 	<cookingbowl>
 		<name esES="Cuenco de cocina">Cooking bowl</name>
-		<description esES="RemuÃ©velo">Stir it up</description>
+		<description esES="Remuévelo">Stir it up</description>
 		<type>utils.workshops</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -5421,7 +5421,7 @@
 
 	<cookingbowlbury>
 		<name esES="Cuenco de cocina">Cooking bowl</name>
-		<description esES="RemuÃ©velo">Stir it up</description>
+		<description esES="Remuévelo">Stir it up</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -5435,7 +5435,7 @@
 
 	<medicinecabinet>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
-		<description esES="AquÃ­ se guardan las pastillas">Pill's here!</description>
+		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
 		<type>furniture</type>
 		<zone>zhospital</zone>
 		<value>212</value>
@@ -5494,7 +5494,7 @@
 
 	<cookingfire>
 		<name esES="Fuego para cocinar">Cooking fire</name>
-		<description esES="Un pequeÃ±o fuego para preparar comida">A small fire to prepare meat based food</description>
+		<description esES="Un pequeño fuego para preparar comida">A small fire to prepare meat based food</description>
 		<description esES="Parece que no va a durar mucho">It looks like it wont last long</description>
 
 		<lightRadius>4</lightRadius>
@@ -5515,7 +5515,7 @@
 
 	<cookingfirelow>
 		<name esES="Fuego para cocinar">Low cooking fire</name>
-		<description esES="Un pequeÃ±o fuego para preparar comida">A small fire to prepare meat based food</description>
+		<description esES="Un pequeño fuego para preparar comida">A small fire to prepare meat based food</description>
 		<description esES="Parece que no va a durar mucho">It looks like it wont last long</description>
 
 		<lightRadius>2</lightRadius>
@@ -5537,7 +5537,7 @@
 
 	<cookingfireburnt>
 		<name esES="Fuego para cocinar">Burnt cooking fire</name>
-		<description esES="Un pequeÃ±o fuego para preparar comida">A small fire to prepare meat based food</description>
+		<description esES="Un pequeño fuego para preparar comida">A small fire to prepare meat based food</description>
 		<description esES="Parece que no va a durar mucho">It looks like it wont last long</description>
 
 		<lightRadius>1</lightRadius>
@@ -5551,7 +5551,7 @@
 
 	<stove>
 		<name esES="Horno de cocina">Stove</name>
-		<description esES="Se usa en la fabricaciÃ³n de comida preparada a base de carne">Used to make meat based foods</description>
+		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
 		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zkitchen</zone>
@@ -5573,7 +5573,7 @@
 
 	<stovebury>
 		<name esES="Horno de cocina">Stove</name>
-		<description esES="Se usa en la fabricaciÃ³n de comida preparada a base de carne">Used to make meat based foods</description>
+		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
 
 		<value>212</value>
 
@@ -5712,7 +5712,7 @@
 		<level>2</level>
 		<name esES="Martillo de piedra">Stone hammer</name>
 		<description esES="Menudo pedrolo!">It's a stone luigi, you didn't make it...</description>
-		<description esES="Ãšsalo para crear una albaÃ±ilerÃ­a">But you can use it to make a masonry</description>
+		<description esES="Úsalo para crear una albañilería">But you can use it to make a masonry</description>
 		<type>weapon.stone</type>
 
 		<location>WEAPON</location>
@@ -5779,7 +5779,7 @@
 
 	<bamboostick>
 		<level>7</level>
-		<name esES="Palo de bambÃº">Bamboo stick</name>
+		<name esES="Palo de bambú">Bamboo stick</name>
 		<description esES="Cuidado no lo cojas por el extremo que corta">Make sure you hold the right end of it</description>
 		<type>weapon.misc</type>
 
@@ -5961,7 +5961,7 @@
 
 	<spiderbow>
 		<level>8</level>
-		<name esES="Arco arÃ¡cnido">Arachnid bow</name>
+		<name esES="Arco arácnido">Arachnid bow</name>
 		<type>weapon.spiderite</type>
 
 		<ranged>true</ranged>
@@ -5987,7 +5987,7 @@
 
 	<elvenbow>
 		<level>9</level>
-		<name esES="Arco Ã©lfico">Elven bow</name>
+		<name esES="Arco élfico">Elven bow</name>
 		<type>weapon.misc</type>
 
 		<ranged>true</ranged>
@@ -6097,7 +6097,7 @@
 	<speedboots>
 		<level>5</level>
 		<name esES="Botas de velocidad">Boots of haste</name>
-		<description esES="Ãndele, Ãndele, Arriba!!">Andele, andele, arriba!!</description>
+		<description esES="Ándele, Ándele, Arriba!!">Andele, andele, arriba!!</description>
 		<type>armor.special</type>
 
 		<location>FEET</location>
@@ -6495,7 +6495,7 @@
 	<leatherarmor>
 		<level>4</level>
 		<name esES="Armadura de cuero">Leather armor</name>
-		<description esES="Muy cÃ¡lida">So warm and cuddly</description>
+		<description esES="Muy cálida">So warm and cuddly</description>
 		<type>armor.cloth</type>
 
 		<location>BODY</location>
@@ -6513,7 +6513,7 @@
 	<leatherspideritearmor>
 		<level>6</level>
 		<name esES="Armadura de cuero de spiderite">Leather spiderite armor</name>
-		<description esES="Armadura de cuero reforzada mÃ¡gicamente con spiderite">Leather armor magically reinforced with spiderite</description>
+		<description esES="Armadura de cuero reforzada mágicamente con spiderite">Leather armor magically reinforced with spiderite</description>
 		<type>armor.cloth</type>
 
 		<location>BODY</location>
@@ -6531,7 +6531,7 @@
 	<leathergoblinitearmor>
 		<level>10</level>
 		<name esES="Armadura de cuero de goblinite">Leather goblinite armor</name>
-		<description esES="Armadura de cuero reforzada mÃ¡gicamente con goblinite">Leather armor magically reinforced with goblinite</description>
+		<description esES="Armadura de cuero reforzada mágicamente con goblinite">Leather armor magically reinforced with goblinite</description>
 		<type>armor.cloth</type>
 
 		<location>BODY</location>
@@ -6549,7 +6549,7 @@
 	<leathersnickeritearmor>
 		<level>16</level>
 		<name esES="Armadura de cuero de snickerite">Leather snickerite armor</name>
-		<description esES="Armadura de cuero reforzada mÃ¡gicamente con snickerite">Leather armor magically reinforced with snickerite</description>
+		<description esES="Armadura de cuero reforzada mágicamente con snickerite">Leather armor magically reinforced with snickerite</description>
 		<type>armor.cloth</type>
 
 		<location>BODY</location>
@@ -6567,7 +6567,7 @@
 	<leatherzombitearmor>
 		<level>18</level>
 		<name esES="Armadura de cuero de zombite">Leather zombite armor</name>
-		<description esES="Armadura de cuero reforzada mÃ¡gicamente con zombite">Leather armor magically reinforced with zombite</description>
+		<description esES="Armadura de cuero reforzada mágicamente con zombite">Leather armor magically reinforced with zombite</description>
 		<type>armor.cloth</type>
 
 		<location>BODY</location>
@@ -6585,7 +6585,7 @@
 	<leatherogreitearmor>
 		<level>22</level>
 		<name esES="Armadura de cuero de ogreite">Leather ogreite armor</name>
-		<description esES="Armadura de cuero reforzada mÃ¡gicamente con ogreite">Leather armor magically reinforced with ogreite</description>
+		<description esES="Armadura de cuero reforzada mágicamente con ogreite">Leather armor magically reinforced with ogreite</description>
 		<type>armor.cloth</type>
 
 		<location>BODY</location>
@@ -6646,7 +6646,7 @@
 	<ironboots>
 		<level>5</level>
 		<name esES="Botas de hierro">Iron boots</name>
-		<description esES="SerÃ¡n feas, pero Ãºtiles">These boots were made for walking ...</description>
+		<description esES="Serán feas, pero útiles">These boots were made for walking ...</description>
 		<type>armor.iron</type>
 		<walkSpeed>-2</walkSpeed>
 
@@ -6707,7 +6707,7 @@
 	<ironpants>
 		<level>5</level>
 		<name esES="Pantalones de hierro">Iron greaves</name>
-		<description esES="Que frÃ­os estÃ¡n!">Wow! These are cold!</description>
+		<description esES="Que fríos están!">Wow! These are cold!</description>
 		<type>armor.iron</type>
 		<walkSpeed>-2</walkSpeed>
 
@@ -6726,7 +6726,7 @@
 	<ironshortsword>
 		<level>9</level>
 		<name esES="Espada corta de hierro">Iron shortsword</name>
-		<description esES="Todas las niÃ±as se reÃ­an de su estatura diminuta">All the girls laughed at it's tiny size</description>
+		<description esES="Todas las niñas se reían de su estatura diminuta">All the girls laughed at it's tiny size</description>
 		<type>weapon.iron</type>
 
 		<location>WEAPON</location>
@@ -6805,7 +6805,7 @@
 	<ogreitemace>
 		<level>21</level>
 		<name esES="Aplastador de ogreite">Ogreite smasher</name>
-		<description esES="Un aplastador de ogro, poco original, Â¿y quÃ©?">An ogre basher, so unoriginal, sue me...</description>
+		<description esES="Un aplastador de ogro, poco original, ¿y qué?">An ogre basher, so unoriginal, sue me...</description>
 		<type>weapon.ogreite</type>
 
 		<location>WEAPON</location>
@@ -7105,7 +7105,7 @@
 	<woodenlongsword>
 		<level>5</level>
 		<name esES="Espada larga de madera">Wooden longsword</name>
-		<description esES="LlÃ¡mame... Palote">Call me... Woody</description>
+		<description esES="Llámame... Palote">Call me... Woody</description>
 		<type>weapon.wood</type>
 
 		<location>WEAPON</location>
@@ -7161,7 +7161,7 @@
 	<woodenshortsword>
 		<level>1</level>
 		<name esES="Espada corta de madera">Wooden shortsword</name>
-		<description esES="Â¿Es una astilla lo que abulta?">Is that a splinter in your pocket?</description>
+		<description esES="¿Es una astilla lo que abulta?">Is that a splinter in your pocket?</description>
 		<type>weapon.wood</type>
 
 		<location>WEAPON</location>
@@ -7524,7 +7524,7 @@
 	<!--Workshop Benches -->
 	<bakeroven>
 		<name esES="Horno de panadero">Baker's oven</name>
-		<description esES="El tÃ­pico horno.... de panadero">A typical... baker's... oven</description>
+		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
 		<type>utils.workshops</type>
 
 		<bury>true</bury>
@@ -7548,7 +7548,7 @@
 
 	<bakerovenbury>
 		<name esES="Horno de panadero">Baker's oven</name>
-		<description esES="El tÃ­pico horno.... de panadero">A typical... baker's... oven</description>
+		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7560,7 +7560,7 @@
 
 	<bakerovenbury1>
 		<name esES="Horno de panadero">Baker's oven</name>
-		<description esES="El tÃ­pico horno.... de panadero">A typical... baker's... oven</description>
+		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7572,7 +7572,7 @@
 
 	<bakertable>
 		<name esES="Mesa de panadero">Baker's table</name>
-		<description esES="La tÃ­pica mesa... de panadero">A typical... baker's... table</description>
+		<description esES="La típica mesa... de panadero">A typical... baker's... table</description>
 		<type>utils.workshops</type>
 
 		<bury>true</bury>
@@ -7592,7 +7592,7 @@
 
 	<bakertablebury>
 		<name esES="Mesa de panadero">Baker's table</name>
-		<description esES="La tÃ­pica mesa... de panadero">A typical... baker's... table</description>
+		<description esES="La típica mesa... de panadero">A typical... baker's... table</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7605,7 +7605,7 @@
 
 	<bakertablebury1>
 		<name esES="Mesa de panadero">Baker's table</name>
-		<description esES="La tÃ­pica mesa... de panadero">A typical... baker's... table</description>
+		<description esES="La típica mesa... de panadero">A typical... baker's... table</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7619,7 +7619,7 @@
 	<carpentrybench>
 		<name esES="Mesa de carpintero">Carpenters bench</name>
 		<description esES="Una mesa de carpintero oxidado">A rusted wooden carpenter's bench</description>
-		<description esES="Con ella construirÃ¡s objetos de madera">Used to make wooden objects</description>
+		<description esES="Con ella construirás objetos de madera">Used to make wooden objects</description>
 		<type>utils.workshops</type>
 
 		<bury>true</bury>
@@ -7637,7 +7637,7 @@
 	<carpentrybenchbury>
 		<name esES="Mesa de carpintero">Carpenters bench</name>
 		<description esES="Una mesa de carpintero oxidado">A rusted wooden carpenter's bench</description>
-		<description esES="Con ella construirÃ¡s objetos de madera">Used to make wooden objects</description>
+		<description esES="Con ella construirás objetos de madera">Used to make wooden objects</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7728,9 +7728,9 @@
 	</carvingbenchbury>
 
 	<masonbench>
-		<name esES="Mesa de albaÃ±il">Mason's bench</name>
-		<description esES="Una mesa de albaÃ±il">A stonemason's stone table</description>
-		<description esES="Ãštil para crear objetos de piedra">Used to make stone objects</description>
+		<name esES="Mesa de albañil">Mason's bench</name>
+		<description esES="Una mesa de albañil">A stonemason's stone table</description>
+		<description esES="Útil para crear objetos de piedra">Used to make stone objects</description>
 		<type>utils.workshops</type>
 
 		<bury>true</bury>
@@ -7746,9 +7746,9 @@
 	</masonbench>
 
 	<masonbenchbury>
-		<name esES="Mesa de albaÃ±il">Mason's bench</name>
-		<description esES="Una mesa de albaÃ±il">A stonemason's stone table</description>
-		<description esES="Ãštil para crear objetos de piedra">Used to make stone objects</description>
+		<name esES="Mesa de albañil">Mason's bench</name>
+		<description esES="Una mesa de albañil">A stonemason's stone table</description>
+		<description esES="Útil para crear objetos de piedra">Used to make stone objects</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7758,7 +7758,7 @@
 
 	<wooddetailer>
 		<name esES="Curtidor de madera">Wood detailer</name>
-		<description esES="Usada en la creaciÃ³n de objetos de madera avanzados">Allows for advanced wooden items</description>
+		<description esES="Usada en la creación de objetos de madera avanzados">Allows for advanced wooden items</description>
 		<type>utils.workshops</type>
 
 		<bury>true</bury>
@@ -7776,7 +7776,7 @@
 
 	<wooddetailerbury>
 		<name esES="Curtidor de madera">Wood detailer</name>
-		<description esES="Usada en la creaciÃ³n de objetos de madera avanzados">Allows for advanced wooden items</description>
+		<description esES="Usada en la creación de objetos de madera avanzados">Allows for advanced wooden items</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7790,7 +7790,7 @@
 
 	<clock>
 		<name esES="Reloj">Clock</name>
-		<description esES="Los tiempos estÃ¡n cambiando...">But the times they are a changin...</description>
+		<description esES="Los tiempos están cambiando...">But the times they are a changin...</description>
 
 		<happiness>2</happiness>
 
@@ -7815,7 +7815,7 @@
 
 	<clockbury>
 		<name esES="Reloj">Clock</name>
-		<description esES="Los tiempos estÃ¡n cambiando...">But the times they are a changin...</description>
+		<description esES="Los tiempos están cambiando...">But the times they are a changin...</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7891,7 +7891,7 @@
 
 	<doorsignswords>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una espada pintado en Ã©l">It has helmet painted on it</description>
+		<description esES="Tiene una espada pintado en él">It has helmet painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -7930,7 +7930,7 @@
 	</necromancerstatue>
 
 	<gargoylestatue>
-		<name esES="Estatua de gÃ¡rgola">Gargoyle statue</name>
+		<name esES="Estatua de gárgola">Gargoyle statue</name>
 
 		<type>decorative.outdoor</type>
 
@@ -7949,8 +7949,8 @@
 	</gargoylestatue>
 
 	<siriancaesar>
-		<name esES="Estatua del CÃ©sar Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del CÃ©sar Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
 		<type>decorative.outdoor</type>
 
 		<happiness>2</happiness>
@@ -7965,7 +7965,7 @@
 
 	<whiteheadkerchief>
 		<level>1</level>
-		<name esES="PaÃ±uelo blanco de cabeza">White head kerchief</name>
+		<name esES="Pañuelo blanco de cabeza">White head kerchief</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -7982,7 +7982,7 @@
 
 	<redheadkerchief>
 		<level>1</level>
-		<name esES="PaÃ±uelo rojo de cabeza">Red head kerchief</name>
+		<name esES="Pañuelo rojo de cabeza">Red head kerchief</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -7999,7 +7999,7 @@
 
 	<blueheadkerchief>
 		<level>1</level>
-		<name esES="PaÃ±uelo azul de cabeza">Blue head kerchief</name>
+		<name esES="Pañuelo azul de cabeza">Blue head kerchief</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -8016,7 +8016,7 @@
 
 	<greenheadkerchief>
 		<level>1</level>
-		<name esES="PaÃ±uelo verde de cabeza">Green head kerchief</name>
+		<name esES="Pañuelo verde de cabeza">Green head kerchief</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -8033,7 +8033,7 @@
 
 	<yellowheadkerchief>
 		<level>1</level>
-		<name esES="PaÃ±uelo amarillo de cabeza">Yellow head kerchief</name>
+		<name esES="Pañuelo amarillo de cabeza">Yellow head kerchief</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -8050,7 +8050,7 @@
 
 	<orangeheadkerchief>
 		<level>1</level>
-		<name esES="PaÃ±uelo naranja de cabeza">Orange head kerchief</name>
+		<name esES="Pañuelo naranja de cabeza">Orange head kerchief</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -8084,7 +8084,7 @@
 
 	<woodenmask>
 		<level>1</level>
-		<name esES="MÃ¡scara de madera">Wooden mask</name>
+		<name esES="Máscara de madera">Wooden mask</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -8101,7 +8101,7 @@
 
 	<mayanmask>
 		<level>1</level>
-		<name esES="MÃ¡scara maya">Mayan mask</name>
+		<name esES="Máscara maya">Mayan mask</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -8221,7 +8221,7 @@
 
 	<badgerhat>
 		<level>1</level>
-		<name esES="Sombrero de tejÃ³n">Badger hat</name>
+		<name esES="Sombrero de tejón">Badger hat</name>
 		<type>armor.vanity</type>
 
 		<location>HEAD</location>
@@ -8477,7 +8477,7 @@
 	</candlebury>
 
 	<hangedlamp>
-		<name esES="LÃ¡mpara colgante">Hanged lamp</name>
+		<name esES="Lámpara colgante">Hanged lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8502,7 +8502,7 @@
 	</hangedlamp>
 
 	<bluehangedlamp>
-		<name esES="LÃ¡mpara colgante azul">Blue hanged lamp</name>
+		<name esES="Lámpara colgante azul">Blue hanged lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8527,7 +8527,7 @@
 	</bluehangedlamp>
 
 	<yellowhangedlamp>
-		<name esES="LÃ¡mpara colgante amarilla">Yellow hanged lamp</name>
+		<name esES="Lámpara colgante amarilla">Yellow hanged lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8552,7 +8552,7 @@
 	</yellowhangedlamp>
 
 	<greenhangedlamp>
-		<name esES="LÃ¡mpara colgante verde">Green hanged lamp</name>
+		<name esES="Lámpara colgante verde">Green hanged lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8577,7 +8577,7 @@
 	</greenhangedlamp>
 
 	<redhangedlamp>
-		<name esES="LÃ¡mpara colgante roja">Red hanged lamp</name>
+		<name esES="Lámpara colgante roja">Red hanged lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8602,7 +8602,7 @@
 	</redhangedlamp>
 
 	<hangedlampbury>
-		<name esES="LÃ¡mpara colgante">Hanged lamp</name>
+		<name esES="Lámpara colgante">Hanged lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8745,7 +8745,7 @@
 
 	<stonemalestatue>
 		<name esES="Estatua de piedra">Stone statue</name>
-		<description esES="Una estatua de piedra de un hÃ©roe legendario">A stone statue of a legendary hero</description>
+		<description esES="Una estatua de piedra de un héroe legendario">A stone statue of a legendary hero</description>
 		<type>decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -8762,7 +8762,7 @@
 
 	<stonemalestatuebury>
 		<name esES="Estatua de piedra">Stone statue</name>
-		<description esES="Una estatua de piedra de un hÃ©roe legendario">A stone statue of a legendary hero</description>
+		<description esES="Una estatua de piedra de un héroe legendario">A stone statue of a legendary hero</description>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -8772,7 +8772,7 @@
 
 	<goldunifallowstatue>
 		<name esES="Estatua de unifallow de oro">Gold unifallow statue</name>
-		<description esES="Brilla demasiado! Te puedes quedar ciego mirÃ¡ndola">It's so shiny, you would go blind looking at it too long!</description>
+		<description esES="Brilla demasiado! Te puedes quedar ciego mirándola">It's so shiny, you would go blind looking at it too long!</description>
 		<type>decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -8828,7 +8828,7 @@
 
 	<chimney>
 		<name esES="Chimenea">Chimney</name>
-		<description esES="Te mantendrÃ¡ caliente">It gets you warm and fuzzy</description>
+		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
 		<type>furniture</type>
 
 		<bury>true</bury>
@@ -8873,7 +8873,7 @@
 	
 	<potplant>
 		<name esES="Planta">Potted plant</name>
-		<description esES="Una pequeÃ±a planta perfecta">A pretty pristine potted plant</description>
+		<description esES="Una pequeña planta perfecta">A pretty pristine potted plant</description>
 		<type>decorative.indoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -8932,7 +8932,7 @@
 
 	<bonsai>
 		<name esES="Bonsai">Bonsai tree</name>
-		<description esES="Tu propio Ã¡rbol!">Your very own tree</description>
+		<description esES="Tu propio árbol!">Your very own tree</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -8951,7 +8951,7 @@
 
 	<bonsaired>
 		<name esES="Bonsai rojo">Red bonsai tree</name>
-		<description esES="Tu propio Ã¡rbol rojo!">Your very own red tree</description>
+		<description esES="Tu propio árbol rojo!">Your very own red tree</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -8969,8 +8969,8 @@
 	</bonsaired>
 
 	<gardenred>
-		<name esES="JardÃ­n de flores rojas">Red flowers garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<name esES="Jardín de flores rojas">Red flowers garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -8988,8 +8988,8 @@
 	</gardenred>
 
 	<gardenblue>
-		<name esES="JardÃ­n de flores azules">Blue flowers garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<name esES="Jardín de flores azules">Blue flowers garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -9007,8 +9007,8 @@
 	</gardenblue>
 
 	<gardenyellow>
-		<name esES="JardÃ­n de flores amarillas">Yellow flowers garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<name esES="Jardín de flores amarillas">Yellow flowers garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -9026,8 +9026,8 @@
 	</gardenyellow>
 
 	<gardenbush1>
-		<name esES="JardÃ­n de arbusto cÃºbico">Cubical bush garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<name esES="Jardín de arbusto cúbico">Cubical bush garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -9045,8 +9045,8 @@
 	</gardenbush1>
 
 	<gardenbush2>
-		<name esES="JardÃ­n de arbusto esfÃ©rico">Spherical bush garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<name esES="Jardín de arbusto esférico">Spherical bush garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -9064,8 +9064,8 @@
 	</gardenbush2>
 
 	<gardenbush3>
-		<name esES="JardÃ­n de dos niveles">Two levels garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<name esES="Jardín de dos niveles">Two levels garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -9083,8 +9083,8 @@
 	</gardenbush3>
 
 	<gardenbury>
-		<name esES="JardÃ­n de dos niveles">Dirt garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<name esES="Jardín de dos niveles">Dirt garden</name>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 
 		<alwaysOperative>false</alwaysOperative>
 		
@@ -9214,7 +9214,7 @@
 	</herbalistcorpse>
 
 	<barbariancorpse>
-		<name esES="Cuerpo de bÃ¡rbaro">Barbarian corpse</name>
+		<name esES="Cuerpo de bárbaro">Barbarian corpse</name>
 		<type>rawmaterials.misc</type>
 
 		<maxAge>1d8320+4432</maxAge>
@@ -9238,7 +9238,7 @@
 	</barbariancorpse>
 
 	<roguemalecorpse>
-		<name esES="Cuerpo de ladrÃ³n">Rogue corpse</name>
+		<name esES="Cuerpo de ladrón">Rogue corpse</name>
 		<type>rawmaterials.misc</type>
 
 		<maxAge>1d8320+4432</maxAge>
@@ -9382,7 +9382,7 @@
 	</magecorpse>
 
 	<highlandercorpse>
-		<name esES="Cuerpo de montaÃ±Ã©s">Highlander corpse</name>
+		<name esES="Cuerpo de montañés">Highlander corpse</name>
 		<type>rawmaterials.misc</type>
 
 		<maxAge>1d8320+4432</maxAge>
@@ -9667,7 +9667,7 @@
 	</punchwoodtomb>
 
 	<maleroguetomb>
-		<name esES="Tumba de ladrÃ³n">Rogue tomb</name>
+		<name esES="Tumba de ladrón">Rogue tomb</name>
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
@@ -9721,7 +9721,7 @@
 	</dwarftomb>
 
 	<barbariantomb>
-		<name esES="Tumba de bÃ¡rbaro">Barbarian tomb</name>
+		<name esES="Tumba de bárbaro">Barbarian tomb</name>
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
@@ -9736,7 +9736,6 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		<action>del_barbariantomb</action>
 	</barbariantomb>
 
 	<elftomb>
@@ -9755,7 +9754,6 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		<action>del_elftomb</action>
 	</elftomb>
 
 	<magetomb>
@@ -9774,7 +9772,6 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		<action>del_magetomb</action>
 	</magetomb>
 
 	<knighttomb>
@@ -9793,11 +9790,10 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		<action>del_knighttomb</action>
 	</knighttomb>
 
 	<highlandertomb>
-		<name esES="Tumba de montaÃ±Ã©s">Highlander tomb</name>
+		<name esES="Tumba de montañés">Highlander tomb</name>
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
@@ -9834,7 +9830,7 @@
 
 
 	<redbadgerdummy>
-		<name esES="TejÃ³n rojo">Red badger</name>
+		<name esES="Tejón rojo">Red badger</name>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -9846,7 +9842,7 @@
 	</redbadgerdummy>
 
 	<greenbadgerdummy>
-		<name esES="TejÃ³n verde">Green badger</name>
+		<name esES="Tejón verde">Green badger</name>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -9861,7 +9857,7 @@
 	</greenbadgerdummy>
 
 	<bluebadgerdummy>
-		<name esES="TejÃ³n azul">Blue badger</name>
+		<name esES="Tejón azul">Blue badger</name>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -9902,7 +9898,7 @@
 	</batedummy>
 
 	<guardbadgerdummy>
-		<name esES="TejÃ³n guardiÃ¡n">Guard badger</name>
+		<name esES="Tejón guardián">Guard badger</name>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -9916,7 +9912,7 @@
 
 
 	<deadtree>
-		<name esES="Ãrbol muerto">Dead tree</name>
+		<name esES="Árbol muerto">Dead tree</name>
 
 		<habitat>lavadirt</habitat>
 
@@ -9925,7 +9921,7 @@
 
 
 	<deadtree2>
-		<name esES="Ãrbol muerto">Dead tree</name>
+		<name esES="Árbol muerto">Dead tree</name>
 
 		<habitat>lavadirt</habitat>
 
@@ -9934,7 +9930,7 @@
 
 
 	<deadtree3>
-		<name esES="Ãrbol muerto">Dead tree</name>
+		<name esES="Árbol muerto">Dead tree</name>
 
 		<habitat>lavadirt</habitat>
 
@@ -10066,7 +10062,7 @@
 
 	<goldenitemace>
 		<level>28</level>
-		<name esES="Maza dorada mÃ¡gica">Golden magical mace</name>
+		<name esES="Maza dorada mágica">Golden magical mace</name>
 		<description esES="La muerte dorada">The golden death</description>
 		<type>weapon.gold</type>
 
@@ -10184,7 +10180,7 @@
 
 	<silveritebentsword>
 		<level>27</level>
-		<name esES="Espada curvada mÃ¡gica dorada">Silver magical bent sword</name>
+		<name esES="Espada curvada mágica dorada">Silver magical bent sword</name>
 		<description esES="Brilla y corta">Shine and slice</description>
 		<type>weapon.silver</type>
 
@@ -10208,7 +10204,7 @@
 	<flamingsword>
 		<level>29</level>
 		<name esES="Espada llameante">Flaming Death</name>
-		<description esES="Quema a travÃ©s de la piel">Burns through the skin</description>
+		<description esES="Quema a través de la piel">Burns through the skin</description>
 		<type>weapon.misc</type>
 
 		<location>WEAPON</location>
@@ -10235,7 +10231,7 @@
 	</planttrapseed>
 
 	<plantedplanttrapseed>
-		<name esES="Planta carnÃ­vora plantada">Carnivorous planted plant</name>
+		<name esES="Planta carnívora plantada">Carnivorous planted plant</name>
 
 		<maxAge>200</maxAge>
 		<maxAgeItem>plantedplanttrap</maxAgeItem>
@@ -10243,7 +10239,7 @@
 	</plantedplanttrapseed>
 
 	<planttrap>
-		<name esES="Planta carnÃ­vora">Carnivorous plant</name>
+		<name esES="Planta carnívora">Carnivorous plant</name>
 		<type>trap</type>
 		<habitat>grass2</habitat>
 
@@ -10261,7 +10257,7 @@
 	</planttrap>
 
 	<plantedplanttrap>
-		<name esES="Planta carnÃ­vora plantada">Carnivorous planted plant</name>
+		<name esES="Planta carnívora plantada">Carnivorous planted plant</name>
 		<type>trap</type>
 
 		<alwaysOperative>true</alwaysOperative>
@@ -10277,7 +10273,7 @@
 	</plantedplanttrap>
 
 	<bambootrap>
-		<name esES="Trampa lanza-bambÃº">Bamboo shooting trap</name>
+		<name esES="Trampa lanza-bambú">Bamboo shooting trap</name>
 		<type>trap</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -10363,7 +10359,7 @@
 	</doortrap>
 
 	<emptybottle>
-		<name esES="Botella vacÃ­a">Empty bottle</name>
+		<name esES="Botella vacía">Empty bottle</name>
 		<type>utils</type>
 
 		<alwaysOperative>true</alwaysOperative>
@@ -10493,7 +10489,7 @@
 
 	<lightning>
 		<level>26</level>
-		<name esES="El relÃ¡mpago">The lightning</name>
+		<name esES="El relámpago">The lightning</name>
 		<description esES="Su esencia perfora el alma">Its essence will pierce your soul</description>
 		<type>weapon.special</type>
 
@@ -10520,12 +10516,12 @@
 
 
 	<lightningbolt>
-		<name esES="RelÃ¡mpago">Lightning bolt</name>
+		<name esES="Relámpago">Lightning bolt</name>
 	</lightningbolt>
 
 	<beastmask>
 		<level>25</level>
-		<name esES="MÃ¡scara de la bestia">Mask of the beast</name>
+		<name esES="Máscara de la bestia">Mask of the beast</name>
 		<type>armor.special</type>
 		<walkSpeed>-2</walkSpeed>
 
@@ -10568,10 +10564,10 @@
 	</trickster>
 
 		<nuxcrown>
-		<name esES="La corona de Nux - 100 aÃ±os de antigÃ¼edad">Nux crown - 100 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 100 años de antigüedad">Nux crown - 100 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10583,10 +10579,10 @@
 	</nuxcrown>
 
 	<nuxcrown1>
-		<name esES="La corona de Nux - 200 aÃ±os de antigÃ¼edad">Nux crown - 200 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 200 años de antigüedad">Nux crown - 200 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10598,10 +10594,10 @@
 	</nuxcrown1>
 
 	<nuxcrown2>
-		<name esES="La corona de Nux - 300 aÃ±os de antigÃ¼edad">Nux crown - 300 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 300 años de antigüedad">Nux crown - 300 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10613,10 +10609,10 @@
 	</nuxcrown2>
 
 	<nuxcrown3>
-		<name esES="La corona de Nux - 400 aÃ±os de antigÃ¼edad">Nux crown - 400 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 400 años de antigüedad">Nux crown - 400 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10628,10 +10624,10 @@
 	</nuxcrown3>
 
 	<nuxcrown4>
-		<name esES="La corona de Nux - 500 aÃ±os de antigÃ¼edad">Nux crown - 500 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 500 años de antigüedad">Nux crown - 500 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10643,10 +10639,10 @@
 	</nuxcrown4>
 
 	<nuxcrown5>
-		<name esES="La corona de Nux - 600 aÃ±os de antigÃ¼edad">Nux crown - 600 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 600 años de antigüedad">Nux crown - 600 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10658,10 +10654,10 @@
 	</nuxcrown5>
 
 	<nuxcrown6>
-		<name esES="La corona de Nux - 700 aÃ±os de antigÃ¼edad">Nux crown - 700 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 700 años de antigüedad">Nux crown - 700 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10673,10 +10669,10 @@
 	</nuxcrown6>
 
 	<nuxcrown7>
-		<name esES="La corona de Nux - 800 aÃ±os de antigÃ¼edad">Nux crown - 800 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 800 años de antigüedad">Nux crown - 800 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10688,10 +10684,10 @@
 	</nuxcrown7>
 
 	<nuxcrown8>
-		<name esES="La corona de Nux - 900 aÃ±os de antigÃ¼edad">Nux crown - 900 years old</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 900 años de antigüedad">Nux crown - 900 years old</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10703,10 +10699,10 @@
 	</nuxcrown8>
 
 	<nuxcrown9>
-		<name esES="La corona de Nux - 1000 aÃ±os de antigÃ¼edad">Nux crown - 1000 years old!</name>
-		<description esES="La corona de Nux, fundador de la primera civilizaciÃ³n">The crown of nux, founder of the first civilisation</description>
-		<description esES="Un artefacto raro. Ã‰ste objeto se have mÃ¡s valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
-		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque mÃ¡s rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
+		<name esES="La corona de Nux - 1000 años de antigüedad">Nux crown - 1000 years old!</name>
+		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
+		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
+		<description esES="Vas a venderlo por unas monedas o lo vas a enterrar con tu pueblo para que gente del futuro le saque más rendimiento?">Will you make a quick profit, or let it bury with the town so the people of the future might make more of it?</description>
 		<type>decorative.special</type>
 
 		<bury>true</bury>
@@ -10784,7 +10780,7 @@
 	</harvestedgravelmine>
 
 	<coalmine>
-		<name esES="Pozo minero de carbÃ³n">Coal mineshaft</name>
+		<name esES="Pozo minero de carbón">Coal mineshaft</name>
 		<type>mine</type>
 		<habitat>coal</habitat>
 		<maxAge>14400</maxAge>
@@ -10797,7 +10793,7 @@
 	</coalmine>
 	
 	<harvestedcoalmine>
-		<name esES="Pozo minero de carbÃ³n">Coal mineshaft</name>
+		<name esES="Pozo minero de carbón">Coal mineshaft</name>
 		<type>mine</type>
 		<habitat>coal</habitat>
 		<maxAge>120</maxAge>
@@ -11018,7 +11014,7 @@
 	<flourmill>
 		<name esES="Molino">Mill</name>
 		<description esES="Se usa para obtener harina">Use this to create flour</description>
-		<description esES="TambiÃ©n conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
+		<description esES="También conocido como dispositivo de anti-obesidad">Also known as an anti-obesity device</description>
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
 		<stackable>false</stackable>
@@ -11029,7 +11025,7 @@
 <!-- FURNITURE -->
 	<woodendrawer_E>
 		<name esES="Cajonera de Madera">Wooden Drawer</name>
-		<description esES="ExtraÃ±amente, los cajones son sÃ³lidos">Oddly enough, doesn't draw anything.</description>
+		<description esES="Extrañamente, los cajones son sólidos">Oddly enough, doesn't draw anything.</description>
 
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
@@ -11044,7 +11040,7 @@
 
 	<woodendrawer_W>
 		<name esES="Cajonera de Madera">Wooden Drawer</name>
-		<description esES="ExtraÃ±amente, los cajones son sÃ³lidos">Oddly enough, doesn't draw anything.</description>
+		<description esES="Extrañamente, los cajones son sólidos">Oddly enough, doesn't draw anything.</description>
 
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
@@ -11059,7 +11055,7 @@
 
 	<smallwoodendrawer_E>
 		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
-		<description esES="Que extraÃ±o... juraria que habÃ­a uno mas grande">Oddly enough, doesn't draw anything.</description>
+		<description esES="Que extraño... juraria que había uno mas grande">Oddly enough, doesn't draw anything.</description>
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -11073,7 +11069,7 @@
 
 	<smallwoodendrawer_W>
 		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
-		<description esES="Que extraÃ±o... juraria que habÃ­a uno mas grande">Oddly enough, doesn't draw anything.</description>
+		<description esES="Que extraño... juraria que había uno mas grande">Oddly enough, doesn't draw anything.</description>
 		<type>cb262.furniture</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -11087,7 +11083,7 @@
 
 	<smallwoodendrawer_flower_E>
 		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
-		<description esES="Â¡Ooooh! Â¡Este tiene flores!">Oooh! This one has flowers!</description>
+		<description esES="¡Ooooh! ¡Este tiene flores!">Oooh! This one has flowers!</description>
 		<type>cb262.furniture</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -11101,7 +11097,7 @@
 
 	<smallwoodendrawer_flower_W>
 		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
-		<description esES="Â¡Ooooh! Â¡Este tiene flores!">Oooh! This one has flowers!</description>
+		<description esES="¡Ooooh! ¡Este tiene flores!">Oooh! This one has flowers!</description>
 		<type>cb262.furniture</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -11114,7 +11110,7 @@
 	</smallwoodendrawer_flower_W>
 
 	<woodencupboard_E>
-		<name esES="EstanterÃ­a">Wooden Cupboard</name>
+		<name esES="Estantería">Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
 		<type>cb262.furniture</type>
@@ -11129,7 +11125,7 @@
 	</woodencupboard_E>
 
 	<woodencupboard_W>
-		<name esES="EstanterÃ­a">Wooden Cupboard</name>
+		<name esES="Estantería">Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
 		<type>cb262.furniture</type>
@@ -11144,7 +11140,7 @@
 	</woodencupboard_W>
 
 	<tallwoodencupboard_E>
-		<name esES="EstanterÃ­a">Tall Wooden Cupboard</name>
+		<name esES="Estantería">Tall Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
 		<type>cb262.furniture</type>
@@ -11159,7 +11155,7 @@
 	</tallwoodencupboard_E>
 
 	<tallwoodencupboard_W>
-		<name esES="EstanterÃ­a">Tall Wooden Cupboard</name>
+		<name esES="Estantería">Tall Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
 		<type>cb262.furniture</type>
@@ -11175,7 +11171,7 @@
 
 	<flowerpot_red>
 		<name esES="Flor Roja en maceta">Potted Red Flower</name>
-		<description esES="Una muy bonita flor roja Â¡Ahora en macetas!">A pretty potted red flower</description>
+		<description esES="Una muy bonita flor roja ¡Ahora en macetas!">A pretty potted red flower</description>
 		<type>decorative.indoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -11231,7 +11227,7 @@
 
 	<!-- WINTER ITEMS -->
 	<snowman1>
-		<name esES="MuÃ±eco de nieve">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -11240,7 +11236,7 @@
 		</snowman1>
 
 	<snowman3>
-		<name esES="MuÃ±eco de nieve">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -11249,7 +11245,7 @@
 	</snowman3>
 
 	<snowman4>
-		<name esES="MuÃ±eco de nieve">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -11258,7 +11254,7 @@
 	</snowman4>
 
 	<snowman7>
-		<name esES="MuÃ±eco de nieve">Snowman</name>
+		<name esES="Muñeco de nieve">Snowman</name>
 		<habitat>snow</habitat>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -11267,13 +11263,13 @@
 	</snowman7>
 
 	<undecaxmastree>
-		<name esES="Ãrbol de navidad animado">Animated Christmas Tree</name>
+		<name esES="Árbol de navidad animado">Animated Christmas Tree</name>
 		<type>decorative.winter</type>
 		<action>qdecatree</action>
 	</undecaxmastree>
 
 	<axmastree1>
-		<name esES="Ãrbol de navidad animado">Animated Christmas Tree</name>
+		<name esES="Árbol de navidad animado">Animated Christmas Tree</name>
 		<type>decorative.winter</type>
 		<happiness>2</happiness>
 	</axmastree1>
@@ -11596,7 +11592,7 @@
 
 	<bakeroven_E>
 		<name esES="Horno de panadero">Baker's oven</name>
-		<description esES="El tÃ­pico horno.... de panadero">A typical... baker's... oven</description>
+		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
@@ -11617,7 +11613,7 @@
 
 	<xmasbakeroven>
 		<name esES="Horno de panadero">Christmas Baker's oven</name>
-		<description esES="El tÃ­pico horno.... de panadero">A typical... baker's... oven</description>
+		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
@@ -11638,7 +11634,7 @@
 
 	<xmasbakeroven_E>
 		<name esES="Horno de panadero">Christmas Baker's oven</name>
-		<description esES="El tÃ­pico horno.... de panadero">A typical... baker's... oven</description>
+		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
@@ -11659,7 +11655,7 @@
 	
 	<xmaslogdoor>
 		<name esES="Puerta de troncos">Decorated Log door</name>
-		<description esES="Puerta bÃ¡sica">Basic door</description>
+		<description esES="Puerta básica">Basic door</description>
 		<type>furniture</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
@@ -12309,7 +12305,7 @@
 
 	<newbullfarm>
 		<name esES="Granja de Toros">Bull Barn</name>
-		<description esES="Â¡No uses tu remera roja!">Don't wear your red shirt!</description>
+		<description esES="¡No uses tu remera roja!">Don't wear your red shirt!</description>
 
 		<action>qbreedbull</action>
 		<stackable>true</stackable>
@@ -12319,7 +12315,7 @@
 
 	<newpigfarm>
 		<name esES="Granja de Cerdos">Pig Barn</name>
-		<description esES="Â¡Puaj! Este piso da asco">The floor is very dirty...</description>
+		<description esES="¡Puaj! Este piso da asco">The floor is very dirty...</description>
 
 		<action>qbreedpig</action>
 		<stackable>true</stackable>
@@ -12328,7 +12324,7 @@
 	</newpigfarm>
 
 	<newboarfarm>
-		<name esES="Granja de JabalÃ­">Boar Barn</name>
+		<name esES="Granja de Jabalí">Boar Barn</name>
 		<description esES="Nadie ha dicho tocino...">Nobody mention Bacon...</description>
 
 		<action>qbreedboar</action>
@@ -12339,7 +12335,7 @@
 
 	<newchickenfarm>
 		<name esES="Granja de Gallina">Chicken Barn</name>
-		<description esES="Â¡Blancos de tiro gratis!">Free Range!</description>
+		<description esES="¡Blancos de tiro gratis!">Free Range!</description>
 
 		<action>qbreedchicken</action>
 		<stackable>true</stackable>
@@ -12349,7 +12345,7 @@
 
 	<newroosterfarm>
 		<name esES="Granja de Gallos">Rooster Barn</name>
-		<description esES="Â¡Fabrica de despertadores medievales!">Medeival Alarm Clock factory!</description>
+		<description esES="¡Fabrica de despertadores medievales!">Medeival Alarm Clock factory!</description>
 
 		<action>qbreedrooster</action>
 		<stackable>true</stackable>
@@ -12359,7 +12355,7 @@
 
 	<newskootenbeetenfarm>
 		<name esES="Granja de Skootenbeetens">Skootenbeeten Barn</name>
-		<description esES="Â¡Cuidado con la cabeza!">Watch your head!</description>
+		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
 		<action>qbreedskootenbeeten</action>
 		<stackable>true</stackable>
@@ -12369,7 +12365,7 @@
 
 	<newunifallowfarm>
 		<name esES="Granja de Unifallows">Unifallow Barn</name>
-		<description esES="Â¿CÃ³mo logras ver estas cosas?">How do you see things?</description>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
 		<action>qbreedunifallow</action>
 		<stackable>true</stackable>
@@ -12389,7 +12385,7 @@
 
 	<newsnoatfarm>
 		<name esES="Granja de Snoats">Snoat Barn</name>
-		<description esES="Â¿CÃ³mo hizo para entrar ahÃ­?">How do you fit in there?</description>
+		<description esES="¿Cómo hizo para entrar ahí?">How do you fit in there?</description>
 
 		<action>qbreedsnoat</action>
 		<stackable>true</stackable>
@@ -12409,7 +12405,7 @@
 
 	<!-- NEW FARMS EMPTY -->
 	<emptycowfarm>
-		<name esES="Granja de Vacas vacÃ­a">Empty Cow Barn</name>
+		<name esES="Granja de Vacas vacía">Empty Cow Barn</name>
 		<description esES="Algo oloroso">Quite smelly...</description>
 
 		<maxAge>2880</maxAge>
@@ -12420,8 +12416,8 @@
 	</emptycowfarm>
 
 	<emptybullfarm>
-		<name esES="Granja de Toros vacÃ­a">Empty Bull Barn</name>
-		<description esES="Â¡No uses tu remera roja!">Don't wear your red shirt!</description>
+		<name esES="Granja de Toros vacía">Empty Bull Barn</name>
+		<description esES="¡No uses tu remera roja!">Don't wear your red shirt!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newbullfarm</maxAgeItem>
@@ -12431,8 +12427,8 @@
 	</emptybullfarm>
 
 	<emptypigfarm>
-		<name esES="Granja de Cerdos vacÃ­a">Empty Pig Barn</name>
-		<description esES="Â¡Puaj! Este piso da asco">The floor is very dirty...</description>
+		<name esES="Granja de Cerdos vacía">Empty Pig Barn</name>
+		<description esES="¡Puaj! Este piso da asco">The floor is very dirty...</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newpigfarm</maxAgeItem>
@@ -12442,7 +12438,7 @@
 	</emptypigfarm>
 
 	<emptyboarfarm>
-		<name esES="Granja de JabalÃ­es vacÃ­a">Empty Boar Barn</name>
+		<name esES="Granja de Jabalíes vacía">Empty Boar Barn</name>
 		<description esES="Nadie ha dicho tocino...">Nobody mention Bacon...</description>
 
 		<maxAge>2880</maxAge>
@@ -12453,8 +12449,8 @@
 	</emptyboarfarm>
 
 	<emptychickenfarm>
-		<name esES="Granja de Gallinas vacÃ­a">Empty Chicken Barn</name>
-		<description esES="Â¡Blancos de tiro gratis!">Free Range!</description>
+		<name esES="Granja de Gallinas vacía">Empty Chicken Barn</name>
+		<description esES="¡Blancos de tiro gratis!">Free Range!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newchickenfarm</maxAgeItem>
@@ -12465,7 +12461,7 @@
 
 	<emptyroosterfarm>
 		<name esES="Granja de Gallos vacia">Empty Rooster Barn</name>
-		<description esES="Â¡Fabrica de despertadores medievales!">Medeival Alarm Clock factory!</description>
+		<description esES="¡Fabrica de despertadores medievales!">Medeival Alarm Clock factory!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newroosterfarm</maxAgeItem>
@@ -12475,8 +12471,8 @@
 	</emptyroosterfarm>
 
 	<emptyskootenbeetenfarm>
-		<name esES="Granja de Skootenbeetens vacÃ­a">Empty Skootenbeeten Barn</name>
-		<description esES="Â¡Cuidado con la cabeza!">Watch your head!</description>
+		<name esES="Granja de Skootenbeetens vacía">Empty Skootenbeeten Barn</name>
+		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newskootenbeetenfarm</maxAgeItem>
@@ -12486,8 +12482,8 @@
 	</emptyskootenbeetenfarm>
 
 	<emptyunifallowfarm>
-		<name esES="Granja de Unifallows VacÃ­a">Empty Unifallow Barn</name>
-		<description esES="Â¿CÃ³mo logras ver estas cosas?">How do you see things?</description>
+		<name esES="Granja de Unifallows Vacía">Empty Unifallow Barn</name>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newunifallowfarm</maxAgeItem>
@@ -12497,8 +12493,8 @@
 	</emptyunifallowfarm>
 
 	<emptybadgerfarm>
-		<name esES="Granja de Tejones vacÃ­a">Badger Barn</name>
-		<description esES="*Inserte un meme aquÃ­*">*Insert meme here*</description>
+		<name esES="Granja de Tejones vacía">Badger Barn</name>
+		<description esES="*Inserte un meme aquí*">*Insert meme here*</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newbadgerfarm</maxAgeItem>
@@ -12508,8 +12504,8 @@
 	</emptybadgerfarm>
 
 	<emptysnoatfarm>
-		<name esES="Granja de Snoats vacÃ­a">Snoat Barn</name>
-		<description esES="Â¿CÃ³mo hizo para entrar ahi?">How do you fit in there?</description>
+		<name esES="Granja de Snoats vacía">Snoat Barn</name>
+		<description esES="¿Cómo hizo para entrar ahi?">How do you fit in there?</description>
 
 		<maxAge>2880</maxAge>
 		<maxAgeItem>newsnoatfarm</maxAgeItem>
@@ -12855,7 +12851,7 @@
 	<!-- NEW GARDENS -->
 	<gardenorange>
 		<name esES="N/A">Orange Flowers Garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12873,7 +12869,7 @@
 
 	<gardenpurple>
 		<name esES="N/A">Purple Flowers Garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12891,7 +12887,7 @@
 
 	<gardengreen>
 		<name esES="N/A">Green Flowers Garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12909,7 +12905,7 @@
 
 	<gardenpink>
 		<name esES="N/A">Pink Flowers Garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12927,7 +12923,7 @@
 
 	<gardenwhite>
 		<name esES="N/A">White Flowers Garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -12945,7 +12941,7 @@
 
 	<gardenblack>
 		<name esES="N/A">Black Flowers Garden</name>
-		<description esES="JardÃ­n en miniatura">Miniature garden</description>
+		<description esES="Jardín en miniatura">Miniature garden</description>
 		<type>decorative.outdoor</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -16012,7 +16008,7 @@
 	</purple_bed_S>
 	
 	<purplethrone_E>
-		<name esES="Trono pÃºrpura">Purple throne</name>
+		<name esES="Trono púrpura">Purple throne</name>
 		<description esES="No es como el de hierro">Not unlike the iron throne</description>
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16034,7 +16030,7 @@
 	
 	<redchair_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16059,7 +16055,7 @@
 
 	<redchair_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16084,7 +16080,7 @@
 
 	<redchair_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16109,7 +16105,7 @@
 
 	<redchair_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16134,7 +16130,7 @@
 
 	<redchair_2_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16159,7 +16155,7 @@
 
 	<redchair_2_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16184,7 +16180,7 @@
 
 	<redchair_2_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16209,7 +16205,7 @@
 
 	<redchair_2_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16234,7 +16230,7 @@
 
 	<bluechair_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16259,7 +16255,7 @@
 
 	<bluechair_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16284,7 +16280,7 @@
 
 	<bluechair_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16309,7 +16305,7 @@
 
 	<bluechair_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16334,7 +16330,7 @@
 
 	<greenchair_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16359,7 +16355,7 @@
 
 	<greenchair_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16384,7 +16380,7 @@
 
 	<greenchair_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16409,7 +16405,7 @@
 
 	<greenchair_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16434,7 +16430,7 @@
 
 	<woodchair_1_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16459,7 +16455,7 @@
 
 	<woodchair_1_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16484,7 +16480,7 @@
 
 	<woodchair_1_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16509,7 +16505,7 @@
 
 	<woodchair_1_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16534,7 +16530,7 @@
 
 	<woodchair_2_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16559,7 +16555,7 @@
 
 	<woodchair_2_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16584,7 +16580,7 @@
 
 	<woodchair_2_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16609,7 +16605,7 @@
 
 	<woodchair_2_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16634,7 +16630,7 @@
 
 	<woodchair_3_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16659,7 +16655,7 @@
 
 	<woodchair_3_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16684,7 +16680,7 @@
 
 	<woodchair_3_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16709,7 +16705,7 @@
 
 	<woodchair_3_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16734,7 +16730,7 @@
 
 	<whitechair_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16759,7 +16755,7 @@
 
 	<whitechair_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16784,7 +16780,7 @@
 
 	<whitechair_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16809,7 +16805,7 @@
 
 	<whitechair_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16834,7 +16830,7 @@
 
 	<purplechair_N>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16859,7 +16855,7 @@
 
 	<purplechair_E>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16884,7 +16880,7 @@
 
 	<purplechair_S>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16909,7 +16905,7 @@
 
 	<purplechair_W>
 		<name esES="Silla de Madera">Chair</name>
-		<description esES="Es una silla, y te sientas en ella Â¡Tonto!">Its a chair, you sit on it, stupid!</description>
+		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
 		<type>cb262.furniture</type>
 		<usedToSit>true</usedToSit>
@@ -16934,7 +16930,7 @@
 	
 	<medicinecabinet_W>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
-		<description esES="AquÃ­ se guardan las pastillas">Pill's here!</description>
+		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
 		<type>cb262.furniture</type>
 		<zone>zhospital</zone>
 		<value>212</value>
@@ -16946,7 +16942,7 @@
 
 	<clock_E>
 		<name esES="Reloj">Clock</name>
-		<description esES="Los tiempos estÃ¡n cambiando...">But the times they are a changin...</description>
+		<description esES="Los tiempos están cambiando...">But the times they are a changin...</description>
 		<type>cb262.furniture</type>
 		<happiness>2</happiness>
 		<stackable>true</stackable>
@@ -17130,7 +17126,7 @@
 
 	<doorsignswords_E1>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un casco pintado en Ã©l">It has helmet painted on it</description>
+		<description esES="Tiene un casco pintado en él">It has helmet painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17149,7 +17145,7 @@
 
 	<sign_1_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una porcion de pastel pintada en Ã©l">It has slice of pie painted on it</description>
+		<description esES="Tiene una porcion de pastel pintada en él">It has slice of pie painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17168,7 +17164,7 @@
 
 	<sign_1_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una porcion de pastel pintada en Ã©l">It has slice of pie painted on it</description>
+		<description esES="Tiene una porcion de pastel pintada en él">It has slice of pie painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17187,7 +17183,7 @@
 
 	<sign_2_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un pedazo de pan pintado en Ã©l">It has loaf of bread painted on it</description>
+		<description esES="Tiene un pedazo de pan pintado en él">It has loaf of bread painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17206,7 +17202,7 @@
 
 	<sign_2_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un pedazo de pan pintado en Ã©l">It has loaf of bread painted on it</description>
+		<description esES="Tiene un pedazo de pan pintado en él">It has loaf of bread painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17225,7 +17221,7 @@
 
 	<sign_3_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene unos cubiertos pintados en Ã©l">It has cutlery painted on it</description>
+		<description esES="Tiene unos cubiertos pintados en él">It has cutlery painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17244,7 +17240,7 @@
 
 	<sign_3_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene unos cubiertos pintados en Ã©l">It has cutlery painted on it</description>
+		<description esES="Tiene unos cubiertos pintados en él">It has cutlery painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17263,7 +17259,7 @@
 
 	<sign_4_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un sombrero con plumas pintado en Ã©l">It has a feathered hat painted on it</description>
+		<description esES="Tiene un sombrero con plumas pintado en él">It has a feathered hat painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17282,7 +17278,7 @@
 
 	<sign_4_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un sombrero con plumas pintado en Ã©l">It has a feathered hat painted on it</description>
+		<description esES="Tiene un sombrero con plumas pintado en él">It has a feathered hat painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17301,7 +17297,7 @@
 
 	<sign_5_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene pintado la estatua de un hÃ©roe">It has a hero statue painted on it</description>
+		<description esES="Tiene pintado la estatua de un héroe">It has a hero statue painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17320,7 +17316,7 @@
 
 	<sign_5_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene pintado la estatua de un hÃ©roe">It has a hero statue painted on it</description>
+		<description esES="Tiene pintado la estatua de un héroe">It has a hero statue painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17339,7 +17335,7 @@
 
 	<sign_6_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un yunque pintado en Ã©l">It has an anvil painted on it</description>
+		<description esES="Tiene un yunque pintado en él">It has an anvil painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17358,7 +17354,7 @@
 
 	<sign_6_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un yunque pintado en Ã©l">It has an anvil painted on it</description>
+		<description esES="Tiene un yunque pintado en él">It has an anvil painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17377,7 +17373,7 @@
 
 	<sign_7_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un martillo pintado en Ã©l">It has a hammer and tongs painted on it</description>
+		<description esES="Tiene un martillo pintado en él">It has a hammer and tongs painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17396,7 +17392,7 @@
 
 	<sign_7_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene un martillo pintado en Ã©l">It has a hammer and tongs painted on it</description>
+		<description esES="Tiene un martillo pintado en él">It has a hammer and tongs painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17491,7 +17487,7 @@
 
 	<sign_10_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una gran caja pintada en Ã©l">It has large box painted on it</description>
+		<description esES="Tiene una gran caja pintada en él">It has large box painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17510,7 +17506,7 @@
 
 	<sign_10_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una gran caja pintada en Ã©l">It has large box painted on it</description>
+		<description esES="Tiene una gran caja pintada en él">It has large box painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17529,7 +17525,7 @@
 
 	<sign_11_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Una gran cruz roja, para seÃ±alar el hospital">It has red medical cross painted on it</description>
+		<description esES="Una gran cruz roja, para señalar el hospital">It has red medical cross painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17548,7 +17544,7 @@
 
 	<sign_11_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Una gran cruz roja, para seÃ±alar el hospital">It has red medical cross painted on it</description>
+		<description esES="Una gran cruz roja, para señalar el hospital">It has red medical cross painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17567,7 +17563,7 @@
 
 	<sign_12_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Un martillo y una piedra, tÃ­pico de un albaÃ±il">It has a hammer and stone painted on it</description>
+		<description esES="Un martillo y una piedra, típico de un albañil">It has a hammer and stone painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17586,7 +17582,7 @@
 
 	<sign_12_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Un martillo y una piedra, tÃ­pico de un albaÃ±il">It has a hammer and stone painted on it</description>
+		<description esES="Un martillo y una piedra, típico de un albañil">It has a hammer and stone painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17605,7 +17601,7 @@
 
 	<sign_13_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una olla pintada en Ã©l">It has a cooking pot painted on it</description>
+		<description esES="Tiene una olla pintada en él">It has a cooking pot painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17624,7 +17620,7 @@
 
 	<sign_13_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Tiene una olla pintada en Ã©l">It has a cooking pot painted on it</description>
+		<description esES="Tiene una olla pintada en él">It has a cooking pot painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17681,7 +17677,7 @@
 
 	<sign_15_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Esta vacÃ­o!">It has nothing painted on it</description>
+		<description esES="Esta vacío!">It has nothing painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17700,7 +17696,7 @@
 
 	<sign_15_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
-		<description esES="Esta vacÃ­o!">It has nothing painted on it</description>
+		<description esES="Esta vacío!">It has nothing painted on it</description>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17741,7 +17737,7 @@
 
 	<stonemalestatue_W>
 		<name esES="Estatua de piedra">Stone statue</name>
-		<description esES="Una estatua de piedra de un hÃ©roe legendario">A stone statue of a legendary hero looking the other way</description>
+		<description esES="Una estatua de piedra de un héroe legendario">A stone statue of a legendary hero looking the other way</description>
 		<type>cb262.decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -17777,7 +17773,7 @@
 	</necromancerstatue_E>
 
 	<gargoylestatue_E>
-		<name esES="Estatua de gÃ¡rgola">Gargoyle statue</name>
+		<name esES="Estatua de gárgola">Gargoyle statue</name>
 
 		<happiness>1</happiness>
 
@@ -17795,7 +17791,7 @@
 
 	<goldunifallowstatue_S>
 		<name esES="Estatua de unifallow de oro">Gold unifallow statue</name>
-		<description esES="Brilla demasiado! Te puedes quedar ciego mirÃ¡ndola">It's so shiny, you would go blind looking at it too long!</description>
+		<description esES="Brilla demasiado! Te puedes quedar ciego mirándola">It's so shiny, you would go blind looking at it too long!</description>
 		<type>cb262.decorative.outdoor</type>
 
 		<bury>true</bury>
@@ -17836,7 +17832,7 @@
 
 	<chimney2>
 		<name esES="Chimenea">Chimney</name>
-		<description esES="Te mantendrÃ¡ caliente">It gets you warm and fuzzy</description>
+		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
 		<type>cb262.furniture</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -17848,7 +17844,7 @@
 
 	<chimney3>
 		<name esES="Chimenea">Chimney</name>
-		<description esES="Te mantendrÃ¡ caliente">It gets you warm and fuzzy</description>
+		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
 		<type>cb262.furniture</type>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -18118,9 +18114,9 @@
 		<action>del_mosstomb3</action>
 	</mosstomb3_E>
 
-	<!--Tavern items <bench> <name esES="SillÃ³n cÃ³modo">Comfortable bench</name> <description esES="Lleva la forma de mis nalgas">It has two butt-shaped grooves in it to maximize comfort</description> <type>furniture</type> <usedToSit>true</usedToSit> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative>
-		</bench> <taverncounter> <name esES="Mostrador de taberna">Tavern counter</name> <description esES="EstÃ¡ lleno de escupitajos">Saliva included!</description> <type>furniture</type> <usedToSit>false</usedToSit> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative> </taverncounter> <barreltable>
-		<name esES="Mesa de barril">Barrel table</name> <description esES="QuÃ© poco original no?">Wow, how utterly unoriginal!</description> <type>furniture</type> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative> </barreltable> /Tavern items -->
+	<!--Tavern items <bench> <name esES="Sillón cómodo">Comfortable bench</name> <description esES="Lleva la forma de mis nalgas">It has two butt-shaped grooves in it to maximize comfort</description> <type>furniture</type> <usedToSit>true</usedToSit> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative>
+		</bench> <taverncounter> <name esES="Mostrador de taberna">Tavern counter</name> <description esES="Está lleno de escupitajos">Saliva included!</description> <type>furniture</type> <usedToSit>false</usedToSit> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative> </taverncounter> <barreltable>
+		<name esES="Mesa de barril">Barrel table</name> <description esES="Qué poco original no?">Wow, how utterly unoriginal!</description> <type>furniture</type> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative> </barreltable> /Tavern items -->
 
 	<!-- Rings -->
 	

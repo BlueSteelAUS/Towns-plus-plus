@@ -432,4 +432,9 @@
 		<minWidth>1</minWidth>
 		<minHeight>1</minHeight>
 	</efloor50>
+
+	<zjeweler>
+		<name esES="Jeweler">Jeweler</name>
+		<type>WORKSHOP</type>
+	</zjeweler>
 </zones>
