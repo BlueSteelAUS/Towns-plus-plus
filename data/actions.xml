@@ -1423,7 +1423,7 @@
 
 		<queue>
 			<pickFriendly>sheep</pickFriendly>
-			<move>newsheepfarm</move>
+			<move>newsheepfarm,emptysheepfarm</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedsheep</createFriendly>
@@ -1438,7 +1438,7 @@
 
 		<queue>
 			<pickFriendly>wildsheep</pickFriendly>
-			<move>newsheepfarm</move>
+			<move>newsheepfarm,emptysheepfarm</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedwildsheep</createFriendly>
