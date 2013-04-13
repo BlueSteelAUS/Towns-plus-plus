@@ -1,28 +1,23 @@
 [code]
 
-Changes since Towns++_v12
+Changes since Towns++_v12a
 ============================
 BlueSteel's Contributions
 =========================
--> added missing untill dirt action to terrain.xml
--> Tidy'd up items.xml for better comparing
--> changed road (75), pavement (65) walk speeds to be constant
--> re-added Beer and wine to production menu
--> re-organised food production menu
--> updated to 12A
--> added missing breed sheep to menu_production
--> changes to menu_right and menu_production
+-> fixed bed not rotating (crashing)
+-> made it so that shearing (trimming) now happens in a barn for that animal type,
+   eg: snoat in a snoat barn, sheep in a sheep barn
+       (includes the wild ones, no shed = no shearing)
+-> Changed mines to <type>mine</type> (hopefully stop monsters droppong the mines as loot)
+        
 
 LittleMikey's Contributions:
 ============================
--> New type for Graves, so they don't show up in Caravans.
--> Fixed missing action for Sheep Farms.
--> Removed duplicate items from items.xml
 
 [/code]
 
 [quote]
-Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/v12a.zip
+Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12a1.zip
 
 My Live streaming is at http://www.twitch.tv/bluesteelaus
 My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL388A502D490AE834
@@ -30,7 +25,7 @@ More videos and live streams will be done as time permits
 Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQpZc
 [/quote]
 
-[size=200][color=#0000FF]Towns++ v12a (for Towns v12a)[/color][/size]
+[size=200][color=#0000FF]Towns++ v12a1 (for Towns v12a)[/color][/size]
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
 This mod pack changes the general layout of the right menu panel and the main (bottom)
@@ -196,6 +191,25 @@ Tidy up the XML files and make them more uniformly organised for easier editing
 
 change logs
 ===========
+Changes since Towns++_v12
+============================
+BlueSteel's Contributions
+=========================
+-> added missing untill dirt action to terrain.xml
+-> Tidy'd up items.xml for better comparing
+-> changed road (75), pavement (65) walk speeds to be constant
+-> re-added Beer and wine to production menu
+-> re-organised food production menu
+-> updated to 12A
+-> added missing breed sheep to menu_production
+-> changes to menu_right and menu_production
+
+LittleMikey's Contributions:
+============================
+-> New type for Graves, so they don't show up in Caravans.
+-> Fixed missing action for Sheep Farms.
+-> Removed duplicate items from items.xml
+
 Changes since Towns++_v11a7
 ============================
 BlueSteel's Contributions
