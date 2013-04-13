@@ -640,7 +640,7 @@
 			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</flowers>
 
-		<hides name="Hides and materials" esES="Pieles y materiales" icon="ui_rhides">
+		<hides name="Hides,Feathers,Wool" esES="N/A" icon="ui_rhides">
 			<item id="qanimalhide" code="QUEUE" parameter="qanimalhide" />
 			<item id="qbadgerhide" code="QUEUE" parameter="qbadgerhide" />
 			<item id="qunifallowhide" code="QUEUE" parameter="qunifallowhide" />
@@ -1020,19 +1020,7 @@
 			<item id="qsantahat2" code="QUEUE" parameter="qsantahat2" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</clothes>
-    <rings name="Rings" esES="Rings" icon="ring_01">
-      <item id="qring_01" code="QUEUE" parameter="qring_01" />
-      <item id="qring_02" code="QUEUE" parameter="qring_02" />
-      <item id="qring_03" code="QUEUE" parameter="qring_03" />
-      <item id="qring_04" code="QUEUE" parameter="qring_04" />
-      <item id="qring_05" code="QUEUE" parameter="qring_05" />
-      <item id="qring_06" code="QUEUE" parameter="qring_06" />
-      <item id="qring_07" code="QUEUE" parameter="qring_07" />
-      <item id="qring_08" code="QUEUE" parameter="qring_08" />
-      <item id="qring_09" code="QUEUE" parameter="qring_09" />
-      <item id="qring_10" code="QUEUE" parameter="qring_10" />
-      <item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-    </rings>
+
     <necklaces name="Necklaces" esES="Necklaces" icon="necklace_01">
       <item id="qnecklace_01" code="QUEUE" parameter="qnecklace_01" />
       <item id="qnecklace_02" code="QUEUE" parameter="qnecklace_02" />
@@ -1046,6 +1034,21 @@
       <item id="qnecklace_10" code="QUEUE" parameter="qnecklace_10" />
       <item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
     </necklaces>
+
+    <rings name="Rings" esES="Rings" icon="ring_01">
+      <item id="qring_01" code="QUEUE" parameter="qring_01" />
+      <item id="qring_02" code="QUEUE" parameter="qring_02" />
+      <item id="qring_03" code="QUEUE" parameter="qring_03" />
+      <item id="qring_04" code="QUEUE" parameter="qring_04" />
+      <item id="qring_05" code="QUEUE" parameter="qring_05" />
+      <item id="qring_06" code="QUEUE" parameter="qring_06" />
+      <item id="qring_07" code="QUEUE" parameter="qring_07" />
+      <item id="qring_08" code="QUEUE" parameter="qring_08" />
+      <item id="qring_09" code="QUEUE" parameter="qring_09" />
+      <item id="qring_10" code="QUEUE" parameter="qring_10" />
+      <item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+    </rings>
+
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</vanity>
 	

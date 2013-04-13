@@ -31,6 +31,12 @@
 	</priority>
 
 	<priority>
+		<id>tilling</id>
+		<name esES="Labrar y talar">Tilling</name>
+		<icon>ui_rterrainchange</icon>
+	</priority>
+
+	<priority>
 		<id>butcheringkilling</id>
 		<name esES="Descuartizar">Butchering</name>
 		<icon>ui_rfoodbutchering</icon>
@@ -43,27 +49,15 @@
 	</priority>
 
 	<priority>
-		<id>terrainchange</id>
-		<name esES="Terraformar">Terraforming</name>
-		<icon>dirt</icon>
-	</priority>
-
-	<priority>
-		<id>tilling</id>
-		<name esES="Labrar y talar">Tilling</name>
-		<icon>ui_rterrainchange</icon>
+		<id>_FEED_</id>
+		<name esES="Alimentar">Feed</name>
+		<icon>ui_rfeed</icon>
 	</priority>
 
 	<priority>
 		<id>_BUILDINGS_</id>
 		<name esES="Edificios">Buildings</name>
 		<icon>ui_buildings</icon>
-	</priority>
-
-	<priority>
-		<id>_FEED_</id>
-		<name esES="Alimentar">Feed</name>
-		<icon>ui_rfeed</icon>
 	</priority>
 
 	<priority>
@@ -94,6 +88,12 @@
 		<id>fishing</id>
 		<name esES="Pesca">Fishing</name>
 		<icon>rawfish</icon>
+	</priority>
+
+	<priority>
+		<id>terrainchange</id>
+		<name esES="Terraformar">Terraforming</name>
+		<icon>dirt</icon>
 	</priority>
 
 	<priority>
