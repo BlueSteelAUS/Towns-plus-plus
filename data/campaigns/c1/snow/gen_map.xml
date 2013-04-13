@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gen_map>
+	<init id="init">
+		<numLevelsOutside>12</numLevelsOutside>
+		<numLevelsUnderground>20</numLevelsUnderground>
+		<mainTerrain>snow</mainTerrain>
+		<numCitizens>11</numCitizens>
+		<startingLevel>11</startingLevel>
+	</init>
+
+	<!-- 5 grass seed -->
+	<seed id="seedgrass1">
+		<type>grass1</type>
+		<num>5</num>
+		<level>12</level>
+		<turns>20</turns>
+
+		<northPCT>30</northPCT>
+		<southPCT>30</southPCT>
+		<eastPCT>30</eastPCT>
+		<westPCT>30</westPCT>
+		<upPCT>0</upPCT>
+		<downPCT>0</downPCT>
+	</seed>
+
+
+	<!-- 10 dirt seed -->
+	<seed id="seeddirt">
+		<type>dirt</type>
+		<num>10</num>
+		<level>13</level>
+		<turns>40</turns>
+
+		<northPCT>50</northPCT>
+		<southPCT>50</southPCT>
+		<eastPCT>50</eastPCT>
+		<westPCT>50</westPCT>
+		<downPCT>1</downPCT>
+	</seed>
+
+	<!-- 10 dungeon3 seeds -->
+	<seed id="seeddungeon3">
+		<type>dungeon3</type>
+		<num>10</num>
+		<level>1d2+14</level>
+		<turns>50</turns>
+
+		<northPCT>100</northPCT>
+		<southPCT>100</southPCT>
+		<eastPCT>100</eastPCT>
+		<westPCT>100</westPCT>
+		<downPCT>8</downPCT>
+	</seed>
+
+
+	<!-- 80 stone seeds -->
+	<seed id="seedstone">
+		<type>stone</type>
+		<num>120</num>
+		<turns>70</turns>
+		<level>1d3+15</level>
+
+		<northPCT>4</northPCT>
+		<southPCT>4</southPCT>
+		<eastPCT>4</eastPCT>
+		<westPCT>4</westPCT>
+		<upPCT>3</upPCT>
+		<downPCT>3</downPCT>
+	</seed>
+
+	<!-- 8 dense stone seeds -->
+	<seed id="seeddensestone">
+		<type>densestone</type>
+		<num>12</num>
+		<level>1d7+23</level>
+		<turns>20</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>1</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 8 coal seeds -->
+	<seed id="seedcoal">
+		<type>coal</type>
+		<num>12</num>
+		<level>1d7+18</level>
+		<turns>50</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 8 iron seeds -->
+	<seed id="seediron">
+		<type>iron</type>
+		<num>12</num>
+		<level>1d9+19</level>
+		<turns>50</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 8 copper seeds -->
+	<seed id="seedcopper">
+		<type>copper</type>
+		<num>12</num>
+		<level>1d9+19</level>
+		<turns>50</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 3 gold seeds , very rare -->
+	<seed id="seedgold">
+		<type>gold</type>
+		<num>5</num>
+		<level>1d6+22</level>
+		<turns>20</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>2</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- 4 silver seeds, pretty rare -->
+	<seed id="seedsilver">
+		<type>silver</type>
+		<num>6</num>
+		<level>1d6+22</level>
+		<turns>30</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>2</upPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+
+	<!-- 7 gravel seeds -->
+	<seed id="seedgravel">
+		<type>gravel</type>
+		<num>10</num>
+		<level>1d7+16</level>
+		<turns>40</turns>
+
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>5</upPCT>
+		<downPCT>3</downPCT>
+	</seed>
+
+
+	<!-- lake -->
+	<seed id="seedwater">
+		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
+		<type>_WATER_</type>
+		<num>1d2-1</num>
+		<level>12</level>
+		<turns>1d100+100</turns>
+
+		<northPCT>2d4</northPCT>
+		<southPCT>1d8</southPCT>
+		<eastPCT>2d6+2</eastPCT>
+		<westPCT>1d3+5</westPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- lake -->
+	<seed id="seedwater2">
+		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
+		<type>_WATER_INF_</type>
+		<num>1d2-1</num>
+		<level>12</level>
+		<turns>1d50+25</turns>
+
+		<northPCT>2d4</northPCT>
+		<southPCT>1d8</southPCT>
+		<eastPCT>2d6+2</eastPCT>
+		<westPCT>1d3+5</westPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- lake -->
+	<seed id="seedwater3">
+		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain -->
+		<type>_WATER_</type>
+		<num>1d2-1</num>
+		<level>12</level>
+		<turns>1d75+35</turns>
+
+		<northPCT>2d14</northPCT>
+		<southPCT>1d28</southPCT>
+		<eastPCT>2d16+2</eastPCT>
+		<westPCT>1d13+5</westPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- lake -->
+	<seed id="seedwater4">
+		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain -->
+		<type>_WATER_</type>
+		<num>1d2-1</num>
+		<level>12</level>
+		<turns>1d50+35</turns>
+
+		<northPCT>2d7+2</northPCT>
+		<southPCT>1d20</southPCT>
+		<eastPCT>1d40+1</eastPCT>
+		<westPCT>2d20</westPCT>
+		<downPCT>5</downPCT>
+	</seed>
+
+	<!-- river -->
+
+	<!-- mountain seeds -->
+	<heightSeed id="heightSeed1">
+		<num>10</num>
+		<turns>25</turns>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+	<heightSeed id="heightSeed2">
+		<num>10</num>
+		<turns>25</turns>
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+	<heightSeed id="heightSeed3">
+		<num>5</num>
+		<turns>25</turns>
+		<flatsBetweenLevels>3</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+
+
+	<!-- Change some grass tiles into sand tiles if water around -->
+	<!-- Change some grass tiles into sand tiles if water around -->
+	<change id="changesand1">
+		<source>grass</source>
+		<destination>sand</destination>
+		<terrain>_WATER_INF_</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="changesand2">
+		<source>grass</source>
+		<destination>sand</destination>
+		<terrain>_WATER_INF_</terrain>
+		<PCT>60</PCT>
+		<radius>3</radius>
+	</change>
+	<change id="changesand3">
+		<source>grass</source>
+		<destination>sand</destination>
+		<terrain>_WATER_</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="changesand4">
+		<source>grass</source>
+		<destination>sand</destination>
+		<terrain>_WATER_</terrain>
+		<PCT>60</PCT>
+		<radius>3</radius>
+	</change>
+
+	<!-- Change some grass tiles into grass tiles if voodoomagic -->
+
+	<change id="changegrassnoflower1">
+		<source>grass1</source>
+		<destination>grassnoflower1</destination>
+		<terrain>grass1</terrain>
+		<PCT>35</PCT>
+		<radius>3</radius>
+	</change>
+
+	<change id="changegrass1">
+		<source>grass1</source>
+		<destination>grass2</destination>
+		<terrain>grass1</terrain>
+		<PCT>25</PCT>
+		<radius>3</radius>
+	</change>
+
+	<change id="changegrass2">
+		<source>grass1</source>
+		<destination>grass3</destination>
+		<terrain>grass1</terrain>
+		<PCT>25</PCT>
+		<radius>3</radius>
+	</change>
+
+	<change id="changegrass3">
+		<source>grass1</source>
+		<destination>grass</destination>
+		<terrain>grass1</terrain>
+		<PCT>35</PCT>
+		<radius>3</radius>
+	</change>
+
+	<change id="changegrassnoflower2">
+		<source>grass1</source>
+		<destination>grassnoflower2</destination>
+		<terrain>grass1</terrain>
+		<PCT>25</PCT>
+		<radius>2</radius>
+	</change>
+
+	<!-- Change some jungle tiles into sand tiles if water around -->
+	<change id="changesand5">
+		<source>jungle</source>
+		<destination>sand</destination>
+		<terrain>_WATER_</terrain>
+		<PCT>70</PCT>
+		<radius>3</radius>
+	</change>
+	<change id="changesand6">
+		<source>jungle</source>
+		<destination>sand</destination>
+		<terrain>_WATER_INF_</terrain>
+		<PCT>70</PCT>
+		<radius>3</radius>
+	</change>
+
+
+	<!-- Change some grass tiles into sand tiles if sand around -->
+	<change id="changesand7">
+		<source>grass</source>
+		<destination>sand</destination>
+		<terrain>sand</terrain>
+		<PCT>50</PCT>
+	</change>
+
+	<!-- Change some sand tiles into gravel tiles if water around -->
+	<change id="changegravel">
+		<source>sand</source>
+		<destination>gravel</destination>
+		<terrain>_WATER_INF_</terrain>
+		<PCT>30</PCT>
+		<radius>2</radius>
+	</change>
+
+	<!-- Change some jungle tiles into _WATER_ tiles -->
+	<change id="changewater">
+		<source>jungle</source>
+		<destination>_WATER_1_</destination>
+		<terrain>jungle</terrain>
+		<PCT>3</PCT>
+		<radius>2</radius>
+	</change>
+
+<!-- metals and gems-->
+	<seed>
+		<type>smokyquartz</type>
+		<num>1d12</num>
+		<level>1d6+13</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>emerald</type>
+		<num>1d12</num>
+		<level>1d6+14</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>ruby</type>
+		<num>1d12</num>
+		<level>1d6+15</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>bluetopaz</type>
+		<num>1d12</num>
+		<level>1d6+16</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>yellowsapphire</type>
+		<num>1d8</num>
+		<level>1d6+17</level>
+		<turns>30</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>turquoise</type>
+		<num>1d8</num>
+		<level>1d6+18</level>
+		<turns>30</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>opal</type>
+		<num>1d8</num>
+		<level>1d6+19</level>
+		<turns>30</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>jade</type>
+		<num>1d3</num>
+		<level>1d6+20</level>
+		<turns>20</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>tanzanite</type>
+		<num>1d3</num>
+		<level>1d6+21</level>
+		<turns>20</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>diamond</type>
+		<num>1d3</num>
+		<level>1d6+22</level>
+		<turns>20</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>residuum</type>
+		<num>1d12</num>
+		<level>1d6+13</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>quantonium</type>
+		<num>1d12</num>
+		<level>1d6+14</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>oxium</type>
+		<num>1d12</num>
+		<level>1d6+15</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>onnesium</type>
+		<num>1d12</num>
+		<level>1d6+16</level>
+		<turns>40</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>dilithium</type>
+		<num>1d8</num>
+		<level>1d6+17</level>
+		<turns>30</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>viridium</type>
+		<num>1d8</num>
+		<level>1d6+18</level>
+		<turns>30</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>tarydium</type>
+		<num>1d8</num>
+		<level>1d6+19</level>
+		<turns>30</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>solarbonite</type>
+		<num>1d3</num>
+		<level>1d6+20</level>
+		<turns>20</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>zexonite</type>
+		<num>1d3</num>
+		<level>1d6+21</level>
+		<turns>20</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+	
+	<seed>
+		<type>plasteel</type>
+		<num>1d3</num>
+		<level>1d6+22</level>
+		<turns>20</turns>
+
+		<northPCT>1d3</northPCT>
+		<southPCT>1d3</southPCT>
+		<eastPCT>1d3</eastPCT>
+		<westPCT>1d3</westPCT>
+		<upPCT>1d2</upPCT>
+		<downPCT>1d2</downPCT>
+	</seed>
+
+</gen_map>
