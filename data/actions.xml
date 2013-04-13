@@ -20073,4 +20073,19 @@
 			<createItem>santatomb</createItem>
 		</queue>
 	</action>
+
+		<id>qtrimmilkedsnoat</id>
+
+		<priorityID>gathering</priorityID>
+
+		<queue>
+			<pickFriendly>milkedsnoat</pickFriendly>
+			<move>newsnoatfarm</move>
+			<wait>32</wait>
+			<unlock />
+			<createFriendly>trimmedmilkedsnoat</createFriendly>
+			<createItem>wool</createItem>
+		</queue>
+	</action>
+
 </actions>

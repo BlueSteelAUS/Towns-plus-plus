@@ -4705,4 +4705,35 @@
 		</drop>
 
 	</purpleslime>
+
+
+	<trimmedmilkedsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>milkedsnoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkedsnoat>
+
+
 </livingentities>
