@@ -19034,7 +19034,56 @@
 			 <destroyCellItem />
 			 <createItem>unearthedremains</createItem>
 		  </queue>
-	</action>
+	</action>	
+	<action>
+		  <id>del_barbariantomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">barbariantomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>barbariancorpse</createItem>
+		  </queue>
+	</action>	
+	<action>
+		  <id>del_elftomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">elftomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>elfcorpse</createItem>
+		  </queue>
+	</action>	
+	<action>
+		  <id>del_magetomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">magetomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>magecorpse</createItem>
+		  </queue>
+	</action>	
+	<action>
+		  <id>del_knighttomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">knighttomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>knightcorpse</createItem>
+		  </queue>
+	</action>	
+
 	<!-- /DELETE GRAVES -->
 	<action>
 		  <id>del_beerbarrel</id>

@@ -9736,6 +9736,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		<action>del_barbariantomb</action>
 	</barbariantomb>
 
 	<elftomb>
@@ -9754,6 +9755,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		<action>del_elftomb</action>
 	</elftomb>
 
 	<magetomb>
@@ -9772,6 +9774,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		<action>del_magetomb</action>
 	</magetomb>
 
 	<knighttomb>
@@ -9790,6 +9793,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		<action>del_knighttomb</action>
 	</knighttomb>
 
 	<highlandertomb>
