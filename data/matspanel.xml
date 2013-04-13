@@ -3,13 +3,25 @@
 	<group>
 		<name esES="Armaduras">Armors</name>
 		<icon>icon_mats_armors</icon>
-		<types>armor.iron,armor.bone,armor.spiderite,armor.direite,armor.misc,armor.ghoulite,armor.goblinite,armor.hobgoblinite,armor.ogreite,armor.snickerite,armor.wood,armor.zombite,armor,armor.gold,armor.silver,armor.special,armor.cloth</types>
+		<types>armor.iron,armor.bone,armor.spiderite,armor.direite,armor.misc,armor.ghoulite,armor.goblinite,armor.hobgoblinite,armor.ogreite,armor.snickerite,armor.wood,armor.zombite,armor,armor.gold,armor.silver,armor.special,armor.cloth,armor.residuum,armor.quantonium,armor.oxium,armor.onnesium,armor.dilithium,armor.viridium,armor.tarydium,armor.solarbonite,armor.zexonite,armor.plasteel</types>
+	</group>
+
+	<group>
+		<name esES="N/A">Gems</name>
+		<icon>icon_mats_gems</icon>
+		<types>gem.rawgem,gem.brilliant,gem.heart,gem.teardrop,gem.trillion,gem.round,gem.necklace,gem.ring</types>
 	</group>
 
 	<group>
 		<name esES="Materiales">Materials</name>
 		<icon>icon_mats_mats</icon>
 		<types>rawmaterials.materials,rawmaterials.misc,rawmaterials.heads,rawmaterials.colors,ites,rawmaterials.hides,rawmaterials</types>
+	</group>
+
+	<group>
+		<name esES="N/A">Precious Metals</name>
+		<icon>icon_mats_metals</icon>
+		<types>metal.raw,metal.ingot</types>
 	</group>
 
 	<group>
