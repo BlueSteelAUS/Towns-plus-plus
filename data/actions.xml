@@ -10329,7 +10329,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodenbed_E,woodenbed_S,woodenbed</move>
-			<replaceCellItem>woodenbed_SW</replaceCellItem>
+			<replaceCellItem>woodenbed_W</replaceCellItem>
 		</queue>
 	</action>
 
