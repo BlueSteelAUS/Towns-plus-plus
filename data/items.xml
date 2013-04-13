@@ -10992,7 +10992,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>105</foodFillPCT>
 		<foodEatTime>84</foodEatTime>
 		<happiness>50</happiness>
@@ -11009,7 +11009,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>105</foodFillPCT>
 		<foodEatTime>84</foodEatTime>
 		<happiness>50</happiness>

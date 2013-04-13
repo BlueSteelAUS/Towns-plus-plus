@@ -9,8 +9,7 @@ lib/
 *.dll
 *.exe
 *.log
-*.properties
-
+*es_ES.properties
 fontcantarell.*
 
 citizen*.png
