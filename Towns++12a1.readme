@@ -19,6 +19,9 @@ BlueSteel's Contributions
 -> Made sub menu for timber in materials production menu
 -> Moved Colors,Hides,Flowers into materials production menu
 -> other minor production menu tweaks
+-> Changed beer/wine now only requires 3 resources to brew + 1 waterbucket
+-> Changed Beer/Wine Happiness calculation (twice as happy as normal drinking)
+-> Fixed wearing hat/mask happiness similar to Kasdar's Hat Happiness Fixed
 
 LittleMikey's Contributions:
 ============================

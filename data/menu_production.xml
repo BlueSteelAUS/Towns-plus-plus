@@ -435,8 +435,6 @@
 			<item id="qjunglesalad" code="QUEUE" parameter="qjunglesalad" />
 			<item id="qjunglesalad" code="QUEUE" parameter="qjunglesalad" />
 			<item id="qjunglesalad" code="QUEUE" parameter="qjunglesalad" />
-			<item id="qgathersnowpile" code="QUEUE" parameter="qgathersnowpile" />
-			<item id="qwaterbucket" code="QUEUE" parameter="qwaterbucket" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</processing>
 	
@@ -483,6 +481,7 @@
 			<item id="qmountainstew" code="QUEUE" parameter="qmountainstew" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</cooking>
+			<item id="qwaterbucket" code="QUEUE" parameter="qwaterbucket" />
 			<item id="qbeer" code="QUEUE" parameter="qbeer" />
 			<item id="qwine" code="QUEUE" parameter="qwine" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
@@ -686,6 +685,7 @@
 		<item id="qminesilver" code="QUEUE" name="Silver" esES="Plata" parameter="qminesilver" />
 		<item id="qminegold" code="QUEUE" name="Gold" esES="Oro" parameter="qminegold" />
 		<item id="qglass" code="QUEUE" parameter="qglass" />
+		<item id="qgathersnowpile" code="QUEUE" parameter="qgathersnowpile" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</materials>
 

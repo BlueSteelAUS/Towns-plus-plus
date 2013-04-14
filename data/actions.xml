@@ -10248,11 +10248,7 @@
 			<move>beerbarrel</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick useSource="true">wheat</pick>
-			<move>beerbarrel</move>
-			<wait>20</wait>
-			<destroyItem />
-			<pick useSource="true">wheat</pick>
+			<pick>waterbucket</pick>
 			<move>beerbarrel</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10280,15 +10276,11 @@
 			<move>winebarrel</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick useSource="true">apple,pear,snowcherry,blueradish,banana,cactusfruit</pick>
-			<move>winebarrel</move>
+			<pick>waterbucket</pick>
+			<move>beerbarrel</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick useSource="true">apple,pear,snowcherry,blueradish,banana,cactusfruit</pick>
-			<move>winebarrel</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
+		<unlock />
 			<createItem>wine</createItem>
 		</queue>
 	</action>
