@@ -22,6 +22,10 @@ BlueSteel's Contributions
 -> Changed beer/wine now only requires 3 resources to brew + 1 waterbucket
 -> Changed Beer/Wine Happiness calculation (twice as happy as normal drinking)
 -> Fixed wearing hat/mask happiness similar to Kasdar's Hat Happiness Fixed
+-> reduced breeding costs to 1 resources
+-> Changed pig and boar feed and breed to apple or pear or wheat
+-> Fixed unifallow feed and breed to cactus fruit
+-> Set Snoats feed and breed to apple or pear or wheat
 
 LittleMikey's Contributions:
 ============================

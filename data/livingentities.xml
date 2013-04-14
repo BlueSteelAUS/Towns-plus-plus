@@ -1377,7 +1377,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>unifallow</maxAgeLiving>
 
-		<foodNeeded>wheat</foodNeeded>
+		<foodNeeded>cactusfruit</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 
@@ -1476,7 +1476,7 @@
 		<action>qkillpig</action>
 
 		<facingDirections>true</facingDirections>
-		<foodNeeded>wheat,apple,pear</foodNeeded>
+		<foodNeeded>apple,pear,wheat</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 
@@ -1546,7 +1546,7 @@
 		<action>qkillpig</action>
 		<facingDirections>true</facingDirections>
 
-		<foodNeeded>wheat,apple,pear</foodNeeded>
+		<foodNeeded>apple,pear,wheat</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 
@@ -1611,6 +1611,7 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		<foodNeeded>apple,pear,wheat</foodNeeded>
 	</snoat>
 
 	<skinnedsnoat>

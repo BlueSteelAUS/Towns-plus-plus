@@ -16910,10 +16910,6 @@
 			<move useSource="true">newcowfarm</move>
 			<wait>15</wait>
 			<destroyItem />
-			<pick>wheat</pick>
-			<move useSource="true">newcowfarm</move>
-			<wait>15</wait>
-			<destroyItem />
 			<replaceCellItem>emptycowfarm</replaceCellItem>
 			<createFriendly>cow</createFriendly>
 			<unlock />
@@ -16930,10 +16926,6 @@
 			<move useSource="true">newbullfarm</move>
 			<wait>15</wait>
 			<destroyItem />
-			<pick>wheat</pick>
-			<move useSource="true">newbullfarm</move>
-			<wait>15</wait>
-			<destroyItem />
 			<replaceCellItem>emptybullfarm</replaceCellItem>
 			<createFriendly>bull</createFriendly>
 			<unlock />
@@ -16946,11 +16938,7 @@
 		<generatedItem>pig</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
-			<pick>wheat</pick>
-			<move useSource="true">newpigfarm</move>
-			<wait>15</wait>
-			<destroyItem />
-			<pick>wheat</pick>
+			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newpigfarm</move>
 			<wait>15</wait>
 			<destroyItem />
@@ -16966,11 +16954,7 @@
 		<generatedItem>boar</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
-			<pick>wheat</pick>
-			<move useSource="true">newboarfarm</move>
-			<wait>15</wait>
-			<destroyItem />
-			<pick>wheat</pick>
+			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newboarfarm</move>
 			<wait>15</wait>
 			<destroyItem />
@@ -16986,10 +16970,6 @@
 		<generatedItem>chicken</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
-			<pick>wheat</pick>
-			<move useSource="true">newchickenfarm</move>
-			<wait>15</wait>
-			<destroyItem />
 			<pick>wheat</pick>
 			<move useSource="true">newchickenfarm</move>
 			<wait>15</wait>
@@ -17010,10 +16990,6 @@
 			<move useSource="true">newroosterfarm</move>
 			<wait>15</wait>
 			<destroyItem />
-			<pick>wheat</pick>
-			<move useSource="true">newroosterfarm</move>
-			<wait>15</wait>
-			<destroyItem />
 			<replaceCellItem>emptyroosterfarm</replaceCellItem>
 			<createFriendly>rooster</createFriendly>
 			<unlock />
@@ -17030,10 +17006,6 @@
 			<move useSource="true">newskootenbeetenfarm</move>
 			<wait>15</wait>
 			<destroyItem />
-			<pick>wheat</pick>
-			<move useSource="true">newskootenbeetenfarm</move>
-			<wait>15</wait>
-			<destroyItem />
 			<replaceCellItem>emptyskootenbeetenfarm</replaceCellItem>
 			<createFriendly>skootenbeeten</createFriendly>
 			<unlock />
@@ -17046,11 +17018,7 @@
 		<generatedItem>unifallow</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
-			<pick>wheat</pick>
-			<move useSource="true">newunifallowfarm</move>
-			<wait>15</wait>
-			<destroyItem />
-			<pick>wheat</pick>
+			<pick>cactusfruit</pick>
 			<move useSource="true">newunifallowfarm</move>
 			<wait>15</wait>
 			<destroyItem />
@@ -17070,10 +17038,6 @@
 			<move useSource="true">newbadgerfarm</move>
 			<wait>15</wait>
 			<destroyItem />
-			<pick>wheat</pick>
-			<move useSource="true">newbadgerfarm</move>
-			<wait>15</wait>
-			<destroyItem />
 			<replaceCellItem>emptybadgerfarm</replaceCellItem>
 			<createFriendly>badger</createFriendly>
 			<unlock />
@@ -17086,11 +17050,7 @@
 		<generatedItem>snoat</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
-			<pick>wheat</pick>
-			<move useSource="true">newsnoatfarm</move>
-			<wait>15</wait>
-			<destroyItem />
-			<pick>wheat</pick>
+			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newsnoatfarm</move>
 			<wait>15</wait>
 			<destroyItem />
@@ -17106,10 +17066,6 @@
 		<generatedItem>sheep</generatedItem>
 		<priorityID>gathering</priorityID>
 		<queue>
-			<pick>wheat</pick>
-			<move useSource="true">newsheepfarm</move>
-			<wait>15</wait>
-			<destroyItem />
 			<pick>wheat</pick>
 			<move useSource="true">newsheepfarm</move>
 			<wait>15</wait>
