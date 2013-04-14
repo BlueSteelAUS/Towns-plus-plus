@@ -12422,7 +12422,7 @@
 		<name esES="Granja de Vacas vacía">Empty Cow Barn</name>
 		<description esES="Algo oloroso">Quite smelly...</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newcowfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12433,7 +12433,7 @@
 		<name esES="Granja de Toros vacía">Empty Bull Barn</name>
 		<description esES="¡No uses tu remera roja!">Don't wear your red shirt!</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newbullfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12444,7 +12444,7 @@
 		<name esES="Granja de Cerdos vacía">Empty Pig Barn</name>
 		<description esES="¡Puaj! Este piso da asco">The floor is very dirty...</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newpigfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12455,7 +12455,7 @@
 		<name esES="Granja de Jabalíes vacía">Empty Boar Barn</name>
 		<description esES="Nadie ha dicho tocino...">Nobody mention Bacon...</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newboarfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12466,7 +12466,7 @@
 		<name esES="Granja de Gallinas vacía">Empty Chicken Barn</name>
 		<description esES="¡Blancos de tiro gratis!">Free Range!</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newchickenfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12477,7 +12477,7 @@
 		<name esES="Granja de Gallos vacia">Empty Rooster Barn</name>
 		<description esES="¡Fabrica de despertadores medievales!">Medeival Alarm Clock factory!</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newroosterfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12488,7 +12488,7 @@
 		<name esES="Granja de Skootenbeetens vacía">Empty Skootenbeeten Barn</name>
 		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newskootenbeetenfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12499,7 +12499,7 @@
 		<name esES="Granja de Unifallows Vacía">Empty Unifallow Barn</name>
 		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newunifallowfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12510,7 +12510,7 @@
 		<name esES="Granja de Tejones vacía">Badger Barn</name>
 		<description esES="*Inserte un meme aquí*">*Insert meme here*</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newbadgerfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12521,7 +12521,7 @@
 		<name esES="Granja de Snoats vacía">Snoat Barn</name>
 		<description esES="¿Cómo hizo para entrar ahi?">How do you fit in there?</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newsnoatfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12532,7 +12532,7 @@
 		<name esES="N/A">Empty Sheep Barn</name>
 		<description esES="N/A">Baa Ram Ewe</description>
 
-		<maxAge>2880</maxAge>
+		<maxAge>1440</maxAge>
 		<maxAgeItem>newsheepfarm</maxAgeItem>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
