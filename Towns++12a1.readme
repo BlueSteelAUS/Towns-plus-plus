@@ -4,43 +4,37 @@ Changes since Towns++_v12a
 ============================
 BlueSteel's Contributions
 =========================
--> Fixed bed not rotating (crashing)
 -> Made it so that shearing (trimming) now happens in a barn for that animal type,
-   eg: snoat in a snoat barn, sheep in a sheep barn
-       (includes the wild ones, no shed = no shearing)
--> Changed mines to <type>mine</type> (hopefully stop monsters droppong the mines as loot)
+   eg: snoat in a snoat barn, sheep in a sheep barn(includes the wild ones, no shed = no shearing)
+-> Changed mines to <type>mine</type> (hopefully stop monsters dropping the mines as loot)
 -> Added shearing of milked snoat (trimmedmilkedsnoat)         
 -> Scaffold is now on main menu and removed from production and right hand menu's
-   NOTE: Terraforming is Still trere
-   (Hit the red button on the right side of the main menu)
 -> Made animal farm menu in production menu;shifted breeding,butchering,animal produce into there
 -> Added more flowers into generated default maps
 -> Made sub menu for timber in materials production menu
 -> Moved Colors,Hides,Flowers into materials production menu
--> other minor production menu tweaks
 -> Changed beer/wine now only requires 2 resources to brew + 1 waterbucket
 -> Changed Beer/Wine Happiness calculation (twice as happy as normal drinking)
 -> Fixed wearing hat/mask happiness similar to Kasdar's Hat Happiness Fixed
--> reduced breeding costs to 1 resources
+-> Reduced breeding costs to 1 of the resource
 -> Changed pig and boar feed and breed to apple or pear or wheat
 -> Fixed unifallow feed and breed to cactus fruit
 -> Set Snoats feed and breed to apple or pear or wheat
 -> Added all sheep to butchercow (only till we come up with Lamb Chops)
--> revamped food submenu in production menu
--> revamped militaries submenu in production menu (combined armors and weapons by material type)
--> re-organised decorations. eg: combined indoor/furnature / oudoor .
-    because they really can be placed anywhere (except for beds)
-    which I've added as a sub menu's for in those buildings
+-> Revamped food submenu in production menu
+-> Revamped militaries submenu in production menu (combined armors and weapons by material type)
+-> Re-organised decorations. eg: combined indoor/furniture / outdoor .
 -> Also added appropriate containers to the buildings
--> Seperated decorations into furnature, plants, signs, statues/poles,  flags/banners, winteritems, lighting
+-> Separated decorations into furniture, plants, signs, statues/poles,  flags/banners, winter items, lighting
 -> Move mines and graves the main right menu because they really didn't belong where we had them anymore
-->
+-> Added Beds sub menu to Appropriate rooms
+
+   NOTE: Terraforming is Still there(Hit the red button on the right side of the main menu)
 
 LittleMikey's Contributions:
 ============================
 -> Edited main game menu
 -> Fixed errors
--> 
 
 [/code]
 [size=200][color=#FF0000]NOT a MODLOADER mod.[/color][/size]
@@ -57,8 +51,9 @@ Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12a1.zip
 
 My Live streaming is at http://www.twitch.tv/bluesteelaus
 My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL388A502D490AE834
-More videos and live streams will be done as time permits
 Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQpZc
+
+More videos and live streams will be done as time permits
 [/quote]
 
 [size=200][color=#0000FF]Towns++ v12a1 (for Towns v12a)[/color][/size]
@@ -95,7 +90,7 @@ automatically produce more animals.
 
 In order to construct the new farms you need a male and a female of the animal you want
 to farm (or two of animals with only one gender) and some wood. In order to produce
-an animal, you need two wheat. After producing an animal there will be a cooldown
+an animal, you need two wheat. After producing an animal there will be a cool down
 period identical to how long the vanilla farms took to produce a single animal.  
 
 Note: also while going through the data files I noticed that there is a hero that
@@ -120,7 +115,7 @@ menu) so keep in mind not to use ALL your mined resources or you may not be able
 another mine when your last one collapses due to lack of use.
 You have been warned...
 
-Changed the Font to use Metamorphous size 18 for easier reading (licence included in main directory) 
+Changed the Font to use Metamorphous size 18 for easier reading (license included in main directory) 
 Incorporated Cobalt262's Rotating stairs mod 
 Incorporated Cobalt262's Rotating furniture mod
 Incorporated JackPS9 Fishing hobby priority setting mod and altered the default order of the priorities
@@ -128,7 +123,7 @@ Added in Terraforming (on the bottom menu. Hit the red button on the right to sc
 
 Re-organized the menus.
 
-Changed all CREATEANDPLACEs etc to CREATEANDPLACEAREA so now you can place a
+Changed all CREATEANDPLACE etc to CREATEANDPLACEAREA so now you can place a
 group of anything down at a time.
 
 Added terrain change to other miscellaneous terrains, now you convert any terrain
@@ -147,10 +142,9 @@ Remember
 ========
 The right menu is for building and placing. 
 
-The left menu is for building and storing.(or just placing a pre-built item.
-(NOTE: Not all items can be pre-built eg: things that activate straight away like campfires)
+The left menu is for building and storing.
+NOTE: Not all items can be pre-built eg: things that activate straight away like campfires)
 The bottom menu is the action menu.
-
 
 This is a big mod (getting smaller though as the developers add more stuff into the game)
 there are a total of 21 files edited and extended, also several new files. There are so many
@@ -163,11 +157,9 @@ mods into my modpack contact the authors of that mod and get them to contact me 
 their interest / permission. Note: the mods may have to be tweaked so that they work and play
 well with what i already have.
 
-NOTES: * Waiting on Xavi to get back to me on not being able to add resources consumption in Terraforming
-        * Terraforming at the moment free. but will eventually cost resources
-        * All item placement (right menu) is now set to QUEUEANDPLACEAREA to make
-          the game more accessible to disabled people like myself, who can't easily
-          hold down keys and move the mouse at the same time.
+NOTES: All item placement (right menu) is now set to QUEUEANDPLACEAREA to make
+      the game more accessible to disabled people like myself, who can't easily
+      hold down keys and move the mouse at the same time.
 
 Permissions to include their work received from:
 ================================================
@@ -198,7 +190,7 @@ people who have contributed in the past and no longer on the Team
 =================================================================
 none as yet
 
-I am the lead coder and Owner / Distributer of this mod, so my decisions on
+I am the lead coder and Owner / Distributor of this mod, so my decisions on
 what to include and how is final. Sometimes I'll use others mods in my pack,
 these inclusions mean that I have Tweaked them to work with my mod and to try
 to keep balance in the game so that it is still difficult enough to enjoy.
@@ -215,7 +207,7 @@ Remake all my SPECIAL map generators that everyone seemed to enjoy (really big t
 Add a marketer for stuff not yet being sold
 Re-Do the Stocks menu so that it fits along with my modified menus
 Contact others about including their works
-Tidy up the XML files and make them more uniformly organised for easier editing
+Tidy up the XML files and make them more uniformly organized for easier editing
 
 change logs
 ===========
