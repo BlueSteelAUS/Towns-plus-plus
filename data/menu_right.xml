@@ -209,7 +209,7 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</buildings>
 
-	<construction name="Construction" esES="Construcción" icon="scaffold">
+	<construction name="Construction" esES="Construcción" icon="stonehammer">
 
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
 			<item id="qlogdoor" code="QUEUEANDPLACEAREA" parameter="qlogdoor" />

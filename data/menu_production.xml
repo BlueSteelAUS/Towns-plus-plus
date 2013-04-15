@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <menu>
-	<construction name="Construction" esES="Construcción" icon="scaffold">
+	<construction name="Construction" esES="Construcción" icon="stonehammer">
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
 			<item id="qlogdoor" code="QUEUE" parameter="qlogdoor" />
 			<item id="qwoodendoor" code="QUEUE" parameter="qwoodendoor" />

@@ -29,6 +29,13 @@ BlueSteel's Contributions
 -> Added all sheep to butchercow (only till we come up with Lamb Chops)
 -> revamped food submenu in production menu
 -> revamped militaries submenu in production menu (combined armors and weapons by material type)
+-> re-organised decorations. eg: combined indoor/furnature / oudoor .
+    because they really can be placed anywhere (except for beds)
+    which I've added as a sub menu's for in those buildings
+-> Also added appropriate containers to the buildings
+    
+[3:28:55 PM] bluesteelau: seperating decorations into furnature, plants, signs, statues/poles,  flags/banners, winteritems, lighting
+[3:30:37 PM] bluesteelau: this will make a space available to move mines to the main right menu because they really aren't buildings/zones
 
 LittleMikey's Contributions:
 ============================
