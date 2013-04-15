@@ -19,7 +19,7 @@
 		<item id="armor" name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
 		<item id="weapon" name="Weapons" esES="Armas" code="STOCKPILE" parameter="weapon" icon="ui_sweapon" />
 		<item id="decorative" name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
-		<item id="conctruction" name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="scaffold" />
+		<item id="conctruction" name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="stonehammer" />
 		<item name="Gems" esES="Gems" code="STOCKPILE" parameter="gem" icon="ui_sgem" />
 		<item name="Metals" esES="Gems" code="STOCKPILE" parameter="metal" icon="ui_smetal" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />

@@ -33,16 +33,17 @@ BlueSteel's Contributions
     because they really can be placed anywhere (except for beds)
     which I've added as a sub menu's for in those buildings
 -> Also added appropriate containers to the buildings
-    
-[3:28:55 PM] bluesteelau: seperating decorations into furnature, plants, signs, statues/poles,  flags/banners, winteritems, lighting
-[3:30:37 PM] bluesteelau: this will make a space available to move mines to the main right menu because they really aren't buildings/zones
+-> Seperated decorations into furnature, plants, signs, statues/poles,  flags/banners, winteritems, lighting
+-> Move mines and graves the main right menu because they really didn't belong where we had them anymore
+->
 
 LittleMikey's Contributions:
 ============================
 -> Edited main game menu
 -> Fixed errors
 -> Tweaked Graphics to make ericb1800's Metals and Gems work with Towns V12a
-
+-> Cleaned up terrain code from ericb1800's Metals and Gems
+-> 
 
 
 [/code]
