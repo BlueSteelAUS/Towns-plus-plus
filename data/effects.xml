@@ -309,7 +309,7 @@
 
 		<messageWhenVanish>false</messageWhenVanish>
 	</effect>
-	
+
 	<effect>
 		<id>lycanthropyenhanced</id>
 		<name esES="Licantropía">Lycanthropy</name>
@@ -446,7 +446,7 @@
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
-	
+
 	<effect>
 		<id>beastmask</id>
 		<name esES="Poder de la bestia">Power of the beast</name>
@@ -513,7 +513,7 @@
 		<name esES="Plagado">Plagued</name>
 
 		<icon>ef_plagued</icon>
-		
+
 		<speedPCT>70</speedPCT>
 		<castEffects>plagued</castEffects>
 		<castCooldown>1d100</castCooldown>
@@ -574,7 +574,7 @@
 		<name esES="Daño relámpago">Lightning Damage</name>
 
 		<icon>ef_lightning</icon>
-		
+
 		<DOT>1d50+300</DOT>
 		<lasts>1</lasts>
 
@@ -902,7 +902,7 @@
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
 
-	
+
 	<effect>
 		<id>slash5</id>
 		<name esES="Daño cortante">Slash damage</name>
@@ -1075,7 +1075,7 @@
 		<castEffects>daunted</castEffects>
 		<castTargets>CITIZEN,HERO</castTargets>
 		<castTrigger>NEAR_DEATH</castTrigger>
-  		<castCooldown>1d400+400</castCooldown>
+		<castCooldown>1d400+400</castCooldown>
 
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
@@ -1095,7 +1095,7 @@
 	<effect>
 		<id>dauntingresist</id>
 		<name esES="Resistencia al desaliento">Daunting resist</name>
-	
+
 		<effectsImmune>daunted</effectsImmune>
 		<lasts>1600</lasts>
 
@@ -1132,9 +1132,9 @@
 	<effect>
 		<id>explosion</id>
 		<name esES="Explosión de brote">Sprout explosion</name>
-	
+
 		<lasts>15</lasts>
-		
+
 		<DOT>250</DOT>
 		<lasts>4</lasts>
 		<graphicChange>explosivesproutexplode</graphicChange>
@@ -1180,55 +1180,51 @@
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
 
-   <effect>
-      <id>hathappy</id>
-      <name esES="sombrero de la felicidad">Hat Happiness</name>
-      <icon>ef_happy</icon>
+	<effect>
+		<id>hathappy</id>
+		<name esES="sombrero de la felicidad">Hat Happiness</name>
 
-      <happy>1</happy>
-      <lasts>1</lasts>
-      <afterEffects>hathappywait</afterEffects>
+		<happy>1</happy>
+		<lasts>1</lasts>
+		<afterEffects>hathappywait</afterEffects>
 
-      <messageWhenVanish>false</messageWhenVanish>
-      <messageWhenGain>false</messageWhenGain>
-   </effect>
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
 
-   <effect>
-      <id>hathappywait</id>
-      <name esES="sombrero de la felicidad">Hat Happiness</name>
-      <icon>ef_happy</icon>
+	<effect>
+		<id>hathappywait</id>
+		<name esES="sombrero de la felicidad">Hat Happiness</name>
 
-      <lasts>576</lasts>
-      <effectsImmune>hathappy</effectsImmune>
+		<lasts>576</lasts>
+		<effectsImmune>hathappy</effectsImmune>
 
-      <messageWhenVanish>false</messageWhenVanish>
-      <messageWhenGain>false</messageWhenGain>
-   </effect>
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
 
-   <effect>
-      <id>maskhappy</id>
-      <name esES="N/A">Mask Happiness</name>
-      <icon>ef_happy</icon>
+	<effect>
+		<id>maskhappy</id>
+		<name esES="N/A">Mask Happiness</name>
 
-      <happy>2</happy>
-      <lasts>1</lasts>
-      <afterEffects>maskhappywait</afterEffects>
+		<happy>2</happy>
+		<lasts>1</lasts>
+		<afterEffects>maskhappywait</afterEffects>
 
-      <messageWhenVanish>false</messageWhenVanish>
-      <messageWhenGain>false</messageWhenGain>
-   </effect>
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
 
-   <effect>
-      <id>maskhappywait</id>
-      <name esES="N/A">Mask Happiness</name>
-      <icon>ef_happy</icon>
+	<effect>
+		<id>maskhappywait</id>
+		<name esES="N/A">Mask Happiness</name>
 
-      <lasts>576</lasts>
-      <effectsImmune>maskhappy</effectsImmune>
+		<lasts>576</lasts>
+		<effectsImmune>maskhappy</effectsImmune>
 
-      <messageWhenVanish>false</messageWhenVanish>
-      <messageWhenGain>false</messageWhenGain>
-   </effect>
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
 
 	<effect>
 		<id>alcaholhappy</id>
@@ -1239,10 +1235,12 @@
 		<lasts>1d2</lasts>
 		<afterEffects>alcaholhappyfulfilled</afterEffects>
 
+		<speedPCT>90</speedPCT>
+		<lasts>200</lasts>
+
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
-
 
 	<effect>
 		<id>alcaholhappyfulfilled</id>
@@ -1254,5 +1252,4 @@
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
-
 </effects>
