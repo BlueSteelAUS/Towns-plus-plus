@@ -10,7 +10,6 @@ BlueSteel's Contributions
        (includes the wild ones, no shed = no shearing)
 -> Changed mines to <type>mine</type> (hopefully stop monsters droppong the mines as loot)
 -> Added shearing of milked snoat (trimmedmilkedsnoat)         
--> Incorporated ericb1800's Metals and Gems
 -> Scaffold is now on main menu and removed from production and right hand menu's
    NOTE: Terraforming is Still trere
    (Hit the red button on the right side of the main menu)
@@ -41,10 +40,7 @@ LittleMikey's Contributions:
 ============================
 -> Edited main game menu
 -> Fixed errors
--> Tweaked Graphics to make ericb1800's Metals and Gems work with Towns V12a
--> Cleaned up terrain code from ericb1800's Metals and Gems
 -> 
-
 
 [/code]
 [size=200][color=#FF0000]NOT a MODLOADER mod.[/color][/size]

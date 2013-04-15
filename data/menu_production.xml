@@ -198,8 +198,6 @@
 		<item id="qitechest" code="QUEUE" parameter="qitechest" />
 		<item id="qarmorcabinet" code="QUEUE" parameter="qarmorcabinet" />
 		<item id="qweaponcabinet" code="QUEUE" parameter="qweaponcabinet" />
-		<item id="qgemchest" code="QUEUE" parameter="qgemchest" />
-		<item id="qmetalchest" code="QUEUE" parameter="qmetalchest" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</containers>
 
@@ -229,8 +227,6 @@
 			<item id="qitechest" code="QUEUE" parameter="qitechest" />
 			<item id="qarmorcabinet" code="QUEUE" parameter="qarmorcabinet" />
 			<item id="qweaponcabinet" code="QUEUE" parameter="qweaponcabinet" />
-			<item id="qgemchest" code="QUEUEANDPLACE" parameter="qgemchest" />
-			<item id="qmetalchest" code="QUEUEANDPLACE" parameter="qmetalchest" />
 
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</containers>
@@ -534,78 +530,6 @@
 	</food>
 
 	<materials name="Materials" esES="Materiales" icon="ui_rmaterials">
-		<gems name="Gems" esES="Conservas" icon="ui_gems">
-			<roundgems name="Round Gems" esES="Conservas" icon="ui_round">
-				<item id="qsmokyquartzround" code="QUEUE" parameter="qsmokyquartzround" />
-				<item id="qemeraldround" code="QUEUE" parameter="qemeraldround" />
-				<item id="qrubyround" code="QUEUE" parameter="qrubyround" />
-				<item id="qbluetopazround" code="QUEUE" parameter="qbluetopazround" />
-				<item id="qyellowsapphireround" code="QUEUE" parameter="qyellowsapphireround" />
-				<item id="qturquoiseround" code="QUEUE" parameter="qturquoiseround" />
-				<item id="qopalround" code="QUEUE" parameter="qopalround" />
-				<item id="qjaderound" code="QUEUE" parameter="qjaderound" />
-				<item id="qtanzaniteround" code="QUEUE" parameter="qtanzaniteround" />
-				<item id="qdiamondround" code="QUEUE" parameter="qdiamondround" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</roundgems>
-
-			<teardropgems name="Teardrop Gems" esES="Conservas" icon="ui_teardrop">
-				<item id="qsmokyquartzteardrop" code="QUEUE" parameter="qsmokyquartzteardrop" />
-				<item id="qemeraldteardrop" code="QUEUE" parameter="qemeraldteardrop" />
-				<item id="qrubyteardrop" code="QUEUE" parameter="qrubyteardrop" />
-				<item id="qbluetopazteardrop" code="QUEUE" parameter="qbluetopazteardrop" />
-				<item id="qyellowsapphireteardrop" code="QUEUE" parameter="qyellowsapphireteardrop" />
-				<item id="qturquoiseteardrop" code="QUEUE" parameter="qturquoiseteardrop" />
-				<item id="qopalteardrop" code="QUEUE" parameter="qopalteardrop" />
-				<item id="qjadeteardrop" code="QUEUE" parameter="qjadeteardrop" />
-				<item id="qtanzaniteteardrop" code="QUEUE" parameter="qtanzaniteteardrop" />
-				<item id="qdiamondteardrop" code="QUEUE" parameter="qdiamondteardrop" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</teardropgems>
-
-			<trilliongems name="Trillion Gems" esES="Conservas" icon="ui_trillion">
-				<item id="qsmokyquartztrillion" code="QUEUE" parameter="qsmokyquartztrillion" />
-				<item id="qemeraldtrillion" code="QUEUE" parameter="qemeraldtrillion" />
-				<item id="qrubytrillion" code="QUEUE" parameter="qrubytrillion" />
-				<item id="qbluetopaztrillion" code="QUEUE" parameter="qbluetopaztrillion" />
-				<item id="qyellowsapphiretrillion" code="QUEUE" parameter="qyellowsapphiretrillion" />
-				<item id="qturquoisetrillion" code="QUEUE" parameter="qturquoisetrillion" />
-				<item id="qopaltrillion" code="QUEUE" parameter="qopaltrillion" />
-				<item id="qjadetrillion" code="QUEUE" parameter="qjadetrillion" />
-				<item id="qtanzanitetrillion" code="QUEUE" parameter="qtanzanitetrillion" />
-				<item id="qdiamondtrillion" code="QUEUE" parameter="qdiamondtrillion" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</trilliongems>
-
-			<heartgems name="Heart Gems" esES="Conservas" icon="ui_heart">
-				<item id="qsmokyquartzheart" code="QUEUE" parameter="qsmokyquartzheart" />
-				<item id="qemeraldheart" code="QUEUE" parameter="qemeraldheart" />
-				<item id="qrubyheart" code="QUEUE" parameter="qrubyheart" />
-				<item id="qbluetopazheart" code="QUEUE" parameter="qbluetopazheart" />
-				<item id="qyellowsapphireheart" code="QUEUE" parameter="qyellowsapphireheart" />
-				<item id="qturquoiseheart" code="QUEUE" parameter="qturquoiseheart" />
-				<item id="qopalheart" code="QUEUE" parameter="qopalheart" />
-				<item id="qjadeheart" code="QUEUE" parameter="qjadeheart" />
-				<item id="qtanzaniteheart" code="QUEUE" parameter="qtanzaniteheart" />
-				<item id="qdiamondheart" code="QUEUE" parameter="qdiamondheart" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</heartgems>
-
-			<gems name="Brilliant Gems" esES="Conservas" icon="ui_brilliant">
-				<item id="qsmokyquartzgem" code="QUEUE" parameter="qsmokyquartzgem" />
-				<item id="qemeraldgem" code="QUEUE" parameter="qemeraldgem" />
-				<item id="qrubygem" code="QUEUE" parameter="qrubygem" />
-				<item id="qbluetopazgem" code="QUEUE" parameter="qbluetopazgem" />
-				<item id="qyellowsapphiregem" code="QUEUE" parameter="qyellowsapphiregem" />
-				<item id="qturquoisegem" code="QUEUE" parameter="qturquoisegem" />
-				<item id="qopalgem" code="QUEUE" parameter="qopalgem" />
-				<item id="qjadegem" code="QUEUE" parameter="qjadegem" />
-				<item id="qtanzanitegem" code="QUEUE" parameter="qtanzanitegem" />
-				<item id="qdiamondgem" code="QUEUE" parameter="qdiamondgem" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</gems>
-			<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-		</gems>
 
 		<colors name="Colors" esES="Colores" icon="ui_rcolors">
 			<item id="qbluecolor" code="QUEUE" parameter="qbluecolor" />
@@ -640,20 +564,6 @@
 			<item id="qtrimsnoat" code="QUEUE" parameter="qtrimsnoat" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</hides>
-
-		<metals name="Precious Metals" esES="Conservas" icon="ui_metals">
-			<item id="qresiduumingot" code="QUEUE" parameter="qresiduumingot" />
-			<item id="qquantoniumingot" code="QUEUE" parameter="qquantoniumingot" />
-			<item id="qoxiumingot" code="QUEUE" parameter="qoxiumingot" />
-			<item id="qonnesiumingot" code="QUEUE" parameter="qonnesiumingot" />
-			<item id="qdilithiumingot" code="QUEUE" parameter="qdilithiumingot" />
-			<item id="qviridiumingot" code="QUEUE" parameter="qviridiumingot" />
-			<item id="qtarydiumingot" code="QUEUE" parameter="qtarydiumingot" />
-			<item id="qsolarboniteingot" code="QUEUE" parameter="qsolarboniteingot" />
-			<item id="qzexoniteingot" code="QUEUE" parameter="qzexoniteingot" />
-			<item id="qplasteelingot" code="QUEUE" parameter="qplasteelingot" />
-			<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-		</metals>
 
 		<timber name="Timbers" esES="N/A" icon="rmwood">
 			<item id="qchopplantedtree" code="QUEUE" parameter="qchopplantedtree" />
@@ -868,86 +778,6 @@
 				<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</beastly>
 
-			<residuum name="Residuum Armor" esES="Residuum Armor" icon="ui_rarmor_residuum">
-				<item id="qresiduumhelmet" code="QUEUE" parameter="qresiduumhelmet" />
-				<item id="qresiduumarmor" code="QUEUE" parameter="qresiduumarmor" />
-				<item id="qresiduumpants" code="QUEUE" parameter="qresiduumpants" />
-				<item id="qresiduumboots" code="QUEUE" parameter="qresiduumboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</residuum>
-
-			<quantonium name="Quantonium Armor" esES="Quantonium Armor" icon="ui_rarmor_quantonium">
-				<item id="qquantoniumhelmet" code="QUEUE" parameter="qquantoniumhelmet" />
-				<item id="qquantoniumarmor" code="QUEUE" parameter="qquantoniumarmor" />
-				<item id="qquantoniumpants" code="QUEUE" parameter="qquantoniumpants" />
-				<item id="qquantoniumboots" code="QUEUE" parameter="qquantoniumboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</quantonium>
-
-			<oxium name="Oxium Armor" esES="Oxium Armor" icon="ui_rarmor_oxium">
-				<item id="qoxiumhelmet" code="QUEUE" parameter="qoxiumhelmet" />
-				<item id="qoxiumarmor" code="QUEUE" parameter="qoxiumarmor" />
-				<item id="qoxiumpants" code="QUEUE" parameter="qoxiumpants" />
-				<item id="qoxiumboots" code="QUEUE" parameter="qoxiumboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</oxium>
-
-			<onnesium name="Onnesium Armor" esES="Onnesium Armor" icon="ui_rarmor_onnesium">
-				<item id="qonnesiumhelmet" code="QUEUE" parameter="qonnesiumhelmet" />
-				<item id="qonnesiumarmor" code="QUEUE" parameter="qonnesiumarmor" />
-				<item id="qonnesiumpants" code="QUEUE" parameter="qonnesiumpants" />
-				<item id="qonnesiumboots" code="QUEUE" parameter="qonnesiumboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</onnesium>
-
-			<dilithium name="Dilithium Armor" esES="Dilithium Armor" icon="ui_rarmor_dilithium">
-				<item id="qdilithiumhelmet" code="QUEUE" parameter="qdilithiumhelmet" />
-				<item id="qdilithiumarmor" code="QUEUE" parameter="qdilithiumarmor" />
-				<item id="qdilithiumpants" code="QUEUE" parameter="qdilithiumpants" />
-				<item id="qdilithiumboots" code="QUEUE" parameter="qdilithiumboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</dilithium>
-
-			<viridium name="Viridium Armor" esES="Viridium Armor" icon="ui_rarmor_viridium">
-				<item id="qviridiumhelmet" code="QUEUE" parameter="qviridiumhelmet" />
-				<item id="qviridiumarmor" code="QUEUE" parameter="qviridiumarmor" />
-				<item id="qviridiumpants" code="QUEUE" parameter="qviridiumpants" />
-				<item id="qviridiumboots" code="QUEUE" parameter="qviridiumboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</viridium>
-
-			<tarydium name="Tarydium Armor" esES="Tarydium Armor" icon="ui_rarmor_tarydium">
-				<item id="qtarydiumhelmet" code="QUEUE" parameter="qtarydiumhelmet" />
-				<item id="qtarydiumarmor" code="QUEUE" parameter="qtarydiumarmor" />
-				<item id="qtarydiumpants" code="QUEUE" parameter="qtarydiumpants" />
-				<item id="qtarydiumboots" code="QUEUE" parameter="qtarydiumboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</tarydium>
-
-			<solarbonite name="Solarbonite Armor" esES="Solarbonite Armor" icon="ui_rarmor_solarbonite">
-				<item id="qsolarbonitehelmet" code="QUEUE" parameter="qsolarbonitehelmet" />
-				<item id="qsolarbonitearmor" code="QUEUE" parameter="qsolarbonitearmor" />
-				<item id="qsolarbonitepants" code="QUEUE" parameter="qsolarbonitepants" />
-				<item id="qsolarboniteboots" code="QUEUE" parameter="qsolarboniteboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</solarbonite>
-
-			<zexonite name="Zexonite Armor" esES="Zexonite Armor" icon="ui_rarmor_zexonite">
-				<item id="qzexonitehelmet" code="QUEUE" parameter="qzexonitehelmet" />
-				<item id="qzexonitearmor" code="QUEUE" parameter="qzexonitearmor" />
-				<item id="qzexonitepants" code="QUEUE" parameter="qzexonitepants" />
-				<item id="qzexoniteboots" code="QUEUE" parameter="qzexoniteboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</zexonite>
-
-			<plasteel name="Plasteel Armor" esES="Plasteel Armor" icon="ui_rarmor_plasteel">
-				<item id="qplasteelhelmet" code="QUEUE" parameter="qplasteelhelmet" />
-				<item id="qplasteelarmor" code="QUEUE" parameter="qplasteelarmor" />
-				<item id="qplasteelpants" code="QUEUE" parameter="qplasteelpants" />
-				<item id="qplasteelboots" code="QUEUE" parameter="qplasteelboots" />
-				<item name="Back" esES="AtrÃ¡s" code="BACK" icon="ui_back" />
-			</plasteel>
-
 		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</militaries>
 
@@ -1036,33 +866,6 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</clothes>
 
-		<necklaces name="Necklaces" esES="Necklaces" icon="necklace_01">
-			<item id="qnecklace_01" code="QUEUE" parameter="qnecklace_01" />
-			<item id="qnecklace_02" code="QUEUE" parameter="qnecklace_02" />
-			<item id="qnecklace_03" code="QUEUE" parameter="qnecklace_03" />
-			<item id="qnecklace_04" code="QUEUE" parameter="qnecklace_04" />
-			<item id="qnecklace_05" code="QUEUE" parameter="qnecklace_05" />
-			<item id="qnecklace_06" code="QUEUE" parameter="qnecklace_06" />
-			<item id="qnecklace_07" code="QUEUE" parameter="qnecklace_07" />
-			<item id="qnecklace_08" code="QUEUE" parameter="qnecklace_08" />
-			<item id="qnecklace_09" code="QUEUE" parameter="qnecklace_09" />
-			<item id="qnecklace_10" code="QUEUE" parameter="qnecklace_10" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</necklaces>
-
-		<rings name="Rings" esES="Rings" icon="ring_01">
-			<item id="qring_01" code="QUEUE" parameter="qring_01" />
-			<item id="qring_02" code="QUEUE" parameter="qring_02" />
-			<item id="qring_03" code="QUEUE" parameter="qring_03" />
-			<item id="qring_04" code="QUEUE" parameter="qring_04" />
-			<item id="qring_05" code="QUEUE" parameter="qring_05" />
-			<item id="qring_06" code="QUEUE" parameter="qring_06" />
-			<item id="qring_07" code="QUEUE" parameter="qring_07" />
-			<item id="qring_08" code="QUEUE" parameter="qring_08" />
-			<item id="qring_09" code="QUEUE" parameter="qring_09" />
-			<item id="qring_10" code="QUEUE" parameter="qring_10" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</rings>
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</vanity>
 

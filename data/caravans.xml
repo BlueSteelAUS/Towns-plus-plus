@@ -415,25 +415,4 @@
 		</item>
 	</boat>
 
-	<metalgem>
-		<zone>zmarket</zone>
-		<pricePCT>100</pricePCT>
-		<coins>1d10000+10000</coins>
-		<buys>metal.ingot,gem.brilliant,gem.heart,gem.trillion,gem.teardrop,gem.round,gem.necklace,gem.ring</buys>
-		<comePCT>100</comePCT>
-
-		<item>
-			<type>metal.raw</type>
-			<PCT>100</PCT>
-			<quantity>1d20+20</quantity>
-		</item>
-		<item>
-			<type>gem.rawgem</type>
-			<PCT>100</PCT>
-			<quantity>1d10+20</quantity>
-		</item>
-	</metalgem>
-
-
-
 </caravans>

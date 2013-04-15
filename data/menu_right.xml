@@ -85,7 +85,6 @@
 			<item id="qitesmithy" code="QUEUEANDPLACEAREA" parameter="qitesmithy" />
 
 			<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
-			<item id="qmetalchest" code="QUEUEANDPLACE" parameter="qmetalchest" />
 			<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
 			<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
 
@@ -194,17 +193,6 @@
 			<item id="qmarkettent_b" code="QUEUEANDPLACEAREA" parameter="qmarkettent_b" icon="markettent_b"/>
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</bmarket>
-
-		<jewler name="Jewler" esES="N/A" description="Make Sparkling baubles and trinkets here" icon="ui_jeweler">
-			<item id="zjewler" code="CREATEZONE" esES="N/A" name="Create Jewler Area" parameter="zjweler" icon="ui_jeweler" />
-			<item id="qgembench" code="QUEUEANDPLACEAREA" parameter="qgembench" />
-
-			<item id="qgemchest" code="QUEUEANDPLACE" parameter="qgemchest" />
-			<item id="qmetalchest" code="QUEUEANDPLACE" parameter="qmetalchest" />
-			<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
-
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</jewler>
 
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</buildings>
@@ -541,8 +529,6 @@
 			<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
 			<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
 			<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
-			<item id="qgemchest" code="QUEUEANDPLACE" parameter="qgemchest" />
-			<item id="qmetalchest" code="QUEUEANDPLACE" parameter="qmetalchest" />
 
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</containers>

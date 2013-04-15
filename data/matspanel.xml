@@ -7,21 +7,9 @@
 	</group>
 
 	<group>
-		<name esES="N/A">Gems</name>
-		<icon>icon_mats_gems</icon>
-		<types>gem.rawgem,gem.brilliant,gem.heart,gem.teardrop,gem.trillion,gem.round,gem.necklace,gem.ring</types>
-	</group>
-
-	<group>
 		<name esES="Materiales">Materials</name>
 		<icon>icon_mats_mats</icon>
 		<types>rawmaterials.materials,rawmaterials.misc,rawmaterials.heads,rawmaterials.colors,ites,rawmaterials.hides,rawmaterials</types>
-	</group>
-
-	<group>
-		<name esES="N/A">Precious Metals</name>
-		<icon>icon_mats_metals</icon>
-		<types>metal.raw,metal.ingot</types>
 	</group>
 
 	<group>
