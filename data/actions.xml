@@ -1453,7 +1453,7 @@
 
 		<queue>
 			<pickFriendly>snoat</pickFriendly>
-			<move>newsnoatfarm</move>
+			<move>newsnoatfarm,emptysnoatfarm</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedsnoat</createFriendly>
@@ -1494,7 +1494,7 @@
 		<priorityID>gathering</priorityID>
 
 		<queue>
-			<pickFriendly>snoat</pickFriendly>
+			<pickFriendly>snoat,skinnedsnoat</pickFriendly>
 			<wait>32</wait>
 			<createFriendly>milkedsnoat</createFriendly>
 			<createItem>milk</createItem>
@@ -2473,7 +2473,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>cow,bull,milkedcow,wildcow,milkedwildcow,snoat,milkedsnoat,reindeer,doe</pickFriendly>
+			<pickFriendly>cow,bull,milkedcow,wildcow,milkedwildcow,snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,milkedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat,reindeer,doe</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2627,7 +2627,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>snoat</pickFriendly>
+			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,milkedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -16856,7 +16856,7 @@
 		<name esES="Granja de Snoats">Snoat Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly>snoat</pickFriendly>
+			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,skinnedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pickFriendly>snoat</pickFriendly>
@@ -16876,10 +16876,10 @@
 		<name esES="N/A">Sheep Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly>sheep,wildsheep</pickFriendly>
+			<pickFriendly>sheep,skinnedsheep,skinnedwildsheep,wildsheep</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
-			<pickFriendly>sheep,wildsheep</pickFriendly>
+			<pickFriendly>sheep,skinnedsheep,skinnedwildsheep,wildsheep</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pick>rmwood</pick>
@@ -20062,9 +20062,9 @@
 			<createItem>santatomb</createItem>
 		</queue>
 	</action>
-
+<!--
 	<action>
-		<id>qtrimmilkedsnoat</id>
+		<id>qtrimmilkedwildsnoat</id>
 
 		<priorityID>gathering</priorityID>
 
@@ -20073,7 +20073,52 @@
 			<move>newsnoatfarm</move>
 			<wait>32</wait>
 			<unlock />
-			<createFriendly>trimmedmilkedsnoat</createFriendly>
+			<createFriendly>skinnedmilkedwildsnoat</createFriendly>
+			<createItem>wool</createItem>
+		</queue>
+	</action>
+-->
+	<action>
+		<id>qtrimmilkedwildsnoat</id>
+
+		<priorityID>gathering</priorityID>
+
+		<queue>
+			<pickFriendly>milkedwildsnoat</pickFriendly>
+			<move>newsnoatfarm</move>
+			<wait>32</wait>
+			<unlock />
+			<createFriendly>skinnedmilkedwildsnoat</createFriendly>
+			<createItem>wool</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qtrimshoat</id>
+
+		<priorityID>gathering</priorityID>
+
+		<queue>
+			<pickFriendly>snoat</pickFriendly>
+			<move>newsnoatfarm,emptysnoatfarm</move>
+			<wait>32</wait>
+			<unlock />
+			<createFriendly>skinnedsnoat</createFriendly>
+			<createItem>wool</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qtrimwildsnoat</id>
+
+		<priorityID>gathering</priorityID>
+
+		<queue>
+			<pickFriendly>wildsnoat</pickFriendly>
+			<move>newsnoatfarm,emptysnoatfarm</move>
+			<wait>32</wait>
+			<unlock />
+			<createFriendly>skinnedwildsnoat</createFriendly>
 			<createItem>wool</createItem>
 		</queue>
 	</action>

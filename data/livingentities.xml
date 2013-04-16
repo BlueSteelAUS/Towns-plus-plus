@@ -4708,7 +4708,7 @@
 	</purpleslime>
 
 
-	<trimmedmilkedsnoat>
+	<skinnedmilkedsnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
 		<name>Snoat</name>
@@ -4734,6 +4734,197 @@
 			<PCT>70</PCT>
 		</drop>
 
-	</trimmedmilkedsnoat>
+	</skinnedmilkedsnoat>
+
+	<wildsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillsnoat</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		<foodNeeded>apple,pear,wheat</foodNeeded>
+	</wildsnoat>
+
+	<skinnedmilkedsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>milkedsnoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</skinnedmilkedsnoat>
+
+	<skinnedsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Snoat trasquilado">Skinned snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>snoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</skinnedsnoat>
+
+	<milkedsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>snoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkedsnoat>
+
+	<skinnedmilkedwildsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>milkedsnoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</skinnedmilkedwildsnoat>
+
+	<skinnedwildsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Snoat trasquilado">Skinned wild snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>snoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+	</skinnedwildsnoat>
+
+	<milkedwildsnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Wild snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>snoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillsnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+	</milkedwildsnoat>
 
 </livingentities>
