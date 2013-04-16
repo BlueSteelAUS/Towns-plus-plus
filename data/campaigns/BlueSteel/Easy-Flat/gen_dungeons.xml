@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gen_dungeons>
+	<dungeon id="3">
+		<level>3</level>
+		<type>__CAVE__</type>
+
+		<monster>
+			<id>__RANDOM__</id>
+			<number>1d150+575</number>
+			<levelMin>1</levelMin>
+			<levelMax>1</levelMax>
+		</monster>
+		<monster>
+			<id>giantspider</id>
+			<number>1d50+125</number>
+		</monster>
+		<monster>
+			<id>spiderqueen</id>
+			<number>1</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="5">
+		<level>5</level>
+		<type>__ROOMS__</type>
+		<monster>
+			<id>__RANDOM__</id>
+			<number>800</number>
+			<levelMin>1</levelMin>
+			<levelMax>2</levelMax>
+		</monster>
+		<monster>
+			<id>nusepthegoblinking</id>
+			<number>1</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="7">
+		<level>7</level>
+		<type>__ROOMS__</type>
+
+		<monster>
+			<id>__RANDOM__</id>
+			<number>800</number>
+			<levelMin>2</levelMin>
+			<levelMax>3</levelMax>
+		</monster>
+
+		<monster>
+			<id>draukthehobgoblinking</id>
+			<number>1</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="9">
+		<level>9</level>
+		<type>__CAVE__</type>
+
+		<monster>
+			<id>__RANDOM__</id>
+			<number>800</number>
+			<levelMin>1</levelMin>
+			<levelMax>4</levelMax>
+		</monster>
+		<monster>
+			<id>sikuthewolf</id>
+			<number>1</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="11">
+		<level>11</level>
+		<type>__RANDOM__</type>
+		<monster>
+			<id>__RANDOM__</id>
+			<number>800</number>
+			<levelMin>2</levelMin>
+			<levelMax>5</levelMax>
+		</monster>
+		<monster>
+			<id>nexythesnickeredge</id>
+			<number>1</number>
+		</monster>
+		<monster>
+			<id>cavetroll</id>
+			<number>2d2</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="13">
+		<level>13</level>
+		<type>__ROOMS__</type>
+
+		<monster>
+			<id>__RANDOM__</id>
+			<number>800</number>
+			<levelMin>3</levelMin>
+			<levelMax>6</levelMax>
+		</monster>
+		<monster>
+			<id>toponovichthezombie</id>
+			<number>1</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="15">
+		<level>15</level>
+		<type>__ROOMS__</type>
+		<monster>
+			<id>__RANDOM__</id>
+			<number>800</number>
+			<levelMin>2</levelMin>
+			<levelMax>8</levelMax>
+		</monster>
+		<monster>
+			<id>gaskonetheghoul</id>
+			<number>1</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="17">
+		<level>17</level>
+		<type>__RANDOM__</type>
+		<monster>
+			<id>__RANDOM__</id>
+			<number>800</number>
+			<levelMin>3</levelMin>
+			<levelMax>9</levelMax>
+		</monster>
+		<monster>
+			<id>humethealmightyogre</id>
+			<number>1</number>
+		</monster>
+	</dungeon>
+
+	<dungeon id="19">
+		<level>19</level>
+		<type>__ROOMS__</type>
+		<monster>
+			<id>__RANDOM__</id>
+			<number>30d10+500</number>
+			<levelMin>3</levelMin>
+			<levelMax>9</levelMax>
+		</monster>
+		<monster>
+			<id>irongolem</id>
+			<number>2d5</number>
+		</monster>
+		<monster>
+			<id>sneakyghoul</id>
+			<number>1d30+100</number>
+		</monster>
+		<monster>
+			<id>ogre</id>
+			<number>1d20+10</number>
+		</monster>
+		<monster>
+			<id>lustyogre</id>
+			<number>1d20+10</number>
+		</monster>
+		<monster>
+			<id>toponovichthezombie</id>
+			<number>1d5</number>
+		</monster>
+		<monster>
+			<id>gaskonetheghoul</id>
+			<number>1d5</number>
+		</monster>
+		<monster>
+			<id>nexythesnickeredge</id>
+			<number>1d5</number>
+		</monster>
+		<monster>
+			<id>theburningpet</id>
+			<number>1d5</number>
+		</monster>
+	</dungeon>
+</gen_dungeons>

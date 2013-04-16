@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gen_map>
+	<init id="init">
+		<numLevelsOutside>20</numLevelsOutside>
+		<numLevelsUnderground>20</numLevelsUnderground>
+		<mainTerrain>grass,dirt,stone,dungeon3</mainTerrain>
+		<numCitizens>11</numCitizens>
+		<startingLevel>19</startingLevel> <!-- level that Cits start on -->
+	</init>
+	<!-- Ocean seed-->
+<!--	<seed id="ocean">
+		<type>lavadirt</type>
+		<num>1d2-1</num>
+		<level>20</level>
+		<pointx>100</pointx>
+		<pointy>100</pointy>
+		<turns>210</turns>
+		<northPCT>100</northPCT>
+		<southPCT>100</southPCT>
+		<eastPCT>100</eastPCT>
+		<westPCT>100</westPCT>
+		<upPCT>0</upPCT>
+		<downPCT>100</downPCT>
+	</seed>
+-->
+	<seed id="largeisland">
+		<type>dirt</type>
+		<num>1d2-1</num>
+		<level>20</level>
+		<turns>20d30-1</turns>
+		<northPCT>10d10</northPCT>
+		<southPCT>10d10</southPCT>
+		<eastPCT>10d10</eastPCT>
+		<westPCT>10d10</westPCT>
+		<upPCT>0</upPCT>
+		<downPCT>100</downPCT>
+	</seed>
+	<!-- Medium Island seeds -->
+	<seed id="mediumislands">
+		<type>dirt</type>
+		<num>1d5-1</num>
+		<level>20</level>
+		<turns>5d30-1</turns>
+		<northPCT>10d10</northPCT>
+		<southPCT>10d10</southPCT>
+		<eastPCT>10d10</eastPCT>
+		<westPCT>10d10</westPCT>
+		<upPCT>0</upPCT>
+		<downPCT>100</downPCT>
+	</seed>
+	<!-- lake -->
+<!--	<seed id="seedwater">
+		<type>lavarock</type>
+		<num>1d8-1</num>
+		<level>20</level>
+		<turns>1d50+75</turns>
+		<northPCT>2d7+2</northPCT>
+		<southPCT>1d20</southPCT>
+		<eastPCT>1d40+1</eastPCT>
+		<westPCT>2d20</westPCT>
+		<downPCT>5</downPCT>
+	</seed>
+	<bezier id="bezierwater">
+		<type>lavarock</type>
+		<level>20</level>
+		<depth>1d2+1</depth>
+		<wide>1d6+5</wide>
+		<point1_x_min>0</point1_x_min>
+		<point1_x_max>200</point1_x_max>
+		<point1_y_min>-200</point1_y_min>
+		<point1_y_max>-100</point1_y_max>
+		<point2_x_min>0</point2_x_min>
+		<point2_x_max>200</point2_x_max>
+		<point2_y_min>300</point2_y_min>
+		<point2_y_max>400</point2_y_max>
+		<controlpoint1_x_min>-200</controlpoint1_x_min>
+		<controlpoint1_x_max>0</controlpoint1_x_max>
+		<controlpoint1_y_min>200</controlpoint1_y_min>
+		<controlpoint1_y_max>200</controlpoint1_y_max>
+		<controlpoint2_x_min>200</controlpoint2_x_min>
+		<controlpoint2_x_max>400</controlpoint2_x_max>
+		<controlpoint2_y_min>0</controlpoint2_y_min>
+		<controlpoint2_y_max>0</controlpoint2_y_max>
+	</bezier>
+-->
+	<!-- 10 dungeon3 seeds -->
+	<seed id="seeddungeon3">
+		<type>dungeon3</type>
+		<num>8</num>
+		<level>1d2+21</level>
+		<turns>50</turns>
+		<northPCT>95</northPCT>
+		<southPCT>95</southPCT>
+		<eastPCT>95</eastPCT>
+		<westPCT>95</westPCT>
+		<downPCT>7</downPCT>
+	</seed>
+	<!-- 8 gravel seeds -->
+	<seed> id="gravel">
+		<type>gravel</type>
+		<num>8</num>
+		<level>1d6+23</level>
+		<turns>40</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>5</upPCT>
+		<downPCT>3</downPCT>
+	</seed>
+	<!-- 8 coal seeds -->
+	<seed id="coal">
+		<type>coal</type>
+		<num>8</num>
+		<level>1d6+24</level>
+		<turns>50</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>3</upPCT>
+		<downPCT>6</downPCT>
+	</seed>
+	<!-- 8 copper seeds -->
+	<seed id="copper">
+		<type>copper</type>
+		<num>8</num>
+		<level>1d6+25</level>
+		<turns>50</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>3</upPCT>
+		<downPCT>6</downPCT>
+	</seed>
+	<!-- 8 iron seeds -->
+	<seed id="iron">
+		<type>iron</type>
+		<num>8</num>
+		<level>1d6+26</level>
+		<turns>50</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>3</upPCT>
+		<downPCT>6</downPCT>
+	</seed>
+	<!-- 8 dense stone seeds -->
+	<seed id="densestone">
+		<type>densestone</type>
+		<num>8</num>
+		<level>1d6+27</level>
+		<turns>20</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>3</upPCT>
+		<downPCT>6</downPCT>
+	</seed>
+	<!-- 4 silver seeds, pretty rare -->
+	<seed id="silver">
+		<type>silver</type>
+		<num>4</num>
+		<level>1d6+28</level>
+		<turns>30</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>3</upPCT>
+		<downPCT>6</downPCT>
+	</seed>
+	<!-- 3 gold seeds , very rare -->
+	<seed id="gold">
+		<type>gold</type>
+		<num>3</num>
+		<level>1d6+29</level>
+		<turns>20</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
+		<upPCT>3</upPCT>
+		<downPCT>6</downPCT>
+	</seed>
+	<!-- up to 2 mountain -->
+	<seed id="mountians">
+		<type>dirt</type>
+		<num>1d3-1</num>
+		<level>20</level>
+		<turns>20d30-1</turns>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>1d5+7</northPCT>
+		<southPCT>1d5+7</southPCT>
+		<eastPCT>1d5+7</eastPCT>
+		<westPCT>1d5+7</westPCT>
+		<upPCT>20</upPCT>
+		<downPCT>100</downPCT>
+	</seed>
+	<!-- up to 6 HILLS -->
+	<seed id="hills">
+		<type>dirt</type>
+		<num>1d7-1</num>
+		<level>20</level>
+		<turns>10d5</turns>
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+		<northPCT>9d5</northPCT>
+		<southPCT>9d5</southPCT>
+		<eastPCT>9d5</eastPCT>
+		<westPCT>9d5</westPCT>
+		<upPCT>4</upPCT>
+		<downPCT>100</downPCT>
+	</seed>
+	<!-- up to 14 platoes -->
+	<seed id="platoes">
+		<type>dirt</type>
+		<num>1d15-1</num>
+		<level>20</level>
+		<turns>30</turns>
+		<flatsBetweenLevels>3</flatsBetweenLevels>
+		<northPCT>2d25-1</northPCT>
+		<southPCT>2d25-1</southPCT>
+		<eastPCT>2d25-1</eastPCT>
+		<westPCT>2d25-1</westPCT>
+		<upPCT>2</upPCT>
+		<downPCT>100</downPCT>
+	</seed>
+	<!-- put snow on mountian if tall enough-->
+	<change id="snowcaptop">
+		<source>dirt</source>
+		<destination>snow</destination>
+		<heightMin>1</heightMin>
+		<heightMax>5</heightMax>
+		<PCT>100</PCT>
+	</change>
+	<change id="snowcap1">
+		<source>dirt</source>
+		<destination>snow</destination>
+		<heightMin>6</heightMin>
+		<heightMax>7</heightMax>
+		<PCT>90</PCT>
+	</change>
+	<change id="snowcap2">
+		<source>dirt</source>
+		<destination>snow</destination>
+		<heightMin>8</heightMin>
+		<heightMax>9</heightMax>
+		<PCT>60</PCT>
+	</change>
+	<change id="snowcap3">
+		<source>dirt</source>
+		<destination>snow</destination>
+		<heightMin>10</heightMin>
+		<heightMax>11</heightMax>
+		<PCT>30</PCT>
+	</change>
+	<!-- put grass on mountian -->
+	<change id="lowermountian">
+		<source>dirt</source>
+		<destination>grass</destination>
+		<heightMin>12</heightMin>
+		<heightMax>19</heightMax>
+		<PCT>100</PCT>
+	</change>
+	<change id="lavarockgrassgravel">
+		<source>lavarock</source>
+		<destination>grass</destination>
+		<terrain>gravel</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavarockgrasscoal">
+		<source>lavarock</source>
+		<destination>grass</destination>
+		<terrain>coal</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavarockstoneiron">
+		<source>lavarock</source>
+		<destination>stone</destination>
+		<terrain>iron</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavarockstonecopper">
+		<source>lavarock</source>
+		<destination>stone</destination>
+		<terrain>copper</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavarockstonesilver">
+		<source>lavarock</source>
+		<destination>stone</destination>
+		<terrain>silver</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavarockstonegold">
+		<source>lavarock</source>
+		<destination>stone</destination>
+		<terrain>gold</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavadirtgrassgravel">
+		<source>lavadirt</source>
+		<destination>grass</destination>
+		<terrain>gravel</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavadirtgrasscoal">
+		<source>lavadirt</source>
+		<destination>grass</destination>
+		<terrain>coal</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavadirtstoneiron">
+		<source>lavadirt</source>
+		<destination>stone</destination>
+		<terrain>iron</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavadirtstonecopper">
+		<source>lavadirt</source>
+		<destination>stone</destination>
+		<terrain>copper</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavadirtstonesilver">
+		<source>lavadirt</source>
+		<destination>stone</destination>
+		<terrain>silver</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<change id="lavadirtstonegold">
+		<source>lavadirt</source>
+		<destination>stone</destination>
+		<terrain>gold</terrain>
+		<PCT>99</PCT>
+		<radius>2</radius>
+	</change>
+	<!-- Add forests near river and lakes edge NOT the ocean-->
+	<change id="dirtjunglelavarock">
+		<source>dirt</source>
+		<destination>jungle</destination>
+		<terrain>lavarock</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>99</PCT>
+		<radius>3</radius>
+	</change>
+	<change id="grassjunglelavarock">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>lavarock</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>99</PCT>
+		<radius>3</radius>
+	</change>
+	<change id="stonejunglelavarock">
+		<source>stone</source>
+		<destination>jungle</destination>
+		<terrain>lavarock</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>99</PCT>
+		<radius>3</radius>
+	</change>
+	<!-- put grass on land -->
+	<change id="dirtgrass">
+		<source>dirt</source>
+		<destination>grass</destination>
+		<heightMin>12</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>100</PCT>
+	</change>
+	<!-- add river banks 1 wide -->
+	<change id="lavarockdirtjungle">
+		<source>lavarock</source>
+		<destination>dirt</destination>
+		<terrain>jungle</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="lavarockdirtgrass">
+		<source>lavarock</source>
+		<destination>dirt</destination>
+		<terrain>grass</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="lavarockdirtstone">
+		<source>lavarock</source>
+		<destination>dirt</destination>
+		<terrain>stone</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+
+	<!-- Add beaches to the ocean -->
+	<change id="lavadirtsandgrass">
+		<source>lavadirt</source>
+		<destination>sand</destination>
+		<terrain>grass</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="lavadirtsandstone">
+		<source>lavadirt</source>
+		<destination>sand</destination>
+		<terrain>stone</terrain>
+		<heightMin>19</heightMin>
+		<heightMax>20</heightMax>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<!-- make grass grow on islands -->
+	<change id="dirtgrass">
+		<source>dirt</source>
+		<destination>grass</destination>
+		<PCT>100</PCT>
+		<heightMin>20</heightMin>
+		<heightMax>21</heightMax>
+		<radius>1</radius>
+	</change>
+	<!-- Change some grass tiles into grass1-3 tiles -->
+	<change id="grassgrass1grass">
+		<source>grass</source>
+		<destination>grass1</destination>
+		<terrain>grass</terrain>
+		<PCT>25</PCT>
+		<radius>10</radius>
+	</change>
+	<change id="grassgrass2grass">
+		<source>grass</source>
+		<destination>grass2</destination>
+		<terrain>grass</terrain>
+		<PCT>25</PCT>
+		<radius>10</radius>
+	</change>
+	<change id="grassgrass3grass">
+		<source>grass</source>
+		<destination>grass3</destination>
+		<terrain>grass</terrain>
+		<PCT>25</PCT>
+		<radius>10</radius>
+	</change>
+	<!-- Change some grass1-3 tiles into grassnoflower-2 tiles -->
+	<change id="grass1grassnoflowergrass1">
+		<source>grass1</source>
+		<destination>grassnoflower</destination>
+		<terrain>grass1</terrain>
+		<PCT>50</PCT>
+		<radius>10</radius>
+	</change>
+	<change id="grass2grassnoflower1grass2">
+		<source>grass2</source>
+		<destination>grassnoflower1</destination>
+		<terrain>grass2</terrain>
+		<PCT>50</PCT>
+		<radius>10</radius>
+	</change>
+	<change id="grass3grassnoflower2grass3">
+		<source>grass3</source>
+		<destination>grassnoflower2</destination>
+		<terrain>grass3</terrain>
+		<PCT>50</PCT>
+		<radius>10</radius>
+	</change>
+	<!-- Fill the ocean,river and lakes (turn lavarock into river,lakes and lavadirt into ocean) -->
+<!--
+	<change id="lavarockwater">
+		<source>lavarock</source>
+		<destination>_WATER_</destination>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="lavadirtwaterinf">
+		<source>lavadirt</source>
+		<destination>_WATER_INF_</destination>
+		<source>lavadirt</source>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="junglewater1jungle">
+		<source>jungle</source>
+		<destination>_WATER_1_</destination>
+		<terrain>jungle</terrain>
+		<PCT>1</PCT>
+		<radius>1</radius>
+	</change>
+-->
+</gen_map>

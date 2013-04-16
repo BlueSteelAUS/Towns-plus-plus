@@ -115,11 +115,31 @@
 	<campaign>
 		<id>BlueSteel</id>
 		<name>BlueSteel's Maps</name>
+
+		<mission>
+			<id>Easy-Flat</id>
+			<name esES="N/A">Easy-Flat: all terrains no monsters on the surface,forests</name>
+		</mission>
+
+		<mission>
+			<id>Easy-Water-Flat</id>
+			<name esES="N/A">All terrains, no monsters on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests</name>
+		</mission>
+
+		<mission>
+			<id>Easy-Normal</id>
+			<name esES="N/A">All terrains, no monsters on the surface, can be forests, up to 2 (snow covered) mountians, hills, platoes</name>
+		</mission>
+
 		<mission>
 			<id>Easy-Water-Normal</id>
-			<name esES="N/A">Easy-Normal: all terrains no monsters on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes</name>
+			<name esES="N/A">All terrains, no monsters on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes</name>
 		</mission>
-	</campaign>
+
+		<mission>
+			<id>Normal-Water-Normal</id>
+			<name esES="N/A">All terrains, warepig, Froggys, Toadys, Treekeepers on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes</name>
+		</mission>	</campaign>
 
 	<campaign>
 		<id>LittleMikey</id>
