@@ -115,10 +115,11 @@
 	<campaign>
 		<id>BlueSteel</id>
 		<name>BlueSteel's Maps</name>
-mission>
+		<mission>
 			<id>Normal</id>
 			<name esES="N/A">Normal:  All terrains, warepig, Froggys, Toadys, Treekeepers on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes</name>
-		</mission>	</campaign>
+		</mission>
+	</campaign>
 
 	<campaign>
 		<id>LittleMikey</id>
