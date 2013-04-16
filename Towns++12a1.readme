@@ -1,42 +1,17 @@
 [code]
-
-Changes since Towns++_v12a
+Changes since Towns++_v12a1
 ============================
 BlueSteel's Contributions
 =========================
--> Made it so that shearing (trimming) now happens in a barn for that animal type,
-   eg: snoat in a snoat barn, sheep in a sheep barn(includes the wild ones, no shed = no shearing)
--> Changed mines to <type>mine</type> (hopefully stop monsters dropping the mines as loot)
--> Added shearing of milked snoat (trimmedmilkedsnoat)         
--> Scaffold is now on main menu and removed from production and right hand menu's
--> Made animal farm menu in production menu;shifted breeding,butchering,animal produce into there
--> Added more flowers into generated default maps
--> Made sub menu for timber in materials production menu
--> Moved Colors,Hides,Flowers into materials production menu
--> Changed beer/wine now only requires 2 resources to brew + 1 waterbucket
--> Changed Beer/Wine Happiness calculation (twice as happy as normal drinking)
--> Fixed wearing hat/mask happiness similar to Kasdar's Hat Happiness Fixed
--> Reduced breeding costs to 1 of the resource
--> Changed pig and boar feed and breed to apple or pear or wheat
--> Fixed unifallow feed and breed to cactus fruit
--> Set Snoats feed and breed to apple or pear or wheat
--> Added all sheep to butchercow (only till we come up with Lamb Chops)
--> Revamped food submenu in production menu
--> Revamped militaries submenu in production menu (combined armors and weapons by material type)
--> Re-organised decorations. eg: combined indoor/furniture / outdoor .
--> Also added appropriate containers to the buildings
--> Separated decorations into furniture, plants, signs, statues/poles,  flags/banners, winter items, lighting
--> Move mines and graves the main right menu because they really didn't belong where we had them anymore
--> Added Beds sub menu to Appropriate rooms
-
-   NOTE: Terraforming is Still there(Hit the red button on the right side of the main menu)
+-> More work done on snoats
+-> 1st of many new maps by me (starting to rework my old maps mod)
 
 LittleMikey's Contributions:
 ============================
--> Edited main game menu
--> Fixed errors
+-> fixed crash with draws
 
 [/code]
+
 [size=200][color=#FF0000]NOT a MODLOADER mod.[/color][/size]
 
 To install:
@@ -211,6 +186,43 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 
 change logs
 ===========
+Changes since Towns++_v12a
+============================
+BlueSteel's Contributions
+=========================
+-> Made it so that shearing (trimming) now happens in a barn for that animal type,
+   eg: snoat in a snoat barn, sheep in a sheep barn(includes the wild ones, no shed = no shearing)
+-> Changed mines to <type>mine</type> (hopefully stop monsters dropping the mines as loot)
+-> Added shearing of milked snoat (trimmedmilkedsnoat)         
+-> Scaffold is now on main menu and removed from production and right hand menu's
+-> Made animal farm menu in production menu;shifted breeding,butchering,animal produce into there
+-> Added more flowers into generated default maps
+-> Made sub menu for timber in materials production menu
+-> Moved Colors,Hides,Flowers into materials production menu
+-> Changed beer/wine now only requires 2 resources to brew + 1 waterbucket
+-> Changed Beer/Wine Happiness calculation (twice as happy as normal drinking)
+-> Fixed wearing hat/mask happiness similar to Kasdar's Hat Happiness Fixed
+-> Reduced breeding costs to 1 of the resource
+-> Changed pig and boar feed and breed to apple or pear or wheat
+-> Fixed unifallow feed and breed to cactus fruit
+-> Set Snoats feed and breed to apple or pear or wheat
+-> Added all sheep to butchercow (only till we come up with Lamb Chops)
+-> Revamped food submenu in production menu
+-> Revamped militaries submenu in production menu (combined armors and weapons by material type)
+-> Re-organised decorations. eg: combined indoor/furniture / outdoor .
+-> Also added appropriate containers to the buildings
+-> Separated decorations into furniture, plants, signs, statues/poles,  flags/banners, winter items, lighting
+-> Move mines and graves the main right menu because they really didn't belong where we had them anymore
+-> Added Beds sub menu to Appropriate rooms
+
+   NOTE: Terraforming is Still there(Hit the red button on the right side of the main menu)
+
+LittleMikey's Contributions:
+============================
+-> Edited main game menu
+-> Fixed errors
+
+
 Changes since Towns++_v12
 ============================
 BlueSteel's Contributions

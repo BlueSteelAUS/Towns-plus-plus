@@ -2,7 +2,7 @@
 <gen_map>
 	<init id="init">
 		<numLevelsOutside>20</numLevelsOutside>
-		<numLevelsUnderground>20</numLevelsUnderground>
+		<numLevelsUnderground>21</numLevelsUnderground>
 		<mainTerrain>grass,dirt,stone,dungeon3</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>19</startingLevel> <!-- level that Cits start on -->
@@ -25,12 +25,12 @@
 		<downPCT>100</downPCT>
 	</seed>
 
-	<!-- Largest Island seed-->
+	<!-- 1-2 Large Island seeds -->
 	<seed id="largeisland">
 		<type>dirt</type>
-		<num>1d2-1</num>
+		<num>1d2</num>
 		<level>20</level>
-		<turns>20d30-1</turns>
+		<turns>20d30</turns>
 		<northPCT>10d10</northPCT>
 		<southPCT>10d10</southPCT>
 		<eastPCT>10d10</eastPCT>
@@ -38,10 +38,10 @@
 		<upPCT>0</upPCT>
 		<downPCT>100</downPCT>
 	</seed>
-	<!-- Medium Island seeds -->
+	<!-- up to 10 small/Medium Island seeds -->
 	<seed id="mediumislands">
 		<type>dirt</type>
-		<num>1d5-1</num>
+		<num>1d11-1</num>
 		<level>20</level>
 		<turns>5d30-1</turns>
 		<northPCT>10d10</northPCT>
@@ -108,7 +108,7 @@
 	<seed> id="gravel">
 		<type>gravel</type>
 		<num>8</num>
-		<level>1d6+23</level>
+		<level>1d6+24</level>
 		<turns>40</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -147,7 +147,7 @@
 	<seed id="iron">
 		<type>iron</type>
 		<num>8</num>
-		<level>1d6+26</level>
+		<level>1d6+25</level>
 		<turns>50</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -160,7 +160,7 @@
 	<seed id="densestone">
 		<type>densestone</type>
 		<num>8</num>
-		<level>1d6+27</level>
+		<level>1d6+26</level>
 		<turns>20</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -173,7 +173,7 @@
 	<seed id="silver">
 		<type>silver</type>
 		<num>4</num>
-		<level>1d6+28</level>
+		<level>1d6+27</level>
 		<turns>30</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -186,7 +186,7 @@
 	<seed id="gold">
 		<type>gold</type>
 		<num>3</num>
-		<level>1d6+29</level>
+		<level>1d6+28</level>
 		<turns>20</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -196,23 +196,23 @@
 		<downPCT>6</downPCT>
 	</seed>
 	<!-- up to 2 mountain -->
-<!--
 	<seed id="mountians">
 		<type>dirt</type>
 		<num>1d3-1</num>
 		<level>20</level>
-		<turns>20d30-1</turns>
+		<turns>20d50-1</turns>
 		<flatsBetweenLevels>1</flatsBetweenLevels>
 		<northPCT>1d5+7</northPCT>
 		<southPCT>1d5+7</southPCT>
 		<eastPCT>1d5+7</eastPCT>
 		<westPCT>1d5+7</westPCT>
-		<upPCT>20</upPCT>
+		<upPCT>19</upPCT>
 		<downPCT>100</downPCT>
 	</seed>
+	<!-- up to 14 HILLS -->
 	<seed id="hills">
 		<type>dirt</type>
-		<num>1d7-1</num>
+		<num>1d15-1</num>
 		<level>20</level>
 		<turns>10d5</turns>
 		<flatsBetweenLevels>2</flatsBetweenLevels>
@@ -220,22 +220,24 @@
 		<southPCT>9d5</southPCT>
 		<eastPCT>9d5</eastPCT>
 		<westPCT>9d5</westPCT>
-		<upPCT>4</upPCT>
+		<upPCT>3</upPCT>
 		<downPCT>100</downPCT>
 	</seed>
-	<seed id="platoes">
+	<!-- up to 20 plateaus -->
+	<seed id="plateaus">
 		<type>dirt</type>
-		<num>1d15-1</num>
+		<num>1d21-1</num>
 		<level>20</level>
-		<turns>30</turns>
-		<flatsBetweenLevels>3</flatsBetweenLevels>
+		<turns>20d5</turns>
+		<flatsBetweenLevels>4</flatsBetweenLevels>
 		<northPCT>2d25-1</northPCT>
 		<southPCT>2d25-1</southPCT>
 		<eastPCT>2d25-1</eastPCT>
 		<westPCT>2d25-1</westPCT>
-		<upPCT>2</upPCT>
+		<upPCT>1</upPCT>
 		<downPCT>100</downPCT>
 	</seed>
+	<!-- put snow on mountian if tall enough-->
 	<change id="snowcaptop">
 		<source>dirt</source>
 		<destination>snow</destination>
@@ -264,6 +266,7 @@
 		<heightMax>11</heightMax>
 		<PCT>30</PCT>
 	</change>
+	<!-- put grass on mountian -->
 	<change id="lowermountian">
 		<source>dirt</source>
 		<destination>grass</destination>
@@ -271,7 +274,6 @@
 		<heightMax>19</heightMax>
 		<PCT>100</PCT>
 	</change>
--->
 	<change id="lavarockgrassgravel">
 		<source>lavarock</source>
 		<destination>grass</destination>
