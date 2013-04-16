@@ -11106,7 +11106,7 @@
 		<action>rotate_smallwoodendrawer_flower_W</action>
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_smallwoodendrawerflower_E</action>
+		<action>del_smallwoodendrawer_flower_E</action>
 	</smallwoodendrawer_flower_E>
 
 	<smallwoodendrawer_flower_W>
@@ -11120,7 +11120,7 @@
 		<action>rotate_smallwoodendrawer_flower_E</action>
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_smallwoodendrawerflower_E</action>
+		<action>del_smallwoodendrawer_flower_E</action>
 	</smallwoodendrawer_flower_W>
 
 	<woodencupboard_E>
