@@ -4861,7 +4861,7 @@
 		<name esES="Puerta-bloque de madera">Block wooden door</name>
 		<description esES="Encaja en las mazmorras">Fit for caves</description>
 
-		<type>furniture</type>
+		<type>construction.doors</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
 
@@ -4902,7 +4902,7 @@
 	<logdoor>
 		<name esES="Puerta de troncos">Log door</name>
 
-		<type>furniture</type>
+		<type>construction.doors</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
 
@@ -4923,7 +4923,7 @@
 	<woodendoor>
 		<name esES="Puerta de madera">Wooden door</name>
 
-		<type>furniture</type>
+		<type>construction.doors</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
 		<bury>true</bury>
@@ -9610,6 +9610,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_sipstomb</action>
 	</sipstomb>
 
 	<vechstomb>
@@ -9628,6 +9630,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_vechstomb</action>
 	</vechstomb>
 
 	<punchwoodtomb>
@@ -9646,6 +9650,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_punchwoodtomb</action>
 	</punchwoodtomb>
 
 	<maleroguetomb>
@@ -9664,6 +9670,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_maleroguetomb</action>
 	</maleroguetomb>
 
 	<femaleroguetomb>
@@ -9682,6 +9690,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_femaleroguetomb</action>
 	</femaleroguetomb>
 
 	<dwarftomb>
@@ -9700,6 +9710,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_dwarftomb</action>
 	</dwarftomb>
 
 	<barbariantomb>
@@ -9794,6 +9806,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_highlandertomb</action>
 	</highlandertomb>
 
 	<herbalisttomb>
@@ -9812,8 +9826,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_herbalisttomb</action>
 	</herbalisttomb>
-
 
 	<redbadgerdummy>
 		<name esES="Tejón rojo">Red badger</name>
@@ -11642,7 +11657,7 @@
 	<xmaslogdoor>
 		<name esES="Puerta de troncos">Decorated Log door</name>
 		<description esES="Puerta básica">Basic door</description>
-		<type>furniture</type>
+		<type>construction.doors</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
 		<alwaysOperative>false</alwaysOperative>
@@ -11660,7 +11675,7 @@
 
 	<xmaswoodendoor>
 		<name esES="Puerta de madera">Decorated Wooden door</name>
-		<type>furniture</type>
+		<type>construction.doors</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
 		<alwaysOperative>false</alwaysOperative>
@@ -11678,7 +11693,7 @@
 	<xmasblockdoor>
 		<name esES="Puerta-bloque de madera">Decorated Block wooden door</name>
 		<description esES="Encaja en las mazmorras">Fit for caves</description>
-		<type>furniture</type>
+		<type>construction.doors</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
 		<alwaysOperative>false</alwaysOperative>
@@ -13106,6 +13121,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
+		
+		<action>del_santatomb</action>
 	</santatomb>
 
 	<armorcabinet_W>

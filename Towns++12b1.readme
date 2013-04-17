@@ -1,15 +1,17 @@
 ﻿[code]
-Changes since Towns++_v12a1
+Changes since Towns++_v12b
 ============================
 BlueSteel's Contributions
 =========================
--> More work done on snoats
--> 1st of many new maps by me (starting to rework my old maps mod)
--> updated to towns12b
 
 LittleMikey's Contributions:
 ============================
--> fixed crash with draws
+-> Types changed on various items to make more sense. 
+-> Added new caged animals, and a new caravan who sells them.
+-> Added the ability to cage animals, and sell them to the new caravan.
+-> Added new stockpile for caged animals.
+-> Changed breeding animals to use the Feed priority instead of itemConstruction.
+-> Added remove command to rest of hero tombs.
 
 [/code]
 
@@ -197,7 +199,7 @@ BlueSteel's Contributions
 
 LittleMikey's Contributions:
 ============================
--> fixed crash with draws
+-> Fixed crash with Flower Drawer.
 
 Changes since Towns++_v12a
 ============================

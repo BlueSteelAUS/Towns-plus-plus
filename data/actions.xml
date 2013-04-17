@@ -16896,7 +16896,7 @@
 		<id>qbreedcow</id>
 		<name esES="Críar Vaca">Breed Cow</name>
 		<generatedItem>cow</generatedItem>
-		<priorityID>itemconstruction</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>wheat</pick>
 			<move useSource="true">newcowfarm</move>
@@ -16912,7 +16912,7 @@
 		<id>qbreedbull</id>
 		<name esES="Críar Toro">Breed Bull</name>
 		<generatedItem>bull</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>wheat</pick>
 			<move useSource="true">newbullfarm</move>
@@ -16928,7 +16928,7 @@
 		<id>qbreedpig</id>
 		<name esES="Críar Cerdo">Breed Pig</name>
 		<generatedItem>pig</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newpigfarm</move>
@@ -16944,7 +16944,7 @@
 		<id>qbreedboar</id>
 		<name esES="Críar Jabalí">Breed Boar</name>
 		<generatedItem>boar</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newboarfarm</move>
@@ -16960,7 +16960,7 @@
 		<id>qbreedchicken</id>
 		<name esES="Críar Gallina">Breed Chicken</name>
 		<generatedItem>chicken</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>wheat</pick>
 			<move useSource="true">newchickenfarm</move>
@@ -16976,7 +16976,7 @@
 		<id>qbreedrooster</id>
 		<name esES="Críar Gallo">Breed Rooster</name>
 		<generatedItem>rooster</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>wheat</pick>
 			<move useSource="true">newroosterfarm</move>
@@ -16992,7 +16992,7 @@
 		<id>qbreedskootenbeeten</id>
 		<name esES="Críar Skootenbeeten">Breed Skootenbeeten</name>
 		<generatedItem>skootenbeeten</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>wheat</pick>
 			<move useSource="true">newskootenbeetenfarm</move>
@@ -17008,7 +17008,7 @@
 		<id>qbreedunifallow</id>
 		<name esES="Críar Unifallow">Breed Unifallow</name>
 		<generatedItem>unifallow</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>cactusfruit</pick>
 			<move useSource="true">newunifallowfarm</move>
@@ -17024,7 +17024,7 @@
 		<id>qbreedbadger</id>
 		<name esES="Críar Tejon">Breed Badger</name>
 		<generatedItem>badger</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>wheat</pick>
 			<move useSource="true">newbadgerfarm</move>
@@ -17040,7 +17040,7 @@
 		<id>qbreedsnoat</id>
 		<name esES="Críar Snoat">Breed Snoat</name>
 		<generatedItem>snoat</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newsnoatfarm</move>
@@ -17056,7 +17056,7 @@
 		<id>qbreedsheep</id>
 		<name esES="N/A">Breed Sheep</name>
 		<generatedItem>sheep</generatedItem>
-		<priorityID>gathering</priorityID>
+		<priorityID>_FEED_</priorityID>
 		<queue>
 			<pick>wheat</pick>
 			<move useSource="true">newsheepfarm</move>
@@ -18984,7 +18984,7 @@
 			 <move useSource="true">barbariantomb</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>barbariancorpse</createItem>
+			 <createItem>barbariantomb</createItem>
 		  </queue>
 	</action>	
 	<action>
@@ -18996,7 +18996,7 @@
 			 <move useSource="true">elftomb</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>elfcorpse</createItem>
+			 <createItem>elftomb</createItem>
 		  </queue>
 	</action>	
 	<action>
@@ -19008,7 +19008,7 @@
 			 <move useSource="true">magetomb</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>magecorpse</createItem>
+			 <createItem>magetomb</createItem>
 		  </queue>
 	</action>	
 	<action>
@@ -19020,7 +19020,115 @@
 			 <move useSource="true">knighttomb</move>
 			 <wait>16</wait>
 			 <destroyCellItem />
-			 <createItem>knightcorpse</createItem>
+			 <createItem>knighttomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_maleroguetomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">maleroguetomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>maleroguetomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_femaleroguetomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">femaleroguetomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>femaleroguetomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_dwarftomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">dwarftomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>dwarftomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_highlandertomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">highlandertomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>highlandertomb</createItem>
+		  </queue>
+	</action>	
+	<action>
+		  <id>del_herbalisttomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">herbalisttomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>herbalisttomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_punchwoodtomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">punchwoodtomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>punchwoodtomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_sipstomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">sipstomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>sipstomb</createItem>
+		  </queue>
+	</action>	
+	<action>
+		  <id>del_vechstomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">vechstomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>vechstomb</createItem>
+		  </queue>
+	</action>
+	<action>
+		  <id>del_santatomb</id>
+		  <name esES="N/A">Remove</name>
+
+		  <priorityID>itemconstruction</priorityID>
+		  <queue>
+			 <move useSource="true">santatomb</move>
+			 <wait>16</wait>
+			 <destroyCellItem />
+			 <createItem>santatomb</createItem>
 		  </queue>
 	</action>	
 
@@ -20310,3 +20418,4 @@
 		</queue>
 	</action>
 </actions>
+
