@@ -1169,7 +1169,7 @@
 
 	<woodenbucket>
 		<name esES="Cubo de madera">Wooden bucket</name>
-		<type>utils.materials</type>
+		<type>rawmaterials.misc</type>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -1178,7 +1178,7 @@
 
 	<snowbucket>
 		<name esES="Cubo de nieve">Bucket of snow</name>
-		<type>utils.materials</type>
+		<type>rawmaterials.misc</type>
 		<canBeEaten>false</canBeEaten>
 
 		<maxAge>1d1440+1440</maxAge>
@@ -1191,7 +1191,7 @@
 
 	<waterbucket>
 		<name esES="Cubo de agua">Bucket of water</name>
-		<type>utils.materials</type>
+		<type>utils</type>
 
 		<foodValue>1</foodValue>
 		<foodFillPCT>10</foodFillPCT>
@@ -2178,7 +2178,6 @@
 	<mill>
 		<name esES="Molino">Mill</name>
 		<description esES="Se usa para obtener harina">Use this to create flour</description>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -3231,7 +3230,6 @@
     <verticalladder>
 		<name esES="Escalera vertical">Vertical ladder</name>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<bury>true</bury>
@@ -3251,7 +3249,6 @@
 		<name esES="Escalera">Ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<bury>true</bury>
@@ -3272,7 +3269,6 @@
 		<name esES="Escalera de madera">Wooden ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<bury>true</bury>
@@ -3488,7 +3484,6 @@
 		<name esES="Escalera de piedra">Stone ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3509,7 +3504,6 @@
 		<name esES="Escalera de troncos">Log ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3530,7 +3524,6 @@
 		<name esES="Escalera de barro">Dirt ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3548,7 +3541,6 @@
 		<name esES="Escalera de piedra">Stone spindle ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3569,7 +3561,6 @@
 		<name esES="Escalera antigua">Ancient ladder</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3590,7 +3581,6 @@
 		<name esES="Escalera de huesos">Bone stairs</name>
 		<description esES="Va en ambas direcciones">It goes both ways...</description>
 
-		<type>utils.misc</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3985,7 +3975,7 @@
 		<wall>true</wall>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		<type>utils.misc</type>
+		<type>construction.walls</type>
 		<wallConnector>true</wallConnector>
 
 		<glue>true</glue>
@@ -4441,7 +4431,7 @@
 	<torch>
 		<name esES="Antorcha">Torch</name>
 		<description esES="Brilla como un gusilú">Star bright, star light...</description>
-		<type>utils.misc</type>
+		<type>utils</type>
 
 		<lightRadius>2</lightRadius>
 		<lightRed>HALF</lightRed>
@@ -5277,7 +5267,6 @@
 	<anvil>
 		<name esES="Yunque">Anvil</name>
 		<description esES="Se usa en la fabricación de objetos de hierro">Used in the construction of iron based items</description>
-		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zforge</zone>
 		<value>212</value>
@@ -5290,7 +5279,6 @@
 		<name esES="Forjador de Ite">ITE smithy</name>
 		<description esES="Una mesa magica que irradia poder">A magical bench</description>
 		<description esES="Se usa en la fabricacion de objetos Ite">Used in the construction of Ite based items</description>
-		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zforge</zone>
 		<value>212</value>
@@ -5322,7 +5310,6 @@
 	<kitchentable>
 		<name esES="Mesa de cocina">Kitchen table</name>
 		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
-		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -5357,7 +5344,6 @@
 	<butchertable>
 		<name esES="Mesa de matadero">Butcher's table</name>
 		<description esES="Se usa para matar animales para conseguir comida">Used to butcher animals for their meat</description>
-		<type>utils.workshops</type>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -5405,7 +5391,6 @@
 	<cookingbowl>
 		<name esES="Cuenco de cocina">Cooking bowl</name>
 		<description esES="Remuévelo">Stir it up</description>
-		<type>utils.workshops</type>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -5452,7 +5437,6 @@
 	<smelter>
 		<name esES="Fundidor">Smelter</name>
 		<description esES="Se usa para fabricar objetos de hierro">Used in the construction of iron based items</description>
-		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -5487,7 +5471,8 @@
 	<bonecarver>
 		<name esES="Tallador de hueso">Bone carving knife</name>
 		<description esES="Herramienta para tallar objetos de hueso">A tool for carving bone items</description>
-		<type>utils.misc</type>
+		<type>utils</type>
+		
 		<stackable>true</stackable>
 		<stackableSize>2</stackableSize>
 		<value>100</value>
@@ -5557,7 +5542,6 @@
 	<stove>
 		<name esES="Horno de cocina">Stove</name>
 		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
-		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zkitchen</zone>
 		<lightRadius>1</lightRadius>
@@ -5590,7 +5574,7 @@
 
 	<tongs>
 		<name esES="Tenazas">Tongs</name>
-		<type>utils.misc</type>
+		<type>utils</type>
 
 		<stackable>true</stackable>
 		<stackableSize>2</stackableSize>
@@ -7532,7 +7516,6 @@
 	<bakeroven>
 		<name esES="Horno de panadero">Baker's oven</name>
 		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7580,7 +7563,6 @@
 	<bakertable>
 		<name esES="Mesa de panadero">Baker's table</name>
 		<description esES="La típica mesa... de panadero">A typical... baker's... table</description>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7627,7 +7609,6 @@
 		<name esES="Mesa de carpintero">Carpenters bench</name>
 		<description esES="Una mesa de carpintero oxidado">A rusted wooden carpenter's bench</description>
 		<description esES="Con ella construirás objetos de madera">Used to make wooden objects</description>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7655,8 +7636,6 @@
 	<skinner>
 		<name esES="Mesa de curtidor">Hide skinning table</name>
 
-		<type>utils.workshops</type>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>skinnerbury</buryItem>
@@ -7678,8 +7657,6 @@
 
 	<colormixer>
 		<name esES="Tabla para mezclar colores">Color mixing bench</name>
-
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7705,7 +7682,6 @@
 	<carvingbench>
 		<name esES="Mesa de tallador">Bonecarving bench</name>
 		<description esES="Se usa para fabricar objetos de hueso">Used to make bone objects</description>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7738,7 +7714,6 @@
 		<name esES="Mesa de albañil">Mason's bench</name>
 		<description esES="Una mesa de albañil">A stonemason's stone table</description>
 		<description esES="Útil para crear objetos de piedra">Used to make stone objects</description>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7766,7 +7741,6 @@
 	<wooddetailer>
 		<name esES="Curtidor de madera">Wood detailer</name>
 		<description esES="Usada en la creación de objetos de madera avanzados">Allows for advanced wooden items</description>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -8349,7 +8323,6 @@
 
 	<burner>
 		<name esES="Quemador">Burner</name>
-		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -10972,7 +10945,6 @@
 	<beerbarrel>
 		<name esES="Barril de Cerveza">Beer Barrel</name>
 		<description >Used to make beer</description>
-		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>ztavern</zone>
 		<stackable>false</stackable>
@@ -10983,7 +10955,6 @@
 	<winebarrel>
 		<name esES="Barril de Vino">Wine Barrel</name>
 		<description >Used to make Wine</description>
-		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>ztavern</zone>
 		<stackable>false</stackable>
