@@ -19,7 +19,7 @@
 		<item id="weapon" name="Weapons" esES="Armas" code="STOCKPILE" parameter="weapon" icon="ui_sweapon" />
 		<item id="decorative" name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
 		<item id="construction" name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="ui_constructionstockpile" />
-		<item id="animal" name="Animal" esES="N/A" code="STOCKPILE" parameter="cagedanimals" icon="ui_chickenfarm" />
+		<item id="animal" name="Caged Animals" esES="N/A" code="STOCKPILE" parameter="cagedanimals" icon="ui_cagedanimals" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</stockpiles>
 	<item id="cancelorder" name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />

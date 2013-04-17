@@ -88,8 +88,8 @@
 	<cagedanimals esES="N/A" icon="cowincage">Caged Animals</cagedanimals>
 	
 	<!-- MORE FURNITURE TYPES -->
-	<furniture.beds esES="N/A">Beds</furniture.beds>
-	<furniture.chairs esES="N/A">Chairs</furniture.chairs>
-	<furniture.tables esES="N/A">Tables</furniture.tables>
-	<furniture.cupboards esES="N/A">Cupboards</furniture.cupboards>
+	<furniture.beds esES="N/A" icon="woodenbed">Beds</furniture.beds>
+	<furniture.chairs esES="N/A" icon="woodenchair">Chairs</furniture.chairs>
+	<furniture.cupboards esES="N/A" icon="smallwoodendrawer_flower_E">Cupboards</furniture.cupboards>
+	<furniture.tables esES="N/A" icon="woodentable">Tables</furniture.tables>
 </types>
