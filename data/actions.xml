@@ -1494,7 +1494,7 @@
 		<priorityID>gathering</priorityID>
 
 		<queue>
-			<pickFriendly>snoat,skinnedsnoat</pickFriendly>
+			<pickFriendly>snoat,skinnedsnoat,skinnedwildsnoat,wildsnoat</pickFriendly>
 			<wait>32</wait>
 			<createFriendly>milkedsnoat</createFriendly>
 			<createItem>milk</createItem>

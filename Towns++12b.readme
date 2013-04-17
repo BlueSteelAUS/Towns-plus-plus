@@ -1,10 +1,11 @@
-[code]
+﻿[code]
 Changes since Towns++_v12a1
 ============================
 BlueSteel's Contributions
 =========================
 -> More work done on snoats
 -> 1st of many new maps by me (starting to rework my old maps mod)
+-> updated to towns12b
 
 LittleMikey's Contributions:
 ============================
@@ -22,7 +23,7 @@ To install:
 5. Run Towns as normal .. play.. be free... enjoy ;)
 
 [quote]
-Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12a1.zip
+Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12b.zip
 
 My Live streaming is at http://www.twitch.tv/bluesteelaus
 My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL388A502D490AE834
@@ -31,7 +32,7 @@ Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQ
 More videos and live streams will be done as time permits
 [/quote]
 
-[size=200][color=#0000FF]Towns++ v12a1 (for Towns v12a)[/color][/size]
+[size=200][color=#0000FF]Towns++ v12b (for Towns v12b)[/color][/size]
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
 This mod pack changes the general layout of the right menu panel and the main (bottom)
@@ -186,6 +187,18 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 
 change logs
 ===========
+Changes since Towns++_v12a1
+============================
+BlueSteel's Contributions
+=========================
+-> More work done on snoats
+-> 1st of many new maps by me (starting to rework my old maps mod)
+-> updated to towns12b
+
+LittleMikey's Contributions:
+============================
+-> fixed crash with draws
+
 Changes since Towns++_v12a
 ============================
 BlueSteel's Contributions

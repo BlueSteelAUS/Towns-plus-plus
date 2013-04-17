@@ -368,6 +368,16 @@
 		<radius>3</radius>
 	</change>
 
+	<!-- make grass grow on land -->
+	<change id="dirtgrass">
+		<source>dirt</source>
+		<destination>grass</destination>
+		<PCT>100</PCT>
+		<heightMin>12</heightMin>
+		<heightMax>21</heightMax>
+		<radius>1</radius>
+	</change>
+
 	<!-- add river banks 1 wide -->
 	<change id="lavarockdirtjungle">
 		<source>lavarock</source>
@@ -417,16 +427,6 @@
 		<heightMin>19</heightMin>
 		<heightMax>20</heightMax>
 		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<!-- make grass grow on land -->
-	<change id="dirtgrass">
-		<source>dirt</source>
-		<destination>grass</destination>
-		<PCT>100</PCT>
-		<heightMin>12</heightMin>
-		<heightMax>21</heightMax>
 		<radius>1</radius>
 	</change>
 

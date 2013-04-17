@@ -309,7 +309,7 @@
 
 		<messageWhenVanish>false</messageWhenVanish>
 	</effect>
-
+	
 	<effect>
 		<id>lycanthropyenhanced</id>
 		<name esES="Licantropía">Lycanthropy</name>
@@ -446,7 +446,7 @@
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
-
+	
 	<effect>
 		<id>beastmask</id>
 		<name esES="Poder de la bestia">Power of the beast</name>
@@ -513,7 +513,7 @@
 		<name esES="Plagado">Plagued</name>
 
 		<icon>ef_plagued</icon>
-
+		
 		<speedPCT>70</speedPCT>
 		<castEffects>plagued</castEffects>
 		<castCooldown>1d100</castCooldown>
@@ -574,7 +574,7 @@
 		<name esES="Daño relámpago">Lightning Damage</name>
 
 		<icon>ef_lightning</icon>
-
+		
 		<DOT>1d50+300</DOT>
 		<lasts>1</lasts>
 
@@ -902,7 +902,7 @@
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
 
-
+	
 	<effect>
 		<id>slash5</id>
 		<name esES="Daño cortante">Slash damage</name>
@@ -1075,7 +1075,7 @@
 		<castEffects>daunted</castEffects>
 		<castTargets>CITIZEN,HERO</castTargets>
 		<castTrigger>NEAR_DEATH</castTrigger>
-		<castCooldown>1d400+400</castCooldown>
+ 		<castCooldown>1d400+400</castCooldown>
 
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
@@ -1095,7 +1095,7 @@
 	<effect>
 		<id>dauntingresist</id>
 		<name esES="Resistencia al desaliento">Daunting resist</name>
-
+	
 		<effectsImmune>daunted</effectsImmune>
 		<lasts>1600</lasts>
 
@@ -1132,9 +1132,9 @@
 	<effect>
 		<id>explosion</id>
 		<name esES="Explosión de brote">Sprout explosion</name>
-
+	
 		<lasts>15</lasts>
-
+		
 		<DOT>250</DOT>
 		<lasts>4</lasts>
 		<graphicChange>explosivesproutexplode</graphicChange>
@@ -1175,6 +1175,30 @@
 		<defensePCT>110</defensePCT>
 		<DOT>-1</DOT>
 		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>turtleshield</id>
+		<name esES="Escudo de la tortuga">Shield of the turtle</name>
+
+		<castEffects>defenseauraenemies</castEffects>
+		<castTargets>ENEMY</castTargets>
+		<castCooldown>20</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>defenseauraenemies</id>
+		<name esES="Aura de defensa">Defense aura</name>
+		<icon>ef_defenseaura</icon>
+
+		<defensePCT>120</defensePCT>
+		<lasts>270</lasts>
 
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>

@@ -1470,9 +1470,6 @@
 		<movePCT>1d3</movePCT>
 		<walkSpeed>75</walkSpeed>
 
-		<building>boarfarm</building>
-		<buildingTime>2880</buildingTime>
-
 		<action>qkillpig</action>
 
 		<facingDirections>true</facingDirections>
@@ -2839,6 +2836,8 @@
 		<maxAge>1d2880+1440</maxAge>
 		<maxAgeLiving>werepig</maxAgeLiving>
 
+		<facingDirections>true</facingDirections>
+
 		<LOS>1d14+4</LOS>
 		<movePCT>1d15+25</movePCT>
 		<walkSpeed>75</walkSpeed>
@@ -3278,8 +3277,6 @@
 		<hate>CITIZEN,ALLY,HERO</hate>
 		<level>7</level>
 
-		<namePoolTag>goblin</namePoolTag>
-
 		<name esES="Nusep, el goblin rey">Nusep, the goblin king</name>
 		<attack>1d599+1700</attack>
 		<attackSpeed>4</attackSpeed>
@@ -3430,6 +3427,43 @@
 			<PCT>50</PCT>
 		</drop>
 	</hobgoblinkaiser>
+
+	<evilturtle>
+		<type>ENEMY</type>
+		<hate>CITIZEN,ALLY,HERO</hate>
+		<level>5</level>
+
+		<name esES="Tortuga malvada">Evil turtle</name>
+		<attack>1d439+1130</attack>
+		<attackSpeed>6</attackSpeed>
+		<defense>1d879+1560</defense>
+		<healthPoints>1d769+1715</healthPoints>
+		<attackVerb esES="quema">burns</attackVerb>
+		<attackVerbInfinitive esES="quemar">burn</attackVerbInfinitive>
+		<damage>1d119+340</damage>
+
+		<effects>turtleshield</effects>
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d2</LOS>
+		<movePCT>40</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<grouping>true</grouping>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>7</levelMin>
+			<levelMax>13</levelMax>
+		</drop>
+		
+		<drop>
+			<item>bones</item>
+			<PCT>50</PCT>
+		</drop>
+	</evilturtle>
 
 	<draukthehobgoblinking>
 		<type>ENEMY</type>

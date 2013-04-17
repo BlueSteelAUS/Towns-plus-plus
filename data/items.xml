@@ -2146,14 +2146,6 @@
 		<action>qcut</action>
 	</bushpalmtree>
 
-	<oasisbushpalmtree>
-		<name esES="Arbusto de palmera">Palm tree bush</name>
-		<habitat>grass</habitat>
-		<maxAge>1d14400+14400</maxAge>
-		<maxAgeItem>oasispalmtree</maxAgeItem>
-		<action>qcut</action>
-	</oasisbushpalmtree>
-
 	<plantedbushpalmtree>
 		<name esES="Arbusto de palmera plantado">Planted palm tree bush</name>
 		<habitat>sandhumus</habitat>
@@ -3173,9 +3165,9 @@
 		<zoneMergerUp>true</zoneMergerUp>
 		<wallConnector>true</wallConnector>
 
+		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		<alwaysOperative>false</alwaysOperative>
 		<action>convert_to_sandstairs1a</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -3497,7 +3489,6 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
-
 		<alwaysOperative>false</alwaysOperative>
 		<value>0</value>
 		<action>convert_to_stonestairs1a</action>
@@ -3702,6 +3693,7 @@
 
 	<hedgegate>
 		<name esES="Portal de seto">Hedge gate</name>
+
 		<type>construction.doors</type>
 		<wallConnector>true</wallConnector>
 
@@ -4468,14 +4460,12 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenbedbury,woodenbedbury1,woodenbedbury2</buryItem>
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-
 
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
@@ -4861,7 +4851,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>doortrap</buryItem>
 		<buryItemPCT>10</buryItemPCT>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
 		<stackable>true</stackable>
@@ -4881,7 +4871,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>doortrap</buryItem>
 		<buryItemPCT>10</buryItemPCT>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
 		
@@ -4890,6 +4880,7 @@
 		<stackableSize>1</stackableSize>
 		<action>del_blockdoor</action>
 	</blockdoor>
+
 
 	<jungledoor>
 		<name esES="Puerta de jungla">Jungle door</name>
@@ -4930,7 +4921,7 @@
 		<stackableSize>1</stackableSize>
 		<action>del_logdoor</action>
 	</logdoor>
-	
+
 	<woodendoor>
 		<name esES="Puerta de madera">Wooden door</name>
 
@@ -4981,13 +4972,13 @@
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_architecttable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>architecttablebury</buryItem>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_architecttable</action>
 	</architecttable>
 
 	<architecttablebury>
@@ -5002,7 +4993,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</architecttablebury>
-	
+
 	<stonetable>
 		<name esES="Mesa de piedra">Stone table</name>
 		<description esES="Robusta, pero fria">Sturdy, but cold</description>
@@ -5051,6 +5042,7 @@
 	<woodentable>
 		<name esES="Mesa de madera">Wooden table</name>
 		<description esES="Cojea de una pata">Oh great, one of the legs is shorter than the others</description>
+
 		<type>furniture</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -5074,6 +5066,7 @@
 		<buryItemPCT>50,75</buryItemPCT>
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
+
 	</woodentable>
 
 	<woodentablebury>
@@ -5087,6 +5080,7 @@
 
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
+
 	</woodentablebury>
 
 	<woodentablebury1>
@@ -5100,7 +5094,9 @@
 
 		<buryLivings>goblin,goblinleader,ogre</buryLivings>
 		<buryLivingsPCT>25,15,1</buryLivingsPCT>
+
 	</woodentablebury1>
+
 
 	<squarestable>
 		<name esES="Mesa de madera a cuadros">Wooden squares table</name>
@@ -5458,6 +5454,7 @@
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>15,1</buryLivingsPCT>
 
+
 		<zone>zforge</zone>
 		<value>212</value>
 		<stackable>true</stackable>
@@ -5560,15 +5557,15 @@
 		<lightGreen>NONE</lightGreen>
 		<lightBlue>NONE</lightBlue>
 		<value>212</value>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_stove</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stovebury</buryItem>
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>25,1</buryLivingsPCT>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_stove</action>
 	</stove>
 
 	<stovebury>
@@ -5732,6 +5729,7 @@
 		<tags>hammer</tags>
 		<value>100</value>
 	</stonehammer>
+
 
 	<finebeaterclub>
 		<level>12</level>
@@ -7522,6 +7520,7 @@
 	<!--/ITE Armors -->
 
 	<!--Workshop Benches -->
+
 	<bakeroven>
 		<name esES="Horno de panadero">Baker's oven</name>
 		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
@@ -7856,7 +7855,6 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
-
 		<alwaysOperative>false</alwaysOperative>
 		<value>139</value>
 	</redlongflagbury>
@@ -7920,7 +7918,6 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
-
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
@@ -7939,7 +7936,6 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
-
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
@@ -7957,7 +7953,6 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
@@ -9554,7 +9549,6 @@
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>55,25,5</buryLivingsPCT>
 
-
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
@@ -9568,7 +9562,6 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
 
 		<action>qexaminetomb</action>
 		
@@ -9612,7 +9605,6 @@
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
 
-
 		<locked>true</locked>
 
 		<stackable>true</stackable>
@@ -9620,7 +9612,7 @@
 		<value>122</value>
 		<action>del_lizardtomb</action>
 	</lizardtomb>
-		
+
 	<sipstomb>
 		<name esES="Tumba de Sips">Sips tomb</name>
 		<type>graves</type>
@@ -10229,6 +10221,7 @@
 		<wearEffects>flameattack</wearEffects>
 
 		<bury>true</bury>
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<tags>sword</tags>
@@ -10576,7 +10569,7 @@
 		<value>3500</value>
 	</trickster>
 
-		<nuxcrown>
+	<nuxcrown>
 		<name esES="La corona de Nux - 100 años de antigüedad">Nux crown - 100 years old</name>
 		<description esES="La corona de Nux, fundador de la primera civilización">The crown of nux, founder of the first civilisation</description>
 		<description esES="Un artefacto raro. Éste objeto se have más valioso a medida que pasa el tiempo.">A rare artifact. This item become more and more valuable the older it gets.</description>
@@ -18131,5 +18124,14 @@
 	<!--Tavern items <bench> <name esES="Sillón cómodo">Comfortable bench</name> <description esES="Lleva la forma de mis nalgas">It has two butt-shaped grooves in it to maximize comfort</description> <type>furniture</type> <usedToSit>true</usedToSit> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative>
 		</bench> <taverncounter> <name esES="Mostrador de taberna">Tavern counter</name> <description esES="Está lleno de escupitajos">Saliva included!</description> <type>furniture</type> <usedToSit>false</usedToSit> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative> </taverncounter> <barreltable>
 		<name esES="Mesa de barril">Barrel table</name> <description esES="Qué poco original no?">Wow, how utterly unoriginal!</description> <type>furniture</type> <happiness>1</happiness> <alwaysOperative>false</alwaysOperative> </barreltable> /Tavern items -->
+
+	<oasisbushpalmtree>
+		<name esES="Arbusto de palmera">Palm tree bush</name>
+		<habitat>grass</habitat>
+		<maxAge>1d14400+14400</maxAge>
+		<maxAgeItem>oasispalmtree</maxAgeItem>
+		<action>qcut</action>
+	</oasisbushpalmtree>
+
 
 </items>
