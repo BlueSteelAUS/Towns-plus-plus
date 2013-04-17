@@ -370,8 +370,21 @@
 			<type>armor.special</type>
 			<PCT>10</PCT>
 			<quantity>1</quantity>
+		</item>		
+		<item>
+			<type>cagedanimals</type>
+			<PCT>15</PCT>
+			<quantity>1d5</quantity>
 		</item>
-
+	</boat>
+	
+	<animal>
+		<zone>zmarket</zone>
+		<pricePCT>1d200+200</pricePCT>
+		<coins>1d2000+500</coins>
+		<buys>cagedanimal,rawmaterials.hides</buys>
+		<comePCT>100</comePCT>
+		
 		<item>
 			<id>unifallowincage</id>
 			<PCT>10</PCT>
@@ -386,8 +399,20 @@
 
 		<item>
 			<id>pigincage</id>
-			<PCT>10</PCT>
-			<quantity>1d4</quantity>
+			<PCT>25</PCT>
+			<quantity>1d6</quantity>
+		</item>
+
+		<item>
+			<id>cowincage</id>
+			<PCT>25</PCT>
+			<quantity>1d6</quantity>
+		</item>
+
+		<item>
+			<id>chickenincage</id>
+			<PCT>25</PCT>
+			<quantity>1d6</quantity>
 		</item>
 
 		<item>
@@ -410,8 +435,26 @@
 
 		<item>
 			<id>sheepincage</id>
-			<PCT>10</PCT>
+			<PCT>25</PCT>
+			<quantity>1d6</quantity>
+		</item>
+		
+		<item>
+			<id>roosterincage</id>
+			<PCT>20</PCT>
 			<quantity>1d4</quantity>
 		</item>
-	</boat>
+		
+		<item>
+			<id>bullincage</id>
+			<PCT>20</PCT>
+			<quantity>1d4</quantity>
+		</item>
+		
+		<item>
+			<id>boarincage</id>
+			<PCT>20</PCT>
+			<quantity>1d4</quantity>
+		</item>
+	</animal>
 </caravans>

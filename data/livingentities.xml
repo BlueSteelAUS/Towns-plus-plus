@@ -942,6 +942,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagecow</action>
 	</cow>
 
 	<milkedcow>
@@ -976,7 +978,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcagecow</action>
 	</milkedcow>
 
 	<wildcow>
@@ -1007,6 +1010,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagecow</action>
 	</wildcow>
 
 
@@ -1042,6 +1047,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagecow</action>
 	</milkedwildcow>
 
 
@@ -1080,7 +1087,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcagebull</action>
 	</bull>
 
 	<wildbull>
@@ -1112,7 +1120,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcagebull</action>
 	</wildbull>
 
 	<sheep>
@@ -1146,6 +1155,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagesheep</action>
 	</sheep>
 
 	<skinnedsheep>
@@ -1179,6 +1190,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagesheep</action>
 	</skinnedsheep>
 
 	<wildsheep>
@@ -1205,6 +1218,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagesheep</action>
 	</wildsheep>
 
 	<skinnedwildsheep>
@@ -1234,6 +1249,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagesheep</action>
 	</skinnedwildsheep>
 
 	<bird>
@@ -1352,7 +1369,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcageunifallow</action>
 	</unifallow>
 
 	<milkedunifallow>
@@ -1385,7 +1403,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcageunifallow</action>
 	</milkedunifallow>
 
 	<wildunifallow>
@@ -1415,7 +1434,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcageunifallow</action>
 	</wildunifallow>
 
 
@@ -1449,7 +1469,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcageunifallow</action>
 	</milkedwildunifallow>
 
 
@@ -1485,7 +1506,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcageboar</action>
 	</boar>
 
 	<wildboar>
@@ -1517,7 +1539,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcageboar</action>
 	</wildboar>
 
 	<pig>
@@ -1551,7 +1574,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcagepig</action>
 	</pig>
 
 	<wildpig>
@@ -1582,7 +1606,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcagepig</action>
 	</wildpig>
 
 	
@@ -1609,6 +1634,8 @@
 			<PCT>70</PCT>
 		</drop>
 		<foodNeeded>apple,pear,wheat</foodNeeded>
+		
+		<action>qcagesnoat</action>
 	</snoat>
 
 	<skinnedsnoat>
@@ -1636,6 +1663,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagesnoat</action>
 	</skinnedsnoat>
 
 	<milkedsnoat>
@@ -1663,7 +1692,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcagesnoat</action>
 	</milkedsnoat>
 
 	<reindeer>
@@ -1773,6 +1803,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcagebadger</action>
 	</badger>
 
 	<wildbadger>
@@ -1803,6 +1835,8 @@
 			<item>rawbadgermeat</item>
 			<PCT>15</PCT>
 		</drop>
+		
+		<action>qcagebadger</action>
 	</wildbadger>
 
 	<guardbadger>
@@ -1986,6 +2020,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcagerooster</action>
 	</rooster>
 	<wildrooster>
 		<type>FRIENDLY</type>
@@ -2018,6 +2054,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcagerooster</action>
 	</wildrooster>
 
 
@@ -2053,6 +2091,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcagechicken</action>
 	</chicken>
 
 	<layedeggchicken>
@@ -2087,6 +2127,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcagechicken</action>
 	</layedeggchicken>
 
 	<wildchicken>
@@ -2118,6 +2160,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcagechicken</action>
 	</wildchicken>
 
 	<layedeggwildchicken>
@@ -2152,6 +2196,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcagechicken</action>
 	</layedeggwildchicken>
 
 	<skootenbeeten>
@@ -2184,6 +2230,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcageskootenbeeten</action>
 	</skootenbeeten>
 
 	<layedeggskooten>
@@ -2216,6 +2264,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcageskootenbeeten</action>
 	</layedeggskooten>
 
 	<wildskootenbeeten>
@@ -2245,6 +2295,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcageskootenbeeten</action>
 	</wildskootenbeeten>
 
 	<layedeggwildskooten>
@@ -2277,6 +2329,8 @@
 			<item>bones</item>
 			<PCT>75</PCT>
 		</drop>
+		
+		<action>qcageskootenbeeten</action>
 	</layedeggwildskooten>
 
 	<!-- ENEMIES -->
@@ -4931,6 +4985,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		
+		<action>qcagesnoat</action>
 	</skinnedwildsnoat>
 
 	<milkedwildsnoat>
@@ -4958,7 +5014,28 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		
+		<action>qcagesnoat</action>
 	</milkedwildsnoat>
 
+	<!-- ANIMAL CARAVAN -LM -->
+	<animalcaravan>
+		<type>FRIENDLY</type>
+
+		<name esES="N/A">Animal Caravan</name>
+		<attack>150</attack>
+		<attackSpeed>50</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>250</healthPoints>
+		<attackVerb esES="empuja">pushes</attackVerb>
+		<attackVerbInfinitive esES="empujar">push</attackVerbInfinitive>
+		<damage>100</damage>
+		<movePCT>0</movePCT>
+		<walkSpeed>35</walkSpeed>
+		<evadeTraps>true</evadeTraps>
+
+		<facingDirections>true</facingDirections>
+
+		<caravan>animal</caravan>
+	</animalcaravan>
 </livingentities>

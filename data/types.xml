@@ -83,5 +83,7 @@
 
 	<!-- GRAVES -->
 	<graves esES="N/A" icon="corpse">Graves</graves>
-
+	
+	<!-- CAGED ANIMALS -->
+	<cagedanimals esES="N/A" icon="cowincage">Caged Animals</cagedanimals>
 </types>

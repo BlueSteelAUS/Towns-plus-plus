@@ -20123,4 +20123,190 @@
 		</queue>
 	</action>
 
+	<!-- NEW CAGES -LM -->
+	<action>
+		<id>qreleaserooster</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">roosterincage</move>
+			<wait>1</wait>
+			<move useSource="true">roosterincage</move>
+			<destroyCellItem />
+			<createFriendly>rooster</createFriendly>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qreleasebull</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bullincage</move>
+			<wait>1</wait>
+			<move useSource="true">bullincage</move>
+			<destroyCellItem />
+			<createFriendly>bull</createFriendly>
+		</queue>
+	</action>	
+	
+	<action>
+		<id>qreleaseboar</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">boarincage</move>
+			<wait>1</wait>
+			<move useSource="true">boarincage</move>
+			<destroyCellItem />
+			<createFriendly>boar</createFriendly>
+		</queue>
+	</action>
+	
+	<!-- CAGE ANIMALS -->
+	<action>
+		<id>qcagechicken</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">chicken,wildchicken,layedeggchicken,layedeggwildchicken</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>chickenincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcagerooster</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">rooster,wildrooster</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>roosterincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcagecow</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">cow,wildcow,milkedcow,milkedwildcow</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>cowincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcagebull</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">bull,wildbull</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>bullincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcagepig</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">pig,wildpig</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>pigincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcageboar</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">boar,wildboar</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>boarincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcagesheep</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">sheep,wildsheep,skinnedsheep,skinnedwildsheep</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>sheepincage</createItem>
+		</queue>
+	</action>
+		
+	<action>
+		<id>qcageunifallow</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">unifallow,wildunifallow</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>unifallowincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcagesnoat</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">snoat,wildsnoat,milkedsnoat,milkedwildsnoat,skinnedsnoat,skinnedwildsnoat</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>snoatincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcageskootenbeeten</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">skootenbeeten,wildskootenbeeten,layedeggskooten,layedeggwildskooten</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>skootenbeetenincage</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qcagebadger</id>
+		<name esES="N/A">Cage the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">badger,wildbadger</pickFriendly>
+			<wait>15</wait>
+			<destroyItem />
+			<createItem>badgerincage</createItem>
+		</queue>
+	</action>
 </actions>
