@@ -71,9 +71,24 @@
 		<comePCT>100</comePCT>
 
 		<item>
-			<type>furniture</type>
+			<type>furniture.beds</type>
 			<PCT>100</PCT>
-			<quantity>1d20+20</quantity>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>furniture.tables</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>furniture.cupboards</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>furniture.chairs</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
 		</item>
 		<item>
 			<type>decorative</type>
@@ -89,16 +104,6 @@
 			<type>decorative.outdoor</type>
 			<PCT>60</PCT>
 			<quantity>1d10+15</quantity>
-		</item>
-		<item>
-			<type>armor.cloth</type>
-			<PCT>20</PCT>
-			<quantity>1d2+1</quantity>
-		</item>
-		<item>
-			<type>armor.special</type>
-			<PCT>10</PCT>
-			<quantity>1</quantity>
 		</item>
 	</pinky>
 
