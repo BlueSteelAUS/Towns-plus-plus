@@ -4452,7 +4452,7 @@
 	<woodenbed>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>furniture</type>
+		<type>furniture.beds</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
@@ -4515,7 +4515,7 @@
 		<name esES="Litera de madera">Wooden dormitory bed</name>
 		<description esES="Me pido la de arriba!">Calling dibs on the bottom bed!</description>
 
-		<type>furniture</type>
+		<type>furniture.beds</type>
 
 		<usedToSleep>true</usedToSleep>
 
@@ -4563,7 +4563,7 @@
 	<bonebed>
 		<name esES="Cama de hueso">Bone bed</name>
 
-		<type>furniture</type>
+		<type>furniture.beds</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
@@ -4610,7 +4610,7 @@
 		<name esES="Silla de piedra">Stone chair</name>
 		<description esES="Conocida como -El trono helado-">Also known as -The frozen throne-</description>
 
-		<type>furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -4657,7 +4657,7 @@
 	<purplethrone>
 		<name esES="Trono púrpura">Purple throne</name>
 		<description esES="No es como el de hierro">Not unlike the iron throne</description>
-		<type>furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -4696,7 +4696,7 @@
 		<name esES="Silla de madera">Wooden chair</name>
 		<description esES="Llámame Astillator">Call me Splinter</description>
 
-		<type>furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -4751,7 +4751,7 @@
 		<name esES="Estantería">Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
-		<type>furniture</type>
+		<type>furniture.cupboards</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -4966,7 +4966,7 @@
 		<name esES="La mesa de Caprontos, el arquitecto">Caprontos the architect's table</name>
 		<description esES="Los mundos se crearon con ella">Worlds are made with this</description>
 
-		<type>furniture</type>
+		<type>decorative.indoor</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
@@ -4983,7 +4983,6 @@
 		<name esES="La mesa de Caprontos, el arquitecto">Caprontos the architect's table</name>
 		<description esES="Los mundos se crearon con ella">Worlds are made with this</description>
 
-		<type>furniture</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
@@ -4996,7 +4995,7 @@
 		<name esES="Mesa de piedra">Stone table</name>
 		<description esES="Robusta, pero fria">Sturdy, but cold</description>
 
-		<type>furniture</type>
+		<type>furniture.tables</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>92</value>
@@ -5041,7 +5040,7 @@
 		<name esES="Mesa de madera">Wooden table</name>
 		<description esES="Cojea de una pata">Oh great, one of the legs is shorter than the others</description>
 
-		<type>furniture</type>
+		<type>furniture.tables</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>92</value>
@@ -5099,7 +5098,7 @@
 	<squarestable>
 		<name esES="Mesa de madera a cuadros">Wooden squares table</name>
 
-		<type>furniture</type>
+		<type>furniture.tables</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>95</value>
@@ -5425,7 +5424,6 @@
 	<medicinecabinet>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
 		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
-		<type>furniture</type>
 		<zone>zhospital</zone>
 		<value>212</value>
 		<action>rotate_medicinecabinet_W</action>
@@ -8814,7 +8812,6 @@
 	<chimney>
 		<name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
-		<type>furniture</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -8837,7 +8834,6 @@
 	<animalfireplace>
 		<name esES="Chimenea con cabeza de toro">Bull head decorated fireplace</name>
 		<description esES="Haz que no me mire!">Make it stop staring at me!</description>
-		<type>furniture</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -11028,7 +11024,7 @@
 		<name esES="Cajonera de Madera">Wooden Drawer</name>
 		<description esES="Extrañamente, los cajones son sólidos">Oddly enough, doesn't draw anything.</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.cupboards</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11057,7 +11053,7 @@
 	<smallwoodendrawer_E>
 		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
 		<description esES="Que extraño... juraria que había uno mas grande">Oddly enough, doesn't draw anything.</description>
-		<type>cb262.furniture</type>
+		<type>furniture.cupboards</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11085,7 +11081,7 @@
 	<smallwoodendrawer_flower_E>
 		<name esES="Cajonerita de madera">Small Wooden Drawer</name>
 		<description esES="¡Ooooh! ¡Este tiene flores!">Oooh! This one has flowers!</description>
-		<type>cb262.furniture</type>
+		<type>furniture.cupboards</type>
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11114,7 +11110,7 @@
 		<name esES="Estantería">Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.cupboards</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11144,7 +11140,7 @@
 		<name esES="Estantería">Tall Wooden Cupboard</name>
 		<description esES="Ostras, que raro, no tiene ni una sola taza.">Oddly enough, contains no cups.</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.cupboards</type>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
@@ -11526,7 +11522,6 @@
 	<chimney_E>
 	    <name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendra caliente">It gets you warm and fuzzy</description>
-	    <type>furniture</type>
 	    <alwaysOperative>false</alwaysOperative>
 	    <happiness>1</happiness>
 	    <value>180</value>
@@ -11543,7 +11538,6 @@
 	<xmaschimney>
 		<name esES="Navidad Chimenea">Christmas Chimney</name>
 		<description esES="Te mantendra caliente">It gets you warm and fuzzy.</description>
-		<type>furniture</type>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>2</happiness>
 		<value>180</value>
@@ -11576,7 +11570,6 @@
 	<xmasfireplace>
 		<name esES="Navidad Chimenea">Christmas Fireplace</name>
 		<description esES="Haz que no me mire!">Make it stop staring at me!</description>
-		<type>furniture</type>
 		<wallConnector>true</wallConnector>
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>3</happiness>
@@ -15462,7 +15455,7 @@
 	<camo_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>cb262.furniture</type>
+		<type>furniture.beds</type>
 
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
@@ -15576,7 +15569,7 @@
 	<green_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>cb262.furniture</type>
+		<type>furniture.beds</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -15694,7 +15687,7 @@
 	<blue_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>cb262.furniture</type>
+		<type>furniture.beds</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -15810,7 +15803,7 @@
 	<red_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>cb262.furniture</type>
+		<type>furniture.beds</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -15926,7 +15919,7 @@
 	<purple_bed_N>
 		<name esES="Cama de madera">Wooden bed</name>
 
-		<type>cb262.furniture</type>
+		<type>furniture.beds</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -16085,7 +16078,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16185,7 +16178,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16285,7 +16278,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16385,7 +16378,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16485,7 +16478,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16585,7 +16578,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16685,7 +16678,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16785,7 +16778,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16885,7 +16878,7 @@
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
 
-		<type>cb262.furniture</type>
+		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>

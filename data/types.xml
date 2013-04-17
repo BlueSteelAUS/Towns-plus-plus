@@ -86,4 +86,10 @@
 	
 	<!-- CAGED ANIMALS -->
 	<cagedanimals esES="N/A" icon="cowincage">Caged Animals</cagedanimals>
+	
+	<!-- MORE FURNITURE TYPES -->
+	<furniture.beds esES="N/A">Beds</furniture.beds>
+	<furniture.chairs esES="N/A">Chairs</furniture.chairs>
+	<furniture.tables esES="N/A">Tables</furniture.tables>
+	<furniture.cupboards esES="N/A">Cupboards</furniture.cupboards>
 </types>
