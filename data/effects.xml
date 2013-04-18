@@ -1276,4 +1276,40 @@
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
 	</effect>
+
+	<effect>
+		<id>chickenplague</id>
+		<name esES="Plaga del pollo">Chicken plague</name>
+
+		<castEffects>chickenheart</castEffects>
+		<castTargets>CITIZEN</castTargets>
+		<castTrigger>ALWAYS</castTrigger>
+  		<castCooldown>1</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>chickenheart</id>
+		<name esES="Corazón del pollo">Chicken heart</name>
+
+		<castEffects>chickenflight</castEffects>
+		<castTargets>CITIZEN</castTargets>
+		<castTrigger>NEAR_DEATH</castTrigger>
+  		<castCooldown>5</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>chickenflight</id>
+		<name esES="Escape del pollo">Chicken flight</name>
+		<removeTarget>true</removeTarget>
+		<flee>true</flee>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
 </effects>

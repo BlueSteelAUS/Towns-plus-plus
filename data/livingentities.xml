@@ -29,7 +29,7 @@
 		<maxHungryTurns>1d1119+1760</maxHungryTurns>
 		<maxSleepTurns>1d719+2160</maxSleepTurns>
 		<eatZone>ztavern</eatZone>
-
+		
 		<facingDirections>true</facingDirections>
 		<equipAllowed>metal,cloth,wood,bone,bow,hammer,spear,mace,sword,axe,misc</equipAllowed>
 		
@@ -5102,4 +5102,28 @@
 		
 		<action>qcageskootenbeeten</action>
 	</pluckedwildskootenbeeten>
+
+	<mysteryousmiasma>
+		<type>FRIENDLY</type>
+		<name>Mysterious miasma</name>
+		<effects>chickenplague</effects>
+
+		<attack>1</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb>reeks</attackVerb>
+		<attackVerbInfinitive>reek</attackVerbInfinitive>
+		<damage>1</damage>
+		<LOS>250</LOS>
+
+		<movePCT>100</movePCT>
+		<walkSpeed>300</walkSpeed>
+
+		<animatedWhenIdle>true</animatedWhenIdle>
+
+		<maxAge>5</maxAge>
+	</mysteryousmiasma>
+
+
 </livingentities>
