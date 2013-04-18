@@ -20294,7 +20294,7 @@
 		<queue>
 			<pickFriendly useSource="true">chicken,wildchicken,layedeggchicken,layedeggwildchicken</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>chickenincage</createItem>
 		</queue>
 	</action>
@@ -20307,7 +20307,7 @@
 		<queue>
 			<pickFriendly useSource="true">rooster,wildrooster</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>roosterincage</createItem>
 		</queue>
 	</action>
@@ -20320,7 +20320,7 @@
 		<queue>
 			<pickFriendly useSource="true">cow,wildcow,milkedcow,milkedwildcow</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>cowincage</createItem>
 		</queue>
 	</action>
@@ -20333,7 +20333,7 @@
 		<queue>
 			<pickFriendly useSource="true">bull,wildbull</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>bullincage</createItem>
 		</queue>
 	</action>
@@ -20346,7 +20346,7 @@
 		<queue>
 			<pickFriendly useSource="true">pig,wildpig</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>pigincage</createItem>
 		</queue>
 	</action>
@@ -20359,7 +20359,7 @@
 		<queue>
 			<pickFriendly useSource="true">boar,wildboar</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>boarincage</createItem>
 		</queue>
 	</action>
@@ -20372,7 +20372,7 @@
 		<queue>
 			<pickFriendly useSource="true">sheep,wildsheep,skinnedsheep,skinnedwildsheep</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>sheepincage</createItem>
 		</queue>
 	</action>
@@ -20385,7 +20385,7 @@
 		<queue>
 			<pickFriendly useSource="true">unifallow,wildunifallow</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>unifallowincage</createItem>
 		</queue>
 	</action>
@@ -20398,7 +20398,7 @@
 		<queue>
 			<pickFriendly useSource="true">snoat,wildsnoat,milkedsnoat,milkedwildsnoat,skinnedsnoat,skinnedwildsnoat,skinnedmilkedsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>snoatincage</createItem>
 		</queue>
 	</action>
@@ -20411,7 +20411,7 @@
 		<queue>
 			<pickFriendly useSource="true">skootenbeeten,layedeggskooten,pluckedskootenbeeten,wildskootenbeeten,layedeggwildskooten,pluckedwildskootenbeeten</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>skootenbeetenincage</createItem>
 		</queue>
 	</action>
@@ -20424,7 +20424,7 @@
 		<queue>
 			<pickFriendly useSource="true">badger,wildbadger</pickFriendly>
 			<wait>15</wait>
-			<destroyItem />
+			<destroyFriendly />
 			<createItem>badgerincage</createItem>
 		</queue>
 	</action>
