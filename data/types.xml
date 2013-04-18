@@ -11,16 +11,6 @@
 	<weapon esES="Armas">Weapons</weapon>
 	<decorative esES="Decorativo">Decorations</decorative>
 	<mine esES="N/A">Mine</mine>
-		
-	<!-- CONSTRUCTION STOCKPILES -LM -->
-	<construction esES="Construcción">Construction</construction>
-	<construction.walls esES="Paredes finas" icon="ui_rwalls">Thin Walls</construction.walls>
-	<construction.blockwalls esES="Bloques de muros" icon="ui_sb_walls">Block Walls</construction.blockwalls>
-	<construction.stairs esES="Escaleras" icon="ui_woodstairs">Stairs</construction.stairs>
-	<construction.doors esES="Puertas" icon="ui_rdoors">Doors</construction.doors>
-	<construction.roofs esES="Techos" icon="ui_roofs">Roofs</construction.roofs>
-	<construction.windows esES="Ventanas" icon="ui_rwindows">Windows</construction.windows>
-	<construction.water esES="Control de fluidos" icon="waterbucket">Water Control</construction.water>
 
 	<rawmaterials.materials esES="Materiales" icon="ui_rmaterials">Materials</rawmaterials.materials>
 	<rawmaterials.colors esES="Colores" icon="ui_rcolors">Colors</rawmaterials.colors>
@@ -86,6 +76,17 @@
 	
 	<!-- CAGED ANIMALS -->
 	<cagedanimals esES="N/A" icon="cowincage">Caged Animals</cagedanimals>
+			
+	<!-- CONSTRUCTION STOCKPILES -LM -->
+	<construction esES="Construcción">Construction</construction>
+	<construction.walls esES="Paredes finas" icon="ui_rwalls">Thin Walls</construction.walls>
+	<construction.blockwalls esES="Bloques de muros" icon="ui_sb_walls">Block Walls</construction.blockwalls>
+	<construction.stairs esES="Escaleras" icon="ui_woodstairs">Stairs</construction.stairs>
+	<construction.doors esES="Puertas" icon="ui_rdoors">Doors</construction.doors>
+	<construction.roofs esES="Techos" icon="ui_roofs">Roofs</construction.roofs>
+	<construction.windows esES="Ventanas" icon="ui_rwindows">Windows</construction.windows>
+	<construction.water esES="Control de fluidos" icon="waterbucket">Water Control</construction.water>
+	<construction.workshops esES="N/A" icon="carpentrybench">Workshops</construction.workshops>
 	
 	<!-- MORE FURNITURE TYPES -->
 	<furniture.beds esES="N/A" icon="woodenbed">Beds</furniture.beds>
