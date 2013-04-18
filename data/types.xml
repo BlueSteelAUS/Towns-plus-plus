@@ -86,8 +86,7 @@
 	<construction.roofs esES="Techos" icon="ui_roofs">Roofs</construction.roofs>
 	<construction.windows esES="Ventanas" icon="ui_rwindows">Windows</construction.windows>
 	<construction.water esES="Control de fluidos" icon="waterbucket">Water Control</construction.water>
-	<construction.workshops esES="N/A" icon="carpentrybench">Workshops</construction.workshops>
-	
+			
 	<!-- MORE FURNITURE TYPES -->
 	<furniture.beds esES="N/A" icon="woodenbed">Beds</furniture.beds>
 	<furniture.chairs esES="N/A" icon="woodenchair">Chairs</furniture.chairs>

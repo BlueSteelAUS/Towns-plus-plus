@@ -2186,7 +2186,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<action>del_mill</action>
 	</mill>
 
@@ -5267,7 +5267,7 @@
 	<anvil>
 		<name esES="Yunque">Anvil</name>
 		<description esES="Se usa en la fabricación de objetos de hierro">Used in the construction of iron based items</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zforge</zone>
 		<value>212</value>
@@ -5280,7 +5280,7 @@
 		<name esES="Forjador de Ite">ITE smithy</name>
 		<description esES="Una mesa magica que irradia poder">A magical bench</description>
 		<description esES="Se usa en la fabricacion de objetos Ite">Used in the construction of Ite based items</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zforge</zone>
 		<value>212</value>
@@ -5312,7 +5312,7 @@
 	<kitchentable>
 		<name esES="Mesa de cocina">Kitchen table</name>
 		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -5347,7 +5347,7 @@
 	<butchertable>
 		<name esES="Mesa de matadero">Butcher's table</name>
 		<description esES="Se usa para matar animales para conseguir comida">Used to butcher animals for their meat</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -5395,7 +5395,7 @@
 	<cookingbowl>
 		<name esES="Cuenco de cocina">Cooking bowl</name>
 		<description esES="Remuévelo">Stir it up</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<alwaysOperative>false</alwaysOperative>
 
@@ -5430,7 +5430,7 @@
 	<medicinecabinet>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
 		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<zone>zhospital</zone>
 		<value>212</value>
 		<action>rotate_medicinecabinet_W</action>
@@ -5442,7 +5442,7 @@
 	<smelter>
 		<name esES="Fundidor">Smelter</name>
 		<description esES="Se usa para fabricar objetos de hierro">Used in the construction of iron based items</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -5548,7 +5548,7 @@
 	<stove>
 		<name esES="Horno de cocina">Stove</name>
 		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zkitchen</zone>
 		<lightRadius>1</lightRadius>
@@ -7523,7 +7523,7 @@
 	<bakeroven>
 		<name esES="Horno de panadero">Baker's oven</name>
 		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7571,7 +7571,7 @@
 	<bakertable>
 		<name esES="Mesa de panadero">Baker's table</name>
 		<description esES="La típica mesa... de panadero">A typical... baker's... table</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7618,7 +7618,7 @@
 		<name esES="Mesa de carpintero">Carpenters bench</name>
 		<description esES="Una mesa de carpintero oxidado">A rusted wooden carpenter's bench</description>
 		<description esES="Con ella construirás objetos de madera">Used to make wooden objects</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7645,7 +7645,7 @@
 
 	<skinner>
 		<name esES="Mesa de curtidor">Hide skinning table</name>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7668,7 +7668,7 @@
 
 	<colormixer>
 		<name esES="Tabla para mezclar colores">Color mixing bench</name>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7694,7 +7694,7 @@
 	<carvingbench>
 		<name esES="Mesa de tallador">Bonecarving bench</name>
 		<description esES="Se usa para fabricar objetos de hueso">Used to make bone objects</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7727,7 +7727,7 @@
 		<name esES="Mesa de albañil">Mason's bench</name>
 		<description esES="Una mesa de albañil">A stonemason's stone table</description>
 		<description esES="Útil para crear objetos de piedra">Used to make stone objects</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7755,7 +7755,7 @@
 	<wooddetailer>
 		<name esES="Curtidor de madera">Wood detailer</name>
 		<description esES="Usada en la creación de objetos de madera avanzados">Allows for advanced wooden items</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -10972,7 +10972,7 @@
 
 	<beerbarrel>
 		<name esES="Barril de Cerveza">Beer Barrel</name>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<description >Used to make beer</description>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>ztavern</zone>
@@ -10983,7 +10983,7 @@
 
 	<winebarrel>
 		<name esES="Barril de Vino">Wine Barrel</name>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<description >Used to make Wine</description>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>ztavern</zone>
@@ -11627,7 +11627,7 @@
 	<xmasbakeroven>
 		<name esES="Horno de panadero">Christmas Baker's oven</name>
 		<description esES="El típico horno.... de panadero">A typical... baker's... oven</description>
-		<type>construction.workshops</type>
+		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>

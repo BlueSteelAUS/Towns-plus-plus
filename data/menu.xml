@@ -13,6 +13,7 @@
 		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
 		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
 		<item id="prepfood" name="Prepared food" esES="Comida preparada" code="STOCKPILE" parameter="prepfood" icon="ui_sprepfood" />
+		<item id="utils" name="Utilities" esES="Utiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
 		<item id="furniture" name="Furniture" esES="Muebles" code="STOCKPILE" parameter="furniture" icon="ui_sfurniture" />
 		<item id="ites" name="ITEs" esES="ITEs" code="STOCKPILE" parameter="ites" icon="ui_sites" />
 		<item id="armor" name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />

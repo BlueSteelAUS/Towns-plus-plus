@@ -944,6 +944,7 @@
 		</drop>
 		
 		<action>qcagecow</action>
+		<action>qgetanimalhide</action>
 	</cow>
 
 	<milkedcow>
@@ -980,6 +981,7 @@
 		</drop>
 		
 		<action>qcagecow</action>
+		<action>qgetanimalhide</action>
 	</milkedcow>
 
 	<wildcow>
@@ -1012,6 +1014,7 @@
 		</drop>
 		
 		<action>qcagecow</action>
+		<action>qgetanimalhide</action>
 	</wildcow>
 
 
@@ -1049,6 +1052,7 @@
 		</drop>
 		
 		<action>qcagecow</action>
+		<action>qgetanimalhide</action>
 	</milkedwildcow>
 
 
@@ -1089,6 +1093,7 @@
 		</drop>
 		
 		<action>qcagebull</action>
+		<action>qgetanimalhide</action>
 	</bull>
 
 	<wildbull>
@@ -1122,6 +1127,7 @@
 		</drop>
 		
 		<action>qcagebull</action>
+		<action>qgetanimalhide</action>
 	</wildbull>
 
 	<sheep>
@@ -1371,6 +1377,7 @@
 		</drop>
 		
 		<action>qcageunifallow</action>
+		<action>qgetunifallowhide</action>
 	</unifallow>
 
 	<milkedunifallow>
@@ -1405,6 +1412,7 @@
 		</drop>
 		
 		<action>qcageunifallow</action>
+		<action>qgetunifallowhide</action>
 	</milkedunifallow>
 
 	<wildunifallow>
@@ -1436,6 +1444,7 @@
 		</drop>
 		
 		<action>qcageunifallow</action>
+		<action>qgetunifallowhide</action>
 	</wildunifallow>
 
 
@@ -1471,8 +1480,8 @@
 		</drop>
 		
 		<action>qcageunifallow</action>
+		<action>qgetunifallowhide</action>
 	</milkedwildunifallow>
-
 
 	<boar>
 		<type>FRIENDLY</type>
@@ -1636,6 +1645,7 @@
 		<foodNeeded>apple,pear,wheat</foodNeeded>
 		
 		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</snoat>
 
 	<skinnedsnoat>
@@ -1665,6 +1675,7 @@
 		</drop>
 		
 		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</skinnedsnoat>
 
 	<milkedsnoat>
@@ -1694,6 +1705,7 @@
 		</drop>
 		
 		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</milkedsnoat>
 
 	<reindeer>
@@ -1717,6 +1729,7 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		<action>qgetanimalhide</action>
 
 	</reindeer>
 
@@ -1741,6 +1754,7 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		<action>qgetanimalhide</action>
 
 	</doe>
 
@@ -2023,6 +2037,7 @@
 		
 		<action>qcagerooster</action>
 	</rooster>
+	
 	<wildrooster>
 		<type>FRIENDLY</type>
 
@@ -2057,7 +2072,6 @@
 		
 		<action>qcagerooster</action>
 	</wildrooster>
-
 
 	<chicken>
 		<type>FRIENDLY</type>
@@ -2297,6 +2311,7 @@
 		</drop>
 		
 		<action>qcageskootenbeeten</action>
+		<action>qwildskootenfeather</action>
 	</wildskootenbeeten>
 
 	<layedeggwildskooten>
@@ -2331,6 +2346,7 @@
 		</drop>
 		
 		<action>qcageskootenbeeten</action>
+		<action>qwildskootenfeather</action>
 	</layedeggwildskooten>
 
 	<!-- ENEMIES -->
@@ -4792,9 +4808,7 @@
 			<item>purplegel</item>
 			<PCT>100</PCT>
 		</drop>
-
 	</purpleslime>
-
 
 	<skinnedmilkedsnoat>
 		<type>FRIENDLY</type>
@@ -4821,7 +4835,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</skinnedmilkedsnoat>
 
 	<wildsnoat>
@@ -4847,35 +4862,9 @@
 			<PCT>70</PCT>
 		</drop>
 		<foodNeeded>apple,pear,wheat</foodNeeded>
+		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</wildsnoat>
-
-	<skinnedmilkedsnoat>
-		<type>FRIENDLY</type>
-		<habitat>snow</habitat>
-		<name>Snoat</name>
-		<attack>1d119+340</attack>
-		<attackSpeed>5</attackSpeed>
-		<defense>1d119+340</defense>
-		<healthPoints>1d59+170</healthPoints>
-		<attackVerb esES="muerde">bites</attackVerb>
-		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
-		<damage>1d44+128</damage>
-
-		<movePCT>1d3</movePCT>
-		<walkSpeed>75</walkSpeed>
-
-		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>milkedsnoat</maxAgeLiving>
-		<facingDirections>true</facingDirections>
-
-		<action>qkillsnoat</action>
-
-		<drop>
-			<item>bones</item>
-			<PCT>70</PCT>
-		</drop>
-
-	</skinnedmilkedsnoat>
 
 	<skinnedsnoat>
 		<type>FRIENDLY</type>
@@ -4902,6 +4891,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
+		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</skinnedsnoat>
 
 	<milkedsnoat>
@@ -4929,7 +4920,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</milkedsnoat>
 
 	<skinnedmilkedwildsnoat>
@@ -4957,7 +4949,8 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-
+		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</skinnedmilkedwildsnoat>
 
 	<skinnedwildsnoat>
@@ -4987,6 +4980,7 @@
 		</drop>
 		
 		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</skinnedwildsnoat>
 
 	<milkedwildsnoat>
@@ -5016,6 +5010,7 @@
 		</drop>
 		
 		<action>qcagesnoat</action>
+		<action>qgetanimalhide</action>
 	</milkedwildsnoat>
 
 	<!-- ANIMAL CARAVAN -LM -->
@@ -5038,4 +5033,73 @@
 
 		<caravan>animal</caravan>
 	</animalcaravan>
+	
+	<!-- PLUCKED SKOOTENBEETEN -->
+	<pluckedskootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name>Skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>skootenbeeten</maxAgeLiving>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		
+		<action>qcageskootenbeeten</action>
+	</pluckedskootenbeeten>
+	
+	<pluckedwildskootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name esES="Skootenbeeten salvaje">Wild skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildskootenbeeten</maxAgeLiving>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		
+		<action>qcageskootenbeeten</action>
+	</pluckedwildskootenbeeten>
 </livingentities>
