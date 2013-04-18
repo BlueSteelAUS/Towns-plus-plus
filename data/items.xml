@@ -5439,15 +5439,6 @@
 		<action>del_medicinecabinet</action>
 	</medicinecabinet>
 
-	<medicineghost>
-		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
-		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
-		<spawn>mysteryousmiasma</spawn>
-		<spawnTurns>1</spawnTurns>
-		<maxAge>2</maxAge>
-		<maxAgeItem>medicinecabinet</maxAgeItem>
-	</medicineghost>
-
 	<smelter>
 		<name esES="Fundidor">Smelter</name>
 		<description esES="Se usa para fabricar objetos de hierro">Used in the construction of iron based items</description>
@@ -18199,4 +18190,14 @@
 
 		<value>250</value>
 	</boarincage>
+
+	<medicineghost>
+		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
+		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
+		<spawn>mysteryousmiasma</spawn>
+		<spawnTurns>1</spawnTurns>
+		<maxAge>2</maxAge>
+		<maxAgeItem>medicinecabinet</maxAgeItem>
+	</medicineghost>
+
 </items>

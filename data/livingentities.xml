@@ -39,6 +39,7 @@
 		</drop>
 
 		<fxDead>fxdeadmale</fxDead>
+		<effects>fightflight</effects>
 	</citizenmale>
 
 	<citizenfemale>
@@ -79,6 +80,7 @@
 		</drop>
 
 		<fxDead>fxdeadfemale</fxDead>
+		<effects>fightflight</effects>
 	</citizenfemale>
 
 
@@ -5103,10 +5105,10 @@
 		<action>qcageskootenbeeten</action>
 	</pluckedwildskootenbeeten>
 
-	<mysteryousmiasma>
+	<knowledgecloud>
 		<type>FRIENDLY</type>
-		<name>Mysterious miasma</name>
-		<effects>chickenplague</effects>
+		<name>Knowledge Cloud - when to runaway</name>
+		<effects>fightflight</effects>
 
 		<attack>1</attack>
 		<attackSpeed>5</attackSpeed>
@@ -5123,7 +5125,7 @@
 		<animatedWhenIdle>true</animatedWhenIdle>
 
 		<maxAge>2000</maxAge>
-	</mysteryousmiasma>
+	</knowledgecloud>
 
 
 </livingentities>
