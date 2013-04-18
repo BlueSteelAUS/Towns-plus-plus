@@ -4,51 +4,71 @@
 	<zbakery>
 		<name esES="Panadería">Bakery</name>
 		<type>WORKSHOP</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zbakery>
 
 	<zcarpentry>
 		<name esES="Carpintería">Carpentry</name>
 		<type>WORKSHOP</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zcarpentry>
 
 	<zdining>
 		<name esES="Comedor">Dining room</name>
 		<type>DINING</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zdining>
 
 	<zforge>
 		<name esES="Forja">Forge</name>
 		<type>WORKSHOP</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zforge>
 
 	<zhospital>
 		<name>Hospital</name>
 		<type>HOSPITAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zhospital>
 
 	<zkitchen>
 		<name esES="Cocina">Kitchen</name>
 		<type>WORKSHOP</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zkitchen>
 
 	<zmasonry>
 		<name esES="Albañilería">Masonry</name>
 		<type>WORKSHOP</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zmasonry>
 
 	<zpersonal>
 		<name esES="Habitación personal">Personal room</name>
 		<type>PERSONAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zpersonal>
 
 	<zarena>
 		<name esES="Arena">Arena</name>
 		<type>WORKSHOP</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zarena>
 
 	<zatelier>
 		<name esES="Taller">Atelier</name>
 		<type>WORKSHOP</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zatelier>
 
 	<zbalcony>
@@ -62,25 +82,29 @@
 	<ztavern>
 		<name esES="Taberna">Tavern</name>
 		<type>DINING</type>
-		<minWidth>5</minWidth>
-		<minHeight>5</minHeight>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</ztavern>
 
 	<ztavernroom>
 		<name esES="Habitación de taberna">Tavern room</name>
 		<type>HEROROOM</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</ztavernroom>
 
 	<zmarket>
 		<name esES="Mercado">Market</name>
 		<type>SOCIAL</type>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zmarket>
 
 	<zbarracks>
 		<name esES="Cuartel">Barracks</name>
 		<type>BARRACKS</type>
-		<minWidth>5</minWidth>
-		<minHeight>5</minHeight>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
 	</zbarracks>
 
 	<efloor1>
