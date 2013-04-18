@@ -5437,28 +5437,15 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_medicinecabinet</action>
-
-		<spawn>medicineghost</spawn>
-		<spawnMaxItems>1</spawnMaxItems>
-		<spawnTurns>1</spawnTurns>
 	</medicinecabinet>
-
 
 	<medicineghost>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
 		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
-		<type>utils.workshops</type>
-		<zone>zhospital</zone>
-		<value>212</value>
-		<action>rotate_medicinecabinet_W</action>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>del_medicinecabinet</action>
-
 		<spawn>mysteryousmiasma</spawn>
-		<spawnMaxItems>1</spawnMaxItems>
 		<spawnTurns>1</spawnTurns>
-		<maxage>5</maxage>
+		<maxAge>2</maxAge>
+		<maxAgeItem>medicinecabinet</maxAgeItem>
 	</medicineghost>
 
 	<smelter>
