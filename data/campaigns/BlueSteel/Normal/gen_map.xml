@@ -159,6 +159,7 @@
 		<type>copper</type>
 		<num>8</num>
 		<level>1d6+25</level>
+		<heightMin>20</heightMin>
 		<turns>50</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -172,7 +173,8 @@
 	<seed id="iron">
 		<type>iron</type>
 		<num>8</num>
-		<level>1d6+25</level>
+		<level>1d6+24</level>
+		<heightMin>20</heightMin>
 		<turns>50</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -187,6 +189,7 @@
 		<type>densestone</type>
 		<num>8</num>
 		<level>1d6+26</level>
+		<heightMin>20</heightMin>
 		<turns>20</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -201,6 +204,7 @@
 		<type>silver</type>
 		<num>4</num>
 		<level>1d6+27</level>
+		<heightMin>20</heightMin>
 		<turns>30</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -215,6 +219,7 @@
 		<type>gold</type>
 		<num>3</num>
 		<level>1d6+28</level>
+		<heightMin>20</heightMin>
 		<turns>20</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>

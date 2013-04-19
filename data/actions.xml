@@ -821,7 +821,7 @@
 			<pick>rmwood</pick>
 			<wait>32</wait>
 			<destroyItem />
-			<pick>rmiron</pick>
+			<pick>rmiron,rmcopper</pick>
 			<move>anvil</move>
 			<wait>32</wait>
 			<destroyItem />
@@ -921,7 +921,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>rmiron</pick>
+			<pick>rmiron,rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -964,12 +964,12 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>rmiron</pick>
+			<pick>rmiron,rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<pick>rmiron</pick>
+			<pick>rmiron,rmcopper</pick>
 			<move>anvil</move>
 			<wait>32</wait>
 			<destroyItem />
