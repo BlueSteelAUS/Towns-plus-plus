@@ -21,6 +21,7 @@ LittleMikey's Contributions:
 -> Added new stockpile for caged animals.
 -> Changed breeding animals to use the Feed priority instead of itemConstruction.
 -> Added remove command to rest of hero tombs.
+-> Fixed error with armor/weapon cabinets.
 
 [/code]
 

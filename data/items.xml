@@ -13140,6 +13140,7 @@
 
 	<armorcabinet_W>
 		<name esES="Mostrador de armaduras">Armor cabinet</name>
+		<type>armor</type>
 		<container>true</container>
 		<containerSize>25</containerSize>
 		<value>90</value>
@@ -13156,6 +13157,7 @@
 
 	<weaponcabinet_W>
 		<name esES="Mostrador de armas">Weapon cabinet</name>
+		<type>weapon</type>
 		<container>true</container>
 		<containerSize>25</containerSize>
 		<value>90</value>
