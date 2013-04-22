@@ -385,9 +385,9 @@
 	
 	<animal>
 		<zone>zmarket</zone>
-		<pricePCT>1d200+200</pricePCT>
+		<pricePCT>1d150+200</pricePCT>
 		<coins>1d2000+500</coins>
-		<buys>cagedanimal,rawmaterials.hides</buys>
+		<buys>cagedanimals,rawmaterials.hides</buys>
 		<comePCT>100</comePCT>
 		
 		<item>

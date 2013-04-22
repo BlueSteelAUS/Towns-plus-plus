@@ -24,6 +24,7 @@ LittleMikey's Contributions:
 -> Changed breeding animals to use the Feed priority instead of itemConstruction.
 -> Added remove command to rest of hero tombs.
 -> Fixed error with armor/weapon cabinets.
+-> Fixed graphical issue with rotating some coloured stairs. 
 
 [/code]
 

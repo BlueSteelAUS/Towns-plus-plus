@@ -18995,7 +18995,7 @@
 			<move useSource="true">barbariantomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>barbariantomb</createItem>
+			<createItem>barbariancorpse</createItem>
 		</queue>
 	</action>	
 	<action>
@@ -19007,7 +19007,7 @@
 			<move useSource="true">elftomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>elftomb</createItem>
+			<createItem>elfcorpse</createItem>
 		</queue>
 	</action>	
 	<action>
@@ -19019,7 +19019,7 @@
 			<move useSource="true">magetomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>magetomb</createItem>
+			<createItem>magecorpse</createItem>
 		</queue>
 	</action>	
 	<action>
@@ -19031,7 +19031,7 @@
 			<move useSource="true">knighttomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>knighttomb</createItem>
+			<createItem>knightcorpse</createItem>
 		</queue>
 	</action>
 	<action>
@@ -19043,7 +19043,7 @@
 			<move useSource="true">maleroguetomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>maleroguetomb</createItem>
+			<createItem>roguemalecorpse</createItem>
 		</queue>
 	</action>
 	<action>
@@ -19055,7 +19055,7 @@
 			<move useSource="true">femaleroguetomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>femaleroguetomb</createItem>
+			<createItem>roguefemalecorpse</createItem>
 		</queue>
 	</action>
 	<action>
@@ -19067,7 +19067,7 @@
 			<move useSource="true">dwarftomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>dwarftomb</createItem>
+			<createItem>dwarfcorpse</createItem>
 		</queue>
 	</action>
 	<action>
@@ -19079,7 +19079,7 @@
 			<move useSource="true">highlandertomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>highlandertomb</createItem>
+			<createItem>highlandercorpse</createItem>
 		</queue>
 	</action>	
 	<action>
@@ -19091,7 +19091,7 @@
 			<move useSource="true">herbalisttomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>herbalisttomb</createItem>
+			<createItem>herbalistcorpse</createItem>
 		</queue>
 	</action>
 	<action>
@@ -19103,7 +19103,7 @@
 			<move useSource="true">punchwoodtomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>punchwoodtomb</createItem>
+			<createItem>punchwoodcorpse</createItem>
 		</queue>
 	</action>
 	<action>
@@ -19115,7 +19115,7 @@
 			<move useSource="true">sipstomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>sipstomb</createItem>
+			<createItem>sipscorpse</createItem>
 		</queue>
 	</action>	
 	<action>
@@ -19127,7 +19127,7 @@
 			<move useSource="true">vechstomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>vechstomb</createItem>
+			<createItem>vechscorpse</createItem>
 		</queue>
 	</action>
 	<action>
@@ -19139,7 +19139,7 @@
 			<move useSource="true">santatomb</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>santatomb</createItem>
+			<createItem>santacorpse</createItem>
 		</queue>
 	</action>	
 
