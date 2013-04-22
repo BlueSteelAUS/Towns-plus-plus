@@ -26,7 +26,8 @@ LittleMikey's Contributions:
 -> Changed breeding animals to use the Feed priority instead of itemConstruction.
 -> Added remove command to rest of hero tombs.
 -> Fixed error with armor/weapon cabinets.
--> Fixed graphical issue with rotating some coloured stairs. 
+-> Fixed graphical issue with rotating some coloured stairs.
+-> Added mine/dig ladder command to Snow, Desert and Jungle tiles
 
 [/code]
 

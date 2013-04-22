@@ -2,8 +2,8 @@
 <gen_map>
 	<init>
 		<numLevelsOutside>12</numLevelsOutside>
-		<numLevelsUnderground>50</numLevelsUnderground>
-		<mainTerrain>sand,dirt,stone,dungeon3</mainTerrain>
+		<numLevelsUnderground>53</numLevelsUnderground>
+		<mainTerrain>sand,sand,dirt,dirt,stone,stone,dungeon3</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
 	</init>
@@ -156,7 +156,7 @@
 		<southPCT>8</southPCT>
 		<eastPCT>8</eastPCT>
 		<westPCT>8</westPCT>
-		<downPCT>3</downPCT>
+		<downPCT>1</downPCT>
 	</seed>	
 	
 	<!-- Smaller lakes -->
@@ -350,6 +350,7 @@
 		<southPCT>45</southPCT>
 		<eastPCT>45</eastPCT>
 		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
 		<upPCT>3</upPCT>
 	</seed>
 	<!-- Top Right -->
@@ -365,6 +366,39 @@
 		<southPCT>45</southPCT>
 		<eastPCT>45</eastPCT>
 		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
+		<upPCT>3</upPCT>
+	</seed>
+	<!-- Bottom Left -->
+	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>15</turns>
+		<level>11</level>
+		<pointx>1d25+25</pointx>
+		<pointy>1d25+150</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
+		<upPCT>3</upPCT>
+	</seed>
+	<!-- Bottom Right -->
+	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>15</turns>
+		<level>11</level>
+		<pointx>1d25+150</pointx>
+		<pointy>1d25+150</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
 		<upPCT>3</upPCT>
 	</seed>
 </gen_map>

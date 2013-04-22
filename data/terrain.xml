@@ -273,6 +273,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtstairs1a</ladderItem>
 		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -300,6 +301,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtstairs1a</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -327,6 +329,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtstairs1a</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -354,6 +357,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtstairs1a</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -381,6 +385,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtstairs1a</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -407,6 +412,7 @@
 		<name esES="Jungla">Jungle</name>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtstairs1a</ladderItem>
 		<mineTurns>7</mineTurns>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -435,6 +441,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>snowpile</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtladder</ladderItem>
 		<action>qtillsnow</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -491,6 +498,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>dirtstairs1a</ladderItem>
 		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -648,6 +656,7 @@
 		<mineTurns>4</mineTurns>
 		<drop>rmsand</drop>
 		<dropPCT>50</dropPCT>
+		<ladderItem>sandstairs2a</ladderItem>
 		<action>qtillsand</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
