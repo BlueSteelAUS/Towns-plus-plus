@@ -16870,7 +16870,7 @@
 			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,skinnedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
-			<pickFriendly>snoat</pickFriendly>
+			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,skinnedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pick>rmwood</pick>

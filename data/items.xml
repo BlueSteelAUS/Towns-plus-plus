@@ -2233,7 +2233,7 @@
 
 		<action>qreleasesnoat</action>
 
-		<value>400</value>
+		<value>300</value>
 	</snoatincage>
 
 	<sheepincage>
@@ -2245,7 +2245,7 @@
 
 		<action>qreleasesheep</action>
 
-		<value>200</value>
+		<value>100</value>
 	</sheepincage>
 
 	<pigincage>
@@ -2257,7 +2257,7 @@
 
 		<action>qreleasepig</action>
 
-		<value>200</value>
+		<value>150</value>
 	</pigincage>
 
 	<badgerincage>
@@ -2269,7 +2269,7 @@
 
 		<action>qreleasebadger</action>
 
-		<value>200</value>
+		<value>150</value>
 	</badgerincage>
 
 	<birdinironcage>
@@ -2281,7 +2281,7 @@
 
 		<action>qreleasebird</action>
 
-		<value>200</value>
+		<value>100</value>
 	</birdinironcage>
 
 	<skootenbeetenincage>
@@ -2293,7 +2293,7 @@
 
 		<action>qreleaseskootenbeeten</action>
 
-		<value>400</value>
+		<value>300</value>
 	</skootenbeetenincage>
 
 	<unifallowincage>
@@ -2305,7 +2305,7 @@
 
 		<action>qreleaseunifallow</action>
 
-		<value>400</value>
+		<value>300</value>
 	</unifallowincage>
 
 	<cowincage>
@@ -2317,7 +2317,7 @@
 
 		<action>qreleasecow</action>
 
-		<value>200</value>
+		<value>100</value>
 	</cowincage>
 
 	<browniehouse>
@@ -18154,7 +18154,7 @@
 
 		<action>qreleasechicken</action>
 
-		<value>200</value>
+		<value>100</value>
 	</chickenincage>
 	
 	<roosterincage>
@@ -18166,7 +18166,7 @@
 
 		<action>qreleaserooster</action>
 
-		<value>250</value>
+		<value>200</value>
 	</roosterincage>
 	
 	<bullincage>
