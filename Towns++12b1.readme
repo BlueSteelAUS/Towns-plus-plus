@@ -1,18 +1,20 @@
-﻿[code]
+﻿[size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
+
+[code]
 Changes since Towns++_v12b
 ============================
 BlueSteel's Contributions
 =========================
--> All new games Cits and new imigrants now have the knowledge of how/when to
+-> All new games citizens and new immigrants now have the knowledge of how/when to
    run away when their hit points are low
--> Added in the Cloud of Knowledge. build a medicinecabinet and then have your
-   cits go around there (within 250 squares , same level and in Line of sight
-   of the Cloud of knowledge that appears when you first place a medicine cabinet.
+-> Added in the Cloud of Knowledge. Build a medicine cabinet and then have your
+   citizens go around there (within 250 squares, same level and in Line of Sight
+   of the Cloud of Knowledge that appears when you first place a medicine cabinet.
    (If you already have one built just delete and rebuild/place it)
    Inspired by the idea of the chickenheart/chickenritual mods by Dremire
--> All zones can now be as small as 1 grid
--> change materials from iron to iron or copper for , cookingbowl,skinner,stove
--> more tweaking on my map
+-> All zones can now be as small as 1x1 grid
+-> Change materials from iron to iron or copper for cookingbowl, skinner, stove.
+-> More tweaking on my map
    
 
 LittleMikey's Contributions:
@@ -28,14 +30,13 @@ LittleMikey's Contributions:
 
 [/code]
 
-[size=200][color=#FF0000]NOT a MODLOADER mod.[/color][/size]
-
 To install:
 ============
-1. Backup tour Towns Folder/Directory (I'm not responsible for any losses or damages)
-2. Unzip the .zip file into your Towns directory(not the backed up one)
+1. Backup your Towns Folder/Directory. This is usually C:\Program Files (x86)\Steam\SteamApps\common]towns
+   if you installed the game through Steam. (I'm not responsible for any losses or damages)
+2. Copy the contents of the Towns++ zip into your main Towns Folder/Directory.
+3. Launch Towns as normal!
 4. As always feel free to leave comments, bug reports, suggestions.
-5. Run Towns as normal .. play.. be free... enjoy ;)
 
 [quote]
 Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12b.zip
