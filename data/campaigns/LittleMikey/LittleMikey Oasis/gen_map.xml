@@ -2,8 +2,8 @@
 <gen_map>
 	<init>
 		<numLevelsOutside>12</numLevelsOutside>
-		<numLevelsUnderground>53</numLevelsUnderground>
-		<mainTerrain>sand,sand,dirt,dirt,stone,stone,dungeon3</mainTerrain>
+		<numLevelsUnderground>52</numLevelsUnderground>
+		<mainTerrain>sand,sand,dirt,dirt,stone,dungeon3</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
 	</init>
