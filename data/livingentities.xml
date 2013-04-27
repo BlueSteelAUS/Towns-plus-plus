@@ -5107,7 +5107,7 @@
 
 	<knowledgecloud>
 		<type>FRIENDLY</type>
-		<name>Knowledge Cloud - when to runaway</name>
+		<name>Knowledge Cloud - When to run away</name>
 		<effects>fightflight</effects>
 
 		<attack>1</attack>

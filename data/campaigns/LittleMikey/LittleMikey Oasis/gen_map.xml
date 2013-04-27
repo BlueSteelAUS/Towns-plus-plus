@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_map>
 	<init>
-		<numLevelsOutside>12</numLevelsOutside>
-		<numLevelsUnderground>52</numLevelsUnderground>
-		<mainTerrain>sand,sand,dirt,dirt,stone,dungeon3</mainTerrain>
-		<numCitizens>11</numCitizens>
-		<startingLevel>11</startingLevel>
+		<numLevelsOutside>20</numLevelsOutside>
+		<numLevelsUnderground>44</numLevelsUnderground>
+		<mainTerrain>sand,sand,dirt,dirt,stone,stone,dungeon3</mainTerrain>
+		<numCitizens>12</numCitizens>
+		<startingLevel>19</startingLevel>
 	</init>
 	
-	<!-- 80 stone seeds -->
 	<seed>
 		<type>stone</type>
-		<num>80</num>
-		<turns>50</turns>
-		<level>1d3+15</level>
-
+		<num>15</num>
+		<turns>30</turns>
+		<level>1d3+20</level>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
 		<eastPCT>6</eastPCT>
@@ -24,46 +22,28 @@
 	</seed>
 
 	<!-- 8 dense stone seeds -->
-	<seed>
+<!-- 	<seed>
 		<type>densestone</type>
 		<num>12</num>
-		<level>1d7+23</level>
+		<level>1d7+24</level>
 		<turns>20</turns>
-
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
-		<eastPCT>6</eastPCT>
 		<westPCT>6</westPCT>
 		<upPCT>1</upPCT>
 		<downPCT>5</downPCT>
-	</seed>
+	</seed> -->
 	<!-- 8 coal seeds -->
 	<seed>
 		<type>coal</type>
 		<num>12</num>
-		<level>1d10+18</level>
-		<turns>50</turns>
-
+		<level>1d10+22</level>
+		<turns>25</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
 		<eastPCT>6</eastPCT>
 		<westPCT>6</westPCT>
 		<upPCT>4</upPCT>
-		<downPCT>5</downPCT>
-	</seed>
-
-	<!-- 8 dense stone seeds -->
-	<seed>
-		<type>densestone</type>
-		<num>12</num>
-		<level>1d7+23</level>
-		<turns>20</turns>
-
-		<northPCT>6</northPCT>
-		<southPCT>6</southPCT>
-		<eastPCT>6</eastPCT>
-		<westPCT>6</westPCT>
-		<upPCT>1</upPCT>
 		<downPCT>5</downPCT>
 	</seed>
 
@@ -71,9 +51,8 @@
 	<seed>
 		<type>iron</type>
 		<num>12</num>
-		<level>1d11+20</level>
-		<turns>50</turns>
-
+		<level>1d11+22</level>
+		<turns>25</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
 		<eastPCT>6</eastPCT>
@@ -86,9 +65,8 @@
 	<seed>
 		<type>copper</type>
 		<num>12</num>
-		<level>1d11+19</level>
-		<turns>50</turns>
-
+		<level>1d11+24</level>
+		<turns>25</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
 		<eastPCT>6</eastPCT>
@@ -100,10 +78,9 @@
 	<!-- 3 gold seeds , very rare -->
 	<seed>
 		<type>gold</type>
-		<num>5</num>
-		<level>1d6+22</level>
-		<turns>20</turns>
-
+		<num>6</num>
+		<level>1d8+26</level>
+		<turns>10</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
 		<eastPCT>6</eastPCT>
@@ -115,10 +92,9 @@
 	<!-- 4 silver seeds, pretty rare -->
 	<seed>
 		<type>silver</type>
-		<num>6</num>
-		<level>1d6+22</level>
-		<turns>30</turns>
-
+		<num>8</num>
+		<level>1d6+24</level>
+		<turns>20</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
 		<eastPCT>6</eastPCT>
@@ -132,11 +108,9 @@
 	<seed>
 		<type>gravel</type>
 		<num>10</num>
-		<level>1d8+18</level>
-		<turns>40</turns>
-
+		<level>1d8+22</level>
+		<turns>20</turns>
 		<northPCT>6</northPCT>
-		<southPCT>6</southPCT>
 		<eastPCT>6</eastPCT>
 		<westPCT>6</westPCT>
 		<upPCT>5</upPCT>
@@ -148,8 +122,8 @@
 		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
 		<type>_WATER_</type>
 		<num>1</num>
-		<level>12</level>
-		<turns>250</turns>		
+		<level>20</level>
+		<turns>250</turns>
 		<pointx>1d100+50</pointx>
 		<pointy>1d100+50</pointy>
 		<northPCT>8</northPCT>
@@ -158,23 +132,22 @@
 		<westPCT>8</westPCT>
 		<downPCT>1</downPCT>
 	</seed>	
-	
+
 	<!-- Smaller lakes -->
 	<seed>
 		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
 		<type>_WATER_INF_</type>
 		<num>1d3</num>
-		<level>12</level>
-		<turns>180</turns>
-
-		<northPCT>4</northPCT>
-		<southPCT>4</southPCT>
-		<eastPCT>4</eastPCT>
-		<westPCT>4</westPCT>
+		<level>20</level>
+		<turns>160</turns>
+		<northPCT>6</northPCT>
+		<southPCT>6</southPCT>
+		<eastPCT>6</eastPCT>
+		<westPCT>6</westPCT>
 		<downPCT>1</downPCT>
 	</seed>
 
-<!-- 	Sand Dunes
+	<!-- 	Sand Dunes
 	<bezier>
 		<type>sand</type>
 		<level>10</level>
@@ -184,7 +157,7 @@
 
 		First Bezier point
 		<point1_x_min>10</point1_x_min>
-		<point1_x_max>25</point1_x_max>
+		<level>20</level>
 		<point1_y_min>10</point1_y_min>
 		<point1_y_max>25</point1_y_max>
 
@@ -199,15 +172,15 @@
 		<controlpoint1_x_max>50</controlpoint1_x_max>
 		<controlpoint1_y_min>25</controlpoint1_y_min>
 		<controlpoint1_y_max>50</controlpoint1_y_max>
-
+		<level>20</level>
 		Second Bezier control point
 		<controlpoint2_x_min>150</controlpoint2_x_min>
 		<controlpoint2_x_max>200</controlpoint2_x_max>
 		<controlpoint2_y_min>0</controlpoint2_y_min>
 		<controlpoint2_y_max>50</controlpoint2_y_max>
 	</bezier>	 -->
-	
-<!-- 	<bezier>
+
+	<!-- 	<bezier>
 		<type>sand</type>
 		<level>10</level>
 		<depth>2</depth>
@@ -238,14 +211,77 @@
 		<controlpoint2_y_min>0</controlpoint2_y_min>
 		<controlpoint2_y_max>50</controlpoint2_y_max>
 	</bezier> -->
+
+	<!-- Top Left -->	<!-- 
+	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>15</turns>
+		<level>19</level>
+		<pointx>1d25+25</pointx>
+		<pointy>1d25+25</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
+		<upPCT>3</upPCT>
+	</seed> -->
+	<!-- Top Right --><!-- 
+	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>20</turns>
+		<level>19</level>
+		<pointx>1d25+150</pointx>
+		<pointy>1d25+25</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
+		<upPCT>3</upPCT>
+	</seed> -->
+	<!-- Bottom Left --><!-- 
+	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>20</turns>
+		<level>19</level>
+		<pointx>1d25+25</pointx>
+		<pointy>1d25+150</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
+		<upPCT>3</upPCT>
+	</seed> -->
+	<!-- Bottom Right -->
+<!-- 	<seed>
+		<type>sand</type>
+		<num>1d3</num>
+		<turns>20</turns>
+		<level>19</level>
+		<pointx>1d25+150</pointx>
+		<pointy>1d25+150</pointy>
+		<flatsBetweenLevels>1</flatsBetweenLevels>
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+		<downPCT>30</downPCT>
+		<upPCT>3</upPCT>
+	</seed> -->
 	
 	<!-- 10 dungeon3 seeds -->
-	<seed>
+ 	<seed>
 		<type>dungeon3</type>
 		<num>8</num>
-		<level>1d2+15</level>
-		<turns>50</turns>
-
+		<level>1d2+30</level>
 		<northPCT>95</northPCT>
 		<southPCT>95</southPCT>
 		<eastPCT>95</eastPCT>
@@ -253,12 +289,11 @@
 		<downPCT>7</downPCT>
 	</seed>
 
-		<seed>
+	<seed>
 		<type>dungeon3</type>
 		<num>8</num>
 		<level>1d2+30</level>
 		<turns>50</turns>
-
 		<northPCT>95</northPCT>
 		<southPCT>95</southPCT>
 		<eastPCT>95</eastPCT>
@@ -269,9 +304,8 @@
 	<seed>
 		<type>dungeon3</type>
 		<num>8</num>
-		<level>1d2+45</level>
+		<level>1d2+40</level>
 		<turns>50</turns>
-
 		<northPCT>95</northPCT>
 		<southPCT>95</southPCT>
 		<eastPCT>95</eastPCT>
@@ -279,8 +313,40 @@
 		<downPCT>7</downPCT>
 	</seed>
 	
-	<!-- Change some sand tiles into grass tiles if water around -->
-	<change>
+	<heightSeed>
+		<num>1d15+5</num>
+		<turns>10</turns>
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+	
+	<heightSeed>
+		<num>1d10+5</num>
+		<turns>20</turns>
+		<flatsBetweenLevels>2</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+	
+	<heightSeed>
+		<num>10+5</num>
+		<turns>5</turns>
+		<flatsBetweenLevels>3</flatsBetweenLevels>
+
+		<northPCT>45</northPCT>
+		<southPCT>45</southPCT>
+		<eastPCT>45</eastPCT>
+		<westPCT>45</westPCT>
+	</heightSeed>
+	
+ 	<change>
 		<source>sand</source>
 		<destination>grass</destination>
 		<terrain>_WATER_INF_</terrain>
@@ -298,107 +364,42 @@
 		<source>grass</source>
 		<destination>grassnoflower</destination>
 		<terrain>_WATER_INF_</terrain>
-		<PCT>30</PCT>
+		<PCT>20</PCT>
 		<radius>4</radius>
 	</change>
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower</destination>
 		<terrain>_WATER_</terrain>
-		<PCT>30</PCT>
+		<PCT>20</PCT>
 		<radius>4</radius>
 	</change> 
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower1</destination>
 		<terrain>_WATER_INF_</terrain>
-		<PCT>30</PCT>
+		<PCT>20</PCT>
 		<radius>4</radius>
 	</change>
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower1</destination>
 		<terrain>_WATER_</terrain>
-		<PCT>30</PCT>
+		<PCT>20</PCT>
 		<radius>4</radius>
 	</change> 	
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower2</destination>
 		<terrain>_WATER_INF_</terrain>
-		<PCT>30</PCT>
+		<PCT>20</PCT>
 		<radius>4</radius>
 	</change>
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower2</destination>
 		<terrain>_WATER_</terrain>
-		<PCT>30</PCT>
+		<PCT>20</PCT>
 		<radius>4</radius>
-	</change> 	
-	
-	<!-- Top Left -->	
-	<seed>
-		<type>sand</type>
-		<num>1d3</num>
-		<turns>15</turns>
-		<level>11</level>
-		<pointx>1d25+25</pointx>
-		<pointy>1d25+25</pointy>
-		<flatsBetweenLevels>1</flatsBetweenLevels>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-		<downPCT>30</downPCT>
-		<upPCT>3</upPCT>
-	</seed>
-	<!-- Top Right -->
-	<seed>
-		<type>sand</type>
-		<num>1d3</num>
-		<turns>15</turns>
-		<level>11</level>
-		<pointx>1d25+150</pointx>
-		<pointy>1d25+25</pointy>
-		<flatsBetweenLevels>1</flatsBetweenLevels>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-		<downPCT>30</downPCT>
-		<upPCT>3</upPCT>
-	</seed>
-	<!-- Bottom Left -->
-	<seed>
-		<type>sand</type>
-		<num>1d3</num>
-		<turns>15</turns>
-		<level>11</level>
-		<pointx>1d25+25</pointx>
-		<pointy>1d25+150</pointy>
-		<flatsBetweenLevels>1</flatsBetweenLevels>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-		<downPCT>30</downPCT>
-		<upPCT>3</upPCT>
-	</seed>
-	<!-- Bottom Right -->
-	<seed>
-		<type>sand</type>
-		<num>1d3</num>
-		<turns>15</turns>
-		<level>11</level>
-		<pointx>1d25+150</pointx>
-		<pointy>1d25+150</pointy>
-		<flatsBetweenLevels>1</flatsBetweenLevels>
-		<northPCT>45</northPCT>
-		<southPCT>45</southPCT>
-		<eastPCT>45</eastPCT>
-		<westPCT>45</westPCT>
-		<downPCT>30</downPCT>
-		<upPCT>3</upPCT>
-	</seed>
+	</change>
 </gen_map>

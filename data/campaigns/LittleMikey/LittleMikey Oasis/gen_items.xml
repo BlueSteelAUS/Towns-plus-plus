@@ -5,7 +5,7 @@
 		<qtty>400</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>	
 	
 	<add id="palmtree">
@@ -13,23 +13,23 @@
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
 
 	<add id="oasisbushpalmtree">
 		<item>oasisbushpalmtree</item>
 		<qtty>50</qtty>
-		<pointx>1d200-1</pointx>
+		<level>1d19</level>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<pointy>1d200-1</pointy>
 	</add>
 
 	<add id="cactus">
 		<item>cactus</item>
 		<qtty>75</qtty>
+		<level>1d19</level>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
 	</add>
 	
 	<add id="redflower">
@@ -37,23 +37,23 @@
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
-
+	
 	<add id="blueflower">
+		<level>1d19</level>
 		<item>blueflower</item>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
 	</add>
-
+	
 	<add id="yellowflower">
+		<level>1d19</level>
 		<item>yellowflower</item>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
 	</add>
 	
 	<add id="orangeflower">
@@ -61,7 +61,7 @@
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
 
 	<add id="purpleflower">
@@ -69,38 +69,38 @@
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
 
 	<add id="greenflower">
 		<item>greenflower</item>
 		<qtty>15</qtty>
+		<level>1d19</level>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
 	</add>
 
 	<add id="pinkflower">
 		<item>pinkflower</item>
+		<level>1d19</level>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
 	</add>
 
 	<add id="whiteflower">
 		<item>whiteflower</item>
+		<level>1d19</level>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
 	</add>
 
 	<add id="blackflower">
 		<item>blackflower</item>
+		<level>1d19</level>
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
 	</add>
 </gen_items>

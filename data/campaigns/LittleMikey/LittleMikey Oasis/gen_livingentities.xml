@@ -6,7 +6,7 @@
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
 
 	<add id="wildrooster">
@@ -14,14 +14,15 @@
 		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
+	
 	<add id="wildunifallow">
 		<entity>wildunifallow</entity>
-		<qtty>15</qtty>
+		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
 
 	<add id="blacksnakecrab">
@@ -29,7 +30,7 @@
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
 
 	<add id="yellowsnakecrab">
@@ -37,6 +38,6 @@
 		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d19</level>
 	</add>
 </gen_livingentities>

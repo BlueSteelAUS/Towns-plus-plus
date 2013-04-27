@@ -16,7 +16,6 @@ BlueSteel's Contributions
 -> Change materials from iron to iron or copper for cookingbowl, skinner, stove.
 -> More tweaking on my map
    
-
 LittleMikey's Contributions:
 ============================
 -> Types changed on various items to make more sense. 
@@ -28,6 +27,8 @@ LittleMikey's Contributions:
 -> Fixed error with armor/weapon cabinets.
 -> Fixed graphical issue with rotating some coloured stairs.
 -> Added mine/dig ladder command to Snow, Desert and Jungle tiles
+-> Changes to Oasis map. Now able to go up to level 20, also added more levels
+   underground before hitting the dungeon.
 
 [/code]
 
