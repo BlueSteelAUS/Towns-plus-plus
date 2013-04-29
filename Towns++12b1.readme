@@ -34,14 +34,14 @@ LittleMikey's Contributions:
 
 To install:
 ============
-1. Backup your Towns Folder/Directory. This is usually C:\Program Files (x86)\Steam\SteamApps\common]towns
+1. Backup your Towns Folder/Directory. This is usually C:\Program Files (x86)\Steam\SteamApps\common\towns
    if you installed the game through Steam. (I'm not responsible for any losses or damages)
 2. Copy the contents of the Towns++ zip into your main Towns Folder/Directory.
 3. Launch Towns as normal!
 4. As always feel free to leave comments, bug reports, suggestions.
 
 [quote]
-Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12b.zip
+Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/12b1.zip
 
 My Live streaming is at http://www.twitch.tv/bluesteelaus
 My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL388A502D490AE834
@@ -50,7 +50,7 @@ Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQ
 More videos and live streams will be done as time permits
 [/quote]
 
-[size=200][color=#0000FF]Towns++ v12b (for Towns v12b)[/color][/size]
+[size=200][color=#0000FF]Towns++ v12b1 (for Towns v12b)[/color][/size]
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
 This mod pack changes the general layout of the right menu panel and the main (bottom)
@@ -205,6 +205,35 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 
 change logs
 ===========
+
+Changes since Towns++_v12b
+============================
+BlueSteel's Contributions
+=========================
+-> All new games citizens and new immigrants now have the knowledge of how/when to
+   run away when their hit points are low
+-> Added in the Cloud of Knowledge. Build a medicine cabinet and then have your
+   citizens go around there (within 250 squares, same level and in Line of Sight
+   of the Cloud of Knowledge that appears when you first place a medicine cabinet.
+   (If you already have one built just delete and rebuild/place it)
+   Inspired by the idea of the chickenheart/chickenritual mods by Dremire
+-> All zones can now be as small as 1x1 grid
+-> Change materials from iron to iron or copper for cookingbowl, skinner, stove.
+-> More tweaking on my map
+   
+LittleMikey's Contributions:
+============================
+-> Types changed on various items to make more sense. 
+-> Added new caged animals, and a new caravan who sells them.
+-> Added the ability to cage animals, and sell them to the new caravan.
+-> Added new stockpile for caged animals.
+-> Changed breeding animals to use the Feed priority instead of itemConstruction.
+-> Added remove command to rest of hero tombs.
+-> Fixed error with armor/weapon cabinets.
+-> Fixed graphical issue with rotating some coloured stairs.
+-> Added mine/dig ladder command to Snow, Desert and Jungle tiles
+-> Changes to Oasis map. Now able to go up to level 20, also added more levels
+   underground before hitting the dungeon.
 Changes since Towns++_v12a1
 ============================
 BlueSteel's Contributions
