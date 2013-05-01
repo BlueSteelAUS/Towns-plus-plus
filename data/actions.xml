@@ -9290,6 +9290,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -10781,6 +10782,7 @@
 			<pickFriendly>cow,milkedcow,bull,unifallow,milkedunifallow,wildcow,milkedwildcow,wildunifallow,milkedwildunifallow</pickFriendly>
 			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
 			<wait>40</wait>
+			<destroyFriendly />
 			<unlock />
 			<replaceCellItem>shrine4</replaceCellItem>
 		</queue>
