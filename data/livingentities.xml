@@ -1689,7 +1689,7 @@
 	<skinnedsnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
-		<name esES="Snoat trasquilado">Skinned snoat</name>
+		<name esES="Snoat trasquilado">Shorn snoat</name>
 		<attack>1d119+340</attack>
 		<attackSpeed>5</attackSpeed>
 		<defense>1d119+340</defense>
@@ -1719,7 +1719,7 @@
 	<wildskinnedsnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
-		<name esES="Snoat salvaje trasquilado">Wild skinned snoat</name>
+		<name esES="Snoat salvaje trasquilado">Shorn wild snoat</name>
 		<attack>1d119+340</attack>
 		<attackSpeed>5</attackSpeed>
 		<defense>1d119+340</defense>
