@@ -347,6 +347,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -364,6 +365,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -377,6 +379,7 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>21</wait>
@@ -392,6 +395,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -417,6 +421,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -442,6 +447,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -467,6 +473,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -492,6 +499,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -517,6 +525,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -542,6 +551,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -567,6 +577,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -592,6 +603,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -617,6 +629,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -642,6 +655,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -667,6 +681,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -692,6 +707,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -717,6 +733,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -742,6 +759,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -821,6 +839,7 @@
 			<pick>rmwood</pick>
 			<wait>32</wait>
 			<destroyItem />
+			<lock>anvil</lock>
 			<pick>rmiron,rmcopper</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -836,6 +855,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -859,6 +879,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -883,6 +904,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -902,6 +924,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -921,11 +944,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron,rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>torch</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -944,11 +969,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmflint</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -964,11 +991,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron,rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron,rmcopper</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -985,6 +1014,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -1004,6 +1034,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -1075,6 +1106,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -1103,6 +1135,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>rmstone</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -1123,6 +1156,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>tongs</pick>
 			<move>masonbench</move>
 			<destroyItem />
@@ -1144,6 +1178,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>20</wait>
@@ -1167,6 +1202,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -1176,6 +1212,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>spiderite</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -1192,6 +1229,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<destroyItem />
@@ -1422,6 +1460,7 @@
 		<priorityID>gathering</priorityID>
 
 		<queue>
+			<lock>newsheepfarm,emptysheepfarm</lock>
 			<pickFriendly>sheep</pickFriendly>
 			<move>newsheepfarm,emptysheepfarm</move>
 			<wait>32</wait>
@@ -1437,6 +1476,7 @@
 		<priorityID>gathering</priorityID>
 
 		<queue>
+			<lock>newsheepfarm,emptysheepfarm</lock>
 			<pickFriendly>wildsheep</pickFriendly>
 			<move>newsheepfarm,emptysheepfarm</move>
 			<wait>32</wait>
@@ -1452,11 +1492,28 @@
 		<priorityID>gathering</priorityID>
 
 		<queue>
+			<lock>newsnoatfarm,emptysnoatfarm</lock>
 			<pickFriendly>snoat</pickFriendly>
 			<move>newsnoatfarm,emptysnoatfarm</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedsnoat</createFriendly>
+			<createItem>wool</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qtrimwildsnoat</id>
+
+		<priorityID>gathering</priorityID>
+
+		<queue>
+			<lock>newsnoatfarm,emptysnoatfarm</lock>
+			<pickFriendly>wildsnoat</pickFriendly>
+			<move>newsnoatfarm,emptysnoatfarm</move>
+			<wait>32</wait>
+			<unlock />
+			<createFriendly>wildskinnedsnoat</createFriendly>
 			<createItem>wool</createItem>
 		</queue>
 	</action>
@@ -1487,16 +1544,29 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qmilksnoat</id>
 
 		<priorityID>gathering</priorityID>
 
 		<queue>
-			<pickFriendly>snoat,skinnedsnoat,skinnedwildsnoat,wildsnoat</pickFriendly>
+			<pickFriendly>snoat</pickFriendly>
 			<wait>32</wait>
 			<createFriendly>milkedsnoat</createFriendly>
+			<createItem>milk</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qmilkwildsnoat</id>
+
+		<priorityID>gathering</priorityID>
+
+		<queue>
+			<pickFriendly>wildsnoat</pickFriendly>
+			<wait>32</wait>
+			<createFriendly>wildmilkedsnoat</createFriendly>
 			<createItem>milk</createItem>
 		</queue>
 	</action>
@@ -2083,6 +2153,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<wait>20</wait>
@@ -2101,11 +2172,13 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<pick>sugar</pick>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>22</wait>
@@ -2120,6 +2193,7 @@
 		<priorityID>processing</priorityID>
 
 		<queue>
+			<lock>mill</lock>
 			<pick>wheat</pick>
 			<move>mill</move>
 			<wait>20</wait>
@@ -2139,6 +2213,7 @@
 		<priorityID>processing</priorityID>
 
 		<queue>
+			<lock>mill</lock>
 			<pick>sugarcane</pick>
 			<move>mill</move>
 			<wait>20</wait>
@@ -2147,6 +2222,7 @@
 			<move>mill</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
 			<createItem>sugar</createItem>
 		</queue>
 	</action>
@@ -2157,6 +2233,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>bread</pick>
 			<move>bakertable</move>
 			<wait>20</wait>
@@ -2179,6 +2256,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<wait>20</wait>
@@ -2201,6 +2279,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<destroyItem />
@@ -2222,6 +2301,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<destroyItem />
@@ -2243,6 +2323,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<destroyItem />
@@ -2264,6 +2345,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<destroyItem />
@@ -2285,6 +2367,7 @@
 		<priorityID>baking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>flour</pick>
 			<move>bakertable</move>
 			<destroyItem />
@@ -2306,6 +2389,7 @@
 		<priorityID>processing</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>banana</pick>
 			<move>bakertable</move>
 			<wait>20</wait>
@@ -2344,7 +2428,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly useSource="true">snoat,wildsnoat,milkedsnoat,milkedwildsnoat,skinnedsnoat,skinnedwildsnoat,skinnedmilkedsnoat,skinnedmilkedwildsnoat</pickFriendly>
+			<pickFriendly useSource="true">snoat,wildsnoat,milkedsnoat,wildmilkedsnoat,skinnedsnoat,wildskinnedsnoat,skinnedmilkedsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawdeersteak</createItem>
@@ -2473,6 +2557,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pickFriendly>cow,bull,milkedcow,snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
@@ -2480,6 +2565,7 @@
 			<unlock />
 			<createItem>animalhide</createItem>
 		</queue>
+
 	</action>
 
 	<action>
@@ -2488,6 +2574,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pickFriendly>badger</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
@@ -2495,6 +2582,7 @@
 			<unlock />
 			<createItem>badgerhide</createItem>
 		</queue>
+
 	</action>
 
 	<action>
@@ -2503,6 +2591,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pickFriendly>unifallow,milkedunifallow</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
@@ -2512,34 +2601,20 @@
 		</queue>
 	</action>
 
+
 	<action>
 		<id>qskootenfeather</id>
 
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>newskootenbeetenfarm,emptyskootenbeetenfarm</lock>
 			<pickFriendly>skootenbeeten,layedeggskooten</pickFriendly>
-			<move>newskootenbeetenfarm</move>
+			<move>newskootenbeetenfarm,emptyskootenbeetenfarm</move>
 			<wait>32</wait>
-			<unlock />
 			<destroyFriendly />
+			<unlock />
 			<createFriendly>pluckedskootenbeeten</createFriendly>
-			<createItem>skootenfeather</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qwildskootenfeather</id>
-
-		<priorityID>butcheringkilling</priorityID>
-
-		<queue>
-			<pickFriendly>wildskootenbeeten,layedeggwildskooten</pickFriendly>
-			<move>newskootenbeetenfarm</move>
-			<wait>32</wait>
-			<unlock />
-			<destroyFriendly />
-			<createFriendly>pluckedwildskootenbeeten</createFriendly>
 			<createItem>skootenfeather</createItem>
 		</queue>
 	</action>
@@ -2550,6 +2625,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>butchertable</lock>
 			<pickFriendly>pig,boar</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
@@ -2565,6 +2641,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>butchertable</lock>
 			<pickFriendly>pig,cow,chicken,rooster,boar,bull,unifallow,milkedcow,milkedunifallow</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
@@ -2580,6 +2657,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>butchertable</lock>
 			<pickFriendly>badger</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
@@ -2595,6 +2673,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>butchertable</lock>
 			<pickFriendly>cow,bull,unifallow,milkedcow,milkedunifallow,sheep,skinnedsheep</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
@@ -2610,6 +2689,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>butchertable</lock>
 			<pickFriendly>chicken,rooster,skootenbeeten,layedeggchicken,layedeggskooten</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
@@ -2625,6 +2705,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>butchertable</lock>
 			<pickFriendly>reindeer</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
@@ -2640,6 +2721,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
+			<lock>butchertable</lock>
 			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
@@ -2656,6 +2738,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>cookingbowl</lock>
 			<pick>pickedcavemushroom,junglemushroom</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -2679,16 +2762,17 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>cookingbowl</lock>
 			<pick>cactusfruit</pick>
-			<move>cookingbowl,cookingfire,cookingfirelow</move>
+			<move>cookingbowl</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>cactusfruit</pick>
-			<move>cookingbowl,cookingfire,cookingfirelow</move>
+			<move>cookingbowl</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>waterbucket,milk</pick>
-			<move>cookingbowl,cookingfire,cookingfirelow</move>
+			<move>cookingbowl</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -2704,11 +2788,13 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>egg</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>stove,cookingfire,cookingfirelow</lock>
 			<pick>egg</pick>
 			<move>stove,cookingfire,cookingfirelow</move>
 			<wait>21</wait>
@@ -2724,6 +2810,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>rawpork</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
@@ -2733,6 +2820,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>stove,cookingfire,cookingfirelow</lock>
 			<pick>egg</pick>
 			<move>stove,cookingfire,cookingfirelow</move>
 			<wait>21</wait>
@@ -2748,6 +2836,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>cookingbowl</lock>
 			<pick>pickedcavemushroom,junglemushroom</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -2769,13 +2858,14 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qcookedfish</id>
 
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>rawfish</pick>
 			<move>kitchentable</move>
 			<wait>50</wait>
@@ -2795,6 +2885,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>rawbadgermeat</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
@@ -2813,6 +2904,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>banana</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
@@ -2835,6 +2927,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>rawpoultry</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
@@ -2853,6 +2946,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>rawpork</pick>
 			<move>kitchentable</move>
 			<wait>32</wait>
@@ -2871,6 +2965,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>rawsteak,rawdeersteak</pick>
 			<move>kitchentable</move>
 			<wait>32</wait>
@@ -2889,6 +2984,7 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>kitchentable</lock>
 			<pick>rawsteak</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
@@ -2896,6 +2992,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>kitchentable</lock>
 			<pick>rawpoultry</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
@@ -2904,6 +3001,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>kitchentable</lock>
 			<pick>rawpork</pick>
 			<move>kitchentable</move>
 			<wait>20</wait>
@@ -2924,6 +3022,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -2933,6 +3032,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -2948,11 +3048,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -2969,6 +3071,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -2978,6 +3081,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -2993,6 +3097,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -3002,6 +3107,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -3017,6 +3123,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -3026,6 +3133,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -3041,6 +3149,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -3050,6 +3159,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -3065,6 +3175,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -3074,6 +3185,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -3089,6 +3201,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -3098,6 +3211,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -3113,6 +3227,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -3122,6 +3237,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -3137,6 +3253,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -3146,6 +3263,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -3176,6 +3294,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmsand</pick>
 			<move>masonbench</move>
 			<wait>25</wait>
@@ -3285,6 +3404,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>25</wait>
@@ -3297,13 +3417,14 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qfancybrickfence</id>
 
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>25</wait>
@@ -3323,6 +3444,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -3338,6 +3460,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3366,6 +3489,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -3381,6 +3505,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3400,6 +3525,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3419,6 +3545,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3432,13 +3559,14 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qrounddarkblock</id>
 
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3454,6 +3582,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3469,6 +3598,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3484,6 +3614,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3499,6 +3630,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3514,6 +3646,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3530,6 +3663,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>38</wait>
@@ -3545,6 +3679,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -3560,6 +3695,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>48</wait>
@@ -3575,6 +3711,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>49</wait>
@@ -3591,6 +3728,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -3616,6 +3754,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -3643,6 +3782,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -3675,6 +3815,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -3702,6 +3843,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -3729,6 +3871,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3748,6 +3891,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3767,6 +3911,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -3786,6 +3931,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -3806,6 +3952,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsand,rmmud</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -3821,6 +3968,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -3844,6 +3992,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -4043,6 +4192,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -4062,11 +4212,13 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>carpentrybench</lock>
 			<pick>glass</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -4081,6 +4233,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -4103,6 +4256,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -4126,6 +4280,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -4140,6 +4295,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -4155,6 +4311,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4170,6 +4327,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4185,6 +4343,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4194,13 +4353,14 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qflagblockwhite</id>
 
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4216,6 +4376,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4235,6 +4396,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4286,6 +4448,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>38</wait>
@@ -4301,6 +4464,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>38</wait>
@@ -4316,6 +4480,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4331,6 +4496,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4350,6 +4516,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4371,6 +4538,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4390,6 +4558,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>goblinhead</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -4410,6 +4579,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>hobgoblinhead</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -4428,6 +4598,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>snickerhead</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -4448,6 +4619,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>ghoulhead</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -4466,6 +4638,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>trollhead</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -4484,11 +4657,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmstone</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -4507,6 +4682,7 @@
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4525,6 +4701,7 @@
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
+			<lock>smelter</lock>
 			<pick>bluecolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4547,6 +4724,7 @@
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
+			<lock>smelter</lock>
 			<pick>greencolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4569,6 +4747,7 @@
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
+			<lock>smelter</lock>
 			<pick>redcolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4591,6 +4770,7 @@
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
+			<lock>smelter</lock>
 			<pick>yellowcolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4610,11 +4790,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>bones</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmstone</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -4630,11 +4812,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>bush,bush2,bush3</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -4650,16 +4834,19 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -4675,16 +4862,19 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -4700,16 +4890,19 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -4725,11 +4918,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -4739,6 +4934,216 @@
 		</queue>
 	</action>
 
+	<action>
+		<id>qwoodensign</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodensign</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwoodenwallsign</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodenwallsign</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qironwoodenwallsign</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>smelter</lock>
+			<pick>rmiron</pick>
+			<move>smelter</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ironwoodenwallsign</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwoodennortharrow</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodennortharrow</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwoodensoutharrow</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodensoutharrow</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwoodeneastarrow</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodeneastarrow</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwoodenwestarrow</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodenwestarrow</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qengravingstone</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>engravingstone</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qscroll</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>scroll</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qbook</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>20</wait>
+			<destroyItem />	
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>animalhide,unifallowhide,badgerhide</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>book</createItem>
+		</queue>
+	</action>
+
+	
+	<action>
+		<id>qbonetorch</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>bonecarver</lock>
+			<pick>bones</pick>
+			<move>bonecarver</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>torch</pick>
+			<move>bonecarver</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>bonetorch</createItem>
+		</queue>
+	</action>
+
+
 	<!-- Utils -->
 	<action>
 		<id>qbonecarver</id>
@@ -4746,11 +5151,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -4766,6 +5173,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmcoal</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -4775,6 +5183,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -4790,6 +5199,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmiron</pick>
 			<move>masonbench</move>
 			<destroyItem />
@@ -4811,6 +5221,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>wooddetailer</lock>
 			<pick>rmstone</pick>
 			<move>wooddetailer</move>
 			<destroyItem />
@@ -4871,6 +5282,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4886,6 +5298,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4905,11 +5318,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -4925,11 +5338,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -4984,6 +5397,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -4999,6 +5413,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5015,6 +5430,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5034,11 +5450,13 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>anvil</lock>
 			<pick>rmgold</pick>
 			<move>anvil</move>
 			<wait>32</wait>
 			<destroyItem/>
 			<unlock />
+			<lock>smelter</lock>
 			<pick>rmstone</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -5054,11 +5472,13 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>26</wait>
 			<destroyItem/>
 			<unlock />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>26</wait>
@@ -5074,6 +5494,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -5089,11 +5510,13 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>30</wait>
 			<destroyItem/>
 			<unlock /> 
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>38</wait>
@@ -5109,6 +5532,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5124,6 +5548,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5139,6 +5564,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5154,6 +5580,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5169,6 +5596,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5184,6 +5612,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5199,6 +5628,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5214,6 +5644,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5235,7 +5666,6 @@
 			<pick>wheat</pick>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
 			<createItem>wheatblock</createItem>
 		</queue>
 	</action>
@@ -5252,7 +5682,6 @@
 			<pick>bamboo</pick>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
 			<createItem>bambooblock</createItem>
 		</queue>
 	</action>
@@ -5263,6 +5692,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>38</wait>
@@ -5278,6 +5708,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -5297,6 +5728,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -5324,6 +5756,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -5351,6 +5784,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>36</wait>
@@ -5366,6 +5800,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -5378,7 +5813,7 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qicewall</id>
 
@@ -5404,7 +5839,6 @@
 			<pick>rmwood</pick>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<createItem>ladder</createItem>
 		</queue>
 	</action>
@@ -5415,6 +5849,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -5430,6 +5865,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -5449,6 +5885,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -5472,6 +5909,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5508,11 +5946,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5532,6 +5972,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5555,6 +5996,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -5570,6 +6012,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>wheat</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -5585,6 +6028,7 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -5605,6 +6049,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5622,6 +6067,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5639,6 +6085,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5656,6 +6103,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5676,6 +6124,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5688,7 +6137,7 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qcyantileroof</id>
 
@@ -5697,6 +6146,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5717,6 +6167,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5737,6 +6188,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5757,6 +6209,7 @@
 		<queue>
 			<pick>rmstone</pick>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -5775,11 +6228,11 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5798,11 +6251,11 @@
 			<pick>redcolor</pick>
 			<wait>21</wait>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5818,11 +6271,11 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5841,11 +6294,11 @@
 			<pick>bluecolor</pick>
 			<wait>21</wait>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5864,11 +6317,11 @@
 			<pick>yellowcolor</pick>
 			<wait>21</wait>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5887,11 +6340,11 @@
 			<pick>orangecolor</pick>
 			<wait>21</wait>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5910,11 +6363,11 @@
 			<pick>greencolor,greengel</pick>
 			<wait>21</wait>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5933,11 +6386,11 @@
 			<pick>purplecolor</pick>
 			<wait>21</wait>
 			<destroyItem />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -5960,7 +6413,7 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qpond</id>
 
@@ -5980,6 +6433,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>21</wait>
@@ -5995,6 +6449,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>21</wait>
@@ -6010,6 +6465,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -6028,7 +6484,6 @@
 			<pick>glass</pick>
 			<wait>31</wait>
 			<destroyItem />
-			<unlock />
 			<createItem>glassfloor</createItem>
 		</queue>
 	</action>
@@ -6040,6 +6495,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -6059,6 +6515,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -6078,6 +6535,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -6098,6 +6556,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6117,6 +6576,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -6140,6 +6600,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6159,6 +6620,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6175,13 +6637,14 @@
 			<createItem>woodentable</createItem>
 		</queue>
 	</action>
-
+	
 	<action>
 		<id>qarchitecttable</id>
 
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6195,6 +6658,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -6237,6 +6701,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6261,6 +6726,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6285,6 +6751,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6308,6 +6775,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6317,6 +6785,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -6332,6 +6801,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6351,6 +6821,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6370,6 +6841,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6389,6 +6861,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6421,6 +6894,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -6440,6 +6914,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6457,13 +6932,14 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qwoodendormbed</id>
 
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6507,6 +6983,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6526,6 +7003,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6545,11 +7023,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmcopper</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -6770,6 +7250,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -6779,6 +7260,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>carpentrybench</lock>
 			<pick>bones</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -6796,6 +7278,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>bamboo</pick>
 			<move>carpentrybench</move>
 			<destroyItem />
@@ -6817,6 +7300,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<destroyItem />
@@ -6838,11 +7322,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmiron</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>10</wait>
@@ -6861,6 +7347,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6870,6 +7357,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -6885,6 +7373,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -6894,6 +7383,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
@@ -6922,6 +7412,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>cookingbowl</lock>
 			<pick>pickedcavemushroom,junglemushroom</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -6945,6 +7436,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsand,rmmud</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -6966,11 +7458,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -6986,11 +7480,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -7006,11 +7502,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -7026,11 +7524,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -7046,11 +7546,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -7067,6 +7569,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -7090,6 +7593,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -7113,6 +7617,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -7136,6 +7641,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -7159,16 +7665,19 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>bones</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
@@ -7184,16 +7693,19 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>bones</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>20</wait>
@@ -7209,10 +7721,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>carpentrybench</lock>
 			<pick>bones</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -7222,11 +7737,13 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>bones</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7244,6 +7761,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>wool</pick>
 			<move>skinner</move>
 			<wait>20</wait>
@@ -7259,6 +7777,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>clotharmor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
@@ -7278,11 +7797,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>leatherarmor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite</pick>
 			<move>itesmithy</move>
 			<wait>20</wait>
@@ -7302,11 +7823,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>leatherarmor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>goblinite</pick>
 			<move>itesmithy</move>
 			<wait>20</wait>
@@ -7326,11 +7849,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>leatherarmor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>snickerite</pick>
 			<move>itesmithy</move>
 			<wait>20</wait>
@@ -7350,11 +7875,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>leatherarmor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>zombite</pick>
 			<move>itesmithy</move>
 			<wait>20</wait>
@@ -7374,11 +7901,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>leatherarmor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ogreite</pick>
 			<move>itesmithy</move>
 			<wait>20</wait>
@@ -7413,7 +7942,7 @@
 			<createItem>bamboostick</createItem>
 		</queue>
 	</action>
-
+	
 	<action>
 		<id>qwoodensnakesword</id>
 
@@ -7423,11 +7952,9 @@
 			<pick>rmwood</pick>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>snaketooth</pick>
 			<wait>32</wait>
 			<destroyItem />
-			<unlock />
 			<createItem>woodensnakesword</createItem>
 		</queue>
 	</action>
@@ -7439,11 +7966,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -7459,11 +7988,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmwood</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7483,11 +8014,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -7504,6 +8037,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<destroyItem />
@@ -7525,6 +8059,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<destroyItem />
@@ -7548,6 +8083,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7557,6 +8093,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7572,6 +8109,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7585,6 +8123,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7600,19 +8139,21 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>ironboots</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>goblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
 			<destroyItem />
-			<unlock />
 			<pickFriendly>bird,bird2,bird3,bird4,bird5</pickFriendly>
 			<move>itesmithy</move>
 			<wait>32</wait>
+			<unlock />
 			<destroyFriendly />
 			<createItem>speedboots</createItem>
 		</queue>
@@ -7624,6 +8165,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7633,6 +8175,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7648,6 +8191,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7657,6 +8201,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7672,6 +8217,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7681,6 +8227,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7696,11 +8243,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7716,11 +8265,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7740,11 +8291,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcoal</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
@@ -7766,11 +8319,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7790,10 +8345,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7813,6 +8371,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7822,6 +8381,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7841,6 +8401,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7850,6 +8411,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7869,6 +8431,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -7878,6 +8441,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7897,11 +8461,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7922,11 +8488,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>goblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7946,11 +8514,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>goblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7970,11 +8540,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>direite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -7994,6 +8566,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8003,6 +8576,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>goblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8022,6 +8596,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8031,6 +8606,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>goblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8050,11 +8626,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>goblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8075,11 +8653,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>direite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8099,6 +8679,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8108,6 +8689,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>direite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8127,6 +8709,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8136,6 +8719,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>direite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8155,11 +8739,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>direite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8180,11 +8766,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>hobgoblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8204,6 +8792,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8213,6 +8802,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>hobgoblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8232,6 +8822,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8241,6 +8832,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>hobgoblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8260,6 +8852,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8269,6 +8862,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>hobgoblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8288,6 +8882,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8297,6 +8892,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>hobgoblinite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8317,11 +8913,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>snickerite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8341,6 +8939,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8350,6 +8949,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>snickerite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8369,6 +8969,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8378,6 +8979,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>snickerite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8397,6 +8999,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8406,6 +9009,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>snickerite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8425,6 +9029,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8434,6 +9039,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>snickerite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8455,11 +9061,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>zombite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8479,6 +9087,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8488,6 +9097,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>zombite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8507,6 +9117,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmstone</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8516,6 +9127,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>zombite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8535,6 +9147,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8544,6 +9157,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>zombite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8563,6 +9177,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8572,6 +9187,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>zombite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8592,11 +9208,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ghoulite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8616,11 +9234,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ghoulite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8640,6 +9260,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8649,6 +9270,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ghoulite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8677,6 +9299,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ghoulite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8696,6 +9319,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8705,6 +9329,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ghoulite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8725,11 +9350,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ogreite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8749,11 +9376,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ogreite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8773,6 +9402,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8782,6 +9412,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ogreite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8801,6 +9432,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8810,6 +9442,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ogreite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8829,6 +9462,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmcopper</pick>
 			<move>smelter</move>
 			<wait>20</wait>
@@ -8838,6 +9472,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>ogreite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -8858,6 +9493,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8879,6 +9515,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8903,7 +9540,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8925,7 +9562,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8947,6 +9584,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8957,6 +9595,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -8972,6 +9611,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -8982,6 +9622,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -8997,6 +9638,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9007,6 +9649,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<destroyItem />
@@ -9025,6 +9668,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9035,6 +9679,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -9050,6 +9695,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9060,6 +9706,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -9075,6 +9722,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmgold</pick>
 			<move>smelter</move>
 			<wait>15</wait>
@@ -9084,6 +9732,7 @@
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite,direite,ghoulite,goblinite,hobgoblinite,ogreite,snickerite,burnite,zombite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -9092,6 +9741,8 @@
 			<move>itesmithy</move>
 			<wait>32</wait>
 			<destroyItem />
+			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -9108,6 +9759,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9132,6 +9784,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9156,6 +9809,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9177,6 +9831,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9198,6 +9853,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9208,6 +9864,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -9223,6 +9880,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9233,6 +9891,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<destroyItem />
@@ -9251,6 +9910,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9258,6 +9918,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -9273,6 +9934,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<destroyItem />
@@ -9283,6 +9945,7 @@
 			<move>smelter</move>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>32</wait>
@@ -9298,6 +9961,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>rmsilver</pick>
 			<move>smelter</move>
 			<wait>15</wait>
@@ -9307,6 +9971,7 @@
 			<wait>15</wait>
 			<destroyItem />
 			<unlock />
+			<lock>itesmithy</lock>
 			<pick>spiderite,direite,ghoulite,goblinite,hobgoblinite,ogreite,snickerite,burnite,zombite</pick>
 			<move>itesmithy</move>
 			<wait>32</wait>
@@ -9316,6 +9981,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmwood</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -9419,6 +10085,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>colormixer</lock>
 			<pick>gatheredblueflower,bluegel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
@@ -9434,6 +10101,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>colormixer</lock>
 			<pick>gatheredredflower,redgel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
@@ -9449,6 +10117,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>colormixer</lock>
 			<pick>gatheredyellowflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
@@ -9464,6 +10133,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>colormixer</lock>
 			<pick>gatheredgreenflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
@@ -9479,6 +10149,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>colormixer</lock>
 			<pick>gatheredpurpleflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
@@ -9494,6 +10165,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>colormixer</lock>
 			<pick>gatheredorangeflower</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
@@ -9526,7 +10198,6 @@
 		<inverted>true</inverted>
 
 		<queue>
-
 			<pick>rmwood</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -9557,7 +10228,6 @@
 		<inverted>true</inverted>
 
 		<queue>
-
 			<pick>flour</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -9689,7 +10359,7 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qexaminecrateburygoldarmor</id>
 		<name esES="Examinar">Examine</name>
@@ -9808,41 +10478,357 @@
 			<createItemByType>weapon.special</createItemByType>
 		</queue>
 	</action>
+	
+	<action>
+		<id>qshrine1</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>itesmithy</lock>
+			<pick>spiderite</pick>
+			<move>itesmithy</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>goblinite</pick>
+			<move>itesmithy</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>ogreite</pick>
+			<move>itesmithy</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>shrine1</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificewood</id>
+
+		<name esES="Ofrecer madera a">Offer wood to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>rmwood</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificestone</id>
+
+		<name esES="Ofrecer piedra a">Offer stone to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>rmstone</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificewheat</id>
+
+		<name esES="Ofrecer grano a">Offer wheat to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>wheat</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificegold</id>
+
+		<name esES="Ofrecer oro a">Offer gold to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>rmgold</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificefruit</id>
+
+		<name esES="Ofrecer fruta a">Offer fruit to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>apple,pear,blueradish,snowcherry</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qsacrificebones</id>
+
+		<name esES="Ofrecer huesos a">Offer bones to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>bones,humanremains,purgedhumanremains</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificedirt</id>
+
+		<name esES="Ofrecer barro a">Offer mud to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>rmmud</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificedirt2</id>
+
+		<name esES="Ofrecer barro a">Offer mud to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>rmmud</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine2</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificecoins</id>
+
+		<name esES="Ofrecer monedas a">Offer coins to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<deleteCoinsPCT>1d20+30</deleteCoinsPCT>
+			<wait>40</wait>
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificecoins2</id>
+
+		<name esES="Ofrecer monedas a">Offer coins to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<deleteCoinsPCT>1d20+30</deleteCoinsPCT>
+			<wait>40</wait>
+			<unlock />
+			<replaceCellItem>shrine3</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificecopper</id>
+
+		<name esES="Ofrecer cobre a">Offer copper to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>rmcopper</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificewater</id>
+
+		<name esES="Ofrecer agua a">Offer water to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>waterbucket</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificeanimal</id>
+
+		<name esES="Sacrificar animales a">Sacrifice animals to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pickFriendly>cow,milkedcow,bull,unifallow,milkedunifallow,wildcow,milkedwildcow,wildunifallow,milkedwildunifallow</pickFriendly>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyFriendly />
+			<pickFriendly>cow,milkedcow,bull,unifallow,milkedunifallow,wildcow,milkedwildcow,wildunifallow,milkedwildunifallow</pickFriendly>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyFriendly />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificeanimal2</id>
+
+		<name esES="Sacrificar animales a">Sacrifice animals to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pickFriendly>cow,milkedcow,bull,unifallow,milkedunifallow,wildcow,milkedwildcow,wildunifallow,milkedwildunifallow</pickFriendly>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyFriendly />
+			<pickFriendly>cow,milkedcow,bull,unifallow,milkedunifallow,wildcow,milkedwildcow,wildunifallow,milkedwildunifallow</pickFriendly>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<unlock />
+			<replaceCellItem>shrine4</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificecorpse</id>
+
+		<name esES="Sacrificar restos humanos a">Sacrifice human remains to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>corpse</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<replaceCellItem>shrine1</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsacrificecorpse2</id>
+
+		<name esES="Sacrificar restos humanos a">Sacrifice human remains to</name>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<pick>corpse</pick>
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<destroyitem />
+			<unlock />
+			<reviveHeroes />
+			<replaceCellItem>shrine5</replaceCellItem>
+		</queue>
+	</action>
+	
+	
 	<!-- /QUEUES -->
 
 	<!-- BlueSteel's Mod pack -->
-	<!--	<action>	<id>qbuildflourmill</id>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<pick>rmwood</pick>
-			<wait>32</wait>
-			<move>carpentrybench</move>
-			<destroyItem />
-			<unlock />
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<pickFriendly>cow,milkedcow</pickFriendly>
-			<wait>36</wait>
-			<destroyFriendly />
-			<createItem>flourmill</createItem>
-		</queue>
-	</action>
--->
 	<action>	<id>qbuilddirtmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -9868,6 +10854,7 @@
 			<createItem>dirtmine</createItem>
 		</queue>
 	</action>
+
 	<action>	<id>qbuildsandmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -9893,6 +10880,7 @@
 			<createItem>sandmine</createItem>
 		</queue>
 	</action>
+
 	<action>	<id>qbuildstonemine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -9918,6 +10906,7 @@
 			<createItem>stonemine</createItem>
 		</queue>
 	</action>
+
 	<action>	<id>qbuildgravelmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -9943,6 +10932,7 @@
 			<createItem>gravelmine</createItem>
 		</queue>
 	</action>
+
 	<action> <id>qbuildcoalmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -9968,6 +10958,7 @@
 			<createItem>coalmine</createItem>
 		</queue>
 	</action>
+
 	<action> <id>qbuildironemine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -9993,6 +10984,7 @@
 			<createItem>ironmine</createItem>
 		</queue>
 	</action>
+
 	<action> <id>qbuildcoppermine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
@@ -10019,6 +11011,7 @@
 		</queue>
 	</action>
 	<!-- Wait times set to be the same as mining in terrain.xml -->
+
 	<action>
 		<id>qminedirt</id>
 		<generatedItem>rmmud</generatedItem>
@@ -10031,6 +11024,7 @@
 			<createItem>rmmud</createItem>
 		</queue>
 	</action>
+
 	<action>
 		<id>qminestone</id>
 		<generatedItem>rmstone</generatedItem>
@@ -16867,10 +17861,10 @@
 		<name esES="Granja de Snoats">Snoat Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,skinnedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat</pickFriendly>
+			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,wildskinnedsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
-			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,skinnedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat</pickFriendly>
+			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,wildskinnedsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
 			<pick>rmwood</pick>
@@ -20157,8 +21151,7 @@
 	</action>
 
 	<!-- DEAD SANTA -->
-	<action>
-		<id>qsantatomb</id>
+	<action>	<id>qsantatomb</id>
 
 		<priorityID>itemconstruction</priorityID>
 
@@ -20181,63 +21174,18 @@
 			<createItem>santatomb</createItem>
 		</queue>
 	</action>
-	<!--
-	<action>
-		<id>qtrimmilkedwildsnoat</id>
+	
+
+	<action>	<id>qtrimmilkedwildsnoat</id>
 
 		<priorityID>gathering</priorityID>
 
 		<queue>
-			<pickFriendly>milkedsnoat</pickFriendly>
-			<move>newsnoatfarm</move>
-			<wait>32</wait>
-			<unlock />
-			<createFriendly>skinnedmilkedwildsnoat</createFriendly>
-			<createItem>wool</createItem>
-		</queue>
-	</action>
--->
-	<action>
-		<id>qtrimmilkedwildsnoat</id>
-
-		<priorityID>gathering</priorityID>
-
-		<queue>
-			<pickFriendly>milkedwildsnoat</pickFriendly>
-			<move>newsnoatfarm</move>
-			<wait>32</wait>
-			<unlock />
-			<createFriendly>skinnedmilkedwildsnoat</createFriendly>
-			<createItem>wool</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qtrimshoat</id>
-
-		<priorityID>gathering</priorityID>
-
-		<queue>
-			<pickFriendly>snoat</pickFriendly>
+			<pickFriendly>wildmilkedsnoat</pickFriendly>
 			<move>newsnoatfarm,emptysnoatfarm</move>
 			<wait>32</wait>
 			<unlock />
-			<createFriendly>skinnedsnoat</createFriendly>
-			<createItem>wool</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qtrimwildsnoat</id>
-
-		<priorityID>gathering</priorityID>
-
-		<queue>
-			<pickFriendly>wildsnoat</pickFriendly>
-			<move>newsnoatfarm,emptysnoatfarm</move>
-			<wait>32</wait>
-			<unlock />
-			<createFriendly>skinnedwildsnoat</createFriendly>
+			<createFriendly>skinnedmilkedwildsnoat</createFriendly>
 			<createItem>wool</createItem>
 		</queue>
 	</action>
@@ -20396,7 +21344,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly useSource="true">snoat,wildsnoat,milkedsnoat,milkedwildsnoat,skinnedsnoat,skinnedwildsnoat,skinnedmilkedsnoat,skinnedmilkedwildsnoat</pickFriendly>
+			<pickFriendly useSource="true">snoat,wildsnoat,milkedsnoat,wildmilkedsnoat,skinnedsnoat,wildskinnedsnoat,skinnedmilkedsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>15</wait>
 			<destroyFriendly />
 			<createItem>snoatincage</createItem>
@@ -20437,7 +21385,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>cow,bull,wildbull,milkedcow,wildcow,milkedwildcow,snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,milkedwildsnoat,skinnedwildsnoat,skinnedmilkedwildsnoat,reindeer,doe</pickFriendly>
+			<pickFriendly>cow,bull,wildbull,milkedcow,wildcow,milkedwildcow,snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,wildmilkedsnoat,wildskinnedsnoat,skinnedmilkedwildsnoat,reindeer,doe</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -20473,6 +21421,23 @@
 			<destroyFriendly />
 			<unlock />
 			<createItem>unifallowhide</createItem>
+		</queue>
+	</action>
+
+
+	<action>
+		<id>qwildskootenfeather</id>
+
+		<priorityID>butcheringkilling</priorityID>
+
+		<queue>
+			<pickFriendly>wildskootenbeeten,layedeggwildskooten</pickFriendly>
+			<move>newskootenbeetenfarm</move>
+			<wait>32</wait>
+			<unlock />
+			<destroyFriendly />
+			<createFriendly>pluckedwildskootenbeeten</createFriendly>
+			<createItem>skootenfeather</createItem>
 		</queue>
 	</action>
 	

@@ -196,6 +196,26 @@
 		<automatic>true</automatic>
 	</mill>
 
+	<snoatfarm>
+		<name esES="Granja de snoats">Snoat farm</name>
+		<description esES="Snooooooooat!">Snooooooooat</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+		<mustBeBuiltOver>snow</mustBeBuiltOver>
+		<mustBeBuiltOver>snowhumus</mustBeBuiltOver>
+
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>snoat,wildsnoat</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</snoatfarm>
+
 	<mineshaft>
 		<name esES="Pozo minero">Mineshaft</name>
 		<description esES="Se usa para extraer materiales sin arruinar el terreno">Used to extract minerals without destroying the terrain</description>
