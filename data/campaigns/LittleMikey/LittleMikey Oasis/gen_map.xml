@@ -336,7 +336,7 @@
 	</heightSeed>
 	
 	<heightSeed>
-		<num>10+5</num>
+		<num>1d10+5</num>
 		<turns>5</turns>
 		<flatsBetweenLevels>3</flatsBetweenLevels>
 
