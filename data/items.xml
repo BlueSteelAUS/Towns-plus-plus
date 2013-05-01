@@ -965,7 +965,7 @@
 		<stackableSize>1</stackableSize>
 
 		<foodValue>4</foodValue>
-		<foodFillPCT>125</foodFillPCT>
+		<foodFillPCT>110</foodFillPCT>
 		<foodEatTime>80</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
 
@@ -1191,7 +1191,7 @@
 
 	<waterbucket>
 		<name esES="Cubo de agua">Bucket of water</name>
-		<type>utils</type>
+		<type>rawmaterials.misc</type>
 
 		<foodValue>1</foodValue>
 		<foodFillPCT>10</foodFillPCT>
@@ -2178,6 +2178,7 @@
 	<mill>
 		<name esES="Molino">Mill</name>
 		<description esES="Se usa para obtener harina">Use this to create flour</description>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -2186,7 +2187,6 @@
 		<alwaysOperative>false</alwaysOperative>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<type>utils.workshops</type>
 		<action>del_mill</action>
 	</mill>
 
@@ -2233,7 +2233,7 @@
 
 		<action>qreleasesnoat</action>
 
-		<value>300</value>
+		<value>250</value>
 	</snoatincage>
 
 	<sheepincage>
@@ -2418,6 +2418,7 @@
 
 	<rounddarkblock>
 		<name esES="Bloque oscuro redondeado">Rounded dark block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2430,6 +2431,7 @@
 
 	<roundgrayblock>
 		<name esES="Bloque gris redondeado">Rounded gray block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2442,6 +2444,7 @@
 
 	<roundwhiteblock>
 		<name esES="Bloque blanco redondeado">Rounded white block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2454,6 +2457,7 @@
 
 	<roundclayblock>
 		<name esES="Bloque de barro redondeado">Rounded clay block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2466,6 +2470,7 @@
 
 	<roundgrassblock>
 		<name esES="Bloque de hierba redondeado">Rounded grass block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2478,6 +2483,7 @@
 
 	<diagonalgrassblock>
 		<name esES="Bloque de hierba diagonal">Diagonal grass block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2490,6 +2496,7 @@
 
 	<inwardgrassblock>
 		<name esES="Bloque de hierba interior">Inward grass block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2502,6 +2509,7 @@
 
 	<diagonalbrickblock>
 		<name esES="Bloque de ladrillos diagonal">Diagonal brick block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2514,6 +2522,7 @@
 
 	<roundbrickblock>
 		<name esES="Bloque de ladrillos redondeado">Round brick block</name>
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -2903,6 +2912,7 @@
 
 	<stonebrickblock4>
 		<name esES="Muro de ladrillos">Stone bricks wall</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2919,6 +2929,7 @@
 
 	<stonebrickblock5>
 		<name esES="Muro de ladrillos">Stone bricks wall</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2935,6 +2946,7 @@
 
 	<stonebrickblock6>
 		<name esES="Muro de ladrillos">Stone bricks wall</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -4060,6 +4072,7 @@
 
 	<woodenfloor>
 		<name esES="Muro-suelo de madera">Wooden floor wall</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -4074,6 +4087,7 @@
 
 	<stonefloor>
 		<name esES="Muro-suelo de piedra">Stone floor wall</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -4088,6 +4102,7 @@
 
 	<glassfloor>
 		<name esES="Muro-suelo de cristal">Glass floor wall</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -4445,6 +4460,27 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</torch>
+	
+	<bonetorch>
+		<name esES="Antorcha de hueso">Bone torch</name>
+		<description esES="Brilla como un gusilú">Star bright, star fright...</description>
+
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wallConnector>true</wallConnector>
+		<alwaysOperative>false</alwaysOperative>
+
+		<lightRadius>2</lightRadius>
+		<lightRed>FULL</lightRed>
+		<lightGreen>NONE</lightGreen>
+		<lightBlue>NONE</lightBlue>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>118</value>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</bonetorch>
 
 	<!--/ITEMS -->
 
@@ -4674,7 +4710,6 @@
 		<buryItemPCT>75</buryItemPCT>
 		<buryLivings>nusepthegoblinking</buryLivings>
 		<buryLivingsPCT>5</buryLivingsPCT>
-
 
 	</purplethrone>
 
@@ -6016,9 +6051,9 @@
 		<rangedAmmo>firearrow</rangedAmmo>
 
 		<location>WEAPON</location>
-		<attack>1d44+128</attack>
-		<defense>1d59+170</defense>
-		<damage>1d74+213</damage>
+		<attack>1d44+140</attack>
+		<defense>1d59+180</defense>
+		<damage>1d74+240</damage>
 		<LOS>1d3</LOS>
 		<verb esES="ensarta">sticks</verb>
 		<verbInfinitive esES="ensartar">stick</verbInfinitive>
@@ -6722,8 +6757,8 @@
 
 	<ironshortsword>
 		<level>9</level>
-		<name esES="Espada corta de hierro">Iron shortsword</name>
-		<description esES="Todas las niñas se reían de su estatura diminuta">All the girls laughed at it's tiny size</description>
+		<name esES="Espada corta de hierro">Iron short sword</name>
+		<description esES="Todas las niñas se reían de su estatura diminuta">All the girls laughed at its tiny size</description>
 		<type>weapon.iron</type>
 
 		<location>WEAPON</location>
@@ -7668,6 +7703,7 @@
 
 	<colormixer>
 		<name esES="Tabla para mezclar colores">Color mixing bench</name>
+
 		<type>utils.workshops</type>
 
 		<bury>true</bury>
@@ -7892,6 +7928,7 @@
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
 
+		<text>true</text>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -7903,6 +7940,295 @@
 		<action>rotate_doorsignswords_E1</action>
 		<action>del_doorsignswords</action>
 	</doorsignswords>
+
+	<woodenwallsign>
+		<name esES="Cartel de madera de pared">Wooden wall sign</name>
+
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wallConnector>true</wallConnector>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</woodenwallsign>
+
+	<ironwoodenwallsign>
+		<name esES="Cartel de madera con borde de hierro">Wooden sign with iron frame</name>
+
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wallConnector>true</wallConnector>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</ironwoodenwallsign>
+
+	<woodensign>
+		<name esES="Cartel de madera">Wooden sign</name>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</woodensign>
+
+	<woodennortharrow>
+		<name esES="Cartel flecha de madera (norte)">Wooden north arrow sign</name>
+		<type>decorative.outdoor</type>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<base>true</base>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</woodennortharrow>
+
+	<woodensoutharrow>
+		<name esES="Cartel flecha de madera (sur)">Wooden south arrow sign</name>
+		<type>decorative.outdoor</type>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<base>true</base>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</woodensoutharrow>
+
+	<woodeneastarrow>
+		<name esES="Cartel flecha de madera (este)">Wooden east arrow sign</name>
+		<type>decorative.outdoor</type>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<base>true</base>
+		<text>true</text>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</woodeneastarrow>
+
+	<woodenwestarrow>
+		<name esES="Cartel flecha de madera (oeste)">Wooden west arrow sign</name>
+		<type>decorative.outdoor</type>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<base>true</base>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</woodenwestarrow>
+
+	<engravingstone>
+		<name esES="Piedra grabada">Engraving stone</name>
+		<type>decorative.outdoor</type>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</engravingstone>
+
+	<scroll>
+		<name esES="Pergamino">Scroll</name>
+		<type>decorative.outdoor</type>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</scroll>
+
+	<book>
+		<name esES="Libro">Book</name>
+		<type>decorative.outdoor</type>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</book>
+
+	<shrine1>
+		<name esES="Santuario">Shrine</name>
+		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
+		<description esES=" "> </description> 
+		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
+		<description esES="Sepárate de la codicia">Detach from one's greed</description>
+		<description esES="Supera la gula">Overcome one's gluttony</description>
+		<description esES="Sacrifica un alma">Sacrifice one's soul</description>
+
+		<happiness>2</happiness>
+
+		<action>qsacrificewood</action>
+		<action>qsacrificestone</action>
+		<action>qsacrificewheat</action>
+		<action>qsacrificegold</action>
+		<action>qsacrificefruit</action>
+		<action>qsacrificebones</action>
+		<action>qsacrificecoins</action>
+		<action>qsacrificedirt2</action>
+		<action>qsacrificecopper</action>
+		<action>qsacrificecorpse</action>
+		<action>qsacrificewater</action>
+		<action>qsacrificeanimal</action>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+	</shrine1>
+
+	<shrine2>
+		<name esES="Santuario">Shrine</name>
+		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
+		<description esES=" "> </description> 
+		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
+		<description esES="Sepárate de la codicia">Detach from one's greed</description>
+		<description esES="Supera la gula">Overcome one's gluttony</description>
+		<description esES="Sacrifica un alma">Sacrifice one's soul</description>
+
+		<happiness>2</happiness>
+
+		<action>qsacrificewood</action>
+		<action>qsacrificestone</action>
+		<action>qsacrificewheat</action>
+		<action>qsacrificegold</action>
+		<action>qsacrificefruit</action>
+		<action>qsacrificebones</action>
+		<action>qsacrificecoins2</action>
+		<action>qsacrificedirt</action>
+		<action>qsacrificecopper</action>
+		<action>qsacrificecorpse</action>
+		<action>qsacrificewater</action>
+		<action>qsacrificeanimal</action>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+	</shrine2>
+
+
+	<shrine3>
+		<name esES="Santuario">Shrine</name>
+		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
+		<description esES=" "> </description> 
+		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
+		<description esES="Sepárate de la codicia">Detach from one's greed</description>
+		<description esES="Supera la gula">Overcome one's gluttony</description>
+		<description esES="Sacrifica un alma">Sacrifice one's soul</description>
+
+		<happiness>2</happiness>
+
+		<action>qsacrificewood</action>
+		<action>qsacrificestone</action>
+		<action>qsacrificewheat</action>
+		<action>qsacrificegold</action>
+		<action>qsacrificefruit</action>
+		<action>qsacrificebones</action>
+		<action>qsacrificecoins</action>
+		<action>qsacrificedirt</action>
+		<action>qsacrificecopper</action>
+		<action>qsacrificecorpse</action>
+		<action>qsacrificewater</action>
+		<action>qsacrificeanimal2</action>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+	</shrine3>
+
+	<shrine4>
+		<name esES="Santuario">Shrine</name>
+		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
+		<description esES=" "> </description> 
+		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
+		<description esES="Sepárate de la codicia">Detach from one's greed</description>
+		<description esES="Supera la gula">Overcome one's gluttony</description>
+		<description esES="Sacrifica un alma">Sacrifice one's soul</description>
+
+		<happiness>2</happiness>
+		
+		<action>qsacrificewood</action>
+		<action>qsacrificestone</action>
+		<action>qsacrificewheat</action>
+		<action>qsacrificegold</action>
+		<action>qsacrificefruit</action>
+		<action>qsacrificebones</action>
+		<action>qsacrificecoins</action>
+		<action>qsacrificedirt</action>
+		<action>qsacrificecopper</action>
+		<action>qsacrificecorpse2</action>
+		<action>qsacrificewater</action>
+		<action>qsacrificeanimal</action>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+	</shrine4>
+
+	<shrine5>
+		<name esES="Santuario">Shrine</name>
+		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
+		<description esES=" "> </description> 
+		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
+		<description esES="Sepárate de la codicia">Detach from one's greed</description>
+		<description esES="Supera la gula">Overcome one's gluttony</description>
+		<description esES="Sacrifica un alma">Sacrifice one's soul</description>
+
+		<happiness>2</happiness>
+		<maxAge>1440</maxAge>
+		<maxAgeItem>shrine1</maxAgeItem>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+	</shrine5>
 
 	<necromancerstatue>
 		<name esES="Estatua de Wizardjian">Wizardjian statue</name>
@@ -8338,6 +8664,7 @@
 
 	<burner>
 		<name esES="Quemador">Burner</name>
+		<type>utils.workshops</type>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9474,13 +9801,15 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		<buryItem>gravebury</buryItem>
+		<buryItem>grave,gravebury</buryItem>
 
-		<buryItemPCT>75</buryItemPCT>
+		<buryItemPCT>85,15</buryItemPCT>
 
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>55,25,5</buryLivingsPCT>
@@ -9516,11 +9845,13 @@
 
 		<locked>true</locked>
 
+		<text>true</text>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		<buryItem>mosstomb,tombbury,tombbury1</buryItem>
+		<buryItem>tomb,mosstomb,tombbury,tombbury1</buryItem>
 
-		<buryItemPCT>25,50,15</buryItemPCT>
+		<buryItemPCT>85,25,50,15</buryItemPCT>
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>55,25,5</buryLivingsPCT>
 
@@ -9576,6 +9907,8 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
+		<text>true</text>
+
 		<buryItemPCT>95</buryItemPCT>
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
@@ -9595,6 +9928,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		<text>true</text>
 
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
@@ -9615,6 +9949,8 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
+		<text>true</text>
+
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
 
@@ -9633,6 +9969,8 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+
+		<text>true</text>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9654,6 +9992,8 @@
 
 		<locked>true</locked>
 
+		<text>true</text>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -9673,6 +10013,8 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+
+		<text>true</text>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9694,6 +10036,8 @@
 
 		<locked>true</locked>
 
+		<text>true</text>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -9713,6 +10057,8 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+
+		<text>true</text>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9734,6 +10080,8 @@
 
 		<locked>true</locked>
 
+		<text>true</text>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -9752,6 +10100,8 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+
+		<text>true</text>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9772,6 +10122,8 @@
 
 		<locked>true</locked>
 
+		<text>true</text>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -9790,6 +10142,8 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+
+		<text>true</text>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9810,6 +10164,8 @@
 
 		<locked>true</locked>
 
+		<text>true</text>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -9829,6 +10185,8 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+
+		<text>true</text>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -10512,7 +10870,6 @@
 		<rangedAmmo>lightningbolt</rangedAmmo>
 
 		<bury>true</bury>
-		<rangedCharges>INFINITE</rangedCharges>
 
 		<location>WEAPON</location>
 		<attack>1d669+1715</attack>
@@ -10883,6 +11240,7 @@
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
 	</ironmine>
+
 	<harvestedironmine>
 		<name esES="Pozo minero de hierro">Iron mineshaft</name>
 		<type>mine</type>
@@ -17146,6 +17504,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un casco pintado en él">It has helmet painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17164,6 +17524,8 @@
 	<sign_1_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene una porcion de pastel pintada en él">It has slice of pie painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17184,7 +17546,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene una porcion de pastel pintada en él">It has slice of pie painted on it</description>
 
-		<glue>true</glue>
+		<text>true</text>
+
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
 
@@ -17203,7 +17566,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un pedazo de pan pintado en él">It has loaf of bread painted on it</description>
 
-		<glue>true</glue>
+		<text>true</text>
+
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
 
@@ -17221,6 +17585,8 @@
 	<sign_2_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un pedazo de pan pintado en él">It has loaf of bread painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17241,6 +17607,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene unos cubiertos pintados en él">It has cutlery painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17259,6 +17627,8 @@
 	<sign_3_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene unos cubiertos pintados en él">It has cutlery painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17279,6 +17649,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un sombrero con plumas pintado en él">It has a feathered hat painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17297,6 +17669,8 @@
 	<sign_4_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un sombrero con plumas pintado en él">It has a feathered hat painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17317,6 +17691,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene pintado la estatua de un héroe">It has a hero statue painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17335,6 +17711,8 @@
 	<sign_5_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene pintado la estatua de un héroe">It has a hero statue painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17355,6 +17733,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un yunque pintado en él">It has an anvil painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17373,6 +17753,8 @@
 	<sign_6_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un yunque pintado en él">It has an anvil painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17393,6 +17775,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un martillo pintado en él">It has a hammer and tongs painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17411,6 +17795,8 @@
 	<sign_7_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene un martillo pintado en él">It has a hammer and tongs painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17431,6 +17817,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene pintado una sierra y un tronco">It has a wood saw and log painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17449,6 +17837,8 @@
 	<sign_8_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene pintado una sierra y un tronco">It has a wood saw and log painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17469,6 +17859,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Dos espadas cruzadas estan pintadas en el">It has crossed swords painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17487,6 +17879,8 @@
 	<sign_9_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Dos espadas cruzadas estan pintadas en el">It has crossed swords painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17507,6 +17901,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene una gran caja pintada en él">It has large box painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17525,6 +17921,8 @@
 	<sign_10_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene una gran caja pintada en él">It has large box painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17545,6 +17943,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Una gran cruz roja, para señalar el hospital">It has red medical cross painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17563,6 +17963,8 @@
 	<sign_11_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Una gran cruz roja, para señalar el hospital">It has red medical cross painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17583,6 +17985,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Un martillo y una piedra, típico de un albañil">It has a hammer and stone painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17601,6 +18005,8 @@
 	<sign_12_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Un martillo y una piedra, típico de un albañil">It has a hammer and stone painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17621,6 +18027,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene una olla pintada en él">It has a cooking pot painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17639,6 +18047,8 @@
 	<sign_13_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Tiene una olla pintada en él">It has a cooking pot painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17659,6 +18069,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Una espada y un hacha, listos para la batalla">It has a sword and battleaxe painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17677,6 +18089,8 @@
 	<sign_14_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Una espada y un hacha, listos para la batalla">It has a sword and battleaxe painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17697,6 +18111,8 @@
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Esta vacío!">It has nothing painted on it</description>
 
+		<text>true</text>
+
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
@@ -17715,6 +18131,8 @@
 	<sign_15_W>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
 		<description esES="Esta vacío!">It has nothing painted on it</description>
+
+		<text>true</text>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -17891,6 +18309,8 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 		
 		<bury>true</bury>
@@ -17912,6 +18332,8 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 
 		<stackable>true</stackable>
@@ -17925,6 +18347,8 @@
 		<name esES="Tumba (Grave)">Grave</name>
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
+
+		<text>true</text>
 
 		<locked>true</locked>
 
@@ -17940,6 +18364,8 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 
 		<stackable>true</stackable>
@@ -17954,6 +18380,8 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 
 		<stackable>true</stackable>
@@ -17967,6 +18395,8 @@
 		<name esES="Sepulcro">Tomb</name>
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
+
+		<text>true</text>
 
 		<locked>true</locked>
 
@@ -17989,6 +18419,8 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 
 		<bury>true</bury>
@@ -18009,6 +18441,8 @@
 		<name esES="Sepulcro">Tomb</name>
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
+
+		<text>true</text>
 
 		<locked>true</locked>
 
@@ -18032,6 +18466,8 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 		
 		<bury>true</bury>
@@ -18052,6 +18488,8 @@
 
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
+
+		<text>true</text>
 
 		<locked>true</locked>
 		
@@ -18074,6 +18512,8 @@
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 
+		<text>true</text>
+
 		<locked>true</locked>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -18094,6 +18534,8 @@
 
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
+
+		<text>true</text>
 
 		<locked>true</locked>
 		
@@ -18118,6 +18560,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
 		
+		<text>true</text>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 

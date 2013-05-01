@@ -14,19 +14,15 @@
 
 	<rawmaterials.materials esES="Materiales" icon="ui_rmaterials">Materials</rawmaterials.materials>
 	<rawmaterials.colors esES="Colores" icon="ui_rcolors">Colors</rawmaterials.colors>
-
 	<prepfood.fruit esES="Fruta" icon="ui_fruit">Fruit</prepfood.fruit>
 	<prepfood.baked esES="Horneada" icon="ui_rbaking">Baked</prepfood.baked>
 	<prepfood.cooked esES="Cocinada" icon="ui_rfoodcooking">Cooked</prepfood.cooked>
-
 	<rawmaterials.hides esES="Pieles" icon="ui_rhides">Hides</rawmaterials.hides>
 	<rawmaterials.misc esES="Misc." icon="ui_misc">Misc.</rawmaterials.misc>
-
 	<utils.misc esES="Misc." icon="ui_misc">Misc.</utils.misc>
 	<utils.materials esES="Materiales" icon="ui_rmaterials">Materials</utils.materials>
 	<utils.roads esES="Carreteras" icon="ui_rroads">Roads</utils.roads>
 	<utils.workshops esES="Mesas de trabajo" icon="ui_workshops">Workshops</utils.workshops>
-
 	<weapon.stone esES="Piedra" icon="ui_rweapon_stone">Stone</weapon.stone>
 	<weapon.misc esES="Misc." icon="ui_rweapon_other">Misc.</weapon.misc>
 	<weapon.iron esES="Hierro" icon="ui_rweapon_iron">Iron</weapon.iron>

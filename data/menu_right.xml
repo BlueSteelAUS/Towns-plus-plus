@@ -9,11 +9,11 @@
 		<item id="qnewboarfarm" code="QUEUEANDPLACEAREA" parameter="qnewboarfarm" icon="boar" />
 		<item id="qnewchickenfarm" code="QUEUEANDPLACEAREA" parameter="qnewchickenfarm" icon="chicken" />
 		<item id="qnewroosterfarm" code="QUEUEANDPLACEAREA" parameter="qnewroosterfarm" icon="rooster" />
-		<item id="qnewskootenbeetenfarm" code="QUEUEANDPLACEAREA" parameter="qnewskootenbeetenfarm" icon="skootenbeeten" />
-		<item id="qnewunifallowfarm" code="QUEUEANDPLACEAREA" parameter="qnewunifallowfarm" icon="unifallow" />
 		<item id="qnewbadgerfarm" code="QUEUEANDPLACEAREA" parameter="qnewbadgerfarm" icon="badger" />
-		<item id="qnewsnoatfarm" code="QUEUEANDPLACEAREA" parameter="qnewsnoatfarm" icon="snoat" />
 		<item id="qnewsheepfarm" code="QUEUEANDPLACEAREA" parameter="qnewsheepfarm" icon="sheep" />
+		<item id="qnewskootenbeetenfarm" code="QUEUEANDPLACEAREA" parameter="qnewskootenbeetenfarm" icon="skootenbeeten" />
+		<item id="qnewsnoatfarm" code="QUEUEANDPLACEAREA" parameter="qnewsnoatfarm" icon="snoat" />
+		<item id="qnewunifallowfarm" code="QUEUEANDPLACEAREA" parameter="qnewunifallowfarm" icon="unifallow" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</farms>
 
@@ -601,6 +601,15 @@
 			<item id="qsign_13_W" code="QUEUEANDPLACEAREA" parameter="qsign_13_E" icon="sign_13_W" />
 			<item id="qsign_14_W" code="QUEUEANDPLACEAREA" parameter="qsign_14_E" icon="sign_14_W" />
 			<item id="qsign_15_W" code="QUEUEANDPLACEAREA" parameter="qsign_15_E" icon="sign_15_W" />
+			<item id="qwoodenwallsign" code="QUEUEANDPLACE" parameter="qwoodenwallsign" />
+			<item id="qwoodennortharrow" code="QUEUEANDPLACE" parameter="qwoodennortharrow" />
+			<item id="qwoodeneastarrow" code="QUEUEANDPLACE" parameter="qwoodeneastarrow" />
+			<item id="qwoodenwestarrow" code="QUEUEANDPLACE" parameter="qwoodenwestarrow" />
+			<item id="qwoodensoutharrow" code="QUEUEANDPLACE" parameter="qwoodensoutharrow" />
+			<item id="qironwoodenwallsign" code="QUEUEANDPLACE" parameter="qironwoodenwallsign" />
+			<item id="qengravingstone" code="QUEUEANDPLACE" parameter="qengravingstone" />
+			<item id="qbook" code="QUEUEANDPLACE" parameter="qbook" />
+			<item id="qscroll" code="QUEUEANDPLACE" parameter="qscroll" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</signs>
 
@@ -729,6 +738,7 @@
 		<item id="qfluidselevator" code="QUEUEANDPLACEAREA" parameter="qfluidselevator" />
 		<item id="qmill" code="QUEUEANDPLACEAREA" parameter="qmill" />
 		<item id="qwell" code="QUEUEANDPLACEAREA" parameter="qwell" />
+		<item id="qshrine1" code="QUEUEANDPLACE" parameter="qshrine1" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</utils>
 

@@ -1075,7 +1075,7 @@
 		<castEffects>daunted</castEffects>
 		<castTargets>CITIZEN,HERO</castTargets>
 		<castTrigger>NEAR_DEATH</castTrigger>
- 		<castCooldown>1d400+400</castCooldown>
+  		<castCooldown>1d400+400</castCooldown>
 
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
@@ -1147,7 +1147,7 @@
 		<id>aoedamage</id>
 		<name esES="Daño de area">Aoe damage</name>
 
-		<castEffects>damage200</castEffects>
+		<castEffects>damage100</castEffects>
 		<castTargets>ENEMY</castTargets>
 		<castCooldown>4</castCooldown>
 		<lasts>5</lasts>

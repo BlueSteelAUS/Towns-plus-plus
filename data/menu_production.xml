@@ -349,7 +349,15 @@
 			<item id="qsign_13_W" code="QUEUE" parameter="qsign_13_E" icon="sign_13_W" />
 			<item id="qsign_14_W" code="QUEUE" parameter="qsign_14_E" icon="sign_14_W" />
 			<item id="qsign_15_W" code="QUEUE" parameter="qsign_15_E" icon="sign_15_W" />
-
+			<item id="qwoodenwallsign" code="QUEUE" parameter="qwoodenwallsign" />
+			<item id="qwoodennortharrow" code="QUEUE" parameter="qwoodennortharrow" />
+			<item id="qwoodeneastarrow" code="QUEUE" parameter="qwoodeneastarrow" />
+			<item id="qwoodenwestarrow" code="QUEUE" parameter="qwoodenwestarrow" />
+			<item id="qwoodensoutharrow" code="QUEUE" parameter="qwoodensoutharrow" />
+			<item id="qironwoodenwallsign" code="QUEUE" parameter="qironwoodenwallsign" />
+			<item id="qengravingstone" code="QUEUE" parameter="qengravingstone" />
+			<item id="qbook" code="QUEUE" parameter="qbook" />
+			<item id="qscroll" code="QUEUE" parameter="qscroll" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</signs>
 
@@ -443,6 +451,7 @@
 				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
 				<item id="qmilkdoe" code="QUEUE" parameter="qmilkdoe" />
 				<item id="qmilksnoat" code="QUEUE" parameter="qmilksnoat" />
+				<item id="qmilkwildsnoat" code="QUEUE" parameter="qmilkwildsnoat" />
 				<item id="qmilkunifallow" code="QUEUE" parameter="qmilkunifallow" />
 				<item id="qmilkwildunifallow" code="QUEUE" parameter="qmilkwildunifallow" />
 				<item id="qgatherchickenegg" code="QUEUE" parameter="qgatherchickenegg" />
@@ -562,6 +571,7 @@
 			<item id="qtrimsheep" code="QUEUE" parameter="qtrimsheep" />
 			<item id="qtrimwildsheep" code="QUEUE" parameter="qtrimwildsheep" />
 			<item id="qtrimsnoat" code="QUEUE" parameter="qtrimsnoat" />
+			<item id="qtrimwildsnoat" code="QUEUE" parameter="qtrimwildsnoat" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</hides>
 
@@ -837,6 +847,7 @@
 		<item id="qwinebarrel" code="QUEUE" parameter="qwinebarrel" icon="ui_winebarrel"/>
 		<item id="qmill" code="QUEUE" parameter="qmill" />
 		<item id="qwell" code="QUEUE" parameter="qwell" />
+		<item id="qshrine1" code="QUEUE" parameter="qshrine1" />
 		<item id="qfishingset" code="QUEUE" parameter="qfishingset" />
 		<item id="qfluidselevator" code="QUEUE" parameter="qfluidselevator" />
 		<item id="qburner" code="QUEUE" parameter="qburner" />
