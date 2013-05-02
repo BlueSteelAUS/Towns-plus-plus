@@ -18640,7 +18640,7 @@
 	<medicineghost>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
 		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
-		<spawn>mysteryousmiasma</spawn>
+		<spawn>knowledgecloud</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
 		<maxAgeItem>medicinecabinet</maxAgeItem>
