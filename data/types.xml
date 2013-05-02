@@ -88,4 +88,11 @@
 	<furniture.chairs esES="N/A" icon="woodenchair">Chairs</furniture.chairs>
 	<furniture.cupboards esES="N/A" icon="smallwoodendrawer_flower_E">Cupboards</furniture.cupboards>
 	<furniture.tables esES="N/A" icon="woodentable">Tables</furniture.tables>
+	
+	<!-- MORE FOOD TYPES -->
+	<rawfood.meat esES="N/A" icon="ui_rawfood_meat">Raw Meat</rawfood.meat>
+	<rawfood.gathered esES="N/A" icon="ui_rawfood_gathered">Gathered Raw Food</rawfood.gathered>
+	<rawfood.harvested esES="N/A" icon="ui_rawfood_harvested">Harvested Raw Food</rawfood.harvested>
+	<rawfood.processed esES="N/A" icon="ui_rawfood_processed">Processed Raw Food</rawfood.processed>
+
 </types>

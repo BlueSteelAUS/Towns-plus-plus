@@ -3118,7 +3118,7 @@
 		<walkSpeed>85</walkSpeed>
 
 		<facingDirections>true</facingDirections>
-		<steal>prepfood.fruit,prepfood.baked,prepfood.cooked,rawfood</steal>
+		<steal>prepfood.fruit,prepfood.baked,prepfood.cooked,rawfood.meat,rawfood.gathered,rawfood.harvested,rawfood.processed</steal>
 
 		<drop>
 			<item>bones</item>

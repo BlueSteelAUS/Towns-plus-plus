@@ -723,7 +723,7 @@
 	<milk>
 		<name esES="Leche">Milk</name>
 
-		<type>rawfood</type>
+		<type>rawfood.gathered</type>
 		<canBeEaten>true</canBeEaten>
 
 		<stackable>true</stackable>
@@ -847,7 +847,7 @@
 	<egg>
 		<name esES="Huevo">Egg</name>
 
-		<type>rawfood</type>
+		<type>rawfood.gathered</type>
 		<canBeEaten>true</canBeEaten>
 		<maxAge>1d2880+2880</maxAge>
 
@@ -975,7 +975,7 @@
 	<rawpork>
 		<name esES="Carne de cerdo cruda">Raw pork</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
-		<type>rawfood</type>
+		<type>rawfood.meat</type>
 		<canBeEaten>true</canBeEaten>
 
 		<stackable>true</stackable>
@@ -991,7 +991,7 @@
 	<rawsteak>
 		<name esES="Filete crudo">Raw steak</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
-		<type>rawfood</type>
+		<type>rawfood.meat</type>
 		<canBeEaten>true</canBeEaten>
 
 		<stackable>true</stackable>
@@ -1007,7 +1007,7 @@
 	<rawdeersteak>
 		<name esES="Carne cruda de snoat">Raw snoat steak</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
-		<type>rawfood</type>
+		<type>rawfood.meat</type>
 		<canBeEaten>true</canBeEaten>
 
 		<stackable>true</stackable>
@@ -1024,7 +1024,7 @@
 		<name esES="Pescado crudo">Raw fish</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 
-		<type>rawfood</type>
+		<type>rawfood.meat</type>
 		<canBeEaten>true</canBeEaten>
 
 		<stackable>true</stackable>
@@ -1041,7 +1041,7 @@
 		<name esES="Carne cruda de ave">Raw poultry</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 
-		<type>rawfood</type>
+		<type>rawfood.meat</type>
 		<canBeEaten>true</canBeEaten>
 
 		<stackable>true</stackable>
@@ -1058,7 +1058,7 @@
 		<name esES="Carne de tejón cruda">Raw badger meat</name>
 		<description esES="¿Vas a comerte ésto?">Do you really want to eat this?</description>
 
-		<type>rawfood</type>
+		<type>rawfood.meat</type>
 		<canBeEaten>true</canBeEaten>
 
 		<stackable>true</stackable>
@@ -1382,7 +1382,7 @@
 
 	<wheat>
 		<name esES="Grano">Wheat</name>
-		<type>rawfood</type>
+		<type>rawfood.harvested</type>
 		<canBeEaten>false</canBeEaten>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -1426,7 +1426,7 @@
 
 	<sugarcane>
 		<name esES="Caña de azúcar">Sugarcane</name>
-		<type>rawfood</type>
+		<type>rawfood.harvested</type>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -2202,7 +2202,7 @@
 	<flour>
 		<name esES="Harina">Flour</name>
 
-		<type>rawfood</type>
+		<type>rawfood.processed</type>
 		<canBeEaten>false</canBeEaten>
 
 		<stackable>true</stackable>
@@ -2213,7 +2213,7 @@
 	<sugar>
 		<name esES="Azúcar">Sugar</name>
 
-		<type>rawfood</type>
+		<type>rawfood.processed</type>
 		<canBeEaten>false</canBeEaten>
 
 		<stackable>true</stackable>

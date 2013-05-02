@@ -449,7 +449,6 @@
 			<produce name="Produce" esES="N/A" icon="milk">
 				<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
 				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
-				<item id="qmilkdoe" code="QUEUE" parameter="qmilkdoe" />
 				<item id="qmilksnoat" code="QUEUE" parameter="qmilksnoat" />
 				<item id="qmilkwildsnoat" code="QUEUE" parameter="qmilkwildsnoat" />
 				<item id="qmilkunifallow" code="QUEUE" parameter="qmilkunifallow" />
