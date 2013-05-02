@@ -21194,6 +21194,20 @@
 
 	<!-- NEW CAGES -LM -->
 	<action>
+		<id>qreleasechicken</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">chickenincage</move>
+			<wait>1</wait>
+			<move useSource="true">chickenincage</move>
+			<destroyCellItem />
+			<createFriendly>chicken</createFriendly>
+		</queue>
+	</action>
+	
+	<action>
 		<id>qreleaserooster</id>
 		<name esES="Liberar">Release the</name>
 
