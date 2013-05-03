@@ -2159,6 +2159,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2243,6 +2244,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2266,6 +2268,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2288,6 +2291,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2310,6 +2314,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2332,6 +2337,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2376,6 +2382,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2419,7 +2426,7 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qkillsnoat</id>
 		<name esES="Matar">Kill</name>
@@ -2782,8 +2789,6 @@
 
 	<action>
 		<id>qomelette</id>
-
-
 
 		<priorityID>cooking</priorityID>
 
@@ -5419,7 +5424,7 @@
 		</queue>
 	</action>
 
-
+	
 	<action>
 		<id>qmayanblock</id>
 
@@ -6670,6 +6675,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -7925,11 +7931,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>bamboo</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>bamboo</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -10475,7 +10483,7 @@
 			<createItemByType>weapon.special</createItemByType>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qshrine1</id>
 
