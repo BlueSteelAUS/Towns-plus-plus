@@ -492,6 +492,12 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</banners>
 
+		<pscript name="Books and Scrolls" icon="ui_script">
+			<item id="qscroll" code="QUEUEANDPLACE" parameter="qscroll" />
+			<item id="qbook" code="QUEUEANDPLACE" parameter="qbook" />
+			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</pscript>
+		
 		<garden name="Gardens" eeES="Jardines" icon="gardenbush3">
 			<item id="qpotplant" code="QUEUEANDPLACEAREA" parameter="qpotplant" />
 			<item id="qflowerpot_red" code="QUEUEANDPLACEAREA" parameter="qflowerpot_red" />
@@ -603,40 +609,8 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</winter>
 
-		<pscript name="Books and Scrolls" icon="ui_script">
-			<item id="qscroll" code="QUEUEANDPLACE" parameter="qscroll" />
-			<item id="qbook" code="QUEUEANDPLACE" parameter="qbook" />
-			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</pscript>
-
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</decorative>
-
-	<graves name="Graves" eeES="Tumbas" icon="lizardtomb">
-		<item id="qgrave" code="QUEUEANDPLACEAREA" parameter="qgrave" />
-		<item id="qgrave2_W" code="QUEUEANDPLACEAREA" parameter="qgrave2_W" />
-		<item id="qgrave3_W" code="QUEUEANDPLACEAREA" parameter="qgrave3_W" />
-		<item id="qtomb" code="QUEUEANDPLACEAREA" parameter="qtomb" />
-		<item id="qmosstomb" code="QUEUEANDPLACEAREA" parameter="qmosstomb" />
-		<item id="qtomb2_W" code="QUEUEANDPLACEAREA" parameter="qtomb2_W" />
-		<item id="qmosstomb2_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb2_W" />
-		<item id="qmosstomb3_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb3_W" />
-		<item id="qlizardtomb" code="QUEUEANDPLACEAREA" parameter="qlizardtomb" />
-		<item id="qelftomb" code="QUEUEANDPLACEAREA" parameter="qelftomb" />
-		<item id="qdwarftomb" code="QUEUEANDPLACEAREA" parameter="qdwarftomb" />
-		<item id="qknighttomb" code="QUEUEANDPLACEAREA" parameter="qknighttomb" />
-		<item id="qhighlandertomb" code="QUEUEANDPLACE" parameter="qhighlandertomb" />
-		<item id="qroguemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguemaletomb" />
-		<item id="qroguefemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguefemaletomb" />
-		<item id="qherbalisttomb" code="QUEUEANDPLACEAREA" parameter="qherbalisttomb" />
-		<item id="qmagetomb" code="QUEUEANDPLACEAREA" parameter="qmagetomb" />
-		<item id="qbarbariantomb" code="QUEUEANDPLACEAREA" parameter="qbarbariantomb" />
-		<item id="qsipstomb" code="QUEUEANDPLACEAREA" parameter="qsipstomb" />
-		<item id="qvechstomb" code="QUEUEANDPLACEAREA" parameter="qvechstomb" />
-		<item id="qpunchwoodtomb" code="QUEUEANDPLACEAREA" parameter="qpunchwoodtomb" />
-		<item id="qsantatomb" code="QUEUEANDPLACEAREA" parameter="qsantatomb" />
-		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-	</graves>
 
 	<furniture name="Furniture" esES="Muebles" icon="ui_rfurniture">
 		<beds name="Beds" icon="woodenbed">
@@ -696,6 +670,32 @@
 		<item id="qanimalfireplace" code="QUEUEANDPLACEAREA" parameter="qanimalfireplace" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</furniture>
+
+	<graves name="Graves" eeES="Tumbas" icon="lizardtomb">
+		<item id="qgrave" code="QUEUEANDPLACEAREA" parameter="qgrave" />
+		<item id="qgrave2_W" code="QUEUEANDPLACEAREA" parameter="qgrave2_W" />
+		<item id="qgrave3_W" code="QUEUEANDPLACEAREA" parameter="qgrave3_W" />
+		<item id="qtomb" code="QUEUEANDPLACEAREA" parameter="qtomb" />
+		<item id="qmosstomb" code="QUEUEANDPLACEAREA" parameter="qmosstomb" />
+		<item id="qtomb2_W" code="QUEUEANDPLACEAREA" parameter="qtomb2_W" />
+		<item id="qmosstomb2_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb2_W" />
+		<item id="qmosstomb3_W" code="QUEUEANDPLACEAREA" parameter="qmosstomb3_W" />
+		<item id="qlizardtomb" code="QUEUEANDPLACEAREA" parameter="qlizardtomb" />
+		<item id="qelftomb" code="QUEUEANDPLACEAREA" parameter="qelftomb" />
+		<item id="qdwarftomb" code="QUEUEANDPLACEAREA" parameter="qdwarftomb" />
+		<item id="qknighttomb" code="QUEUEANDPLACEAREA" parameter="qknighttomb" />
+		<item id="qhighlandertomb" code="QUEUEANDPLACE" parameter="qhighlandertomb" />
+		<item id="qroguemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguemaletomb" />
+		<item id="qroguefemaletomb" code="QUEUEANDPLACEAREA" parameter="qroguefemaletomb" />
+		<item id="qherbalisttomb" code="QUEUEANDPLACEAREA" parameter="qherbalisttomb" />
+		<item id="qmagetomb" code="QUEUEANDPLACEAREA" parameter="qmagetomb" />
+		<item id="qbarbariantomb" code="QUEUEANDPLACEAREA" parameter="qbarbariantomb" />
+		<item id="qsipstomb" code="QUEUEANDPLACEAREA" parameter="qsipstomb" />
+		<item id="qvechstomb" code="QUEUEANDPLACEAREA" parameter="qvechstomb" />
+		<item id="qpunchwoodtomb" code="QUEUEANDPLACEAREA" parameter="qpunchwoodtomb" />
+		<item id="qsantatomb" code="QUEUEANDPLACEAREA" parameter="qsantatomb" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</graves>
 
 	<mineshafts name="Mineshafts" esES="Pozos mineros" icon="ui_mineshaft">
 		<item id="qbuilddirtmine" code="QUEUEANDPLACEAREA" parameter="qbuilddirtmine" icon="ui_mudmineshaft" />
