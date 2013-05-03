@@ -3,10 +3,10 @@
 
 	<campaign>
 		<id>c2</id>
-		<name esES="Tutorial">Tutorial</name>
+		<name esES="Tutorial">Tutorials: Press F1 when Game has started for Description and Instructions</name>
 		<mission>
 			<id>m1</id>
-			<name esES="Órdenes">Orders: Press F1 in Game for instructions</name>
+			<name esES="Órdenes">Orders</name>
 			<text esES="El objetivo de este tutorial es conseguir 10 unidades de madera y 3 manzanas. Haz clic sobre el icono 'Talar', en el menú de abajo, pincha y mueve el ratón hasta resaltar un area con árboles. Clic de nuevo para talarlos. Usando la tecla shift puedes repetir una órden sin tener que pinchar de nuevo en el icono. Para conseguir las manzanas hay que seguir el mismo proceso, pero en vez de usar la órden 'Talar' deberás usar la orden 'Recolectar'">The objective is to collect 10 pieces of wood and 3 apples, you can do so by clicking on the 'Chop' button, selecting an area, and clicking again. By holding the shift button you can repeat and order without having to click the icon again. In order to collect the apples, simply repeat the same process as chopping but click on harvest instead</text>
 			<allowBury>false</allowBury>
 			<objective>
@@ -22,7 +22,7 @@
 		</mission>
 		<mission>
 			<id>m2</id>
-			<name esES="Muros y zonas">Walls and zones: Press F1 in Game for instructions</name>
+			<name esES="Muros y zonas">Walls and zones</name>
 			<text esES="El objetivo de este tutorial es el hacer una carpintería. La zona se puede creer sin un techo, pero la construcción irá más lenta. Para éste supuesto crearemos la zona con un muro. Primero tala unos árboles, luego haz clic en el apartado de muros en el menu de la derecha, clic en muro de troncos. Crea un area de 5x5 dejando espacio para la entrada y después haz clic en Zonas. Elige carpintería, selecciona el área de dentro del semi-edificio manteniendo las cuatro paredes a cada esquina de la selección. Haz clic en Útiles en la selección de la derecha. Clic en mesa de carpintero y elige una zona de la carpintería donde quieras construirla.">This tutorial will teach you how to build a carpentry. The zone itself can be made without walls, but for the purpose of showing first time players how to build walls, we will make the zone in a walled area, a zone with a roof is much faster than one outside. First, chop wood, then select the walls section of the right hand menu. Click on log wall, and shift click a 5x5 area. Once constructed, click on zones on the lower menu, and select carpentry. Select the area within the four walls, filling it up completely until it is highlighted in white. Once the carpentry is build, place a carpentry workshop by clicking on utils on the right hand menu, then carpentry bench, and selecting where in the carpentry you wish to place it</text>
 			<allowBury>false</allowBury>
 			<objective>
@@ -37,7 +37,7 @@
 		</mission>
 		<mission>
 			<id>m3</id>
-			<name esES="Cavar y minar">Dig and mine: Press F1 in Game for instructions</name>
+			<name esES="Cavar y minar">Dig and mine</name>
 			<text esES="En esta misión tienes que conseguir 10 unidades de piedra. Crea una carpintería con una mesa de carpintero y localiza un área con piedra. Haz clic derecho sobre el suelo, elige cavar una escalera. Puedes desplazarte entre niveles con la rueda del ratón o con las teclas Q y X. Baja al nivel 0, selecciona la orden minar en el menu inferior y arrastra un área para obtener la piedra.">In this tutorial you will have to mine 10 pieces of stone. In order to do so, first set up a carpentry with a carpentry bench. Now, right click on an area with stone underneath and then click on dig a ladder. Once built, you may scroll up and down levels using the mouse wheel, or the Q and X keys on your keyboard. Once underground, click on the mine icon on the bottom screen and drag a large area to be dug out</text>
 			<allowBury>false</allowBury>
 			<objective>
@@ -48,7 +48,7 @@
 		</mission>
 		<mission>
 			<id>m4</id>
-			<name esES="Pilas de recursos">Resource stockpiles: Press F1 in Game for instructions</name>
+			<name esES="Pilas de recursos">Resource stockpiles</name>
 			<text esES="En esta misión crearemos una pila de recursos. Haz clic en el botón verde de pilas en el menú de abajo. Vamos a hacer una pila de materia prima para recolectar 10 de madera. Veras que al talar los árboles, la madera resultante es llevada a la pila. Haciendo clic derecho encima de la pila puedes configurar qué materiales acepta."> In this tutorial you will learn how to place a stockpile. Click on the green stockpile button on the bottom menu. Notice that there are many diferent types of stockpile. We will place a raw material stockpile for wood. Make a 5x5 square and chop some wood. You will notice that your civilians will now collect the wood and place it in the stockpile. Right clicking on the stockpile lets you determine what materials go into it</text>
 			<allowBury>false</allowBury>
 			<objective>
@@ -58,7 +58,7 @@
 		</mission>
 		<mission>
 			<id>m5</id>
-			<name esES="Comida y auto-producción">Food and auto-production: Press F1 in Game for instructions</name>
+			<name esES="Comida y auto-producción">Food and auto-production</name>
 			<text esES="En esta misión aprenderás a hacer una cadena de producción de pan. Primero haz clic en el botón arar y selecciona una zona de hierba de 4x4. Luego, usando el menú PLANTAR de la derecha marcaremos las casillas aradas para ser plantadas con grano. Para conseguir el grano deberás recolectar el grano salvaje que hay por el mapa. Una vez tengas el área llena de semillas de grano deberías construir un molino para convertir el grano recolectado en harina. Lo encontrarás en el menú de útiles de la derecha. Crea una zona de panadería con una mesa de panadero y un horno (ten en cuenta que para ello necesitarás crear otras zonas y mesas de trabajo). Abre el panel de producción (menú de la izquierda), busca el pan y haz click en el botoncito derecho con un '+' hasta tener un 2. Haz lo mismo en el botón de grano y en el de harina. De esta manera, cuando existan los ingredientes necesarios, los civiles fabricarán pan hasta un máximo de 2."> In this tutorial you will learn how to set up a proper food production chain. First of all, create a prepared food stockpile. In order to make meat and bread based food you will need the proper buildings placed. We will focus on a bread. Till a nearby 4x4 field in order to change the ground to fertile humus. Mark the tilled tiles to be planted with wheat by clicking on the planting button on the right, then clicking on wheat, you must place it on top of the 4x4 square you have just tilled. Search wild wheat on the map and harvest it using the harvest button on the bottom. You will see how citizens will convert that wheat into seeds to plant it on your custom farm. After you planted all the cells, place a mill nearby in order to change the grain into flour. You will find it on the right menu, under the button 'Utilities'. Build a bakery zone with a bakers oven and table (take into account that to perform this task you will need extra zones and benches). Click on the production menu (left menu) in order to set up automated production for bread. The left button is a quick construction button, the right is used in order to have a minimum amount of that number whenever there are enough ingredients. Hit the right button 2 times using the "+" sign to set up automated production. Do the same with the wheat and flour buttons.</text>
 			<allowBury>false</allowBury>
 			<objective>
@@ -69,7 +69,7 @@
 		</mission>
 		<mission>
 			<id>m6</id>
-			<name esES="Ejército y fabricación de armadura">Military and armor production: Press F1 in Game for instructions</name>
+			<name esES="Ejército y fabricación de armadura">Military and armor production</name>
 			<text esES="En esta misión crearemos piezas de armadura y equiparemos a 2 soldados. Primero crea una carpinteria y cava en la tierra para obtener algo de piedra. Crea un curtidor de madera en la carpintería para poder crear armas y armaduras. Selecciona el panel de producción automático y haz clic en militar / armaduras / set de madera y crea 2 piezas de cada tipo. Una vez creadas abre el panel de civiles (arriba), ahí verás todos tus ciudadanos y unos botones redondos representando cada parte del cuerpo. Clica en los botones adecuado para equipar al civil. También podrías usar el botón de autoequipar. Una vez equipado, pulsa el botón de 'Convertir en soldado'."> In this tutorial you will learn how to equip civilians and turn them into soldiers. First, build a carpentry zone with it's bench and mine some stone in order to place a wood detailer workshop in the carpentry. The wood detailer allows you to craft wooden weapons and armor, and you can make them by clicking on the automated production menu (on the left). Click on military, armor, wood set, and click on each piece of armor in order to make two full suits. Equip the suits once crafted using the livings panel (on top), using the round buttons with the body parts. You can also use the autoequip button. Now click the 'Convert to soldier' button</text>
 			<allowBury>false</allowBury>
 			<objective>
@@ -121,10 +121,10 @@
 
 	<campaign>
 		<id>BlueSteel</id>
-		<name>BlueSteel's Maps</name>
+		<name>BlueSteel's Maps: Press F1 when Game has started for Description and Instructions</name>
 		<mission>
 			<id>Normal</id>
-			<name esES="N/A">Normal: Press F1 in Game for instructions</name>
+			<name esES="N/A">Normal</name>
 			<text esES="N/A">All terrains, warepig, Froggys, Toadys, Treekeepers on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes. No Objective really. (objective only added so that you can read this text)</text>
       <objective>
 				<type>KILL</type>
