@@ -18660,4 +18660,13 @@
 		<buryLivingsPCT>3,3,3,3</buryLivingsPCT>
 	</woodenbookshelf>
 	
+	<paper>
+		<name esES="N/A">Paper</name>
+		<type>script</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<value>109</value>
+	</paper>
 </items>

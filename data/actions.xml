@@ -5075,11 +5075,7 @@
 
 		<queue>
 			<lock>wooddetailer</lock>
-			<pick>rmwood</pick>
-			<move>wooddetailer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<pick>rmwood</pick>
+			<pick>paper</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -5099,15 +5095,15 @@
 
 		<queue>
 			<lock>wooddetailer</lock>
-			<pick>rmwood</pick>
+			<pick>paper</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>rmwood</pick>
+			<pick>paper</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />	
-			<pick>rmwood</pick>
+			<pick>paper</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -21480,6 +21476,26 @@
 			<destroyItem />
 			<unlock />
 			<createItem>woodenbookshelf</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qpaper</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>mill</lock>
+			<pick>rmwood</pick>
+			<move>mill</move>
+			<wait>10</wait>
+			<destroyItem />
+			<pick>waterbucket</pick>
+			<move>mill</move>
+			<wait>10</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>paper</createItem>
 		</queue>
 	</action>
 

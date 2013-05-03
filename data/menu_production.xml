@@ -599,6 +599,7 @@
 		<item id="qminecopper" code="QUEUE" name="Copper" esES="Cobre" parameter="qminecopper" />
 		<item id="qminesilver" code="QUEUE" name="Silver" esES="Plata" parameter="qminesilver" />
 		<item id="qminegold" code="QUEUE" name="Gold" esES="Oro" parameter="qminegold" />
+		<item id="qpaper" code="QUEUE" parameter="qpaper" />
 		<item id="qglass" code="QUEUE" parameter="qglass" />
 		<item id="qgathersnowpile" code="QUEUE" parameter="qgathersnowpile" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />

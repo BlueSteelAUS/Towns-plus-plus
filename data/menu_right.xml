@@ -177,19 +177,19 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</buildings>
 
-		<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
-			<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
+	<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
+		<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
 		<item id="qwoodenbookshelf" code="QUEUEANDPLACE" parameter="qwoodenbookshelf" />
-			<item id="qrawfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
-			<item id="qprepfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qprepfoodbarrel" />
-			<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
-			<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
-			<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
-			<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
-			<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</containers>
-		
+		<item id="qrawfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
+		<item id="qprepfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qprepfoodbarrel" />
+		<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
+		<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
+		<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
+		<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
+		<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</containers>
+
 	<construction name="Construction" esES="Construcción" icon="stonehammer">
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
 			<item id="qlogdoor" code="QUEUEANDPLACEAREA" parameter="qlogdoor" />
@@ -492,65 +492,6 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</banners>
 
-		<furniture name="Furniture" esES="Muebles" icon="ui_rfurniture">
-			<beds name="Beds" icon="woodenbed">
-				<item id="qwoodenbed" code="QUEUEANDPLACEAREA" parameter="qwoodenbed" />
-				<item id="qwoodendormbed" code="QUEUEANDPLACEAREA" parameter="qwoodendormbed" />
-				<item id="qbonebed" code="QUEUEANDPLACEAREA" parameter="qbonebed" />
-				<item id="qcamo_bed_N" code="QUEUEANDPLACEAREA" parameter="qcamo_bed_N" />
-				<item id="qgreen_bed_N" code="QUEUEANDPLACEAREA" parameter="qgreen_bed_N" />
-				<item id="qblue_bed_N" code="QUEUEANDPLACEAREA" parameter="qblue_bed_N" />
-				<item id="qred_bed_N" code="QUEUEANDPLACEAREA" parameter="qred_bed_N" />
-				<item id="qpurple_bed_N" code="QUEUEANDPLACEAREA" parameter="qpurple_bed_N" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</beds>
-			
-			<chairs name="Chairs" esES="Sillas" icon="woodenchair">
-				<item id="qwoodenchair" code="QUEUEANDPLACEAREA" parameter="qwoodenchair" />
-				<item id="qstonechair" code="QUEUEANDPLACEAREA" parameter="qstonechair" />
-				<item id="qpurplethrone" code="QUEUEANDPLACEAREA" parameter="qpurplethrone" />
-				<item id="qredchair_S" code="QUEUEANDPLACEAREA" parameter="qredchair_S" />
-				<item id="qredchair_2_S" code="QUEUEANDPLACEAREA" parameter="qredchair_2_S" />
-				<item id="qbluechair_S" code="QUEUEANDPLACEAREA" parameter="qbluechair_S" />
-				<item id="qgreenchair_S" code="QUEUEANDPLACEAREA" parameter="qgreenchair_S" />
-				<item id="qwoodchair_1_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_1_S" />
-				<!-- <item id="qwoodchair_2_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_2_S" /> -->
-				<item id="qwoodchair_3_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_3_S" />
-				<item id="qwhitechair_S" code="QUEUEANDPLACEAREA" parameter="qwhitechair_S" />
-				<item id="qpurplechair_S" code="QUEUEANDPLACEAREA" parameter="qpurplechair_S" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</chairs>
-
-			<cupboards name="Cupboards" esES="Alacenas" icon="smallwoodendrawer_flower_E">
-				<item id="qwoodencupboard" code="QUEUEANDPLACEAREA" parameter="qwoodencupboard" />
-				<item id="qtallwoodencupboard_E" code="QUEUEANDPLACEAREA" parameter="qtallwoodencupboard_E" />
-				<item id="qwoodencupboard_E" code="QUEUEANDPLACEAREA" parameter="qwoodencupboard_E" />
-				<item id="qwoodendrawer_E" code="QUEUEANDPLACEAREA" parameter="qwoodendrawer_E" />
-				<item id="qsmallwoodendrawer_E" code="QUEUEANDPLACEAREA" parameter="qsmallwoodendrawer_E" />
-				<item id="qsmallwoodendrawer_flower_E" code="QUEUEANDPLACEAREA" parameter="qsmallwoodendrawer_flower_E" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</cupboards>
-
-			<tables name="Tables" esES="Mesas" icon="woodentable">
-				<item id="qwoodentable" code="QUEUEANDPLACEAREA" parameter="qwoodentable" />
-				<item id="qstonetable" code="QUEUEANDPLACEAREA" parameter="qstonetable" />
-				<item id="qsquarestable" code="QUEUEANDPLACEAREA" parameter="qsquarestable" />
-				<item id="qarchitecttable" code="QUEUEANDPLACEAREA" parameter="qarchitecttable" />
-				<item id="qchesstable" code="QUEUEANDPLACEAREA" parameter="qchesstable" />
-				<item id="qtaverntable" code="QUEUEANDPLACEAREA" parameter="qtaverntable" />
-				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</tables>
-
-			<item id="qbarrel" code="QUEUEANDPLACEAREA" parameter="qbarrel" />
-			<item id="qchest" code="QUEUEANDPLACEAREA" parameter="qchest" />
-			<item id="qbirdincage" code="QUEUEANDPLACEAREA" parameter="qbirdincage" />
-			<item id="qclock" code="QUEUEANDPLACEAREA" parameter="qclock" />
-			<item id="qharp" code="QUEUEANDPLACEAREA" parameter="qharp" />
-			<item id="qchimney" code="QUEUEANDPLACE" parameter="qchimney" />
-			<item id="qanimalfireplace" code="QUEUEANDPLACEAREA" parameter="qanimalfireplace" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</furniture>
-
 		<garden name="Gardens" eeES="Jardines" icon="gardenbush3">
 			<item id="qpotplant" code="QUEUEANDPLACEAREA" parameter="qpotplant" />
 			<item id="qflowerpot_red" code="QUEUEANDPLACEAREA" parameter="qflowerpot_red" />
@@ -667,7 +608,7 @@
 			<item id="qbook" code="QUEUEANDPLACE" parameter="qbook" />
 			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</pscript>
-	
+
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</decorative>
 
@@ -696,6 +637,65 @@
 		<item id="qsantatomb" code="QUEUEANDPLACEAREA" parameter="qsantatomb" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</graves>
+
+	<furniture name="Furniture" esES="Muebles" icon="ui_rfurniture">
+		<beds name="Beds" icon="woodenbed">
+			<item id="qwoodenbed" code="QUEUEANDPLACEAREA" parameter="qwoodenbed" />
+			<item id="qwoodendormbed" code="QUEUEANDPLACEAREA" parameter="qwoodendormbed" />
+			<item id="qbonebed" code="QUEUEANDPLACEAREA" parameter="qbonebed" />
+			<item id="qcamo_bed_N" code="QUEUEANDPLACEAREA" parameter="qcamo_bed_N" />
+			<item id="qgreen_bed_N" code="QUEUEANDPLACEAREA" parameter="qgreen_bed_N" />
+			<item id="qblue_bed_N" code="QUEUEANDPLACEAREA" parameter="qblue_bed_N" />
+			<item id="qred_bed_N" code="QUEUEANDPLACEAREA" parameter="qred_bed_N" />
+			<item id="qpurple_bed_N" code="QUEUEANDPLACEAREA" parameter="qpurple_bed_N" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</beds>
+
+		<chairs name="Chairs" esES="Sillas" icon="woodenchair">
+			<item id="qwoodenchair" code="QUEUEANDPLACEAREA" parameter="qwoodenchair" />
+			<item id="qstonechair" code="QUEUEANDPLACEAREA" parameter="qstonechair" />
+			<item id="qpurplethrone" code="QUEUEANDPLACEAREA" parameter="qpurplethrone" />
+			<item id="qredchair_S" code="QUEUEANDPLACEAREA" parameter="qredchair_S" />
+			<item id="qredchair_2_S" code="QUEUEANDPLACEAREA" parameter="qredchair_2_S" />
+			<item id="qbluechair_S" code="QUEUEANDPLACEAREA" parameter="qbluechair_S" />
+			<item id="qgreenchair_S" code="QUEUEANDPLACEAREA" parameter="qgreenchair_S" />
+			<item id="qwoodchair_1_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_1_S" />
+			<!-- <item id="qwoodchair_2_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_2_S" /> -->
+			<item id="qwoodchair_3_S" code="QUEUEANDPLACEAREA" parameter="qwoodchair_3_S" />
+			<item id="qwhitechair_S" code="QUEUEANDPLACEAREA" parameter="qwhitechair_S" />
+			<item id="qpurplechair_S" code="QUEUEANDPLACEAREA" parameter="qpurplechair_S" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</chairs>
+
+		<cupboards name="Cupboards" esES="Alacenas" icon="smallwoodendrawer_flower_E">
+			<item id="qwoodencupboard" code="QUEUEANDPLACEAREA" parameter="qwoodencupboard" />
+			<item id="qtallwoodencupboard_E" code="QUEUEANDPLACEAREA" parameter="qtallwoodencupboard_E" />
+			<item id="qwoodencupboard_E" code="QUEUEANDPLACEAREA" parameter="qwoodencupboard_E" />
+			<item id="qwoodendrawer_E" code="QUEUEANDPLACEAREA" parameter="qwoodendrawer_E" />
+			<item id="qsmallwoodendrawer_E" code="QUEUEANDPLACEAREA" parameter="qsmallwoodendrawer_E" />
+			<item id="qsmallwoodendrawer_flower_E" code="QUEUEANDPLACEAREA" parameter="qsmallwoodendrawer_flower_E" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</cupboards>
+
+		<tables name="Tables" esES="Mesas" icon="woodentable">
+			<item id="qwoodentable" code="QUEUEANDPLACEAREA" parameter="qwoodentable" />
+			<item id="qstonetable" code="QUEUEANDPLACEAREA" parameter="qstonetable" />
+			<item id="qsquarestable" code="QUEUEANDPLACEAREA" parameter="qsquarestable" />
+			<item id="qarchitecttable" code="QUEUEANDPLACEAREA" parameter="qarchitecttable" />
+			<item id="qchesstable" code="QUEUEANDPLACEAREA" parameter="qchesstable" />
+			<item id="qtaverntable" code="QUEUEANDPLACEAREA" parameter="qtaverntable" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</tables>
+
+		<item id="qbarrel" code="QUEUEANDPLACEAREA" parameter="qbarrel" />
+		<item id="qchest" code="QUEUEANDPLACEAREA" parameter="qchest" />
+		<item id="qbirdincage" code="QUEUEANDPLACEAREA" parameter="qbirdincage" />
+		<item id="qclock" code="QUEUEANDPLACEAREA" parameter="qclock" />
+		<item id="qharp" code="QUEUEANDPLACEAREA" parameter="qharp" />
+		<item id="qchimney" code="QUEUEANDPLACE" parameter="qchimney" />
+		<item id="qanimalfireplace" code="QUEUEANDPLACEAREA" parameter="qanimalfireplace" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</furniture>
 
 	<mineshafts name="Mineshafts" esES="Pozos mineros" icon="ui_mineshaft">
 		<item id="qbuilddirtmine" code="QUEUEANDPLACEAREA" parameter="qbuilddirtmine" icon="ui_mudmineshaft" />
