@@ -42,7 +42,11 @@
 		<types>weapon.stone,weapon.misc,weapon.iron,weapon.bone,weapon.spiderite,weapon.direite,weapon.ghoulite,weapon,weapon.goblinite,weapon.hobgoblinite,weapon.ogreite,weapon.snickerite,weapon.wood,weapon.zombite,weapon.gold,weapon.silver,weapon.special</types>
 	</group>
 
-
+	<group>
+		<name>Written</name>
+		<icon>ui_script</icon>
+		<types>script</types>
+	</group>
 </groups>
 
 	

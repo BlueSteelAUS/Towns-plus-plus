@@ -8072,7 +8072,7 @@
 
 	<scroll>
 		<name esES="Pergamino">Scroll</name>
-		<type>decorative.outdoor</type>
+		<type>script</type>
 
 		<text>true</text>
 		<bury>true</bury>
@@ -8087,7 +8087,7 @@
 
 	<book>
 		<name esES="Libro">Book</name>
-		<type>decorative.outdoor</type>
+		<type>script</type>
 
 		<text>true</text>
 		<bury>true</bury>
@@ -18646,4 +18646,18 @@
 		<maxAgeItem>medicinecabinet</maxAgeItem>
 	</medicineghost>
 
+	<woodenbookshelf>
+		<name>Bookshelf</name>
+		<type>script</type>
+		<container>true</container>
+		<containerSize>10</containerSize>
+		<value>97</value>
+		<base>true</base>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<buryLivings>snickerblade,snickerblade,snickerblade,snickerblade</buryLivings>
+		<buryLivingsPCT>3,3,3,3</buryLivingsPCT>
+	</woodenbookshelf>
+	
 </items>

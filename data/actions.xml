@@ -21456,6 +21456,32 @@
 			<createItem>skootenfeather</createItem>
 		</queue>
 	</action>
-	
+<!-- book shelf -->	
+	<action>
+		<id>qwoodenbookshelf</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodenbookshelf</createItem>
+		</queue>
+	</action>
+
 </actions>
 

@@ -191,6 +191,7 @@
 
 	<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
 		<item id="qrmbarrel" code="QUEUE" parameter="qrmbarrel" />
+		<item id="qwoodenbookshelf" code="QUEUE" parameter="qwoodenbookshelf" />
 		<item id="qrawfoodbarrel" code="QUEUE" parameter="qrawfoodbarrel" />
 		<item id="qprepfoodbarrel" code="QUEUE" parameter="qprepfoodbarrel" />
 		<item id="qutilschest" code="QUEUE" parameter="qutilschest" />
@@ -356,10 +357,9 @@
 			<item id="qwoodensoutharrow" code="QUEUE" parameter="qwoodensoutharrow" />
 			<item id="qironwoodenwallsign" code="QUEUE" parameter="qironwoodenwallsign" />
 			<item id="qengravingstone" code="QUEUE" parameter="qengravingstone" />
-			<item id="qbook" code="QUEUE" parameter="qbook" />
-			<item id="qscroll" code="QUEUE" parameter="qscroll" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</signs>
+
 
 		<statues name="Statues,Poles" eeES="Estatuas,Cabezas" icon="stonemalestatue">
 
@@ -414,7 +414,12 @@
 
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</winter>
-
+	<pscript name="Books and Scrolls" icon="ui_script">
+		<item id="qscroll" code="QUEUE" parameter="qscroll" />
+		<item id="qbook" code="QUEUE" parameter="qbook" />
+		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</pscript>
+	
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</decorative>
 

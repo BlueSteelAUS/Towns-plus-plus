@@ -21,7 +21,9 @@
 		<item id="decorative" name="Decorations" esES="Decorativo" code="STOCKPILE" parameter="decorative" icon="ui_sdecorative" />
 		<item id="construction" name="Construction" esES="N/A" code="STOCKPILE" parameter="construction" icon="ui_constructionstockpile" />
 		<item id="animal" name="Caged Animals" esES="N/A" code="STOCKPILE" parameter="cagedanimals" icon="ui_cagedanimals" />
+		<item id="script" name="Books and Scrolls" code="STOCKPILE" parameter="script" icon="ui_script" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+
 	</stockpiles>
 	<item id="cancelorder" name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
 	<destruction name="Destruction" icon="fireball">

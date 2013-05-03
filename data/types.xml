@@ -94,5 +94,6 @@
 	<rawfood.gathered esES="N/A" icon="ui_rawfood_gathered">Gathered Raw Food</rawfood.gathered>
 	<rawfood.harvested esES="N/A" icon="ui_rawfood_harvested">Harvested Raw Food</rawfood.harvested>
 	<rawfood.processed esES="N/A" icon="ui_rawfood_processed">Processed Raw Food</rawfood.processed>
-
+	
+	<script icon="ui_script">Written</script>
 </types>

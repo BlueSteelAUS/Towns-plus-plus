@@ -177,6 +177,19 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</buildings>
 
+		<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
+			<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
+		<item id="qwoodenbookshelf" code="QUEUEANDPLACE" parameter="qwoodenbookshelf" />
+			<item id="qrawfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
+			<item id="qprepfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qprepfoodbarrel" />
+			<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
+			<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
+			<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
+			<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
+			<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</containers>
+		
 	<construction name="Construction" esES="Construcción" icon="stonehammer">
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
 			<item id="qlogdoor" code="QUEUEANDPLACEAREA" parameter="qlogdoor" />
@@ -479,18 +492,6 @@
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</banners>
 
-		<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
-			<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
-			<item id="qrawfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
-			<item id="qprepfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qprepfoodbarrel" />
-			<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
-			<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
-			<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
-			<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
-			<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-		</containers>
-
 		<furniture name="Furniture" esES="Muebles" icon="ui_rfurniture">
 			<beds name="Beds" icon="woodenbed">
 				<item id="qwoodenbed" code="QUEUEANDPLACEAREA" parameter="qwoodenbed" />
@@ -608,8 +609,6 @@
 			<item id="qwoodensoutharrow" code="QUEUEANDPLACE" parameter="qwoodensoutharrow" />
 			<item id="qironwoodenwallsign" code="QUEUEANDPLACE" parameter="qironwoodenwallsign" />
 			<item id="qengravingstone" code="QUEUEANDPLACE" parameter="qengravingstone" />
-			<item id="qbook" code="QUEUEANDPLACE" parameter="qbook" />
-			<item id="qscroll" code="QUEUEANDPLACE" parameter="qscroll" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</signs>
 
@@ -662,6 +661,13 @@
 			<item id="qlargegiftsix" code="QUEUEANDPLACEAREA" parameter="qlargegiftsix" icon="largegiftsix" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</winter>
+
+		<pscript name="Books and Scrolls" icon="ui_script">
+			<item id="qscroll" code="QUEUEANDPLACE" parameter="qscroll" />
+			<item id="qbook" code="QUEUEANDPLACE" parameter="qbook" />
+			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</pscript>
+	
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</decorative>
 
