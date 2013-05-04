@@ -2159,7 +2159,6 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2199,6 +2198,8 @@
 			<move>mill</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>mill</lock>
 			<pick>wheat</pick>
 			<move>mill</move>
 			<wait>20</wait>
@@ -2219,6 +2220,8 @@
 			<move>mill</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>mill</lock>
 			<pick>sugarcane</pick>
 			<move>mill</move>
 			<wait>20</wait>
@@ -2244,7 +2247,6 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2268,7 +2270,6 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2291,7 +2292,6 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2314,7 +2314,6 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2337,7 +2336,6 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
@@ -2382,7 +2380,6 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>32</wait>
 			<unlock />
