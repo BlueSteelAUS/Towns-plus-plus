@@ -5080,4 +5080,59 @@
 	</skinnedmilkedwildsnoat>
 
 
+	<largegift1>
+		<type>ENEMY</type>
+		<hate>CITIZEN,HERO</hate>
+		<level>0</level>
+
+		<name esES="Small Gift">Small Gift</name>
+		<attack>1</attack>
+		<attackSpeed>1</attackSpeed>
+		<defense>1</defense>
+		<healthPoints>1</healthPoints>
+		<attackVerb esES="ataca">crush</attackVerb>
+		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
+		<damage>1</damage>
+
+		<LOS>1</LOS>
+		<movePCT>0</movePCT>
+		<walkSpeed>0</walkSpeed>
+
+		<fxDead>fxchop</fxDead>
+
+		<drop>
+			<item>bluehat</item>
+			<PCT>12</PCT>
+		</drop>
+		<drop>
+			<item>blueheadkerchief</item>
+			<PCT>12</PCT>
+		</drop>
+		<drop>
+			<item>redhat</item>
+			<PCT>12</PCT>
+		</drop>
+		<drop>
+			<item>redheadkerchief</item>
+			<PCT>12</PCT>
+		</drop>
+		<drop>
+			<item>yellowhat</item>
+			<PCT>12</PCT>
+		</drop>
+		<drop>
+			<item>yellowkerchief</item>
+			<PCT>12</PCT>
+		</drop>
+		<drop>
+			<item>greenhat</item>
+			<PCT>12</PCT>
+		</drop>
+		<drop>
+			<item>geenheadkerchief</item>
+			<PCT>12</PCT>
+		</drop>
+	</largegift1>
+
+
 </livingentities>

@@ -6579,13 +6579,25 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem />
+			<unlock />
+			<lock>anvil</lock>
 			<pick>rmgold</pick>
-			<move>carpentrybench</move>
+			<move>anvil</move>
 			<wait>32</wait>
 			<destroyItem />
 			<pick>rmgold</pick>
-			<move>carpentrybench</move>
+			<move>anvil</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>purplecolor,purplegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>purplethrone</createItem>
@@ -6927,7 +6939,18 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>skinner</lock>
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>woodenbed</createItem>
+
 		</queue>
 	</action>
 
@@ -6954,6 +6977,16 @@
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>woodendormbed</createItem>
@@ -7044,9 +7077,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>animalhide,unifallowhide</pick>
-			<wait>20</wait>
+			<lock>skinner</lock>
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>whiteheadkerchief</createItem>
 		</queue>
 	</action>
@@ -7057,12 +7097,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>animalhide,unifallowhide</pick>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>skinner</lock>
 			<pick>redcolor,redgel</pick>
-			<wait>20</wait>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>redheadkerchief</createItem>
 		</queue>
 	</action>
@@ -7073,12 +7117,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>animalhide,unifallowhide</pick>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>skinner</lock>
 			<pick>greencolor,greengel</pick>
-			<wait>20</wait>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>greenheadkerchief</createItem>
 		</queue>
 	</action>
@@ -7089,12 +7137,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>animalhide,unifallowhide</pick>
-			<wait>20</wait>
+			<lock>skinner</lock>
+			<pick>yellowcolor,yellowgel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
-			<pick>yellowcolor</pick>
-			<wait>20</wait>
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<unlock />
 			<createItem>yellowheadkerchief</createItem>
 		</queue>
 	</action>
@@ -7105,12 +7157,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>animalhide,unifallowhide</pick>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>skinner</lock>
 			<pick>bluecolor,bluegel</pick>
-			<wait>20</wait>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>blueheadkerchief</createItem>
 		</queue>
 	</action>
@@ -7121,12 +7177,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>animalhide,unifallowhide</pick>
-			<wait>20</wait>
+			<lock>skinner</lock>
+			<pick>orangecolor,orangegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
-			<pick>orangecolor</pick>
-			<wait>20</wait>
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<unlock />
 			<createItem>orangeheadkerchief</createItem>
 		</queue>
 	</action>
@@ -7137,12 +7197,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>animalhide,unifallowhide</pick>
+			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>animalhide,unifallowhide</pick>
-			<wait>20</wait>
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>redcolor,redgel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>bunnyhat</createItem>
 		</queue>
 	</action>
@@ -7153,12 +7225,20 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>animalhide,unifallowhide</pick>
+			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>bluecolor,bluegel</pick>
-			<wait>20</wait>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>bluehat</createItem>
 		</queue>
 	</action>
@@ -7169,12 +7249,20 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>animalhide,unifallowhide</pick>
+			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>redcolor,redgel</pick>
-			<wait>20</wait>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>redhat</createItem>
 		</queue>
 	</action>
@@ -7185,12 +7273,20 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>animalhide,unifallowhide</pick>
+			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>greencolor,greengel</pick>
-			<wait>20</wait>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>greenhat</createItem>
 		</queue>
 	</action>
@@ -7201,12 +7297,20 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>animalhide,unifallowhide</pick>
+			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>yellowcolor</pick>
-			<wait>20</wait>
+			<pick>yellowcolor,yellowgel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>yellowhat</createItem>
 		</queue>
 	</action>
@@ -7217,11 +7321,12 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>badgerhide</pick>
+			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<wait>20</wait>
-			<destroyItem />
+			<unlock />
 			<createItem>badgerhat</createItem>
 		</queue>
 	</action>
@@ -7232,12 +7337,20 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>skinner</lock>
 			<pick>animalhide,unifallowhide</pick>
+			<move>skinner</move>
 			<wait>20</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<pick>skootenfeather</pick>
-			<wait>20</wait>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
+			<unlock />
 			<createItem>featherhat</createItem>
 		</queue>
 	</action>
@@ -7258,11 +7371,27 @@
 			<move>carvingbench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
-			<lock>carpentrybench</lock>
 			<pick>bones</pick>
-			<move>carpentrybench</move>
+			<move>carvingbench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>animalhide,unifallowhide</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>redcolor,redgel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>bonebed</createItem>
@@ -10835,16 +10964,15 @@
 	<action>	<id>qbuilddirtmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmmud</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -10861,16 +10989,15 @@
 	<action>	<id>qbuildsandmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmsand</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -10887,16 +11014,15 @@
 	<action>	<id>qbuildstonemine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmstone</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -10913,16 +11039,15 @@
 	<action>	<id>qbuildgravelmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmflint</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -10939,16 +11064,15 @@
 	<action> <id>qbuildcoalmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmcoal</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -10965,16 +11089,15 @@
 	<action> <id>qbuildironemine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmiron</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -10991,16 +11114,15 @@
 	<action> <id>qbuildcoppermine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmcopper</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11040,6 +11162,7 @@
 			<createItem>rmstone</createItem>
 		</queue>
 	</action>
+
 	<action>
 		<id>qminesand</id>
 		<generatedItem>rmsand</generatedItem>
@@ -11052,6 +11175,7 @@
 			<createItem>rmsand</createItem>
 		</queue>
 	</action>
+
 	<action>
 		<id>qminegravel</id>
 		<generatedItem>rmflint</generatedItem>
@@ -11064,6 +11188,7 @@
 			<createItem>rmflint</createItem>
 		</queue>
 	</action>
+
 	<action>
 		<id>qminecoal</id>
 		<generatedItem>rmcoal</generatedItem>
@@ -11076,6 +11201,7 @@
 			<createItem>rmcoal</createItem>
 		</queue>
 	</action>
+
 	<action>
 		<id>qmineiron</id>
 		<generatedItem>rmiron</generatedItem>
@@ -11088,6 +11214,7 @@
 			<createItem>rmiron</createItem>
 		</queue>
 	</action>
+
 	<action>
 		<id>qminecopper</id>
 		<generatedItem>rmcopper</generatedItem>
@@ -11100,10 +11227,12 @@
 			<createItem>rmcopper</createItem>
 		</queue>
 	</action>
+
 	<action> <id>qprocesswheat</id>
 		<generatedItem>flour</generatedItem>
 		<priorityID>processing</priorityID>
 		<queue>
+			<lock>flourmill</lock>
 			<pick>wheat</pick>
 			<move>flourmill</move>
 			<wait>36</wait>
@@ -11117,20 +11246,18 @@
 		</queue>
 	</action>
 
-
 	<action> <id>qbuildsilvermine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmsilver</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11143,7 +11270,7 @@
 			<createItem>silvermine</createItem>
 		</queue>
 	</action>
-	<!-- Wait times set to be the same as mining in terrain.xml -->
+
 	<action>
 		<id>qminesilver</id>
 		<generatedItem>rmsilver</generatedItem>
@@ -11157,20 +11284,18 @@
 		</queue>
 	</action>
 
-
 	<action> <id>qbuildgoldmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmgold</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
 			<pick>torch</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11183,7 +11308,7 @@
 			<createItem>goldmine</createItem>
 		</queue>
 	</action>
-	<!-- Wait times set to be the same as mining in terrain.xml -->
+
 	<action>
 		<id>qminegold</id>
 		<generatedItem>rmgold</generatedItem>
@@ -11205,6 +11330,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11538,6 +11664,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11549,6 +11676,28 @@
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>greencolor,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>blackcolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>camo_bed_N</createItem>
@@ -11561,6 +11710,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11574,6 +11724,20 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>skinner</lock>
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+      <pick>greencolor,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>green_bed_N</createItem>
 		</queue>
 	</action>
@@ -11584,6 +11748,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11597,7 +11762,21 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>blue_bed_N</createItem>
+			<lock>skinner</lock>
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+      <pick>bluecolor,bluegel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
+		<createItem>blue_bed_N</createItem>
 		</queue>
 	</action>
 
@@ -11607,6 +11786,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11620,6 +11800,20 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>skinner</lock>
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+      <pick>redcolor,redgel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>red_bed_N</createItem>
 		</queue>
 	</action>
@@ -11630,6 +11824,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11643,6 +11838,20 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>skinner</lock>
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wheat</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+      <pick>purplecolor,purplegel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>purple_bed_N</createItem>
 		</queue>
 	</action>
@@ -11901,11 +12110,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>gatheredredflower</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -11921,11 +12132,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>gatheredblueflower</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -11941,11 +12154,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>gatheredyellowflower</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -11961,19 +12176,19 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>gatheredyellowflower</pick>
 			<wait>8</wait>
 			<destroyItem />
-			<unlock />
 			<pick>gatheredblueflower</pick>
 			<wait>8</wait>
 			<destroyItem />
-			<unlock />
 			<pick>gatheredredflower</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -11989,6 +12204,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -12012,6 +12228,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -12038,19 +12255,31 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
+
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>bluecolor,bluegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>blueshortflag</createItem>
@@ -12063,19 +12292,30 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>greencolor,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>greenshortflag</createItem>
@@ -12088,19 +12328,30 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>purplecolor,purplegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>purpleshortflag</createItem>
@@ -12113,19 +12364,30 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>anvil</lock>
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>blackcolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>blackshortflag</createItem>
@@ -12140,19 +12402,34 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>bluecolor,bluegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>bluebanner</createItem>
@@ -12165,19 +12442,34 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>greencolor,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>greenbanner</createItem>
@@ -12190,19 +12482,34 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>purplecolor,purplegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>purplebanner</createItem>
@@ -12215,19 +12522,34 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>blackcolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>blackbanner</createItem>
@@ -12240,6 +12562,7 @@
 		<id>qtomb2_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -12252,6 +12575,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
+			<unlock />
 			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>tomb2_W</createItem>
@@ -12262,6 +12586,7 @@
 		<id>qmosstomb2_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -12274,6 +12599,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
+			<unlock />
 			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>mosstomb2_W</createItem>
@@ -12284,6 +12610,7 @@
 		<id>qmosstomb3_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -12296,6 +12623,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
+			<unlock />
 			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>mosstomb3_W</createItem>
@@ -12306,10 +12634,12 @@
 		<id>qgrave2_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>21</wait>
 			<destroyItem />
+			<unlock />
 			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>grave2_W</createItem>
@@ -12320,10 +12650,12 @@
 		<id>qgrave3_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
-			<move>carpentrybench</move>
+			<move>carvingbench</move>
 			<wait>21</wait>
 			<destroyItem />
+			<unlock />
 			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
 			<wait>21</wait>
 			<createItem>grave3_W</createItem>
@@ -12500,11 +12832,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -12520,6 +12854,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -12529,6 +12864,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -12544,11 +12880,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -12564,11 +12902,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
@@ -12584,32 +12924,29 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
-			<pick>rmwood</pick>
-			<move>wooddetailer</move>
-			<wait>20</wait>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>20</wait>
 			<pick>gatheredyellowflower</pick>
 			<wait>8</wait>
 			<destroyItem />
-			<unlock />
 			<pick>gatheredblueflower</pick>
 			<wait>8</wait>
 			<destroyItem />
-			<unlock />
 			<pick>gatheredredflower</pick>
 			<move>wooddetailer</move>
 			<wait>32</wait>
-			<destroyItem />
-			<unlock />
 			<destroyItem />
 			<unlock />
 			<createItem>smallwoodendrawer_flower_E</createItem>
@@ -12622,13 +12959,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>redcolor,redgel</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>redcolor,redgel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>redchair_S</createItem>
@@ -12641,13 +12981,20 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>redcolor,redgel</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>redcolor,redgel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>redchair_2_S</createItem>
@@ -12660,13 +13007,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>greencolor,greengel</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>greencolor,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>greenchair_S</createItem>
@@ -12679,13 +13029,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>bluecolor,bluegel</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>bluecolor,bluegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>bluechair_S</createItem>
@@ -12698,6 +13051,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -12713,6 +13067,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -12728,6 +13083,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -12743,10 +13099,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
 			<pick>bones</pick>
-			<move>carpentrybench</move>
+			<move>carvingbench</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
@@ -12762,13 +13121,16 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>purplecolor</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
-			<destroyItem />
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>skinner</lock>
+			<pick>purplecolor,purplegel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>purplechair_S</createItem>
@@ -13294,16 +13656,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>doorsignswords_E1</createItem>
 		</queue>
 	</action>
@@ -13314,16 +13684,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_1_E</createItem>
 		</queue>
 	</action>
@@ -13334,16 +13712,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_2_E</createItem>
 		</queue>
 	</action>
@@ -13354,16 +13740,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_3_E</createItem>
 		</queue>
 	</action>
@@ -13374,16 +13768,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_4_E</createItem>
 		</queue>
 	</action>
@@ -13394,16 +13796,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_5_E</createItem>
 		</queue>
 	</action>
@@ -13414,16 +13824,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_6_E</createItem>
 		</queue>
 	</action>
@@ -13434,16 +13852,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_7_E</createItem>
 		</queue>
 	</action>
@@ -13454,16 +13880,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_8_E</createItem>
 		</queue>
 	</action>
@@ -13474,16 +13908,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_9_E</createItem>
 		</queue>
 	</action>
@@ -13494,16 +13936,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_10_E</createItem>
 		</queue>
 	</action>
@@ -13514,16 +13964,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_11_E</createItem>
 		</queue>
 	</action>
@@ -13534,16 +13992,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_12_E</createItem>
 		</queue>
 	</action>
@@ -13554,16 +14020,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_13_E</createItem>
 		</queue>
 	</action>
@@ -13574,16 +14048,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_14_E</createItem>
 		</queue>
 	</action>
@@ -13594,16 +14076,24 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+      <lock>skinner</lock>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>sign_15_E</createItem>
 		</queue>
 	</action>
@@ -15007,6 +15497,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>16</wait>
@@ -15030,6 +15521,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>16</wait>
@@ -15049,6 +15541,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>16</wait>
@@ -15092,6 +15585,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15111,10 +15605,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>16</wait>
 			<destroyItem />
+			<unlock />
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15134,6 +15631,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15157,6 +15655,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15180,6 +15679,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15195,6 +15695,11 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carvingbench</lock>
+			<pick>bones</pick>
+			<move>carvingbench</move>
+			<wait>16</wait>
+			<destroyItem />
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>16</wait>
@@ -15210,6 +15715,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmsand</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15225,6 +15731,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmsand</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15244,6 +15751,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmsand</pick>
 			<move>masonbench</move>
 			<wait>16</wait>
@@ -15267,6 +15775,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>redcolor,redgel</pick>
 			<wait>20</wait>
 			<destroyItem />
@@ -15290,6 +15799,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>bluecolor,bluegel</pick>
 			<wait>20</wait>
 			<destroyItem />
@@ -15312,6 +15822,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>greencolor,greengel</pick>
 			<wait>20</wait>
 			<destroyItem />
@@ -15334,7 +15845,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>yellowcolor</pick>
+			<lock>masonbench</lock>
+			<pick>yellowcolor,yellowgel</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15356,7 +15868,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>orangecolor</pick>
+			<lock>masonbench</lock>
+			<pick>orangecolor,orangegel</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15378,7 +15891,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>purplecolor</pick>
+			<lock>masonbench</lock>
+			<pick>purplecolor,purplegel</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15400,6 +15914,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>redcolor,redgel</pick>
 			<wait>20</wait>
 			<destroyItem />
@@ -15427,6 +15942,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>bluecolor,bluegel</pick>
 			<wait>20</wait>
 			<destroyItem />
@@ -15453,6 +15969,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>greencolor,greengel</pick>
 			<wait>20</wait>
 			<destroyItem />
@@ -15479,7 +15996,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>yellowcolor</pick>
+			<lock>masonbench</lock>
+			<pick>yellowcolor,yellowgel</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15505,7 +16023,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>orangecolor</pick>
+			<lock>masonbench</lock>
+			<pick>orangecolor,orangegel</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15531,7 +16050,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>purplecolor</pick>
+			<lock>masonbench</lock>
+			<pick>purplecolor,purplegel</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -16232,8 +16752,9 @@
 		<id>qgiftstack</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pick>rmwood</pick>
-			<move>wooddetailer</move>
+			<lock>skinner</lock>
+			<pick>animalhide,unifallowhide,badgerhide,wool</pick>
+			<move>skinner</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
@@ -16250,6 +16771,16 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
+			<lock>skinner</lock>
+			<pick>redcolor,redgel</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>candycane</createItem>
 		</queue>
 	</action>
@@ -16258,9 +16789,20 @@
 		<id>qsantahat</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pick>redcolor,redgel,redflower</pick>
+			<lock>skinner</lock>
+			<pick>wool</pick>
+			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<pick>redcolor,redgel</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>santahat</createItem>
 		</queue>
 	</action>
@@ -16270,31 +16812,23 @@
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>animalhide,wool</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>paper</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
 			<unlock />
 			<createItem>largegiftone</createItem>
 		</queue>
 	</action>
-
-	<!--	<action>
-		<id>qrotate_largegiftone</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">largegiftone</move>
-			<replaceCellItem>largegiftone_E</replaceCellItem>
-		</queue>
-	</action>-->
-
-	<!--	<action>
-		<id>qrotate_largegiftone_E</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">largegiftone_E</move>
-			<replaceCellItem>largegiftone</replaceCellItem>
-		</queue>
-	</action>-->
 
 	<action>
 		<id>qopen_largegiftone</id>
@@ -16304,53 +16838,34 @@
 			<move useSource="true">largegiftone</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createItem>bluehat</createItem>
+			<createFriendly>largegift1</createFriendly>
 		</queue>
 	</action>
 
-	<!--	<action>
-		<id>qopen_largegiftone_E</id>
-		<name esES="Abrir">Open</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">largegiftone_E</move>
-			<wait>30</wait>
-			<destroyCellItem />
-			<createItem>bluehat</createItem>
-		</queue>
-	</action>-->
 
 	<action>
 		<id>qlargegifttwo</id>
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>animalhide,wool</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>paper</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
 			<unlock />
 			<createItem>largegifttwo</createItem>
 		</queue>
 	</action>
 
-	<!--	<action>
-		<id>qrotate_largegifttwo</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">largegifttwo</move>
-			<replaceCellItem>largegifttwo_E</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qrotate_largegifttwo_E</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">largegifttwo_E</move>
-			<replaceCellItem>largegifttwo</replaceCellItem>
-		</queue>
-	</action>
--->
 	<action>
 		<id>qopen_largegifttwo</id>
 		<name esES="Abrir">Open</name>
@@ -16359,53 +16874,33 @@
 			<move useSource="true">largegifttwo</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createItem>featherhat</createItem>
+			<createFriendly>largegift1</createFriendly>
 		</queue>
 	</action>
-
-	<!--  <action>
-    <id>qopen_largegifttwo_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegifttwo_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createItem>featherhat</createItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qlargegiftthree</id>
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>animalhide,wool</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>paper</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
 			<unlock />
 			<createItem>largegiftthree</createItem>
 		</queue>
 	</action>
-	<!--
-  <action>
-    <id>qrotate_largegiftthree</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftthree</move>
-      <replaceCellItem>largegiftthree_E</replaceCellItem>
-    </queue>
-  </action>
 
-  <action>
-    <id>qrotate_largegiftthree_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftthree_E</move>
-      <replaceCellItem>largegiftthree</replaceCellItem>
-    </queue>
-  </action>
--->
 	<action>
 		<id>qopen_largegiftthree</id>
 		<name esES="Abrir">Open</name>
@@ -16414,52 +16909,32 @@
 			<move useSource="true">largegiftthree</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createItem>redhat</createItem>
+			<createFriendly>largegift1</createFriendly>
 		</queue>
 	</action>
-	<!--
-  <action>
-    <id>qopen_largegiftthree_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftthree_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createItem>redhat</createItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qlargegiftfour</id>
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>animalhide,wool</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>paper</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
 			<unlock />
 			<createItem>largegiftfour</createItem>
 		</queue>
 	</action>
-
-	<!--  <action>
-    <id>qrotate_largegiftfour</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftfour</move>
-      <replaceCellItem>largegiftfour_E</replaceCellItem>
-    </queue>
-  </action>
-
-  <action>
-    <id>qrotate_largegiftfour_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftfour_E</move>
-      <replaceCellItem>largegiftfour</replaceCellItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qopen_largegiftfour</id>
@@ -16469,53 +16944,34 @@
 			<move useSource="true">largegiftfour</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createItem>greenhat</createItem>
+			<createFriendly>largegift1</createFriendly>
 		</queue>
 	</action>
 
-	<!--  <action>
-    <id>qopen_largegiftfour_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftfour_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createItem>greenhat</createItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qlargegiftfive</id>
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>animalhide,wool</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>paper</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
 			<unlock />
 			<createItem>largegiftfive</createItem>
 		</queue>
 	</action>
 
-	<!--  <action>
-    <id>qrotate_largegiftfive</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftfive</move>
-      <replaceCellItem>largegiftfive_E</replaceCellItem>
-    </queue>
-  </action>
-
-  <action>
-    <id>qrotate_largegiftfive_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftfive_E</move>
-      <replaceCellItem>largegiftfive</replaceCellItem>
-    </queue>
-  </action>
--->
 	<action>
 		<id>qopen_largegiftfive</id>
 		<name esES="Abrir">Open</name>
@@ -16524,52 +16980,33 @@
 			<move useSource="true">largegiftfive</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createItem>badgerhat</createItem>
+			<createFriendly>largegift1</createFriendly>
 		</queue>
 	</action>
-
-	<!--  <action>
-    <id>qopen_largegiftfive_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftfive_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createItem>badgerhat</createItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qlargegiftsix</id>
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<wait>32</wait>
+			<lock>skinner</lock>
+			<pick>animalhide,wool</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>paper</pick>
+			<move>skinner</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<move>skinner</move>
+			<wait>50</wait>
+			<destroyItem />
 			<unlock />
-			<createItem>largegiftsix</createItem>
+			<createFriendly>largegift1</createFriendly>
 		</queue>
 	</action>
 
-	<!--  <action>
-    <id>qrotate_largegiftsix</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftsix</move>
-      <replaceCellItem>largegiftsix_E</replaceCellItem>
-    </queue>
-  </action>
-
-  <action>
-    <id>qrotate_largegiftsix_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftsix_E</move>
-      <replaceCellItem>largegiftsix</replaceCellItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qopen_largegiftsix</id>
@@ -16579,21 +17016,10 @@
 			<move useSource="true">largegiftsix</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createFriendly>ghost</createFriendly>
+			<createFriendly>largegift1</createFriendly>
 		</queue>
 	</action>
 
-	<!--  <action>
-    <id>qopen_largegiftsix_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">largegiftsix_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createFriendly>ghost</createFriendly>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qsmallgiftone</id>
@@ -16605,26 +17031,6 @@
 			<createItem>smallgiftone</createItem>
 		</queue>
 	</action>
-
-	<!--  <action>
-    <id>qrotate_smallgiftone</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftone</move>
-      <replaceCellItem>smallgiftone_E</replaceCellItem>
-    </queue>
-  </action>
-
-  <action>
-    <id>qrotate_smallgiftone_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftone_E</move>
-      <replaceCellItem>smallgiftone</replaceCellItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qopen_smallgiftone</id>
@@ -16638,18 +17044,6 @@
 		</queue>
 	</action>
 
-	<!--  <action>
-    <id>qopen_smallgiftone_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-	  <move useSource="true">smallgiftone_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createFriendly>smallgift1</createFriendly>
-    </queue>
-  </action>-->
-
 	<action>
 		<id>qsmallgifttwo</id>
 		<name esES="Regalo Pequeño">Small Gift</name>
@@ -16660,26 +17054,6 @@
 			<createItem>smallgifttwo</createItem>
 		</queue>
 	</action>
-
-	<!--  <action>
-    <id>qrotate_smallgifttwo</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgifttwo</move>
-      <replaceCellItem>smallgifttwo_E</replaceCellItem>
-    </queue>
-  </action>
-
-  <action>
-    <id>qrotate_smallgifttwo_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgifttwo_E</move>
-      <replaceCellItem>smallgifttwo</replaceCellItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qopen_smallgifttwo</id>
@@ -16693,18 +17067,6 @@
 		</queue>
 	</action>
 
-	<!--  <action>
-    <id>qopen_smallgifttwo_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgifttwo_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createFriendly>smallgift2</createFriendly>
-    </queue>
-  </action>-->
-
 	<action>
 		<id>qsmallgiftthree</id>
 		<name esES="Regalo Pequeño">Small Gift</name>
@@ -16715,26 +17077,6 @@
 			<createItem>smallgiftthree</createItem>
 		</queue>
 	</action>
-
-	<!-- <action>
-    <id>qrotate_smallgiftthree</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftthree</move>
-      <replaceCellItem>smallgiftthree_E</replaceCellItem>
-    </queue>
-  </action>
-
-  <action>
-    <id>qrotate_smallgiftthree_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftthree_E</move>
-      <replaceCellItem>smallgiftthree</replaceCellItem>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qopen_smallgiftthree</id>
@@ -16748,18 +17090,6 @@
 		</queue>
 	</action>
 
-	<!-- <action>
-    <id>qopen_smallgiftthree_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftthree_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createFriendly>smallgift3</createFriendly>
-    </queue>
-  </action>-->
-
 	<action>
 		<id>qsmallgiftfour</id>
 		<name esES="Regalo Pequeño">Small Gift</name>
@@ -16771,26 +17101,6 @@
 		</queue>
 	</action>
 
-	<!--  <action>
-    <id>qrotate_smallgiftfour</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftfour</move>
-      <replaceCellItem>smallgiftfour_E</replaceCellItem>
-    </queue>
-  </action>
-
-  <action>
-    <id>qrotate_smallgiftfour_E</id>
-    <name esES="Girar">Rotate</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftfour_E</move>
-      <replaceCellItem>smallgiftfour</replaceCellItem>
-    </queue>
-  </action>-->
-
 	<action>
 		<id>qopen_smallgiftfour</id>
 		<name esES="Abrir">Open</name>
@@ -16801,18 +17111,6 @@
 			<createFriendly>smallgift4</createFriendly>
 		</queue>
 	</action>
-
-	<!--  <action>
-    <id>qopen_smallgiftfour_E</id>
-    <name esES="Abrir">Open</name>
-    <priorityID>itemconstruction</priorityID>
-    <queue>
-      <move useSource="true">smallgiftfour_E</move>
-	  <wait>30</wait>
-	  <destroyCellItem />
-      <createFriendly>smallgift4</createFriendly>
-    </queue>
-  </action>-->
 
 	<action>
 		<id>qxmastree</id>
@@ -16862,9 +17160,20 @@
 		<id>qsantahat2</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pick>greencolor</pick>
-			<wait>20</wait>
-			<destroyItem />
+      <lock>skinner</lock>
+      <pick>wool</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <pick>greencolor,greengel</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <pick>whitecolor</pick>
+      <move>skinner</move>
+      <wait>50</wait>
+      <destroyItem />
+      <unlock />
 			<createItem>xmashat</createItem>
 		</queue>
 	</action>
@@ -17610,6 +17919,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -17630,6 +17940,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>15</wait>
@@ -17684,6 +17995,7 @@
 		<name esES="Granja de Vacas">Cow Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>cow,wildcow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17704,6 +18016,7 @@
 		<name esES="Granja de Toros">Bull Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>cow,wildcow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17724,6 +18037,7 @@
 		<name esES="Granja de Cerdos">Pig Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>pig,wildpig</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17744,6 +18058,7 @@
 		<name esES="Granja de Jabalíes">Boar Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>pig,wildpig</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17764,6 +18079,7 @@
 		<name esES="Granja de Gallinas">Chicken Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17784,6 +18100,7 @@
 		<name esES="Granja de Gallos">Rooster Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>chicken,wildchicken</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17804,6 +18121,7 @@
 		<name esES="Granja de Skootenbeetens">Skootenbeeten Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>skootenbeeten,wildskootenbeeten</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17824,6 +18142,7 @@
 		<name esES="Granja de Unifallow">Unifallow Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>unifallow,wildunifallow</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17844,6 +18163,7 @@
 		<name esES="Granja de Tejon">Badger Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>badger,wildbadger</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17864,6 +18184,7 @@
 		<name esES="Granja de Snoats">Snoat Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>snoat,milkedsnoat,skinnedsnoat,skinnedmilkedsnoat,wildsnoat,wildskinnedsnoat,skinnedmilkedwildsnoat</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17884,6 +18205,7 @@
 		<name esES="N/A">Sheep Barn</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<lock>carpentrybench</lock>
 			<pickFriendly>sheep,skinnedsheep,skinnedwildsheep,wildsheep</pickFriendly>
 			<wait>30</wait>
 			<destroyFriendly />
@@ -17906,6 +18228,7 @@
 		<generatedItem>cow</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newcowfarm</lock>
 			<pick>wheat</pick>
 			<move useSource="true">newcowfarm</move>
 			<wait>15</wait>
@@ -17922,6 +18245,7 @@
 		<generatedItem>bull</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newbullfarm</lock>
 			<pick>wheat</pick>
 			<move useSource="true">newbullfarm</move>
 			<wait>15</wait>
@@ -17938,6 +18262,7 @@
 		<generatedItem>pig</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newpigfarm</lock>
 			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newpigfarm</move>
 			<wait>15</wait>
@@ -17954,6 +18279,7 @@
 		<generatedItem>boar</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newboarfarm</lock>
 			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newboarfarm</move>
 			<wait>15</wait>
@@ -17970,6 +18296,7 @@
 		<generatedItem>chicken</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newchickenfarm</lock>
 			<pick>wheat</pick>
 			<move useSource="true">newchickenfarm</move>
 			<wait>15</wait>
@@ -17986,6 +18313,7 @@
 		<generatedItem>rooster</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newroosterfarm</lock>
 			<pick>wheat</pick>
 			<move useSource="true">newroosterfarm</move>
 			<wait>15</wait>
@@ -18002,6 +18330,7 @@
 		<generatedItem>skootenbeeten</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newskootenbeetenfarm</lock>
 			<pick>wheat</pick>
 			<move useSource="true">newskootenbeetenfarm</move>
 			<wait>15</wait>
@@ -18018,6 +18347,7 @@
 		<generatedItem>unifallow</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newunifallowfarm</lock>
 			<pick>cactusfruit</pick>
 			<move useSource="true">newunifallowfarm</move>
 			<wait>15</wait>
@@ -18034,6 +18364,7 @@
 		<generatedItem>badger</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newbadgerfarm</lock>
 			<pick>wheat</pick>
 			<move useSource="true">newbadgerfarm</move>
 			<wait>15</wait>
@@ -18050,6 +18381,7 @@
 		<generatedItem>snoat</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newsnoatfarm</lock>
 			<pick>apple,pear,wheat</pick>
 			<move useSource="true">newsnoatfarm</move>
 			<wait>15</wait>
@@ -18066,6 +18398,7 @@
 		<generatedItem>sheep</generatedItem>
 		<priorityID>_FEED_</priorityID>
 		<queue>
+			<lock>newsheepfarm</lock>
 			<pick>wheat</pick>
 			<move useSource="true">newsheepfarm</move>
 			<wait>15</wait>
@@ -20392,15 +20725,16 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>waterbucket</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
-			<unlock />
 			<pick>sugar</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<unlock />
+			<lock>cookingbowl</lock>
 			<pick>redgel</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -20415,15 +20749,16 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>waterbucket</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
-			<unlock />
 			<pick>sugar</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<unlock />
+			<lock>cookingbowl</lock>
 			<pick>greengel</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -20438,15 +20773,16 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>waterbucket</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
-			<unlock />
 			<pick>sugar</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<unlock />
+			<lock>cookingbowl</lock>
 			<pick>bluegel</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -20461,15 +20797,16 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>waterbucket</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
-			<unlock />
 			<pick>sugar</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<unlock />
+			<lock>cookingbowl</lock>
 			<pick>yellowgel</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -20484,15 +20821,16 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>waterbucket</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
-			<unlock />
 			<pick>sugar</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<unlock />
+			<lock>cookingbowl</lock>
 			<pick>orangegel</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -20507,15 +20845,16 @@
 		<priorityID>cooking</priorityID>
 
 		<queue>
+			<lock>bakertable</lock>
 			<pick>waterbucket</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
-			<unlock />
 			<pick>sugar</pick>
 			<move>bakertable</move>
 			<wait>10</wait>
 			<unlock />
+			<lock>cookingbowl</lock>
 			<pick>purplegel</pick>
 			<move>cookingbowl</move>
 			<wait>20</wait>
@@ -21504,5 +21843,37 @@
 		</queue>
 	</action>
 
+
+	<action>
+		<id>qblackcolor</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>colormixer</lock>
+			<pick>gatheredblackflower</pick>
+			<move>colormixer</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>blackcolor</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qwhitecolor</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>colormixer</lock>
+			<pick>gatheredwhiteflower</pick>
+			<move>colormixer</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>whitecolor</createItem>
+		</queue>
+	</action>
 </actions>
 

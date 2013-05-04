@@ -18669,4 +18669,26 @@
 
 		<value>109</value>
 	</paper>
+
+	<whitecolor>
+		<name esES="N/A">White color</name>
+
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>35</value>
+	</whitecolor>
+		<blackcolor>
+		<name esES="N/A">Black color</name>
+
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>35</value>
+	</blackcolor>
+
+
+
 </items>
