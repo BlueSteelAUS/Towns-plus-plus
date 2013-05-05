@@ -4503,7 +4503,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem />
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -6358,7 +6358,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<wait>21</wait>
 			<destroyItem />
 			<lock>masonbench</lock>
@@ -6498,7 +6498,7 @@
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -6591,7 +6591,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>purplecolor,purplegel</pick>
+			<pick>purplecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7098,7 +7098,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7118,7 +7118,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7138,7 +7138,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pick>yellowcolor,yellowgel</pick>
+			<pick>yellowcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7158,7 +7158,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pick>bluecolor,bluegel</pick>
+			<pick>bluecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7178,7 +7178,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pick>orangecolor,orangegel</pick>
+			<pick>orangecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7206,7 +7206,7 @@
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7230,7 +7230,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>bluecolor,bluegel</pick>
+			<pick>bluecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7254,7 +7254,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7278,7 +7278,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7302,7 +7302,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>yellowcolor,yellowgel</pick>
+			<pick>yellowcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -7381,7 +7381,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -10249,7 +10249,7 @@
 
 		<queue>
 			<lock>colormixer</lock>
-			<pick>gatheredyellowflower</pick>
+			<pick>gatheredyellowflower,yellowgel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10265,7 +10265,7 @@
 
 		<queue>
 			<lock>colormixer</lock>
-			<pick>gatheredgreenflower</pick>
+			<pick>gatheredgreenflower,greengel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10281,7 +10281,7 @@
 
 		<queue>
 			<lock>colormixer</lock>
-			<pick>gatheredpurpleflower</pick>
+			<pick>gatheredpurpleflower,purplegel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -10297,7 +10297,7 @@
 
 		<queue>
 			<lock>colormixer</lock>
-			<pick>gatheredorangeflower</pick>
+			<pick>gatheredorangeflower,orangegel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -11687,7 +11687,7 @@
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -11733,7 +11733,7 @@
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>greencolor,greengel</pick>
+      <pick>greencolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -11771,7 +11771,7 @@
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>bluecolor,bluegel</pick>
+      <pick>bluecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -11809,7 +11809,7 @@
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>redcolor,redgel</pick>
+      <pick>redcolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -11847,7 +11847,7 @@
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>purplecolor,purplegel</pick>
+      <pick>purplecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -12269,7 +12269,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>bluecolor,bluegel</pick>
+			<pick>bluecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -12305,7 +12305,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -12341,7 +12341,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>purplecolor,purplegel</pick>
+			<pick>purplecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -12415,7 +12415,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>bluecolor,bluegel</pick>
+			<pick>bluecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -12455,7 +12455,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -12495,7 +12495,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>purplecolor,purplegel</pick>
+			<pick>purplecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -12966,7 +12966,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -12988,7 +12988,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -13014,7 +13014,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -13036,7 +13036,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>bluecolor,bluegel</pick>
+			<pick>bluecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -13128,7 +13128,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>purplecolor,purplegel</pick>
+			<pick>purplecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -13669,7 +13669,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13697,7 +13697,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13725,7 +13725,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13753,7 +13753,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13781,7 +13781,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13809,7 +13809,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13837,7 +13837,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13865,7 +13865,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13893,7 +13893,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13921,7 +13921,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13949,7 +13949,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -13977,7 +13977,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -14005,7 +14005,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -14033,7 +14033,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -14061,7 +14061,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -14089,7 +14089,7 @@
 			<destroyItem />
 			<unlock />
       <lock>skinner</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -15776,7 +15776,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15800,7 +15800,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>bluecolor,bluegel</pick>
+			<pick>bluecolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15823,7 +15823,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15846,7 +15846,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>yellowcolor,yellowgel</pick>
+			<pick>yellowcolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15869,7 +15869,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>orangecolor,orangegel</pick>
+			<pick>orangecolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15892,7 +15892,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>purplecolor,purplegel</pick>
+			<pick>purplecolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15915,7 +15915,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15943,7 +15943,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>bluecolor,bluegel</pick>
+			<pick>bluecolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15970,7 +15970,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>greencolor,greengel</pick>
+			<pick>greencolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -15997,7 +15997,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>yellowcolor,yellowgel</pick>
+			<pick>yellowcolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -16024,7 +16024,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>orangecolor,orangegel</pick>
+			<pick>orangecolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -16051,7 +16051,7 @@
 
 		<queue>
 			<lock>masonbench</lock>
-			<pick>purplecolor,purplegel</pick>
+			<pick>purplecolor</pick>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>rmstone</pick>
@@ -16772,7 +16772,7 @@
 			<destroyItem />
 			<unlock />
 			<lock>skinner</lock>
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -16794,7 +16794,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>redcolor,redgel</pick>
+			<pick>redcolor</pick>
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -16821,7 +16821,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -16857,7 +16857,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -16892,7 +16892,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -16927,7 +16927,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -16963,7 +16963,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -16998,7 +16998,7 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor,yellowgel,orangegel,purplegel,bluegel,redgel,greengel</pick>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
 			<move>skinner</move>
 			<wait>50</wait>
 			<destroyItem />
@@ -17165,7 +17165,7 @@
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
-      <pick>greencolor,greengel</pick>
+      <pick>greencolor</pick>
       <move>skinner</move>
       <wait>50</wait>
       <destroyItem />
@@ -21923,7 +21923,7 @@
 
 		<queue>
 			<lock>colormixer</lock>
-			<pick>gatheredblackflower</pick>
+			<pick>gatheredblackflower,blackgel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -21939,7 +21939,7 @@
 
 		<queue>
 			<lock>colormixer</lock>
-			<pick>gatheredwhiteflower</pick>
+			<pick>gatheredwhiteflower,whitegel</pick>
 			<move>colormixer</move>
 			<wait>20</wait>
 			<destroyItem />
