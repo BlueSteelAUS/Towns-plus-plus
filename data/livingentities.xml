@@ -4951,20 +4951,21 @@
 
 		<name esES="N/A">Blood Slime</name>
 		<attack>1d539+1530</attack>
-		<attackSpeed>2</attackSpeed>
+		<attackSpeed>4</attackSpeed>
 		<defense>1d599+1700</defense>
-		<healthPoints>1d569+1615</healthPoints>
+		<healthPoints>1d1138+3431</healthPoints>
 		<attackVerb esES="absorbe">absorbs</attackVerb>
 		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
-		<damage>1d149+505</damage>
+		<damage>1d299+1010</damage>
 
 		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
 
-		<LOS>1d3+2</LOS>
+		<LOS>1d5+2</LOS>
 		<movePCT>60</movePCT>
-		<walkSpeed>20</walkSpeed>
+		<walkSpeed>50</walkSpeed>
 		<grouping>false</grouping>
 
+		<effects>enrage</effects>
 
 		<drop>
 			<item>RANDOM</item>

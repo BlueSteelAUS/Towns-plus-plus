@@ -461,6 +461,9 @@
 			<item id="qorangejelly" code="QUEUE" parameter="qorangejelly" />
 			<item id="qgreenjelly" code="QUEUE" parameter="qgreenjelly" />
 			<item id="qpurplejelly" code="QUEUE" parameter="qpurplejelly" />
+			<item id="qwhitejelly" code="QUEUE" parameter="qwhitejelly" />
+			<item id="qbloodjelly" code="QUEUE" parameter="qbloodjelly" />
+			<item id="qblackjelly" code="QUEUE" parameter="qblackjelly" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</jelly>
 	<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
