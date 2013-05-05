@@ -4909,6 +4909,110 @@
 		</drop>
 	</purpleslime>
 
+	<whiteslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,ALLY,HERO</hate>
+		<level>5</level>
+
+		<name esES="N/A">White Slime</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d569+1615</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d149+505</damage>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d3+2</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>20</walkSpeed>
+		<grouping>false</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>whitegel</item>
+			<PCT>100</PCT>
+		</drop>
+
+	</whiteslime>
+
+	<bloodslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,ALLY,HERO</hate>
+		<level>5</level>
+
+		<name esES="N/A">Blood Slime</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d569+1615</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d149+505</damage>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d3+2</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>20</walkSpeed>
+		<grouping>false</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>bloodgel</item>
+			<PCT>100</PCT>
+		</drop>
+
+	</bloodslime>
+
+	<blackslime>
+		<type>ENEMY</type>
+		<hate>CITIZEN,ALLY,HERO</hate>
+		<level>5</level>
+
+		<name esES="N/A">Black Slime</name>
+		<attack>1d539+1530</attack>
+		<attackSpeed>2</attackSpeed>
+		<defense>1d599+1700</defense>
+		<healthPoints>1d569+1615</healthPoints>
+		<attackVerb esES="absorbe">absorbs</attackVerb>
+		<attackVerbInfinitive esES="absorber">absorb</attackVerbInfinitive>
+		<damage>1d149+505</damage>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<LOS>1d3+2</LOS>
+		<movePCT>60</movePCT>
+		<walkSpeed>20</walkSpeed>
+		<grouping>false</grouping>
+
+
+		<drop>
+			<item>RANDOM</item>
+			<PCT>5</PCT>
+			<levelMin>8</levelMin>
+			<levelMax>15</levelMax>
+		</drop>
+		<drop>
+			<item>blackgel</item>
+			<PCT>100</PCT>
+		</drop>
+
+	</blackslime>
 	<!-- ANIMAL CARAVAN -LM -->
 	<animalcaravan>
 		<type>FRIENDLY</type>

@@ -12924,6 +12924,33 @@
 		<stackableSize>1</stackableSize>
 		<value>40</value>
 	</purplegel>
+	
+	<whitegel>
+		<name esES="N/A">white Gel</name>
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>40</value>
+	</whitegel>
+	
+	<bloodgel>
+		<name esES="N/A">blood Gel</name>
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>40</value>
+	</bloodgel>
+	
+	<blackgel>
+		<name esES="N/A">black Gel</name>
+		<type>rawmaterials.colors</type>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<value>40</value>
+	</blackgel>
 
 	<yellowjelly>
 		<name esES="N/A">Yellow Jelly</name>
@@ -13020,6 +13047,54 @@
 		<foodEffects>happy</foodEffects>
 		<value>200</value>
 	</greenjelly>
+
+	<whitejelly>
+		<name esES="N/A">White Jelly</name>
+		<description esES="N/A">It doesn't taste like anything...</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</whitejelly>
+
+	<bloodjelly>
+		<name esES="N/A">Blood Jelly</name>
+		<description esES="N/A">Not sure I want to eat this...</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</bloodjelly>
+
+	<blackjelly>
+		<name esES="N/A">Black Jelly</name>
+		<description esES="N/A">Tastes like gravel!</description>
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>4</foodValue>
+		<foodFillPCT>80</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>happy</foodEffects>
+		<value>200</value>
+	</blackjelly>
 
 	<!-- NEW FLOWERS -->
 	<orangeflower>
@@ -18679,7 +18754,8 @@
 		<stackableSize>1</stackableSize>
 		<value>35</value>
 	</whitecolor>
-		<blackcolor>
+		
+	<blackcolor>
 		<name esES="N/A">Black color</name>
 
 		<type>rawmaterials.colors</type>
@@ -18688,7 +18764,4 @@
 		<stackableSize>1</stackableSize>
 		<value>35</value>
 	</blackcolor>
-
-
-
 </items>

@@ -20863,6 +20863,78 @@
 		</queue>
 	</action>
 
+	<action>
+		<id>qwhitejelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<lock>bakertable</lock>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<lock>cookingbowl</lock>
+			<pick>whitegel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>whitejelly</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qbloodjelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<lock>bakertable</lock>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<lock>cookingbowl</lock>
+			<pick>bloodgel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>bloodjelly</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qblackjelly</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<lock>bakertable</lock>
+			<pick>waterbucket</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<unlock />
+			<lock>cookingbowl</lock>
+			<pick>blackgel</pick>
+			<move>cookingbowl</move>
+			<wait>20</wait>
+			<unlock />
+			<createItem>blackjelly</createItem>
+		</queue>
+	</action>
+
 	<!-- NEW FLOWERS -->
 	<action>
 		<id>qgatherorangeflower</id>
