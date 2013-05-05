@@ -347,14 +347,14 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>grave</createItem>
 		</queue>
 	</action>
@@ -395,6 +395,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>barbariancorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -409,8 +411,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>barbariancorpse</pick>
-			<wait>21</wait>
 			<createItem>barbariantomb</createItem>
 		</queue>
 	</action>
@@ -421,6 +421,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>punchwoodcorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -435,8 +437,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>punchwoodcorpse</pick>
-			<wait>21</wait>
 			<createItem>punchwoodtomb</createItem>
 		</queue>
 	</action>
@@ -447,6 +447,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>dwarfcorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -461,8 +463,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>dwarfcorpse</pick>
-			<wait>21</wait>
 			<createItem>dwarftomb</createItem>
 		</queue>
 	</action>
@@ -473,6 +473,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>magecorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -487,8 +489,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>magecorpse</pick>
-			<wait>21</wait>
 			<createItem>magetomb</createItem>
 		</queue>
 	</action>
@@ -499,6 +499,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>knightcorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -513,8 +515,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>knightcorpse</pick>
-			<wait>21</wait>
 			<createItem>knighttomb</createItem>
 		</queue>
 	</action>
@@ -525,6 +525,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>vechscorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -539,8 +541,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>vechscorpse</pick>
-			<wait>21</wait>
 			<createItem>vechstomb</createItem>
 		</queue>
 	</action>
@@ -551,6 +551,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>sipscorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -565,8 +567,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>sipscorpse</pick>
-			<wait>21</wait>
 			<createItem>sipstomb</createItem>
 		</queue>
 	</action>
@@ -577,6 +577,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>roguemalecorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -591,8 +593,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>roguemalecorpse</pick>
-			<wait>21</wait>
 			<createItem>maleroguetomb</createItem>
 		</queue>
 	</action>
@@ -603,6 +603,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>roguefemalecorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -617,8 +619,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>roguefemalecorpse</pick>
-			<wait>21</wait>
 			<createItem>femaleroguetomb</createItem>
 		</queue>
 	</action>
@@ -629,6 +629,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>highlandercorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -643,8 +645,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>highlandercorpse</pick>
-			<wait>21</wait>
 			<createItem>highlandertomb</createItem>
 		</queue>
 	</action>
@@ -655,6 +655,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>herbalistcorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -669,8 +671,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>herbalistcorpse</pick>
-			<wait>21</wait>
 			<createItem>herbalisttomb</createItem>
 		</queue>
 	</action>
@@ -681,6 +681,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>elfcorpse</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -695,8 +697,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>elfcorpse</pick>
-			<wait>21</wait>
 			<createItem>elftomb</createItem>
 		</queue>
 	</action>
@@ -707,6 +707,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -721,8 +723,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>tomb</createItem>
 		</queue>
 	</action>
@@ -733,6 +733,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -747,8 +749,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>mosstomb</createItem>
 		</queue>
 	</action>
@@ -759,6 +759,8 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -773,8 +775,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>lizardtomb</createItem>
 		</queue>
 	</action>
@@ -12562,6 +12562,8 @@
 		<id>qtomb2_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -12576,8 +12578,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>tomb2_W</createItem>
 		</queue>
 	</action>
@@ -12586,6 +12586,8 @@
 		<id>qmosstomb2_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -12600,8 +12602,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>mosstomb2_W</createItem>
 		</queue>
 	</action>
@@ -12610,6 +12610,8 @@
 		<id>qmosstomb3_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
@@ -12624,8 +12626,6 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>mosstomb3_W</createItem>
 		</queue>
 	</action>
@@ -12634,14 +12634,15 @@
 		<id>qgrave2_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
+			<wait>30</wait>
+			<destroyItem />
 			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>grave2_W</createItem>
 		</queue>
 	</action>
@@ -12650,14 +12651,14 @@
 		<id>qgrave3_W</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
+			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
+			<wait>21</wait>
 			<lock>carvingbench</lock>
 			<pick>bones</pick>
 			<move>carvingbench</move>
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>corpse,purgedhumanremains,humanremains,unearthedremains</pick>
-			<wait>21</wait>
 			<createItem>grave3_W</createItem>
 		</queue>
 	</action>
@@ -21565,11 +21566,15 @@
 	</action>
 
 	<!-- DEAD SANTA -->
-	<action>	<id>qsantatomb</id>
+	<action>	
+		<id>qsantatomb</id>
 
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<pick>santacorpse</pick>
+			<wait>21</wait>
+			<createItem>santatomb</createItem>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -21583,14 +21588,12 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
-			<pick>santacorpse</pick>
-			<wait>21</wait>
-			<createItem>santatomb</createItem>
 		</queue>
 	</action>
 	
 
-	<action>	<id>qtrimmilkedwildsnoat</id>
+	<action>	
+		<id>qtrimmilkedwildsnoat</id>
 
 		<priorityID>gathering</priorityID>
 
