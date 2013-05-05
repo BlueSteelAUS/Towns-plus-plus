@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_dungeons>
 	<dungeon>
-		<level>3</level>
+		<level>6</level>
 		<type>__CAVE__</type>
 
 		<monster>
@@ -26,7 +26,7 @@
 		</monster>
 		<monster>
 			<id>spiderqueen</id>
-			<number>10</number>
+			<number>2</number>
 		</monster>
 		<monster>
 			<id>nusepthegoblinking</id>
@@ -35,7 +35,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>5</level>
+		<level>8</level>
 		<type>__CAVE__</type>
 
 		<monster>
@@ -74,11 +74,22 @@
 			<id>draukthehobgoblinking</id>
 			<number>2</number>
 		</monster>
-
+		<monster>
+			<id>whiteslime</id>
+			<number>10</number>
+		</monster>
+		<monster>
+			<id>bloodslime</id>
+			<number>10</number>
+		</monster>
+		<monster>
+			<id>blackslime</id>
+			<number>10</number>
+		</monster>
 	</dungeon>
 
 	<dungeon>
-		<level>7</level>
+		<level>10</level>
 		<type>__ROOMS__</type>
 
 		<monster>
@@ -116,7 +127,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>9</level>
+		<level>12</level>
 		<type>__CAVE__</type>
 
 		<monster>
@@ -160,6 +171,18 @@
 			<number>200</number>
 		</monster>
 		<monster>
+			<id>whiteslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
+			<id>bloodslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
+			<id>blackslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
 			<id>spiderqueen</id>
 			<number>10</number>
 		</monster>
@@ -178,7 +201,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>11</level>
+		<level>14</level>
 		<type>__CAVE__</type>
 		<monster>
 			<id>yellowslime</id>
@@ -202,13 +225,25 @@
 		</monster>
 		<monster>
 			<id>blueslime</id>
-			<number>500</number>
+			<number>400</number>
+		</monster>
+		<monster>
+			<id>whiteslime</id>
+			<number>400</number>
+		</monster>
+		<monster>
+			<id>bloodslime</id>
+			<number>400</number>
+		</monster>
+		<monster>
+			<id>blackslime</id>
+			<number>400</number>
 		</monster>
 		
 	</dungeon>
 
 	<dungeon>
-		<level>13</level>
+		<level>16</level>
 		<type>__ROOMS__</type>
 
 		<monster>
@@ -259,7 +294,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>15</level>
+		<level>18</level>
 		<type>__CAVE__</type>
 		
 		<monster>
@@ -289,7 +324,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>17</level>
+		<level>20</level>
 		<type>__ROOMS__</type>
 		
 		<monster>
@@ -355,7 +390,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>19</level>
+		<level>22</level>
 		<type>__CAVE__</type>
 		<monster>
 			<id>zombie</id>
@@ -373,7 +408,7 @@
 
 
 	<dungeon>
-		<level>21</level>
+		<level>24</level>
 		<type>__ROOMS__</type>
 		
 		<monster>
@@ -386,6 +421,18 @@
 		</monster>
 		<monster>
 			<id>blueslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
+			<id>whiteslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
+			<id>bloodslime</id>
+			<number>200</number>
+		</monster>
+		<monster>
+			<id>blackslime</id>
 			<number>200</number>
 		</monster>
 		<monster>
@@ -404,7 +451,7 @@
 
 
 	<dungeon>
-		<level>23</level>
+		<level>26</level>
 		<type>__ROOMS__</type>
 		
 		<monster>
@@ -471,7 +518,7 @@
 
 
 	<dungeon>
-		<level>25</level>
+		<level>28</level>
 		<type>__CAVE__</type>
 		
 		<monster>
@@ -511,7 +558,7 @@
 
 
 	<dungeon>
-		<level>27</level>
+		<level>30</level>
 		<type>__ROOMS__</type>
 		
 		<monster>
@@ -559,7 +606,7 @@
 
 
 	<dungeon>
-		<level>29</level>
+		<level>32</level>
 		<type>__ROOMS__</type>
 		
 		<monster>
@@ -609,7 +656,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>31</level>
+		<level>34</level>
 		<type>__CAVE__</type>
 		
 		<monster>
@@ -648,7 +695,7 @@
 
 
 	<dungeon>
-		<level>33</level>
+		<level>36</level>
 		<type>__CAVE__</type>
 		
 		<monster>
@@ -683,7 +730,7 @@
 
 
 	<dungeon>
-		<level>35</level>
+		<level>38</level>
 		<type>__ROOMS__</type>
 		
 		<monster>
@@ -714,7 +761,7 @@
 
 
 	<dungeon>
-		<level>37</level>
+		<level>40</level>
 		<type>__ROOMS__</type>
 		
 		<monster>
@@ -773,7 +820,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>39</level>
+		<level>42</level>
 		<type>__CAVE__</type>
 		
 		<monster>
@@ -823,7 +870,7 @@
 	</dungeon>
 
 	<dungeon>
-		<level>41</level>
+		<level>44</level>
 		<type>__CAVE__</type>
 		
 		<monster>
