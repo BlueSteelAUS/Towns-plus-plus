@@ -54,11 +54,11 @@
 		<icon>ui_rfeed</icon>
 	</priority>
 
-	<priority>
+<!-- 	<priority>
 		<id>_BUILDINGS_</id>
 		<name esES="Edificios">Buildings</name>
 		<icon>ui_buildings</icon>
-	</priority>
+	</priority> -->
 
 	<priority>
 		<id>itemconstruction</id>
