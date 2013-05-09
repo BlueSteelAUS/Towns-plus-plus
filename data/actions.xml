@@ -21950,5 +21950,21 @@
 			<createItem>whitecolor</createItem>
 		</queue>
 	</action>
+	
+	<action>
+		<id>qsushi</id>
+
+		<priorityID>cooking</priorityID>
+
+		<queue>
+			<lock>kitchentable</lock>
+			<pick>rawfish</pick>
+			<move>kitchentable</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>sushi</createItem>
+		</queue>
+	</action>
 </actions>
 

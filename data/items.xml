@@ -1031,7 +1031,7 @@
 		<stackableSize>1</stackableSize>
 
 		<foodValue>1</foodValue>
-		<foodFillPCT>50</foodFillPCT>
+		<foodFillPCT>25</foodFillPCT>
 		<foodEatTime>40</foodEatTime>
 		<foodEffects>bellyache,slow</foodEffects>
 		<value>35</value>
@@ -18764,4 +18764,21 @@
 		<stackableSize>1</stackableSize>
 		<value>35</value>
 	</blackcolor>
+	
+	<sushi>
+		<name esES="N/A">Sushi</name>
+		<description esES="N/A">Raw Fish without the gunk!</description>
+
+		<type>prepfood.cooked</type>
+		<canBeEaten>true</canBeEaten>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<foodValue>2</foodValue>
+		<foodFillPCT>65</foodFillPCT>
+		<foodEatTime>60</foodEatTime>
+		<foodEffects>meathappy</foodEffects>
+		<value>35</value>
+	</sushi>
 </items>
