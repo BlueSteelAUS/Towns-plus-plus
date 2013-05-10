@@ -365,6 +365,21 @@
 				<item id="qfishing" code="QUEUE" parameter="qfishing" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</breeding>
+			
+			<cages name="Caged Animals" esES="N/A" icon="chickenincage">
+				<item id="qcagecow" code="QUEUE" parameter="qcagecow" />
+				<item id="qcagebull" code="QUEUE" parameter="qcagebull" />
+				<item id="qcagepig" code="QUEUE" parameter="qcagepig" />
+				<item id="qcageboar" code="QUEUE" parameter="qcageboar" />
+				<item id="qcagechicken" code="QUEUE" parameter="qcagechicken" />
+				<item id="qcagerooster" code="QUEUE" parameter="qcagerooster" />
+				<item id="qcageskootenbeeten" code="QUEUE" parameter="qcageskootenbeeten" />
+				<item id="qcageunifallow" code="QUEUE" parameter="qcageunifallow" />
+				<item id="qcagebadger" code="QUEUE" parameter="qcagebadger" />
+				<item id="qcagesnoat" code="QUEUE" parameter="qcagesnoat" />
+				<item id="qcagesheep" code="QUEUE" parameter="qcagesheep" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</cages>
 
 			<butchering name="Butchering" esES="Descuartizar" icon="ui_rfoodbutchering">
 				<item id="qbutcherbadger" code="QUEUE" parameter="qbutcherbadger" />
