@@ -101,4 +101,10 @@
 		<name esES="Ordenar">Haul</name>
 		<icon>ui_rhauling</icon>
 	</priority>
+
+	<priority>
+		<id>mining</id>
+		<name esES="N/A">Mining</name>
+		<icon>coalmine</icon>
+	</priority>	
 </priorities>

@@ -11141,7 +11141,7 @@
 		<id>qminedirt</id>
 		<generatedItem>rmmud</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">dirtmine</move>
 			<wait>7</wait>
@@ -11154,7 +11154,7 @@
 		<id>qminestone</id>
 		<generatedItem>rmstone</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">stonemine</move>
 			<wait>30</wait>
@@ -11167,7 +11167,7 @@
 		<id>qminesand</id>
 		<generatedItem>rmsand</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">sandmine</move>
 			<wait>4</wait>
@@ -11180,7 +11180,7 @@
 		<id>qminegravel</id>
 		<generatedItem>rmflint</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">gravelmine</move>
 			<wait>6</wait>
@@ -11193,7 +11193,7 @@
 		<id>qminecoal</id>
 		<generatedItem>rmcoal</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">coalmine</move>
 			<wait>20</wait>
@@ -11206,7 +11206,7 @@
 		<id>qmineiron</id>
 		<generatedItem>rmiron</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">ironmine</move>
 			<wait>8</wait>
@@ -11219,7 +11219,7 @@
 		<id>qminecopper</id>
 		<generatedItem>rmcopper</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">coppermine</move>
 			<wait>30</wait>
