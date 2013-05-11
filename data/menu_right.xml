@@ -516,7 +516,8 @@
 			<item id="qgardenpink" code="QUEUEANDPLACEAREA" parameter="qgardenpink" />
 			<item id="qgardenwhite" code="QUEUEANDPLACEAREA" parameter="qgardenwhite" />
 			<item id="qgardenblack" code="QUEUEANDPLACEAREA" parameter="qgardenblack" />
-			<item id="qgardenbush1" code="QUEUEANDPLACEAREA" parameter="qgardenbush1" />
+      <item id="qgardenorange" code="QUEUEANDPLACEAREA" parameter="qgardenorange" />
+  		<item id="qgardenbush1" code="QUEUEANDPLACEAREA" parameter="qgardenbush1" />
 			<item id="qgardenbush2" code="QUEUEANDPLACEAREA" parameter="qgardenbush2" />
 			<item id="qgardenbush3" code="QUEUEANDPLACEAREA" parameter="qgardenbush3" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />

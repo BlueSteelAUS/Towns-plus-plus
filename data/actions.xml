@@ -22066,5 +22066,77 @@
 			<createItem>sushi</createItem>
 		</queue>
 	</action>
+       <action>
+       <id>del_gardenorange</id>
+       <name esES="N/A">Remove</name>
+       <priorityID>itemconstruction</priorityID>
+       <queue>
+          <move useSource="true">gardenorange</move>
+          <wait>16</wait>
+          <destroyCellItem />
+          <createItem>gardenorange</createItem>
+       </queue>
+       </action>
+       
+       <action>
+       <id>del_gardenpurple</id>
+       <name esES="N/A">Remove</name>
+       <priorityID>itemconstruction</priorityID>
+       <queue>
+          <move useSource="true">gardenpurple</move>
+          <wait>16</wait>
+          <destroyCellItem />
+          <createItem>gardenpurple</createItem>
+       </queue>
+       </action>
+       
+       <action>
+       <id>del_gardengreen</id>
+       <name esES="N/A">Remove</name>
+       <priorityID>itemconstruction</priorityID>
+       <queue>
+          <move useSource="true">gardengreen</move>
+          <wait>16</wait>
+          <destroyCellItem />
+          <createItem>gardengreen</createItem>
+       </queue>
+       </action>
+
+       <action>
+       <id>del_gardenpink</id>
+       <name esES="N/A">Remove</name>
+       <priorityID>itemconstruction</priorityID>
+       <queue>
+          <move useSource="true">gardenpink</move>
+          <wait>16</wait>
+          <destroyCellItem />
+          <createItem>gardenpink</createItem>
+       </queue>
+       </action>
+
+       <action>
+       <id>del_gardenwhite</id>
+       <name esES="N/A">Remove</name>
+       <priorityID>itemconstruction</priorityID>
+       <queue>
+          <move useSource="true">gardenwhite</move>
+          <wait>16</wait>
+          <destroyCellItem />
+          <createItem>gardenwhite</createItem>
+       </queue>
+       </action>
+
+       <action>
+       <id>del_gardenblack</id>
+       <name esES="N/A">Remove</name>
+       <priorityID>itemconstruction</priorityID>
+       <queue>
+          <move useSource="true">gardenblack</move>
+          <wait>16</wait>
+          <destroyCellItem />
+          <createItem>gardenblack</createItem>
+       </queue>
+       </action>
+
 </actions>
 
