@@ -2652,7 +2652,7 @@
 
 		<queue>
 			<lock>butchertable</lock>
-			<pickFriendly>pig,cow,chicken,rooster,boar,bull,unifallow,milkedcow,milkedunifallow</pickFriendly>
+			<pickFriendly>pig,cow,chicken,rooster,boar,bull,unifallow,milkedcow,milkedunifallow,badger,snoat</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
