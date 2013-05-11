@@ -775,6 +775,12 @@
 			<wait>21</wait>
 			<destroyItem />
 			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>lizardtomb</createItem>
 		</queue>
 	</action>
@@ -4864,7 +4870,6 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -4880,6 +4885,24 @@
 			<pick>rmiron</pick>
 			<move>anvil</move>
 			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
+			<pick>wool</pick>
+			<move>artisan</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>redcolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>redlongflag</createItem>
@@ -4904,10 +4927,18 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>anvil</lock>
-			<pick>rmiron</pick>
-			<move>anvil</move>
+			<lock>artisan</lock>
+			<pick>wool</pick>
+			<move>artisan</move>
 			<wait>32</wait>
+			<destroyItem />
+			<pick>redcolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>redshortflag</createItem>
@@ -4932,6 +4963,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>doorsignswords</createItem>
 		</queue>
 	</action>
@@ -4948,6 +4985,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>woodensign</createItem>
 		</queue>
 	</action>
@@ -4962,6 +5005,12 @@
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>woodenwallsign</createItem>
@@ -4986,6 +5035,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>ironwoodenwallsign</createItem>
 		</queue>
 	</action>
@@ -5000,6 +5055,12 @@
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>woodennortharrow</createItem>
@@ -5018,6 +5079,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>woodensoutharrow</createItem>
 		</queue>
 	</action>
@@ -5034,6 +5101,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>woodeneastarrow</createItem>
 		</queue>
 	</action>
@@ -5048,6 +5121,12 @@
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>woodenwestarrow</createItem>
@@ -5086,6 +5165,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>scroll</createItem>
 		</queue>
 	</action>
@@ -5114,6 +5199,12 @@
 			<pick>animalhide,unifallowhide,badgerhide</pick>
 			<move>skinner</move>
 			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
 			<destroyItem />
 			<unlock />
 			<createItem>book</createItem>
@@ -6590,13 +6681,13 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>purplecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -6939,13 +7030,13 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -6979,13 +7070,13 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7077,13 +7168,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7097,13 +7188,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7117,13 +7208,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>greencolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7137,13 +7228,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>yellowcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7157,13 +7248,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>bluecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7177,13 +7268,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>orangecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7202,16 +7293,18 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
 			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7230,12 +7323,14 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
 			<pick>bluecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7254,12 +7349,14 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7278,12 +7375,14 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
 			<pick>greencolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7302,12 +7401,14 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
 			<pick>yellowcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7342,12 +7443,14 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>skootenfeather</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7381,16 +7484,18 @@
 			<move>skinner</move>
 			<wait>20</wait>
 			<destroyItem />
+			<unlock />
+			<lock>artisan</lock>
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -7889,9 +7994,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -7905,13 +8010,13 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>clotharmor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>animalhide,unifallowhide,badgerhide</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -7925,9 +8030,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>leatherarmor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -7951,9 +8056,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>leatherarmor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -7977,9 +8082,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>leatherarmor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -8003,9 +8108,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>leatherarmor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -8029,9 +8134,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>leatherarmor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -11350,6 +11455,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>carpentrybench</lock>
 			<pick>rmwood</pick>
 			<move>carpentrybench</move>
 			<wait>20</wait>
@@ -11370,6 +11476,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>beerbarrel</lock>
 			<pick useSource="true">wheat</pick>
 			<move>beerbarrel</move>
 			<wait>20</wait>
@@ -11394,6 +11501,7 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>winebarrel</lock>
 			<pick useSource="true">apple,pear,snowcherry,blueradish,banana,cactusfruit</pick>
 			<move>winebarrel</move>
 			<wait>20</wait>
@@ -11403,7 +11511,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<pick>waterbucket</pick>
-			<move>beerbarrel</move>
+			<move>winebarrel</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -11678,25 +11786,25 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>greencolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>blackcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -11724,17 +11832,17 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
       <pick>greencolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -11762,17 +11870,17 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
       <pick>bluecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -11800,17 +11908,17 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
       <pick>redcolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -11838,17 +11946,17 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wheat</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
       <pick>purplecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -12262,23 +12370,17 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>anvil</lock>
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>bluecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12298,23 +12400,17 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>anvil</lock>
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>greencolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12334,23 +12430,17 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>anvil</lock>
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>purplecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12370,23 +12460,17 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-			<lock>anvil</lock>
-			<pick>rmiron</pick>
-			<move>anvil</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>blackcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12402,33 +12486,27 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>carpentrybench</lock>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
+			<lock>anvil</lock>
+			<pick>rmiron</pick>
+			<move>anvil</move>
+			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>wooddetailer</lock>
-			<pick>rmwood</pick>
-			<move>wooddetailer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>bluecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
-			<wait>50</wait>
-			<destroyItem />
-			<pick>wool</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12442,33 +12520,27 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>carpentrybench</lock>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
+			<lock>anvil</lock>
+			<pick>rmiron</pick>
+			<move>anvil</move>
+			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>wooddetailer</lock>
-			<pick>rmwood</pick>
-			<move>wooddetailer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>greencolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
-			<wait>50</wait>
-			<destroyItem />
-			<pick>wool</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12482,33 +12554,27 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>carpentrybench</lock>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
+			<lock>anvil</lock>
+			<pick>rmiron</pick>
+			<move>anvil</move>
+			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>wooddetailer</lock>
-			<pick>rmwood</pick>
-			<move>wooddetailer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>purplecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
-			<wait>50</wait>
-			<destroyItem />
-			<pick>wool</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12522,33 +12588,27 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>carpentrybench</lock>
-			<pick>rmwood</pick>
-			<move>carpentrybench</move>
-			<wait>20</wait>
+			<lock>anvil</lock>
+			<pick>rmiron</pick>
+			<move>anvil</move>
+			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>wooddetailer</lock>
-			<pick>rmwood</pick>
-			<move>wooddetailer</move>
-			<wait>20</wait>
-			<destroyItem />
-			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>blackcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>whitecolor</pick>
-			<move>skinner</move>
-			<wait>50</wait>
-			<destroyItem />
-			<pick>wool</pick>
-			<move>skinner</move>
+			<pick>yellowcolor</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>wool</pick>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12966,9 +13026,9 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -12988,13 +13048,13 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -13014,9 +13074,9 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>greencolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -13036,9 +13096,9 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>bluecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -13128,9 +13188,9 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>purplecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -13669,9 +13729,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13697,9 +13757,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13725,9 +13785,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13753,9 +13813,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13781,9 +13841,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13809,9 +13869,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13837,9 +13897,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13865,9 +13925,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13893,9 +13953,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13921,9 +13981,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13949,9 +14009,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -13977,9 +14037,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -14005,9 +14065,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -14033,9 +14093,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -14061,9 +14121,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -14089,9 +14149,9 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -16753,9 +16813,9 @@
 		<id>qgiftstack</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>animalhide,unifallowhide,badgerhide,wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
@@ -16772,13 +16832,13 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -16790,17 +16850,17 @@
 		<id>qsantahat</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>redcolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
@@ -16813,17 +16873,17 @@
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>animalhide,wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>paper</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -16849,17 +16909,17 @@
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>animalhide,wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>paper</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -16884,17 +16944,17 @@
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>animalhide,wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>paper</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -16919,17 +16979,17 @@
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>animalhide,wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>paper</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -16955,17 +17015,17 @@
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>animalhide,wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>paper</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -16990,17 +17050,17 @@
 		<name esES="Regalo Grande">Large Gift</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<lock>skinner</lock>
+			<lock>artisan</lock>
 			<pick>animalhide,wool</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>paper</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-			<move>skinner</move>
+			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
 			<unlock />
@@ -17161,17 +17221,17 @@
 		<id>qsantahat2</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-      <lock>skinner</lock>
+      <lock>artisan</lock>
       <pick>wool</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <pick>greencolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <pick>whitecolor</pick>
-      <move>skinner</move>
+      <move>artisan</move>
       <wait>50</wait>
       <destroyItem />
       <unlock />
@@ -21669,7 +21729,7 @@
 		<id>qcagechicken</id>
 		<name esES="N/A">Cage</name>
 		<generatedItem>chickenincage</generatedItem>
-		
+
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly useSource="true">chicken,wildchicken,layedeggchicken,layedeggwildchicken</pickFriendly>
@@ -21961,7 +22021,36 @@
 			<createItem>whitecolor</createItem>
 		</queue>
 	</action>
-	
+
+	<action>
+		<id>del_artisan</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">artisan</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>artisan</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qartisan</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem />
+			<createItem>artisan</createItem>
+		</queue>
+	</action>
+
 	<action>
 		<id>qsushi</id>
 

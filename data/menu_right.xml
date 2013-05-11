@@ -162,6 +162,7 @@
 			<item id="zatelier" code="CREATEZONE" name="Atelier Floor" esES="Crear Taller" parameter="zatelier" icon="ui_zonesatelier" />
 			<item id="qcolormixer" code="QUEUEANDPLACEAREA" parameter="qcolormixer" />
 			<item id="qskinner" code="QUEUEANDPLACEAREA" parameter="qskinner" />
+			<item id="qartisan" code="QUEUEANDPLACEAREA" parameter="qartisan" />
 			<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
 			<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />

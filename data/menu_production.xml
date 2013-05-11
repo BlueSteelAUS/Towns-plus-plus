@@ -798,6 +798,28 @@
 	</traps>
 
 	<utils name="Utilities" esES="Útiles" icon="ui_rutils">
+		<workbenches name="Workbenches" esES="N/A" icon="carpentrybench">
+  		<item id="qcarpentrybench" code="QUEUE" parameter="qcarpentrybench" />
+  		<item id="qwooddetailer" code="QUEUE" parameter="qwooddetailer" />
+  		<item id="qcarvingbench" code="QUEUE" parameter="qcarvingbench" />
+  		<item id="qmasonbench" code="QUEUE" parameter="qmasonbench" />
+  		<item id="qbakertable" code="QUEUE" parameter="qbakertable" />
+  		<item id="qbakeroven" code="QUEUE" parameter="qbakeroven" />
+  		<item id="qanvil" code="QUEUE" parameter="qanvil" />
+  		<item id="qsmelter" code="QUEUE" parameter="qsmelter" />
+  		<item id="qitesmithy" code="QUEUE" parameter="qitesmithy" />
+  		<item id="qkitchentable" code="QUEUE" parameter="qkitchentable" />
+  		<item id="qbutchertable" code="QUEUE" parameter="qbutchertable" />
+  		<item id="qstove" code="QUEUE" parameter="qstove" />
+  		<item id="qcookingbowl" code="QUEUE" parameter="qcookingbowl" />
+  		<item id="qcolormixer" code="QUEUE" parameter="qcolormixer" />
+  		<item id="qskinner" code="QUEUE" parameter="qskinner" />
+  		<item id="qartisan" code="QUEUE" parameter="qartisan" />
+  		<item id="qmedicinecabinet" code="QUEUE" parameter="qmedicinecabinet" />
+  		<item id="qbeerbarrel" code="QUEUE" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
+  		<item id="qwinebarrel" code="QUEUE" parameter="qwinebarrel" icon="ui_winebarrel"/>
+  		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+		</workbenches>
 		<item id="qtongs" code="QUEUE" parameter="qtongs" />
 		<item id="qbonecarver" code="QUEUE" parameter="qbonecarver" />
 		<item id="qtorch" code="QUEUE" parameter="qtorch" />
@@ -806,24 +828,6 @@
 		<item id="qpoisonbottle" code="QUEUE" parameter="qpoisonbottle" />
 		<item id="qrenewfire" code="QUEUE" parameter="qrenewfire" />
 		<item id="qrenewburnt" code="QUEUE" parameter="qrenewburnt" />		
-		<item id="qcarpentrybench" code="QUEUE" parameter="qcarpentrybench" />
-		<item id="qwooddetailer" code="QUEUE" parameter="qwooddetailer" />
-		<item id="qcarvingbench" code="QUEUE" parameter="qcarvingbench" />
-		<item id="qmasonbench" code="QUEUE" parameter="qmasonbench" />
-		<item id="qbakertable" code="QUEUE" parameter="qbakertable" />
-		<item id="qbakeroven" code="QUEUE" parameter="qbakeroven" />
-		<item id="qanvil" code="QUEUE" parameter="qanvil" />
-		<item id="qsmelter" code="QUEUE" parameter="qsmelter" />
-		<item id="qitesmithy" code="QUEUE" parameter="qitesmithy" />
-		<item id="qkitchentable" code="QUEUE" parameter="qkitchentable" />
-		<item id="qbutchertable" code="QUEUE" parameter="qbutchertable" />
-		<item id="qstove" code="QUEUE" parameter="qstove" />
-		<item id="qcookingbowl" code="QUEUE" parameter="qcookingbowl" />
-		<item id="qcolormixer" code="QUEUE" parameter="qcolormixer" />
-		<item id="qskinner" code="QUEUE" parameter="qskinner" />
-		<item id="qmedicinecabinet" code="QUEUE" parameter="qmedicinecabinet" />
-		<item id="qbeerbarrel" code="QUEUE" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
-		<item id="qwinebarrel" code="QUEUE" parameter="qwinebarrel" icon="ui_winebarrel"/>
 		<item id="qmill" code="QUEUE" parameter="qmill" />
 		<item id="qwell" code="QUEUE" parameter="qwell" />
 		<item id="qshrine1" code="QUEUE" parameter="qshrine1" />

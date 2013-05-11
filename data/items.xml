@@ -18781,4 +18781,30 @@
 		<foodEffects>meathappy</foodEffects>
 		<value>35</value>
 	</sushi>
+
+	<artisan>
+		<name esES="N/A">Artisans bench</name>
+
+		<type>utils.workshops</type>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<buryItem>artisanbury</buryItem>
+
+		<alwaysOperative>false</alwaysOperative>
+		<zone>zatelier</zone>
+		<value>212</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_artisan</action>
+	</artisan>
+
+	<artisanbury>
+		<name esES="N/A">Artisan's bench</name>
+
+	
+		<alwaysOperative>false</alwaysOperative>
+		
+		<value>212</value>
+	</artisanbury>
 </items>
