@@ -1,6 +1,8 @@
 Towns++ v13a2 (for Towns v13a)
+==============================
 
 NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods!
+===================================================
 
 Changes since Towns++_v13a1
 ===========================
