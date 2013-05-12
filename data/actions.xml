@@ -4904,9 +4904,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>carpentrybench</lock>
+			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
-			<move>carpentrybench</move>
+			<move>wooddetailer</move>
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
