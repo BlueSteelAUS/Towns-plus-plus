@@ -21,7 +21,7 @@
 	<group>
 		<name esES="Comida cruda">Raw food</name>
 		<icon>icon_mats_rawfood</icon>
-		<types>rawfood</types>
+		<types>rawfood,rawfood.meat,rawfood.gathered,rawfood.harvested,rawfood.processed</types>
 	</group>
 
 	<group>
