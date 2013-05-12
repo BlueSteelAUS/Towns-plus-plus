@@ -392,15 +392,10 @@
 
 			<produce name="Produce" esES="N/A" icon="milk">
 				<item id="qmilkcow" code="QUEUE" parameter="qmilkcow" />
-				<item id="qmilkwildcow" code="QUEUE" parameter="qmilkwildcow" />
 				<item id="qmilksnoat" code="QUEUE" parameter="qmilksnoat" />
-				<item id="qmilkwildsnoat" code="QUEUE" parameter="qmilkwildsnoat" />
 				<item id="qmilkunifallow" code="QUEUE" parameter="qmilkunifallow" />
-				<item id="qmilkwildunifallow" code="QUEUE" parameter="qmilkwildunifallow" />
 				<item id="qgatherchickenegg" code="QUEUE" parameter="qgatherchickenegg" />
-				<item id="qgatherwildchickenegg" code="QUEUE" parameter="qgatherwildchickenegg" />
 				<item id="qgatherskootenegg" code="QUEUE" parameter="qgatherskootenegg" />
-				<item id="qgatherwildskootenegg" code="QUEUE" parameter="qgatherwildskootenegg" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</produce>
 
@@ -578,9 +573,7 @@
 			<item id="qunifallowhide" code="QUEUE" parameter="qunifallowhide" />
 			<item id="qskootenfeather" code="QUEUE" parameter="qskootenfeather" />
 			<item id="qtrimsheep" code="QUEUE" parameter="qtrimsheep" />
-			<item id="qtrimwildsheep" code="QUEUE" parameter="qtrimwildsheep" />
 			<item id="qtrimsnoat" code="QUEUE" parameter="qtrimsnoat" />
-			<item id="qtrimwildsnoat" code="QUEUE" parameter="qtrimwildsnoat" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</hides>
 
