@@ -6115,9 +6115,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6133,9 +6135,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6151,9 +6155,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6169,9 +6175,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6190,9 +6198,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6212,9 +6222,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6233,9 +6245,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6254,9 +6268,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6275,9 +6291,11 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<pick>rmstone</pick>
-			<destroyItem />
 			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>20</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
@@ -6316,10 +6334,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>redcolor</pick>
 			<wait>21</wait>
 			<destroyItem />
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -6340,6 +6358,9 @@
 
 		<queue>
 			<lock>masonbench</lock>
+			<pick>whitecolor</pick>
+			<wait>21</wait>
+			<destroyItem />
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -6359,10 +6380,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>bluecolor</pick>
 			<wait>21</wait>
 			<destroyItem />
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -6382,10 +6403,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>yellowcolor</pick>
 			<wait>21</wait>
 			<destroyItem />
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -6405,10 +6426,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>orangecolor</pick>
 			<wait>21</wait>
 			<destroyItem />
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -6428,10 +6449,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>greencolor</pick>
 			<wait>21</wait>
 			<destroyItem />
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -6451,10 +6472,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>purplecolor</pick>
 			<wait>21</wait>
 			<destroyItem />
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>41</wait>
@@ -6474,7 +6495,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
+			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
 			<createItem>stoneroadtile</createItem>
@@ -6488,7 +6511,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>rmstone</pick>
+			<move>masonbench</move>
 			<wait>21</wait>
 			<destroyItem />
 			<createItem>pond</createItem>
@@ -6549,7 +6574,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>glass</pick>
+			<move>smelter</move>
 			<wait>31</wait>
 			<destroyItem />
 			<createItem>glassfloor</createItem>
@@ -7069,12 +7096,15 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>artisan</lock>
 			<pick>wheat</pick>
+			<move>artisan</move>
 			<wait>20</wait>
 			<destroyItem />
 			<pick>wheat</pick>
 			<wait>20</wait>
 			<destroyItem />
+			< unlock />
 			<createItem>strawhat</createItem>
 		</queue>
 	</action>
