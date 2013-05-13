@@ -2204,8 +2204,6 @@
 			<move>mill</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
-			<lock>mill</lock>
 			<pick>wheat</pick>
 			<move>mill</move>
 			<wait>20</wait>
@@ -2226,8 +2224,6 @@
 			<move>mill</move>
 			<wait>20</wait>
 			<destroyItem />
-			<unlock />
-			<lock>mill</lock>
 			<pick>sugarcane</pick>
 			<move>mill</move>
 			<wait>20</wait>
@@ -4529,7 +4525,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem />
-			<pick>redgel,gatheredredflower</pick>
+			<pick>redcolor</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -4551,7 +4547,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem />
-			<pick>bluegel,gatheredblueflower</pick>
+			<pick>bluecolor</pick>
 			<move>masonbench</move>
 			<wait>20</wait>
 			<destroyItem />
@@ -4687,10 +4683,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
-			<lock>smelter</lock>
 			<pick>rmiron</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4706,10 +4702,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
-			<lock>smelter</lock>
 			<pick>bluecolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4729,10 +4725,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
-			<lock>smelter</lock>
 			<pick>greencolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4752,10 +4748,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
-			<lock>smelter</lock>
 			<pick>redcolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
@@ -4775,10 +4771,10 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>smelter</lock>
 			<pick>glass</pick>
 			<wait>1</wait>
 			<destroyItem />
-			<lock>smelter</lock>
 			<pick>yellowcolor</pick>
 			<move>smelter</move>
 			<wait>32</wait>
