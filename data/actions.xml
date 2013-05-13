@@ -347,9 +347,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -395,9 +395,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>barbariancorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -421,9 +421,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>punchwoodcorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -447,9 +447,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>dwarfcorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -473,9 +473,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>magecorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -499,9 +499,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>knightcorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -525,9 +525,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>vechscorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -551,9 +551,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>sipscorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -577,9 +577,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>roguemalecorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -603,9 +603,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>roguefemalecorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -629,9 +629,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>highlandercorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -655,9 +655,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>herbalistcorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -681,9 +681,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>elfcorpse</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -707,9 +707,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -733,9 +733,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
@@ -759,9 +759,9 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
+			<lock>masonbench</lock>
 			<pick>corpse,humanremains,purgedhumanremains,unearthedremains</pick>
 			<wait>21</wait>
-			<lock>masonbench</lock>
 			<pick>rmstone</pick>
 			<move>masonbench</move>
 			<wait>21</wait>
