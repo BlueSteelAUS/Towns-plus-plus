@@ -1550,7 +1550,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qmilksnoat</id>
 
@@ -2425,7 +2425,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qkillsnoat</id>
 		<name esES="Matar">Kill</name>
@@ -2862,7 +2862,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qcookedfish</id>
 
@@ -3421,7 +3421,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qfancybrickfence</id>
 
@@ -3563,7 +3563,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qrounddarkblock</id>
 
@@ -4357,7 +4357,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qflagblockwhite</id>
 
@@ -5190,7 +5190,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qbonetorch</id>
 
@@ -5491,7 +5491,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qmayanblock</id>
 
@@ -5881,7 +5881,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qicewall</id>
 
@@ -6215,7 +6215,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qcyantileroof</id>
 
@@ -6504,7 +6504,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qpond</id>
 
@@ -6744,7 +6744,7 @@
 			<createItem>woodentable</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qarchitecttable</id>
 
@@ -7051,7 +7051,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qwoodendormbed</id>
 
@@ -7104,7 +7104,7 @@
 			<pick>wheat</pick>
 			<wait>20</wait>
 			<destroyItem />
-			< unlock />
+			<unlock />
 			<createItem>strawhat</createItem>
 		</queue>
 	</action>
@@ -8186,7 +8186,7 @@
 			<createItem>bamboostick</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qwoodensnakesword</id>
 
@@ -10604,7 +10604,7 @@
 		</queue>
 	</action>
 
-	
+
 	<action>
 		<id>qexaminecrateburygoldarmor</id>
 		<name esES="Examinar">Examine</name>
@@ -10856,7 +10856,7 @@
 			<replaceCellItem>shrine1</replaceCellItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qsacrificebones</id>
 
@@ -11070,12 +11070,13 @@
 			<replaceCellItem>shrine5</replaceCellItem>
 		</queue>
 	</action>
-	
-	
+
+
 	<!-- /QUEUES -->
 
 	<!-- BlueSteel's Mod pack -->
-	<action>	<id>qbuilddirtmine</id>
+	<action>
+		<id>qbuilddirtmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11100,7 +11101,8 @@
 		</queue>
 	</action>
 
-	<action>	<id>qbuildsandmine</id>
+	<action>
+		<id>qbuildsandmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11125,7 +11127,8 @@
 		</queue>
 	</action>
 
-	<action>	<id>qbuildstonemine</id>
+	<action>
+		<id>qbuildstonemine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11150,7 +11153,8 @@
 		</queue>
 	</action>
 
-	<action>	<id>qbuildgravelmine</id>
+	<action>
+		<id>qbuildgravelmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11175,7 +11179,8 @@
 		</queue>
 	</action>
 
-	<action> <id>qbuildcoalmine</id>
+	<action>
+		<id>qbuildcoalmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11200,7 +11205,8 @@
 		</queue>
 	</action>
 
-	<action> <id>qbuildironemine</id>
+	<action>
+		<id>qbuildironemine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11225,7 +11231,8 @@
 		</queue>
 	</action>
 
-	<action> <id>qbuildcoppermine</id>
+	<action>
+		<id>qbuildcoppermine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11342,7 +11349,8 @@
 		</queue>
 	</action>
 
-	<action> <id>qprocesswheat</id>
+	<action>
+		<id>qprocesswheat</id>
 		<generatedItem>flour</generatedItem>
 		<priorityID>processing</priorityID>
 		<queue>
@@ -11360,7 +11368,8 @@
 		</queue>
 	</action>
 
-	<action> <id>qbuildsilvermine</id>
+	<action>
+		<id>qbuildsilvermine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11398,7 +11407,8 @@
 		</queue>
 	</action>
 
-	<action> <id>qbuildgoldmine</id>
+	<action>
+		<id>qbuildgoldmine</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<lock>carpentrybench</lock>
@@ -11850,11 +11860,11 @@
 			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>greencolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<pick>greencolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>green_bed_N</createItem>
 		</queue>
 	</action>
@@ -11888,12 +11898,12 @@
 			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>bluecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
-		<createItem>blue_bed_N</createItem>
+			<pick>bluecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>blue_bed_N</createItem>
 		</queue>
 	</action>
 
@@ -11926,11 +11936,11 @@
 			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>redcolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<pick>redcolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>red_bed_N</createItem>
 		</queue>
 	</action>
@@ -11964,11 +11974,11 @@
 			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-      <pick>purplecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<pick>purplecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>purple_bed_N</createItem>
 		</queue>
 	</action>
@@ -13738,12 +13748,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>doorsignswords_E1</createItem>
 		</queue>
 	</action>
@@ -13766,12 +13776,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_1_E</createItem>
 		</queue>
 	</action>
@@ -13794,12 +13804,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_2_E</createItem>
 		</queue>
 	</action>
@@ -13822,12 +13832,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_3_E</createItem>
 		</queue>
 	</action>
@@ -13850,12 +13860,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_4_E</createItem>
 		</queue>
 	</action>
@@ -13878,12 +13888,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_5_E</createItem>
 		</queue>
 	</action>
@@ -13906,12 +13916,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_6_E</createItem>
 		</queue>
 	</action>
@@ -13934,12 +13944,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_7_E</createItem>
 		</queue>
 	</action>
@@ -13962,12 +13972,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_8_E</createItem>
 		</queue>
 	</action>
@@ -13990,12 +14000,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_9_E</createItem>
 		</queue>
 	</action>
@@ -14018,12 +14028,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_10_E</createItem>
 		</queue>
 	</action>
@@ -14046,12 +14056,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_11_E</createItem>
 		</queue>
 	</action>
@@ -14074,12 +14084,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_12_E</createItem>
 		</queue>
 	</action>
@@ -14102,12 +14112,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_13_E</createItem>
 		</queue>
 	</action>
@@ -14130,12 +14140,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_14_E</createItem>
 		</queue>
 	</action>
@@ -14158,12 +14168,12 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
-      <lock>artisan</lock>
-      <pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>sign_15_E</createItem>
 		</queue>
 	</action>
@@ -17230,20 +17240,20 @@
 		<id>qsantahat2</id>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-      <lock>artisan</lock>
-      <pick>wool</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <pick>greencolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <pick>whitecolor</pick>
-      <move>artisan</move>
-      <wait>50</wait>
-      <destroyItem />
-      <unlock />
+			<lock>artisan</lock>
+			<pick>wool</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>greencolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<pick>whitecolor</pick>
+			<move>artisan</move>
+			<wait>50</wait>
+			<destroyItem />
+			<unlock />
 			<createItem>xmashat</createItem>
 		</queue>
 	</action>
@@ -21659,7 +21669,7 @@
 			<unlock />
 		</queue>
 	</action>
-	
+
 
 	<action>	
 		<id>qtrimmilkedwildsnoat</id>
@@ -21690,7 +21700,7 @@
 			<createFriendly>chicken</createFriendly>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qreleaserooster</id>
 		<name esES="Liberar">Release the</name>
@@ -21887,9 +21897,9 @@
 			<createItem>badgerincage</createItem>
 		</queue>
 	</action>
-	
+
 	<!-- WILD ANIMAL GATHERING -->
-	
+
 	<action>
 		<id>qgetanimalhide</id>
 
@@ -21904,7 +21914,7 @@
 			<createItem>animalhide</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qgetbadgerhide</id>
 
@@ -21951,7 +21961,7 @@
 			<createItem>skootenfeather</createItem>
 		</queue>
 	</action>
-<!-- book shelf -->	
+	<!-- book shelf -->	
 	<action>
 		<id>qwoodenbookshelf</id>
 
@@ -21977,7 +21987,7 @@
 			<createItem>woodenbookshelf</createItem>
 		</queue>
 	</action>
-	
+
 	<action>
 		<id>qpaper</id>
 
@@ -22075,77 +22085,78 @@
 			<createItem>sushi</createItem>
 		</queue>
 	</action>
-       <action>
-       <id>del_gardenorange</id>
-       <name esES="N/A">Remove</name>
-       <priorityID>itemconstruction</priorityID>
-       <queue>
-          <move useSource="true">gardenorange</move>
-          <wait>16</wait>
-          <destroyCellItem />
-          <createItem>gardenorange</createItem>
-       </queue>
-       </action>
-       
-       <action>
-       <id>del_gardenpurple</id>
-       <name esES="N/A">Remove</name>
-       <priorityID>itemconstruction</priorityID>
-       <queue>
-          <move useSource="true">gardenpurple</move>
-          <wait>16</wait>
-          <destroyCellItem />
-          <createItem>gardenpurple</createItem>
-       </queue>
-       </action>
-       
-       <action>
-       <id>del_gardengreen</id>
-       <name esES="N/A">Remove</name>
-       <priorityID>itemconstruction</priorityID>
-       <queue>
-          <move useSource="true">gardengreen</move>
-          <wait>16</wait>
-          <destroyCellItem />
-          <createItem>gardengreen</createItem>
-       </queue>
-       </action>
 
-       <action>
-       <id>del_gardenpink</id>
-       <name esES="N/A">Remove</name>
-       <priorityID>itemconstruction</priorityID>
-       <queue>
-          <move useSource="true">gardenpink</move>
-          <wait>16</wait>
-          <destroyCellItem />
-          <createItem>gardenpink</createItem>
-       </queue>
-       </action>
+	<action>
+		<id>del_gardenorange</id>
+		<name esES="N/A">Remove</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">gardenorange</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>gardenorange</createItem>
+		</queue>
+	</action>
 
-       <action>
-       <id>del_gardenwhite</id>
-       <name esES="N/A">Remove</name>
-       <priorityID>itemconstruction</priorityID>
-       <queue>
-          <move useSource="true">gardenwhite</move>
-          <wait>16</wait>
-          <destroyCellItem />
-          <createItem>gardenwhite</createItem>
-       </queue>
-       </action>
+	<action>
+		<id>del_gardenpurple</id>
+		<name esES="N/A">Remove</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">gardenpurple</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>gardenpurple</createItem>
+		</queue>
+	</action>
 
-       <action>
-       <id>del_gardenblack</id>
-       <name esES="N/A">Remove</name>
-       <priorityID>itemconstruction</priorityID>
-       <queue>
-          <move useSource="true">gardenblack</move>
-          <wait>16</wait>
-          <destroyCellItem />
-          <createItem>gardenblack</createItem>
-       </queue>
-       </action>
+	<action>
+		<id>del_gardengreen</id>
+		<name esES="N/A">Remove</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">gardengreen</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>gardengreen</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>del_gardenpink</id>
+		<name esES="N/A">Remove</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">gardenpink</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>gardenpink</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>del_gardenwhite</id>
+		<name esES="N/A">Remove</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">gardenwhite</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>gardenwhite</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>del_gardenblack</id>
+		<name esES="N/A">Remove</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">gardenblack</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>gardenblack</createItem>
+		</queue>
+	</action>
 
 </actions>
 
