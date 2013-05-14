@@ -2582,6 +2582,7 @@
 
 	<diagonallogblock>
 		<name esES="Muro de troncos diagonal">Diagonal log wall</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2595,6 +2596,7 @@
 
 	<grassterrace>
 		<name esES="Terraza con hierba">Grass terrace</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2603,7 +2605,7 @@
 		<glue>true</glue>
 		<base>true</base>
 		<blocky>true</blocky>
-		<type>construction.blockwalls</type>
+
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -2764,6 +2766,7 @@
 
 	<pillar>
 		<name esES="Pilar">Pillar</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2771,13 +2774,13 @@
 		<buryLocked>true</buryLocked>
 		<glue>true</glue>
 		<base>true</base>
-		<type>construction.blockwalls</type>
 
 		<alwaysOperative>false</alwaysOperative>
 	</pillar>
 
 	<woodenstoneblock>
 		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
@@ -2786,7 +2789,6 @@
 		<glue>true</glue>
 		<base>true</base>
 		<blocky>true</blocky>
-		<type>construction.blockwalls</type>
 
 		<blockFluids>true</blockFluids>
 
