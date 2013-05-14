@@ -22158,7 +22158,7 @@
 		</queue>
 	</action>
 
-<!-- SPAWN CITIZENS -->
+<!-- Spawn CITIZENS from the dead-->
 	<action>
 		<id>qfemalecitizen</id>
 		<name esES="N/A">New Female Citizen</name>
@@ -22166,12 +22166,8 @@
 		<generatedItem>citizenfemale</generatedItem>
 		<queue>
 			<move useSource="true">grave,grave_E,grave2_E,grave2_W,grave3_E,grave3_W,tomb,tomb_E,tomb2_E,tomb2_W,mosstomb,mosstomb_E,mosstomb2_E,mosstomb2_W,mosstomb3_E,mosstomb3_W</move>
-			<wait>16</wait>
-			<destroyCellItem />
-			<createItem>unearthedremains</createItem>
-			<pick>unearthedremains</pick>
 			<wait>21</wait>
-			<destroyItem />
+			<destroyCellItem />
 			<createfriendly>citizenfemale</createfriendly>
 		</queue>
 	</action>
@@ -22183,12 +22179,8 @@
 		<generatedItem>citizenmale</generatedItem>
 		<queue>
 			<move useSource="true">grave,grave_E,grave2_E,grave2_W,grave3_E,grave3_W,tomb,tomb_E,tomb2_E,tomb2_W,mosstomb,mosstomb_E,mosstomb2_E,mosstomb2_W,mosstomb3_E,mosstomb3_W</move>
-			<wait>16</wait>
-			<destroyCellItem />
-			<createItem>unearthedremains</createItem>
-			<pick>unearthedremains</pick>
 			<wait>21</wait>
-			<destroyItem />
+			<destroyCellItem />
 			<createfriendly>citizenmale</createfriendly>
 		</queue>
 	</action>
