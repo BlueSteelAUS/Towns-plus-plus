@@ -64,8 +64,5 @@
 		<!-- <item id="qterraformtolavadirt" name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" /> -->
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</terraforming>
-	<item id="qmalecitizen" code="QUEUE" parameter="qmalecitizen" />
-	<item id="qfemalecitizen" code="QUEUE" parameter="qfemalecitizen" />
-
 
 </menu>
