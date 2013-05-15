@@ -10758,6 +10758,7 @@
 			<wait>20</wait>
 			<destroyItem />
 			<unlock />
+
 			<createItem>shrine1</createItem>
 		</queue>
 	</action>
@@ -22168,6 +22169,9 @@
 			<move useSource="true">grave,grave_E,grave2_E,grave2_W,grave3_E,grave3_W,tomb,tomb_E,tomb2_E,tomb2_W,mosstomb,mosstomb_E,mosstomb2_E,mosstomb2_W,mosstomb3_E,mosstomb3_W</move>
 			<wait>21</wait>
 			<destroyCellItem />
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<unlock />
 			<createfriendly>citizenfemale</createfriendly>
 		</queue>
 	</action>
@@ -22181,6 +22185,9 @@
 			<move useSource="true">grave,grave_E,grave2_E,grave2_W,grave3_E,grave3_W,tomb,tomb_E,tomb2_E,tomb2_W,mosstomb,mosstomb_E,mosstomb2_E,mosstomb2_W,mosstomb3_E,mosstomb3_W</move>
 			<wait>21</wait>
 			<destroyCellItem />
+			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
+			<wait>40</wait>
+			<unlock />
 			<createfriendly>citizenmale</createfriendly>
 		</queue>
 	</action>
