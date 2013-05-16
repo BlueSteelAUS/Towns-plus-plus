@@ -746,7 +746,7 @@
 		<item id="qfluidselevator" code="QUEUEANDPLACEAREA" parameter="qfluidselevator" />
 		<item id="qmill" code="QUEUEANDPLACEAREA" parameter="qmill" />
 		<item id="qwell" code="QUEUEANDPLACEAREA" parameter="qwell" />
-		<item id="qshrine1" code="QUEUEANDPLACE" parameter="qshrine1" />
+		<item id="qshrine1" code="QUEUEANDPLACEAREA" parameter="qshrine1" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</utils>
 
