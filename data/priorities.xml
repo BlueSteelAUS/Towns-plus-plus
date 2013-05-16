@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <priorities>
 	<priority>
+		<id>_TRADING_</id>
+		<name esES="Comercio">Trading</name>
+		<icon>ui_rtrade</icon>
+	</priority>
+	
+	<priority>
 		<id>baking</id>
 		<name esES="Cocinar">Baking</name>
 		<icon>ui_rbaking</icon>
@@ -42,18 +48,6 @@
 		<icon>ui_rfoodbutchering</icon>
 	</priority>
 
-	<priority>
-		<id>_TRADING_</id>
-		<name esES="Comercio">Trading</name>
-		<icon>ui_rtrade</icon>
-	</priority>
-
-	<priority>
-		<id>_FEED_</id>
-		<name esES="Alimentar">Feed</name>
-		<icon>ui_rfeed</icon>
-	</priority>
-
 <!-- 	<priority>
 		<id>_BUILDINGS_</id>
 		<name esES="Edificios">Buildings</name>
@@ -71,6 +65,12 @@
 		<name esES="Labrar y talar">Chopping</name>
 		<icon>ui_chop</icon>
 	</priority>
+
+	<priority>
+		<id>mining</id>
+		<name esES="N/A">Mining</name>
+		<icon>coalmine</icon>
+	</priority>	
 	
 	<priority>
 		<id>_MINEDIG_</id>
@@ -91,6 +91,12 @@
 	</priority>
 
 	<priority>
+		<id>_FEED_</id>
+		<name esES="Alimentar">Feed</name>
+		<icon>ui_rfeed</icon>
+	</priority>
+
+	<priority>
 		<id>terrainchange</id>
 		<name esES="Terraformar">Terraforming</name>
 		<icon>dirt</icon>
@@ -101,10 +107,4 @@
 		<name esES="Ordenar">Haul</name>
 		<icon>ui_rhauling</icon>
 	</priority>
-
-	<priority>
-		<id>mining</id>
-		<name esES="N/A">Mining</name>
-		<icon>coalmine</icon>
-	</priority>	
 </priorities>

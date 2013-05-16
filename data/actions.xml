@@ -14509,7 +14509,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1c</move>
-			<replaceCellItem>woodstairs1a</replaceCellItem>
+			<replaceCellItem>woodenladder</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14519,7 +14519,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs1a,woodstairs1d,woodstairs1c</move>
+			<move useSource="true">woodenladder,woodstairs1d,woodstairs1c</move>
 			<replaceCellItem>woodstairs1b</replaceCellItem>
 		</queue>
 	</action>
@@ -14529,17 +14529,17 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs1b,woodstairs1a,woodstairs1c</move>
+			<move useSource="true">woodstairs1b,woodenladder,woodstairs1c</move>
 			<replaceCellItem>woodstairs1d</replaceCellItem>
 		</queue>
-	</action>
-
-	<action>
+	</action> 
+	
+ 	<action>
 		<id>rotate_woodstairs1c</id>
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs1b,woodstairs1d,woodstairs1a</move>
+			<move useSource="true">woodstairs1b,woodstairs1d,woodenladder</move>
 			<replaceCellItem>woodstairs1c</replaceCellItem>
 		</queue>
 	</action>
@@ -14550,7 +14550,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2c</move>
-			<replaceCellItem>woodstairs2a</replaceCellItem>
+			<replaceCellItem>ladder</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14560,7 +14560,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs2a,woodstairs2d,woodstairs2c</move>
+			<move useSource="true">ladder,woodstairs2d,woodstairs2c</move>
 			<replaceCellItem>woodstairs2b</replaceCellItem>
 		</queue>
 	</action>
@@ -14570,7 +14570,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs2b,woodstairs2a,woodstairs2c</move>
+			<move useSource="true">woodstairs2b,ladder,woodstairs2c</move>
 			<replaceCellItem>woodstairs2d</replaceCellItem>
 		</queue>
 	</action>
@@ -14580,7 +14580,7 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs2b,woodstairs2d,woodstairs2a</move>
+			<move useSource="true">woodstairs2b,woodstairs2d,ladder</move>
 			<replaceCellItem>woodstairs2c</replaceCellItem>
 		</queue>
 	</action>
@@ -14591,7 +14591,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3c</move>
-			<replaceCellItem>woodstairs3a</replaceCellItem>
+			<replaceCellItem>logladder</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14601,7 +14601,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs3a,woodstairs3d,woodstairs3c</move>
+			<move useSource="true">logladder,woodstairs3d,woodstairs3c</move>
 			<replaceCellItem>woodstairs3b</replaceCellItem>
 		</queue>
 	</action>
@@ -14611,7 +14611,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs3b,woodstairs3a,woodstairs3c</move>
+			<move useSource="true">woodstairs3b,logladder,woodstairs3c</move>
 			<replaceCellItem>woodstairs3d</replaceCellItem>
 		</queue>
 	</action>
@@ -14621,7 +14621,7 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodstairs3b,woodstairs3d,woodstairs3a</move>
+			<move useSource="true">woodstairs3b,woodstairs3d,logladder</move>
 			<replaceCellItem>woodstairs3c</replaceCellItem>
 		</queue>
 	</action>
@@ -14632,7 +14632,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1c</move>
-			<replaceCellItem>dirtstairs1a</replaceCellItem>
+			<replaceCellItem>dirtladder</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14642,7 +14642,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs1a,dirtstairs1d,dirtstairs1c</move>
+			<move useSource="true">dirtladder,dirtstairs1d,dirtstairs1c</move>
 			<replaceCellItem>dirtstairs1b</replaceCellItem>
 		</queue>
 	</action>
@@ -14652,7 +14652,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs1b,dirtstairs1a,dirtstairs1c</move>
+			<move useSource="true">dirtstairs1b,dirtladder,dirtstairs1c</move>
 			<replaceCellItem>dirtstairs1d</replaceCellItem>
 		</queue>
 	</action>
@@ -14662,11 +14662,10 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtstairs1a</move>
+			<move useSource="true">dirtstairs1b,dirtstairs1d,dirtladder</move>
 			<replaceCellItem>dirtstairs1c</replaceCellItem>
 		</queue>
 	</action>
-
 
 	<action>
 		<id>rotate_dirtstairs2a</id>
@@ -14715,7 +14714,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1c</move>
-			<replaceCellItem>stonestairs1a</replaceCellItem>
+			<replaceCellItem>stoneladder</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14725,7 +14724,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs1a,stonestairs1d,stonestairs1c</move>
+			<move useSource="true">stoneladder,stonestairs1d,stonestairs1c</move>
 			<replaceCellItem>stonestairs1b</replaceCellItem>
 		</queue>
 	</action>
@@ -14735,7 +14734,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs1b,stonestairs1a,stonestairs1c</move>
+			<move useSource="true">stonestairs1b,stoneladder,stonestairs1c</move>
 			<replaceCellItem>stonestairs1d</replaceCellItem>
 		</queue>
 	</action>
@@ -14745,7 +14744,7 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs1b,stonestairs1d,stonestairs1a</move>
+			<move useSource="true">stonestairs1b,stonestairs1d,stoneladder</move>
 			<replaceCellItem>stonestairs1c</replaceCellItem>
 		</queue>
 	</action>
@@ -14756,7 +14755,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2c</move>
-			<replaceCellItem>stonestairs2a</replaceCellItem>
+			<replaceCellItem>stonespindleladder</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14766,7 +14765,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs2a,stonestairs2d,stonestairs2c</move>
+			<move useSource="true">stonespindleladder,stonestairs2d,stonestairs2c</move>
 			<replaceCellItem>stonestairs2b</replaceCellItem>
 		</queue>
 	</action>
@@ -14776,7 +14775,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs2b,stonestairs2a,stonestairs2c</move>
+			<move useSource="true">stonestairs2b,stonespindleladder,stonestairs2c</move>
 			<replaceCellItem>stonestairs2d</replaceCellItem>
 		</queue>
 	</action>
@@ -14786,7 +14785,7 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs2b,stonestairs2d,stonestairs2a</move>
+			<move useSource="true">stonestairs2b,stonestairs2d,stonespindleladder</move>
 			<replaceCellItem>stonestairs2c</replaceCellItem>
 		</queue>
 	</action>
@@ -14797,7 +14796,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3c</move>
-			<replaceCellItem>stonestairs3a</replaceCellItem>
+			<replaceCellItem>ancientladder</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14807,7 +14806,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs3a,stonestairs3d,stonestairs3c</move>
+			<move useSource="true">ancientladder,stonestairs3d,stonestairs3c</move>
 			<replaceCellItem>stonestairs3b</replaceCellItem>
 		</queue>
 	</action>
@@ -14817,7 +14816,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs3b,stonestairs3a,stonestairs3c</move>
+			<move useSource="true">stonestairs3b,ancientladder,stonestairs3c</move>
 			<replaceCellItem>stonestairs3d</replaceCellItem>
 		</queue>
 	</action>
@@ -14827,7 +14826,7 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonestairs3b,stonestairs3d,stonestairs3a</move>
+			<move useSource="true">stonestairs3b,stonestairs3d,ancientladder</move>
 			<replaceCellItem>stonestairs3c</replaceCellItem>
 		</queue>
 	</action>
@@ -14920,7 +14919,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1c</move>
-			<replaceCellItem>sandstairs1a</replaceCellItem>
+			<replaceCellItem>limestoneramp</replaceCellItem>
 		</queue>
 	</action>
 
@@ -14930,7 +14929,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs1a,sandstairs1d,sandstairs1c</move>
+			<move useSource="true">limestoneramp,sandstairs1d,sandstairs1c</move>
 			<replaceCellItem>sandstairs1b</replaceCellItem>
 		</queue>
 	</action>
@@ -14940,7 +14939,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs1b,sandstairs1a,sandstairs1c</move>
+			<move useSource="true">sandstairs1b,limestoneramp,sandstairs1c</move>
 			<replaceCellItem>sandstairs1d</replaceCellItem>
 		</queue>
 	</action>
@@ -14950,7 +14949,7 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">sandstairs1b,sandstairs1d,sandstairs1a</move>
+			<move useSource="true">sandstairs1b,sandstairs1d,limestoneramp</move>
 			<replaceCellItem>sandstairs1c</replaceCellItem>
 		</queue>
 	</action>
@@ -15535,7 +15534,7 @@
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_S</move>
-			<replaceCellItem>bonestairs_1_N</replaceCellItem>
+			<replaceCellItem>bonestairs</replaceCellItem>
 		</queue>
 	</action>
 
@@ -15544,7 +15543,7 @@
 		<name esES="Rotar al Este">Rotate East</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs_1_W,bonestairs_1_N,bonestairs_1_S</move>
+			<move useSource="true">bonestairs_1_W,bonestairs,bonestairs_1_S</move>
 			<replaceCellItem>bonestairs_1_E</replaceCellItem>
 		</queue>
 	</action>
@@ -15554,7 +15553,7 @@
 		<name esES="Rotar al Sur">Rotate South</name>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs_1_N</move>
+			<move useSource="true">bonestairs_1_W,bonestairs_1_E,bonestairs</move>
 			<replaceCellItem>bonestairs_1_S</replaceCellItem>
 		</queue>
 	</action>
@@ -15565,7 +15564,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs_1_N,bonestairs_1_E,bonestairs_1_S</move>
+			<move useSource="true">bonestairs,bonestairs_1_E,bonestairs_1_S</move>
 			<replaceCellItem>bonestairs_1_W</replaceCellItem>
 		</queue>
 	</action>
@@ -15592,7 +15591,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>woodstairs1a</createItem>
+			<createItem>woodenladder</createItem>
 		</queue>
 	</action>
 
@@ -15612,7 +15611,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>woodstairs2a</createItem>
+			<createItem>ladder</createItem>
 		</queue>
 	</action>
 
@@ -15628,7 +15627,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>woodstairs3a</createItem>
+			<createItem>logladder</createItem>
 		</queue>
 	</action>
 
@@ -15642,7 +15641,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>dirtstairs1a</createItem>
+			<createItem>dirtladder</createItem>
 		</queue>
 	</action>
 
@@ -15676,7 +15675,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>stonestairs1a</createItem>
+			<createItem>stoneladder</createItem>
 		</queue>
 	</action>
 
@@ -15702,7 +15701,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>stonestairs2a</createItem>
+			<createItem>stonespindleladder</createItem>
 		</queue>
 	</action>
 
@@ -15726,7 +15725,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>stonestairs3a</createItem>
+			<createItem>ancientladder</createItem>
 		</queue>
 	</action>
 
@@ -15786,7 +15785,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>bonestairs_1_N</createItem>
+			<createItem>bonestairs</createItem>
 		</queue>
 	</action>
 
@@ -15802,7 +15801,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>sandstairs1a</createItem>
+			<createItem>limestoneramp</createItem>
 		</queue>
 	</action>
 
@@ -16152,98 +16151,6 @@
 		</queue>
 	</action>
 	<!-- /CONSTRUCT STAIRS -->
-
-	<!-- CONVERT STAIRS -->
-	<action>
-		<id>convert_to_woodstairs1a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">woodenladder</move>
-			<replaceCellItem>woodstairs1a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_woodstairs2a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">ladder</move>
-			<replaceCellItem>woodstairs2a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_woodstairs3a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">logladder</move>
-			<replaceCellItem>woodstairs3a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_dirtstairs1a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">dirtladder</move>
-			<replaceCellItem>dirtstairs1a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_stonestairs1a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">stoneladder</move>
-			<replaceCellItem>stonestairs1a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_stonestairs2a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">stonespindleladder</move>
-			<replaceCellItem>stonestairs2a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_stonestairs3a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">ancientladder</move>
-			<replaceCellItem>stonestairs3a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_sandstairs1a</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">limestoneramp</move>
-			<replaceCellItem>sandstairs1a</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>convert_to_bonestairs_1_N</id>
-		<name esES="¡Girame!">Make Me Rotate!</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">bonestairs</move>
-			<replaceCellItem>bonestairs_1_N</replaceCellItem>
-		</queue>
-	</action>
-	<!-- /CONVERT STAIRS -->
 
 	<!-- missed UNTILL's -->
 	<action>
@@ -18522,10 +18429,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ladder,woodstairs2a,woodstairs2b,woodstairs2c,woodstairs2d</move>
+			<move useSource="true">ladder,woodstairs2b,woodstairs2c,woodstairs2d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>woodstairs2a</createItem>
+			<createItem>ladder</createItem>
 		</queue>
 	</action>
 	<action>
@@ -18534,10 +18441,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">woodenladder,woodstairs1a,woodstairs1b,woodstairs1c,woodstairs1d</move>
+			<move useSource="true">woodenladder,woodstairs1b,woodstairs1c,woodstairs1d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>woodstairs1a</createItem>
+			<createItem>woodenladder</createItem>
 		</queue>
 	</action>
 	<action>
@@ -18546,10 +18453,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stoneladder,stonestairs1a,stonestairs1b,stonestairs1c,stonestairs1d</move>
+			<move useSource="true">stoneladder,stonestairs1b,stonestairs1c,stonestairs1d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>stonestairs1a</createItem>
+			<createItem>stoneladder</createItem>
 		</queue>
 	</action>
 	<action>
@@ -18582,10 +18489,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">logladder,woodstairs3a,woodstairs3b,woodstairs3c,woodstairs3d</move>
+			<move useSource="true">logladder,woodstairs3b,woodstairs3c,woodstairs3d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>woodstairs3a</createItem>
+			<createItem>logladder</createItem>
 		</queue>
 	</action>
 	<action>
@@ -18594,10 +18501,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">dirtladder,dirtstairs1a,dirtstairs1b,dirtstairs1c,dirtstairs1d</move>
+			<move useSource="true">dirtladder,dirtstairs1b,dirtstairs1c,dirtstairs1d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>dirtstairs1a</createItem>
+			<createItem>dirtladder</createItem>
 		</queue>
 	</action>
 	<action>
@@ -18618,10 +18525,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">stonespindleladder,stonestairs2a,stonestairs2b,stonestairs2c,stonestairs2d</move>
+			<move useSource="true">stonespindleladder,stonestairs2b,stonestairs2c,stonestairs2d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>stonestairs2a</createItem>
+			<createItem>stonespindleladder</createItem>
 		</queue>
 	</action>
 	<action>
@@ -18630,10 +18537,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ancientladder,stonestairs3a,stonestairs3b,stonestairs3c,stonestairs3d</move>
+			<move useSource="true">ancientladder,stonestairs3b,stonestairs3c,stonestairs3d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>stonestairs3a</createItem>
+			<createItem>ancientladder</createItem>
 		</queue>
 	</action>
 	<action>
@@ -18642,10 +18549,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bonestairs,bonestairs_1_N,bonestairs_1_W,bonestairs_1_E,bonestairs_1_S</move>
+			<move useSource="true">bonestairs,bonestairs_1_W,bonestairs_1_E,bonestairs_1_S</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>bonestairs_1_N</createItem>
+			<createItem>bonestairs</createItem>
 		</queue>
 	</action>	
 	<action>
@@ -18654,10 +18561,10 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">limestoneramp,sandstairs1a,sandstairs1b,sandstairs1c,sandstairs1d</move>
+			<move useSource="true">limestoneramp,sandstairs1b,sandstairs1c,sandstairs1d</move>
 			<wait>16</wait>
 			<destroyCellItem />
-			<createItem>sandstairs1a</createItem>
+			<createItem>limestoneramp</createItem>
 		</queue>
 	</action>
 	<action>

@@ -273,7 +273,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>dirtstairs1a</ladderItem>
+		<ladderItem>dirtladder</ladderItem>
 		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -301,7 +301,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>dirtstairs1a</ladderItem>
+		<ladderItem>dirtladder</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -329,7 +329,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>dirtstairs1a</ladderItem>
+		<ladderItem>dirtladder</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -357,7 +357,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>dirtstairs1a</ladderItem>
+		<ladderItem>dirtladder</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -385,7 +385,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>dirtstairs1a</ladderItem>
+		<ladderItem>dirtladder</ladderItem>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -412,7 +412,7 @@
 		<name esES="Jungla">Jungle</name>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>dirtstairs1a</ladderItem>
+		<ladderItem>dirtladder</ladderItem>
 		<mineTurns>7</mineTurns>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
@@ -498,7 +498,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>dirtstairs1a</ladderItem>
+		<ladderItem>dirtladder</ladderItem>
 		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>

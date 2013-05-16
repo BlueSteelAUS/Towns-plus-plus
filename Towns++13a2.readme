@@ -15,6 +15,10 @@ BlueSteel's Contributions
 
 LittleMikey's Contributions:
 ============================
+-> Added missing <type> tag to Clock.
+-> Changed some of the rotatable stairs to the vanilla stairs. Now you won't need to click the "Make me rotate" action
+   on any stairs you have added from any vanilla saves.
+-> Reorganised default priorities layout slightly.
 
 [/code]
 

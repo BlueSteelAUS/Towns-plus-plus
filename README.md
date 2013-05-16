@@ -8,10 +8,17 @@ Changes since Towns++_v13a1
 ===========================
 BlueSteel's Contributions
 =========================
+-> Miscellaneous fixes/tweaks in actions.xml
+-> Miscellaneous fixes/tweaks in items.xml
+-> Added New citizens, You need to have buried people and a shrine to be able to reclaim them through the Production menu
+   This limits the number of cits you can re-gain back up to a max of the total cits you've had in the game already
 
 LittleMikey's Contributions:
 ============================
-
+-> Added missing <type> tag to Clock.
+-> Changed some of the rotatable stairs to the vanilla stairs. Now you won't need to click the "Make me rotate" action
+   on any stairs you have added from any vanilla saves.    
+-> Reorganised default priorities layout slightly.
 
 To install:
 ============
