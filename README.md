@@ -160,9 +160,19 @@ Some members on the Towns forum have asked me if they can help me they are
 -> YetiChow
 Welcome them aboard.
 
-people who have contributed in the past and no longer on the Team
+People who have contributed in the past and no longer on the Team
 =================================================================
-none as yet
+None as yet
+
+Art used under the Creative Commons licence by:
+===============================================
+Clint Bellanger http://opengameart.org/users/clint-bellanger
+IsometricRobot http://opengameart.org/users/isometricrobot
+Unknown Horizons http://opengameart.org/users/unknown-horizons
+
+Public Domain art by:
+=====================
+yd http://opengameart.org/users/yd
 
 I am the lead coder and Owner / Distributor of this mod, so my decisions on
 what to include and how is final. Sometimes I'll use others mods in my pack,
