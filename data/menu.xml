@@ -65,4 +65,23 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</terraforming>
 
+	<zones name="Zones" esES="Zonas" icon="ui_zones">
+		<item id="zcarpentry" code="CREATEZONE" parameter="zcarpentry" icon="ui_zonescarpentry" />
+		<item id="zmasonry" code="CREATEZONE" parameter="zmasonry" icon="ui_zonesmasonry" />
+		<item id="zbakery" code="CREATEZONE" parameter="zbakery" icon="ui_zonesbakery" />
+		<item id="zdining" code="CREATEZONE" parameter="zdining" icon="ui_zonesdining" />
+		<item id="zforge" code="CREATEZONE" parameter="zforge" icon="ui_zonesforge" />
+		<item id="zpersonal" code="CREATEZONE" parameter="zpersonal" icon="ui_zonespersonal" />
+		<item id="zkitchen" code="CREATEZONE" parameter="zkitchen" icon="ui_zoneskitchen" />
+		<item id="zhospital" code="CREATEZONE" parameter="zhospital" icon="ui_zoneshospital" />
+		<item id="zatelier" code="CREATEZONE" parameter="zatelier" icon="ui_zonesatelier" />
+		<item id="zarena" code="CREATEZONE" parameter="zarena" icon="ui_zonesarena" />
+		<item id="zbalcony" code="CREATEZONE" parameter="zbalcony" icon="ui_zonesbalcony" />
+		<item id="ztavern" code="CREATEZONE" parameter="ztavern" icon="ui_zonestavern" />
+		<item id="ztavernroom" code="CREATEZONE" parameter="ztavernroom" icon="ui_zonestavernroom" />
+		<item id="zmarket" code="CREATEZONE" parameter="zmarket" icon="ui_zonesmarket" />
+		<item id="zbarracks" code="CREATEZONE" parameter="zbarracks" icon="ui_zonesbarracks" />
+
+		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</zones>
 </menu>
