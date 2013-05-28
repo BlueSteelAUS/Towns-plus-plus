@@ -1,8 +1,9 @@
-[size=200][color=#0000FF]Towns++ v13a2 (for Towns v13a)[/color][/size]
+Towns++ v13a2 (for Towns v13a)
+==============================
 
-[size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
+NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods!
+===================================================
 
-[code]
 Changes since Towns++_v13a1
 ===========================
 BlueSteel's Contributions
@@ -23,7 +24,6 @@ LittleMikey's Contributions:
 -> Fixed graphical glitch with decorated tavern benches.
 -> Changed "Crops" to "Agriculture" in the right menu, because Trees aren't really a crop.
 
-[/code]
 
 To install:
 ============
@@ -33,7 +33,6 @@ To install:
 3. Launch Towns as normal!
 4. As always feel free to leave comments, bug reports, suggestions.
 
-[quote]
 Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/13a2.zip
 Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
 NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Townms++
@@ -44,7 +43,6 @@ My YouTube play list for Towns : http://www.youtube.com/playlist?list=PL388A502D
 Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQpZc
 
 More videos and live streams will be done as time permits
-[/quote]
 
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
