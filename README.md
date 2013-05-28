@@ -1,10 +1,8 @@
-Towns++ v13a2 (for Towns v13a)
-==============================
+[size=200][color=#0000FF]Towns++ v13a2 (for Towns v13a)[/color][/size]
 
-NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods!
-===================================================
+[size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
-
+[code]
 Changes since Towns++_v13a1
 ===========================
 BlueSteel's Contributions
@@ -25,6 +23,8 @@ LittleMikey's Contributions:
 -> Fixed graphical glitch with decorated tavern benches.
 -> Changed "Crops" to "Agriculture" in the right menu, because Trees aren't really a crop.
 
+[/code]
+
 To install:
 ============
 1. Backup your Towns Folder/Directory. This is usually C:\Program Files (x86)\Steam\SteamApps\common\towns
@@ -34,7 +34,7 @@ To install:
 4. As always feel free to leave comments, bug reports, suggestions.
 
 [quote]
-Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/13a1.zip
+Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/13a2.zip
 Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
 NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Townms++
 
