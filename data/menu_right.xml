@@ -1,7 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <menu>
+	<seeding name="Agriculture" esES="Plantar" icon="ui_wheatseedmenu">
+		<item id="qwheatseed" code="QUEUEANDPLACEAREA" parameter="qwheatseed" icon="ui_wheatseed" />
+		<item id="qsugarcaneseed" code="QUEUEANDPLACEAREA" parameter="qsugarcaneseed" icon="wildsugarcane" />
+		<item id="qbambooseed" code="QUEUEANDPLACEAREA" parameter="qbambooseed" icon="wildbamboo" />
+		<item id="qappleseed" code="QUEUEANDPLACEAREA" parameter="qappleseed" icon="ui_appleseed" />
+		<item id="qpearseed" code="QUEUEANDPLACEAREA" parameter="qpearseed" icon="ui_pearseed" />
+		<item id="qblueradishseed" code="QUEUEANDPLACEAREA" parameter="qblueradishseed" icon="ui_blueradishseed" />
+		<item id="qsnowcherryseed" code="QUEUEANDPLACEAREA" parameter="qsnowcherryseed" icon="ui_snowcherryseed" />
+		<item id="qbananaseed" code="QUEUEANDPLACEAREA" parameter="qbananaseed" icon="ui_bananaseed" />
 
+		<item id="qcactusseed" code="QUEUEANDPLACEAREA" parameter="qcactusseed" icon="ui_cactusseed" />
+		<item id="qjunglemushroomseed" code="QUEUEANDPLACEAREA" parameter="qjunglemushroomseed" icon="ui_forestmushroomseed" />
+		<item id="qcavemushroomseed" code="QUEUEANDPLACEAREA" parameter="qcavemushroomseed" icon="ui_cavemushroomseed" />
+
+		<item id="qredflowerseed" code="QUEUEANDPLACEAREA" parameter="qredflowerseed" icon="ui_redflower" />
+		<item id="qblueflowerseed" code="QUEUEANDPLACEAREA" parameter="qblueflowerseed" icon="ui_blueflower" />
+		<item id="qyellowflowerseed" code="QUEUEANDPLACEAREA" parameter="qyellowflowerseed" icon="ui_yellowflower" />
+		<item id="qorangeflowerseed" code="QUEUEANDPLACEAREA" parameter="qorangeflowerseed" icon="ui_orangeflower" />
+		<item id="qgreenflowerseed" code="QUEUEANDPLACEAREA" parameter="qpurpleflowerseed" icon="ui_purpleflower" />
+		<item id="qgreenflowerseed" code="QUEUEANDPLACEAREA" parameter="qgreenflowerseed" icon="ui_greenflower" />
+		<item id="qpinkflowerseed" code="QUEUEANDPLACEAREA" parameter="qpinkflowerseed" icon="ui_pinkflower" />
+		<item id="qwhiteflowerseed" code="QUEUEANDPLACEAREA" parameter="qwhiteflowerseed" icon="ui_whiteflower" />
+		<item id="qblackflowerseed" code="QUEUEANDPLACEAREA" parameter="qblackflowerseed" icon="ui_blackflower" />
+
+		<item id="qtreeseed" code="QUEUEANDPLACEAREA" parameter="qtreeseed" icon="ui_treeseed" />
+		<item id="qtree2seed" code="QUEUEANDPLACEAREA" parameter="qtree2seed" icon="ui_tree2seed" />
+		<item id="qsnowseed" code="QUEUEANDPLACEAREA" parameter="qsnowseed" icon="ui_snowseed" />
+		<item id="qjungleseed" code="QUEUEANDPLACEAREA" parameter="qjungleseed" icon="ui_jungleseed" />
+		<item id="qpalmseed" code="QUEUEANDPLACEAREA" parameter="qpalmseed" icon="ui_palmseed" />
+
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</seeding>
+	
 	<farms name="Animal Farms" esES="Granjas" icon="chickenfarm">
 		<item id="qnewcowfarm" code="QUEUEANDPLACEAREA" parameter="qnewcowfarm" icon="cow" />
 		<item id="qnewbullfarm" code="QUEUEANDPLACEAREA" parameter="qnewbullfarm" icon="bull" />
@@ -443,39 +475,6 @@
 		</windows>
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</construction>
-
-	<seeding name="Agriculture" esES="Plantar" icon="ui_wheatseedmenu">
-		<item id="qwheatseed" code="QUEUEANDPLACEAREA" parameter="qwheatseed" icon="ui_wheatseed" />
-		<item id="qsugarcaneseed" code="QUEUEANDPLACEAREA" parameter="qsugarcaneseed" icon="wildsugarcane" />
-		<item id="qbambooseed" code="QUEUEANDPLACEAREA" parameter="qbambooseed" icon="wildbamboo" />
-		<item id="qappleseed" code="QUEUEANDPLACEAREA" parameter="qappleseed" icon="ui_appleseed" />
-		<item id="qpearseed" code="QUEUEANDPLACEAREA" parameter="qpearseed" icon="ui_pearseed" />
-		<item id="qblueradishseed" code="QUEUEANDPLACEAREA" parameter="qblueradishseed" icon="ui_blueradishseed" />
-		<item id="qsnowcherryseed" code="QUEUEANDPLACEAREA" parameter="qsnowcherryseed" icon="ui_snowcherryseed" />
-		<item id="qbananaseed" code="QUEUEANDPLACEAREA" parameter="qbananaseed" icon="ui_bananaseed" />
-
-		<item id="qcactusseed" code="QUEUEANDPLACEAREA" parameter="qcactusseed" icon="ui_cactusseed" />
-		<item id="qjunglemushroomseed" code="QUEUEANDPLACEAREA" parameter="qjunglemushroomseed" icon="ui_forestmushroomseed" />
-		<item id="qcavemushroomseed" code="QUEUEANDPLACEAREA" parameter="qcavemushroomseed" icon="ui_cavemushroomseed" />
-
-		<item id="qredflowerseed" code="QUEUEANDPLACEAREA" parameter="qredflowerseed" icon="ui_redflower" />
-		<item id="qblueflowerseed" code="QUEUEANDPLACEAREA" parameter="qblueflowerseed" icon="ui_blueflower" />
-		<item id="qyellowflowerseed" code="QUEUEANDPLACEAREA" parameter="qyellowflowerseed" icon="ui_yellowflower" />
-		<item id="qorangeflowerseed" code="QUEUEANDPLACEAREA" parameter="qorangeflowerseed" icon="ui_orangeflower" />
-		<item id="qgreenflowerseed" code="QUEUEANDPLACEAREA" parameter="qpurpleflowerseed" icon="ui_purpleflower" />
-		<item id="qgreenflowerseed" code="QUEUEANDPLACEAREA" parameter="qgreenflowerseed" icon="ui_greenflower" />
-		<item id="qpinkflowerseed" code="QUEUEANDPLACEAREA" parameter="qpinkflowerseed" icon="ui_pinkflower" />
-		<item id="qwhiteflowerseed" code="QUEUEANDPLACEAREA" parameter="qwhiteflowerseed" icon="ui_whiteflower" />
-		<item id="qblackflowerseed" code="QUEUEANDPLACEAREA" parameter="qblackflowerseed" icon="ui_blackflower" />
-
-		<item id="qtreeseed" code="QUEUEANDPLACEAREA" parameter="qtreeseed" icon="ui_treeseed" />
-		<item id="qtree2seed" code="QUEUEANDPLACEAREA" parameter="qtree2seed" icon="ui_tree2seed" />
-		<item id="qsnowseed" code="QUEUEANDPLACEAREA" parameter="qsnowseed" icon="ui_snowseed" />
-		<item id="qjungleseed" code="QUEUEANDPLACEAREA" parameter="qjungleseed" icon="ui_jungleseed" />
-		<item id="qpalmseed" code="QUEUEANDPLACEAREA" parameter="qpalmseed" icon="ui_palmseed" />
-
-		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-	</seeding>
 
 	<decorative name="Decorative" esES="Decorativo" icon="ui_sdecorative">
 		<banners name="Banners,Flags" eeES="Estandartes,Banderas" icon="ui_banner">
