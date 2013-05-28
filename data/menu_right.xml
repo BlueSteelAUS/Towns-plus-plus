@@ -444,7 +444,7 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</construction>
 
-	<seeding name="Crops" esES="Plantar" icon="ui_wheatseedmenu">
+	<seeding name="Agriculture" esES="Plantar" icon="ui_wheatseedmenu">
 		<item id="qwheatseed" code="QUEUEANDPLACEAREA" parameter="qwheatseed" icon="ui_wheatseed" />
 		<item id="qsugarcaneseed" code="QUEUEANDPLACEAREA" parameter="qsugarcaneseed" icon="wildsugarcane" />
 		<item id="qbambooseed" code="QUEUEANDPLACEAREA" parameter="qbambooseed" icon="wildbamboo" />

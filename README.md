@@ -4,6 +4,7 @@ Towns++ v13a2 (for Towns v13a)
 NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods!
 ===================================================
 
+
 Changes since Towns++_v13a1
 ===========================
 BlueSteel's Contributions
@@ -12,13 +13,17 @@ BlueSteel's Contributions
 -> Miscellaneous fixes/tweaks in items.xml
 -> Added New citizens, You need to have buried people and a shrine to be able to reclaim them through the Production menu
    This limits the number of cits you can re-gain back up to a max of the total cits you've had in the game already
-
+-> Re-added (again) as per request Zones menu (to the far right of the main menu. scroll to get there)
+-> Changed All prepared food to same value, so that they should now eat all foods(at random) not just the higher liked foods
+    
 LittleMikey's Contributions:
 ============================
 -> Added missing <type> tag to Clock.
 -> Changed some of the rotatable stairs to the vanilla stairs. Now you won't need to click the "Make me rotate" action
-   on any stairs you have added from any vanilla saves.    
+   on any stairs you have added from any vanilla saves.
 -> Reorganised default priorities layout slightly.
+-> Fixed graphical glitch with decorated tavern benches.
+-> Changed "Crops" to "Agriculture" in the right menu, because Trees aren't really a crop.
 
 To install:
 ============
@@ -28,16 +33,18 @@ To install:
 3. Launch Towns as normal!
 4. As always feel free to leave comments, bug reports, suggestions.
 
+[quote]
 Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/13a1.zip
 Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
 NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Townms++
 
 My Live streaming is at http://www.twitch.tv/bluesteelaus
-My YouTube play list for Towns : http://http://www.youtube.com/playlist?list=PL388A502D490AE834
+My YouTube play list for Towns : http://www.youtube.com/playlist?list=PL388A502D490AE834
 
 Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQpZc
 
 More videos and live streams will be done as time permits
+[/quote]
 
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
