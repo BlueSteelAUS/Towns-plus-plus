@@ -18630,4 +18630,19 @@
 		
 		<value>212</value>
 	</artisanbury>
+
+	<spiralstairs>
+		<name>Spiral Staircase</name>
+
+		<type>utils.misc</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>0</value>
+	</spiralstairs>
 </items>

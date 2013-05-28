@@ -22099,5 +22099,28 @@
 		</queue>
 	</action>
 
+	<action>
+		<id>qspiralstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>spiralstairs</createItem>
+		</queue>
+	</action>
 </actions>
 

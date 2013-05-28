@@ -348,6 +348,7 @@
 			<item id="qsandstairs1a" code="QUEUEANDPLACEAREA" parameter="qsandstairs1a" />
 			<item id="qsandstairs2a" code="QUEUEANDPLACEAREA" parameter="qsandstairs2a" />
 			<item id="qsandstairs3a" code="QUEUEANDPLACEAREA" parameter="qsandstairs3a" />
+			<item id="qspiralstairs" code="QUEUEANDPLACEAREA" parameter="qspiralstairs" />
 			<cb262_stairs2 name="Coloured Stairs" esES="Escaleras de colores" icon="redstonestairs1">
 				<item id="qredstonestairs1" code="QUEUEANDPLACEAREA" parameter="qredstonestairs1" />
 				<item id="qbluestonestairs1" code="QUEUEANDPLACEAREA" parameter="qbluestonestairs1" />
