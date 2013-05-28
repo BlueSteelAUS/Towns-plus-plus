@@ -489,7 +489,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>20</foodFillPCT>
 		<foodEatTime>16</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -507,7 +507,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>20</foodFillPCT>
 		<foodEatTime>16</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -525,7 +525,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>20</foodFillPCT>
 		<foodEatTime>16</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -540,7 +540,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>110</foodFillPCT>
 		<foodEatTime>88</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -573,7 +573,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>20</foodFillPCT>
 		<foodEatTime>16</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -588,7 +588,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>85</foodFillPCT>
 		<foodEatTime>88</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -620,7 +620,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>85</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -636,7 +636,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>6</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>50</foodFillPCT>
 		<foodEatTime>40</foodEatTime>
 		<foodEffects>bakedhappy</foodEffects>
@@ -651,7 +651,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>90</foodFillPCT>
 		<foodEatTime>72</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
@@ -667,7 +667,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>100</foodFillPCT>
 		<foodEatTime>80</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
@@ -683,7 +683,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>105</foodFillPCT>
 		<foodEatTime>84</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
@@ -698,7 +698,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>105</foodFillPCT>
 		<foodEatTime>84</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
@@ -713,7 +713,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>115</foodFillPCT>
 		<foodEatTime>92</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -729,7 +729,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>15</foodFillPCT>
 		<foodEatTime>12</foodEatTime>
 		<foodEffects>drinkhappy</foodEffects>
@@ -759,7 +759,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>125</foodFillPCT>
 		<foodEatTime>100</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
@@ -775,7 +775,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>5</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>100</foodFillPCT>
 		<foodEatTime>80</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -791,7 +791,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>90</foodFillPCT>
 		<foodEatTime>72</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -806,7 +806,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>5</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>130</foodFillPCT>
 		<foodEatTime>104</foodEatTime>
 		<foodEffects>bakedhappy</foodEffects>
@@ -837,7 +837,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>5</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>120</foodFillPCT>
 		<foodEatTime>96</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -854,7 +854,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>1</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>5</foodFillPCT>
 		<foodEatTime>4</foodEatTime>
 		<foodEffects>egghappy</foodEffects>
@@ -931,7 +931,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>25</foodFillPCT>
 		<foodEatTime>20</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -946,7 +946,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>85</foodFillPCT>
 		<foodEatTime>88</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -964,7 +964,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>110</foodFillPCT>
 		<foodEatTime>80</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
@@ -1081,7 +1081,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>5</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>150</foodFillPCT>
 		<foodEatTime>120</foodEatTime>
 		<foodEffects>mixhappy</foodEffects>
@@ -1097,7 +1097,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>25</foodFillPCT>
 		<foodEatTime>20</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -1112,7 +1112,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>100</foodFillPCT>
 		<foodEatTime>80</foodEatTime>
 		<foodEffects>drinkhappy</foodEffects>
@@ -1129,7 +1129,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>25</foodFillPCT>
 		<foodEatTime>20</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -1145,7 +1145,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>35</foodFillPCT>
 		<foodEatTime>28</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
@@ -12972,7 +12972,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -12988,7 +12988,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -13004,7 +13004,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -13020,7 +13020,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -13036,7 +13036,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -13052,7 +13052,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -13068,7 +13068,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -13084,7 +13084,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -13100,7 +13100,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>4</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>80</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
@@ -18598,7 +18598,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
-		<foodValue>2</foodValue>
+		<foodValue>3</foodValue>
 		<foodFillPCT>65</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>meathappy</foodEffects>
