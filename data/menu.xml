@@ -65,6 +65,64 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</terraforming>
 
+<!-- eventually be able to replenish trees/plants and animals in the wild for Designer cities/maps
+	<replenish>
+		<plants name="plants" esES="N/A" icon="tree">
+		<item id="qwheatplant" code="QUEUEANDPLACEAREA" parameter="qwheatplant" icon="wildwheat" />
+		<item id="qsugarcaneplant" code="QUEUEANDPLACEAREA" parameter="qsugarcaneplant" icon="sugarcane" />
+		<item id="qbambooplant" code="QUEUEANDPLACEAREA" parameter="qbambooplant" icon="wildbamboo" />
+		<item id="qappletree" code="QUEUEANDPLACEAREA" parameter="qappletree" icon="appletree" />
+		<item id="qpeartree" code="QUEUEANDPLACEAREA" parameter="qpeartree" icon="ui_peartree" />
+		<item id="qblueradishplant" code="QUEUEANDPLACEAREA" parameter="qblueradishplant" icon="ui_blueradishplant" />
+		<item id="qsnowcherrytree" code="QUEUEANDPLACEAREA" parameter="qsnowcherrytree" icon="snowcherrytree" />
+		<item id="qbananatree" code="QUEUEANDPLACEAREA" parameter="qbananatree" icon="bananatree" />
+
+		<item id="qcactusplant" code="QUEUEANDPLACEAREA" parameter="qcactusplant" icon="ui_cactusplant" />
+		<item id="qjunglemushroomplant" code="QUEUEANDPLACEAREA" parameter="qjunglemushroomplant" icon="ui_forestmushroomplant" />
+		<item id="qcavemushroomplant" code="QUEUEANDPLACEAREA" parameter="qcavemushroomplant" icon="ui_cavemushroomplant" />
+
+		<item id="qredflowerplant" code="QUEUEANDPLACEAREA" parameter="qredflowerplant" icon="redflower" />
+		<item id="qblueflowerplant" code="QUEUEANDPLACEAREA" parameter="qblueflowerplant" icon="blueflower" />
+		<item id="qyellowflowerplant" code="QUEUEANDPLACEAREA" parameter="qyellowflowerplant" icon="yellowflower" />
+		<item id="qorangeflowerplant" code="QUEUEANDPLACEAREA" parameter="qorangeflowerplant" icon="orangeflower" />
+		<item id="qgreenflowerplant" code="QUEUEANDPLACEAREA" parameter="qpurpleflowerplant" icon="purpleflower" />
+		<item id="qgreenflowerplant" code="QUEUEANDPLACEAREA" parameter="qgreenflowerplant" icon="greenflower" />
+		<item id="qpinkflowerplant" code="QUEUEANDPLACEAREA" parameter="qpinkflowerplant" icon="pinkflower" />
+		<item id="qwhiteflowerplant" code="QUEUEANDPLACEAREA" parameter="qwhiteflowerplant" icon="whiteflower" />
+		<item id="qblackflowerplant" code="QUEUEANDPLACEAREA" parameter="qblackflowerplant" icon="blackflower" />
+
+		<item id="qtree" code="QUEUEANDPLACEAREA" parameter="qtree" icon="tree" />
+		<item id="qtree2" code="QUEUEANDPLACEAREA" parameter="qtree2" icon="tree2" />
+		<item id="qsnowtree" code="QUEUEANDPLACEAREA" parameter="qsnowtree" icon="snowstrree" />
+		<item id="qjungletree" code="QUEUEANDPLACEAREA" parameter="qjungletree" icon="jungletree" />
+		<item id="qpalmtree" code="QUEUEANDPLACEAREA" parameter="qpalmtree" icon="ui_palmstree" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</plants>
+	
+	<animals name="Animals" esES="N/A" icon="chicken">
+		<item id="qnewcow" code="QUEUEANDPLACEAREA" parameter="qnewcow" icon="cow" />
+		<item id="qnewbull" code="QUEUEANDPLACEAREA" parameter="qnewbull" icon="bull" />
+		<item id="qnewpig" code="QUEUEANDPLACEAREA" parameter="qnewpig" icon="pig" />
+		<item id="qnewboar" code="QUEUEANDPLACEAREA" parameter="qnewboar" icon="boar" />
+		<item id="qnewchicken" code="QUEUEANDPLACEAREA" parameter="qnewchicken" icon="chicken" />
+		<item id="qnewrooster" code="QUEUEANDPLACEAREA" parameter="qnewrooster" icon="rooster" />
+		<item id="qnewbadger" code="QUEUEANDPLACEAREA" parameter="qnewbadger" icon="badger" />
+		<item id="qnewsheep" code="QUEUEANDPLACEAREA" parameter="qnewsheep" icon="sheep" />
+		<item id="qnewskootenbeeten" code="QUEUEANDPLACEAREA" parameter="qnewskootenbeeten" icon="skootenbeeten" />
+		<item id="qnewsnoat" code="QUEUEANDPLACEAREA" parameter="qnewsnoat" icon="snoat" />
+		<item id="qnewunifallow" code="QUEUEANDPLACEAREA" parameter="qnewunifallow" icon="unifallow" />
+		<item id="qnewredbird" code="QUEUEANDPLACEAREA" parameter="qnewbird" icon="redbird" />
+		<item id="qnewbluebird" code="QUEUEANDPLACEAREA" parameter="qnewbluebird" icon="bluebird" />
+		<item id="qnewgreenbird" code="QUEUEANDPLACEAREA" parameter="qnewgreenbird" icon="greenbird" />
+		<item id="qnewyellowbird" code="QUEUEANDPLACEAREA" parameter="qnewyellowbird" icon="yellowbird" />
+		<item id="qnewhitebird" code="QUEUEANDPLACEAREA" parameter="qnewwhitebird" icon="whitebird" />
+		<item id="qneblackbird" code="QUEUEANDPLACEAREA" parameter="qnewblackbird" icon="blackbird" />
+		<item id="qnewbadger" code="QUEUEANDPLACEAREA" parameter="qnewbadger" icon="badger" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</animals>
+	</replenish>
+-->
+
 	<zones name="Zones" esES="Zonas" icon="ui_zones">
 		<item id="zcarpentry" code="CREATEZONE" parameter="zcarpentry" icon="ui_zonescarpentry" />
 		<item id="zmasonry" code="CREATEZONE" parameter="zmasonry" icon="ui_zonesmasonry" />
