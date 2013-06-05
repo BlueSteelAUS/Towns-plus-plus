@@ -340,8 +340,6 @@
 			<item id="qlargegiftthree" code="QUEUE" parameter="qlargegiftthree" icon="largegiftthree" />
 			<item id="qlargegiftfour" code="QUEUE" parameter="qlargegiftfour" icon="largegiftfour" />
 			<item id="qlargegiftfive" code="QUEUE" parameter="qlargegiftfive" icon="largegiftfive" />
-			<item id="qlargegiftsix" code="QUEUE" parameter="qlargegiftsix" icon="largegiftsix" />
-
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</winter>
 

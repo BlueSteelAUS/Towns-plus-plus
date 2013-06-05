@@ -17,6 +17,7 @@ LittleMikey's Contributions:
    breeding animals. This will mean all your other Towns mods should be compatible now.
 -> Re-added buildings priority. This should stop vanilla saves crashing. However the priority isn't
    used by anything in Towns++ currently so it's at the bottom of the priority order.
+-> Fixed crashes/errors with Gifts.
    
 To install:
 ============

@@ -16824,7 +16824,7 @@
 			<move useSource="true">largegiftone</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createFriendly>largegift1</createFriendly>
+			<createFriendly>largegiftone</createFriendly>
 		</queue>
 	</action>
 
@@ -16860,7 +16860,7 @@
 			<move useSource="true">largegifttwo</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createFriendly>largegift1</createFriendly>
+			<createFriendly>largegiftone</createFriendly>
 		</queue>
 	</action>
 
@@ -16895,7 +16895,7 @@
 			<move useSource="true">largegiftthree</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createFriendly>largegift1</createFriendly>
+			<createFriendly>largegiftone</createFriendly>
 		</queue>
 	</action>
 
@@ -16930,7 +16930,7 @@
 			<move useSource="true">largegiftfour</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createFriendly>largegift1</createFriendly>
+			<createFriendly>largegiftone</createFriendly>
 		</queue>
 	</action>
 
@@ -16966,46 +16966,9 @@
 			<move useSource="true">largegiftfive</move>
 			<wait>30</wait>
 			<destroyCellItem />
-			<createFriendly>largegift1</createFriendly>
+			<createFriendly>largegiftone</createFriendly>
 		</queue>
 	</action>
-
-	<action>
-		<id>qlargegiftsix</id>
-		<name esES="Regalo Grande">Large Gift</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<lock>artisan</lock>
-			<pick>animalhide,wool</pick>
-			<move>artisan</move>
-			<wait>20</wait>
-			<destroyItem />
-			<pick>paper</pick>
-			<move>artisan</move>
-			<wait>20</wait>
-			<destroyItem />
-			<pick>bluecolor,redcolor,yellowcolor,greencolor,purplecolor,orangecolor,blackcolor,whitecolor</pick>
-			<move>artisan</move>
-			<wait>50</wait>
-			<destroyItem />
-			<unlock />
-			<createFriendly>largegift1</createFriendly>
-		</queue>
-	</action>
-
-
-	<action>
-		<id>qopen_largegiftsix</id>
-		<name esES="Abrir">Open</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">largegiftsix</move>
-			<wait>30</wait>
-			<destroyCellItem />
-			<createFriendly>largegift1</createFriendly>
-		</queue>
-	</action>
-
 
 	<action>
 		<id>qsmallgiftone</id>

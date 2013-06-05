@@ -4779,7 +4779,6 @@
 		<altGraphics>largegiftthree</altGraphics>
 		<altGraphics>largegiftfour</altGraphics>
 		<altGraphics>largegiftfive</altGraphics>
-		<altGraphics>largegiftsix</altGraphics>
 
 		<name esES="Christmas Gift">Christmas Gift</name>
 		<attack>1</attack>
@@ -5184,13 +5183,12 @@
 		<action>qgetanimalhide</action>
 	</skinnedmilkedwildsnoat>
 
-
-	<largegift1>
+	<largegiftone>
 		<type>ENEMY</type>
 		<hate>CITIZEN,HERO</hate>
 		<level>0</level>
 
-		<name esES="Small Gift">Small Gift</name>
+		<name esES="N/A">Large Gift</name>
 		<attack>1</attack>
 		<attackSpeed>1</attackSpeed>
 		<defense>1</defense>
@@ -5237,7 +5235,11 @@
 			<item>geenheadkerchief</item>
 			<PCT>12</PCT>
 		</drop>
-	</largegift1>
+		<drop>
+			<item>coal</item>
+			<PCT>100</PCT>
+		</drop>
+	</largegiftone>
 
 
 </livingentities>

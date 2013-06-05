@@ -11793,24 +11793,6 @@
 		<action>qrotate_largegiftfive_E</action>
 	</largegiftfive_E>-->
 
-	<largegiftsix>
-		<name esES="Regalo grande">Large Gift</name>
-		<type>decorative.winter</type>
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>5</happiness>
-		<action>qopen_largegiftsix</action>
-<!--		<action>qrotate_largegiftsix</action>-->
-	</largegiftsix>
-
-<!--	<largegiftsix_E>
-		<name esES="Regalo grande">Large Gift</name>
-		<type>decorative.winter</type>
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>5</happiness>
-		<action>qopen_largegiftsix_E</action>
-		<action>qrotate_largegiftsix_E</action>
-	</largegiftsix_E>
--->
 	<smallgiftone>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
