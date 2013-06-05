@@ -13,7 +13,11 @@ BlueSteel's Contributions
     
 LittleMikey's Contributions:
 ============================
-
+-> Re-added gatheringharvesting priority from vanilla, renamed it to "Breeding" and assigned it to
+   breeding animals. This will mean all your other Towns mods should be compatible now.
+-> Re-added buildings priority. This should stop vanilla saves crashing. However the priority isn't
+   used by anything in Towns++ currently so it's at the bottom of the priority order.
+   
 To install:
 ============
 1. Backup your Towns Folder/Directory. This is usually C:\Program Files (x86)\Steam\SteamApps\common\towns

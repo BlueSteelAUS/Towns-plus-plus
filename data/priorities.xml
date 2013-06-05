@@ -41,18 +41,18 @@
 		<name esES="Labrar y talar">Tilling</name>
 		<icon>ui_rterrainchange</icon>
 	</priority>
-
+	
+	<priority>
+		<id>gatheringharvesting</id>
+		<name esES="N/A">Breeding</name>
+		<icon>ui_rfoodgathering</icon>
+	</priority>
+	
 	<priority>
 		<id>butcheringkilling</id>
 		<name esES="Descuartizar">Butchering</name>
 		<icon>ui_rfoodbutchering</icon>
 	</priority>
-
-<!-- 	<priority>
-		<id>_BUILDINGS_</id>
-		<name esES="Edificios">Buildings</name>
-		<icon>ui_buildings</icon>
-	</priority> -->
 
 	<priority>
 		<id>itemconstruction</id>
@@ -106,5 +106,11 @@
 		<id>_HAUL_</id>
 		<name esES="Ordenar">Haul</name>
 		<icon>ui_rhauling</icon>
+	</priority>
+	
+ 	<priority>
+		<id>_BUILDINGS_</id>
+		<name esES="Edificios">Buildings</name>
+		<icon>ui_buildings</icon>
 	</priority>
 </priorities>

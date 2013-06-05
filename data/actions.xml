@@ -11399,7 +11399,7 @@
 		<id>qminesilver</id>
 		<generatedItem>rmsilver</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">silvermine</move>
 			<wait>7</wait>
@@ -11438,7 +11438,7 @@
 		<id>qminegold</id>
 		<generatedItem>rmgold</generatedItem>
 		<name esES="Minar">Mine</name>
-		<priorityID>_MINEDIG_</priorityID>
+		<priorityID>mining</priorityID>
 		<queue>
 			<move useSource="true">goldmine</move>
 			<wait>7</wait>
@@ -11446,8 +11446,6 @@
 			<createItem>rmgold</createItem>
 		</queue>
 	</action>
-
-
 
 	<action>
 		<id>qbeerbarrel</id>
@@ -18214,7 +18212,7 @@
 		<id>qbreedcow</id>
 		<name esES="Críar Vaca">Breed Cow</name>
 		<generatedItem>cow</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newcowfarm</lock>
 			<pick>wheat</pick>
@@ -18231,7 +18229,7 @@
 		<id>qbreedbull</id>
 		<name esES="Críar Toro">Breed Bull</name>
 		<generatedItem>bull</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newbullfarm</lock>
 			<pick>wheat</pick>
@@ -18248,7 +18246,7 @@
 		<id>qbreedpig</id>
 		<name esES="Críar Cerdo">Breed Pig</name>
 		<generatedItem>pig</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newpigfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18265,7 +18263,7 @@
 		<id>qbreedboar</id>
 		<name esES="Críar Jabalí">Breed Boar</name>
 		<generatedItem>boar</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newboarfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18282,7 +18280,7 @@
 		<id>qbreedchicken</id>
 		<name esES="Críar Gallina">Breed Chicken</name>
 		<generatedItem>chicken</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newchickenfarm</lock>
 			<pick>wheat</pick>
@@ -18299,7 +18297,7 @@
 		<id>qbreedrooster</id>
 		<name esES="Críar Gallo">Breed Rooster</name>
 		<generatedItem>rooster</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newroosterfarm</lock>
 			<pick>wheat</pick>
@@ -18316,7 +18314,7 @@
 		<id>qbreedskootenbeeten</id>
 		<name esES="Críar Skootenbeeten">Breed Skootenbeeten</name>
 		<generatedItem>skootenbeeten</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newskootenbeetenfarm</lock>
 			<pick>wheat</pick>
@@ -18333,7 +18331,7 @@
 		<id>qbreedunifallow</id>
 		<name esES="Críar Unifallow">Breed Unifallow</name>
 		<generatedItem>unifallow</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newunifallowfarm</lock>
 			<pick>cactusfruit</pick>
@@ -18350,7 +18348,7 @@
 		<id>qbreedbadger</id>
 		<name esES="Críar Tejon">Breed Badger</name>
 		<generatedItem>badger</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newbadgerfarm</lock>
 			<pick>wheat</pick>
@@ -18367,7 +18365,7 @@
 		<id>qbreedsnoat</id>
 		<name esES="Críar Snoat">Breed Snoat</name>
 		<generatedItem>snoat</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newsnoatfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18384,7 +18382,7 @@
 		<id>qbreedsheep</id>
 		<name esES="N/A">Breed Sheep</name>
 		<generatedItem>sheep</generatedItem>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<lock>newsheepfarm</lock>
 			<pick>wheat</pick>
