@@ -26,12 +26,12 @@
 	
 	<priority>
 		<id>harvesting</id>
-		<name esES="Recolectar y cosechar">harvesting</name>
+		<name esES="Recolectar y cosechar">Harvesting</name>
 		<icon>ui_rfoodgathering</icon>
 	</priority>
 
 	<priority>
-		<id>gathering</id>
+		<id>gatheringharvesting</id>
 		<name esES="Recolectar y cosechar">Gathering</name>
 		<icon>milk</icon>
 	</priority>
@@ -43,9 +43,9 @@
 	</priority>
 	
 	<priority>
-		<id>gatheringharvesting</id>
+		<id>breeding</id>
 		<name esES="N/A">Breeding</name>
-		<icon>ui_rfoodgathering</icon>
+		<icon>ui_chickenmenu</icon>
 	</priority>
 	
 	<priority>

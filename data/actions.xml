@@ -1125,7 +1125,7 @@
 	<action>
 		<id>qwaterbucket</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<move>filledwell</move>
@@ -1411,7 +1411,7 @@
 	<action>
 		<id>qgatherchickenegg</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>chicken</pickFriendly>
@@ -1424,7 +1424,7 @@
 	<action>
 		<id>qgatherwildchickenegg</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>wildchicken</pickFriendly>
@@ -1437,7 +1437,7 @@
 	<action>
 		<id>qgatherskootenegg</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>skootenbeeten</pickFriendly>
@@ -1450,7 +1450,7 @@
 	<action>
 		<id>qgatherwildskootenegg</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>wildskootenbeeten</pickFriendly>
@@ -1463,7 +1463,7 @@
 	<action>
 		<id>qtrimsheep</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<lock>newsheepfarm,emptysheepfarm</lock>
@@ -1479,7 +1479,7 @@
 	<action>
 		<id>qtrimwildsheep</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<lock>newsheepfarm,emptysheepfarm</lock>
@@ -1495,7 +1495,7 @@
 	<action>
 		<id>qtrimsnoat</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<lock>newsnoatfarm,emptysnoatfarm</lock>
@@ -1511,7 +1511,7 @@
 	<action>
 		<id>qtrimwildsnoat</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<lock>newsnoatfarm,emptysnoatfarm</lock>
@@ -1527,7 +1527,7 @@
 	<action>
 		<id>qmilkcow</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>cow</pickFriendly>
@@ -1540,7 +1540,7 @@
 	<action>
 		<id>qmilkwildcow</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>wildcow</pickFriendly>
@@ -1554,7 +1554,7 @@
 	<action>
 		<id>qmilksnoat</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>snoat</pickFriendly>
@@ -1567,7 +1567,7 @@
 	<action>
 		<id>qmilkwildsnoat</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>wildsnoat</pickFriendly>
@@ -1580,7 +1580,7 @@
 	<action>
 		<id>qmilkdoe</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>doe</pickFriendly>
@@ -1593,7 +1593,7 @@
 	<action>
 		<id>qmilkunifallow</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>unifallow</pickFriendly>
@@ -1606,7 +1606,7 @@
 	<action>
 		<id>qmilkwildunifallow</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>wildunifallow</pickFriendly>
@@ -1616,7 +1616,7 @@
 		</queue>
 	</action>
 
-	<!-- <action> <id>qsnowbucket</id> <priorityID>gatheringharvesting</priorityID> <queue> <pick>snowpile</pick> <wait>20</wait> <destroyItem /> <createItem>snowbucket</createItem> </queue> </action> -->
+	<!-- <action> <id>qsnowbucket</id> <priorityID>gatheringharvestingharvesting</priorityID> <queue> <pick>snowpile</pick> <wait>20</wait> <destroyItem /> <createItem>snowbucket</createItem> </queue> </action> -->
 
 	<action>
 		<id>qrenewfire</id>
@@ -1662,7 +1662,7 @@
 
 		<generatedItem>snowbucket</generatedItem>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 		<queue>
 			<move useSource="true">snowpile</move>
 			<wait>27</wait>
@@ -10241,7 +10241,7 @@
 	<action>
 		<id>qredarenabadger</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>badger,wildbadger</pickFriendly>
@@ -10255,7 +10255,7 @@
 	<action>
 		<id>qbluearenabadger</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>badger,wildbadger</pickFriendly>
@@ -10269,7 +10269,7 @@
 	<action>
 		<id>qgreenarenabadger</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>badger,wildbadger</pickFriendly>
@@ -10283,7 +10283,7 @@
 	<action>
 		<id>qbate</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<wait>10</wait>
@@ -18175,7 +18175,7 @@
 		<id>qbreedcow</id>
 		<name esES="Críar Vaca">Breed Cow</name>
 		<generatedItem>cow</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newcowfarm</lock>
 			<pick>wheat</pick>
@@ -18192,7 +18192,7 @@
 		<id>qbreedbull</id>
 		<name esES="Críar Toro">Breed Bull</name>
 		<generatedItem>bull</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newbullfarm</lock>
 			<pick>wheat</pick>
@@ -18209,7 +18209,7 @@
 		<id>qbreedpig</id>
 		<name esES="Críar Cerdo">Breed Pig</name>
 		<generatedItem>pig</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newpigfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18226,7 +18226,7 @@
 		<id>qbreedboar</id>
 		<name esES="Críar Jabalí">Breed Boar</name>
 		<generatedItem>boar</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newboarfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18243,7 +18243,7 @@
 		<id>qbreedchicken</id>
 		<name esES="Críar Gallina">Breed Chicken</name>
 		<generatedItem>chicken</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newchickenfarm</lock>
 			<pick>wheat</pick>
@@ -18260,7 +18260,7 @@
 		<id>qbreedrooster</id>
 		<name esES="Críar Gallo">Breed Rooster</name>
 		<generatedItem>rooster</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newroosterfarm</lock>
 			<pick>wheat</pick>
@@ -18277,7 +18277,7 @@
 		<id>qbreedskootenbeeten</id>
 		<name esES="Críar Skootenbeeten">Breed Skootenbeeten</name>
 		<generatedItem>skootenbeeten</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newskootenbeetenfarm</lock>
 			<pick>wheat</pick>
@@ -18294,7 +18294,7 @@
 		<id>qbreedunifallow</id>
 		<name esES="Críar Unifallow">Breed Unifallow</name>
 		<generatedItem>unifallow</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newunifallowfarm</lock>
 			<pick>cactusfruit</pick>
@@ -18311,7 +18311,7 @@
 		<id>qbreedbadger</id>
 		<name esES="Críar Tejon">Breed Badger</name>
 		<generatedItem>badger</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newbadgerfarm</lock>
 			<pick>wheat</pick>
@@ -18328,7 +18328,7 @@
 		<id>qbreedsnoat</id>
 		<name esES="Críar Snoat">Breed Snoat</name>
 		<generatedItem>snoat</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newsnoatfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18345,7 +18345,7 @@
 		<id>qbreedsheep</id>
 		<name esES="N/A">Breed Sheep</name>
 		<generatedItem>sheep</generatedItem>
-		<priorityID>gatheringharvesting</priorityID>
+		<priorityID>breeding</priorityID>
 		<queue>
 			<lock>newsheepfarm</lock>
 			<pick>wheat</pick>
@@ -21543,7 +21543,7 @@
 	<action>	
 		<id>qtrimmilkedwildsnoat</id>
 
-		<priorityID>gathering</priorityID>
+		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
 			<pickFriendly>wildmilkedsnoat</pickFriendly>
