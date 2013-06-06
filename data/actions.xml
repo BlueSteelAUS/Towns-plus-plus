@@ -18175,7 +18175,7 @@
 		<id>qbreedcow</id>
 		<name esES="Críar Vaca">Breed Cow</name>
 		<generatedItem>cow</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newcowfarm</lock>
 			<pick>wheat</pick>
@@ -18192,7 +18192,7 @@
 		<id>qbreedbull</id>
 		<name esES="Críar Toro">Breed Bull</name>
 		<generatedItem>bull</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newbullfarm</lock>
 			<pick>wheat</pick>
@@ -18209,7 +18209,7 @@
 		<id>qbreedpig</id>
 		<name esES="Críar Cerdo">Breed Pig</name>
 		<generatedItem>pig</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newpigfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18226,7 +18226,7 @@
 		<id>qbreedboar</id>
 		<name esES="Críar Jabalí">Breed Boar</name>
 		<generatedItem>boar</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newboarfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18243,7 +18243,7 @@
 		<id>qbreedchicken</id>
 		<name esES="Críar Gallina">Breed Chicken</name>
 		<generatedItem>chicken</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newchickenfarm</lock>
 			<pick>wheat</pick>
@@ -18260,7 +18260,7 @@
 		<id>qbreedrooster</id>
 		<name esES="Críar Gallo">Breed Rooster</name>
 		<generatedItem>rooster</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newroosterfarm</lock>
 			<pick>wheat</pick>
@@ -18277,7 +18277,7 @@
 		<id>qbreedskootenbeeten</id>
 		<name esES="Críar Skootenbeeten">Breed Skootenbeeten</name>
 		<generatedItem>skootenbeeten</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newskootenbeetenfarm</lock>
 			<pick>wheat</pick>
@@ -18294,7 +18294,7 @@
 		<id>qbreedunifallow</id>
 		<name esES="Críar Unifallow">Breed Unifallow</name>
 		<generatedItem>unifallow</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newunifallowfarm</lock>
 			<pick>cactusfruit</pick>
@@ -18311,7 +18311,7 @@
 		<id>qbreedbadger</id>
 		<name esES="Críar Tejon">Breed Badger</name>
 		<generatedItem>badger</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newbadgerfarm</lock>
 			<pick>wheat</pick>
@@ -18328,7 +18328,7 @@
 		<id>qbreedsnoat</id>
 		<name esES="Críar Snoat">Breed Snoat</name>
 		<generatedItem>snoat</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newsnoatfarm</lock>
 			<pick>apple,pear,wheat</pick>
@@ -18345,7 +18345,7 @@
 		<id>qbreedsheep</id>
 		<name esES="N/A">Breed Sheep</name>
 		<generatedItem>sheep</generatedItem>
-		<priorityID>breeding</priorityID>
+		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newsheepfarm</lock>
 			<pick>wheat</pick>
@@ -22081,6 +22081,87 @@
 			<destroyItem />
 			<unlock />
 			<createItem>spiralstairs</createItem>
+		</queue>
+	</action>
+
+	<!-- New walls by Brigadon! -->
+	<action>
+		<id>qnewwoodenwall</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newwoodenwall</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewwoodenwall2</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newwoodenwall2</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qnewlogwall</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>15</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>newlogwall</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qnewbrickwall</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>newbrickwall</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qnewdarkbrickwall</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>newdarkbrickwall</createItem>
 		</queue>
 	</action>
 </actions>

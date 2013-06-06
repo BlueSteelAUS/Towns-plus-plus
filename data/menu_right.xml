@@ -373,6 +373,7 @@
 				<item id="qlogblock" code="QUEUEANDPLACEAREA" parameter="qlogblock" />
 				<item id="qlogblock2" code="QUEUEANDPLACEAREA" parameter="qlogblock2" />
 				<item id="qdiagonallogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonallogblock" />
+				<item id="qnewlogwall" code="QUEUEANDPLACEAREA" parameter="qnewlogwall" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</log>
 			<wooden name="Wooden walls" esES="Muros de madera" icon="ui_w_walls">
@@ -384,6 +385,8 @@
 				<item id="qfarmfence" code="QUEUEANDPLACEAREA" parameter="qfarmfence" />
 				<item id="qwoodsticks" code="QUEUEANDPLACEAREA" parameter="qwoodsticks" />
 				<item id="qwoodspikes" code="QUEUEANDPLACEAREA" parameter="qwoodspikes" />
+				<item id="qnewwoodenwall" code="QUEUEANDPLACEAREA" parameter="qnewwoodenwall" />
+				<item id="qnewwoodenwall2" code="QUEUEANDPLACEAREA" parameter="qnewwoodenwall2" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</wooden>
 			<stone name="Stone walls" esES="Muros de piedra" icon="ui_s_walls">
@@ -415,6 +418,8 @@
 				<item id="qstonebrickblock6" code="QUEUEANDPLACEAREA" parameter="qstonebrickblock6" />
 				<item id="qwhitebrickblock" code="QUEUEANDPLACEAREA" parameter="qwhitebrickblock" />
 				<item id="qroughbricks" code="QUEUEANDPLACEAREA" parameter="qroughbricks" />
+				<item id="qnewbrickwall" code="QUEUEANDPLACEAREA" parameter="qnewbrickwall" />
+				<item id="qnewdarkbrickwall" code="QUEUEANDPLACEAREA" parameter="qnewdarkbrickwall" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</brick>
 			<decorative name="Decorative walls" esES="Muros decorativos" icon="ui_d_walls">

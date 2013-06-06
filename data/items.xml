@@ -18627,4 +18627,75 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>0</value>
 	</spiralstairs>
+	
+	<!-- New walls by Brigadon -->
+	<newwoodenwall>
+		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.walls</type>
+
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+	</newwoodenwall>
+
+	<newwoodenwall2>
+		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.walls</type>
+
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+	</newwoodenwall2>	
+	
+	<newlogwall>
+		<name esES="Muro de troncos">Thin log wall</name>
+		<type>construction.walls</type>
+
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+	</newlogwall>	
+	
+	<newbrickwall>
+		<name esES="N/A">Thin brick wall</name>
+		<type>construction.walls</type>
+
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+	</newbrickwall>
+	
+	<newdarkbrickwall>
+		<name esES="N/A">Thin brick wall</name>
+		<type>construction.walls</type>
+
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+	</newdarkbrickwall>
 </items>

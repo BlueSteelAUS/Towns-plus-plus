@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<priorities>
-	<priority>
-		<id>_TRADING_</id>
-		<name esES="Comercio">Trading</name>
-		<icon>ui_rtrade</icon>
-	</priority>
-	
+<priorities>	
 	<priority>
 		<id>baking</id>
 		<name esES="Cocinar">Baking</name>
@@ -35,6 +29,12 @@
 		<name esES="Recolectar y cosechar">Gathering</name>
 		<icon>milk</icon>
 	</priority>
+	
+	<priority>
+		<id>_TRADING_</id>
+		<name esES="Comercio">Trading</name>
+		<icon>ui_rtrade</icon>
+	</priority>
 
 	<priority>
 		<id>tilling</id>
@@ -42,8 +42,10 @@
 		<icon>ui_rterrainchange</icon>
 	</priority>
 	
+	<!-- Gathering is now Breeding, we re-added gatheringharvesting as a priority,
+	but in order to keep save game compatibility we have to keep the gathering priority id-->
 	<priority>
-		<id>breeding</id>
+		<id>gathering</id>
 		<name esES="N/A">Breeding</name>
 		<icon>ui_chickenmenu</icon>
 	</priority>
