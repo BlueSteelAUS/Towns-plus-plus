@@ -747,6 +747,7 @@
 		<item id="qburner" code="QUEUEANDPLACEAREA" parameter="qburner" />
 		<item id="qcookingfire" code="QUEUEANDPLACEAREA" parameter="qcookingfire" />
 		<item id="qfishingset" code="QUEUEANDPLACEAREA" parameter="qfishingset" />
+		<item id="qshearingbench" code="QUEUEANDPLACEAREA" parameter="qshearingbench" />
 		<item id="qfluidselevator" code="QUEUEANDPLACEAREA" parameter="qfluidselevator" />
 		<item id="qmill" code="QUEUEANDPLACEAREA" parameter="qmill" />
 		<item id="qwell" code="QUEUEANDPLACEAREA" parameter="qwell" />

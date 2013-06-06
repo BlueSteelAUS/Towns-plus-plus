@@ -1466,9 +1466,9 @@
 		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
-			<lock>newsheepfarm,emptysheepfarm</lock>
+			<lock>shearingbench</lock>
 			<pickFriendly>sheep</pickFriendly>
-			<move>newsheepfarm,emptysheepfarm</move>
+			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedsheep</createFriendly>
@@ -1482,9 +1482,9 @@
 		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
-			<lock>newsheepfarm,emptysheepfarm</lock>
+			<lock>shearingbench</lock>
 			<pickFriendly>wildsheep</pickFriendly>
-			<move>newsheepfarm,emptysheepfarm</move>
+			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedwildsheep</createFriendly>
@@ -1498,9 +1498,9 @@
 		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
-			<lock>newsnoatfarm,emptysnoatfarm</lock>
+			<lock>shearingbench</lock>
 			<pickFriendly>snoat</pickFriendly>
-			<move>newsnoatfarm,emptysnoatfarm</move>
+			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedsnoat</createFriendly>
@@ -1514,9 +1514,9 @@
 		<priorityID>gatheringharvesting</priorityID>
 
 		<queue>
-			<lock>newsnoatfarm,emptysnoatfarm</lock>
+			<lock>shearingbench</lock>
 			<pickFriendly>wildsnoat</pickFriendly>
-			<move>newsnoatfarm,emptysnoatfarm</move>
+			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>wildskinnedsnoat</createFriendly>
@@ -21547,7 +21547,7 @@
 
 		<queue>
 			<pickFriendly>wildmilkedsnoat</pickFriendly>
-			<move>newsnoatfarm,emptysnoatfarm</move>
+			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
 			<createFriendly>skinnedmilkedwildsnoat</createFriendly>
@@ -21822,7 +21822,7 @@
 
 		<queue>
 			<pickFriendly>wildskootenbeeten,layedeggwildskooten</pickFriendly>
-			<move>newskootenbeetenfarm</move>
+			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
 			<destroyFriendly />
@@ -22162,6 +22162,43 @@
 			<destroyItem/>
 			<unlock /> 
 			<createItem>newdarkbrickwall</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qshearingbench</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>shearingbench</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_shearingbench</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">shearingbench</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>shearingbench</createItem>
 		</queue>
 	</action>
 </actions>

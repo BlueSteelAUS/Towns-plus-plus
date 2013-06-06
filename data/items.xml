@@ -18698,4 +18698,17 @@
 
 		<alwaysOperative>false</alwaysOperative>
 	</newdarkbrickwall>
+
+	<!-- Shearing Bench -->
+	<shearingbench>
+		<name esES="N/A">Shearing Bench</name>
+		<description esES="N/A">Used to give your animals a haircut</description>
+		<type>utils.workshops</type>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>106</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_shearingbench</action>
+	</shearingbench>
 </items>

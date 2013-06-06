@@ -812,6 +812,7 @@
   		<item id="qmedicinecabinet" code="QUEUE" parameter="qmedicinecabinet" />
   		<item id="qbeerbarrel" code="QUEUE" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
   		<item id="qwinebarrel" code="QUEUE" parameter="qwinebarrel" icon="ui_winebarrel"/>
+  		<item id="qshearingbench" code="QUEUE" parameter="qshearingbench" />
   		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</workbenches>
 		<item id="qtongs" code="QUEUE" parameter="qtongs" />
