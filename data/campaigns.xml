@@ -138,7 +138,7 @@
 		<id>LittleMikey</id>
 		<name esES="Mapas de LittleMikey">LittleMikey's Maps</name>
 		<mission>
-			<id>LittleMikey Oasis</id>
+			<id>Oasis</id>
 			<name esES="N/A">Oasis</name>
 		</mission>
 	</campaign>

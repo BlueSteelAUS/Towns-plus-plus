@@ -350,56 +350,56 @@
 		<source>sand</source>
 		<destination>grass</destination>
 		<terrain>_WATER_INF_</terrain>
-		<PCT>90</PCT>
+		<PCT>95</PCT>
 		<radius>7</radius>
 	</change>
 	<change>
 		<source>sand</source>
 		<destination>grass</destination>
 		<terrain>_WATER_</terrain>
-		<PCT>90</PCT>
+		<PCT>95</PCT>
 		<radius>7</radius>
 	</change>
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower</destination>
 		<terrain>_WATER_INF_</terrain>
-		<PCT>20</PCT>
-		<radius>4</radius>
+		<PCT>25</PCT>
+		<radius>5</radius>
 	</change>
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower</destination>
 		<terrain>_WATER_</terrain>
-		<PCT>20</PCT>
-		<radius>4</radius>
+		<PCT>25</PCT>
+		<radius>5</radius>
 	</change> 
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower1</destination>
 		<terrain>_WATER_INF_</terrain>
-		<PCT>20</PCT>
-		<radius>4</radius>
+		<PCT>25</PCT>
+		<radius>5</radius>
 	</change>
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower1</destination>
 		<terrain>_WATER_</terrain>
-		<PCT>20</PCT>
-		<radius>4</radius>
+		<PCT>25</PCT>
+		<radius>5</radius>
 	</change> 	
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower2</destination>
 		<terrain>_WATER_INF_</terrain>
-		<PCT>20</PCT>
-		<radius>4</radius>
+		<PCT>25</PCT>
+		<radius>5</radius>
 	</change>
 	<change>
 		<source>grass</source>
 		<destination>grassnoflower2</destination>
 		<terrain>_WATER_</terrain>
-		<PCT>20</PCT>
-		<radius>4</radius>
+		<PCT>25</PCT>
+		<radius>5</radius>
 	</change>
 </gen_map>
