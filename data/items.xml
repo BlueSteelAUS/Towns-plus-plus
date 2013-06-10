@@ -1103,8 +1103,8 @@
 		<foodEffects>fruithappy</foodEffects>
 		<value>35</value>
 		
-		<maxAge>1d4400</maxAge>
-		<maxAgeItem>harvestedcactus</maxAgeItem>
+		<maxAge>1d4400+4400</maxAge>
+		<maxAgeItem>cactusbush</maxAgeItem>
 	</cactusfruit>
 
 	<cactussoup>
