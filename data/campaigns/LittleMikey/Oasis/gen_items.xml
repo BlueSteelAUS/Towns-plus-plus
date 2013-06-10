@@ -20,7 +20,7 @@
 		<item>oasisbushpalmtree</item>
 		<qtty>50</qtty>
 		<level>1d19</level>
-		<pointy>1d200-1</pointy>
+		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 	</add>
 
@@ -34,7 +34,7 @@
 	
 	<add id="redflower">
 		<item>redflower</item>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d19</level>
@@ -43,7 +43,7 @@
 	<add id="blueflower">
 		<level>1d19</level>
 		<item>blueflower</item>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 	</add>
@@ -51,14 +51,14 @@
 	<add id="yellowflower">
 		<level>1d19</level>
 		<item>yellowflower</item>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 	</add>
 	
 	<add id="orangeflower">
 		<item>orangeflower</item>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d19</level>
@@ -66,7 +66,7 @@
 
 	<add id="purpleflower">
 		<item>purpleflower</item>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d19</level>
@@ -74,7 +74,7 @@
 
 	<add id="greenflower">
 		<item>greenflower</item>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<level>1d19</level>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
@@ -83,7 +83,7 @@
 	<add id="pinkflower">
 		<item>pinkflower</item>
 		<level>1d19</level>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 	</add>
@@ -91,7 +91,7 @@
 	<add id="whiteflower">
 		<item>whiteflower</item>
 		<level>1d19</level>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 	</add>
@@ -99,7 +99,7 @@
 	<add id="blackflower">
 		<item>blackflower</item>
 		<level>1d19</level>
-		<qtty>15</qtty>
+		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 	</add>

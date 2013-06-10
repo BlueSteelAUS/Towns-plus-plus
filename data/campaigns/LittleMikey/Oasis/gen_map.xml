@@ -51,7 +51,7 @@
 	<seed>
 		<type>iron</type>
 		<num>12</num>
-		<level>1d11+22</level>
+		<level>1d11+24</level>
 		<turns>25</turns>
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>

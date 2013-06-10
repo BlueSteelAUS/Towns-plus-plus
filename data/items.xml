@@ -4377,7 +4377,7 @@
 
 	<redflower>
 		<name esES="Flores rojas">Red flowers</name>
-		<habitat>grassnoflower</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherredflower</action>
 	</redflower>
@@ -4400,7 +4400,7 @@
 
 	<blueflower>
 		<name esES="Flores azules">Blue flowers</name>
-		<habitat>grassnoflower1</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherblueflower</action>
 	</blueflower>
@@ -4423,7 +4423,7 @@
 
 	<yellowflower>
 		<name esES="Flores amarillas">Yellow flowers</name>
-		<habitat>grassnoflower2</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatheryellowflower</action>
 	</yellowflower>
@@ -13105,9 +13105,7 @@
 	<!-- NEW FLOWERS -->
 	<orangeflower>
 		<name esES="N/A">Orange Flowers</name>
-		<habitat>grassnoflower</habitat>
-		<habitat>grassnoflower1</habitat>
-		<habitat>grassnoflower2</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherorangeflower</action>
 	</orangeflower>
@@ -13138,9 +13136,7 @@
 
 	<purpleflower>
 		<name esES="N/A">Purple Flowers</name>
-		<habitat>grassnoflower</habitat>
-		<habitat>grassnoflower1</habitat>
-		<habitat>grassnoflower2</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherpurpleflower</action>
 	</purpleflower>
@@ -13171,9 +13167,7 @@
 
 	<greenflower>
 		<name esES="N/A">Green Flowers</name>
-		<habitat>grassnoflower</habitat>
-		<habitat>grassnoflower1</habitat>
-		<habitat>grassnoflower2</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgathergreenflower</action>
 	</greenflower>
@@ -13204,9 +13198,7 @@
 
 	<pinkflower>
 		<name esES="N/A">Pink Flowers</name>
-		<habitat>grassnoflower</habitat>
-		<habitat>grassnoflower1</habitat>
-		<habitat>grassnoflower2</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherpinkflower</action>
 	</pinkflower>
@@ -13237,9 +13229,7 @@
 
 	<whiteflower>
 		<name esES="N/A">White Flowers</name>
-		<habitat>grassnoflower</habitat>
-		<habitat>grassnoflower1</habitat>
-		<habitat>grassnoflower2</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherwhiteflower</action>
 	</whiteflower>
@@ -13270,9 +13260,7 @@
 
 	<blackflower>
 		<name esES="N/A">Black Flowers</name>
-		<habitat>grassnoflower</habitat>
-		<habitat>grassnoflower1</habitat>
-		<habitat>grassnoflower2</habitat>
+		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherblackflower</action>
 	</blackflower>
