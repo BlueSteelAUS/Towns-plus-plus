@@ -1102,9 +1102,6 @@
 		<foodEatTime>20</foodEatTime>
 		<foodEffects>fruithappy</foodEffects>
 		<value>35</value>
-		
-		<maxAge>1d4400+4400</maxAge>
-		<maxAgeItem>cactusbush</maxAgeItem>
 	</cactusfruit>
 
 	<cactussoup>
@@ -2019,11 +2016,8 @@
 	<cactus>
 		<name>Cactus</name>
 		<habitat>sand</habitat>
-		<maxAge>1d57600+28800</maxAge>
-		<locked>true</locked>
-		<spawn>cactusbush</spawn>
-		<spawnMaxItems>2</spawnMaxItems>
-		<spawnTurns>1d43200</spawnTurns>
+		<maxAge>1d8800+8800</maxAge>
+		<maxAgeItem>harvestingcactus</maxAgeItem>
 		<action>qcut</action>
 		<action>qharvestcactus</action>
 	</cactus>
@@ -2049,7 +2043,7 @@
 	<harvestedcactus>
 		<name>Cactus</name>
 		<habitat>sand</habitat>
-		<maxAge>1d2880+1440</maxAge>
+		<maxAge>1d4880+2440</maxAge>
 		<maxAgeItem>cactus</maxAgeItem>
 		<action>qcut</action>
 	</harvestedcactus>
