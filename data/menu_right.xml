@@ -384,7 +384,7 @@
 				<item id="qwoodenmossblock" code="QUEUEANDPLACEAREA" parameter="qwoodenmossblock" />
 				<item id="qfarmfence" code="QUEUEANDPLACEAREA" parameter="qfarmfence" />
 				<item id="qwoodsticks" code="QUEUEANDPLACEAREA" parameter="qwoodsticks" />
-				<item id="qwoodspikes" code="QUEUEANDPLACEAREA" parameter="qwoodspikes" />					<item id="qnewdarkbrickwall" code="QUEUEANDPLACEAREA" parameter="qnewdarkbrickwall" />
+				<item id="qwoodspikes" code="QUEUEANDPLACEAREA" parameter="qwoodspikes" />
 				<item id="qnewdarkbrickwall" code="QUEUEANDPLACEAREA" parameter="qnewdarkbrickwall" />
 				<item id="qnewwoodenwall" code="QUEUEANDPLACEAREA" parameter="qnewwoodenwall" />
 				<item id="qnewwoodenwall2" code="QUEUEANDPLACEAREA" parameter="qnewwoodenwall2" />
