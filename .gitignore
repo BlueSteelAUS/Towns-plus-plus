@@ -12,6 +12,8 @@ lib/
 *es_ES.properties
 fontcantarell.*
 
+towns.ini
+
 citizen*.png
 heroes*.png
 living*.png
