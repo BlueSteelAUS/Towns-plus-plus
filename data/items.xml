@@ -18681,7 +18681,7 @@
 	</newbrickwall>
 	
 	<newdarkbrickwall>
-		<name esES="N/A">Thin brick wall</name>
+		<name esES="N/A">Thin Dark Wall</name>
 		<type>construction.walls</type>
 
 		<wall>true</wall>
