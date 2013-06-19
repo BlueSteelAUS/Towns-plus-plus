@@ -22155,9 +22155,9 @@
 		<priorityID>wallconstruction</priorityID>
 
 		<queue>
-			<lock>masonbench</lock>
-			<pick>rmstone</pick>
-			<move>masonbench</move>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
 			<unlock /> 
