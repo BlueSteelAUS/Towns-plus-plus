@@ -621,7 +621,7 @@
 		<stackableSize>1</stackableSize>
 
 		<foodValue>3</foodValue>
-		<foodFillPCT>85</foodFillPCT>
+		<foodFillPCT>100</foodFillPCT>
 		<foodEatTime>60</foodEatTime>
 		<foodEffects>happy</foodEffects>
 		<value>120</value>

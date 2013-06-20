@@ -2183,9 +2183,20 @@
 			<move>bakertable</move>
 			<wait>10</wait>
 			<destroyItem />
+			<pick>egg</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<pick>sugar</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
+			<pick>milk</pick>
+			<move>bakertable</move>
+			<wait>10</wait>
+			<destroyItem />
 			<unlock />
 			<lock>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</lock>
-			<pick>sugar</pick>
 			<move>bakeroven,bakeroven_E,xmasbakeroven,xmasbakeroven_E</move>
 			<wait>22</wait>
 			<unlock />
