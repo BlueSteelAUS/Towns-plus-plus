@@ -461,5 +461,49 @@
 			<PCT>20</PCT>
 			<quantity>1d4</quantity>
 		</item>
-	</animal>
+	</animal>	
+	
+	<construction>
+		<zone>zmarket</zone>
+		<pricePCT>1d300</pricePCT>
+		<coins>1d2000+500</coins>
+		<buys>construction,construction.walls,construction.blockwalls,construction.roads,construction.stairs,construction.doors,construction.roofs,construction.windows,construction.water,rawmaterials</buys>
+		<comePCT>100</comePCT>
+		
+		<item>
+			<type>construction.walls</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>construction.blockwalls</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>construction.roads</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>construction.stairs</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>construction.roofs</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>construction.windows</type>
+			<PCT>100</PCT>
+			<quantity>1d10</quantity>
+		</item>
+		<item>
+			<type>construction.water</type>
+			<PCT>10</PCT>
+			<quantity>1d2</quantity>
+		</item>
+	</construction>
 </caravans>

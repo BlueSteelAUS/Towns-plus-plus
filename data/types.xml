@@ -76,6 +76,7 @@
 	<!-- CONSTRUCTION STOCKPILES -LM -->
 	<construction esES="Construcción">Construction</construction>
 	<construction.walls esES="Paredes finas" icon="ui_rwalls">Thin Walls</construction.walls>
+	<construction.roads esES="N/A" icon="ui_rroads">Roads</construction.roads>
 	<construction.blockwalls esES="Bloques de muros" icon="ui_sb_walls">Block Walls</construction.blockwalls>
 	<construction.stairs esES="Escaleras" icon="ui_woodstairs">Stairs</construction.stairs>
 	<construction.doors esES="Puertas" icon="ui_rdoors">Doors</construction.doors>
@@ -94,6 +95,6 @@
 	<rawfood.gathered esES="N/A" icon="ui_rawfood_gathered">Gathered Raw Food</rawfood.gathered>
 	<rawfood.harvested esES="N/A" icon="ui_rawfood_harvested">Harvested Raw Food</rawfood.harvested>
 	<rawfood.processed esES="N/A" icon="ui_rawfood_processed">Processed Raw Food</rawfood.processed>
-	
+
 	<script icon="ui_script">Written</script>
 </types>

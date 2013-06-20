@@ -2434,6 +2434,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</rounddarkblock>
 
 	<roundgrayblock>
@@ -2447,6 +2448,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</roundgrayblock>
 
 	<roundwhiteblock>
@@ -2460,6 +2462,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</roundwhiteblock>
 
 	<roundclayblock>
@@ -2473,6 +2476,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</roundclayblock>
 
 	<roundgrassblock>
@@ -2486,6 +2490,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</roundgrassblock>
 
 	<diagonalgrassblock>
@@ -2499,6 +2504,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</diagonalgrassblock>
 
 	<inwardgrassblock>
@@ -2512,6 +2518,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</inwardgrassblock>
 
 	<diagonalbrickblock>
@@ -2525,6 +2532,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</diagonalbrickblock>
 
 	<roundbrickblock>
@@ -2538,6 +2546,7 @@
 		<buryLocked>true</buryLocked>
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</roundbrickblock>
 
 	<icewall>
@@ -2555,6 +2564,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</icewall>
 
 	<logblock>
@@ -2570,6 +2580,7 @@
 		<blocky>true</blocky>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</logblock>
 
 	<logblock2>
@@ -2585,6 +2596,7 @@
 		<blocky>true</blocky>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</logblock2>
 
 	<diagonallogblock>
@@ -2599,6 +2611,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</diagonallogblock>
 
 	<grassterrace>
@@ -2616,6 +2629,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</grassterrace>
 
 	<ancientblockmoss>
@@ -2633,6 +2647,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</ancientblockmoss>
 
 	<ancientblock>
@@ -2650,6 +2665,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</ancientblock>
 
 	<mayanblock>
@@ -2667,6 +2683,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</mayanblock>
 
 	<mayanblock1>
@@ -2684,6 +2701,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</mayanblock1>
 
 	<mayanblock2>
@@ -2701,6 +2719,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</mayanblock2>
 
 	<mayanblock3>
@@ -2718,6 +2737,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</mayanblock3>
 
 	<mayanblock4>
@@ -2735,6 +2755,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</mayanblock4>
 
 	<mayanblock5>
@@ -2752,6 +2773,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</mayanblock5>
 
 	<clayblock>
@@ -2769,6 +2791,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</clayblock>
 
 	<pillar>
@@ -2783,6 +2806,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</pillar>
 
 	<woodenstoneblock>
@@ -2800,6 +2824,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</woodenstoneblock>
 
 	<woodsticks>
@@ -2817,6 +2842,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
 	</woodsticks>
 
 	<woodspikes>
@@ -2832,6 +2858,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</woodspikes>
 
 
@@ -2850,6 +2877,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</sandwallblock>
 
 	<woodenglasswindow>
@@ -2866,6 +2894,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</woodenglasswindow>
 
 	<stonebrickblock>
@@ -2883,6 +2912,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stonebrickblock>
 
 	<stonebrickblock2>
@@ -2900,6 +2930,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stonebrickblock2>
 
 	<stonebrickblock3>
@@ -2917,6 +2948,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stonebrickblock3>
 
 	<stonebrickblock4>
@@ -2934,6 +2966,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stonebrickblock4>
 
 	<stonebrickblock5>
@@ -2951,6 +2984,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stonebrickblock5>
 
 	<stonebrickblock6>
@@ -2968,6 +3002,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stonebrickblock6>
 
 	<whitebrickblock>
@@ -2985,6 +3020,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</whitebrickblock>
 
 	<goldenblock>
@@ -3002,6 +3038,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>500</value>
 	</goldenblock>
 
 	<ancientwall>
@@ -3019,6 +3056,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</ancientwall>
 
 	<roughbricks>
@@ -3036,6 +3074,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</roughbricks>
 
 	<flagblockyellow>
@@ -3053,6 +3092,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockyellow>
 
 	<flagblockred>
@@ -3070,6 +3110,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockred>
 
 	<flagblockgray>
@@ -3086,6 +3127,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockgray>
 
 	<flagblockwhite>
@@ -3102,6 +3144,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockwhite>
 
 	<flagblockwhitearc>
@@ -3118,6 +3161,7 @@
 
 		<allowFluids>true</allowFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockwhitearc>
 
 	<roughbrickarc>
@@ -3134,6 +3178,7 @@
 
 		<allowFluids>true</allowFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</roughbrickarc>
 
 	<limestoneblock>
@@ -3150,6 +3195,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</limestoneblock>
 
 	<colombages>
@@ -3166,6 +3212,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>150</value>
 	</colombages>
 
 	<colombagesx>
@@ -3182,6 +3229,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>150</value>
 	</colombagesx>
 
 	<limestoneramp>
@@ -3218,6 +3266,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</lapedrera>
 
 	<lapedrera2>
@@ -3232,6 +3281,7 @@
 		<glue>true</glue>
 		<base>true</base>
 
+		<value>200</value>
 		<alwaysOperative>false</alwaysOperative>
 	</lapedrera2>
 
@@ -3324,7 +3374,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>70</value>
+		<value>200</value>
 	</domeroof>
 
 	<strawroofitem>
@@ -3339,7 +3389,7 @@
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</strawroofitem>
 
 	<marketroof>
@@ -3355,7 +3405,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</marketroof>
 
 	<woodendarkroofitem>
@@ -3371,7 +3421,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</woodendarkroofitem>
 
 	<clayroof>
@@ -3387,7 +3437,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</clayroof>
 
 	<brokenroof>
@@ -3403,7 +3453,7 @@
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</brokenroof>
 
 	<redtileroof>
@@ -3420,7 +3470,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</redtileroof>
 
 	<cyantileroof>
@@ -3436,7 +3486,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</cyantileroof>
 
 	<bluetileroof>
@@ -3453,7 +3503,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</bluetileroof>
 
 	<greentileroof>
@@ -3470,7 +3520,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</greentileroof>
 
 	<purpletileroof>
@@ -3487,7 +3537,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</purpletileroof>
 
 	<yellowtileroof>
@@ -3504,7 +3554,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
-		<value>40</value>
+		<value>200</value>
 	</yellowtileroof>
 
 	<stoneladder>
@@ -3733,6 +3783,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_hedgegate</action>
+		<value>200</value>
 	</hedgegate>
 
 	<logwall>
@@ -3747,6 +3798,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</logwall>
 
 	<junglefence>
@@ -3774,6 +3826,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
+		<value>200</value>
 	</hedgebrickfence>
 
 	<fancybrickfence>
@@ -3785,6 +3838,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
+		<value>200</value>
 	</fancybrickfence>
 
 	<farmfence>
@@ -3819,6 +3873,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</skullfence>
 
 	<lightwoodblock>
@@ -3834,6 +3889,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</lightwoodblock>
 
 	<stoneblock>
@@ -3851,6 +3907,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stoneblock>
 
 	<stoneblock2>
@@ -3868,6 +3925,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stoneblock2>
 
 	<wheatblock>
@@ -3883,6 +3941,7 @@
 		<blocky>true</blocky>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</wheatblock>
 
 	<bambooblock>
@@ -3898,6 +3957,7 @@
 		<blocky>true</blocky>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</bambooblock>
 
 	<stonewall>
@@ -3913,6 +3973,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</stonewall>
 
 	<bonewall>
@@ -3927,6 +3988,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</bonewall>
 
 
@@ -3943,6 +4005,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</mudwall>
 
 	<sandwall>
@@ -3960,6 +4023,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</sandwall>
 
 	<woodenblock>
@@ -3977,6 +4041,7 @@
 		<stackableSize>1</stackableSize>
 		<blockFluids>true</blockFluids>
 
+		<value>100</value>
 		<alwaysOperative>false</alwaysOperative>
 		<value>35</value>
 	</woodenblock>
@@ -3993,6 +4058,7 @@
 		<base>true</base>
 		<blocky>true</blocky>
 
+		<value>150</value>
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
@@ -4009,6 +4075,7 @@
 		<type>construction.walls</type>
 		<wallConnector>true</wallConnector>
 
+		<value>250</value>
 		<glue>true</glue>
 		<allowFluids>true</allowFluids>
 		<base>true</base>
@@ -4021,6 +4088,7 @@
 		<name esES="Muro de piedra grabado">Engraved stone wall</name>
 		<type>construction.blockwalls</type>
 
+		<value>200</value>
 		<wall>true</wall>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4039,6 +4107,7 @@
 		<type>construction.blockwalls</type>
 		<description esES="Aún vibra">It still vibrates</description>
 
+		<value>200</value>
 		<wall>true</wall>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4057,6 +4126,7 @@
 		<type>construction.blockwalls</type>
 		<description esES="Aún vibra">It still vibrates</description>
 
+		<value>200</value>
 		<wall>true</wall>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4075,6 +4145,7 @@
 		<type>construction.blockwalls</type>
 		<description esES="Aún vibra">It still vibrates</description>
 
+		<value>200</value>
 		<wall>true</wall>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4137,7 +4208,8 @@
 	<pavementroadtile>
 		<name esES="Carretera pavimentada">Pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4148,7 +4220,8 @@
 	<redpavementroadtile>
 		<name esES="Carretera pavimentada roja">Red pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4159,7 +4232,8 @@
 	<whitepavementroadtile>
 		<name esES="Carretera pavimentada blanca">White pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4170,7 +4244,8 @@
 	<greenpavementroadtile>
 		<name esES="Carretera pavimentada verde">Green pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4181,7 +4256,8 @@
 	<bluepavementroadtile>
 		<name esES="Carretera pavimentada azul">Blue pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4192,7 +4268,8 @@
 	<purplepavementroadtile>
 		<name esES="Carretera pavimentada lila">Purple pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4203,7 +4280,8 @@
 	<orangepavementroadtile>
 		<name esES="Carretera pavimentada naranja">Orange pavement road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4214,7 +4292,8 @@
 	<yellowpavementroadtile>
 		<name esES="Carretera pavimentada amarilla">Yellow pavement road</name>
 		<description esES="Mantedrá tus pies secos">Follow the yellow brick road!</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>65</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4225,7 +4304,8 @@
 	<stoneroadtile>
 		<name esES="Carretera de piedra">Stone road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4236,7 +4316,8 @@
 	<woodenroadtile>
 		<name esES="Carretera de madera">Wooden road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4247,7 +4328,8 @@
 	<greenroadtile>
 		<name esES="Carretera de gel verde">Green gel road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4258,7 +4340,8 @@
 	<redroadtile>
 		<name esES="Carretera de gel rojo">Red gel road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -4269,7 +4352,8 @@
 	<blueroadtile>
 		<name esES="Carretera de gel azul">Blue gel road</name>
 		<description esES="Mantedrá tus pies secos">A road tile, to keep your feet dry</description>
-
+		<type>construction.roads</type>
+		<value>100</value>
 		<floorWalkSpeed>75</floorWalkSpeed>
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
@@ -5191,6 +5275,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</claybrickwall>
 
 	<glasswall>
@@ -5207,6 +5292,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</glasswall>
 
 	<woodenwall>
@@ -5221,6 +5307,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</woodenwall>
 
 	<woodendarkwall>
@@ -5235,6 +5322,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</woodendarkwall>
 
 	<woodenwindow>
@@ -5250,6 +5338,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</woodenwindow>
 
 	<woodenwindow_2>
@@ -5260,6 +5349,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		<value>250</value>
 	</woodenwindow_2>
 
 	<stonewindow>
@@ -5275,6 +5365,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>250</value>
 	</stonewindow>
 
 	<stonearcdoor1>
@@ -5293,11 +5384,13 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonearcdoor1</action>
+		<value>200</value>
+		<type>construction.doors</type>
 	</stonearcdoor1>
 
 	<stonearcdoor2>
 		<name esES="Puerta con arco de piedra">Stone arched door</name>
-
+		
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -5311,6 +5404,8 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonearcdoor2</action>
+		<value>200</value>
+		<type>construction.doors</type>
 	</stonearcdoor2>
 
 	<!--/CARPENTRY -->
@@ -18636,6 +18731,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</newwoodenwall>
 
 	<newwoodenwall2>
@@ -18650,6 +18746,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</newwoodenwall2>	
 	
 	<newlogwall>
@@ -18664,6 +18761,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</newlogwall>	
 	
 	<newbrickwall>
@@ -18678,6 +18776,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</newbrickwall>
 	
 	<newdarkbrickwall>
@@ -18692,6 +18791,7 @@
 		<base>true</base>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
 	</newdarkbrickwall>
 
 	<!-- Shearing Bench -->
