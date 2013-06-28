@@ -8,9 +8,9 @@ Changes since Towns++_v13a2
 BlueSteel's Contributions
 =========================
 -> Added Niranufoti's Spiral Staircase mod (edited to fit with rest of Towns++ now takes 3 wood)
--> fixed terrafom to stone (thanks to Litcube for finding this bug)
+-> fixed terraform to stone (thanks to Litcube for finding this bug)
 -> fixed requirements for terraforming to DenseStone (there wasn't any , now requires rmstone*4)
--> fixed terraforming when interupted by fighting with mob and placing in wrong spot
+-> fixed terraforming when interrupted by fighting with mob and placing in wrong spot
 (when testing, i had my cits attack an enemy and get drawn off the grid you want terraformed.
  it then terraformed where the fight ended not the grid you selected)
     
@@ -45,7 +45,7 @@ To install:
 [quote]
 Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/13a3.zip
 Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
-NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Townms++
+NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Towns++
 
 My Live streaming is at http://www.twitch.tv/bluesteelaus
 My YouTube play list for Towns : http://www.youtube.com/playlist?list=PL388A502D490AE834
