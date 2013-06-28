@@ -8,6 +8,11 @@ Changes since Towns++_v13a1
 BlueSteel's Contributions
 =========================
 -> Added Niranufoti's Spiral Staircase mod (edited to fit with rest of Towns++ now takes 3 wood)
+-> fixed terrafom to stone (thanks to Litcube for finding this bug)
+-> fixed requirements for terraforming to DenseStone (there wasn't any , now requires rmstone*4)
+-> fixed terraforming when interupted by fighting with mob and placing in wrong spot
+(when testing, i had my cits attack an enemy and get drawn off the grid you want terraformed.
+ it then terraformed where the fight ended not the grid you selected)
     
 LittleMikey's Contributions:
 ============================

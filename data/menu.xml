@@ -50,7 +50,7 @@
 		<item id="qterraformtofloatinggrass" name="To grass" code="CUSTOMACTION" parameter="qterraformtofloatinggrass" icon="floatinggrass" />
 		<item id="qterraformtojungle" name="To jungle" code="CUSTOMACTION" parameter="qterraformtojungle" icon="jungle" />
 		<item id="qterraformtosand" name="To sand" code="CUSTOMACTION" parameter="qterraformtosand" icon="sand" />
-		<item id="qterraformtotone" name="To stone" code="CUSTOMACTION" parameter="qterraformtotone" icon="stone" />
+		<item id="qterraformtostone" name="To stone" code="CUSTOMACTION" parameter="qterraformtostone" icon="stone" />
 		<item id="qterraformtosnow" name="To snow" code="CUSTOMACTION" parameter="qterraformtosnow" icon="snow" />
 		<item id="qterraformtogravel" name="To gravel" code="CUSTOMACTION" parameter="qterraformtogravel" icon="gravel" />
 		<item id="qterraformtodensestone" name="To densestone" code="CUSTOMACTION" parameter="qterraformtodensestone" icon="densestone" />

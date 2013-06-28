@@ -16192,6 +16192,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>dirt</changeTerrain>
 		</queue>
 	</action>
@@ -16214,6 +16215,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>grass</changeTerrain>
 		</queue>
 	</action>
@@ -16236,6 +16238,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>jungle</changeTerrain>
 		</queue>
 	</action>
@@ -16258,6 +16261,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>snow</changeTerrain>
 		</queue>
 	</action>
@@ -16280,6 +16284,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>sand</changeTerrain>
 		</queue>
 	</action>
@@ -16302,6 +16307,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>stone</changeTerrain>
 		</queue>
 	</action>
@@ -16324,6 +16330,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>gravel</changeTerrain>
 		</queue>
 	</action>
@@ -16346,6 +16353,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>coal</changeTerrain>
 		</queue>
 	</action>
@@ -16368,6 +16376,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>iron</changeTerrain>
 		</queue>
 	</action>
@@ -16390,6 +16399,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>silver</changeTerrain>
 		</queue>
 	</action>
@@ -16412,6 +16422,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>gold</changeTerrain>
 		</queue>
 	</action>
@@ -16434,6 +16445,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>grass1</changeTerrain>
 		</queue>
 	</action>
@@ -16456,6 +16468,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>grass2</changeTerrain>
 		</queue>
 	</action>
@@ -16478,6 +16491,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>grass3</changeTerrain>
 		</queue>
 	</action>
@@ -16500,6 +16514,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>grassnoflower</changeTerrain>
 		</queue>
 	</action>
@@ -16522,6 +16537,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>grassnoflower1</changeTerrain>
 		</queue>
 	</action>
@@ -16544,6 +16560,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>grassnoflower2</changeTerrain>
 		</queue>
 	</action>
@@ -16566,6 +16583,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>floatinggrass</changeTerrain>
 		</queue>
 	</action>
@@ -16588,6 +16606,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>copper</changeTerrain>
 		</queue>
 	</action>
@@ -16597,8 +16616,20 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to densestone from</name>
 		<queue>
+			<pick>rmstone</pick>
 			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
+			<pick>rmstone</pick>
+			<moveTerrain />
+			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>densestone</changeTerrain>
 		</queue>
 	</action>
@@ -16621,6 +16652,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>dungeon3</changeTerrain>
 		</queue>
 	</action>
@@ -16643,6 +16675,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>lavarock</changeTerrain>
 		</queue>
 	</action>
@@ -16665,6 +16698,7 @@
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
+			<moveTerrain />
 			<changeTerrain>lavadirt</changeTerrain>
 		</queue>
 	</action>
