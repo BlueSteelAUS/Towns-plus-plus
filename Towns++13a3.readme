@@ -3,7 +3,7 @@
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
 [code]
-Changes since Towns++_v13a1
+Changes since Towns++_v13a2
 ===========================
 BlueSteel's Contributions
 =========================
@@ -181,16 +181,12 @@ People who have contributed in the past and no longer on the Team
 =================================================================
 None as yet
 
-Art used under the Creative Commons licence by:
-===============================================
-Clint Bellanger http://opengameart.org/users/clint-bellanger
-IsometricRobot http://opengameart.org/users/isometricrobot
-Unknown Horizons http://opengameart.org/users/unknown-horizons
-
 Public Domain art by:
 =====================
-yd http://opengameart.org/users/yd
+yd http://opengameart.org/users/yd (merchant tents)
 
+Disclaimer/Rant
+===============
 I am the lead coder and Owner / Distributor of this mod, so my decisions on
 what to include and how is final. Sometimes I'll use others mods in my pack,
 these inclusions mean that I have Tweaked them to work with my mod and to try
@@ -212,6 +208,35 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 
 change logs
 ===========
+Changes since Towns++_v13a2
+===========================
+BlueSteel's Contributions
+=========================
+-> Added Niranufoti's Spiral Staircase mod (edited to fit with rest of Towns++ now takes 3 wood)
+-> fixed terrafom to stone (thanks to Litcube for finding this bug)
+-> fixed requirements for terraforming to DenseStone (there wasn't any , now requires rmstone*4)
+-> fixed terraforming when interupted by fighting with mob and placing in wrong spot
+(when testing, i had my cits attack an enemy and get drawn off the grid you want terraformed.
+ it then terraformed where the fight ended not the grid you selected)
+    
+LittleMikey's Contributions:
+============================
+-> Re-added gatheringharvesting priority from vanilla, renamed it to "Breeding" and assigned it to
+   breeding animals. This will mean all your other Towns mods should be compatible now.
+-> Re-added buildings priority. This should stop vanilla saves crashing. However the priority isn't
+   used by anything in Towns++ currently so it's at the bottom of the priority order.
+-> Fixed crashes/errors with Gifts.
+-> New barn graphics by Brigadon!
+-> Priority fixes/changes.
+-> New walls by Brigadon!
+-> Added Shearing Bench. Now if you want to shear your Sheep, Snoats or Skootenbeeten you can use this comfy bench!
+-> Small tweaks to Oasis map.
+-> Cacti will now no longer disappear from your maps.
+-> Cakes now require Milk and Eggs. Since they taste way better now they fill your townies up more!
+-> Added Construction Caravan. This caravan will sell you walls, windows and the like, and buy them 
+   as well.
+-> Added generic values to construction items so you can sell/buy them. Please post if you find any I missed!
+
 Changes since Towns++_v13a1
 ===========================
 BlueSteel's Contributions
