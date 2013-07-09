@@ -293,24 +293,52 @@
 
 		<statues name="Statues,Poles" eeES="Estatuas,Cabezas" icon="stonemalestatue">
 
-			<poles name="Poles" eeES="Cabezas" icon="goblinpole">
+			<poles name="Poles" esES="Cabezas" icon="goblinpole">
 				<item id="qgoblinpole" code="QUEUE" parameter="qgoblinpole" />
 				<item id="qhobgoblinpole" code="QUEUE" parameter="qhobgoblinpole" />
 				<item id="qghoulpole" code="QUEUE" parameter="qghoulpole" />
 				<item id="qsnickerpole" code="QUEUE" parameter="qsnickerpole" />
 				<item id="qtrollpole" code="QUEUE" parameter="qtrollpole" />
-
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</poles>
-
-			<item id="qstonemalestatue" code="QUEUE" parameter="qstonemalestatue" />
-			<item id="qnecromancerstatue" code="QUEUE" parameter="qnecromancerstatue" />
-			<item id="qgargoylestatue" code="QUEUE" parameter="qgargoylestatue" />
-			<item id="qgoldnuxstatue" code="QUEUE" parameter="qgoldnuxstatue" />
-			<item id="qgoldunifallowstatue" code="QUEUE" parameter="qgoldunifallowstatue" />
-			<item id="qsiriancaesar" code="QUEUE" parameter="qsiriancaesar" />
-			<item id="qsilverskootenbeetenstatue" code="QUEUE" parameter="qsilverskootenbeetenstatue" />
-
+			<dw420statues name="Statues" esES="N/A"  icon="stonemalestatue">
+				<hero name="Hero Statues" esES="N/A" icon="goldherostatue" >
+					<item id="ironherostatue" code="QUEUE" parameter="qironherostatue" />
+					<item id="bronzeherostatue" code="QUEUE" parameter="qbronzeherostatue" />
+					<item id="silverherostatue" code="QUEUE" parameter="qsilverherostatue" />
+					<item id="goldherostatue" code="QUEUE" parameter="qgoldherostatue" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</hero>
+				<gargoyle name="Gargoyle Statues" esES="N/A" icon="goldgargoylestatue" >
+					<item id="irongargoylestatue" code="QUEUE" parameter="qirongargoylestatue" />
+					<item id="bronzegargoylestatue" code="QUEUE" parameter="qbronzegargoylestatue" />
+					<item id="silvergargoylestatue" code="QUEUE" parameter="qsilvergargoylestatue" />
+					<item id="goldgargoylestatue" code="QUEUE" parameter="qgoldgargoylestatue" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</gargoyle>
+				<nux name="Nux Statues" esES="N/A" icon="goldnuxstatue" >
+					<item id="ironnuxstatue" code="QUEUE" parameter="qironnuxstatue" />
+					<item id="bronzenuxstatue" code="QUEUE" parameter="qbronzenuxstatue" />
+					<item id="silvernuxstatue" code="QUEUE" parameter="qsilvernuxstatue" />
+					<item id="goldnuxstatue" code="QUEUE" parameter="qgoldnuxstatue" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</nux>
+				<skootenbeeten name="Skootenbeeten Statues" esES="N/A" icon="goldskootenbeetenstatue" >
+					<item id="ironskootenbeetenstatue" code="QUEUE" parameter="qironskootenbeetenstatue" />
+					<item id="bronzeskootenbeetenstatue" code="QUEUE" parameter="qbronzeskootenbeetenstatue" />
+					<item id="silverskootenbeetenstatue" code="QUEUE" parameter="qsilverskootenbeetenstatue" />
+					<item id="goldskootenbeetenstatue" code="QUEUE" parameter="qgoldskootenbeetenstatue" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</skootenbeeten>
+				<caesar name="Caesar Statues" esES="N/A" icon="goldcaesarstatue" >
+					<item id="ironcaesarstatue" code="QUEUE" parameter="qironcaesarstatue" />
+					<item id="bronzecaesarstatue" code="QUEUE" parameter="qbronzecaesarstatue" />
+					<item id="silvercaesarstatue" code="QUEUE" parameter="qsilvercaesarstatue" />
+					<item id="goldcaesarstatue" code="QUEUE" parameter="qgoldcaesarstatue" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</caesar>
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</dw420statues>
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</statues>
 

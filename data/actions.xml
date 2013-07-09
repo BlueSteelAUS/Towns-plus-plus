@@ -3764,67 +3764,6 @@
 	</action>
 
 	<action>
-		<id>qsilverskootenbeetenstatue</id>
-
-		<priorityID>itemconstruction</priorityID>
-
-		<queue>
-			<lock>smelter</lock>
-			<pick>rmsilver</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmsilver</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmsilver</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<move>anvil</move>
-			<wait>72</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>silverskootenbeetenstatue</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qsiriancaesar</id>
-
-		<priorityID>itemconstruction</priorityID>
-
-		<queue>
-			<lock>smelter</lock>
-			<pick>rmsilver</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmsilver</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmsilver</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmsilver</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<move>anvil</move>
-			<wait>72</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>siriancaesar</createItem>
-		</queue>
-	</action>
-
-
-	<action>
 		<id>qgoldunifallowstatue</id>
 
 		<priorityID>itemconstruction</priorityID>
@@ -3849,34 +3788,6 @@
 			<destroyItem />
 			<unlock />
 			<createItem>goldunifallowstatue</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qgoldnuxstatue</id>
-
-		<priorityID>itemconstruction</priorityID>
-
-		<queue>
-			<lock>smelter</lock>
-			<pick>rmgold</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmgold</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<pick>rmgold</pick>
-			<move>smelter</move>
-			<wait>32</wait>
-			<destroyItem />
-			<unlock />
-			<move>anvil</move>
-			<wait>72</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>goldnuxstatue</createItem>
 		</queue>
 	</action>
 
@@ -3959,8 +3870,7 @@
 			<createItem>ironbars</createItem>
 		</queue>
 	</action>
-
-
+	
 	<action>
 		<id>qglass</id>
 
@@ -12156,46 +12066,6 @@
 			<replaceCellItem>goldunifallowstatue</replaceCellItem>
 		</queue>
 	</action>
-
-	<action>
-		<id>rotate_goldnuxstatue_S</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">goldnuxstatue</move>
-			<replaceCellItem>goldnuxstatue_S</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>rotate_goldnuxstatue_E</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">goldnuxstatue_S</move>
-			<replaceCellItem>goldnuxstatue</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>rotate_silverskootenbeetenstatue_S</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">silverskootenbeetenstatue</move>
-			<replaceCellItem>silverskootenbeetenstatue_S</replaceCellItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>rotate_silverskootenbeetenstatue_E</id>
-		<name esES="Girar">Rotate</name>
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">silverskootenbeetenstatue_S</move>
-			<replaceCellItem>silverskootenbeetenstatue</replaceCellItem>
-		</queue>
-	</action>
 	<!-- /ROTATE DECORATIONS -->
 
 	<!-- ROTATE CONATINERS -->
@@ -19830,30 +19700,6 @@
 		</queue>
 	</action>
 	<action>
-		<id>del_goldnuxstatue</id>
-		<name esES="N/A">Remove</name>
-
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">goldnuxstatue,goldnuxstatue_S</move>
-			<wait>16</wait>
-			<destroyCellItem />
-			<createItem>goldnuxstatue</createItem>
-		</queue>
-	</action>
-	<action>
-		<id>del_silverskootenbeetenstatue</id>
-		<name esES="N/A">Remove</name>
-
-		<priorityID>itemconstruction</priorityID>
-		<queue>
-			<move useSource="true">silverskootenbeetenstatue,silverskootenbeetenstatue_S</move>
-			<wait>16</wait>
-			<destroyCellItem />
-			<createItem>silverskootenbeetenstatue</createItem>
-		</queue>
-	</action>
-	<action>
 		<id>del_barrel</id>
 		<name esES="N/A">Remove</name>
 
@@ -22246,5 +22092,1229 @@
 			<createItem>shearingbench</createItem>
 		</queue>
 	</action>
-</actions>
+	
+	<!-- build dw420 statues -->
 
+	<action>
+		<id>qironherostatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ironherostatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qbronzeherostatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>bronzeherostatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsilverherostatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silverherostatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgoldherostatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>goldherostatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qirongargoylestatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>irongargoylestatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qbronzegargoylestatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>bronzegargoylestatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsilvergargoylestatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silvergargoylestatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgoldgargoylestatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>goldgargoylestatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qironnuxstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ironnuxstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qbronzenuxstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>bronzenuxstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsilvernuxstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silvernuxstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgoldnuxstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>goldnuxstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qironskootenbeetenstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ironskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qbronzeskootenbeetenstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>bronzeskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsilverskootenbeetenstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silverskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgoldskootenbeetenstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>goldskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qironcaesarstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>ironcaesarstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qbronzecaesarstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmcopper</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmiron</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>bronzecaesarstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qsilvercaesarstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silvercaesarstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgoldcaesarstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<lock>masonbench</lock>
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>goldcaesarstatue</createItem>
+		</queue>
+	</action>
+	
+	<!-- dw420 statues rotate -->
+	<action>
+		<id>rotate_ironherostatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironherostatue</move>
+			<replaceCellItem>ironherostatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_ironherostatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironherostatue_E</move>
+			<replaceCellItem>ironherostatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_bronzeherostatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzeherostatue</move>
+			<replaceCellItem>bronzeherostatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_bronzeherostatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzeherostatue_E</move>
+			<replaceCellItem>bronzeherostatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_silverherostatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silverherostatue</move>
+			<replaceCellItem>silverherostatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_silverherostatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silverherostatue_E</move>
+			<replaceCellItem>silverherostatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_goldherostatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldherostatue</move>
+			<replaceCellItem>goldherostatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_goldherostatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldherostatue_E</move>
+			<replaceCellItem>goldherostatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_irongargoylestatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">irongargoylestatue</move>
+			<replaceCellItem>irongargoylestatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_irongargoylestatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">irongargoylestatue_E</move>
+			<replaceCellItem>irongargoylestatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_bronzegargoylestatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzegargoylestatue</move>
+			<replaceCellItem>bronzegargoylestatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_bronzegargoylestatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzegargoylestatue_E</move>
+			<replaceCellItem>bronzegargoylestatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_silvergargoylestatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvergargoylestatue</move>
+			<replaceCellItem>silvergargoylestatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_silvergargoylestatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvergargoylestatue_E</move>
+			<replaceCellItem>silvergargoylestatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_goldgargoylestatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldgargoylestatue</move>
+			<replaceCellItem>goldgargoylestatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_goldgargoylestatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldgargoylestatue_E</move>
+			<replaceCellItem>goldgargoylestatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_ironnuxstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironnuxstatue</move>
+			<replaceCellItem>ironnuxstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_ironnuxstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironnuxstatue_E</move>
+			<replaceCellItem>ironnuxstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_bronzenuxstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzenuxstatue</move>
+			<replaceCellItem>bronzenuxstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_bronzenuxstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzenuxstatue_E</move>
+			<replaceCellItem>bronzenuxstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_silvernuxstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvernuxstatue</move>
+			<replaceCellItem>silvernuxstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_silvernuxstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvernuxstatue_E</move>
+			<replaceCellItem>silvernuxstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_goldnuxstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldnuxstatue</move>
+			<replaceCellItem>goldnuxstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_goldnuxstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldnuxstatue_E</move>
+			<replaceCellItem>goldnuxstatue</replaceCellItem>
+		</queue>
+	</action>
+		
+	<action>
+		<id>rotate_ironskootenbeetenstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironskootenbeetenstatue</move>
+			<replaceCellItem>ironskootenbeetenstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_ironskootenbeetenstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironskootenbeetenstatue_E</move>
+			<replaceCellItem>ironskootenbeetenstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_bronzeskootenbeetenstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzeskootenbeetenstatue</move>
+			<replaceCellItem>bronzeskootenbeetenstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_bronzeskootenbeetenstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzeskootenbeetenstatue_E</move>
+			<replaceCellItem>bronzeskootenbeetenstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_silverskootenbeetenstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silverskootenbeetenstatue</move>
+			<replaceCellItem>silverskootenbeetenstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_silverskootenbeetenstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silverskootenbeetenstatue_E</move>
+			<replaceCellItem>silverskootenbeetenstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_goldskootenbeetenstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldskootenbeetenstatue</move>
+			<replaceCellItem>goldskootenbeetenstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_goldskootenbeetenstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldskootenbeetenstatue_E</move>
+			<replaceCellItem>goldskootenbeetenstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_ironcaesarstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironcaesarstatue</move>
+			<replaceCellItem>ironcaesarstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_ironcaesarstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironcaesarstatue_E</move>
+			<replaceCellItem>ironcaesarstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_bronzecaesarstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzecaesarstatue</move>
+			<replaceCellItem>bronzecaesarstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_bronzecaesarstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzecaesarstatue_E</move>
+			<replaceCellItem>bronzecaesarstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_silvercaesarstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvercaesarstatue</move>
+			<replaceCellItem>silvercaesarstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_silvercaesarstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvercaesarstatue_E</move>
+			<replaceCellItem>silvercaesarstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>rotate_goldcaesarstatue_W</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldcaesarstatue</move>
+			<replaceCellItem>goldcaesarstatue_E</replaceCellItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>rotate_goldcaesarstatue_E</id>
+		<name esES="Girar">Rotate</name>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldcaesarstatue_E</move>
+			<replaceCellItem>goldcaesarstatue</replaceCellItem>
+		</queue>
+	</action>
+	
+	<!-- dw420 new statues delete -->
+	<action>
+		<id>del_ironherostatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironherostatue,ironherostatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>ironherostatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_bronzeherostatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzeherostatue,bronzeherostatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bronzeherostatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_silverherostatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silverherostatue,silverherostatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>silverherostatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_goldherostatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldherostatue,goldherostatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>goldherostatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_irongargoylestatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">irongargoylestatue,irongargoylestatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>irongargoylestatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_bronzegargoylestatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzegargoylestatue,bronzegargoylestatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bronzegargoylestatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_silvergargoylestatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvergargoylestatue,silvergargoylestatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>silvergargoylestatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_goldgargoylestatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldgargoylestatue,goldgargoylestatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>goldgargoylestatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_ironnuxstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironnuxstatue,ironnuxstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>ironnuxstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_bronzenuxstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzenuxstatue,bronzenuxstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bronzenuxstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_silvernuxstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvernuxstatue,silvernuxstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>silvernuxstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_goldnuxstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldnuxstatue,goldnuxstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>goldnuxstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_ironskootenbeetenstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironskootenbeetenstatue,ironskootenbeetenstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>ironskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_bronzeskootenbeetenstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzeskootenbeetenstatue,bronzeskootenbeetenstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bronzeskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_silverskootenbeetenstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silverskootenbeetenstatue,silverskootenbeetenstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>silverskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_goldskootenbeetenstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldskootenbeetenstatue,goldskootenbeetenstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>goldskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_ironcaesarstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">ironcaesarstatue,ironcaesarstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>ironcaesarstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_bronzecaesarstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">bronzecaesarstatue,bronzecaesarstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>bronzecaesarstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_silvercaesarstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">silvercaesarstatue,silvercaesarstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>silvercaesarstatue</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>del_goldcaesarstatue</id>
+		<name esES="N/A">Remove</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">goldcaesarstatue,goldcaesarstatue_E</move>
+			<wait>16</wait>
+			<destroyCellItem />
+			<createItem>goldcaesarstatue</createItem>
+		</queue>
+	</action>
+</actions>

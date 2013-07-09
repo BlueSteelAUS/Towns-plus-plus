@@ -8380,20 +8380,6 @@
 		<action>del_gargoylestatue</action>
 	</gargoylestatue>
 
-	<siriancaesar>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-		<type>decorative.outdoor</type>
-
-		<happiness>2</happiness>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-	</siriancaesar>
-
 	<whiteheadkerchief>
 		<level>1</level>
 		<name esES="Pañuelo blanco de cabeza">White head kerchief</name>
@@ -9224,35 +9210,6 @@
 		<action>rotate_goldunifallowstatue_S</action>
 		<action>del_goldunifallowstatue</action>
 	</goldunifallowstatue>
-
-	<goldnuxstatue>
-		<name esES="Estatua dorada de Nux, el rey de los dioses">Gold statue of Nux, the god king</name>
-		<type>decorative.outdoor</type>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>3</happiness>
-		<value>301</value>
-		<action>rotate_goldnuxstatue_S</action>
-		<action>del_goldnuxstatue</action>
-	</goldnuxstatue>
-
-	<silverskootenbeetenstatue>
-		<name esES="Estatua de skootenbeeten plateada">Silver skootenbeeten statue</name>
-		<description esES="Una obra maestra">A masterpiece</description>
-		<type>decorative.outdoor</type>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>2</happiness>
-		<value>281</value>
-		<action>rotate_silverskootenbeetenstatue_S</action>
-		<action>del_silverskootenbeetenstatue</action>
-	</silverskootenbeetenstatue>
 
 	<snickerpole>
 		<name esES="Estaca snicker">Snicker pole</name>
@@ -18209,33 +18166,6 @@
 		<action>del_goldunifallowstatue</action>
 	</goldunifallowstatue_S>
 
-	<goldnuxstatue_S>
-		<name esES="Estatua dorada de Nux, el rey de los dioses">Gold statue of Nux, the god king</name>
-		<type>cb262.decorative.outdoor</type>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>3</happiness>
-		<value>301</value>
-		<action>rotate_goldnuxstatue_E</action>
-		<action>del_goldnuxstatue</action>
-	</goldnuxstatue_S>
-
-	<silverskootenbeetenstatue_S>
-		<name esES="Estatua de skootenbeeten plateada">Silver Skootenbeeten statue</name>
-		<description esES="Una obra maestra">A masterpiece</description>
-		<type>cb262.decorative.outdoor</type>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<alwaysOperative>false</alwaysOperative>
-		<happiness>2</happiness>
-		<value>281</value>
-		<action>rotate_silverskootenbeetenstatue_E</action>
-		<action>del_silverskootenbeetenstatue</action>
-	</silverskootenbeetenstatue_S>
-
 	<chimney2>
 		<name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendrá caliente">It gets you warm and fuzzy</description>
@@ -18806,4 +18736,713 @@
 		<stackableSize>1</stackableSize>
 		<action>del_shearingbench</action>
 	</shearingbench>
+	
+	<!-- dw420's new items -->
+	<ironherostatue>
+		<name esES="N/A">Iron Hero Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>1</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_ironherostatue_E</action>
+		<action>del_ironherostatue</action>
+	</ironherostatue>
+	
+	<ironherostatue_E>
+		<name esES="N/A">Iron Hero Statue</name>
+
+		<happiness>1</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<action>rotate_ironherostatue_W</action>
+		<action>del_ironherostatue</action>
+	</ironherostatue_E>
+	
+	<bronzeherostatue>
+		<name esES="N/A">Bronze Hero Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>2</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_bronzeherostatue_E</action>
+		<action>del_bronzeherostatue</action>
+	</bronzeherostatue>
+	
+	<bronzeherostatue_E>
+		<name esES="N/A">Bronze Hero Statue</name>
+
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<action>rotate_bronzeherostatue_W</action>
+		<action>del_bronzeherostatue</action>
+	</bronzeherostatue_E>
+	
+	<silverherostatue>
+		<name esES="N/A">Silver Hero Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>3</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_silverherostatue_E</action>
+		<action>del_silverherostatue</action>
+	</silverherostatue>
+	
+	<silverherostatue_E>
+		<name esES="N/A">Silver Hero Statue</name>
+
+		<happiness>3</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<action>rotate_silverherostatue_W</action>
+		<action>del_silverherostatue</action>
+	</silverherostatue_E>
+	
+	<goldherostatue>
+		<name esES="N/A">Gold Hero Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>4</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_goldherostatue_E</action>
+		<action>del_goldherostatue</action>
+	</goldherostatue>
+	
+	<goldherostatue_E>
+		<name esES="N/A">Gold Hero Statue</name>
+
+		<happiness>4</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<action>rotate_goldherostatue_W</action>
+		<action>del_goldherostatue</action>
+	</goldherostatue_E>
+	
+	<irongargoylestatue>
+		<name esES="N/A">Iron Gargoyle Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>1</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_irongargoylestatue_E</action>
+		<action>del_irongargoylestatue</action>
+	</irongargoylestatue>
+	
+	<irongargoylestatue_E>
+		<name esES="N/A">Iron Gargoyle Statue</name>
+
+		<happiness>1</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<action>rotate_irongargoylestatue_W</action>
+		<action>del_irongargoylestatue</action>
+	</irongargoylestatue_E>
+	
+	<bronzegargoylestatue>
+		<name esES="N/A">Bronze Gargoyle Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>2</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_bronzegargoylestatue_E</action>
+		<action>del_bronzegargoylestatue</action>
+	</bronzegargoylestatue>
+	
+	<bronzegargoylestatue_E>
+		<name esES="N/A">Bronze Gargoyle Statue</name>
+
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<action>rotate_bronzegargoylestatue_W</action>
+		<action>del_bronzegargoylestatue</action>
+	</bronzegargoylestatue_E>
+	
+	<silvergargoylestatue>
+		<name esES="N/A">Silver Gargoyle Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>3</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_silvergargoylestatue_E</action>
+		<action>del_silvergargoylestatue</action>
+	</silvergargoylestatue>
+	
+	<silvergargoylestatue_E>
+		<name esES="N/A">Silver Gargoyle Statue</name>
+
+		<happiness>3</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<action>rotate_silvergargoylestatue_W</action>
+		<action>del_silvergargoylestatue</action>
+	</silvergargoylestatue_E>
+	
+	<goldgargoylestatue>
+		<name esES="N/A">Gold Gargoyle Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>4</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_goldgargoylestatue_E</action>
+		<action>del_goldgargoylestatue</action>
+	</goldgargoylestatue>
+	
+	<goldgargoylestatue_E>
+		<name esES="N/A">Gold Gargoyle Statue</name>
+
+		<happiness>4</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<action>rotate_goldgargoylestatue_W</action>
+		<action>del_goldgargoylestatue</action>
+	</goldgargoylestatue_E>
+	
+	<ironnuxstatue>
+		<name esES="N/A">Iron Nux Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>1</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_ironnuxstatue_E</action>
+		<action>del_ironnuxstatue</action>
+	</ironnuxstatue>
+	
+	<ironnuxstatue_E>
+		<name esES="N/A">Iron Nux Statue</name>
+
+		<happiness>1</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<action>rotate_ironnuxstatue_W</action>
+		<action>del_ironnuxstatue</action>
+	</ironnuxstatue_E>
+	
+	<bronzenuxstatue>
+		<name esES="N/A">Bronze Nux Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>2</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_bronzenuxstatue_E</action>
+		<action>del_bronzenuxstatue</action>
+	</bronzenuxstatue>
+	
+	<bronzenuxstatue_E>
+		<name esES="N/A">Bronze Nux Statue</name>
+
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<action>rotate_bronzenuxstatue_W</action>
+		<action>del_bronzenuxstatue</action>
+	</bronzenuxstatue_E>
+	
+	<silvernuxstatue>
+		<name esES="N/A">Silver Nux Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>3</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_silvernuxstatue_E</action>
+		<action>del_silvernuxstatue</action>
+	</silvernuxstatue>
+	
+	<silvernuxstatue_E>
+		<name esES="N/A">Silver Nux Statue</name>
+
+		<happiness>3</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<action>rotate_silvernuxstatue_W</action>
+		<action>del_silvernuxstatue</action>
+	</silvernuxstatue_E>
+	
+	<goldnuxstatue>
+		<name esES="N/A">Gold Nux Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>4</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_goldnuxstatue_E</action>
+		<action>del_goldnuxstatue</action>
+	</goldnuxstatue>
+	
+	<goldnuxstatue_E>
+		<name esES="N/A">Gold Nux Statue</name>
+
+		<happiness>4</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<action>rotate_goldnuxstatue_W</action>
+		<action>del_goldnuxstatue</action>
+	</goldnuxstatue_E>
+	
+	<ironskootenbeetenstatue>
+		<name esES="N/A">Iron Skootenbeeten Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>1</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_ironskootenbeetenstatue_E</action>
+		<action>del_ironskootenbeetenstatue</action>
+	</ironskootenbeetenstatue>
+	
+	<ironskootenbeetenstatue_E>
+		<name esES="N/A">Iron Skootenbeeten Statue</name>
+
+		<happiness>1</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<action>rotate_ironskootenbeetenstatue_W</action>
+		<action>del_ironskootenbeetenstatue</action>
+	</ironskootenbeetenstatue_E>
+	
+	<bronzeskootenbeetenstatue>
+		<name esES="N/A">Bronze Skootenbeeten Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>2</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_bronzeskootenbeetenstatue_E</action>
+		<action>del_bronzeskootenbeetenstatue</action>
+	</bronzeskootenbeetenstatue>
+	
+	<bronzeskootenbeetenstatue_E>
+		<name esES="N/A">Bronze Skootenbeeten Statue</name>
+
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<action>rotate_bronzeskootenbeetenstatue_W</action>
+		<action>del_bronzeskootenbeetenstatue</action>
+	</bronzeskootenbeetenstatue_E>
+	
+	<silverskootenbeetenstatue>
+		<name esES="N/A">Silver Skootenbeeten Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>3</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_silverskootenbeetenstatue_E</action>
+		<action>del_silverskootenbeetenstatue</action>
+	</silverskootenbeetenstatue>
+	
+	<silverskootenbeetenstatue_E>
+		<name esES="N/A">Silver Skootenbeeten Statue</name>
+
+		<happiness>3</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<action>rotate_silverskootenbeetenstatue_W</action>
+		<action>del_silverskootenbeetenstatue</action>
+	</silverskootenbeetenstatue_E>
+	
+	<goldskootenbeetenstatue>
+		<name esES="N/A">Gold Skootenbeeten Statue</name>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>4</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_goldskootenbeetenstatue_E</action>
+		<action>del_goldskootenbeetenstatue</action>
+	</goldskootenbeetenstatue>
+	
+	<goldskootenbeetenstatue_E>
+		<name esES="N/A">Gold Skootenbeeten Statue</name>
+
+		<happiness>4</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<action>rotate_goldskootenbeetenstatue_W</action>
+		<action>del_goldskootenbeetenstatue</action>
+	</goldskootenbeetenstatue_E>
+	
+	<ironcaesarstatue>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>1</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_ironcaesarstatue_E</action>
+		<action>del_ironcaesarstatue</action>
+	</ironcaesarstatue>
+	
+	<ironcaesarstatue_E>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<happiness>1</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+		<action>rotate_ironcaesarstatue_W</action>
+		<action>del_ironcaesarstatue</action>
+	</ironcaesarstatue_E>
+	
+	<bronzecaesarstatue>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>2</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_bronzecaesarstatue_E</action>
+		<action>del_bronzecaesarstatue</action>
+	</bronzecaesarstatue>
+	
+	<bronzecaesarstatue_E>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<happiness>2</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>400</value>
+		<action>rotate_bronzecaesarstatue_W</action>
+		<action>del_bronzecaesarstatue</action>
+	</bronzecaesarstatue_E>
+	
+	<silvercaesarstatue>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>3</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_silvercaesarstatue_E</action>
+		<action>del_silvercaesarstatue</action>
+	</silvercaesarstatue>
+	
+	<silvercaesarstatue_E>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<happiness>3</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>600</value>
+		<action>rotate_silvercaesarstatue_W</action>
+		<action>del_silvercaesarstatue</action>
+	</silvercaesarstatue_E>
+	
+	<goldcaesarstatue>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<type>decorative.outdoor</type>
+
+		<happiness>4</happiness>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>rotate_goldcaesarstatue_E</action>
+		<action>del_goldcaesarstatue</action>
+	</goldcaesarstatue>
+	
+	<goldcaesarstatue_E>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+
+		<happiness>4</happiness>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		
+		<alwaysOperative>false</alwaysOperative>
+		<value>1000</value>
+		<action>rotate_goldcaesarstatue_W</action>
+		<action>del_goldcaesarstatue</action>
+	</goldcaesarstatue_E>
 </items>
