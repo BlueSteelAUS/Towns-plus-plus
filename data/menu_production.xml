@@ -2,7 +2,19 @@
 
 <menu>
 	<construction name="Construction" esES="Construcción" icon="stonehammer">
-		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
+		<doors name="Doors" esES="Puertas" icon="ui_rdoors">		
+		<arc name="Arches" esES="N/A" icon="stonearcdoor1">
+			<item id="qstonearcdoor1" code="QUEUE" parameter="qstonearcdoor1" />
+			<item id="qstonearcdoor2" code="QUEUE" parameter="qstonearcdoor2" />	
+			<item id="qflagblockwhitearc" code="QUEUE" parameter="qflagblockwhitearc" />
+			<item id="qflagblockyellowarc" code="QUEUE" parameter="qflagblockyellowarc" />
+			<item id="qflagblockdarkgreyarc" code="QUEUE" parameter="qflagblockdarkgreyarc" />
+			<item id="qflagblockgreyarc" code="QUEUE" parameter="qflagblockgreyarc" />
+			<item id="qflagblockredarc" code="QUEUE" parameter="qflagblockredarc" />
+			<item id="qflagblocktanarc" code="QUEUE" parameter="qflagblocktanarc" />
+			<item id="qroughbrickarc" code="QUEUE" parameter="qroughbrickarc" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />	
+		</arc>
 			<item id="qlogdoor" code="QUEUE" parameter="qlogdoor" />
 			<item id="qwoodendoor" code="QUEUE" parameter="qwoodendoor" />
 			<item id="qhalfdoor" code="QUEUE" parameter="qhalfdoor" />
@@ -122,13 +134,18 @@
 				<item id="qancientmossblock" code="QUEUE" parameter="qancientmossblock" />
 				<item id="qmayanblock" code="QUEUE" parameter="qmayanblock" />
 				<item id="qwoodenstoneblock" code="QUEUE" parameter="qwoodenstoneblock" />
-				<item id="qflagblockyellow" code="QUEUE" parameter="qflagblockyellow" />
-				<item id="qflagblockred" code="QUEUE" parameter="qflagblockred" />
-				<item id="qflagblockwhite" code="QUEUE" parameter="qflagblockwhite" />
-				<item id="qflagblockgray" code="QUEUE" parameter="qflagblockgray" />
 				<item id="qlimestoneblock" code="QUEUE" parameter="qlimestoneblock" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</stone>
+			<flag name="Flag Brick Walls" esES="N/A" icon="flagblockgrey">
+				<item id="qflagblockwhite" code="QUEUE" parameter="qflagblockwhite" />
+				<item id="qflagblockyellow" code="QUEUE" parameter="qflagblockyellow" />
+				<item id="qflagblockdarkgrey" code="QUEUE" parameter="qflagblockdarkgrey" />
+				<item id="qflagblockgrey" code="QUEUE" parameter="qflagblockgrey" />
+				<item id="qflagblockred" code="QUEUE" parameter="qflagblockred" />
+				<item id="qflagblocktan" code="QUEUE" parameter="qflagblocktan" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</flag>
 
 			<brick name="Stone brick walls" esES="Muros de ladrillos de piedra" icon="ui_sb_walls">
 				<item id="qstonebrickblock" code="QUEUE" parameter="qstonebrickblock" />
@@ -162,7 +179,6 @@
 				<item id="qcolombages" code="QUEUE" parameter="qcolombages" />
 				<item id="qcolombagesx" code="QUEUE" parameter="qcolombagesx" />
 				<item id="qironbars" code="QUEUE" parameter="qironbars" />
-				<item id="qflagblockwhitearc" code="QUEUE" parameter="qflagblockwhitearc" />
 				<item id="qroughbrickarc" code="QUEUE" parameter="qroughbrickarc" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</decorative>
@@ -350,7 +366,7 @@
 					<item id="goldcaesarstatue" code="QUEUE" parameter="qgoldcaesarstatue" />
 					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 				</caesar>
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</dw420statues>
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</statues>
@@ -405,7 +421,7 @@
 				<item id="qfishing" code="QUEUE" parameter="qfishing" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</breeding>
-			
+
 			<cages name="Caged Animals" esES="N/A" icon="chickenincage">
 				<item id="qcagecow" code="QUEUE" parameter="qcagecow" />
 				<item id="qcagebull" code="QUEUE" parameter="qcagebull" />
@@ -834,27 +850,27 @@
 
 	<utils name="Utilities" esES="Útiles" icon="ui_rutils">
 		<workbenches name="Workbenches" esES="N/A" icon="carpentrybench">
-  		<item id="qcarpentrybench" code="QUEUE" parameter="qcarpentrybench" />
-  		<item id="qwooddetailer" code="QUEUE" parameter="qwooddetailer" />
-  		<item id="qcarvingbench" code="QUEUE" parameter="qcarvingbench" />
-  		<item id="qmasonbench" code="QUEUE" parameter="qmasonbench" />
-  		<item id="qbakertable" code="QUEUE" parameter="qbakertable" />
-  		<item id="qbakeroven" code="QUEUE" parameter="qbakeroven" />
-  		<item id="qanvil" code="QUEUE" parameter="qanvil" />
-  		<item id="qsmelter" code="QUEUE" parameter="qsmelter" />
-  		<item id="qitesmithy" code="QUEUE" parameter="qitesmithy" />
-  		<item id="qkitchentable" code="QUEUE" parameter="qkitchentable" />
-  		<item id="qbutchertable" code="QUEUE" parameter="qbutchertable" />
-  		<item id="qstove" code="QUEUE" parameter="qstove" />
-  		<item id="qcookingbowl" code="QUEUE" parameter="qcookingbowl" />
-  		<item id="qcolormixer" code="QUEUE" parameter="qcolormixer" />
-  		<item id="qskinner" code="QUEUE" parameter="qskinner" />
-  		<item id="qartisan" code="QUEUE" parameter="qartisan" />
-  		<item id="qmedicinecabinet" code="QUEUE" parameter="qmedicinecabinet" />
-  		<item id="qbeerbarrel" code="QUEUE" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
-  		<item id="qwinebarrel" code="QUEUE" parameter="qwinebarrel" icon="ui_winebarrel"/>
-  		<item id="qshearingbench" code="QUEUE" parameter="qshearingbench" />
-  		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			<item id="qcarpentrybench" code="QUEUE" parameter="qcarpentrybench" />
+			<item id="qwooddetailer" code="QUEUE" parameter="qwooddetailer" />
+			<item id="qcarvingbench" code="QUEUE" parameter="qcarvingbench" />
+			<item id="qmasonbench" code="QUEUE" parameter="qmasonbench" />
+			<item id="qbakertable" code="QUEUE" parameter="qbakertable" />
+			<item id="qbakeroven" code="QUEUE" parameter="qbakeroven" />
+			<item id="qanvil" code="QUEUE" parameter="qanvil" />
+			<item id="qsmelter" code="QUEUE" parameter="qsmelter" />
+			<item id="qitesmithy" code="QUEUE" parameter="qitesmithy" />
+			<item id="qkitchentable" code="QUEUE" parameter="qkitchentable" />
+			<item id="qbutchertable" code="QUEUE" parameter="qbutchertable" />
+			<item id="qstove" code="QUEUE" parameter="qstove" />
+			<item id="qcookingbowl" code="QUEUE" parameter="qcookingbowl" />
+			<item id="qcolormixer" code="QUEUE" parameter="qcolormixer" />
+			<item id="qskinner" code="QUEUE" parameter="qskinner" />
+			<item id="qartisan" code="QUEUE" parameter="qartisan" />
+			<item id="qmedicinecabinet" code="QUEUE" parameter="qmedicinecabinet" />
+			<item id="qbeerbarrel" code="QUEUE" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
+			<item id="qwinebarrel" code="QUEUE" parameter="qwinebarrel" icon="ui_winebarrel"/>
+			<item id="qshearingbench" code="QUEUE" parameter="qshearingbench" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</workbenches>
 		<item id="qtongs" code="QUEUE" parameter="qtongs" />
 		<item id="qbonecarver" code="QUEUE" parameter="qbonecarver" />

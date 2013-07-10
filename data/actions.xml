@@ -4231,91 +4231,6 @@
 	</action>
 
 	<action>
-		<id>qflagblockyellow</id>
-
-		<priorityID>wallconstruction</priorityID>
-
-		<queue>
-			<lock>masonbench</lock>
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>38</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>flagblockyellow</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qflagblockred</id>
-
-		<priorityID>wallconstruction</priorityID>
-
-		<queue>
-			<lock>masonbench</lock>
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>38</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>flagblockred</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qflagblockgray</id>
-
-		<priorityID>wallconstruction</priorityID>
-
-		<queue>
-			<lock>masonbench</lock>
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>38</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>flagblockgray</createItem>
-		</queue>
-	</action>
-
-
-	<action>
-		<id>qflagblockwhite</id>
-
-		<priorityID>wallconstruction</priorityID>
-
-		<queue>
-			<lock>masonbench</lock>
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>38</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>flagblockwhite</createItem>
-		</queue>
-	</action>
-
-	<action>
-		<id>qflagblockwhitearc</id>
-
-		<priorityID>wallconstruction</priorityID>
-
-		<queue>
-			<lock>masonbench</lock>
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>38</wait>
-			<destroyItem />
-			<pick>rmstone</pick>
-			<move>masonbench</move>
-			<wait>38</wait>
-			<destroyItem />
-			<unlock />
-			<createItem>flagblockwhitearc</createItem>
-		</queue>
-	</action>
-
-	<action>
 		<id>qroughbrickarc</id>
 
 		<priorityID>wallconstruction</priorityID>
@@ -23511,6 +23426,367 @@
 			<wait>32</wait>
 			<destroyItem/> 
 			<createItem>diagonalmahoganylogblock</createItem>
+		</queue>
+	</action>
+	
+	<!-- dw420 Flag Brick Blocks -->
+	<action>
+		<id>qflagblockwhite</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockwhite</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockwhitearc</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockwhitearc</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockwhitesides</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockwhitesides</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qflagblockyellow</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockyellow</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockyellowarc</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockyellowarc</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockyellowsides</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockyellowsides</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qflagblockdarkgrey</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockdarkgrey</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockdarkgreyarc</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockdarkgreyarc</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockdarkgreysides</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockdarkgreysides</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qflagblockgrey</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockgrey</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockgreyarc</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockgreyarc</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockgreysides</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockgreysides</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qflagblockred</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockred</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockredarc</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockredarc</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockredsides</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockredsides</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qflagblocktan</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblocktan</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblocktanarc</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblocktanarc</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblocktansides</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblocktansides</createItem>
 		</queue>
 	</action>
 </actions>

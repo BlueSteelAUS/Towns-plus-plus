@@ -3077,93 +3077,6 @@
 		<value>200</value>
 	</roughbricks>
 
-	<flagblockyellow>
-		<name esES="Bloque amarillo">Yellow flag block</name>
-		<type>construction.blockwalls</type>
-
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<wall>true</wall>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<glue>true</glue>
-		<base>true</base>
-		<blocky>true</blocky>
-
-		<blockFluids>true</blockFluids>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-	</flagblockyellow>
-
-	<flagblockred>
-		<name esES="Bloque rojo">Red flag block</name>
-		<type>construction.blockwalls</type>
-
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<wall>true</wall>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<glue>true</glue>
-		<base>true</base>
-		<blocky>true</blocky>
-
-		<blockFluids>true</blockFluids>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-	</flagblockred>
-
-	<flagblockgray>
-		<name esES="Bloque gris">Gray flag block</name>
-		<type>construction.blockwalls</type>
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<wall>true</wall>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<glue>true</glue>
-		<base>true</base>
-		<blocky>true</blocky>
-
-		<blockFluids>true</blockFluids>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-	</flagblockgray>
-
-	<flagblockwhite>
-		<name esES="Bloque blanco">White flag block</name>
-		<type>construction.blockwalls</type>
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<wall>true</wall>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<glue>true</glue>
-		<base>true</base>
-		<blocky>true</blocky>
-
-		<blockFluids>true</blockFluids>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-	</flagblockwhite>
-
-	<flagblockwhitearc>
-		<name esES="Arco blanco">White flag block arc</name>
-		<type>construction.blockwalls</type>
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<wall>true</wall>
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-		<glue>true</glue>
-		<base>true</base>
-		<wallConnector>true</wallConnector>
-		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-
-		<allowFluids>true</allowFluids>
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-	</flagblockwhitearc>
-
 	<roughbrickarc>
 		<name esES="Arco de ladrillos">Rough brick arc</name>
 		<type>construction.blockwalls</type>
@@ -19681,4 +19594,311 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</diagonalmahoganylogblock>
+	
+	<!-- dw420 Flag Brick Blocks -->
+	<flagblockwhite>
+		<name esES="Bloque blanco">White Flag Block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockwhite>
+
+	<flagblockwhitearc>
+		<name esES="Arco blanco">White Flag Block Arc</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockwhitearc>
+	
+	<flagblockwhitesides>
+		<name esES="Arco blanco">White Flag Block Sides</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockwhitesides>
+	
+	<flagblockyellow>
+		<name esES="Bloque blanco">Yellow Flag Block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockyellow>
+
+	<flagblockyellowarc>
+		<name esES="Arco blanco">Yellow Flag Block Arc</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockyellowarc>
+	
+	<flagblockyellowsides>
+		<name esES="Arco blanco">Yellow Flag Block Sides</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockyellowsides>
+	
+	<flagblockdarkgrey>
+		<name esES="Bloque blanco">Dark Grey Flag Block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockdarkgrey>
+
+	<flagblockdarkgreyarc>
+		<name esES="Arco blanco">Dark Grey Flag Block Arc</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockdarkgreyarc>
+	
+	<flagblockdarkgreysides>
+		<name esES="Arco blanco">Dark Grey Flag Block Sides</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockdarkgreysides>
+	
+	<flagblockgrey>
+		<name esES="Bloque blanco">Grey Flag Block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockgrey>
+
+	<flagblockgreyarc>
+		<name esES="Arco blanco">Grey Flag Block Arc</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockgreyarc>
+	
+	<flagblockgreysides>
+		<name esES="Arco blanco">Grey Flag Block Sides</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockgreysides>
+	
+	<flagblockred>
+		<name esES="Bloque blanco">Red Flag Block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockred>
+
+	<flagblockredarc>
+		<name esES="Arco blanco">Red Flag Block Arc</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockredarc>
+	
+	<flagblockredsides>
+		<name esES="Arco blanco">Red Flag Block Sides</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblockredsides>
+	
+	<flagblocktan>
+		<name esES="Bloque blanco">Tan Flag Block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblocktan>
+
+	<flagblocktanarc>
+		<name esES="Arco blanco">Tan Flag Block Arc</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblocktanarc>
+	
+	<flagblocktansides>
+		<name esES="Arco blanco">Tan Flag Block Sides</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</flagblocktansides>
 </items>

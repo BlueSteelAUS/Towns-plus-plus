@@ -225,14 +225,24 @@
 
 	<construction name="Construction" esES="Construcción" icon="stonehammer">
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
+		<arc name="Arches" esES="N/A" icon="stonearcdoor1">
+			<item id="qstonearcdoor1" code="QUEUEANDPLACEAREA" parameter="qstonearcdoor1" />
+			<item id="qstonearcdoor2" code="QUEUEANDPLACEAREA" parameter="qstonearcdoor2" />	
+			<item id="qflagblockwhitearc" code="QUEUEANDPLACEAREA" parameter="qflagblockwhitearc" />
+			<item id="qflagblockyellowarc" code="QUEUEANDPLACEAREA" parameter="qflagblockyellowarc" />
+			<item id="qflagblockdarkgreyarc" code="QUEUEANDPLACEAREA" parameter="qflagblockdarkgreyarc" />
+			<item id="qflagblockgreyarc" code="QUEUEANDPLACEAREA" parameter="qflagblockgreyarc" />
+			<item id="qflagblockredarc" code="QUEUEANDPLACEAREA" parameter="qflagblockredarc" />
+			<item id="qflagblocktanarc" code="QUEUEANDPLACEAREA" parameter="qflagblocktanarc" />
+			<item id="qroughbrickarc" code="QUEUEANDPLACEAREA" parameter="qroughbrickarc" />
+			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />	
+		</arc>
 			<item id="qlogdoor" code="QUEUEANDPLACEAREA" parameter="qlogdoor" />
 			<item id="qwoodendoor" code="QUEUEANDPLACEAREA" parameter="qwoodendoor" />
 			<item id="qhalfdoor" code="QUEUEANDPLACEAREA" parameter="qhalfdoor" />
 			<item id="qblockdoor" code="QUEUEANDPLACEAREA" parameter="qblockdoor" />
 			<item id="qhedgegate" code="QUEUEANDPLACEAREA" parameter="qhedgegate" />
 			<item id="qfencedoor" code="QUEUEANDPLACEAREA" parameter="qfencedoor" />
-			<item id="qstonearcdoor1" code="QUEUEANDPLACEAREA" parameter="qstonearcdoor1" />
-			<item id="qstonearcdoor2" code="QUEUEANDPLACEAREA" parameter="qstonearcdoor2" />
 			<item id="qbonedoor" code="QUEUEANDPLACEAREA" parameter="qbonedoor" />
 			<item id="qfloodgate" code="QUEUEANDPLACEAREA" parameter="qfloodgate" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
@@ -415,13 +425,18 @@
 				<item id="qancientmossblock" code="QUEUEANDPLACEAREA" parameter="qancientmossblock" />
 				<item id="qmayanblock" code="QUEUEANDPLACEAREA" parameter="qmayanblock" />
 				<item id="qwoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qwoodenstoneblock" />
-				<item id="qflagblockyellow" code="QUEUEANDPLACEAREA" parameter="qflagblockyellow" />
-				<item id="qflagblockred" code="QUEUEANDPLACEAREA" parameter="qflagblockred" />
-				<item id="qflagblockwhite" code="QUEUEANDPLACEAREA" parameter="qflagblockwhite" />
-				<item id="qflagblockgray" code="QUEUEANDPLACEAREA" parameter="qflagblockgray" />
 				<item id="qlimestoneblock" code="QUEUEANDPLACEAREA" parameter="qlimestoneblock" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</stone>
+			<flag name="Flag Brick Walls" esES="N/A" icon="flagblockgrey">
+				<item id="qflagblockwhite" code="QUEUEANDPLACEAREA" parameter="qflagblockwhite" />
+				<item id="qflagblockyellow" code="QUEUEANDPLACEAREA" parameter="qflagblockyellow" />
+				<item id="qflagblockdarkgrey" code="QUEUEANDPLACEAREA" parameter="qflagblockdarkgrey" />
+				<item id="qflagblockgrey" code="QUEUEANDPLACEAREA" parameter="qflagblockgrey" />
+				<item id="qflagblockred" code="QUEUEANDPLACEAREA" parameter="qflagblockred" />
+				<item id="qflagblocktan" code="QUEUEANDPLACEAREA" parameter="qflagblocktan" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+			</flag>
 			<brick name="Stone brick walls" esES="Muros de ladrillos de piedra" icon="ui_sb_walls">
 				<item id="qstonebrickblock" code="QUEUEANDPLACEAREA" parameter="qstonebrickblock" />
 				<item id="qstonebrickblock2" code="QUEUEANDPLACEAREA" parameter="qstonebrickblock2" />
@@ -454,8 +469,6 @@
 				<item id="qcolombages" code="QUEUEANDPLACEAREA" parameter="qcolombages" />
 				<item id="qcolombagesx" code="QUEUEANDPLACEAREA" parameter="qcolombagesx" />
 				<item id="qironbars" code="QUEUEANDPLACEAREA" parameter="qironbars" />
-				<item id="qflagblockwhitearc" code="QUEUEANDPLACEAREA" parameter="qflagblockwhitearc" />
-				<item id="qroughbrickarc" code="QUEUEANDPLACEAREA" parameter="qroughbrickarc" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</decorative>
 			<other name="Other" esES="Otros" icon="ui_o_walls">
