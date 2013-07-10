@@ -369,10 +369,22 @@
 
 		<walls name="Walls" esES="Muros" icon="ui_rwalls">
 			<log name="Log walls" esES="Muros de troncos" icon="ui_l_walls">
+				<item id="qpinelogblock" code="QUEUEANDPLACEAREA" parameter="qpinelogblock" />
+				<item id="qpinelogblock2" code="QUEUEANDPLACEAREA" parameter="qpinelogblock2" />
+				<item id="qdiagonalpinelogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonalpinelogblock" />
+				<item id="qgreenlogblock" code="QUEUEANDPLACEAREA" parameter="qgreenlogblock" />
+				<item id="qgreenlogblock2" code="QUEUEANDPLACEAREA" parameter="qgreenlogblock2" />
+				<item id="qdiagonalgreenlogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonalgreenlogblock" />
+				<item id="qoaklogblock" code="QUEUEANDPLACEAREA" parameter="qoaklogblock" />
+				<item id="qoaklogblock2" code="QUEUEANDPLACEAREA" parameter="qoaklogblock2" />
+				<item id="qdiagonaloaklogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonaloaklogblock" />
+				<item id="qcherrylogblock" code="QUEUEANDPLACEAREA" parameter="qcherrylogblock" />
+				<item id="qcherrylogblock2" code="QUEUEANDPLACEAREA" parameter="qcherrylogblock2" />
+				<item id="qdiagonalcherrylogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonalcherrylogblock" />
+				<item id="qmahoganylogblock" code="QUEUEANDPLACEAREA" parameter="qmahoganylogblock" />
+				<item id="qmahoganylogblock2" code="QUEUEANDPLACEAREA" parameter="qmahoganylogblock2" />
+				<item id="qdiagonalmahoganylogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonalmahoganylogblock" />
 				<item id="qlogwall" code="QUEUEANDPLACEAREA" parameter="qlogwall" />
-				<item id="qlogblock" code="QUEUEANDPLACEAREA" parameter="qlogblock" />
-				<item id="qlogblock2" code="QUEUEANDPLACEAREA" parameter="qlogblock2" />
-				<item id="qdiagonallogblock" code="QUEUEANDPLACEAREA" parameter="qdiagonallogblock" />
 				<item id="qnewlogwall" code="QUEUEANDPLACEAREA" parameter="qnewlogwall" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</log>

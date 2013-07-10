@@ -23317,4 +23317,200 @@
 			<createItem>goldcaesarstatue</createItem>
 		</queue>
 	</action>
+	
+	<!-- dw420 log walls -->
+	<action>
+		<id>qpinelogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/>
+			<createItem>pinelogblock</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qpinelogblock2</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>pinelogblock2</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qdiagonalpinelogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>diagonalpinelogblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qgreenlogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/>
+			<createItem>greenlogblock</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgreenlogblock2</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>greenlogblock2</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qdiagonalgreenlogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>diagonalgreenlogblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qoaklogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/>
+			<createItem>oaklogblock</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qoaklogblock2</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>oaklogblock2</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qdiagonaloaklogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>diagonaloaklogblock</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qcherrylogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/>
+			<createItem>cherrylogblock</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qcherrylogblock2</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>cherrylogblock2</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qdiagonalcherrylogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>diagonalcherrylogblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmahoganylogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/>
+			<createItem>mahoganylogblock</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qmahoganylogblock2</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>mahoganylogblock2</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qdiagonalmahoganylogblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<pick>rmwood</pick>
+			<wait>32</wait>
+			<destroyItem/> 
+			<createItem>diagonalmahoganylogblock</createItem>
+		</queue>
+	</action>
 </actions>

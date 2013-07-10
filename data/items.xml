@@ -19445,4 +19445,240 @@
 		<action>rotate_goldcaesarstatue_W</action>
 		<action>del_goldcaesarstatue</action>
 	</goldcaesarstatue_E>
+	
+	<!-- dw420 Block Walls -->
+	<pinelogblock>
+		<name esES="N/A">Pine Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</pinelogblock>
+
+	<pinelogblock2>
+		<name esES="N/A">Pine Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</pinelogblock2>
+
+	<diagonalpinelogblock>
+		<name esES="N/A">Diagonal Pine Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</diagonalpinelogblock>
+	
+	<greenlogblock>
+		<name esES="N/A">Greenwood Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</greenlogblock>
+
+	<greenlogblock2>
+		<name esES="N/A">Greenwood Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</greenlogblock2>
+
+	<diagonalgreenlogblock>
+		<name esES="N/A">Diagonal Greenwood Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</diagonalgreenlogblock>
+	
+	<oaklogblock>
+		<name esES="N/A">Oak Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</oaklogblock>
+
+	<oaklogblock2>
+		<name esES="N/A">Oak Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</oaklogblock2>
+
+	<diagonaloaklogblock>
+		<name esES="N/A">Diagonal Oak Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</diagonaloaklogblock>
+		
+	<cherrylogblock>
+		<name esES="N/A">Cherry Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</cherrylogblock>
+
+	<cherrylogblock2>
+		<name esES="N/A">Cherry Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</cherrylogblock2>
+
+	<diagonalcherrylogblock>
+		<name esES="N/A">Diagonal Cherry Log Wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</diagonalcherrylogblock>
+	
+	<mahoganylogblock>
+		<name esES="N/A">Mahogany Log</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</mahoganylogblock>
+
+	<mahoganylogblock2>
+		<name esES="N/A">Mahogany Log</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</mahoganylogblock2>
+
+	<diagonalmahoganylogblock>
+		<name esES="N/A">Diagonal Mahogany Log</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</diagonalmahoganylogblock>
 </items>
