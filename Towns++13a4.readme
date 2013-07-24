@@ -1,4 +1,4 @@
-﻿[size=200][color=#0000FF]Towns++ v13a3 (for Towns v13a)[/color][/size]
+﻿[size=200][color=#0000FF]Towns++ v13a4 (for Towns v13a)[/color][/size]
 
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
@@ -7,8 +7,14 @@ Changes since Towns++_v13a3
 ===========================
 BlueSteel's Contributions
 =========================
-    
-    
+-> Fixed right menu QUEUEANDPLACE TO QUEUEANDPLACEAREA    
+-> Cows, Milkedcows, chickens,layedeggchickens removed from butcher list
+   The Right button action remains so that you can kill them manually
+    (will also change unifallow and milkedunifallow,
+                      snoat and milkedsnoat and skinnedmilkedsnoat,
+                      skootenbeeten and layedeggskootenbeeten
+    when we've added in the male counterparts to them ;) )
+        
 LittleMikey's Contributions:
 ============================
 -> Added loads of new graphics by dw420 on the forums! Including but not limited to:
@@ -29,7 +35,7 @@ To install:
 4. As always feel free to leave comments, bug reports, suggestions.
 
 [quote]
-Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/13a3.zip
+Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/13a4.zip
 Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
 NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Towns++
 
@@ -195,6 +201,27 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 
 change logs
 ===========
+Changes since Towns++_v13a3
+===========================
+BlueSteel's Contributions
+=========================
+-> Fixed right menu QUEUEANDPLACE TO QUEUEANDPLACEAREA    
+-> Cows, Milkedcows, chickens,layedeggchickens removed from butcher list
+   The Right button action remains so that you can kill them manually
+    (will also change unifallow and milkedunifallow,
+                      snoat and milkedsnoat and skinnedmilkedsnoat,
+                      skootenbeeten and layedeggskootenbeeten
+    when we've added in the male counterparts to them ;) )
+        
+LittleMikey's Contributions:
+============================
+-> Added loads of new graphics by dw420 on the forums! Including but not limited to:
+*New Statues
+*New ITE graphics
+*New Log Walls
+*New Stone Blocks
+--Massive thanks to dw420 for making all these!---
+
 Changes since Towns++_v13a2
 ===========================
 BlueSteel's Contributions

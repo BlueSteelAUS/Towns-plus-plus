@@ -581,13 +581,13 @@
 			<item id="qsign_13_W" code="QUEUEANDPLACEAREA" parameter="qsign_13_E" icon="sign_13_W" />
 			<item id="qsign_14_W" code="QUEUEANDPLACEAREA" parameter="qsign_14_E" icon="sign_14_W" />
 			<item id="qsign_15_W" code="QUEUEANDPLACEAREA" parameter="qsign_15_E" icon="sign_15_W" />
-			<item id="qwoodenwallsign" code="QUEUEANDPLACE" parameter="qwoodenwallsign" />
-			<item id="qwoodennortharrow" code="QUEUEANDPLACE" parameter="qwoodennortharrow" />
-			<item id="qwoodeneastarrow" code="QUEUEANDPLACE" parameter="qwoodeneastarrow" />
-			<item id="qwoodenwestarrow" code="QUEUEANDPLACE" parameter="qwoodenwestarrow" />
-			<item id="qwoodensoutharrow" code="QUEUEANDPLACE" parameter="qwoodensoutharrow" />
-			<item id="qironwoodenwallsign" code="QUEUEANDPLACE" parameter="qironwoodenwallsign" />
-			<item id="qengravingstone" code="QUEUEANDPLACE" parameter="qengravingstone" />
+			<item id="qwoodenwallsign" code="QUEUEANDPLACEAREA" parameter="qwoodenwallsign" />
+			<item id="qwoodennortharrow" code="QUEUEANDPLACEAREA" parameter="qwoodennortharrow" />
+			<item id="qwoodeneastarrow" code="QUEUEANDPLACEAREA" parameter="qwoodeneastarrow" />
+			<item id="qwoodenwestarrow" code="QUEUEANDPLACEAREA" parameter="qwoodenwestarrow" />
+			<item id="qwoodensoutharrow" code="QUEUEANDPLACEAREA" parameter="qwoodensoutharrow" />
+			<item id="qironwoodenwallsign" code="QUEUEANDPLACEAREA" parameter="qironwoodenwallsign" />
+			<item id="qengravingstone" code="QUEUEANDPLACEAREA" parameter="qengravingstone" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</signs>
 

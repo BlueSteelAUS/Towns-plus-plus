@@ -2691,7 +2691,7 @@
 
 		<queue>
 			<lock>butchertable</lock>
-			<pickFriendly>cow,bull,unifallow,milkedcow,milkedunifallow,sheep,skinnedsheep</pickFriendly>
+			<pickFriendly>bull,unifallow,milkedunifallow,sheep,skinnedsheep</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2707,7 +2707,7 @@
 
 		<queue>
 			<lock>butchertable</lock>
-			<pickFriendly>chicken,rooster,skootenbeeten,layedeggchicken,layedeggskooten</pickFriendly>
+			<pickFriendly>rooster,skootenbeeten,layedeggskooten</pickFriendly>
 			<move>butchertable</move>
 			<wait>32</wait>
 			<destroyFriendly />
