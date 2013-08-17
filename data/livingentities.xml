@@ -1750,7 +1750,7 @@
 	<milkedsnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
-		<name>Snoat</name>
+		<name>Female Snoat</name>
 		<attack>1d119+340</attack>
 		<attackSpeed>5</attackSpeed>
 		<defense>1d119+340</defense>
@@ -1766,14 +1766,14 @@
 		<maxAgeLiving>snoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
 
-		<action>qkillsnoat</action>
+		<action>qkillfemalesnoat</action>
 
 		<drop>
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
 		
-		<action>qcagesnoat</action>
+		<action>qcagefemalesnoat</action>
 		<action>qgetanimalhide</action>
 	</milkedsnoat>
 
@@ -1793,7 +1793,7 @@
 		<walkSpeed>75</walkSpeed>
 
 		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>wildsnoat</maxAgeLiving>
+		<maxAgeLiving>wildfemalesnoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
 
 		<action>qkillsnoat</action>
@@ -1803,7 +1803,7 @@
 			<PCT>70</PCT>
 		</drop>
 		
-		<action>qcagesnoat</action>
+		<action>qcagefemalesnoat</action>
 		<action>qgetanimalhide</action>
 		</wildmilkedsnoat>
 
@@ -2350,7 +2350,7 @@
 	<layedeggskooten>
 		<type>FRIENDLY</type>
 
-		<name>Skootenbeeten</name>
+		<name>Female Skootenbeeten</name>
 		<habitat>jungle</habitat>
 		<attack>1d44+128</attack>
 		<attackSpeed>5</attackSpeed>
@@ -2367,7 +2367,7 @@
 		<facingDirections>true</facingDirections>
 
 		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>skootenbeeten</maxAgeLiving>
+		<maxAgeLiving>femaleskootenbeeten</maxAgeLiving>
 
 		<foodNeeded>wheat</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
@@ -2378,7 +2378,7 @@
 			<PCT>75</PCT>
 		</drop>
 		
-		<action>qcageskootenbeeten</action>
+		<action>qcagefemaleskootenbeeten</action>
 	</layedeggskooten>
 
 	<wildskootenbeeten>
@@ -2416,7 +2416,7 @@
 	<layedeggwildskooten>
 		<type>FRIENDLY</type>
 
-		<name esES="Skootenbeeten salvaje">Wild skootenbeeten</name>
+		<name esES="Skootenbeeten salvaje">Wild female skootenbeeten</name>
 		<habitat>jungle</habitat>
 		<attack>1d44+128</attack>
 		<attackSpeed>5</attackSpeed>
@@ -2429,11 +2429,11 @@
 		<movePCT>1d5+5</movePCT>
 		<walkSpeed>75</walkSpeed>
 
-		<action>qkillskootenbeeten</action>
+		<action>qkillfemaleskootenbeeten</action>
 		<facingDirections>true</facingDirections>
 
 		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>wildskootenbeeten</maxAgeLiving>
+		<maxAgeLiving>wildfemaleskootenbeeten</maxAgeLiving>
 
 		<drop>
 			<item>rawpoultry</item>
@@ -2444,8 +2444,8 @@
 			<PCT>75</PCT>
 		</drop>
 		
-		<action>qcageskootenbeeten</action>
-		<action>qwildskootenfeather</action>
+		<action>qcagefemaleskootenbeeten</action>
+		<action>qwildfemaleskootenfeather</action>
 	</layedeggwildskooten>
 
 	<!-- ENEMIES -->
@@ -5260,4 +5260,403 @@
 
 		<caravan>construction</caravan>
 	</constructioncaravan>
+	
+	
+	<femalebadger>                                                                                           
+		<type>FRIENDLY</type>                                                                            
+	                                                                                                   
+		<name esES="Tejón">Female Badger</name>                                                                 
+		<habitat>grass</habitat>                                                                         
+		<habitat>grass1</habitat>                                                                        
+		<attack>1d59+170</attack>                                                                        
+		<attackSpeed>5</attackSpeed>                                                                     
+		<defense>1d59+170</defense>                                                                      
+		<healthPoints>1d59+170</healthPoints>                                                            
+		<attackVerb esES="muerde">bites</attackVerb>                                                     
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>                                  
+		<damage>1d44+128</damage>                                                                        
+	                                                                                                   
+		<movePCT>1d4+1</movePCT>                                                                         
+		<walkSpeed>75</walkSpeed>                                                                        
+	                                                                                                   
+		<building>femalebadgerfarm</building>                                                                  
+		<buildingTime>4880</buildingTime>                                                                
+	                                                                                                   
+		<action>qkillbadger</action>                                                                     
+		<facingDirections>true</facingDirections>                                                        
+	                                                                                                   
+		<foodNeeded>wheat</foodNeeded>                                                                   
+		<foodNeededTurns>2880</foodNeededTurns>                                                          
+		<foodNeededDieTurns>2880</foodNeededDieTurns>                                                    
+	                                                                                                   
+		<drop>                                                                                           
+			<item>bones</item>                                                                             
+			<PCT>75</PCT>                                                                                  
+		</drop>                                                                                          
+		                                                                                                 
+		<action>qcagefemalebadger</action>                                                                     
+	</femalebadger>                                                                                          
+	                                                                                                   
+	<wildfemalebadger>                                                                                       
+		<type>FRIENDLY</type>                                                                            
+	                                                                                                   
+		<name esES="Tejón salvaje">Wild female badger</name>                                                    
+		<habitat>grass</habitat>                                                                         
+		<habitat>grass1</habitat>                                                                        
+		<attack>1d59+170</attack>                                                                        
+		<attackSpeed>5</attackSpeed>                                                                     
+		<defense>1d59+170</defense>                                                                      
+		<healthPoints>1d59+170</healthPoints>                                                            
+		<attackVerb esES="muerde">bites</attackVerb>                                                     
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>                                  
+		<damage>1d44+128</damage>                                                                        
+	                                                                                                   
+		<movePCT>1d4+1</movePCT>                                                                         
+		<walkSpeed>75</walkSpeed>                                                                        
+	                                                                                                   
+		<action>qkillbadger</action>                                                                     
+		<facingDirections>true</facingDirections>                                                        
+	                                                                                                   
+		<drop>                                                                                           
+			<item>bones</item>                                                                             
+			<PCT>75</PCT>                                                                                  
+		</drop>                                                                                          
+		<drop>                                                                                           
+			<item>rawbadgermeat</item>                                                                     
+			<PCT>15</PCT>                                                                                  
+		</drop>                                                                                          
+		                                                                                                 
+		<action>qcagefemalebadger</action>                                                                     
+	</wildfemalebadger>                                                                                      
+	
+	
+	
+	
+	<femaleskootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name>Female Skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemaleskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<building>femaleskootenbeetenfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>1440</foodNeededTurns>
+		<foodNeededDieTurns>1440</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		
+		<action>qcagefemaleskootenbeeten</action>
+	</femaleskootenbeeten>
+
+	<wildfemaleskootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name esES="Skootenbeeten salvaje">Wild female skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemaleskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		
+		<action>qcagesfemalekootenbeeten</action>
+		<action>qwildskootenfeather</action>
+	</wildfemaleskootenbeeten>
+
+
+	<femaleunifallow>
+		<type>FRIENDLY</type>
+
+		<name>Female Unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemaleunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<building>femaleunifallowfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<foodNeeded>cactusfruit</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemaleunifallow</action>
+		<action>qgetfemaleunifallowhide</action>
+	</femaleunifallow>
+
+	<milkedunifallow>
+		<type>FRIENDLY</type>
+
+		<name>Female Unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemaleunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>femaleunifallow</maxAgeLiving>
+
+		<foodNeeded>cactusfruit</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemaleunifallow</action>
+		<action>qgetfemaleunifallowhide</action>
+	</milkedunifallow>
+
+	<wildfemaleunifallow>
+		<type>FRIENDLY</type>
+
+		<name esES="Unifallow salvaje">Wild female unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemaleunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemaleunifallow</action>
+		<action>qgetfemaleunifallowhide</action>
+	</wildfemaleunifallow>
+
+
+	<milkedwildunifallow>
+		<type>FRIENDLY</type>
+
+		<name esES="Unifallow salvaje">Wild female unifallow</name>
+		<habitat>sand</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemaleunifallow</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildfemaleunifallow</maxAgeLiving>
+
+		<drop>
+			<item>rawsteak</item>
+			<PCT>30</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemaleunifallow</action>
+		<action>qgetfemaleunifallowhide</action>
+	</milkedwildunifallow>
+
+
+	<femalesnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name>Female Snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<building>femalesnoatfarm</building>
+		<buildingTime>2880</buildingTime>
+
+		<action>qkillfemalesnoat</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		<foodNeeded>apple,pear,wheat</foodNeeded>
+		
+		<action>qcagefemalesnoat</action>
+		<action>qgetanimalhide</action>
+	</femalesnoat>
+
+	<wildfemalesnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Snoat salvaje">Wild female snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemalesnoat</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+		<action>qcagefemalesnoat</action>
+		<action>qgetanimalhide</action>
+	</wildfemalesnoat>
+
+
+	<skinnedfemalesnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Snoat trasquilado">Shorn female snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>femalesnoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillfemalesnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemalesnoat</action>
+		<action>qgetanimalhide</action>
+	</skinnedfemalesnoat>
+
+	<wildskinnedfemalesnoat>
+		<type>FRIENDLY</type>
+		<habitat>snow</habitat>
+		<name esES="Snoat salvaje trasquilado">Shorn wild female snoat</name>
+		<attack>1d119+340</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d119+340</defense>
+		<healthPoints>1d59+170</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+
+		<movePCT>1d3</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildfemalesnoat</maxAgeLiving>
+		<facingDirections>true</facingDirections>
+
+		<action>qkillwildfemalesnoat</action>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+
+		<action>qcagefemalesnoat</action>
+		<action>qgetanimalhide</action>
+
+	</wildskinnedfemalesnoat>
+	
+	
 </livingentities>
