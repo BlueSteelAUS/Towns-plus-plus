@@ -3082,7 +3082,7 @@
 		<grouping>true</grouping>
 
 		<facingDirections>true</facingDirections>
-		<stealLivings>cow,milkedcow,bull,chicken,rooster,pig,boar,skootenbeeten,unifallow,milkedunifallow,snoat,milkedsnoat,</stealLivings>
+		<stealLivings>cow,milkedcow,bull,chicken,rooster,pig,boar,skootenbeeten,unifallow,milkedunifallow,snoat,milkedsnoat</stealLivings>
 
 		<drop>
 			<item>RANDOM</item>
