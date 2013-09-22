@@ -3,6 +3,7 @@
 	<comePrerequisites>
 		<barbarian>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>bonebed</freeRoomItems>
 			<levelDiscovered>2</levelDiscovered>
 			<minCitizens>10</minCitizens>
 			<zone>ztavern</zone>
@@ -10,6 +11,7 @@
 
 		<thief>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>decorativechest</freeRoomItems>
 			<minCitizens>10</minCitizens>
 			<zone>ztavern</zone>
 		</thief>
@@ -22,6 +24,7 @@
 
 		<knight>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>woodenbed</freeRoomItems>
 			<levelDiscovered>2</levelDiscovered>
 			<minCitizens>10</minCitizens>
 			<zone>ztavern</zone>
@@ -36,6 +39,7 @@
 
 		<elf>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>harp</freeRoomItems>
 			<levelDiscovered>2</levelDiscovered>
 			<minCitizens>11</minCitizens>
 			<zone>ztavern</zone>
@@ -43,6 +47,7 @@
 
 		<mage>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>woodencupboard</freeRoomItems>
 			<levelDiscovered>4</levelDiscovered>
 			<minCitizens>12</minCitizens>
 			<zone>ztavern</zone>
@@ -50,6 +55,7 @@
 
 		<sips>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>necromancerstatue</freeRoomItems>
 			<levelDiscovered>4</levelDiscovered>
 			<minCitizens>14</minCitizens>
 			<zone>ztavern</zone>
@@ -57,6 +63,7 @@
 
 		<vechs>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>birdincage</freeRoomItems>
 			<levelDiscovered>4</levelDiscovered>
 			<minCitizens>14</minCitizens>
 			<zone>ztavern</zone>
@@ -64,6 +71,7 @@
 
 		<punchwood>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>woodenbed,stonemalestatue</freeRoomItems>
 			<levelDiscovered>4</levelDiscovered>
 			<minCitizens>14</minCitizens>
 			<zone>ztavern</zone>
@@ -71,6 +79,7 @@
 
 		<herbalist>
 			<freeRoom>true</freeRoom>
+			<freeRoomItems>potplant</freeRoomItems>
 			<levelDiscovered>4</levelDiscovered>
 			<minCitizens>14</minCitizens>
 			<zone>ztavern</zone>

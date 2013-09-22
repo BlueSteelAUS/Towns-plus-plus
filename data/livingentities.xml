@@ -212,8 +212,8 @@
 		<attackSpeed>4</attackSpeed>
 		<defense>1d539+430</defense>
 		<healthPoints>1d2050+2550</healthPoints>
-		<attackVerb esES="cabezagolpea">headpunches</attackVerb>
-		<attackVerbInfinitive esES="cabezagolpear">headpunch</attackVerbInfinitive>
+		<attackVerb esES="cabezagolpea">headbutts</attackVerb>
+		<attackVerbInfinitive esES="cabezagolpear">headbutt</attackVerbInfinitive>
 		<damage>1d59+200</damage>
 
 		<LOS>1d2+3</LOS>
@@ -4001,6 +4001,7 @@
 		<attackVerb esES="ataca">attacks</attackVerb>
 		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
 		<damage>1d179+610</damage>
+		<facingDirections>true</facingDirections>
 		
 		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
 
@@ -4039,6 +4040,7 @@
 		<attackVerb esES="ataca">attacks</attackVerb>
 		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
 		<damage>1d214+668</damage>
+		<facingDirections>true</facingDirections>
 
 		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
 
@@ -4076,6 +4078,7 @@
 		<attackVerb esES="ataca">attacks</attackVerb>
 		<attackVerbInfinitive esES="atacar">attack</attackVerbInfinitive>
 		<damage>1d249+725</damage>
+		<facingDirections>true</facingDirections>
 
 		<effectsImmune>plagued,blunt5,blunt10,blunt15,slash5,slash10,slash15</effectsImmune>
 
@@ -4188,6 +4191,7 @@
 		<attackVerb esES="maldice">curses</attackVerb>
 		<attackVerbInfinitive esES="maldecir">curse</attackVerbInfinitive>
 		<damage>1d279+510</damage>
+		<facingDirections>true</facingDirections>
 
 		<effects>magic10</effects>
 		<effectsImmune>slash5,slash10,slash15</effectsImmune>
@@ -4535,6 +4539,7 @@
 		<attackVerb esES="ataca">punches</attackVerb>
 		<attackVerbInfinitive esES="atacar">punch</attackVerbInfinitive>
 		<damage>1d1199+1900</damage>
+		<facingDirections>true</facingDirections>
 
 		<effects>blunt15</effects>
 		<effectsImmune>pierce5,pierce10,pierce15,slash5,slash10,slash15,blunt5,blunt10,blunt15</effectsImmune>
@@ -4570,6 +4575,7 @@
 		<attackVerb esES="ataca">crushes</attackVerb>
 		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
 		<damage>1d1349+2225</damage>
+		<facingDirections>true</facingDirections>
 
 		<effects>blunt15</effects>
 		<effectsImmune>pierce5,pierce10,pierce15,slash5,slash10,slash15,blunt5,blunt10,blunt15,magic5,magic10,magic15</effectsImmune>
@@ -4604,6 +4610,7 @@
 		<attackVerb esES="ataca">crushes</attackVerb>
 		<attackVerbInfinitive esES="atacar">crush</attackVerbInfinitive>
 		<damage>1d1149+1625</damage>
+		<facingDirections>true</facingDirections>
 
 		<effects>slash15,pierce15</effects>
 

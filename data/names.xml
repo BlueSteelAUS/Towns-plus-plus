@@ -1414,18 +1414,65 @@
 	<elvensurname>Weréseth</elvensurname>
 	<elvensurname>Yraulithe</elvensurname>
 
-	<goblin>Gark</goblin>
-	<goblin>Gnorl</goblin>
-	<goblin>Nusep</goblin>
-	<goblin>Tark</goblin>
-	<goblin>Wukh</goblin>
-	<goblin>Yumi</goblin>
+	<god>Ao</god>
+	<god>Bent</god>
+	<god>Bron</god>
+	<god>Brun</god>
+	<god>Clot</god>
+	<god>Dev</god>
+	<god>Don</god>
+	<god>Eir</god>
+	<god>Flins</god>
+	<god>Gu</god>
+	<god>Hel</god>
+	<god>Her</god>
+	<god>Hors</god>
+	<god>Ish</god>
+	<god>Jojo</god>
+	<god>Ko</god>
+	<god>Lado</god>
+	<god>Lono</god>
+	<god>Lug</god>
+	<god>Malp</god>
+	<god>Mid</god>
+	<god>Mog</god>
+	<god>Myr</god>
+	<god>Nex</god>
+	<god>Niam</god>
+	<god>Nott</god>
+	<god>Nua</god>
+	<god>Nux</god>
+	<god>Ois</god>
+	<god>Pan</god>
+	<god>Qu</god>
+	<god>Rev</god>
+	<god>Sat</god>
+	<god>Seth</god>
+	<god>Tal</god>
+	<god>Thor</god>
+	<god>Tyr</god>
+	<god>Uba</god>
+	<god>Uli</god>
+	<god>Val</god>
+	<god>Vul</god>
+	<god>Wuru</god>
+	<god>Xaca</god>
+	<god>Yama</god>
+	<god>Yhi</god>
+	<god>Zulu</god>
 
 	<nick>The rock</nick>
 	<nick>The beastfighter</nick>
 	<nick>The clown</nick>
 	<nick>The mad</nick>
 	<nick>Serious</nick>
+
+	<goblin>Gark</goblin>
+	<goblin>Gnorl</goblin>
+	<goblin>Nusep</goblin>
+	<goblin>Tark</goblin>
+	<goblin>Wukh</goblin>
+	<goblin>Yumi</goblin>
 	
 	<!-- New Names from EricB -LM -->
 	

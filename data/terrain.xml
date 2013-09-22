@@ -526,7 +526,7 @@
 		<name esES="Humus en hierba">Humus on grass</name>
 		<mineTurns>0</mineTurns>
 		<action>quntillgrass</action>
-		</humus>
+	</humus>
 
 	<junglehumus>
 		<name esES="Humus en jungla">Humus on jungle</name>

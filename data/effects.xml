@@ -1205,6 +1205,43 @@
 	</effect>
 
 	<effect>
+		<id>godlightning</id>
+		<name esES="Rayo de los dioses">Gods lightning</name>
+
+		<DOT>10000</DOT>
+		<lasts>5</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>farchants</id>
+		<name esES="Cánticos remotos">Far chants</name>
+
+		<damagePCT>120</damagePCT>
+		<defensePCT>120</defensePCT>
+		<attackPCT>120</attackPCT>
+		<healthPointsPCT>120</healthPointsPCT>
+
+		<lasts>1440</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>parrotsmell</id>
+		<name esES="Olor a zanahoria">Parrot smell</name>
+
+		<LOSPCT>180</LOSPCT>
+
+		<lasts>1440</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
 		<id>hathappy</id>
 		<name esES="sombrero de la felicidad">Hat Happiness</name>
 

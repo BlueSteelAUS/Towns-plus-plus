@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <menu>
-
 	<item id="harvest" name="Harvest" esES="Recolectar" code="CUSTOMACTION" parameter="qharvestapple,qharvestpear,qharvestwheat,qharvestsugarcane,qharvestbamboo,qharvestplanttrap,qharvestwildwheat,qharvestwildsugarcane,qharvestwildbamboo,qharvestblueradish,qharvestsnowcherry,qharvestbanana,qpickmushroom,qpickcavemushroom,qharvestcactus,qgatherredflower,qgatherplantedredflower,qgatherblueflower,qgatherplantedblueflower,qgatheryellowflower,qgatherplantedyellowflower,qharvestppear,qharvestpapple,qharvestpbanana,qharvestpblueradish,qharvestpcactus,qharvestpsnowcherry,qpickpcavemushroom,qpickpmushroomq,qgatherorangeflower,qgatherplantedorangeflower,qgatherpurpleflower,qgatherplantedpurpleflower,qgathergreenflower,qgatherplantedgreenflower,qgatherpinkflower,qgatherplantedpinkflower,qgatherwhiteflower,qgatherplantedwhiteflower,qgatherblackflower,qgatherplantedblackflower" icon="ui_harvest" />
 	<item id="chop" name="Chop" esES="Talar" code="CUSTOMACTION" parameter="qchop,qchopplantedtree,qchopplantedtree2,qchopplantedsnowtree,qchopplantedjungletree,qchopplantedpalmtree,qchopsleeper,qchopsleeper2" icon="ui_chop" />
 	<item id="cut" name="Cut" esES="Cortar" code="CUSTOMACTION" parameter="qcut" icon="ui_cut" />
@@ -13,7 +12,7 @@
 		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
 		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
 		<item id="prepfood" name="Prepared food" esES="Comida preparada" code="STOCKPILE" parameter="prepfood" icon="ui_sprepfood" />
-		<item id="utils" name="Utilities" esES="Utiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
+		<item id="utils" name="Utilities" esES="Útiles" code="STOCKPILE" parameter="utils" icon="ui_sutils" />
 		<item id="furniture" name="Furniture" esES="Muebles" code="STOCKPILE" parameter="furniture" icon="ui_sfurniture" />
 		<item id="ites" name="ITEs" esES="ITEs" code="STOCKPILE" parameter="ites" icon="ui_sites" />
 		<item id="armor" name="Armor" esES="Armaduras" code="STOCKPILE" parameter="armor" icon="ui_sarmor" />
