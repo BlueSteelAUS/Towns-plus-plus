@@ -1256,7 +1256,7 @@
 
 	<appletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitat>grass1</habitat
+		<habitat>grass1</habitat>
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>bushapple</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -1268,7 +1268,7 @@
 
 	<harvestingappletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitat>grass1</habitat
+		<habitat>grass1</habitat>
 		<spawn>apple</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
@@ -1278,12 +1278,11 @@
 
 	<harvestedappletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitat>grass1</habitat
+		<habitat>grass1</habitat>
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>appletree</maxAgeItem>
 		<action>qchop</action>
 	</harvestedappletree>
-
 
 	<pearseed>
 		<name esES="Semilla de peral">Pear seedling</name>
