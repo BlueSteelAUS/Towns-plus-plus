@@ -38,6 +38,9 @@ menu.txt
 
 prefixsuffix.xml
 prices.xml
+events.xml
+gen_events.xml
+gods.xml
 
 buildings.png
 cursor.png
