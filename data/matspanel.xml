@@ -1,52 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <groups>
 	<group>
+		<id>armors</id>
 		<name esES="Armaduras">Armors</name>
 		<icon>icon_mats_armors</icon>
 		<types>armor.iron,armor.bone,armor.spiderite,armor.direite,armor.misc,armor.ghoulite,armor.goblinite,armor.hobgoblinite,armor.ogreite,armor.snickerite,armor.wood,armor.zombite,armor,armor.gold,armor.silver,armor.special,armor.cloth,armor.residuum,armor.quantonium,armor.oxium,armor.onnesium,armor.dilithium,armor.viridium,armor.tarydium,armor.solarbonite,armor.zexonite,armor.plasteel</types>
 	</group>
 
 	<group>
+		<id>mats</id>
 		<name esES="Materiales">Materials</name>
 		<icon>icon_mats_mats</icon>
 		<types>rawmaterials.materials,rawmaterials.misc,rawmaterials.heads,rawmaterials.colors,ites,rawmaterials.hides,rawmaterials</types>
 	</group>
 
 	<group>
+		<id>food</id>
 		<name esES="Comida">Prepaired Food</name>
 		<icon>icon_mats_food</icon>
 		<types>prepfood.baked,prepfood.cooked,prepfood.fruit,prepfood</types>
 	</group>
 
 	<group>
+		<id>rawfood</id>
 		<name esES="Comida cruda">Raw food</name>
 		<icon>icon_mats_rawfood</icon>
 		<types>rawfood,rawfood.meat,rawfood.gathered,rawfood.harvested,rawfood.processed</types>
 	</group>
 
 	<group>
+	<id>utilities</id>
 		<name esES="Utilidades">Utilities</name>
 		<icon>icon_mats_utils</icon>
 		<types>utils.misc,utils.materials,utils.roads,utils.workshops,utils</types>
 	</group>
 
 	<group>
+		<id>vanity</id>
 		<name esES="Vanidad">Vanity</name>
 		<icon>icon_mats_vanity</icon>
 		<types>armor.vanity,decorative.indoor,decorative.outdoor,decorative,decorative.winter</types>
 	</group>
 
 	<group>
+		<id>armors</id>
 		<name esES="Armas">Weapons</name>
 		<icon>icon_mats_weapons</icon>
 		<types>weapon.stone,weapon.misc,weapon.iron,weapon.bone,weapon.spiderite,weapon.direite,weapon.ghoulite,weapon,weapon.goblinite,weapon.hobgoblinite,weapon.ogreite,weapon.snickerite,weapon.wood,weapon.zombite,weapon.gold,weapon.silver,weapon.special</types>
 	</group>
 
 	<group>
+		<id>weapons</id>
 		<name>Written</name>
 		<icon>ui_script</icon>
 		<types>script</types>
 	</group>
 </groups>
-
-	
