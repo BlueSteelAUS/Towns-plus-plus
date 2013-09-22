@@ -114,7 +114,6 @@
 		<buryItemPCT>2,2,1,100</buryItemPCT>
 		<buryLivings>snickerblade,snickerblade,snickerblade,snickerblade</buryLivings>
 		<buryLivingsPCT>3,3,3,3</buryLivingsPCT>
-		<action>rotate_armorcabinet_W</action>
 	</armorcabinet>
 
 	<weaponcabinet>
@@ -131,7 +130,6 @@
 		<buryItemPCT>2,2,1,100</buryItemPCT>
 		<buryLivings>snickerblade,snickerblade,snickerblade,snickerblade</buryLivings>
 		<buryLivingsPCT>3,3,3,3</buryLivingsPCT>
-		<action>rotate_weaponcabinet_W</action>
 	</weaponcabinet>
 
 	<!-- /CONTAINERS -->
@@ -1258,7 +1256,7 @@
 
 	<appletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitat>grass1</habitat>
+		<habitat>grass1</habitat
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>bushapple</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -1270,7 +1268,7 @@
 
 	<harvestingappletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitat>grass1</habitat>
+		<habitat>grass1</habitat
 		<spawn>apple</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
@@ -1280,7 +1278,7 @@
 
 	<harvestedappletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitat>grass1</habitat>
+		<habitat>grass1</habitat
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>appletree</maxAgeItem>
 		<action>qchop</action>
@@ -1355,7 +1353,7 @@
 
 	<harvestingpeartree>
 		<name esES="Peral">Pear tree</name>
-		<habitat>grass1</habitat>
+		<habitat>humus</habitat>
 		<spawn>pear</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
@@ -1365,7 +1363,7 @@
 
 	<harvestedpeartree>
 		<name esES="Peral">Pear tree</name>
-		<habitat>grass1</habitat>
+		<habitat>humus</habitat>
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>peartree</maxAgeItem>
 		<action>qchop</action>
@@ -3156,9 +3154,6 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_sandstairs1b</action>
-		<action>rotate_sandstairs1c</action>
-		<action>rotate_sandstairs1d</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_sandstairs1</action>
@@ -3245,9 +3240,6 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_woodstairs2b</action>
-		<action>rotate_woodstairs2c</action>
-		<action>rotate_woodstairs2d</action>
 		<action>del_ladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -3266,9 +3258,6 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_woodstairs1b</action>
-		<action>rotate_woodstairs1c</action>
-		<action>rotate_woodstairs1d</action>
 		<action>del_woodenladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -3353,6 +3342,22 @@
 		<value>200</value>
 	</clayroof>
 
+	<boneroof>
+		<name esES="Techo de hueso">Bone roof</name>
+
+		<type>utils.misc</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>40</value>
+	</boneroof>
+	
 	<brokenroof>
 		<name esES="Techo roto">Broken roof</name>
 		<description esES="Para dormir bajo las estrellas">For sleeping under the stars</description>
@@ -3765,6 +3770,16 @@
 		<locked>true</locked>
 	</farmfence>
 
+	<whitefence>
+		<name esES="Valla blanca">White fence</name>
+
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<locked>true</locked>
+	</whitefence>
 	<totem>
 		<name esES="Tótem">Totem pole</name>
 
@@ -3904,6 +3919,18 @@
 		<value>250</value>
 	</bonewall>
 
+	<boneblock>
+		<name esES="Bloque de hueso">Bone block</name>
+
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+	</boneblock>
 
 	<mudwall>
 		<name esES="Muro de barro">Mud wall</name>
