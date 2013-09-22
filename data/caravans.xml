@@ -69,13 +69,13 @@
 		<coins>1d2000+2000</coins>
 		<buys>rawmaterials,rawmaterials.colors,rawmaterials.materials,decorative.special</buys>
 		<comePCT>100</comePCT>
-
+<!--
 		<item>
 			<type>furniture</type>
 			<PCT>100</PCT>
 			<quantity>1d20+20</quantity>
 		</item>
-
+-->
 		<item>
 			<type>furniture.beds</type>
 			<PCT>100</PCT>
