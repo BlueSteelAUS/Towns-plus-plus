@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<!--
+		<event>
+			<id> -> Event ID
+			<name> -> Event name
+
+			<icon> Icon ID, graphics.ini reference
+			<order> Numeric value that indicates the order in the events list (lower number means the event will appear in a higher position). UI only tag.
+
+			<minPopulation> Minimum number of citizens (not a dice) needed in order to spawn the event (default is 0)
+
+			<spawnAtRandom> Boolean value, default is true. False means that the event won't be spawned. Used on dawn/day/evening/night events
+
+			<prerequisites> EventID list, events that need to be active to activate this one
+
+			<shadows>true / (false) -> Render shadows on all the cells
+			<halfShadows>true / (false) -> Render half-shadows on all the cells
+
+			<red> -> Number to be added to the red component of the RGB, it allows negative numbers. It should range from -1 to 1
+			<green> -> Number to be added to the green component of the RGB, it allows negative numbers. It should range from -1 to 1
+			<blue> -> Number to be added to the blu component of the RGB, it allows negative numbers. It should range from -1 to 1
+
+			<items> -> ItemID list
+			<itemsMaxAgePCT> -> PCT number list to be applied to the maxAge of each item
+			<itemsDeletePCT> -> PCT number list (dices) with the individual chance to delete every selected item 
+			<itemsSpawnLiving> -> List of living entities IDS, to be spawned from an item 
+			<itemsSpawnLivingSize> -> List of numbers (dices). Indicating the number of livings that will spawn for each item 
+
+			<happinessPCT> PCT number (dice) that affects all the citizens when the event spawns		
+			<walkSpeedPCT> PCT number (dice) that affects all the citizens when the event spawns		
+
+			<waitPCT> -> PCT number (dice) to be applied to the <wait> queue actions
+
+			<eventsImmune> EventID list with the events that won't appear while this one is active (it also removes the current events)
+
+			<eventCooldown> Number of turns (dice) where this event will apply
+
+			<targets> -> Comma separated list. Possible values: HERO,FRIENDLY,ALLY,ENEMY,CITIZEN
+			<targetsPCT> -> Comma separated list with number PCT (dice) to check for every target
+			<targetsRandomCell> Dice number. It will choose X cells at random and the effects will be applied to all the livings of the choosed cells.
+			<targetsOpenCell> Boolean. Default is false. If true the targets under a roof won't receive the effects
+			<effects> -> EffectID list with effects that will be applied to the <targets> (one time only effects)
+			<effectsAfterEat> -> EffectID list with effects that will be applied to the <targets> after they eat
+			<effectsAfterSleep> -> EffectID list with effects that will be applied to the <targets> after they sleep
+
+			<siege> true / (false) -> A siege will be spawned (underground or not, robbery or not)
+			<siegeUnderground> true / (false) -> A siege underground will be spawned (not robbery sieges)
+			<siegeLivings> -> LivingID list with the living entities that will form the siege (if is not set it will take the internal formulas)
+			<siegeSize> -> Number (dice) list with the size of each livings (needs siegeLivings to be declared, if not do nothing)
+
+			<fxBeforeCooldown> -> Audio ID played when the event is placed on the events list
+			<fxAfterCooldown> -> Audio ID played when the event cooldown (if it have cooldown) ends
+			<fxRunning> -> Audio ID played when the event starts to apply (after the cooldown)
+			<fxRunningTurns> -> If set, the <fxRunning> is played in a loop. Number of turns between plays
+			<fxFinish> -> Audio ID played when the event is removed from the events list
+
+			<useFile> -> File name with some map seeds/beziers/heightseeds/changes scripting
+			<useFileIDs> -> IDs of the seeds/beziers/heightseeds/changes to launch
+
+			<injectActions> -> List of Action IDs to be injected to the task manager
+
+			<turns> -> Number of turns (dice) the event will remain
+
+			<afterEvents>
+		</event>
+	-->
+
+	<event>
+		<id>day</id>
+		<name esES="Día">Day</name>
+
+		<icon>event_day</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+		<fxRunning>fxrooster</fxRunning>
+
+		<turns>2000</turns>
+		<afterEvents>preevening</afterEvents>
+	</event>
+
+	<event>
+		<id>preevening</id>
+		<name esES="Día">Day</name>
+
+		<icon>event_day</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<red>-0.01</red>
+		<green>-0.15</green>
+		<blue>-0.02</blue>
+
+		<turns>15</turns>
+		<afterEvents>preevening2</afterEvents>
+	</event>
+
+	<event>
+		<id>preevening2</id>
+		<name esES="Día">Day</name>
+
+		<icon>event_day</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Half-shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>-0.02</red>
+		<green>-0.23</green>
+		<blue>-0.03</blue>
+
+		<turns>15</turns>
+		<afterEvents>evening</afterEvents>
+	</event>
+
+	<event>
+		<id>evening</id>
+		<name esES="Tarde">Evening</name>
+
+		<icon>event_evening</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Half-shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>-0.03</red>
+		<green>-0.3</green>
+		<blue>-0.04</blue>
+
+		<turns>105</turns>
+		<afterEvents>prenight</afterEvents>
+	</event>
+
+	<event>
+		<id>prenight</id>
+		<name esES="Tarde">Evening</name>
+
+		<icon>event_evening</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Half-shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>-0.07</red>
+		<green>-0.27</green>
+		<blue>-0.03</blue>
+
+		<turns>15</turns>
+		<afterEvents>prenight2</afterEvents>
+	</event>
+
+	<event>
+		<id>prenight2</id>
+		<name esES="Tarde">Evening</name>
+
+		<icon>event_evening</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Half-shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>-0.2</red>
+		<green>-0.25</green>
+		<blue>-0.02</blue>
+
+		<turns>15</turns>
+		<afterEvents>night</afterEvents>
+	</event>
+
+	<event>
+		<id>night</id>
+		<name esES="Noche">Night</name>
+
+		<icon>event_night</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<fxRunning>fxnighttime</fxRunning>
+	
+		<!-- Shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>-0.3</red>
+		<green>-0.23</green>
+		<blue>-0.02</blue>
+
+		<turns>550</turns>
+		<afterEvents>predawn</afterEvents>
+	</event>
+
+	<event>
+		<id>predawn</id>
+		<name esES="Noche">Night</name>
+
+		<icon>event_night</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>-0.04</red>
+		<green>-0.25</green>
+		<blue>-0.17</blue>
+
+		<turns>15</turns>
+		<afterEvents>predawn2</afterEvents>
+	</event>
+
+	<event>
+		<id>predawn2</id>
+		<name esES="Noche">Night</name>
+
+		<icon>event_night</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>-0.03</red>
+		<green>-0.22</green>
+		<blue>-0.25</blue>
+
+		<turns>15</turns>
+		<afterEvents>dawn</afterEvents>
+	</event>
+
+	<event>
+		<id>dawn</id>
+		<name esES="Amanecer">dawn</name>
+
+		<icon>event_dawn</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Half-shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>0</red>
+		<green>-0.2</green>
+		<blue>-0.3</blue>
+
+		<turns>105</turns>
+		<afterEvents>preday</afterEvents>
+	</event>
+
+	<event>
+		<id>preday</id>
+		<name esES="Amanecer">dawn</name>
+
+		<icon>event_dawn</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Half-shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>0</red>
+		<green>-0.1</green>
+		<blue>-0.15</blue>
+
+		<turns>15</turns>
+		<afterEvents>preday2</afterEvents>
+	</event>
+
+	<event>
+		<id>preday2</id>
+		<name esES="Amanecer">dawn</name>
+
+		<icon>event_dawn</icon>
+		<order>1</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Half-shadows on every cell -->
+		<halfShadows>true</halfShadows>
+		<red>0</red>
+		<green>-0.05</green>
+		<blue>-0.07</blue>
+
+		<turns>15</turns>
+		<afterEvents>day</afterEvents>
+	</event>
+
+	<event>
+		<id>cold</id>
+		<name esES="Frío">Cold</name>
+
+		<icon>event_cold</icon>
+		<order>2</order>
+
+		<!-- Planted things grows slower, but the snow ones -->
+		<items>appleseed,pearseed,wheatseed,sugarcaneseed,bambooseed,plantedbush,plantedbush2,plantedbushsnowcherry,plantedbushbanana,plantedsproutblueradish,plantedjunglemushroomseed,junglemushroomseed,cavemushroomseed,cactusseed,plantedjunglebush,plantedsnowbush,plantedbushpalmtree,redflowerseed,blueflowerseed,yellowflowerseed,plantedplanttrapseed</items>
+		<itemsMaxAgePCT>200,200,200,200,200,200,200,50,200,200,200,200,200,200,200,200,200,200,200,200,200</itemsMaxAgePCT>
+
+		<eventsImmune>hot,extremelyhot</eventsImmune>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>extremefrost</id>
+		<name esES="Helada extrema">Extreme frost</name>
+
+		<icon>event_extremefrost</icon>
+		<order>2</order>
+
+		<prerequisites>cold</prerequisites>
+
+		<!-- popo, revisar -->
+
+		<eventsImmune>hot,extremelyhot</eventsImmune>
+
+		<turns>720</turns>
+	</event>
+
+	<event>
+		<id>hot</id>
+		<name esES="Calor">Hot</name>
+
+		<icon>event_hot</icon>
+		<order>2</order>
+
+		<!-- Townies work slower -->
+		<waitPCT>120</waitPCT>
+
+		<eventsImmune>cold,extremefrost</eventsImmune>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>extremelyhot</id>
+		<name esES="Calor extremo">Extremely hot</name>
+
+		<icon>event_extremelyhot</icon>
+		<order>2</order>
+
+		<prerequisites>hot</prerequisites>
+
+		<!-- Townies work much slower -->
+		<waitPCT>160</waitPCT>
+
+		<eventsImmune>cold,extremefrost</eventsImmune>
+
+		<turns>720</turns>
+	</event>
+
+	<event>
+		<id>fertileground</id>
+		<name esES="Tierra fértil">Fertile ground</name>
+
+		<icon>event_fertileground</icon>
+		<order>2</order>
+
+		<!-- Planted things grows faster -->
+		<items>appleseed,pearseed,wheatseed,sugarcaneseed,bambooseed,plantedbush,plantedbush2,plantedbushsnowcherry,plantedbushbanana,plantedsproutblueradish,plantedjunglemushroomseed,junglemushroomseed,cavemushroomseed,cactusseed,plantedjunglebush,plantedsnowbush,plantedbushpalmtree,redflowerseed,blueflowerseed,yellowflowerseed,plantedplanttrapseed</items>
+		<itemsMaxAgePCT>50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50</itemsMaxAgePCT>
+
+		<turns>720</turns>
+	</event>
+
+	<event>
+		<id>naturebless</id>
+		<name esES="Bendición de la naturaleza">Nature bless</name>
+
+		<icon>event_naturebless</icon>
+		<order>3</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- popo, revisar -->
+		<eventsOften>fertileground</eventsOften>
+		<eventsOftenPCT>30</eventsOftenPCT>
+		<eventsImmune>naturecurse</eventsImmune>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>naturecurse</id>
+		<name esES="Maldición de la naturaleza">Nature curse</name>
+
+		<icon>event_naturecurse</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<eventsImmune>naturebless</eventsImmune>
+
+		<targets>CITIZEN</targets>
+		<targetsPCT>100</targetsPCT>
+		<effectsAfterEat>bellyache</effectsAfterEat>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>rumbleunderground</id>
+		<name esES="Gran estruendo bajo tierra">Big rumble underground</name>
+
+		<icon>event_rumbleunderground</icon>
+		<order>4</order>
+
+		<prerequisites>hot</prerequisites>
+
+		<eventCooldown>360</eventCooldown>
+		<siegeUnderground>true</siegeUnderground>
+
+		<turns>360</turns>
+	</event>
+
+	<event>
+		<id>winteriscoming</id>
+		<name esES="El invierno se acerca">Winter is coming</name>
+
+		<icon>event_winteriscoming</icon>
+		<order>4</order>
+
+		<prerequisites>cold</prerequisites>
+
+		<eventCooldown>360</eventCooldown>
+		<siege>true</siege>
+		<siegeLivings>yeti</siegeLivings>
+		<siegeSize>35</siegeSize>
+
+		<turns>360</turns>
+	</event>
+
+	<event>
+		<id>nervousbirds</id>
+		<name esES="Los pájaros están nerviosos">Birds are nervous</name>
+
+		<icon>event_nervousbirds</icon>
+		<order>3</order>
+
+		<eventCooldown>360</eventCooldown>
+		<afterEvents>fertileground</afterEvents>
+
+		<turns>360</turns>
+	</event>
+
+	<event>
+		<id>cloudy</id>
+		<name esES="Nublado">Cloudy</name>
+
+		<icon>event_cloudy</icon>
+		<order>2</order>
+
+		<prerequisites>day</prerequisites>
+
+		<happinessPCT>80</happinessPCT>
+
+		<turns>360</turns>
+	</event>
+
+	<event>
+		<id>fallingstars</id>
+		<name esES="Estrellas fugaces">Falling stars</name>
+
+		<icon>event_fallingstars</icon>
+		<order>3</order>
+
+		<prerequisites>night</prerequisites>
+
+		<happinessPCT>120</happinessPCT>
+
+		<turns>360</turns>
+	</event>
+
+
+	<event>
+		<id>fog</id>
+		<name esES="Niebla">Fog</name>
+
+		<icon>event_fog</icon>
+		<order>2</order>
+
+		<prerequisites>cold</prerequisites>
+
+		<!-- Townies walk slower -->
+		<walkSpeedPCT>80</walkSpeedPCT>
+
+		<turns>720</turns>
+	</event>
+
+
+	<event>
+		<id>tearsgods</id>
+		<name esES="Lágrimas de los dioses">Tears of the gods</name>
+
+		<icon>event_teargods</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<!-- Planted things grows really slow -->
+		<items>appleseed,pearseed,wheatseed,sugarcaneseed,bambooseed,plantedbush,plantedbush2,plantedbushsnowcherry,plantedbushbanana,plantedsproutblueradish,plantedjunglemushroomseed,junglemushroomseed,cavemushroomseed,cactusseed,plantedjunglebush,plantedsnowbush,plantedbushpalmtree,redflowerseed,blueflowerseed,yellowflowerseed,plantedplanttrapseed</items>
+		<itemsMaxAgePCT>2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000</itemsMaxAgePCT>
+		<itemsSpawnLiving>ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost,ghost</itemsSpawnLiving>
+		<itemsSpawnLivingSize>1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4,1d4</itemsSpawnLivingSize>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>fullmoon</id>
+		<name esES="Luna llena">Full moon</name>
+
+		<icon>event_fullmoon</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<prerequisites>night</prerequisites>
+
+		<eventCooldown>360</eventCooldown>
+		<siege>true</siege>
+		<siegeLivings>werewolf</siegeLivings>
+		<siegeSize>40</siegeSize>
+
+		<afterEvents>nervoussheeps</afterEvents>
+
+		<turns>360</turns>
+	</event>
+
+	<event>
+		<id>rainbow</id>
+		<name esES="Arco iris">Rainbow</name>
+
+		<icon>event_rainbow</icon>
+		<order>3</order>
+
+		<prerequisites>day</prerequisites>
+
+		<happinessPCT>120</happinessPCT>
+
+		<turns>360</turns>
+	</event>
+
+	<event>
+		<id>highwinds</id>
+		<name esES="Fuertes vientos">High winds</name>
+
+		<icon>event_highwinds</icon>
+		<order>3</order>
+
+		<!-- Townies walk faster -->
+		<walkSpeedPCT>120</walkSpeedPCT>
+
+		<turns>720</turns>
+	</event>
+
+	<event>
+		<id>stickyground</id>
+		<name esES="Suelo pegajoso">Sticky ground</name>
+
+		<icon>event_stickyground</icon>
+		<order>4</order>
+
+		<!-- Townies walk slower -->
+		<walkSpeedPCT>80</walkSpeedPCT>
+
+		<turns>720</turns>
+	</event>
+
+	<event>
+		<id>kingdomcries</id>
+		<name esES="Llantos de un reino lejano">Cries from a far away kingdom</name>
+
+		<icon>event_kingdomcries</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<eventCooldown>360</eventCooldown>
+		<siege>true</siege>
+		<siegeLivings>ghost</siegeLivings>
+		<siegeSize>20</siegeSize>
+
+		<turns>360</turns>
+	</event>
+
+	<event>
+		<id>nervousbadgers</id>
+		<name esES="Los tejones parecen nerviosos">Badgers seem nervous</name>
+
+		<icon>event_nervousbadgers</icon>
+		<order>5</order>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>nervouscows</id>
+		<name esES="Las vacas parecen nerviosas">Cows seem nervous</name>
+
+		<icon>event_nervouscows</icon>
+		<order>5</order>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>nervoussheeps</id>
+		<name esES="Las ovejas parecen nerviosas">Sheeps seem nervous</name>
+
+		<icon>event_nervoussheeps</icon>
+		<order>5</order>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>densewind</id>
+		<name esES="Viento denso">Dense wind</name>
+
+		<icon>event_densewind</icon>
+		<order>5</order>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>migratingants</id>
+		<name esES="Las hormigas están migrando">Ants are migrating</name>
+
+		<icon>event_migratingants</icon>
+		<order>5</order>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>redsky</id>
+		<name esES="Cielo rojizo">Red sky</name>
+
+		<icon>event_redsky</icon>
+		<order>5</order>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>lightnings</id>
+		<name esES="Rayos de los dioses">Gods lightnings</name>
+
+		<icon>event_lightnings</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<targets>cow,milkedcow,wildcow,milkedwildcow</targets>
+		<targetsPCT>100,100,100,100</targetsPCT>
+		<targetsRandomCell>40000</targetsRandomCell>
+		<targetsOpenCell>true</targetsOpenCell>
+		<effects>godlightning</effects>
+
+		<eventCooldown>120</eventCooldown>
+
+		<turns>240</turns>
+	</event>
+
+	<event>
+		<id>earthquake</id>
+		<name esES="Terremoto">Earthquake</name>
+
+		<icon>event_earthquake</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<items>rounddarkblock,roundgreyblock,roundwhiteblock,roundclayblock,roundgrassblock,diagonalgrassblock,inwardgrassblock,diagonalbrickblock,roundbrickblock,icewall,logblock,logblock2,diagonallogblock,grassterrace,ancientblockmoss,ancientblock,mayanblock,mayanblock1,mayanblock2,mayanblock3,mayanblock4,mayanblock5,clayblock,pillar,woodenstoneblock,woodsticks,woodspikes,sandwallblock,woodenglasswindow,stonebrickblock,stonebrickblock2,stonebrickblock3,stonebrickblock4,stonebrickblock5,stonebrickblock6,whitebrickblock,goldenblock,ancientwall,roughbricks,flagblockyellow,flagblockred,flagblockgrey,flagblockwhite,flagblockwhitearc,roughbrickarc,limestoneblock,colombages,colombagesx,lapedrera,lapedrera2,domeroof,strawroofitem,marketroof,woodendarkroofitem,clayroof,brokenroof,redtileroof,cyantileroof,bluetileroof,greentileroof,purpletileroof,yellowtileroof,logwall,junglefence,hedgebrickfence,fancybrickfence,farmfence,whitefence,skullfence,lightwoodblock,stoneblock,stoneblock2,bambooblock,stonewall,bonewall,mudwall,sandwall,woodenblock,woodenmossblock,ironbars,engravedstonewall,engravedgreenwall,engravedredwall,engravedbluewall,woodenfloor,stonefloor,glassfloor,claybrickwall,glasswall,woodenwall,woodendarkwall,woodenwindow,stonewindow,stonearcdoor1,stonearcdoor2</items>
+		<itemsDeletePCT>30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30</itemsDeletePCT>
+
+		<eventCooldown>120</eventCooldown>
+
+		<turns>240</turns>
+	</event>
+
+	<event>
+		<id>farchants</id>
+		<name esES="Cánticos remotos">Far chants</name>
+
+		<icon>event_farchants</icon>
+		<order>3</order>
+
+		<targets>CITIZEN,HERO</targets>
+		<targetsPCT>100,100</targetsPCT>
+		<effects>farchants</effects>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>parrotsmell</id>
+		<name esES="Olor a zanahoria">Parrot smell</name>
+
+		<icon>event_parrotsmell</icon>
+		<order>3</order>
+
+		<targets>CITIZEN,HERO</targets>
+		<targetsPCT>100,100</targetsPCT>
+		<effects>parrotsmell</effects>
+
+		<turns>1440</turns>
+	</event>
+
+	<event>
+		<id>whisperdeath</id>
+		<name esES="Susurros de muertos vivientes">Living death whispers</name>
+
+		<icon>event_whisperdeath</icon>
+		<order>3</order>
+
+		<minPopulation>65</minPopulation>
+		<items>grave,gravebury,tomb,tombbury,tombbury1,mosstomb,lizardtomb,sipstomb,vechstomb,punchwoodtomb,maleroguetomb,femaleroguetomb,dwarftomb,barbariantomb,elftomb,magetomb,knighttomb,highlandertomb,herbalisttomb</items>
+		<itemsSpawnLiving>zombie,infectedzombie,zombie,infectedzombie,infectedzombie,zombie,toponovichthezombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie,infectedzombie</itemsSpawnLiving>
+		<itemsSpawnLivingSize>1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1,1d2-1</itemsSpawnLivingSize>
+
+		<eventCooldown>120</eventCooldown>
+
+		<turns>240</turns>
+	</event>
+
+	<event>
+		<id>volcano</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>volcanostart,volcanoclear</useFileIDs>
+		<afterEvents>volcanoform</afterEvents>
+		<turns>4</turns>
+	</event>
+
+	<event>
+		<id>volcanoform</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>volcanoformstone,volcanoform</useFileIDs>
+		<afterEvents>volcanorise</afterEvents>
+		<turns>4</turns>
+	</event>
+
+	<event>
+		<id>volcanorise</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>volcanorise</useFileIDs>
+		<afterEvents>volcanorise1</afterEvents>
+		<turns>4</turns>
+	</event>
+
+	<event>
+		<id>volcanorise1</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>volcanorise1</useFileIDs>
+		<afterEvents>volcanorise2</afterEvents>
+		<turns>4</turns>
+	</event>
+
+	<event>
+		<id>volcanorise2</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>volcanorise2</useFileIDs>
+		<afterEvents>volcanorise3</afterEvents>
+		<turns>4</turns>
+	</event>
+
+	<event>
+		<id>volcanorise3</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>volcanorise3</useFileIDs>
+		<afterEvents>volcanosink</afterEvents>
+		<turns>4</turns>
+	</event>
+
+	<event>
+		<id>volcanosink</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>volcanosink</useFileIDs>
+		<afterEvents>lavapour</afterEvents>
+		<turns>4</turns>
+	</event>
+
+	<event>
+		<id>lavapour</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>lavapour</useFileIDs>
+		<afterEvents>lavavanish</afterEvents>
+		<turns>650</turns>
+	</event>
+
+	<event>
+		<id>lavavanish</id>
+		<name>volcano</name>
+
+		<icon>event_volcano</icon>
+		<order>4</order>
+		<spawnAtRandom>false</spawnAtRandom>
+
+		<useFile>gen_events.xml</useFile>
+		<useFileIDs>lavavanish</useFileIDs>
+		<afterEvents>lavavanish</afterEvents>
+		<turns>4</turns>
+	</event>
+</events>
