@@ -3812,6 +3812,38 @@
 	</action>
 
 	<action>
+		<id>qsiriancaesar</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>smelter</lock>
+			<pick>rmsilver</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<move>anvil</move>
+			<wait>72</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>siriancaesar</createItem>
+		</queue>
+	</action>
+
+	<action>
 		<id>qgoldunifallowstatue</id>
 
 		<priorityID>itemconstruction</priorityID>

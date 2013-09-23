@@ -346,7 +346,7 @@
 
 			<item id="qdirtstairs2a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs2a" />
 			<item id="qdirtstairs1a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs1a" />
-			<item id="qbonestairs" code="QUEUEANDPLACwwEAREA" parameter="qbonestairs" />
+			<item id="qbonestairs" code="QUEUEANDPLACEAREA" parameter="qbonestairs" />
 			<item id="qbonestairs_1_N" code="QUEUEANDPLACEAREA" parameter="qbonestairs_1_N" />
 
 

@@ -8353,6 +8353,21 @@
 		<action>del_gargoylestatue</action>
 	</gargoylestatue>
 
+	<siriancaesar>
+		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
+		<type>decorative.outdoor</type>
+
+		<happiness>2</happiness>
+		<canBeRotated>true</canBeRotated>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</siriancaesar>
+
 	<whiteheadkerchief>
 		<level>1</level>
 		<name esES="Pañuelo blanco de cabeza">White head kerchief</name>
