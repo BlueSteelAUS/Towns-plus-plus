@@ -6824,6 +6824,26 @@
 	</action>
 
 	<action>
+		<id>qwhitefencedoor</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>whitefencedoor</createItem>
+		</queue>
+	</action>
+	
+	<action>
 		<id>qblockdoor</id>
 
 		<priorityID>itemconstruction</priorityID>

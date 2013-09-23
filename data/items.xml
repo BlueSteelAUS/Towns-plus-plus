@@ -4934,6 +4934,22 @@
 		<action>del_halfdoor</action>
 	</halfdoor>
 
+	<whitefencedoor>
+		<name esES="Puerta de valla blanca">White fence door</name>
+		
+		<type>furniture</type>
+		<wallConnector>true</wallConnector>
+		<door>true</door>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<buryItem>doortrap</buryItem>
+		<buryItemPCT>10</buryItemPCT>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>49</value>
+	</whitefencedoor>
+
 	<blockdoor>
 		<name esES="Puerta-bloque de madera">Block wooden door</name>
 		<description esES="Encaja en las mazmorras">Fit for caves</description>
