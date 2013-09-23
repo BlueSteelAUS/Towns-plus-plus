@@ -3468,7 +3468,23 @@
 			<createItem>farmfence</createItem>
 		</queue>
 	</action>
+	
+	<action>
+		<id>qwhitefence</id>
 
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>whitefence</createItem>
+		</queue>
+	</action>
+	
 	<action>
 		<id>qclaybrickwall</id>
 
@@ -3719,7 +3735,39 @@
 			<createItem>bonewall</createItem>
 		</queue>
 	</action>
+	
+	<action>
+		<id>qboneblock</id>
 
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carvingbench</lock>
+			<pick>bones</pick>
+			<move>carvingbench</move>
+			<wait>48</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>boneblock</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qboneroof</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carvingbench</lock>
+			<pick>bones</pick>
+			<move>carvingbench</move>
+			<wait>48</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>boneroof</createItem>
+		</queue>
+	</action>
+	
 	<action>
 		<id>qstonewall</id>
 
@@ -4859,7 +4907,23 @@
 			<createItem>ironwoodenwallsign</createItem>
 		</queue>
 	</action>
+	
+	<action>
+		<id>qwoodenpointarrow</id>
 
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>20</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>woodenpointarrow</createItem>
+		</queue>
+	</action>
+	
 	<action>
 		<id>qwoodennortharrow</id>
 
@@ -10900,7 +10964,7 @@
 			<wait>40</wait>
 			<pick>corpse</pick>
 			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
-			<wait>40</wait>
+			<wait fx="fxchorus">40</wait>
 			<destroyitem />
 			<unlock />
 			<reviveHeroes />
@@ -11372,7 +11436,7 @@
 			<createItem>wine</createItem>
 		</queue>
 	</action>
-
+<!-- NOTE: Remove rotate actions once testing complete -LM -->
 	<action>
 		<id>rotate_woodenbed_N</id>
 		<name esES="Rotar al Norte">Rotate North</name>
