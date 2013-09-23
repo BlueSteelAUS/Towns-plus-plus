@@ -6,6 +6,9 @@
 		<mainTerrain>snow</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
+		<startingEvents>dawn,hot,cold</startingEvents>
+		<startingEventsPCT>100,10,8</startingEventsPCT>
+		<numGods>2d2+1</numGods>
 	</init>
 
 	<!-- 5 grass seed -->

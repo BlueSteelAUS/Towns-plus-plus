@@ -6,6 +6,9 @@
 		<mainTerrain>grass,dirt,dungeon3,stone</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>11</startingLevel>
+		<startingEvents>dawn,hot,cold</startingEvents>
+		<startingEventsPCT>100,10,8</startingEventsPCT>
+		<numGods>2d2+1</numGods>
 	</init>
 
 	<!-- 35 grass no flower seeds -->

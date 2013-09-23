@@ -6,6 +6,9 @@
 		<mainTerrain>sand,sand,dirt,dirt,stone,stone,dungeon3</mainTerrain>
 		<numCitizens>12</numCitizens>
 		<startingLevel>19</startingLevel>
+		<startingEvents>dawn,hot</startingEvents>
+		<startingEventsPCT>100,10,8</startingEventsPCT>
+		<numGods>2d2+1</numGods>
 	</init>
 	
 	<seed>

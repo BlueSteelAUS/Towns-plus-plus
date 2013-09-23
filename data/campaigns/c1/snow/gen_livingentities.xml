@@ -51,8 +51,8 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	<add id="snoat">
-		<entity>snoat</entity>
+	<add id="wildsnoat">
+		<entity>wildsnoat</entity>
 		<qtty>75</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>

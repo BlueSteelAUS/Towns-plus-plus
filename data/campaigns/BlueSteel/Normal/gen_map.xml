@@ -6,6 +6,9 @@
 		<mainTerrain>grass,dirt,stone,dungeon3</mainTerrain>
 		<numCitizens>11</numCitizens>
 		<startingLevel>19</startingLevel> <!-- level that Cits start on -->
+		<startingEvents>dawn,hot,cold</startingEvents>
+		<startingEventsPCT>100,10,8</startingEventsPCT>
+		<numGods>2d2+1</numGods>
 	</init>
 	<!-- Ocean seed-->
 	<!-- Change <num>1d2-1</num> to <num>1</num> if you only want islands to generate your land masses -->
