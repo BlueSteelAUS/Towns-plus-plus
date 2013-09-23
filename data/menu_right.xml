@@ -484,7 +484,7 @@
 				<item id="qwheatblock" code="QUEUEANDPLACEAREA" parameter="qwheatblock" />
 				<item id="qbambooblock" code="QUEUEANDPLACEAREA" parameter="qbambooblock" />
 				<item id="qrounddarkblock" code="QUEUEANDPLACEAREA" parameter="qrounddarkblock" />
-				<item id="qroundgrayblock" code="QUEUEANDPLACEAREA" parameter="qroundgrayblock" />
+				<item id="qroundgreyblock" code="QUEUEANDPLACEAREA" parameter="qroundgreyblock" />
 				<item id="qroundwhiteblock" code="QUEUEANDPLACEAREA" parameter="qroundwhiteblock" />
 				<item id="qroundclayblock" code="QUEUEANDPLACEAREA" parameter="qroundclayblock" />
 				<item id="qdiagonalbrickblock" code="QUEUEANDPLACEAREA" parameter="qdiagonalbrickblock" />

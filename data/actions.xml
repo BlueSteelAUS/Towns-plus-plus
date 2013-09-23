@@ -3608,7 +3608,7 @@
 	</action>
 
 	<action>
-		<id>qroundgrayblock</id>
+		<id>qroundgreyblock</id>
 
 		<priorityID>wallconstruction</priorityID>
 
@@ -3619,7 +3619,7 @@
 			<wait>32</wait>
 			<destroyItem/>
 			<unlock /> 
-			<createItem>roundgrayblock</createItem>
+			<createItem>roundgreyblock</createItem>
 		</queue>
 	</action>
 

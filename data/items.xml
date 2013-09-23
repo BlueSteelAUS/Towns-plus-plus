@@ -2434,8 +2434,8 @@
 		<value>200</value>
 	</rounddarkblock>
 
-	<roundgrayblock>
-		<name esES="Bloque gris redondeado">Rounded gray block</name>
+	<roundgreyblock>
+		<name esES="Bloque gris redondeado">Rounded grey block</name>
 		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -2446,7 +2446,7 @@
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
-	</roundgrayblock>
+	</roundgreyblock>
 
 	<roundwhiteblock>
 		<name esES="Bloque blanco redondeado">Rounded white block</name>
@@ -7816,6 +7816,7 @@
 		<description esES="Una mesa de albañil">A stonemason's stone table</description>
 		<description esES="Útil para crear objetos de piedra">Used to make stone objects</description>
 		<type>utils.workshops</type>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -7848,6 +7849,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>wooddetailerbury</buryItem>
+		<canBeRotated>true</canBeRotated>
 
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zcarpentry</zone>
@@ -8043,6 +8045,22 @@
 		<value>109</value>
 	</woodensign>
 
+	<woodenpointarrow>
+		<name esES="Cartel flecha de madera">Wooden arrow sign</name>
+		<type>decorative.outdoor</type>
+
+		<text>true</text>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<base>true</base>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<canBeRotated>true</canBeRotated>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>109</value>
+	</woodenpointarrow>
 	<woodennortharrow>
 		<name esES="Cartel flecha de madera (norte)">Wooden north arrow sign</name>
 		<type>decorative.outdoor</type>
