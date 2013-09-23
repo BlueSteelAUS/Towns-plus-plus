@@ -210,19 +210,6 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</buildings>
 
-	<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
-		<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
-		<item id="qwoodenbookshelf" code="QUEUEANDPLACE" parameter="qwoodenbookshelf" />
-		<item id="qrawfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
-		<item id="qprepfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qprepfoodbarrel" />
-		<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
-		<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
-		<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
-		<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
-		<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
-		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-	</containers>
-
 	<construction name="Construction" esES="Construcción" icon="stonehammer">
 		<doors name="Doors" esES="Puertas" icon="ui_rdoors">
 		<arc name="Arches" esES="N/A" icon="stonearcdoor1">
@@ -331,7 +318,6 @@
 			<item id="qchimney3" code="QUEUEANDPLACEAREA" parameter="qchimney3" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</roof>
-
 		<cb262_stairs name="Stairs" esES="Escaleras" icon="ui_stonestairs">
 			<item id="qdirtstairs2a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs2a" />
 			<item id="qdirtstairs1a" code="QUEUEANDPLACEAREA" parameter="qdirtstairs1a" />
@@ -506,6 +492,7 @@
 			</other>
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</walls>
+
 		<windows name="Windows" esES="Ventanas" icon="ui_rwindows">
 			<item id="qwoodenglasswindow" code="QUEUEANDPLACEAREA" parameter="qwoodenglasswindow" />
 			<item id="qwoodenwindow" code="QUEUEANDPLACEAREA" parameter="qwoodenwindow" />
@@ -517,6 +504,19 @@
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</construction>
 
+	<containers name="Containers" esES="Contenedores" icon="ui_rcontainers">
+		<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
+		<item id="qwoodenbookshelf" code="QUEUEANDPLACE" parameter="qwoodenbookshelf" />
+		<item id="qrawfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
+		<item id="qprepfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qprepfoodbarrel" />
+		<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
+		<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
+		<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
+		<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
+		<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
+		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</containers>
+	
 	<decorative name="Decorative" esES="Decorativo" icon="ui_sdecorative">
 		<banners name="Banners,Flags" eeES="Estandartes,Banderas" icon="ui_banner">
 			<item id="qredlongflag" code="QUEUEANDPLACEAREA" parameter="qredlongflag" />
@@ -608,7 +608,7 @@
 		</signs>
 
 		<statues name="Statues,Poles" eeES="Estatuas,Cabezas" icon="stonemalestatue">
-			<poles name="Poles" eeES="Cabezas" icon="goblinpole">
+			<poles name="Poles" esES="Cabezas" icon="goblinpole">
 				<item id="qgoblinpole" code="QUEUEANDPLACEAREA" parameter="qgoblinpole" />
 				<item id="qhobgoblinpole" code="QUEUEANDPLACEAREA" parameter="qhobgoblinpole" />
 				<item id="qghoulpole" code="QUEUEANDPLACEAREA" parameter="qghoulpole" />
@@ -632,7 +632,7 @@
 					<item id="irongargoylestatue" code="QUEUEANDPLACEAREA" parameter="qirongargoylestatue" />
 					<item id="bronzegargoylestatue" code="QUEUEANDPLACEAREA" parameter="qbronzegargoylestatue" />
 					<item id="silvergargoylestatue" code="QUEUEANDPLACEAREA" parameter="qsilvergargoylestatue" />
-					<item id="goldgargoylestatue" code="QUEUEANDPLACEAREA" parameter="qgoldgargoylestatue" />
+ 					<item id="goldgargoylestatue" code="QUEUEANDPLACEAREA" parameter="qgoldgargoylestatue" />
 					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 				</gargoyle>
 				<nux name="Nux Statues" esES="N/A" icon="goldnuxstatue" >
@@ -640,7 +640,7 @@
 					<item id="ironnuxstatue" code="QUEUEANDPLACEAREA" parameter="qironnuxstatue" />
 					<item id="bronzenuxstatue" code="QUEUEANDPLACEAREA" parameter="qbronzenuxstatue" />
 					<item id="silvernuxstatue" code="QUEUEANDPLACEAREA" parameter="qsilvernuxstatue" />
-					<item id="goldnuxstatue" code="QUEUEANDPLACEAREA" parameter="qgoldnuxstatue" />
+<!--					<item id="goldnuxstatue" code="QUEUEANDPLACEAREA" parameter="qgoldnuxstatue" /> -->
 					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 				</nux>
 				<skootenbeeten name="Skootenbeeten Statues" esES="N/A" icon="goldskootenbeetenstatue" >
@@ -848,8 +848,12 @@
 		<item id="qcookingbowl" code="QUEUEANDPLACE" parameter="qcookingbowl" />
 		<item id="qcolormixer" code="QUEUEANDPLACE" parameter="qcolormixer" />
 		<item id="qskinner" code="QUEUEANDPLACE" parameter="qskinner" />
+		<item id="qartisan" code="QUEUEANDPLACE" parameter="qartisan" />
 		<item id="qmedicinecabinet" code="QUEUEANDPLACE" parameter="qmedicinecabinet" />
 		<item id="qmill" code="QUEUEANDPLACE" parameter="qmill" />
+		<item id="qbeerbarrel" code="QUEUEANDPLACE" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
+		<item id="qwinebarrel" code="QUEUEANDPLACE" parameter="qwinebarrel" icon="ui_winebarrel"/>
+		<item id="qshearingbench" code="QUEUEANDPLACE" parameter="qshearingbench" />
 		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</workbenches>
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
