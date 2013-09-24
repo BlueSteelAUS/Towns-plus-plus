@@ -3236,7 +3236,7 @@
 		<base>true</base>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>del_ladder</action>
@@ -3254,6 +3254,7 @@
 		<base>true</base>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
+		<canBeRotated>true</canBeRotated>
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
@@ -3485,11 +3486,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_stonestairs1b</action>
-		<action>rotate_stonestairs1c</action>
-		<action>rotate_stonestairs1d</action>
 		<action>del_stoneladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -3506,9 +3505,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_woodstairs3b</action>
-		<action>rotate_woodstairs3c</action>
-		<action>rotate_woodstairs3d</action>
+		<canBeRotated>true</canBeRotated>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_logladder</action>
@@ -3527,9 +3524,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_dirtstairs1b</action>
-		<action>rotate_dirtstairs1c</action>
-		<action>rotate_dirtstairs1d</action>
+		<canBeRotated>true</canBeRotated>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder</action>
@@ -3548,9 +3543,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_stonestairs2b</action>
-		<action>rotate_stonestairs2c</action>
-		<action>rotate_stonestairs2d</action>
+		<canBeRotated>true</canBeRotated>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonespindleladder</action>
@@ -3569,9 +3562,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_stonestairs3b</action>
-		<action>rotate_stonestairs3c</action>
-		<action>rotate_stonestairs3d</action>
+		<canBeRotated>true</canBeRotated>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_ancientladder</action>
@@ -4542,6 +4533,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
+		<canBeRotated>true</canBeRotated>
 
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
