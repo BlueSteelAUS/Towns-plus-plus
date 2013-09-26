@@ -21950,7 +21950,7 @@
 	</action>
 
 <!-- Spawn CITIZENS from the dead-->
-	<action>
+<!--	<action>
 		<id>qfemalecitizen</id>
 		<name esES="N/A">New Female Citizen</name>
 		<priorityID>_FEED_</priorityID>
@@ -21981,7 +21981,7 @@
 			<createfriendly>citizenmale</createfriendly>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qspiralstairs</id>
 
