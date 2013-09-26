@@ -7719,6 +7719,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>carpentrybenchbury</buryItem>
 
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zcarpentry</zone>
 		<value>106</value>
