@@ -21950,7 +21950,7 @@
 	</action>
 
 <!-- Spawn CITIZENS from the dead-->
-<!--	<action>
+<action>
 		<id>qfemalecitizen</id>
 		<name esES="N/A">New Female Citizen</name>
 		<priorityID>_FEED_</priorityID>
@@ -21972,7 +21972,7 @@
 		<priorityID>_FEED_</priorityID>
 		<generatedItem>citizenmale</generatedItem>
 		<queue>
-			<move useSource="true">grave,grave_E,grave2_E,grave2_W,grave3_E,grave3_W,tomb,tomb_E,tomb2_E,tomb2_W,mosstomb,mosstomb_E,mosstomb2_E,mosstomb2_W,mosstomb3_E,mosstomb3_W</move>
+		<move useSource="true">grave,grave_E,grave2_E,grave2_W,grave3_E,grave3_W,tomb,tomb_E,tomb2_E,tomb2_W,mosstomb,mosstomb_E,mosstomb2_E,mosstomb2_W,mosstomb3_E,mosstomb3_W</move>
 			<wait>21</wait>
 			<destroyCellItem />
 			<move useSource="true">shrine1,shrine2,shrine3,shrine4</move>
@@ -21981,7 +21981,7 @@
 			<createfriendly>citizenmale</createfriendly>
 		</queue>
 	</action>
--->
+
 	<action>
 		<id>qspiralstairs</id>
 
