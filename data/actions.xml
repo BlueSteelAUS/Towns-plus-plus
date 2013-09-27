@@ -23905,4 +23905,14 @@
 			<createItem>flagblocktansides</createItem>
 		</queue>
 	</action>
+<!--
+<action>
+		<id>unlockselected</id>
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">carpentrybench</move>
+		<unknown as of yet />
+	</queue>
+</action>
+-->
 </actions>

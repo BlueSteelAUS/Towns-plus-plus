@@ -86,7 +86,7 @@
 
 		<automatic>true</automatic>
 	</cowfarm> -->
-
+<!--
 	<sheepfarm>
 		<name esES="Granja de ovejas">Sheep farm</name>
 		<description esES="Beeeeeeeeeh!">Meeeeeeeeeeeeeeeeeeeee</description>
@@ -113,7 +113,7 @@
 
 		<automatic>true</automatic>
 	</sheepfarm>
-
+-->
 
 <!-- 	<badgerfarm>
 		<name esES="Granja de tejones">Badger farm</name>

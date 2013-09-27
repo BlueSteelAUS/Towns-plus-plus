@@ -8,6 +8,10 @@
 	<item id="mine" name="Mine" esES="Minar" code="MINE" icon="ui_mine" />
 	<item id="till" name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
 	<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
+<!--	<item id="unlock" name="Unlock Selected" EsES="N/A" code="CUSTOMACTION" parameter="unlockselected" icon="ui_cancel" /> -->
+		
+
+
 	<stockpiles name="Stockpiles" esES="Pilas" icon="ui_stockpile">
 		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
 		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
