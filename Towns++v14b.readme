@@ -1,30 +1,19 @@
-﻿[size=200][color=#0000FF]Towns++ v14a (for Towns v14a)[/color][/size]
+﻿[size=200][color=#0000FF]Towns++ v14b (for Towns v14b)[/color][/size]
 
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
 [code]
-Changes since Towns++_v13a3
+Changes since Towns++_v14a
 ===========================
 BlueSteel's Contributions
 =========================
--> updated to v14 of towns
--> Fixed right menu QUEUEANDPLACE TO QUEUEANDPLACEAREA    
--> Cows, Milkedcows, chickens,layedeggchickens removed from butcher list
-   The Right button action remains so that you can kill them manually
-    (will also change unifallow and milkedunifallow,
-                      snoat and milkedsnoat and skinnedmilkedsnoat,
-                      skootenbeeten and layedeggskootenbeeten
-    when we've added in the male counterparts to them ;) )
-        
+-> updated to v14b of towns
+-> commented out sheep farm in buildings.xml (we no longer use buildings.xml for anything and haven't for quite some time)        
+-> some bug fixes and fixed some rotations that got missed when updating to v14a
+
 LittleMikey's Contributions:
 ============================
--> updated to v14
--> Added loads of new graphics by dw420 on the forums! Including but not limited to:
-*New Statues
-*New ITE graphics
-*New Log Walls
-*New Stone Blocks
---Massive thanks to dw420 for making all these!--
+-> fix carpentry bench
 
 [/code]
 
@@ -203,6 +192,29 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 
 change logs
 ===========
+[spoiler]
+Changes since Towns++_v13a3
+===========================
+BlueSteel's Contributions
+=========================
+-> updated to v14 of towns
+-> Fixed right menu QUEUEANDPLACE TO QUEUEANDPLACEAREA    
+-> Cows, Milkedcows, chickens,layedeggchickens removed from butcher list
+   The Right button action remains so that you can kill them manually
+    (will also change unifallow and milkedunifallow,
+                      snoat and milkedsnoat and skinnedmilkedsnoat,
+                      skootenbeeten and layedeggskootenbeeten
+    when we've added in the male counterparts to them ;) )
+        
+LittleMikey's Contributions:
+============================
+-> updated to v14
+-> Added loads of new graphics by dw420 on the forums! Including but not limited to:
+*New Statues
+*New ITE graphics
+*New Log Walls
+*New Stone Blocks
+--Massive thanks to dw420 for making all these!--
 Changes since Towns++_v13a3
 ===========================
 BlueSteel's Contributions
@@ -725,3 +737,4 @@ but it would have made updating my mod pack even harder every update, I'll alway
 Disabled (commented out) Tree of life in planting seeds menu as apparently it wasn't meant to be in the game yet (read this on another thread on this forum)
 (More to come, just wanted to get it updated and out to you all)
 could be adding in non Auto Producing items to display their current stock levels on the map (these will include as part of their tooltip "STOCK ONLY" or something similar)
+[/spoiler]

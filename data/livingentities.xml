@@ -1704,6 +1704,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>snoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
+		<foodNeeded>apple,pear,wheat</foodNeeded>
 
 		<action>qkillsnoat</action>
 
@@ -1765,6 +1766,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>snoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
+		<foodNeeded>apple,pear,wheat</foodNeeded>
 
 		<action>qkillfemalesnoat</action>
 
@@ -2335,7 +2337,7 @@
 		<building>skootenbeetenfarm</building>
 		<buildingTime>2880</buildingTime>
 
-		<foodNeeded>wheat</foodNeeded>
+		<foodNeeded>blueradish</foodNeeded>
 		<foodNeededTurns>1440</foodNeededTurns>
 		<foodNeededDieTurns>1440</foodNeededDieTurns>
 
@@ -2369,7 +2371,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>femaleskootenbeeten</maxAgeLiving>
 
-		<foodNeeded>wheat</foodNeeded>
+		<foodNeeded>blueradish</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 

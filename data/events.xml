@@ -603,7 +603,7 @@
 
 	<event>
 		<id>densewind</id>
-		<name esES="Viento denso">Dense wind</name>
+		<name esES="Fuerte viento">Heavy wind</name>
 
 		<icon>event_densewind</icon>
 		<order>5</order>
@@ -658,8 +658,8 @@
 		<order>4</order>
 		<spawnAtRandom>false</spawnAtRandom>
 
-		<items>rounddarkblock,roundgreyblock,roundwhiteblock,roundclayblock,roundgrassblock,diagonalgrassblock,inwardgrassblock,diagonalbrickblock,roundbrickblock,icewall,logblock,logblock2,diagonallogblock,grassterrace,ancientblockmoss,ancientblock,mayanblock,mayanblock1,mayanblock2,mayanblock3,mayanblock4,mayanblock5,clayblock,pillar,woodenstoneblock,woodsticks,woodspikes,sandwallblock,woodenglasswindow,stonebrickblock,stonebrickblock2,stonebrickblock3,stonebrickblock4,stonebrickblock5,stonebrickblock6,whitebrickblock,goldenblock,ancientwall,roughbricks,flagblockyellow,flagblockred,flagblockgrey,flagblockwhite,flagblockwhitearc,roughbrickarc,limestoneblock,colombages,colombagesx,lapedrera,lapedrera2,domeroof,strawroofitem,marketroof,woodendarkroofitem,clayroof,brokenroof,redtileroof,cyantileroof,bluetileroof,greentileroof,purpletileroof,yellowtileroof,logwall,junglefence,hedgebrickfence,fancybrickfence,farmfence,whitefence,skullfence,lightwoodblock,stoneblock,stoneblock2,bambooblock,stonewall,bonewall,mudwall,sandwall,woodenblock,woodenmossblock,ironbars,engravedstonewall,engravedgreenwall,engravedredwall,engravedbluewall,woodenfloor,stonefloor,glassfloor,claybrickwall,glasswall,woodenwall,woodendarkwall,woodenwindow,stonewindow,stonearcdoor1,stonearcdoor2</items>
-		<itemsDeletePCT>30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30</itemsDeletePCT>
+		<items>rounddarkblock,roundgrayblock,roundgreyblock,roundwhiteblock,roundclayblock,roundgrassblock,diagonalgrassblock,inwardgrassblock,diagonalbrickblock,roundbrickblock,icewall,logblock,logblock2,diagonallogblock,grassterrace,ancientblockmoss,ancientblock,mayanblock,mayanblock1,mayanblock2,mayanblock3,mayanblock4,mayanblock5,clayblock,pillar,woodenstoneblock,woodsticks,woodspikes,sandwallblock,woodenglasswindow,stonebrickblock,stonebrickblock2,stonebrickblock3,stonebrickblock4,stonebrickblock5,stonebrickblock6,whitebrickblock,goldenblock,ancientwall,roughbricks,flagblockyellow,flagblockred,flagblockgrey,flagblockwhite,flagblockwhitearc,roughbrickarc,limestoneblock,colombages,colombagesx,lapedrera,lapedrera2,domeroof,strawroofitem,marketroof,woodendarkroofitem,clayroof,brokenroof,redtileroof,cyantileroof,bluetileroof,greentileroof,purpletileroof,yellowtileroof,logwall,junglefence,hedgebrickfence,fancybrickfence,farmfence,whitefence,skullfence,lightwoodblock,stoneblock,stoneblock2,bambooblock,stonewall,bonewall,mudwall,sandwall,woodenblock,woodenmossblock,ironbars,engravedstonewall,engravedgreenwall,engravedredwall,engravedbluewall,woodenfloor,stonefloor,glassfloor,claybrickwall,glasswall,woodenwall,woodendarkwall,woodenwindow,stonewindow,stonearcdoor1,stonearcdoor2</items>
+		<itemsDeletePCT>30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30</itemsDeletePCT>
 
 		<eventCooldown>120</eventCooldown>
 

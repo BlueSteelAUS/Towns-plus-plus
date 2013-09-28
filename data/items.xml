@@ -1215,6 +1215,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedappletree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbushapple>
 
 	<plantedappletree>
@@ -1226,6 +1227,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestpapple</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedappletree>
 
 	<plantedharvestingappletree>
@@ -1236,6 +1238,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>plantedharvestedappletree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestingappletree>
 
 	<plantedharvestedappletree>
@@ -1244,6 +1247,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>plantedappletree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestedappletree>
 
 	<bushapple>
@@ -1252,6 +1256,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>appletree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bushapple>
 
 	<appletree>
@@ -1264,6 +1269,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestapple</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</appletree>
 
 	<harvestingappletree>
@@ -1274,6 +1280,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>harvestedappletree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestingappletree>
 
 	<harvestedappletree>
@@ -1282,6 +1289,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>appletree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestedappletree>
 
 	<pearseed>
@@ -1298,6 +1306,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedpeartree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbushpear>
 
 	<plantedpeartree>
@@ -1309,6 +1318,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestppear</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedpeartree>
 
 	<plantedharvestingpeartree>
@@ -1319,6 +1329,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>plantedharvestedpeartree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestingpeartree>
 
 	<plantedharvestedpeartree>
@@ -1327,6 +1338,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>plantedpeartree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestedpeartree>
 
 	<bushpear>
@@ -1335,6 +1347,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>peartree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bushpear>
 
 	<peartree>
@@ -1348,6 +1361,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestpear</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</peartree>
 
 	<harvestingpeartree>
@@ -1358,6 +1372,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>harvestedpeartree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestingpeartree>
 
 	<harvestedpeartree>
@@ -1366,6 +1381,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>peartree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestedpeartree>
 
 	<wheatseed>
@@ -1406,6 +1422,7 @@
 
 		<action>qcut</action>
 		<action>qharvestwheat</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedwheat>
 
 	<sugarcaneseed>
@@ -1437,6 +1454,7 @@
 		<action>qcut</action>
 		<action>qharvestwildsugarcane</action>
 		<value>25</value>
+		<canBeUnlocked>false</canBeUnlocked>
 	</wildsugarcane>
 
 	<plantedsugarcane>
@@ -1446,6 +1464,7 @@
 
 		<action>qcut</action>
 		<action>qharvestsugarcane</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedsugarcane>
 
 	<bambooseed>
@@ -1477,6 +1496,7 @@
 		<action>qcut</action>
 		<action>qharvestwildbamboo</action>
 		<value>25</value>
+		<canBeUnlocked>false</canBeUnlocked>
 	</wildbamboo>
 
 	<plantedbamboo>
@@ -1486,6 +1506,7 @@
 
 		<action>qcut</action>
 		<action>qharvestbamboo</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbamboo>
 
 	<bush>
@@ -1494,6 +1515,7 @@
 		<maxAge>1d12400+12400</maxAge>
 		<maxAgeItem>tree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bush>
 
 	<tree>
@@ -1505,6 +1527,7 @@
 		<spawnTurns>1d33200</spawnTurns>
 		<action>qchop</action>
 		<locked>true</locked>
+		<canBeUnlocked>false</canBeUnlocked>
 	</tree>
 
 	<treekeepersleep>
@@ -1512,6 +1535,7 @@
 		<habitat>grass2</habitat>
 		<action>qchopsleeper</action>
 		<locked>true</locked>
+		<canBeUnlocked>false</canBeUnlocked>
 	</treekeepersleep>
 
 
@@ -1529,6 +1553,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedtree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbush>
 
 	<plantedtree>
@@ -1538,6 +1563,7 @@
 		<spawnMaxItems>2</spawnMaxItems>
 		<spawnTurns>1d1440</spawnTurns>
 		<action>qchopplantedtree</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedtree>
 
 	<tallgrass>
@@ -1558,6 +1584,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</tallgrass>
 
 	<tallgrassgrown>
@@ -1579,6 +1606,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</tallgrassgrown>
 
 	<bush3>
@@ -1595,6 +1623,7 @@
 		<spawnTurns>1d26400+26400</spawnTurns>
 
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bush3>
 
 	<bush2>
@@ -1603,6 +1632,7 @@
 		<maxAge>1d12400+12400</maxAge>
 		<maxAgeItem>tree2</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bush2>
 
 	<tree2>
@@ -1615,6 +1645,7 @@
 		<spawnTurns>1d33200</spawnTurns>
 		<action>qchop</action>
 		<locked>true</locked>
+		<canBeUnlocked>false</canBeUnlocked>
 	</tree2>
 
 	<treekeepersleep2>
@@ -1622,6 +1653,7 @@
 		<habitat>grass3</habitat>
 		<action>qchopsleeper2</action>
 		<locked>true</locked>
+		<canBeUnlocked>false</canBeUnlocked>
 	</treekeepersleep2>
 
 	<tree2seed>
@@ -1647,6 +1679,7 @@
 		<spawnMaxItems>2</spawnMaxItems>
 		<spawnTurns>1d1440</spawnTurns>
 		<action>qchopplantedtree2</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedtree2>
 
 	<snowcherryseed>
@@ -1663,6 +1696,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedsnowcherrytree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbushsnowcherry>
 
 	<plantedsnowcherrytree>
@@ -1674,6 +1708,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestpsnowcherry</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedsnowcherrytree>
 
 	<plantedharvestingsnowcherrytree>
@@ -1684,6 +1719,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>plantedharvestedsnowcherrytree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestingsnowcherrytree>
 
 	<plantedharvestedsnowcherrytree>
@@ -1692,6 +1728,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>plantedsnowcherrytree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestedsnowcherrytree>
 
 
@@ -1701,6 +1738,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>snowcherrytree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bushsnowcherry>
 
 	<snowcherrytree>
@@ -1713,6 +1751,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestsnowcherry</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</snowcherrytree>
 
 	<harvestingsnowcherrytree>
@@ -1723,6 +1762,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>harvestedsnowcherrytree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestingsnowcherrytree>
 
 	<harvestedsnowcherrytree>
@@ -1731,6 +1771,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>snowcherrytree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestedsnowcherrytree>
 
 	<bananaseed>
@@ -1747,6 +1788,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>bananatree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bushbanana>
 
 	<plantedbushbanana>
@@ -1766,6 +1808,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestpbanana</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbananatree>
 
 	<plantedharvestingbananatree>
@@ -1776,6 +1819,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>plantedharvestedbananatree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestingbananatree>
 
 	<plantedharvestedbananatree>
@@ -1784,6 +1828,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>plantedbananatree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestedbananatree>
 
 	<bananatree>
@@ -1796,6 +1841,7 @@
 		<locked>true</locked>
 		<action>qchopfruittrees</action>
 		<action>qharvestbanana</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bananatree>
 
 	<harvestingbananatree>
@@ -1806,6 +1852,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>harvestedbananatree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestingbananatree>
 
 	<harvestedbananatree>
@@ -1814,6 +1861,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>bananatree</maxAgeItem>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestedbananatree>
 
 	<blueradishseed>
@@ -1830,6 +1878,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedblueradishplant</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedsproutblueradish>
 
 	<plantedblueradishplant>
@@ -1841,6 +1890,7 @@
 		<locked>true</locked>
 		<action>qcut</action>
 		<action>qharvestpblueradish</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedblueradishplant>
 
 
@@ -1852,6 +1902,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>plantedharvestedblueradishplant</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestingblueradishplant>
 
 	<plantedharvestedblueradishplant>
@@ -1860,6 +1911,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>plantedblueradishplant</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestedblueradishplant>
 
 	<sproutblueradish>
@@ -1868,6 +1920,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>blueradishplant</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</sproutblueradish>
 
 	<blueradishplant>
@@ -1880,6 +1933,7 @@
 		<locked>true</locked>
 		<action>qcut</action>
 		<action>qharvestblueradish</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</blueradishplant>
 
 	<harvestingblueradishplant>
@@ -1890,6 +1944,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>harvestedblueradishplant</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestingblueradishplant>
 
 	<harvestedblueradishplant>
@@ -1898,6 +1953,7 @@
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>blueradishplant</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestedblueradishplant>
 
 	<plantedjunglemushroomseed>
@@ -1907,6 +1963,7 @@
 		<maxAgeItem>plantedmushroom</maxAgeItem>
 		<locked>true</locked>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedjunglemushroomseed>
 
 	<plantedmushroom>
@@ -1918,6 +1975,7 @@
 		<locked>true</locked>
 		<action>qcut</action>
 		<action>qpickpmushroom</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedmushroom>
 
 
@@ -1930,6 +1988,7 @@
 		<locked>true</locked>
 		<action>qcut</action>
 		<action>qpickmushroom</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</mushroom>
 
 
@@ -1961,6 +2020,7 @@
 		<locked>true</locked>
 		<action>qcut</action>
 		<action>qpickpcavemushroom</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedcavemushroom>
 
 	<cavemushroom>
@@ -1969,6 +2029,7 @@
 
 		<action>qcut</action>
 		<action>qpickcavemushroom</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</cavemushroom>
 
 	<cactusseed>
@@ -1990,6 +2051,7 @@
 		<locked>true</locked>
 		<action>qcut</action>
 		<action>qharvestpcactus</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedcactus>
 
 	<plantedharvestingcactus>
@@ -2000,6 +2062,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>plantedharvestedcactus</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestingcactus>
 
 	<plantedharvestedcactus>
@@ -2008,6 +2071,7 @@
 		<maxAge>1d2880+2880</maxAge>
 		<maxAgeItem>plantedcactus</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedharvestedcactus>
 
 	<cactus>
@@ -2017,6 +2081,7 @@
 		<maxAgeItem>harvestingcactus</maxAgeItem>
 		<action>qcut</action>
 		<action>qharvestcactus</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</cactus>
 
 	<cactusbush>
@@ -2035,6 +2100,7 @@
 		<maxAge>2</maxAge>
 		<maxAgeItem>harvestedcactus</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestingcactus>
 
 	<harvestedcactus>
@@ -2043,6 +2109,7 @@
 		<maxAge>1d4880+2440</maxAge>
 		<maxAgeItem>cactus</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</harvestedcactus>
 
 	<jungleseed>
@@ -2059,6 +2126,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedjungletree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedjunglebush>
 
 	<plantedjungletree>
@@ -2068,6 +2136,7 @@
 		<spawnMaxItems>2</spawnMaxItems>
 		<spawnTurns>1d1440</spawnTurns>
 		<action>qchopplantedjungletree</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedjungletree>
 
 	<junglebush>
@@ -2077,6 +2146,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>jungletree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</junglebush>
 
 	<jungletree>
@@ -2088,8 +2158,8 @@
 		<spawnMaxItems>1</spawnMaxItems>
 		<spawnTurns>1d43200</spawnTurns>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</jungletree>
-
 
 	<snowseed>
 		<name esES="Semilla de árbol de nieve">Snow tree seedling</name>
@@ -2105,6 +2175,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>snowtree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</snowbush>
 
 	<plantedsnowbush>
@@ -2113,6 +2184,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedsnowtree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedsnowbush>
 
 	<snowtree>
@@ -2123,6 +2195,7 @@
 		<spawnMaxItems>2</spawnMaxItems>
 		<spawnTurns>1d43200</spawnTurns>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</snowtree>
 
 	<plantedsnowtree>
@@ -2132,6 +2205,7 @@
 		<spawnMaxItems>2</spawnMaxItems>
 		<spawnTurns>1d1440</spawnTurns>
 		<action>qchopplantedsnowtree</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedsnowtree>
 
 	<palmtreeseed>
@@ -2148,6 +2222,7 @@
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>palmtree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</bushpalmtree>
 
 	<plantedbushpalmtree>
@@ -2156,6 +2231,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedpalmtree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbushpalmtree>
 
 	<plantedpalmtree>
@@ -2165,6 +2241,7 @@
 		<spawnMaxItems>2</spawnMaxItems>
 		<spawnTurns>1d1440</spawnTurns>
 		<action>qchopplantedpalmtree</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedpalmtree>
 
 	<palmtree>
@@ -2176,6 +2253,7 @@
 		<spawnTurns>1d43200</spawnTurns>
 		<locked>true</locked>
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</palmtree>
 
 
@@ -2328,6 +2406,7 @@
 		<name esES="Tronco de árbol">Tree stump</name>
 		<description esES="Un tronco de árbol con ventanas y... ¿una puerta?">A tiny tree stump, with windows and... a door?</description>
 		<habitat>brownievillage</habitat>
+		<canBeUnlocked>false</canBeUnlocked>
 	</browniehouse>
 
 	<goblinhead>
@@ -2434,8 +2513,8 @@
 		<value>200</value>
 	</rounddarkblock>
 
-	<roundgreyblock>
-		<name esES="Bloque gris redondeado">Rounded grey block</name>
+	<roundgrayblock>
+		<name esES="Bloque gris redondeado">Rounded gray block</name>
 		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
@@ -2446,7 +2525,7 @@
 		<blockFluids>true</blockFluids>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
-	</roundgreyblock>
+	</roundgrayblock>
 
 	<roundwhiteblock>
 		<name esES="Bloque blanco redondeado">Rounded white block</name>
@@ -3074,6 +3153,85 @@
 		<value>200</value>
 	</roughbricks>
 
+	<flagblockyellow>
+		<name esES="Bloque amarillo">Yellow flag block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+	</flagblockyellow>
+
+	<flagblockred>
+		<name esES="Bloque rojo">Red flag block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+	</flagblockred>
+
+	<flagblockgray>
+		<name esES="Bloque gris">Gray flag block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+	</flagblockgray>
+
+	<flagblockwhite>
+		<name esES="Bloque blanco">White flag block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+	</flagblockwhite>
+
+	<flagblockwhitearc>
+		<name esES="Arco blanco">White flag block arc</name>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<wallConnector>true</wallConnector>
+
+		<allowFluids>true</allowFluids>
+		<alwaysOperative>false</alwaysOperative>
+	</flagblockwhitearc>
+
 	<roughbrickarc>
 		<name esES="Arco de ladrillos">Rough brick arc</name>
 		<type>construction.blockwalls</type>
@@ -3147,9 +3305,10 @@
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
 		<base>true</base>
+		<zoneMergerUp>true</zoneMergerUp>
+		<wallConnector>true</wallConnector>
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
@@ -3777,6 +3936,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
+		<canBeUnlocked>false</canBeUnlocked>
 	</totem>
 
 	<skullfence>
@@ -4388,6 +4548,7 @@
 		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherredflower</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</redflower>
 
 	<redflowerseed>
@@ -4404,6 +4565,7 @@
 		<habitat>humus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedredflower</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedredflower>
 
 	<blueflower>
@@ -4411,6 +4573,7 @@
 		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatherblueflower</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</blueflower>
 
 	<blueflowerseed>
@@ -4427,6 +4590,7 @@
 		<habitat>humus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedblueflower</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedblueflower>
 
 	<yellowflower>
@@ -4434,6 +4598,7 @@
 		<habitatGroup>grassGroup</habitatGroup>
 		<action>qcut</action>
 		<action>qgatheryellowflower</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</yellowflower>
 
 	<yellowflowerseed>
@@ -4450,6 +4615,7 @@
 		<habitat>humus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedyellowflower</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedyellowflower>
 
 	<gatheredredflower>
@@ -4597,6 +4763,7 @@
 		<buryItemPCT>75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>15,5,5,1</buryLivingsPCT>
+		<canBeRotated>true</canBeRotated>
 
 		<zoneMergerUp>true</zoneMergerUp>
 		<base>true</base>
@@ -4638,6 +4805,7 @@
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4732,6 +4900,7 @@
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
+		<canBeRotated>true</canBeRotated>
 		<action>rotate_purplethrone_E</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -4825,6 +4994,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<base>true</base>
 		<value>97</value>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -5055,6 +5225,7 @@
 		<happiness>2</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -5366,6 +5537,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zforge</zone>
 		<value>212</value>
+		<canBeRotated>true</canBeRotated>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_anvil</action>
@@ -5409,6 +5581,7 @@
 		<description esES="Se usa en la fabricación de comida preparada a base de carne">Used to make meat based foods</description>
 		<type>utils.workshops</type>
 		<alwaysOperative>false</alwaysOperative>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -5445,6 +5618,7 @@
 		<type>utils.workshops</type>
 
 		<alwaysOperative>false</alwaysOperative>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -5528,6 +5702,7 @@
 		<type>utils.workshops</type>
 		<zone>zhospital</zone>
 		<value>212</value>
+		<canBeRotated>true</canBeRotated>
 		<action>rotate_medicinecabinet_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -5543,6 +5718,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>smelterbury</buryItem>
+		<canBeRotated>true</canBeRotated>
 
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>15,1</buryLivingsPCT>
@@ -5576,6 +5752,7 @@
 		
 		<stackable>true</stackable>
 		<stackableSize>2</stackableSize>
+		<canBeRotated>true</canBeRotated>
 		<value>100</value>
 		
 		<stackable>true</stackable>
@@ -5605,10 +5782,11 @@
 	</cookingfire>
 
 	<cookingfirelow>
-		<name esES="Fuego para cocinar">Low cooking fire</name>
+		<name esES="Fuego para cocinar casi extinguido">Low cooking fire</name>
 		<description esES="Un pequeño fuego para preparar comida">A small fire to prepare meat based food</description>
 		<description esES="Parece que no va a durar mucho">It looks like it wont last long</description>
 
+		<locked>true</locked>
 		<lightRadius>2</lightRadius>
 		<lightRed>HALF</lightRed>
 		<lightGreen>NONE</lightGreen>
@@ -5627,10 +5805,11 @@
 	</cookingfirelow>
 
 	<cookingfireburnt>
-		<name esES="Fuego para cocinar">Burnt cooking fire</name>
+		<name esES="Fuego para cocinar extinguido">Burnt cooking fire</name>
 		<description esES="Un pequeño fuego para preparar comida">A small fire to prepare meat based food</description>
 		<description esES="Parece que no va a durar mucho">It looks like it wont last long</description>
 
+		<locked>true</locked>
 		<lightRadius>1</lightRadius>
 		<lightRed>HALF</lightRed>
 		<lightGreen>NONE</lightGreen>
@@ -5651,6 +5830,7 @@
 		<lightGreen>NONE</lightGreen>
 		<lightBlue>NONE</lightBlue>
 		<value>212</value>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -6065,8 +6245,8 @@
 		<defense>1d59+170</defense>
 		<damage>1d74+213</damage>
 		<LOS>1d3</LOS>
-		<verb esES="ensarta">sticks</verb>
-		<verbInfinitive esES="ensartar">stick</verbInfinitive>
+		<verb esES="dispara">shoots</verb>
+		<verbInfinitive esES="disparar">shoot</verbInfinitive>
 
 		<wearEffects>cripplingshot</wearEffects>
 		<wearEffects>pierce5</wearEffects>
@@ -6093,8 +6273,8 @@
 		<damage>1d74+313</damage>
 		<attackSpeed>2</attackSpeed>
 
-		<verb esES="ensarta">sticks</verb>
-		<verbInfinitive esES="ensartar">stick</verbInfinitive>
+		<verb esES="dispara">shoots</verb>
+		<verbInfinitive esES="disparar">shoot</verbInfinitive>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -6115,8 +6295,8 @@
 		<defense>1d59+180</defense>
 		<damage>1d74+240</damage>
 		<LOS>1d3</LOS>
-		<verb esES="ensarta">sticks</verb>
-		<verbInfinitive esES="ensartar">stick</verbInfinitive>
+		<verb esES="dispara">shoots</verb>
+		<verbInfinitive esES="disparar">shoot</verbInfinitive>
 
 		<bury>true</bury>
 
@@ -7170,8 +7350,8 @@
 		<defense>1d14+43</defense>
 		<damage>1d89+255</damage>
 		<LOS>1d3</LOS>
-		<verb esES="ensarta">sticks</verb>
-		<verbInfinitive esES="ensartar">stick</verbInfinitive>
+		<verb esES="dispara">shoots</verb>
+		<verbInfinitive esES="disparar">shoot</verbInfinitive>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -7627,6 +7807,7 @@
 
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>25,1</buryLivingsPCT>
+		<canBeRotated>true</canBeRotated>
 
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
@@ -7674,6 +7855,7 @@
 		<buryItemPCT>50,100</buryItemPCT>
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>25,1</buryLivingsPCT>
+		<canBeRotated>true</canBeRotated>
 
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
@@ -7715,11 +7897,12 @@
 		<description esES="Con ella construirás objetos de madera">Used to make wooden objects</description>
 		<type>utils.workshops</type>
 
+		<canBeRotated>true</canBeRotated>
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>carpentrybenchbury</buryItem>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zcarpentry</zone>
 		<value>106</value>
@@ -7746,6 +7929,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>skinnerbury</buryItem>
+		<canBeRotated>true</canBeRotated>
 
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zatelier</zone>
@@ -7770,6 +7954,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>colormixerbury</buryItem>
+		<canBeRotated>true</canBeRotated>
 
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zatelier</zone>
@@ -7796,6 +7981,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>carvingbenchbury</buryItem>
+		<canBeRotated>true</canBeRotated>
 
 		<buryLivings>ghost,zombie</buryLivings>
 		<buryLivingsPCT>45,25</buryLivingsPCT>
@@ -8314,6 +8500,7 @@
 		<description esES="Una estatua de Wizardjian, el nigromante malvado">A statue of Wizardjian, the evil necromancer</description>
 
 		<type>decorative.outdoor</type>
+		<canBeRotated>true</canBeRotated>
 
 		<happiness>1</happiness>
 
@@ -8332,6 +8519,7 @@
 		<name esES="Estatua de gárgola">Gargoyle statue</name>
 
 		<type>decorative.outdoor</type>
+		<canBeRotated>true</canBeRotated>
 
 		<happiness>1</happiness>
 
@@ -8766,6 +8954,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItemPCT>2,2,1,100</buryItemPCT>
 		<buryItem>chestburygoldweapon,chestburysilverweapon,chestburyspecialweapon,chestbury</buryItem>
+		<canBeRotated>true</canBeRotated>
 
 		<buryLivings>snickerblade,snickerblade,snickerblade,snickerblade</buryLivings>
 		<buryLivingsPCT>3,3,3,3</buryLivingsPCT>
@@ -8773,7 +8962,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
-		<action>rotate_chest_W</action>
+<!--		<action>rotate_chest_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_chest</action>
@@ -8884,7 +9073,7 @@
 	</candlebury>
 
 	<hangedlamp>
-		<name esES="Lámpara colgante">Hanged lamp</name>
+		<name esES="Lámpara colgante">Hanging lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8909,7 +9098,7 @@
 	</hangedlamp>
 
 	<bluehangedlamp>
-		<name esES="Lámpara colgante azul">Blue hanged lamp</name>
+		<name esES="Lámpara colgante azul">Blue hanging lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8934,7 +9123,7 @@
 	</bluehangedlamp>
 
 	<yellowhangedlamp>
-		<name esES="Lámpara colgante amarilla">Yellow hanged lamp</name>
+		<name esES="Lámpara colgante amarilla">Yellow hanging lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8959,7 +9148,7 @@
 	</yellowhangedlamp>
 
 	<greenhangedlamp>
-		<name esES="Lámpara colgante verde">Green hanged lamp</name>
+		<name esES="Lámpara colgante verde">Green hanging lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -8984,7 +9173,7 @@
 	</greenhangedlamp>
 
 	<redhangedlamp>
-		<name esES="Lámpara colgante roja">Red hanged lamp</name>
+		<name esES="Lámpara colgante roja">Red hanging lamp</name>
 		<type>decorative.indoor</type>
 
 		<glue>true</glue>
@@ -9009,8 +9198,7 @@
 	</redhangedlamp>
 
 	<hangedlampbury>
-		<name esES="Lámpara colgante">Hanged lamp</name>
-		<type>decorative.indoor</type>
+		<name esES="Lámpara colgante">Hanging lamp</name>
 
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -9022,7 +9210,6 @@
 
 		<value>125</value>
 	</hangedlampbury>
-
 
 	<bonecandle>
 		<name esES="Vela de hueso">Bone candle</name>
@@ -9154,6 +9341,7 @@
 		<name esES="Estatua de piedra">Stone statue</name>
 		<description esES="Una estatua de piedra de un héroe legendario">A stone statue of a legendary hero</description>
 		<type>decorative.outdoor</type>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9163,7 +9351,7 @@
 		<happiness>1</happiness>
 
 		<value>200</value>
-		<action>rotate_stonemalestatue_W</action>
+<!--		<action>rotate_stonemalestatue_W</action> -->
 		<action>del_stonemalestatue</action>
 	</stonemalestatue>
 
@@ -9181,6 +9369,7 @@
 		<name esES="Estatua de unifallow de oro">Gold unifallow statue</name>
 		<description esES="Brilla demasiado! Te puedes quedar ciego mirándola">It's so shiny, you would go blind looking at it too long!</description>
 		<type>decorative.outdoor</type>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9188,9 +9377,36 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>3</happiness>
 		<value>301</value>
-		<action>rotate_goldunifallowstatue_S</action>
+<!--		<action>rotate_goldunifallowstatue_S</action> -->
 		<action>del_goldunifallowstatue</action>
 	</goldunifallowstatue>
+
+	<goldnuxstatue>
+		<name esES="Estatua dorada de Nux, el rey de los dioses">Gold statue of Nux, the god king</name>
+		<type>decorative.outdoor</type>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeRotated>true</canBeRotated>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>3</happiness>
+		<value>301</value>
+	</goldnuxstatue>
+
+	<silverskootenbeetenstatue>
+		<name esES="Estatua de skootenbeeten plateada">Silver skootenbeeten statue</name>
+		<description esES="Una obra maestra">A masterpiece</description>
+		<type>decorative.outdoor</type>
+		<canBeRotated>true</canBeRotated>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+		<value>281</value>
+	</silverskootenbeetenstatue>
 
 	<snickerpole>
 		<name esES="Estaca snicker">Snicker pole</name>
@@ -9232,6 +9448,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		<canBeRotated>true</canBeRotated>
 
 		<wallConnector>true</wallConnector>
 
@@ -9282,6 +9499,8 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		<canBeRotated>true</canBeRotated>
+
 		<buryItem>harpbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
 
@@ -9857,6 +10076,7 @@
 		<locked>true</locked>
 
 		<bury>true</bury>
+		<canBeRotated>true</canBeRotated>
 		<buryLocked>true</buryLocked>
 		<buryItem>grave,gravebury</buryItem>
 
@@ -9868,7 +10088,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>22</value>
-		<action>rotate_grave_E</action>
+<!--		<action>rotate_grave_E</action> -->
 		<action>del_grave</action>
 	</grave>
 
@@ -9897,6 +10117,7 @@
 		<locked>true</locked>
 
 		<text>true</text>
+		<canBeRotated>true</canBeRotated>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -9909,7 +10130,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		<action>rotate_tomb_E</action>
+<!--		<action>rotate_tomb_E</action> -->
 		<action>del_tomb</action>
 		</tomb>
 
@@ -9957,6 +10178,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -9968,7 +10190,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>120</value>
-		<action>rotate_mosstomb_E</action>
+<!--		<action>rotate_mosstomb_E</action> -->
 		<action>del_mosstomb</action>
 	</mosstomb>
 
@@ -9999,6 +10221,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10020,6 +10243,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10042,6 +10266,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10064,6 +10289,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10086,6 +10312,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10108,6 +10335,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10130,6 +10358,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10151,6 +10380,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10172,6 +10402,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10193,6 +10424,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10214,6 +10446,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10236,6 +10469,7 @@
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
+		<canBeRotated>true</canBeRotated>
 
 		<text>true</text>
 
@@ -10251,6 +10485,7 @@
 		
 		<action>del_herbalisttomb</action>
 	</herbalisttomb>
+
 
 	<redbadgerdummy>
 		<name esES="Tejón rojo">Red badger</name>
@@ -10340,6 +10575,7 @@
 		<habitat>lavadirt</habitat>
 
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</deadtree>
 
 
@@ -10349,6 +10585,7 @@
 		<habitat>lavadirt</habitat>
 
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</deadtree2>
 
 
@@ -10358,6 +10595,7 @@
 		<habitat>lavadirt</habitat>
 
 		<action>qchop</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</deadtree3>
 
 	<!--/Decorative items -->
@@ -10421,8 +10659,8 @@
 		<defense>1d144+254</defense>
 		<damage>1d750+2155</damage>
 		<LOS>1d5</LOS>
-		<verb esES="ensarta">sticks</verb>
-		<verbInfinitive esES="ensartar">stick</verbInfinitive>
+		<verb esES="dispara">shoots</verb>
+		<verbInfinitive esES="disparar">shoot</verbInfinitive>
 
 		<wearEffects>pierce15</wearEffects>
 
@@ -10542,8 +10780,8 @@
 		<defense>1d144+254</defense>
 		<damage>1d700+2055</damage>
 		<LOS>1d4</LOS>
-		<verb esES="ensarta">sticks</verb>
-		<verbInfinitive esES="ensartar">stick</verbInfinitive>
+		<verb esES="dispara">shoots</verb>
+		<verbInfinitive esES="disparar">shoot</verbInfinitive>
 
 		<wearEffects>pierce15,silverbolt</wearEffects>
 
@@ -10678,6 +10916,7 @@
 		<value>120</value>
 		<action>qcut</action>
 		<action>qharvestplanttrap</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</planttrap>
 
 	<plantedplanttrap>
@@ -10694,6 +10933,7 @@
 		<trapTargets>ENEMY</trapTargets>
 		<value>120</value>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedplanttrap>
 
 	<bambootrap>
@@ -19103,7 +19343,7 @@
 		<action>rotate_silvernuxstatue_W</action>
 		<action>del_silvernuxstatue</action>
 	</silvernuxstatue_E>
-	
+<!--	
 	<goldnuxstatue>
 		<name esES="N/A">Gold Nux Statue</name>
 
@@ -19121,7 +19361,7 @@
 		<action>rotate_goldnuxstatue_E</action>
 		<action>del_goldnuxstatue</action>
 	</goldnuxstatue>
-	
+-->	
 	<goldnuxstatue_E>
 		<name esES="N/A">Gold Nux Statue</name>
 
@@ -19208,7 +19448,7 @@
 		<action>rotate_bronzeskootenbeetenstatue_W</action>
 		<action>del_bronzeskootenbeetenstatue</action>
 	</bronzeskootenbeetenstatue_E>
-	
+<!--	
 	<silverskootenbeetenstatue>
 		<name esES="N/A">Silver Skootenbeeten Statue</name>
 
@@ -19226,7 +19466,7 @@
 		<action>rotate_silverskootenbeetenstatue_E</action>
 		<action>del_silverskootenbeetenstatue</action>
 	</silverskootenbeetenstatue>
-	
+	-->
 	<silverskootenbeetenstatue_E>
 		<name esES="N/A">Silver Skootenbeeten Statue</name>
 
@@ -19664,7 +19904,7 @@
 	</diagonalmahoganylogblock>
 	
 	<!-- dw420 Flag Brick Blocks -->
-	<flagblockwhite>
+<!--	<flagblockwhite>
 		<name esES="Bloque blanco">White Flag Block</name>
 		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -19697,7 +19937,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockwhitearc>
-	
+-->	
 	<flagblockwhitesides>
 		<name esES="Arco blanco">White Flag Block Sides</name>
 		<type>construction.blockwalls</type>
@@ -19714,7 +19954,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockwhitesides>
-	
+<!--	
 	<flagblockyellow>
 		<name esES="Bloque blanco">Yellow Flag Block</name>
 		<type>construction.blockwalls</type>
@@ -19731,7 +19971,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockyellow>
-
+-->
 	<flagblockyellowarc>
 		<name esES="Arco blanco">Yellow Flag Block Arc</name>
 		<type>construction.blockwalls</type>
@@ -19867,7 +20107,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockgreysides>
-	
+<!--	
 	<flagblockred>
 		<name esES="Bloque blanco">Red Flag Block</name>
 		<type>construction.blockwalls</type>
@@ -19884,7 +20124,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockred>
-
+-->
 	<flagblockredarc>
 		<name esES="Arco blanco">Red Flag Block Arc</name>
 		<type>construction.blockwalls</type>
@@ -19969,4 +20209,18 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblocktansides>
+
+	<roundgreyblock>
+		<name esES="Bloque gris redondeado">Rounded grey block</name>
+		<type>construction.blockwalls</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<blockFluids>true</blockFluids>
+		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
+	</roundgreyblock>
 </items>

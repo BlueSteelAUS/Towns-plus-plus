@@ -963,7 +963,7 @@
 		<item id="qdestroybones" code="QUEUE" parameter="qdestroybones" />
 		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</burner>
-	<item id="qmalecitizen" code="QUEUE" parameter="qmalecitizen" />
+<!--	<item id="qmalecitizen" code="QUEUE" parameter="qmalecitizen" /> -->
 	<item id="qfemalecitizen" code="QUEUE" parameter="qfemalecitizen" />
 
 </menu>

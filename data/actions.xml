@@ -1616,7 +1616,7 @@
 		</queue>
 	</action>
 
-	<!-- <action> <id>qsnowbucket</id> <priorityID>gatheringharvestingharvesting</priorityID> <queue> <pick>snowpile</pick> <wait>20</wait> <destroyItem /> <createItem>snowbucket</createItem> </queue> </action> -->
+	<!-- <action> <id>qsnowbucket</id> <priorityID>gatheringharvesting</priorityID> <queue> <pick>snowpile</pick> <wait>20</wait> <destroyItem /> <createItem>snowbucket</createItem> </queue> </action> -->
 
 	<action>
 		<id>qrenewfire</id>
@@ -3608,7 +3608,7 @@
 	</action>
 
 	<action>
-		<id>qroundgreyblock</id>
+		<id>qroundgrayblock</id>
 
 		<priorityID>wallconstruction</priorityID>
 
@@ -3619,7 +3619,7 @@
 			<wait>32</wait>
 			<destroyItem/>
 			<unlock /> 
-			<createItem>roundgreyblock</createItem>
+			<createItem>roundgrayblock</createItem>
 		</queue>
 	</action>
 
@@ -3812,6 +3812,34 @@
 	</action>
 
 	<action>
+		<id>qsilverskootenbeetenstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>smelter</lock>
+			<pick>rmsilver</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmsilver</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<move>anvil</move>
+			<wait>72</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silverskootenbeetenstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
 		<id>qsiriancaesar</id>
 
 		<priorityID>itemconstruction</priorityID>
@@ -3868,6 +3896,34 @@
 			<destroyItem />
 			<unlock />
 			<createItem>goldunifallowstatue</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qgoldnuxstatue</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>smelter</lock>
+			<pick>rmgold</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<pick>rmgold</pick>
+			<move>smelter</move>
+			<wait>32</wait>
+			<destroyItem />
+			<unlock />
+			<move>anvil</move>
+			<wait>72</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>goldnuxstatue</createItem>
 		</queue>
 	</action>
 
@@ -4307,6 +4363,91 @@
 			<destroyItem />
 			<unlock />
 			<createItem>stonearcdoor2</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockyellow</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockyellow</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockred</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockred</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockgray</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockgray</createItem>
+		</queue>
+	</action>
+
+	
+	<action>
+		<id>qflagblockwhite</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockwhite</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qflagblockwhitearc</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>38</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>flagblockwhitearc</createItem>
 		</queue>
 	</action>
 
@@ -10380,6 +10521,7 @@
 		<inverted>true</inverted>
 
 		<queue>
+			<lock>burner</lock>
 			<pick>rmmud</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -10395,6 +10537,7 @@
 		<inverted>true</inverted>
 
 		<queue>
+			<lock>burner</lock>
 			<pick>rmwood</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -10410,6 +10553,7 @@
 		<inverted>true</inverted>
 
 		<queue>
+			<lock>burner</lock>
 			<pick>bones</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -10425,6 +10569,7 @@
 		<inverted>true</inverted>
 
 		<queue>
+			<lock>burner</lock>
 			<pick>flour</pick>
 			<move>burner</move>
 			<wait>10</wait>
@@ -10988,7 +11133,7 @@
 	<action>
 		<id>qsacrificecorpse</id>
 
-		<name esES="Sacrificar restos humanos a">Sacrifice human remains to</name>
+		<name esES="Sacrificar cuerpo humano a">Sacrifice human corpse to</name>
 
 		<priorityID>itemconstruction</priorityID>
 
@@ -11007,7 +11152,7 @@
 	<action>
 		<id>qsacrificecorpse2</id>
 
-		<name esES="Sacrificar restos humanos a">Sacrifice human remains to</name>
+		<name esES="Sacrificar cuerpo humano a">Sacrifice human corpse to</name>
 
 		<priorityID>itemconstruction</priorityID>
 
@@ -21952,7 +22097,7 @@
 <!-- Spawn CITIZENS from the dead-->
 <action>
 		<id>qfemalecitizen</id>
-		<name esES="N/A">New Female Citizen</name>
+		<name esES="N/A">New Citizen</name>
 		<priorityID>_FEED_</priorityID>
 		<generatedItem>citizenfemale</generatedItem>
 		<queue>
@@ -21965,7 +22110,7 @@
 			<createfriendly>citizenfemale</createfriendly>
 		</queue>
 	</action>
-
+<!-- not needed as new citizens are random male or female 
 	<action>
 		<id>qmalecitizen</id>
 		<name esES="N/A">New Male Citizen</name>
@@ -21981,7 +22126,7 @@
 			<createfriendly>citizenmale</createfriendly>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qspiralstairs</id>
 
@@ -22434,7 +22579,7 @@
 		</queue>
 	</action>
 
-	<action>
+<!--	<action>
 		<id>qgoldnuxstatue</id>
 
 		<priorityID>itemconstruction</priorityID>
@@ -22461,7 +22606,7 @@
 			<createItem>goldnuxstatue</createItem>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qironskootenbeetenstatue</id>
 
@@ -22517,7 +22662,7 @@
 			<createItem>bronzeskootenbeetenstatue</createItem>
 		</queue>
 	</action>
-
+<!--
 	<action>
 		<id>qsilverskootenbeetenstatue</id>
 
@@ -22545,7 +22690,7 @@
 			<createItem>silverskootenbeetenstatue</createItem>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qgoldskootenbeetenstatue</id>
 
@@ -23546,7 +23691,7 @@
 	</action>
 	
 	<!-- dw420 Flag Brick Blocks -->
-	<action>
+<!--	<action>
 		<id>qflagblockwhite</id>
 
 		<priorityID>wallconstruction</priorityID>
@@ -23585,7 +23730,7 @@
 			<createItem>flagblockwhitearc</createItem>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qflagblockwhitesides</id>
 
@@ -23605,7 +23750,7 @@
 			<createItem>flagblockwhitesides</createItem>
 		</queue>
 	</action>
-	
+<!--	
 	<action>
 		<id>qflagblockyellow</id>
 
@@ -23625,7 +23770,7 @@
 			<createItem>flagblockyellow</createItem>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qflagblockyellowarc</id>
 
@@ -23785,7 +23930,7 @@
 			<createItem>flagblockgreysides</createItem>
 		</queue>
 	</action>
-	
+<!--	
 	<action>
 		<id>qflagblockred</id>
 
@@ -23805,7 +23950,7 @@
 			<createItem>flagblockred</createItem>
 		</queue>
 	</action>
-
+-->
 	<action>
 		<id>qflagblockredarc</id>
 
@@ -23915,4 +24060,19 @@
 	</queue>
 </action>
 -->
+	<action>
+		<id>qroundgreyblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>roundgreyblock</createItem>
+		</queue>
+	</action>
 </actions>
