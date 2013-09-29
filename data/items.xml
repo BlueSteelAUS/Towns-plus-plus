@@ -14214,6 +14214,27 @@
 		<buryLocked>true</buryLocked>
 	</dirtstairs2d>
 
+	<stonestairs1a>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
+
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_stonestairs1b</action>
+		<action>rotate_stonestairs1c</action>
+		<action>rotate_stonestairs1d</action>
+		<action>del_stoneladder</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</stonestairs1a>
+	
 	<stonestairs1b>
 		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
