@@ -10,7 +10,10 @@ BlueSteel's Contributions
 -> updated to v14b of towns
 -> commented out sheep farm in buildings.xml (we no longer use buildings.xml for anything and haven't for quite some time)        
 -> some bug fixes and fixed some rotations that got missed when updating to v14a
-
+-> tremporarialy re-added stonesteps1a to items and graphics
+(should never have been called as that should have been saved as vanilla name,
+ from what i can tell it could be save file corruption from another mod similar to ours)
+  
 LittleMikey's Contributions:
 ============================
 -> fix carpentry bench
@@ -37,6 +40,18 @@ Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQ
 
 More videos and live streams will be done as time permits
 [/quote]
+
+[code]
+when ever you have questions or have suggestions or find bugs ,
+please raise an issue on https://github.com/BlueSteelAUS/Towns-plus-plus/issues?state=open
+so that we can have all the support related stuff in one area that can be looked at quickly
+and where we can keep better track of errors and fixes
+
+its also good for checking to see if anyone else is having same problems or making the same suggestion.
+if they are please add a comment to the existing issue report.
+This lets us know how popular the suggestion is, or how big of an issue the bug is and whether its repeatable
+[/code]
+
 
 Welcome to the longest running and I believe still one of the best and largest mod for Towns.
 
