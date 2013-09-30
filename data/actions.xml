@@ -15706,7 +15706,7 @@
 			<wait>16</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>dirtstairs2a</createItem>
+			<createItem>grassstairs</createItem>
 		</queue>
 	</action>
 

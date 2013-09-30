@@ -32,7 +32,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
@@ -62,7 +62,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
@@ -92,7 +92,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
@@ -122,7 +122,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
@@ -152,7 +152,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
@@ -182,7 +182,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<group>grassGroup</group>
@@ -213,7 +213,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>
@@ -243,7 +243,7 @@
 		<mineTurns>7</mineTurns>
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
-		<ladderItem>ladder</ladderItem>
+		<ladderItem>grassstairs</ladderItem>
 		<action>qtill</action>
 		<canBeFilled>true</canBeFilled>
 		<action>qterraformtodirt</action>

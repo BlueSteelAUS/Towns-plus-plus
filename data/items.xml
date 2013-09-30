@@ -20443,4 +20443,22 @@
     <buryLocked>true</buryLocked>
   </sandstairs1a>
 
+  
+	<grassstairs>
+		<name esES="Escaleras de Tierra">Grass Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<canBeRotated>true</canBeRotated>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</grassstairs>
 </items>
