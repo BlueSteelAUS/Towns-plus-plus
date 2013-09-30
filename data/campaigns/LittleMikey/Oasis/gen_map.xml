@@ -7,7 +7,7 @@
 		<numCitizens>12</numCitizens>
 		<startingLevel>19</startingLevel>
 		<startingEvents>dawn,hot</startingEvents>
-		<startingEventsPCT>100,10,8</startingEventsPCT>
+		<startingEventsPCT>100,50</startingEventsPCT>
 		<numGods>2d2+1</numGods>
 	</init>
 	
