@@ -1321,7 +1321,7 @@
 		<castEffects>runaway</castEffects>
 		<castTargets>CITIZEN</castTargets>
 		<castTrigger>NEAR_DEATH</castTrigger>
-  		<castCooldown>5</castCooldown>
+  		<castCooldown>10</castCooldown>
 
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
@@ -1332,8 +1332,15 @@
 		<name esES="N/A">Running away</name>
 		<removeTarget>true</removeTarget>
 		<flee>true</flee>
-		<lasts>1</lasts>
-
-		<messageWhenVanish>false</messageWhenVanish>
+		<walkSpeed>360</walkSpeed>
+		<removeTarget>true</removeTarget>
+		<flee>true</flee>
+		<walkSpeed>360</walkSpeed>
+		<removeTarget>true</removeTarget>
+		<flee>true</flee>
+		<walkSpeed>360</walkSpeed>
+		<lasts>500</lasts>
+		<messageWhenGain>true</messageWhenGain>
+		<messageWhenVanish>true</messageWhenVanish>
 	</effect>
 </effects>
