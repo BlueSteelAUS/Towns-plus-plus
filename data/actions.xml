@@ -7174,10 +7174,6 @@
 			<move>artisan</move>
 			<wait>50</wait>
 			<destroyItem />
-			<pick>wool</pick>
-			<move>artisan</move>
-			<wait>50</wait>
-			<destroyItem />
 			<unlock />
 			<createItem>woodendormbed</createItem>
 		</queue>
@@ -16369,10 +16365,10 @@
 			<pick>rmflint</pick>
 			<moveTerrain />
 			<destroyItem />
-			<pick>rmflint</pick>
+			<pick>rmstone</pick>
 			<moveTerrain />
 			<destroyItem />
-			<pick>rmflint</pick>
+			<pick>rmstone</pick>
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
@@ -16674,7 +16670,7 @@
 			<pick>rmstone</pick>
 			<moveTerrain />
 			<destroyItem />
-			<wait>54</wait>
+			<wait>64</wait>
 			<moveTerrain />
 			<changeTerrain>densestone</changeTerrain>
 		</queue>
@@ -24075,4 +24071,41 @@
 			<createItem>roundgreyblock</createItem>
 		</queue>
 	</action>
+  <action>
+    <id>qstrawbed</id>
+
+    <priorityID>itemconstruction</priorityID>
+
+    <queue>
+      <lock>carpentrybench</lock>
+      <pick>rmwood</pick>
+      <move>carpentrybench</move>
+      <wait>25</wait>
+      <destroyItem />
+      <pick>rmwood</pick>
+      <move>carpentrybench</move>
+      <wait>25</wait>
+      <destroyItem />
+      <unlock />
+      <pick>wheat</pick>
+      <wait>5</wait>
+      <destroyItem />
+      <pick>wheat</pick>
+      <wait>5</wait>
+      <destroyItem />
+      <createItem>strawbed</createItem>
+    </queue>
+  </action>
+  <action>
+    <id>del_strawbed</id>
+    <name esES="N/A">Remove</name>
+
+    <priorityID>itemconstruction</priorityID>
+    <queue>
+      <move useSource="true">strawbed</move>
+      <wait>16</wait>
+      <destroyCellItem />
+      <createItem>strawbed</createItem>
+    </queue>
+  </action>
 </actions>

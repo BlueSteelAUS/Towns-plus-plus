@@ -1333,12 +1333,6 @@
 		<removeTarget>true</removeTarget>
 		<flee>true</flee>
 		<walkSpeed>360</walkSpeed>
-		<removeTarget>true</removeTarget>
-		<flee>true</flee>
-		<walkSpeed>360</walkSpeed>
-		<removeTarget>true</removeTarget>
-		<flee>true</flee>
-		<walkSpeed>360</walkSpeed>
 		<lasts>500</lasts>
 		<messageWhenGain>true</messageWhenGain>
 		<messageWhenVanish>true</messageWhenVanish>

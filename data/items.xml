@@ -4690,7 +4690,7 @@
 		<type>furniture.beds</type>
 
 		<usedToSleep>true</usedToSleep>
-		<happiness>1</happiness>
+		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -4754,7 +4754,7 @@
 		<type>furniture.beds</type>
 
 		<usedToSleep>true</usedToSleep>
-
+		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 
 		<bury>true</bury>
@@ -4803,7 +4803,7 @@
 		<type>furniture.beds</type>
 
 		<usedToSleep>true</usedToSleep>
-		<happiness>1</happiness>
+		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<canBeRotated>true</canBeRotated>
 
@@ -20442,5 +20442,5 @@
     <bury>true</bury>
     <buryLocked>true</buryLocked>
   </sandstairs1a>
- 
+
 </items>

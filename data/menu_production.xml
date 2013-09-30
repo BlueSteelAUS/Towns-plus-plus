@@ -643,8 +643,8 @@
 			<item id="qgreencolor" code="QUEUE" parameter="qgreencolor" />
 			<item id="qpurplecolor" code="QUEUE" parameter="qpurplecolor" />
 			<item id="qorangecolor" code="QUEUE" parameter="qorangecolor" />
-			<item id="qorangecolor" code="QUEUE" parameter="qwhitecolor" />
-			<item id="qorangecolor" code="QUEUE" parameter="qblackcolor" />
+			<item id="qwhitecolor" code="QUEUE" parameter="qwhitecolor" />
+			<item id="qblackcolor" code="QUEUE" parameter="qblackcolor" />
 			<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</colors>
 
