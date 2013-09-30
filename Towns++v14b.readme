@@ -10,9 +10,12 @@ BlueSteel's Contributions
 -> updated to v14b of towns
 -> commented out sheep farm in buildings.xml (we no longer use buildings.xml for anything and haven't for quite some time)        
 -> some bug fixes and fixed some rotations that got missed when updating to v14a
--> tremporarialy re-added stonesteps1a to items and graphics
-(should never have been called as that should have been saved as vanilla name,
- from what i can tell it could be save file corruption from another mod similar to ours)
+-> tremporarialy re-added stonesteps1a and other stuff that was prematurly deleted from to items and graphics
+(should never have been called as that should have been saved as vanilla name, will also have conversion to default items)
+
+-> changed terraform gravel to 2 flint and 2 stone From timtanton@yahoo.com 's email, thanks
+-> changed dormbrd to use only straw no wool (cheap bed) (idea was a straw only bed)From timtanton@yahoo.com 's email, thanks
+-> fixed black and white colours in production menu From timtanton@yahoo.com 's email, thanks
   
 LittleMikey's Contributions:
 ============================
