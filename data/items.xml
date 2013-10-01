@@ -1353,7 +1353,6 @@
 	<peartree>
 		<name esES="Peral">Pear tree</name>
 		<habitat>grass1</habitat>
-		<habitat>humus</habitat>
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>bushpear</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -1366,7 +1365,7 @@
 
 	<harvestingpeartree>
 		<name esES="Peral">Pear tree</name>
-		<habitat>humus</habitat>
+		<habitat>grass1</habitat>
 		<spawn>pear</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
@@ -1377,7 +1376,7 @@
 
 	<harvestedpeartree>
 		<name esES="Peral">Pear tree</name>
-		<habitat>humus</habitat>
+		<habitat>grass1</habitat>
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>peartree</maxAgeItem>
 		<action>qchop</action>
