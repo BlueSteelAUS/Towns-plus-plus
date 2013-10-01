@@ -1316,7 +1316,10 @@
 
 	<effect>
 		<id>fightflight</id>
-		<name esES="N/A">Run away when very hurt</name>
+		<lasts>1</lasts>
+		<name esES="N/A">Run when endangered</name>
+		<messageWhenGain>false</messageWhenGain>
+		<messageWhenVanish>false</messageWhenVanish> <!-- 
 
 		<castEffects>runaway</castEffects>
 		<castTargets>CITIZEN</castTargets>
@@ -1325,16 +1328,23 @@
 
 		<messageWhenVanish>false</messageWhenVanish>
 		<messageWhenGain>false</messageWhenGain>
+		 -->
 	</effect>
 
 	<effect>
 		<id>runaway</id>
+		<lasts>1</lasts>
 		<name esES="N/A">Running away</name>
+		<messageWhenGain>false</messageWhenGain>
+		<messageWhenVanish>false</messageWhenVanish>
+		<effectsImmune>fightflight</effectsImmune>
+		<!-- 
+		
 		<removeTarget>true</removeTarget>
 		<flee>true</flee>
 		<walkSpeed>360</walkSpeed>
-		<lasts>500</lasts>
+		<lasts>500</lasts> 
 		<messageWhenGain>true</messageWhenGain>
-		<messageWhenVanish>true</messageWhenVanish>
+		<messageWhenVanish>true</messageWhenVanish> -->
 	</effect>
 </effects>
