@@ -672,7 +672,7 @@
 			<item id="qxmaswoodendoor" code="QUEUEANDPLACEAREA" parameter="qxmaswoodendoor" />
 			<item id="qxmasblockdoor" code="QUEUEANDPLACEAREA" parameter="qxmasblockdoor" />
 			<item id="qxmasbakeroven" code="QUEUEANDPLACEAREA" parameter="qxmasbakeroven" />
-			<item id="qxmaschimney" code="QUEUEANDPLACEAREA" parameter="qxmaschimney" />
+			<!-- <item id="qxmaschimney" code="QUEUEANDPLACEAREA" parameter="qxmaschimney" /> -->
 			<item id="qxmasfireplace" code="QUEUEANDPLACEAREA" parameter="qxmasfireplace" />
 			<item id="qaxmastree" code="QUEUEANDPLACEAREA" parameter="qaxmastree" icon="axmastree1" />
 			<item id="qxmastree" code="QUEUEANDPLACEAREA" parameter="qxmastree" icon="xmastree_decorated_gifts"/>

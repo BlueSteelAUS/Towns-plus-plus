@@ -7813,8 +7813,8 @@
 		<zone>zbakery</zone>
 		<value>212</value>
 		
-		<action>decorate_bakeroven</action>
-		<action>qrotate_bakeroven</action>
+<!-- 		<action>decorate_bakeroven</action>
+		<action>qrotate_bakeroven</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
@@ -12240,7 +12240,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
-		<action>decorate_bakeroven_E</action>
+		<!-- <action>decorate_bakeroven_E</action> -->
 		<action>qrotate_bakeroven_E</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -12263,7 +12263,7 @@
 		<zone>zbakery</zone>
 		<value>212</value>
 		<action>undecorate_xmasbakeroven</action>
-		<action>qrotate_xmasbakeroven</action>
+		<!-- <action>qrotate_xmasbakeroven</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
@@ -12284,7 +12284,7 @@
 		<zone>zbakery</zone>
 		<value>212</value>
 		<action>undecorate_xmasbakeroven_E</action>
-		<action>qrotate_xmasbakeroven_E</action>
+		<!-- <action>qrotate_xmasbakeroven_E</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>

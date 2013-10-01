@@ -413,7 +413,7 @@
 			<item id="qxmaslogdoor" code="QUEUE" parameter="qxmaslogdoor" />
 			<item id="qxmaswoodendoor" code="QUEUE" parameter="qxmaswoodendoor" />
 			<item id="qxmasblockdoor" code="QUEUE" parameter="qxmasblockdoor" />
-			<item id="qxmasbakeroven" code="QUEUE" parameter="qxmasbakeroven" />
+			<!-- <item id="qxmasbakeroven" code="QUEUE" parameter="qxmasbakeroven" /> -->
 			<item id="qxmaschimney" code="QUEUE" parameter="qxmaschimney" />
 			<item id="qxmasfireplace" code="QUEUE" parameter="qxmasfireplace" />
 			<item id="qaxmastree" code="QUEUE" parameter="qaxmastree" icon="axmastree1" />
