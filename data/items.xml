@@ -3166,6 +3166,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockyellow>
 
 	<flagblockred>
@@ -3182,6 +3183,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockred>
 
 	<flagblockgray>
@@ -3198,6 +3200,7 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockgray>
 
 	<flagblockwhite>
@@ -3214,11 +3217,12 @@
 		<blockFluids>true</blockFluids>
 
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockwhite>
 
 	<flagblockwhitearc>
 		<name esES="Arco blanco">White flag block arc</name>
-
+		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -3226,9 +3230,11 @@
 		<glue>true</glue>
 		<base>true</base>
 		<wallConnector>true</wallConnector>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 
 		<allowFluids>true</allowFluids>
 		<alwaysOperative>false</alwaysOperative>
+		<value>200</value>
 	</flagblockwhitearc>
 
 	<roughbrickarc>
@@ -3308,7 +3314,7 @@
 		<base>true</base>
 		<zoneMergerUp>true</zoneMergerUp>
 		<wallConnector>true</wallConnector>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -12240,8 +12246,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
-		<!-- <action>decorate_bakeroven_E</action> -->
-		<action>qrotate_bakeroven_E</action>
+		<action>decorate_bakeroven_E</action>
+		<!-- <action>qrotate_bakeroven_E</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
