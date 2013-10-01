@@ -3738,9 +3738,10 @@
 		<base>true</base>
 		<alwaysOperative>false</alwaysOperative>
 		<value>102</value>
-		<action>rotate_bonestairs_1_W</action>
+		<canBeRotated>true</canBeRotated>
+<!-- 		<action>rotate_bonestairs_1_W</action>
 		<action>rotate_bonestairs_1_S</action>
-		<action>rotate_bonestairs_1_E</action>
+		<action>rotate_bonestairs_1_E</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bonestairs</action>
@@ -13892,8 +13893,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs1a</action>
-		<action>rotate_woodstairs1c</action>
-		<action>rotate_woodstairs1d</action>
+<!-- 		<action>rotate_woodstairs1c</action>
+		<action>rotate_woodstairs1d</action> -->
 		<action>del_woodenladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -13913,8 +13914,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs1a</action>
-		<action>rotate_woodstairs1b</action>
-		<action>rotate_woodstairs1d</action>
+<!-- 		<action>rotate_woodstairs1b</action>
+		<action>rotate_woodstairs1d</action> -->
 		<action>del_woodenladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -13934,8 +13935,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs1a</action>
-		<action>rotate_woodstairs1b</action>
-		<action>rotate_woodstairs1c</action>
+<!-- 		<action>rotate_woodstairs1b</action>
+		<action>rotate_woodstairs1c</action> -->
 		<action>del_woodenladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -13955,8 +13956,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs2a</action>
-		<action>rotate_woodstairs2c</action>
-		<action>rotate_woodstairs2d</action>
+<!-- 		<action>rotate_woodstairs2c</action>
+		<action>rotate_woodstairs2d</action> -->
 		<action>del_ladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -13976,8 +13977,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs2a</action>
-		<action>rotate_woodstairs2b</action>
-		<action>rotate_woodstairs2d</action>
+<!-- 		<action>rotate_woodstairs2b</action>
+		<action>rotate_woodstairs2d</action> -->
 		<action>del_ladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -13997,8 +13998,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs2a</action>
-		<action>rotate_woodstairs2b</action>
-		<action>rotate_woodstairs2c</action>
+<!-- 		<action>rotate_woodstairs2b</action>
+		<action>rotate_woodstairs2c</action> -->
 		<action>del_ladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -14016,8 +14017,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs3a</action>
-		<action>rotate_woodstairs3c</action>
-		<action>rotate_woodstairs3d</action>
+<!-- 		<action>rotate_woodstairs3c</action>
+		<action>rotate_woodstairs3d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_logladder</action>
@@ -14037,8 +14038,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs3a</action>
-		<action>rotate_woodstairs3b</action>
-		<action>rotate_woodstairs3d</action>
+<!-- 		<action>rotate_woodstairs3b</action>
+		<action>rotate_woodstairs3d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_logladder</action>
@@ -14058,8 +14059,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs3a</action>
-		<action>rotate_woodstairs3b</action>
-		<action>rotate_woodstairs3c</action>
+<!-- 		<action>rotate_woodstairs3b</action>
+		<action>rotate_woodstairs3c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_logladder</action>
@@ -14079,8 +14080,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs1a</action>
-		<action>rotate_dirtstairs1c</action>
-		<action>rotate_dirtstairs1d</action>
+<!-- 		<action>rotate_dirtstairs1c</action>
+		<action>rotate_dirtstairs1d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder</action>
@@ -14100,8 +14101,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs1a</action>
-		<action>rotate_dirtstairs1b</action>
-		<action>rotate_dirtstairs1d</action>
+<!-- 		<action>rotate_dirtstairs1b</action>
+		<action>rotate_dirtstairs1d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder</action>
@@ -14121,8 +14122,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs1a</action>
-		<action>rotate_dirtstairs1b</action>
-		<action>rotate_dirtstairs1c</action>
+<!-- 		<action>rotate_dirtstairs1b</action>
+		<action>rotate_dirtstairs1c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder</action>
@@ -14141,9 +14142,9 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_dirtstairs2b</action>
+<!-- 		<action>rotate_dirtstairs2b</action>
 		<action>rotate_dirtstairs2c</action>
-		<action>rotate_dirtstairs2d</action>
+		<action>rotate_dirtstairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder2</action>
@@ -14163,8 +14164,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs2a</action>
-		<action>rotate_dirtstairs2c</action>
-		<action>rotate_dirtstairs2d</action>
+<!-- 		<action>rotate_dirtstairs2c</action>
+		<action>rotate_dirtstairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder2</action>
@@ -14184,8 +14185,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs2a</action>
-		<action>rotate_dirtstairs2b</action>
-		<action>rotate_dirtstairs2d</action>
+<!-- 		<action>rotate_dirtstairs2b</action>
+		<action>rotate_dirtstairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder2</action>
@@ -14205,8 +14206,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs2a</action>
-		<action>rotate_dirtstairs2b</action>
-		<action>rotate_dirtstairs2c</action>
+<!-- 		<action>rotate_dirtstairs2b</action>
+		<action>rotate_dirtstairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_dirtladder2</action>
@@ -14227,9 +14228,9 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_stonestairs1b</action>
+<!-- 		<action>rotate_stonestairs1b</action>
 		<action>rotate_stonestairs1c</action>
-		<action>rotate_stonestairs1d</action>
+		<action>rotate_stonestairs1d</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -14249,8 +14250,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs1a</action>
-		<action>rotate_stonestairs1c</action>
-		<action>rotate_stonestairs1d</action>
+<!-- 		<action>rotate_stonestairs1c</action>
+		<action>rotate_stonestairs1d</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -14270,8 +14271,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs1a</action>
-		<action>rotate_stonestairs1b</action>
-		<action>rotate_stonestairs1d</action>
+<!-- 		<action>rotate_stonestairs1b</action>
+		<action>rotate_stonestairs1d</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -14291,8 +14292,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs1a</action>
-		<action>rotate_stonestairs1b</action>
-		<action>rotate_stonestairs1c</action>
+<!-- 		<action>rotate_stonestairs1b</action>
+		<action>rotate_stonestairs1c</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -14310,8 +14311,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs2a</action>
-		<action>rotate_stonestairs2c</action>
-		<action>rotate_stonestairs2d</action>
+<!-- 		<action>rotate_stonestairs2c</action>
+		<action>rotate_stonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonespindleladder</action>
@@ -14331,8 +14332,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs2a</action>
-		<action>rotate_stonestairs2b</action>
-		<action>rotate_stonestairs2d</action>
+<!-- 		<action>rotate_stonestairs2b</action>
+		<action>rotate_stonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonespindleladder</action>
@@ -14352,8 +14353,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs2a</action>
-		<action>rotate_stonestairs2b</action>
-		<action>rotate_stonestairs2c</action>
+		<!-- <action>rotate_stonestairs2b</action> -->
+		<!-- <action>rotate_stonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonespindleladder</action>
@@ -14373,8 +14374,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs3a</action>
-		<action>rotate_stonestairs3c</action>
-		<action>rotate_stonestairs3d</action>
+		<!-- <action>rotate_stonestairs3c</action> -->
+		<!-- <action>rotate_stonestairs3d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_ancientladder</action>
@@ -14394,8 +14395,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs3a</action>
-		<action>rotate_stonestairs3b</action>
-		<action>rotate_stonestairs3d</action>
+		<!-- <action>rotate_stonestairs3b</action> -->
+		<!-- <action>rotate_stonestairs3d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_ancientladder</action>
@@ -14415,8 +14416,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs3a</action>
-		<action>rotate_stonestairs3b</action>
-		<action>rotate_stonestairs3c</action>
+		<!-- <action>rotate_stonestairs3b</action> -->
+		<!-- <action>rotate_stonestairs3c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_ancientladder</action>
@@ -14425,19 +14426,19 @@
 	</stonestairs3d>
 
     <stonestairs4a>
-		<name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Dark Stone Stairs</name>
 
 		<type>construction.stairs</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
 		<base>true</base>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_stonestairs4b</action>
+		<!-- <action>rotate_stonestairs4b</action>
 		<action>rotate_stonestairs4c</action>
-		<action>rotate_stonestairs4d</action>
+		<action>rotate_stonestairs4d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder4</action>
@@ -14457,8 +14458,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs4a</action>
-		<action>rotate_stonestairs4c</action>
-		<action>rotate_stonestairs4d</action>
+<!-- 		<action>rotate_stonestairs4c</action>
+		<action>rotate_stonestairs4d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder4</action>
@@ -14478,8 +14479,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs4a</action>
-		<action>rotate_stonestairs4b</action>
-		<action>rotate_stonestairs4d</action>
+<!-- 		<action>rotate_stonestairs4b</action>
+		<action>rotate_stonestairs4d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder4</action>
@@ -14499,8 +14500,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs4a</action>
-		<action>rotate_stonestairs4b</action>
-		<action>rotate_stonestairs4c</action>
+<!-- 		<action>rotate_stonestairs4b</action>
+		<action>rotate_stonestairs4c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder4</action>
@@ -14519,9 +14520,9 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_stonestairs5b</action>
+<!-- 		<action>rotate_stonestairs5b</action>
 		<action>rotate_stonestairs5c</action>
-		<action>rotate_stonestairs5d</action>
+		<action>rotate_stonestairs5d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder5</action>
@@ -14541,8 +14542,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs5a</action>
-		<action>rotate_stonestairs5c</action>
-		<action>rotate_stonestairs5d</action>
+<!-- 		<action>rotate_stonestairs5c</action>
+		<action>rotate_stonestairs5d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder5</action>
@@ -14562,8 +14563,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs5a</action>
-		<action>rotate_stonestairs5b</action>
-		<action>rotate_stonestairs5d</action>
+<!-- 		<action>rotate_stonestairs5b</action>
+		<action>rotate_stonestairs5d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder5</action>
@@ -14583,8 +14584,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs5a</action>
-		<action>rotate_stonestairs5b</action>
-		<action>rotate_stonestairs5c</action>
+<!-- 		<action>rotate_stonestairs5b</action>
+		<action>rotate_stonestairs5c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stoneladder5</action>
@@ -14886,9 +14887,10 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_redstonestairs2</action>
+		<canBeRotated>true</canBeRotated>
+<!-- 		<action>rotate_redstonestairs2</action>
 		<action>rotate_redstonestairs3</action>
-		<action>rotate_redstonestairs4</action>
+		<action>rotate_redstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs</action>
@@ -14908,8 +14910,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_redstonestairs1</action>
-		<action>rotate_redstonestairs3</action>
-		<action>rotate_redstonestairs4</action>
+<!-- 		<action>rotate_redstonestairs3</action>
+		<action>rotate_redstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs</action>
@@ -14929,8 +14931,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_redstonestairs1</action>
-		<action>rotate_redstonestairs2</action>
-		<action>rotate_redstonestairs4</action>
+<!-- 		<action>rotate_redstonestairs2</action>
+		<action>rotate_redstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs</action>
@@ -14950,8 +14952,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_redstonestairs1</action>
-		<action>rotate_redstonestairs2</action>
-		<action>rotate_redstonestairs3</action>
+<!-- 		<action>rotate_redstonestairs2</action>
+		<action>rotate_redstonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs</action>
@@ -14968,11 +14970,12 @@
 		<glue>true</glue>
 		<base>true</base>
 
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_bluestonestairs2</action>
+<!-- 		<action>rotate_bluestonestairs2</action>
 		<action>rotate_bluestonestairs3</action>
-		<action>rotate_bluestonestairs4</action>
+		<action>rotate_bluestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs</action>
@@ -14992,8 +14995,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_bluestonestairs1</action>
-		<action>rotate_bluestonestairs3</action>
-		<action>rotate_bluestonestairs4</action>
+<!-- 		<action>rotate_bluestonestairs3</action>
+		<action>rotate_bluestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs</action>
@@ -15013,8 +15016,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_bluestonestairs1</action>
-		<action>rotate_bluestonestairs2</action>
-		<action>rotate_bluestonestairs4</action>
+<!-- 		<action>rotate_bluestonestairs2</action>
+		<action>rotate_bluestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs</action>
@@ -15034,8 +15037,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_bluestonestairs1</action>
-		<action>rotate_bluestonestairs2</action>
-		<action>rotate_bluestonestairs3</action>
+<!-- 		<action>rotate_bluestonestairs2</action>
+		<action>rotate_bluestonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs</action>
@@ -15052,11 +15055,12 @@
 		<glue>true</glue>
 		<base>true</base>
 
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_yellowstonestairs2</action>
+<!-- 		<action>rotate_yellowstonestairs2</action>
 		<action>rotate_yellowstonestairs3</action>
-		<action>rotate_yellowstonestairs4</action>
+		<action>rotate_yellowstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs</action>
@@ -15076,8 +15080,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_yellowstonestairs1</action>
-		<action>rotate_yellowstonestairs3</action>
-		<action>rotate_yellowstonestairs4</action>
+<!-- 		<action>rotate_yellowstonestairs3</action>
+		<action>rotate_yellowstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs</action>
@@ -15097,8 +15101,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_yellowstonestairs1</action>
-		<action>rotate_yellowstonestairs2</action>
-		<action>rotate_yellowstonestairs4</action>
+<!-- 		<action>rotate_yellowstonestairs2</action>
+		<action>rotate_yellowstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs</action>
@@ -15118,8 +15122,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_yellowstonestairs1</action>
-        <action>rotate_yellowstonestairs2</action>
-        <action>rotate_yellowstonestairs3</action>
+<!--         <action>rotate_yellowstonestairs2</action>
+        <action>rotate_yellowstonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs</action>
@@ -15136,11 +15140,12 @@
         <glue>true</glue>
         <base>true</base>
 	
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_greenstonestairs2</action>
+<!--         <action>rotate_greenstonestairs2</action>
         <action>rotate_greenstonestairs3</action>
-        <action>rotate_greenstonestairs4</action>
+        <action>rotate_greenstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs</action>
@@ -15160,8 +15165,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_greenstonestairs1</action>
-        <action>rotate_greenstonestairs3</action>
-        <action>rotate_greenstonestairs4</action>
+<!--         <action>rotate_greenstonestairs3</action>
+        <action>rotate_greenstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs</action>
@@ -15181,8 +15186,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_greenstonestairs1</action>
-        <action>rotate_greenstonestairs2</action>
-        <action>rotate_greenstonestairs4</action>
+<!--         <action>rotate_greenstonestairs2</action>
+        <action>rotate_greenstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs</action>
@@ -15202,8 +15207,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_greenstonestairs1</action>
-        <action>rotate_greenstonestairs2</action>
-        <action>rotate_greenstonestairs3</action>
+<!--         <action>rotate_greenstonestairs2</action>
+        <action>rotate_greenstonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs</action>
@@ -15220,11 +15225,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_orangestonestairs2</action>
+<!--         <action>rotate_orangestonestairs2</action>
         <action>rotate_orangestonestairs3</action>
-        <action>rotate_orangestonestairs4</action>
+        <action>rotate_orangestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs</action>
@@ -15244,8 +15250,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_orangestonestairs1</action>
-        <action>rotate_orangestonestairs3</action>
-        <action>rotate_orangestonestairs4</action>
+<!--         <action>rotate_orangestonestairs3</action>
+        <action>rotate_orangestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs</action>
@@ -15265,8 +15271,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_orangestonestairs1</action>
-        <action>rotate_orangestonestairs4</action>
-        <action>rotate_orangestonestairs2</action>
+<!--         <action>rotate_orangestonestairs4</action>
+        <action>rotate_orangestonestairs2</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs</action>
@@ -15286,8 +15292,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_orangestonestairs1</action>
-        <action>rotate_orangestonestairs2</action>
-        <action>rotate_orangestonestairs3</action>
+<!--         <action>rotate_orangestonestairs2</action>
+        <action>rotate_orangestonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs</action>
@@ -15304,11 +15310,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_purplestonestairs2</action>
+<!--         <action>rotate_purplestonestairs2</action>
         <action>rotate_purplestonestairs3</action>
-        <action>rotate_purplestonestairs4</action>
+        <action>rotate_purplestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs</action>
@@ -15328,8 +15335,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_purplestonestairs1</action>
-        <action>rotate_purplestonestairs3</action>
-        <action>rotate_purplestonestairs4</action>
+<!--         <action>rotate_purplestonestairs3</action>
+        <action>rotate_purplestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs</action>
@@ -15349,8 +15356,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_purplestonestairs1</action>
-        <action>rotate_purplestonestairs2</action>
-        <action>rotate_purplestonestairs4</action>
+<!--         <action>rotate_purplestonestairs2</action>
+        <action>rotate_purplestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs</action>
@@ -15370,8 +15377,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_purplestonestairs1</action>
-        <action>rotate_purplestonestairs2</action>
-        <action>rotate_purplestonestairs3</action>
+<!--         <action>rotate_purplestonestairs2</action>
+        <action>rotate_purplestonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs</action>
@@ -15388,11 +15395,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_redstonestairs2b</action>
+<!--         <action>rotate_redstonestairs2b</action>
         <action>rotate_redstonestairs2c</action>
-        <action>rotate_redstonestairs2d</action>
+        <action>rotate_redstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs2</action>
@@ -15412,8 +15420,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_redstonestairs2a</action>
-        <action>rotate_redstonestairs2c</action>
-        <action>rotate_redstonestairs2d</action>
+<!--         <action>rotate_redstonestairs2c</action>
+        <action>rotate_redstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs2</action>
@@ -15433,8 +15441,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_redstonestairs2a</action>
-        <action>rotate_redstonestairs2b</action>
-        <action>rotate_redstonestairs2d</action>
+<!--         <action>rotate_redstonestairs2b</action>
+        <action>rotate_redstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs2</action>
@@ -15454,8 +15462,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_redstonestairs2a</action>
-        <action>rotate_redstonestairs2b</action>
-        <action>rotate_redstonestairs2c</action>
+<!--         <action>rotate_redstonestairs2b</action>
+        <action>rotate_redstonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs2</action>
@@ -15472,11 +15480,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_bluestonestairs2b</action>
+<!--         <action>rotate_bluestonestairs2b</action>
         <action>rotate_bluestonestairs2c</action>
-        <action>rotate_bluestonestairs2d</action>
+        <action>rotate_bluestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs2</action>
@@ -15496,8 +15505,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_bluestonestairs2a</action>
-        <action>rotate_bluestonestairs2c</action>
-        <action>rotate_bluestonestairs2d</action>
+<!--         <action>rotate_bluestonestairs2c</action>
+        <action>rotate_bluestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs2</action>
@@ -15517,8 +15526,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_bluestonestairs2a</action>
-        <action>rotate_bluestonestairs2b</action>
-        <action>rotate_bluestonestairs2d</action>
+<!--         <action>rotate_bluestonestairs2b</action>
+        <action>rotate_bluestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs2</action>
@@ -15538,8 +15547,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_bluestonestairs2a</action>
-        <action>rotate_bluestonestairs2b</action>
-        <action>rotate_bluestonestairs2c</action>
+<!--         <action>rotate_bluestonestairs2b</action>
+        <action>rotate_bluestonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs2</action>
@@ -15556,11 +15565,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_yellowstonestairs2b</action>
+<!--         <action>rotate_yellowstonestairs2b</action>
         <action>rotate_yellowstonestairs2c</action>
-        <action>rotate_yellowstonestairs2d</action>
+        <action>rotate_yellowstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs2</action>
@@ -15580,8 +15590,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_yellowstonestairs2a</action>
-        <action>rotate_yellowstonestairs2c</action>
-        <action>rotate_yellowstonestairs2d</action>
+<!--         <action>rotate_yellowstonestairs2c</action>
+        <action>rotate_yellowstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs2</action>
@@ -15601,8 +15611,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_yellowstonestairs2a</action>
-        <action>rotate_yellowstonestairs2b</action>
-        <action>rotate_yellowstonestairs2d</action>
+<!--         <action>rotate_yellowstonestairs2b</action>
+        <action>rotate_yellowstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs2</action>
@@ -15622,8 +15632,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_yellowstonestairs2a</action>
-        <action>rotate_yellowstonestairs2b</action>
-        <action>rotate_yellowstonestairs2c</action>
+<!--         <action>rotate_yellowstonestairs2b</action>
+        <action>rotate_yellowstonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs2</action>
@@ -15640,11 +15650,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_greenstonestairs2b</action>
-        <action>rotate_greenstonestairs2c</action>
-        <action>rotate_greenstonestairs2d</action>
+        <!-- <action>rotate_greenstonestairs2b</action> -->
+<!--         <action>rotate_greenstonestairs2c</action>
+        <action>rotate_greenstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
@@ -15664,8 +15675,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_greenstonestairs2a</action>
-        <action>rotate_greenstonestairs2c</action>
-        <action>rotate_greenstonestairs2d</action>
+<!--         <action>rotate_greenstonestairs2c</action>
+        <action>rotate_greenstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
@@ -15685,8 +15696,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_greenstonestairs2a</action>
-        <action>rotate_greenstonestairs2b</action>
-        <action>rotate_greenstonestairs2d</action>
+<!--         <action>rotate_greenstonestairs2b</action>
+        <action>rotate_greenstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
@@ -15706,8 +15717,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_greenstonestairs2a</action>
-        <action>rotate_greenstonestairs2b</action>
-        <action>rotate_greenstonestairs2c</action>
+<!--         <action>rotate_greenstonestairs2b</action>
+        <action>rotate_greenstonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
@@ -15724,11 +15735,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_orangestonestairs2b</action>
+<!--         <action>rotate_orangestonestairs2b</action>
         <action>rotate_orangestonestairs2c</action>
-        <action>rotate_orangestonestairs2d</action>
+        <action>rotate_orangestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs2</action>
@@ -15748,8 +15760,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_orangestonestairs2a</action>
-        <action>rotate_orangestonestairs2c</action>
-        <action>rotate_orangestonestairs2d</action>
+<!--         <action>rotate_orangestonestairs2c</action>
+        <action>rotate_orangestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs2</action>
@@ -15769,8 +15781,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_orangestonestairs2a</action>
-        <action>rotate_orangestonestairs2b</action>
-        <action>rotate_orangestonestairs2d</action>
+<!--         <action>rotate_orangestonestairs2b</action>
+        <action>rotate_orangestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs2</action>
@@ -15790,8 +15802,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_orangestonestairs2a</action>
-        <action>rotate_orangestonestairs2b</action>
-        <action>rotate_orangestonestairs2c</action>
+<!--         <action>rotate_orangestonestairs2b</action>
+        <action>rotate_orangestonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs2</action>
@@ -15808,11 +15820,12 @@
         <glue>true</glue>
         <base>true</base>
 
+		<canBeRotated>true</canBeRotated>
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
-        <action>rotate_purplestonestairs2b</action>
+<!--         <action>rotate_purplestonestairs2b</action>
         <action>rotate_purplestonestairs2c</action>
-        <action>rotate_purplestonestairs2d</action>
+        <action>rotate_purplestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs2</action>
@@ -15832,8 +15845,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_purplestonestairs2a</action>
-        <action>rotate_purplestonestairs2c</action>
-        <action>rotate_purplestonestairs2d</action>
+<!--         <action>rotate_purplestonestairs2c</action>
+        <action>rotate_purplestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs2</action>
@@ -15853,8 +15866,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_purplestonestairs2a</action>
-        <action>rotate_purplestonestairs2b</action>
-        <action>rotate_purplestonestairs2d</action>
+<!--         <action>rotate_purplestonestairs2b</action>
+        <action>rotate_purplestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs2</action>
@@ -15874,8 +15887,8 @@
         <alwaysOperative>false</alwaysOperative>
         <value>90</value>
         <action>rotate_purplestonestairs2a</action>
-        <action>rotate_purplestonestairs2b</action>
-        <action>rotate_purplestonestairs2c</action>
+<!--         <action>rotate_purplestonestairs2b</action>
+        <action>rotate_purplestonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs2</action>
