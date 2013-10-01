@@ -1252,7 +1252,7 @@
 
 	<bushapple>
 		<name esES="Arbusto de manzano">Apple bush</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>grass1</habitat>
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>appletree</maxAgeItem>
 		<action>qcut</action>
@@ -1261,7 +1261,7 @@
 
 	<appletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>grass1</habitat>
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>bushapple</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -1274,7 +1274,7 @@
 
 	<harvestingappletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>grass1</habitat>
 		<spawn>apple</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
@@ -1285,7 +1285,7 @@
 
 	<harvestedappletree>
 		<name esES="Manzano">Apple tree</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>grass1</habitat>
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>appletree</maxAgeItem>
 		<action>qchop</action>
@@ -1343,7 +1343,7 @@
 
 	<bushpear>
 		<name esES="Arbusto de peral">Pear bush</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>grass1</habitat>
 		<maxAge>1d14400+14400</maxAge>
 		<maxAgeItem>peartree</maxAgeItem>
 		<action>qcut</action>
@@ -1352,7 +1352,8 @@
 
 	<peartree>
 		<name esES="Peral">Pear tree</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>grass1</habitat>
+		<habitat>humus</habitat>
 		<maxAge>1d57600+28800</maxAge>
 		<spawn>bushpear</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
@@ -1365,7 +1366,7 @@
 
 	<harvestingpeartree>
 		<name esES="Peral">Pear tree</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>humus</habitat>
 		<spawn>pear</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
@@ -1376,7 +1377,7 @@
 
 	<harvestedpeartree>
 		<name esES="Peral">Pear tree</name>
-		<habitatGroup>grassGroup</habitatGroup>
+		<habitat>humus</habitat>
 		<maxAge>1d2880+6400</maxAge>
 		<maxAgeItem>peartree</maxAgeItem>
 		<action>qchop</action>
