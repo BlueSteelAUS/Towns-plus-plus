@@ -12246,8 +12246,8 @@
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
-		<action>decorate_bakeroven_E</action>
-		<!-- <action>qrotate_bakeroven_E</action> -->
+		<!-- <action>decorate_bakeroven_E</action> -->
+		<action>qrotate_bakeroven_E</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
