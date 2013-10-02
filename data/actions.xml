@@ -1247,7 +1247,7 @@
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
-			<createItem>medicineghost</createItem>
+			<createItem>medicinecabinet</createItem>
 		</queue>
 	</action>
 
