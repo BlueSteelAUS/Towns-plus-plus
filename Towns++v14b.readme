@@ -24,6 +24,7 @@ LittleMikey's Contributions:
 -> cb262 Stairs are now rotatable using Vanilla system. If you have existing modded stairs on your map, either right click
     them and rotate them back to the default position, or remove them and build them again.
 -> Removed rotations and decorations for the Baker's oven. They were not getting used during baking.
+-> Removed rotations for Market Tents until new graphics can be made.
 
 [/code]
 
