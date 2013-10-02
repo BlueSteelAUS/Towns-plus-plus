@@ -22094,7 +22094,8 @@
 <action>
 		<id>qfemalecitizen</id>
 		<name esES="N/A">New Citizen</name>
-		<priorityID>_FEED_</priorityID>
+		<priorityID>gathering</priorityID>
+		<!-- gathering priority is breeding -->
 		<generatedItem>citizenfemale</generatedItem>
 		<queue>
 			<move useSource="true">grave,grave_E,grave2_E,grave2_W,grave3_E,grave3_W,tomb,tomb_E,tomb2_E,tomb2_W,mosstomb,mosstomb_E,mosstomb2_E,mosstomb2_W,mosstomb3_E,mosstomb3_W</move>

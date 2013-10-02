@@ -5702,8 +5702,8 @@
 		<type>utils.workshops</type>
 		<zone>zhospital</zone>
 		<value>212</value>
-		<canBeRotated>true</canBeRotated>
-		<action>rotate_medicinecabinet_W</action>
+		<canBeRotated>true</canBeRotated>	
+<!-- 		<action>rotate_medicinecabinet_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_medicinecabinet</action>
@@ -17499,7 +17499,7 @@
 
 	<clock_E>
 		<name esES="Reloj">Clock</name>
-		<description esES="Los tiempos están cambiando...">But the times they are a changin...</description>
+		<description esES="Los tiempos están cambiando...">But the times they are a changin'...</description>
 		<type>cb262.furniture</type>
 		<happiness>2</happiness>
 		<stackable>true</stackable>
@@ -18793,8 +18793,8 @@
 
 	<medicineghost>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
-		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
-		<spawn>knowledgecloud</spawn>
+		<description esES="Aquí se guardan las pastillas">Pills here!</description>	
+		<spawn>healthcloud</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
 		<maxAgeItem>medicinecabinet</maxAgeItem>
