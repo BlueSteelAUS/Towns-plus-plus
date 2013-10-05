@@ -1316,35 +1316,25 @@
 
 	<effect>
 		<id>fightflight</id>
-		<lasts>1</lasts>
-		<name esES="N/A">Run when endangered</name>
-		<messageWhenGain>false</messageWhenGain>
-		<messageWhenVanish>false</messageWhenVanish> <!-- 
+		<name esES="N/A">Run away when very hurt</name>
 
 		<castEffects>runaway</castEffects>
 		<castTargets>CITIZEN</castTargets>
 		<castTrigger>NEAR_DEATH</castTrigger>
-  		<castCooldown>10</castCooldown>
+		<castCooldown>5</castCooldown>
 
-		<messageWhenVanish>false</messageWhenVanish>
-		<messageWhenGain>false</messageWhenGain>
-		 -->
+		<messageWhenVanish>true</messageWhenVanish>
+		<messageWhenGain>true</messageWhenGain>
 	</effect>
 
 	<effect>
 		<id>runaway</id>
-		<lasts>1</lasts>
 		<name esES="N/A">Running away</name>
-		<messageWhenGain>false</messageWhenGain>
-		<messageWhenVanish>false</messageWhenVanish>
-		<effectsImmune>fightflight</effectsImmune>
-		<!-- 
-		
 		<removeTarget>true</removeTarget>
 		<flee>true</flee>
-		<walkSpeed>360</walkSpeed>
-		<lasts>500</lasts> 
+		<lasts>10</lasts>
+		<speedPCT>300</speedPCT>
+		<messageWhenVanish>true</messageWhenVanish>
 		<messageWhenGain>true</messageWhenGain>
-		<messageWhenVanish>true</messageWhenVanish> -->
 	</effect>
 </effects>

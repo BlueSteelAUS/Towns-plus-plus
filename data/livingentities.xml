@@ -42,7 +42,7 @@
 		</drop>
 
 		<fxDead>fxdeadmale</fxDead>
-		<!-- <effects>fightflight</effects> -->
+		 <effects>fightflight</effects>
 	</citizenmale>
 
 	<citizenfemale>
@@ -86,7 +86,7 @@
 		</drop>
 
 		<fxDead>fxdeadfemale</fxDead>
-		<!-- <effects>fightflight</effects> -->
+		<effects>fightflight</effects>
 	</citizenfemale>
 
 
@@ -5133,6 +5133,8 @@
 
 		<maxAge>2000</maxAge>
 	</knowledgecloud>
+
+
 
 	<skinnedmilkedsnoat>
 		<type>FRIENDLY</type>

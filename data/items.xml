@@ -7819,8 +7819,8 @@
 		<zone>zbakery</zone>
 		<value>212</value>
 		
-<!-- 		<action>decorate_bakeroven</action>
-		<action>qrotate_bakeroven</action> -->
+ 		<action>decorate_bakeroven</action>
+<!--		<action>qrotate_bakeroven</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
@@ -18800,7 +18800,7 @@
 	<medicineghost>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
 		<description esES="Aquí se guardan las pastillas">Pills here!</description>	
-		<spawn>healthcloud</spawn>
+		<spawn>knowledgecloud</spawn>
 		<spawnTurns>1</spawnTurns>
 		<maxAge>2</maxAge>
 		<maxAgeItem>medicinecabinet</maxAgeItem>
