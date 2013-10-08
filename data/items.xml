@@ -4852,7 +4852,7 @@
 
 	<stonechair>
 		<name esES="Silla de piedra">Stone chair</name>
-		<description esES="Conocida como -El trono helado-">Also known as -The frozen throne-</description>
+		<description esES="Conocida como -El trono helado-">Also known as "The frozen throne"</description>
 
 		<type>furniture.chairs</type>
 		<usedToSit>true</usedToSit>
@@ -4874,7 +4874,7 @@
 
 	<stonechairbury>
 		<name esES="Silla de piedra">Stone chair</name>
-		<description esES="Conocida como -El trono helado-">Also known as -The frozen throne-</description>
+		<description esES="Conocida como -El trono helado-">Also known as "The frozen throne"</description>
 
 		<value>46</value>
 		<buryLivings>goblin</buryLivings>
@@ -4887,7 +4887,7 @@
 
 	<stonechairbury1>
 		<name esES="Silla de piedra">Stone chair</name>
-		<description esES="Conocida como -El trono helado-">Also known as -The frozen throne-</description>
+		<description esES="Conocida como -El trono helado-">Also known as "The frozen throne"</description>
 
 		<value>46</value>
 		<buryLivings>goblin</buryLivings>
@@ -4907,7 +4907,6 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<canBeRotated>true</canBeRotated>
-		<action>rotate_purplethrone_E</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplethrone</action>
@@ -16600,9 +16599,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_redchair_E</action>
+		<!-- <action>rotate_redchair_E</action> -->
 		<action>rotate_redchair_S</action>
-		<action>rotate_redchair_W</action>
+		<!-- <action>rotate_redchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair</action>
@@ -16625,9 +16624,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_redchair_N</action>
-		<action>rotate_redchair_S</action>
-		<action>rotate_redchair_W</action>
+		<!-- <action>rotate_redchair_N</action> -->
+		 <action>rotate_redchair_S</action>
+		<!-- <action>rotate_redchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair</action>
@@ -16649,13 +16648,15 @@
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
-		<value>46</value>
+		<value>46</value><!-- 
 		<action>rotate_redchair_N</action>
 		<action>rotate_redchair_E</action>
-		<action>rotate_redchair_W</action>
+		<action>rotate_redchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -16675,8 +16676,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_redchair_N</action>
-		<action>rotate_redchair_E</action>
+<!-- 		<action>rotate_redchair_N</action>
+		<action>rotate_redchair_E</action> -->
 		<action>rotate_redchair_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -16700,9 +16701,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_redchair_2_E</action>
+		<!-- <action>rotate_redchair_2_E</action> -->
 		<action>rotate_redchair_2_S</action>
-		<action>rotate_redchair_2_W</action>
+		<!-- <action>rotate_redchair_2_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair_2</action>
@@ -16725,9 +16726,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_redchair_2_N</action>
+		<!-- <action>rotate_redchair_2_N</action> -->
 		<action>rotate_redchair_2_S</action>
-		<action>rotate_redchair_2_W</action>
+		<!-- <action>rotate_redchair_2_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair_2</action>
@@ -16750,12 +16751,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_redchair_2_N</action>
+<!-- 		<action>rotate_redchair_2_N</action>
 		<action>rotate_redchair_2_E</action>
-		<action>rotate_redchair_2_W</action>
+		<action>rotate_redchair_2_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair_2</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -16775,8 +16778,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_redchair_2_N</action>
-		<action>rotate_redchair_2_E</action>
+<!-- 		<action>rotate_redchair_2_N</action>
+		<action>rotate_redchair_2_E</action> -->
 		<action>rotate_redchair_2_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -16800,9 +16803,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_bluechair_E</action>
+		<!-- <action>rotate_bluechair_E</action> -->
 		<action>rotate_bluechair_S</action>
-		<action>rotate_bluechair_W</action>
+		<!-- <action>rotate_bluechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluechair</action>
@@ -16825,9 +16828,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_bluechair_N</action>
+		<!-- <action>rotate_bluechair_N</action> -->
 		<action>rotate_bluechair_S</action>
-		<action>rotate_bluechair_W</action>
+		<!-- <action>rotate_bluechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluechair</action>
@@ -16850,12 +16853,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_bluechair_N</action>
+<!-- 		<action>rotate_bluechair_N</action>
 		<action>rotate_bluechair_E</action>
-		<action>rotate_bluechair_W</action>
+		<action>rotate_bluechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluechair</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -16875,8 +16880,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_bluechair_N</action>
-		<action>rotate_bluechair_E</action>
+<!-- 		<action>rotate_bluechair_N</action>
+		<action>rotate_bluechair_E</action> -->
 		<action>rotate_bluechair_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -16900,9 +16905,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_greenchair_E</action>
+		<!-- <action>rotate_greenchair_E</action> -->
 		<action>rotate_greenchair_S</action>
-		<action>rotate_greenchair_W</action>
+		<!-- <action>rotate_greenchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenchair</action>
@@ -16925,9 +16930,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_greenchair_N</action>
+		<!-- <action>rotate_greenchair_N</action> -->
 		<action>rotate_greenchair_S</action>
-		<action>rotate_greenchair_W</action>
+		<!-- <action>rotate_greenchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenchair</action>
@@ -16950,12 +16955,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_greenchair_N</action>
-		<action>rotate_greenchair_E</action>
-		<action>rotate_greenchair_W</action>
+		<!-- <action>rotate_greenchair_N</action> -->
+		<!-- <action>rotate_greenchair_E</action> -->
+		<!-- <action>rotate_greenchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenchair</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -16975,8 +16982,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_greenchair_N</action>
-		<action>rotate_greenchair_E</action>
+		<!-- <action>rotate_greenchair_N</action> -->
+		<!-- <action>rotate_greenchair_E</action> -->
 		<action>rotate_greenchair_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -17000,9 +17007,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_1_E</action>
+		<!-- <action>rotate_woodchair_1_E</action> -->
 		<action>rotate_woodchair_1_S</action>
-		<action>rotate_woodchair_1_W</action>
+		<!-- <action>rotate_woodchair_1_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_1</action>
@@ -17025,9 +17032,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_1_N</action>
+		<!-- <action>rotate_woodchair_1_N</action> -->
 		<action>rotate_woodchair_1_S</action>
-		<action>rotate_woodchair_1_W</action>
+		<!-- <action>rotate_woodchair_1_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_1</action>
@@ -17050,12 +17057,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_1_N</action>
-		<action>rotate_woodchair_1_E</action>
-		<action>rotate_woodchair_1_W</action>
+		<!-- <action>rotate_woodchair_1_N</action> -->
+		<!-- <action>rotate_woodchair_1_E</action> -->
+		<!-- <action>rotate_woodchair_1_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_1</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -17075,8 +17084,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_1_N</action>
-		<action>rotate_woodchair_1_E</action>
+		<!-- <action>rotate_woodchair_1_N</action> -->
+		<!-- <action>rotate_woodchair_1_E</action> -->
 		<action>rotate_woodchair_1_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -17100,9 +17109,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_2_E</action>
+		<!-- <action>rotate_woodchair_2_E</action> -->
 		<action>rotate_woodchair_2_S</action>
-		<action>rotate_woodchair_2_W</action>
+		<!-- <action>rotate_woodchair_2_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_2</action>
@@ -17125,9 +17134,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_2_N</action>
+		<!-- <action>rotate_woodchair_2_N</action> -->
 		<action>rotate_woodchair_2_S</action>
-		<action>rotate_woodchair_2_W</action>
+		<!-- <action>rotate_woodchair_2_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_2</action>
@@ -17150,12 +17159,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_2_N</action>
-		<action>rotate_woodchair_2_E</action>
-		<action>rotate_woodchair_2_W</action>
+		<!-- <action>rotate_woodchair_2_N</action> -->
+		<!-- <action>rotate_woodchair_2_E</action> -->
+		<!-- <action>rotate_woodchair_2_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_2</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -17175,8 +17186,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_2_N</action>
-		<action>rotate_woodchair_2_E</action>
+		<!-- <action>rotate_woodchair_2_N</action> -->
+		<!-- <action>rotate_woodchair_2_E</action> -->
 		<action>rotate_woodchair_2_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -17200,9 +17211,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_3_E</action>
+		<!-- <action>rotate_woodchair_3_E</action> -->
 		<action>rotate_woodchair_3_S</action>
-		<action>rotate_woodchair_3_W</action>
+		<!-- <action>rotate_woodchair_3_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_3</action>
@@ -17225,9 +17236,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_3_N</action>
+		<!-- <action>rotate_woodchair_3_N</action> -->
 		<action>rotate_woodchair_3_S</action>
-		<action>rotate_woodchair_3_W</action>
+		<!-- <action>rotate_woodchair_3_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_3</action>
@@ -17250,12 +17261,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_3_N</action>
-		<action>rotate_woodchair_3_E</action>
-		<action>rotate_woodchair_3_W</action>
+		<!-- <action>rotate_woodchair_3_N</action> -->
+		<!-- <action>rotate_woodchair_3_E</action> -->
+		<!-- <action>rotate_woodchair_3_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_3</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -17275,8 +17288,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_woodchair_3_N</action>
-		<action>rotate_woodchair_3_E</action>
+		<!-- <action>rotate_woodchair_3_N</action> -->
+		<!-- <action>rotate_woodchair_3_E</action> -->
 		<action>rotate_woodchair_3_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -17300,9 +17313,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_whitechair_E</action>
+		<!-- <action>rotate_whitechair_E</action> -->
 		<action>rotate_whitechair_S</action>
-		<action>rotate_whitechair_W</action>
+		<!-- <action>rotate_whitechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_whitechair</action>
@@ -17325,9 +17338,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_whitechair_N</action>
+		<!-- <action>rotate_whitechair_N</action> -->
 		<action>rotate_whitechair_S</action>
-		<action>rotate_whitechair_W</action>
+		<!-- <action>rotate_whitechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_whitechair</action>
@@ -17350,12 +17363,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_whitechair_N</action>
-		<action>rotate_whitechair_E</action>
-		<action>rotate_whitechair_W</action>
+		<!-- <action>rotate_whitechair_N</action> -->
+		<!-- <action>rotate_whitechair_E</action> -->
+		<!-- <action>rotate_whitechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_whitechair</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -17375,8 +17390,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_whitechair_N</action>
-		<action>rotate_whitechair_E</action>
+		<!-- <action>rotate_whitechair_N</action> -->
+		<!-- <action>rotate_whitechair_E</action> -->
 		<action>rotate_whitechair_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -17400,9 +17415,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_purplechair_E</action>
+		<!-- <action>rotate_purplechair_E</action> -->
 		<action>rotate_purplechair_S</action>
-		<action>rotate_purplechair_W</action>
+		<!-- <action>rotate_purplechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplechair</action>
@@ -17425,9 +17440,9 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_purplechair_N</action>
+		<!-- <action>rotate_purplechair_N</action> -->
 		<action>rotate_purplechair_S</action>
-		<action>rotate_purplechair_W</action>
+		<!-- <action>rotate_purplechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplechair</action>
@@ -17450,12 +17465,14 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_purplechair_N</action>
-		<action>rotate_purplechair_E</action>
-		<action>rotate_purplechair_W</action>
+		<!-- <action>rotate_purplechair_N</action> -->
+		<!-- <action>rotate_purplechair_E</action> -->
+		<!-- <action>rotate_purplechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplechair</action>
+		
+		<canBeRotated>true</canBeRotated>
 		
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -17475,8 +17492,8 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-		<action>rotate_purplechair_N</action>
-		<action>rotate_purplechair_E</action>
+		<!-- <action>rotate_purplechair_N</action> -->
+		<!-- <action>rotate_purplechair_E</action> -->
 		<action>rotate_purplechair_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
