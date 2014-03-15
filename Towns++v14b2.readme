@@ -10,6 +10,7 @@ BlueSteel's Contributions
 -> Fixed bakeroven rotation and decoration
 -> fixed bread sign not sticking to wall
 -> tweaks to fleeing system
+-> added rawfood.harvested,gathered,processed,meat to food caravan
   
 LittleMikey's Contributions:
 ============================

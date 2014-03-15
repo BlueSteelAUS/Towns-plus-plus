@@ -7,8 +7,29 @@
 		<buys>rawfood,prepfood.fruit,prepfood.baked,prepfood.cooked,decorative.special</buys>
 		<comePCT>100</comePCT>
 
-		<item>
+<!--		<item>
 			<type>rawfood</type>
+			<PCT>100</PCT>
+			<quantity>1d20+20</quantity>
+		</item>
+-->
+		<item>
+			<type>rawfood.harvested</type>
+			<PCT>100</PCT>
+			<quantity>1d20+20</quantity>
+		</item>
+		<item>
+			<type>rawfood.meat</type>
+			<PCT>100</PCT>
+			<quantity>1d20+20</quantity>
+		</item>
+		<item>
+			<type>rawfood.gathered</type>
+			<PCT>100</PCT>
+			<quantity>1d20+20</quantity>
+		</item>
+		<item>
+			<type>rawfood.processed</type>
 			<PCT>100</PCT>
 			<quantity>1d20+20</quantity>
 		</item>
@@ -27,6 +48,12 @@
 			<PCT>80</PCT>
 			<quantity>1d20</quantity>
 		</item>
+		<item>
+			<type>cagedanimals</type>
+			<PCT>80</PCT>
+			<quantity>1d20</quantity>
+		</item>
+
 	</food>
 
 	<materials>
