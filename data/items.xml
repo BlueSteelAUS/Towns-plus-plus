@@ -4560,6 +4560,9 @@
 	<redflowerseed>
 		<name esES="Semilla de flor roja">Red flower seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedredflower</maxAgeItem>
 		<action>qcut</action>
@@ -4569,6 +4572,9 @@
 	<plantedredflower>
 		<name esES="Flores rojas">Red flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedredflower</action>
 		<canBeUnlocked>false</canBeUnlocked>
@@ -4585,6 +4591,9 @@
 	<blueflowerseed>
 		<name esES="Semilla de flor azul">Blue flower seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedblueflower</maxAgeItem>
 		<action>qcut</action>
@@ -4594,6 +4603,9 @@
 	<plantedblueflower>
 		<name esES="Flores azules">Blue flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedblueflower</action>
 		<canBeUnlocked>false</canBeUnlocked>
@@ -4610,6 +4622,9 @@
 	<yellowflowerseed>
 		<name esES="Semilla de flor amarilla">Yellow flower seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedyellowflower</maxAgeItem>
 		<action>qcut</action>
@@ -4619,6 +4634,9 @@
 	<plantedyellowflower>
 		<name esES="Flores amarillas">Yellow flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedyellowflower</action>
 		<canBeUnlocked>false</canBeUnlocked>
@@ -13385,6 +13403,9 @@
 	<orangeflowerseed>
 		<name esES="N/A">Orange Flower Seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedorangeflower</maxAgeItem>
 		<action>qcut</action>
@@ -13394,6 +13415,9 @@
 	<plantedorangeflower>
 		<name esES="N/A">Orange Flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedorangeflower</action>
 	</plantedorangeflower>
@@ -13416,6 +13440,9 @@
 	<purpleflowerseed>
 		<name esES="N/A">Purple Flower Seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedpurpleflower</maxAgeItem>
 		<action>qcut</action>
@@ -13425,6 +13452,9 @@
 	<plantedpurpleflower>
 		<name esES="N/A">Purple Flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedpurpleflower</action>
 	</plantedpurpleflower>
@@ -13447,6 +13477,9 @@
 	<greenflowerseed>
 		<name esES="N/A">Green Flower Seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedgreenflower</maxAgeItem>
 		<action>qcut</action>
@@ -13456,6 +13489,9 @@
 	<plantedgreenflower>
 		<name esES="N/A">Green Flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedgreenflower</action>
 	</plantedgreenflower>
@@ -13478,6 +13514,9 @@
 	<pinkflowerseed>
 		<name esES="N/A">Pink Flower Seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedpinkflower</maxAgeItem>
 		<action>qcut</action>
@@ -13487,6 +13526,9 @@
 	<plantedpinkflower>
 		<name esES="N/A">Pink Flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedpinkflower</action>
 	</plantedpinkflower>
@@ -13509,6 +13551,9 @@
 	<whiteflowerseed>
 		<name esES="N/A">White Flower Seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedwhiteflower</maxAgeItem>
 		<action>qcut</action>
@@ -13518,6 +13563,9 @@
 	<plantedwhiteflower>
 		<name esES="N/A">White Flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedwhiteflower</action>
 	</plantedwhiteflower>
@@ -13540,6 +13588,9 @@
 	<blackflowerseed>
 		<name esES="N/A">Black Flower Seedling</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<maxAge>1d720+720</maxAge>
 		<maxAgeItem>plantedblackflower</maxAgeItem>
 		<action>qcut</action>
@@ -13549,6 +13600,9 @@
 	<plantedblackflower>
 		<name esES="N/A">Black Flowers</name>
 		<habitat>humus</habitat>
+		<habitat>junglehumus</habitat>
+		<habitat>snowhumus</habitat>
+		<habitat>sandhumus</habitat>
 		<action>qcut</action>
 		<action>qgatherplantedblackflower</action>
 	</plantedblackflower>
