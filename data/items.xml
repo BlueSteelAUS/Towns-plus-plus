@@ -17772,6 +17772,7 @@
 
 		<text>true</text>
 
+		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
 
