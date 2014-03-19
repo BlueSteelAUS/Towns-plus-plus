@@ -1,22 +1,15 @@
-﻿[size=200][color=#0000FF]Towns++ v14b2 (for Towns v14b)[/color][/size]
+﻿[size=200][color=#0000FF]Towns++ v14b3 (for Towns v14b)[/color][/size]
 
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
 [code]
-Changes since Towns++_v14b
+Changes since Towns++_v14b2
 ===========================
 BlueSteel's Contributions
 ===========================
--> Fixed bakeroven rotation and decoration
--> fixed bread sign not sticking to wall
--> tweaks to fleeing system
--> added rawfood.harvested,gathered,processed,meat to food caravan
- -> made it so that you can grow flowers on any tilled terrain
   
 LittleMikey's Contributions:
 ============================
--> Added rotation to chairs.
--> Changed Sandstone Stairs to use new rotation system.
 
 [/code]
 
@@ -208,6 +201,22 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 change logs
 ===========
 [spoiler]
+Changes since Towns++_v14b
+===========================
+BlueSteel's Contributions
+===========================
+-> Fixed bakeroven rotation and decoration
+-> fixed bread sign not sticking to wall
+-> tweaks to fleeing system
+-> added rawfood.harvested,gathered,processed,meat to food caravan
+ -> made it so that you can grow flowers on any tilled terrain
+  
+LittleMikey's Contributions:
+============================
+-> Added rotation to chairs.
+-> Changed Sandstone Stairs to use new rotation system.
+
+
 Changes since Towns++_v14a
 ===========================
 BlueSteel's Contributions
