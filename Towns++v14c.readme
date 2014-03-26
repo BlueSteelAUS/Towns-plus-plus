@@ -1,4 +1,4 @@
-﻿[size=200][color=#0000FF]Towns++ v14b3 (for Towns v14b)[/color][/size]
+﻿[size=200][color=#0000FF]Towns++ v14c (for Towns v14c)[/color][/size]
 
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
@@ -7,6 +7,7 @@ Changes since Towns++_v14b2
 ===========================
 BlueSteel's Contributions
 ===========================
+ -> updated for Towns v14c
   
 LittleMikey's Contributions:
 ============================
@@ -22,7 +23,7 @@ To install:
 4. As always feel free to leave comments, bug reports, suggestions.
 
 [quote]
-Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/14b2.zip
+Stable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/14c.zip
 Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
 NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Towns++
 
