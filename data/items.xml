@@ -14787,11 +14787,7 @@
 		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-<<<<<<< HEAD
 		<!-- 	<action>rotate_sandstairs2b</action>
-=======
-<!-- 	<action>rotate_sandstairs2b</action>
->>>>>>> 5a1003ef47dc10e06daecdf420c0d22ecd35bd35
 		<action>rotate_sandstairs2c</action>
 		<action>rotate_sandstairs2d</action> -->
 		<stackable>true</stackable>
@@ -14872,19 +14868,11 @@
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
 		<base>true</base>		
-<<<<<<< HEAD
 
 		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<!-- 	<action>rotate_sandstairs3b</action>
-=======
-		
-		<canBeRotated>true</canBeRotated>
-		<alwaysOperative>false</alwaysOperative>
-		<value>90</value>
-<!-- 	<action>rotate_sandstairs3b</action>
->>>>>>> 5a1003ef47dc10e06daecdf420c0d22ecd35bd35
 		<action>rotate_sandstairs3c</action>
 		<action>rotate_sandstairs3d</action> -->
 		<stackable>true</stackable>
