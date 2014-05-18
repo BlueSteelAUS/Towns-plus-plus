@@ -393,36 +393,41 @@
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</log>
 			<wooden name="Wooden walls" esES="Muros de madera" icon="ui_w_walls">
-					<birch name="Birch walls" esES="N/A" icon="lightbirchwoodblock">
-						<item id="qbirchwoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qbirchwoodenstoneblock" />
-						<item id="qbirchwoodsticks" code="QUEUEANDPLACEAREA" parameter="qbirchwoodsticks" />
-						<item id="qlightbirchwoodblock" code="QUEUEANDPLACEAREA" parameter="qlightbirchwoodblock" />
-						<item id="qbirchwoodenblock" code="QUEUEANDPLACEAREA" parameter="qbirchwoodenblock" />
-					</birch>					
-					<yellow name="Yellow walls" esES="N/A" icon="lightyellowwoodblock">
-						<item id="qyellowwoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qyellowwoodenstoneblock" />
-						<item id="qyellowwoodsticks" code="QUEUEANDPLACEAREA" parameter="qyellowwoodsticks" />
-						<item id="qlightyellowwoodblock" code="QUEUEANDPLACEAREA" parameter="qlightyellowwoodblock" />
-						<item id="qyellowwoodenblock" code="QUEUEANDPLACEAREA" parameter="qyellowwoodenblock" />
-					</yellow>				
-					<apple name="Apple walls" esES="N/A" icon="lightapplewoodblock">
-						<item id="qapplewoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qapplewoodenstoneblock" />
-						<item id="qapplewoodsticks" code="QUEUEANDPLACEAREA" parameter="qapplewoodsticks" />
-						<item id="qlightapplewoodblock" code="QUEUEANDPLACEAREA" parameter="qlightapplewoodblock" />
-						<item id="qapplewoodenblock" code="QUEUEANDPLACEAREA" parameter="qapplewoodenblock" />
-					</apple>				
-					<mahogany name="Mahogany walls" esES="N/A" icon="lightmahoganywoodblock">
-						<item id="qmahoganywoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodenstoneblock" />
-						<item id="qmahoganywoodsticks" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodsticks" />
-						<item id="qlightmahoganywoodblock" code="QUEUEANDPLACEAREA" parameter="qlightmahoganywoodblock" />
-						<item id="qmahoganywoodenblock" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodenblock" />
-					</mahogany>				
-					<pine name="Pine walls" esES="N/A" icon="lightpinewoodblock">
-						<item id="qpinewoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qpinewoodenstoneblock" />
-						<item id="qpinewoodsticks" code="QUEUEANDPLACEAREA" parameter="qpinewoodsticks" />
-						<item id="qlightpinewoodblock" code="QUEUEANDPLACEAREA" parameter="qlightpinewoodblock" />
-						<item id="qpinewoodenblock" code="QUEUEANDPLACEAREA" parameter="qpinewoodenblock" />
-					</pine>
+				<birch name="Birch walls" esES="N/A" icon="lightbirchwoodblock">
+					<item id="qbirchwoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qbirchwoodenstoneblock" />
+					<item id="qbirchwoodsticks" code="QUEUEANDPLACEAREA" parameter="qbirchwoodsticks" />
+					<item id="qlightbirchwoodblock" code="QUEUEANDPLACEAREA" parameter="qlightbirchwoodblock" />
+					<item id="qbirchwoodenblock" code="QUEUEANDPLACEAREA" parameter="qbirchwoodenblock" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</birch>					
+				<yellow name="Yellow walls" esES="N/A" icon="lightyellowwoodblock">
+					<item id="qyellowwoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qyellowwoodenstoneblock" />
+					<item id="qyellowwoodsticks" code="QUEUEANDPLACEAREA" parameter="qyellowwoodsticks" />
+					<item id="qlightyellowwoodblock" code="QUEUEANDPLACEAREA" parameter="qlightyellowwoodblock" />
+					<item id="qyellowwoodenblock" code="QUEUEANDPLACEAREA" parameter="qyellowwoodenblock" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</yellow>				
+				<apple name="Apple walls" esES="N/A" icon="lightapplewoodblock">
+					<item id="qapplewoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qapplewoodenstoneblock" />
+					<item id="qapplewoodsticks" code="QUEUEANDPLACEAREA" parameter="qapplewoodsticks" />
+					<item id="qlightapplewoodblock" code="QUEUEANDPLACEAREA" parameter="qlightapplewoodblock" />
+					<item id="qapplewoodenblock" code="QUEUEANDPLACEAREA" parameter="qapplewoodenblock" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</apple>				
+				<mahogany name="Mahogany walls" esES="N/A" icon="lightmahoganywoodblock">
+					<item id="qmahoganywoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodenstoneblock" />
+					<item id="qmahoganywoodsticks" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodsticks" />
+					<item id="qlightmahoganywoodblock" code="QUEUEANDPLACEAREA" parameter="qlightmahoganywoodblock" />
+					<item id="qmahoganywoodenblock" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodenblock" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</mahogany>				
+				<pine name="Pine walls" esES="N/A" icon="lightpinewoodblock">
+					<item id="qpinewoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qpinewoodenstoneblock" />
+					<item id="qpinewoodsticks" code="QUEUEANDPLACEAREA" parameter="qpinewoodsticks" />
+					<item id="qlightpinewoodblock" code="QUEUEANDPLACEAREA" parameter="qlightpinewoodblock" />
+					<item id="qpinewoodenblock" code="QUEUEANDPLACEAREA" parameter="qpinewoodenblock" />
+					<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				</pine>
 				<item id="qwoodenwall" code="QUEUEANDPLACEAREA" parameter="qwoodenwall" />
 				<item id="qwoodendarkwall" code="QUEUEANDPLACEAREA" parameter="qwoodendarkwall" />
 				<item id="qwoodenmossblock" code="QUEUEANDPLACEAREA" parameter="qwoodenmossblock" />
@@ -457,7 +462,7 @@
 				<item id="qflagblockgrey" code="QUEUEANDPLACEAREA" parameter="qflagblockgrey" />
 				<item id="qflagblockred" code="QUEUEANDPLACEAREA" parameter="qflagblockred" />
 				<item id="qflagblocktan" code="QUEUEANDPLACEAREA" parameter="qflagblocktan" />
-			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</flag>
 			<brick name="Stone brick walls" esES="Muros de ladrillos de piedra" icon="ui_sb_walls">
 				<item id="qstonebrickblock" code="QUEUEANDPLACEAREA" parameter="qstonebrickblock" />
