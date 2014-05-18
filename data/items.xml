@@ -2090,7 +2090,7 @@
 		<maxAgeItem>harvestedcactus</maxAgeItem>
 		<action>qcut</action>
 	</cactusbush>
-	
+
 	<harvestingcactus>
 		<name>Cactus</name>
 		<habitat>sand</habitat>
@@ -3372,7 +3372,7 @@
 		<value>0</value>
 	</scaffold>
 
-    <verticalladder>
+	<verticalladder>
 		<name esES="Escalera vertical">Vertical ladder</name>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -3521,7 +3521,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>40</value>
 	</boneroof>
-	
+
 	<brokenroof>
 		<name esES="Techo roto">Broken roof</name>
 		<description esES="Para dormir bajo las estrellas">For sleeping under the stars</description>
@@ -3744,7 +3744,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>102</value>
 		<canBeRotated>true</canBeRotated>
-<!-- 		<action>rotate_bonestairs_1_W</action>
+		<!-- 		<action>rotate_bonestairs_1_W</action>
 		<action>rotate_bonestairs_1_S</action>
 		<action>rotate_bonestairs_1_E</action> -->
 		<stackable>true</stackable>
@@ -4682,7 +4682,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</torch>
-	
+
 	<bonetorch>
 		<name esES="Antorcha de hueso">Bone torch</name>
 		<description esES="Brilla como un gusilú">Star bright, star fright...</description>
@@ -4759,7 +4759,7 @@
 
 		<value>102</value>
 	</woodenbedbury1>
-	
+
 	<woodenbedbury2>
 		<name esES="Cama de madera">Wooden bed</name>
 
@@ -4793,7 +4793,7 @@
 		<base>true</base>
 
 		<value>205</value>
-<!--
+		<!--
 		<zone>zpersonal</zone>
 		<zone>ztavernroom</zone>
 		<zone>zhospital</zone>
@@ -4912,6 +4912,7 @@
 		<buryLivingsPCT>25</buryLivingsPCT>
 
 
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</stonechairbury1>
@@ -4928,7 +4929,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplethrone</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>purplethronebury</buryItem>
@@ -5121,7 +5122,7 @@
 
 	<whitefencedoor>
 		<name esES="Puerta de valla blanca">White fence door</name>
-		
+
 		<type>furniture</type>
 		<wallConnector>true</wallConnector>
 		<door>true</door>
@@ -5150,7 +5151,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
-		
+
 		<action>decorate_blockdoor</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -5191,7 +5192,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
-		
+
 		<action>decorate_logdoor</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -5211,7 +5212,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>49</value>
-		
+
 		<action>decorate_woodendoor</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -5531,7 +5532,7 @@
 
 	<stonearcdoor2>
 		<name esES="Puerta con arco de piedra">Stone arched door</name>
-		
+
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<glue>true</glue>
 		<base>true</base>
@@ -5726,7 +5727,7 @@
 		<zone>zhospital</zone>
 		<value>212</value>
 		<canBeRotated>true</canBeRotated>	
-<!-- 		<action>rotate_medicinecabinet_W</action> -->
+		<!-- 		<action>rotate_medicinecabinet_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_medicinecabinet</action>
@@ -5772,12 +5773,12 @@
 		<name esES="Tallador de hueso">Bone carving knife</name>
 		<description esES="Herramienta para tallar objetos de hueso">A tool for carving bone items</description>
 		<type>utils</type>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>2</stackableSize>
 		<canBeRotated>true</canBeRotated>
 		<value>100</value>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bonecarver</action>
@@ -5795,7 +5796,8 @@
 
 		<maxAge>1d4320+8640</maxAge>
 		<maxAgeItem>cookingfirelow</maxAgeItem>
-		<speedUpPCT>75</speedUpPCT> <!-- 25% slower -->
+		<speedUpPCT>75</speedUpPCT>
+		<!-- 25% slower -->
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>2</happiness>
 
@@ -5818,7 +5820,8 @@
 
 		<maxAge>1d4320+4640</maxAge>
 		<maxAgeItem>cookingfireburnt</maxAgeItem>
-		<speedUpPCT>50</speedUpPCT> <!-- 50% slower -->
+		<speedUpPCT>50</speedUpPCT>
+		<!-- 50% slower -->
 		<alwaysOperative>false</alwaysOperative>
 		<action>qrenewfire</action>
 
@@ -7835,9 +7838,9 @@
 		<alwaysOperative>false</alwaysOperative>
 		<zone>zbakery</zone>
 		<value>212</value>
-		
- 		<action>decorate_bakeroven</action>
-<!--		<action>qrotate_bakeroven</action> -->
+
+		<action>decorate_bakeroven</action>
+		<!--		<action>qrotate_bakeroven</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
@@ -7990,9 +7993,9 @@
 	<colormixerbury>
 		<name esES="Tabla para mezclar colores">Color mixing bench</name>
 
-	
+
 		<alwaysOperative>false</alwaysOperative>
-		
+
 		<value>212</value>
 	</colormixerbury>
 
@@ -8020,8 +8023,8 @@
 	<carvingbenchbury>
 		<name esES="Mesa de tallador">Bonecarving bench</name>
 		<description esES="Se usa para fabricar objetos de hueso">Used to make bone objects</description>
-		
-		
+
+
 		<buryLivings>ghost,zombie</buryLivings>
 		<buryLivingsPCT>45,25</buryLivingsPCT>
 
@@ -8075,7 +8078,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_wooddetailer</action>
-		
+
 	</wooddetailer>
 
 	<wooddetailerbury>
@@ -8156,7 +8159,7 @@
 		<glue>true</glue>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<wallConnector>true</wallConnector>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -8187,7 +8190,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-	
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>130</value>
 	</redshortflagbury>
@@ -8391,7 +8394,7 @@
 	<shrine1>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "> </description> 
+		<description esES=" "/> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8419,7 +8422,7 @@
 	<shrine2>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "> </description> 
+		<description esES=" "/> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8448,7 +8451,7 @@
 	<shrine3>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "> </description> 
+		<description esES=" "/> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8476,14 +8479,14 @@
 	<shrine4>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "> </description> 
+		<description esES=" "/> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
 		<description esES="Sacrifica un alma">Sacrifice one's soul</description>
 
 		<happiness>2</happiness>
-		
+
 		<action>qsacrificewood</action>
 		<action>qsacrificestone</action>
 		<action>qsacrificewheat</action>
@@ -8504,7 +8507,7 @@
 	<shrine5>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "> </description> 
+		<description esES=" "/> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8581,7 +8584,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8599,7 +8602,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8617,7 +8620,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8635,7 +8638,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -8652,7 +8655,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -8669,7 +8672,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -8686,7 +8689,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -8703,7 +8706,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d75+25</defense>
 
-   <wearEffects>maskhappy</wearEffects>
+		<wearEffects>maskhappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8721,7 +8724,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d75+25</defense>
 
-   <wearEffects>maskhappy</wearEffects>
+		<wearEffects>maskhappy</wearEffects>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -8739,7 +8742,7 @@
 		<attack>1d14+50</attack>
 		<defense>1d319+440</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -8756,7 +8759,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8774,7 +8777,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8792,7 +8795,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8810,7 +8813,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8828,7 +8831,7 @@
 		<attack>1d5+20</attack>
 		<defense>1d35+50</defense>
 
-   <wearEffects>hathappy</wearEffects>
+		<wearEffects>hathappy</wearEffects>
 
 
 		<stackable>true</stackable>
@@ -8985,7 +8988,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
-<!--		<action>rotate_chest_W</action> -->
+		<!--		<action>rotate_chest_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_chest</action>
@@ -9374,7 +9377,7 @@
 		<happiness>1</happiness>
 
 		<value>200</value>
-<!--		<action>rotate_stonemalestatue_W</action> -->
+		<!--		<action>rotate_stonemalestatue_W</action> -->
 		<action>del_stonemalestatue</action>
 	</stonemalestatue>
 
@@ -9400,7 +9403,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>3</happiness>
 		<value>301</value>
-<!--		<action>rotate_goldunifallowstatue_S</action> -->
+		<!--		<action>rotate_goldunifallowstatue_S</action> -->
 		<action>del_goldunifallowstatue</action>
 	</goldunifallowstatue>
 
@@ -9449,7 +9452,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<buryItem>bakerovenbury,bakerovenbury1</buryItem>
 		<buryItemPCT>50,75</buryItemPCT>
 
@@ -9459,7 +9462,7 @@
 
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		
+
 		<action>decorate_chimney</action>
 		<action>qrotate_chimney</action>
 		<action>del_chimney</action>
@@ -9486,7 +9489,7 @@
 		<action>decorate_fireplace</action>
 		<action>del_animalfireplace</action>
 	</animalfireplace>
-	
+
 	<potplant>
 		<name esES="Planta">Potted plant</name>
 		<description esES="Una pequeña planta perfecta">A pretty pristine potted plant</description>
@@ -9543,7 +9546,7 @@
 		<buryLocked>true</buryLocked>
 
 		<alwaysOperative>false</alwaysOperative>
-		
+
 		<value>96</value>
 	</harpbury>
 
@@ -9705,7 +9708,7 @@
 		<description esES="Jardín en miniatura">Miniature garden</description>
 
 		<alwaysOperative>false</alwaysOperative>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>102</value>
@@ -10111,7 +10114,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>22</value>
-<!--		<action>rotate_grave_E</action> -->
+		<!--		<action>rotate_grave_E</action> -->
 		<action>del_grave</action>
 	</grave>
 
@@ -10153,19 +10156,19 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-<!--		<action>rotate_tomb_E</action> -->
+		<!--		<action>rotate_tomb_E</action> -->
 		<action>del_tomb</action>
-		</tomb>
+	</tomb>
 
 	<tombbury>
 		<name esES="Sepulcro">Tomb</name>
 		<alwaysOperative>false</alwaysOperative>
 
 		<locked>true</locked>
-	
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>55,25,5</buryLivingsPCT>
 
@@ -10184,7 +10187,7 @@
 		<buryLocked>true</buryLocked>
 
 		<action>qexaminetomb</action>
-		
+
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>55,25,5</buryLivingsPCT>
 
@@ -10213,7 +10216,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>120</value>
-<!--		<action>rotate_mosstomb_E</action> -->
+		<!--		<action>rotate_mosstomb_E</action> -->
 		<action>del_mosstomb</action>
 	</mosstomb>
 
@@ -10256,7 +10259,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_sipstomb</action>
 	</sipstomb>
 
@@ -10279,7 +10282,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_vechstomb</action>
 	</vechstomb>
 
@@ -10302,7 +10305,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_punchwoodtomb</action>
 	</punchwoodtomb>
 
@@ -10325,7 +10328,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_maleroguetomb</action>
 	</maleroguetomb>
 
@@ -10348,7 +10351,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_femaleroguetomb</action>
 	</femaleroguetomb>
 
@@ -10371,7 +10374,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_dwarftomb</action>
 	</dwarftomb>
 
@@ -10482,7 +10485,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_highlandertomb</action>
 	</highlandertomb>
 
@@ -10505,7 +10508,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_herbalisttomb</action>
 	</herbalisttomb>
 
@@ -11392,13 +11395,13 @@
 		<type>decorative.special</type>
 
 		<bury>true</bury>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>50</happiness>
 		<value>1500000</value>
 	</nuxcrown9>
 
-<!-- BlueSteel's Mod pack -->
+	<!-- BlueSteel's Mod pack -->
 	<dirtmine>
 		<name esES="Pozo minero de barro">Mud mineshaft</name>
 		<type>mine</type>
@@ -11419,7 +11422,7 @@
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
 	</dirtmine>
-	
+
 	<harvesteddirtmine>
 		<name esES="Pozo minero de barro">Mud mineshaft</name>
 		<type>mine</type>
@@ -11477,7 +11480,7 @@
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
 	</coalmine>
-	
+
 	<harvestedcoalmine>
 		<name esES="Pozo minero de carbón">Coal mineshaft</name>
 		<type>mine</type>
@@ -11503,7 +11506,7 @@
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
 	</stonemine>
-	
+
 	<harvestedstonemine>
 		<name esES="Pozo minero de piedra">Stone mineshaft</name>
 		<type>mine</type>
@@ -11529,7 +11532,7 @@
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
 	</sandmine>
-	
+
 	<harvestedsandmine>
 		<name esES="Pozo minero de Arena">Sand mineshaft</name>
 		<type>mine</type>
@@ -11604,7 +11607,7 @@
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
 	</silvermine>
-	
+
 	<harvestedsilvermine>
 		<name esES="Pozo minero de Plata">Silver mineshaft</name>
 		<type>mine</type>
@@ -11629,7 +11632,7 @@
 		<stackable>false</stackable>
 		<stackableSize>1</stackableSize>
 	</goldmine>
-	
+
 	<harvestedgoldmine>
 		<name esES="Pozo minero de Oro">Gold mineshaft</name>
 		<type>mine</type>
@@ -11710,7 +11713,7 @@
 		<action>qprocesswheat</action>
 	</flourmill>
 
-<!-- FURNITURE -->
+	<!-- FURNITURE -->
 	<woodendrawer_E>
 		<name esES="Cajonera de Madera">Wooden Drawer</name>
 		<description esES="Extrañamente, los cajones son sólidos">Oddly enough, doesn't draw anything.</description>
@@ -11921,7 +11924,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 		<value>95</value>
-		</snowman1>
+	</snowman1>
 
 	<snowman3>
 		<name esES="Muñeco de nieve">Snowman</name>
@@ -11993,17 +11996,17 @@
 	</santahat>
 
 	<xmashat>
-	    <level>1</level>
-	    <name esES="Sombrero de Elfo">Elf Hat</name>
-	    <type>armor.vanity</type>
-	    <location>HEAD</location>
-	    <attack>1d10+20</attack>
-	    <defense>1d70+50</defense>
-	    <happiness>3</happiness>
-	    <stackable>true</stackable>
-	    <stackableSize>1</stackableSize>
-	    <tags>cloth</tags>
-	    <value>200</value>
+		<level>1</level>
+		<name esES="Sombrero de Elfo">Elf Hat</name>
+		<type>armor.vanity</type>
+		<location>HEAD</location>
+		<attack>1d10+20</attack>
+		<defense>1d70+50</defense>
+		<happiness>3</happiness>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<tags>cloth</tags>
+		<value>200</value>
 	</xmashat>
 
 	<largegiftone>
@@ -12012,10 +12015,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftone</action>
-<!--		<action>qrotate_largegiftone</action> -->
+		<!--		<action>qrotate_largegiftone</action> -->
 	</largegiftone>
 
-<!--	<largegiftone_E>
+	<!--	<largegiftone_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12030,10 +12033,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegifttwo</action>
-<!--		<action>qrotate_largegifttwo</action>-->
+		<!--		<action>qrotate_largegifttwo</action>-->
 	</largegifttwo>
 
-<!--	<largegifttwo_E>
+	<!--	<largegifttwo_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12048,10 +12051,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftthree</action>
-<!--		<action>qrotate_largegiftthree</action>-->
+		<!--		<action>qrotate_largegiftthree</action>-->
 	</largegiftthree>
 
-<!--	<largegiftthree_E>
+	<!--	<largegiftthree_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12066,10 +12069,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfour</action>
-<!--		<action>qrotate_largegiftfour</action>-->
+		<!--		<action>qrotate_largegiftfour</action>-->
 	</largegiftfour>
 
-<!--	<largegiftfour_E>
+	<!--	<largegiftfour_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12084,10 +12087,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_largegiftfive</action>
-<!--		<action>qrotate_largegiftfive</action>-->
+		<!--		<action>qrotate_largegiftfive</action>-->
 	</largegiftfive>
 
-<!--	<largegiftfive_E>
+	<!--	<largegiftfive_E>
 		<name esES="Regalo grande">Large Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12102,10 +12105,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftone</action>
-<!--		<action>qrotate_smallgiftone</action>-->
+		<!--		<action>qrotate_smallgiftone</action>-->
 	</smallgiftone>
 
-<!--	<smallgiftone_E>
+	<!--	<smallgiftone_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12120,10 +12123,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgifttwo</action>
-<!--		<action>qrotate_smallgifttwo</action>-->
+		<!--		<action>qrotate_smallgifttwo</action>-->
 	</smallgifttwo>
 
-<!--	<smallgifttwo_E>
+	<!--	<smallgifttwo_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12138,10 +12141,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftthree</action>
-<!--		<action>qrotate_smallgiftthree</action>-->
+		<!--		<action>qrotate_smallgiftthree</action>-->
 	</smallgiftthree>
 
-<!--	<smallgiftthree_E>
+	<!--	<smallgiftthree_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12156,10 +12159,10 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>5</happiness>
 		<action>qopen_smallgiftfour</action>
-<!--		<action>qrotate_smallgiftfour</action>-->
+		<!--		<action>qrotate_smallgiftfour</action>-->
 	</smallgiftfour>
 
-<!--	<smallgiftfour_E>
+	<!--	<smallgiftfour_E>
 		<name esES="Regalo">Small Gift</name>
 		<type>decorative.winter</type>
 		<alwaysOperative>false</alwaysOperative>
@@ -12193,11 +12196,11 @@
 	</xmastree_decorated_gifts>
 
 	<chimney_E>
-	    <name esES="Chimenea">Chimney</name>
+		<name esES="Chimenea">Chimney</name>
 		<description esES="Te mantendra caliente">It gets you warm and fuzzy</description>
-	    <alwaysOperative>false</alwaysOperative>
-	    <happiness>1</happiness>
-	    <value>180</value>
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>1</happiness>
+		<value>180</value>
 		<action>decorate_chimney_E</action>
 		<action>qrotate_chimney_E</action>
 		<action>del_chimney</action>
@@ -12268,7 +12271,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>bakerovenbury,bakerovenbury1</buryItem>
@@ -12290,7 +12293,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>bakerovenbury,bakerovenbury1</buryItem>
@@ -12311,7 +12314,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bakeroven</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>bakerovenbury,bakerovenbury1</buryItem>
@@ -12320,7 +12323,7 @@
 		<buryLivings>firehead,burningpet</buryLivings>
 		<buryLivingsPCT>25,1</buryLivingsPCT>
 	</xmasbakeroven_E>
-	
+
 	<xmaslogdoor>
 		<name esES="Puerta de troncos">Decorated Log door</name>
 		<description esES="Puerta básica">Basic door</description>
@@ -12333,7 +12336,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_logdoor</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>doortrap</buryItem>
@@ -12369,7 +12372,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_blockdoor</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>doortrap</buryItem>
@@ -12421,7 +12424,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12448,7 +12451,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12475,7 +12478,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12502,7 +12505,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12529,7 +12532,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12556,7 +12559,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12583,7 +12586,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12614,7 +12617,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_stonetable</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonetablebury</buryItem>
@@ -12857,7 +12860,8 @@
 	<markettent>
 		<name esES="Tienda de Mercado">Market Tent</name>
 		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
-		<happiness>2</happiness><!-- 
+		<happiness>2</happiness>
+		<!-- 
 		<action>rotate_markettent</action> -->
 		<action>del_markettent</action>
 	</markettent>
@@ -12865,7 +12869,8 @@
 	<markettent_1>
 		<name esES="Tienda de Mercado">Market Tent</name>
 		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
-		<happiness>2</happiness><!-- 
+		<happiness>2</happiness>
+		<!-- 
 		<action>rotate_markettent_1</action> -->
 		<action>del_markettent</action>
 	</markettent_1>
@@ -12873,7 +12878,8 @@
 	<markettent_a>
 		<name esES="Tienda de Mercado">Market Tent</name>
 		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
-		<happiness>2</happiness><!-- 
+		<happiness>2</happiness>
+		<!-- 
 		<action>rotate_markettent_a</action> -->
 		<action>del_markettent_a</action>
 	</markettent_a>
@@ -12881,7 +12887,8 @@
 	<markettent_a_1>
 		<name esES="Tienda de Mercado">Market Tent</name>
 		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
-		<happiness>2</happiness><!-- 
+		<happiness>2</happiness>
+		<!-- 
 		<action>rotate_markettent_a_1</action> -->
 		<action>del_markettent_a</action>
 	</markettent_a_1>
@@ -12889,7 +12896,8 @@
 	<markettent_b>
 		<name esES="Tienda de Mercado">Market Tent</name>
 		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
-		<happiness>2</happiness><!-- 
+		<happiness>2</happiness>
+		<!-- 
 		<action>rotate_markettent_b</action> -->
 		<action>del_markettent_b</action>
 	</markettent_b>
@@ -12897,7 +12905,8 @@
 	<markettent_b_1>
 		<name esES="Tienda de Mercado">Market Tent</name>
 		<description esE="Una tienda para vender tus productos">A tent for setting up your wares</description>
-		<happiness>2</happiness><!-- 
+		<happiness>2</happiness>
+		<!-- 
 		<action>rotate_markettent_b_1</action> -->
 		<action>del_markettent_b</action>
 	</markettent_b_1>
@@ -13060,7 +13069,7 @@
 		<stackableSize>1</stackableSize>
 		<action>del_snoatfarm</action>
 	</newsnoatfarm>
-	
+
 	<newsheepfarm>
 		<name esES="N/A">Sheep Barn</name>
 		<description esES="N/A">Baa Ram Ewe</description>
@@ -13192,7 +13201,7 @@
 		<stackableSize>1</stackableSize>
 		<action>del_sheepfarm</action>
 	</emptysheepfarm>
-	
+
 	<!-- NEW COLOURS -->
 	<yellowgel>
 		<name esES="N/A">Yellow Gel</name>
@@ -13220,7 +13229,7 @@
 		<stackableSize>1</stackableSize>
 		<value>40</value>
 	</purplegel>
-	
+
 	<whitegel>
 		<name esES="N/A">white Gel</name>
 		<type>rawmaterials.colors</type>
@@ -13229,7 +13238,7 @@
 		<stackableSize>1</stackableSize>
 		<value>40</value>
 	</whitegel>
-	
+
 	<bloodgel>
 		<name esES="N/A">blood Gel</name>
 		<type>rawmaterials.colors</type>
@@ -13238,7 +13247,7 @@
 		<stackableSize>1</stackableSize>
 		<value>40</value>
 	</bloodgel>
-	
+
 	<blackgel>
 		<name esES="N/A">black Gel</name>
 		<type>rawmaterials.colors</type>
@@ -13723,7 +13732,7 @@
 		<buryItem>gardenbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
 	</gardenblack>
-	
+
 	<!-- NEW HEDGES -->
 	<orangeflowerhedge>
 		<name esES="Seto de flores rojas">Orange Flower Hedge</name>
@@ -13843,10 +13852,10 @@
 
 		<value>2</value>
 	</unearthedremains>
-	
+
 	<!-- CROWNS -->
 	<!-- /CROWNS -->
-	
+
 	<!-- DEAD SANTA -->
 	<santacorpse>
 		<name esES="N/A">Santa's Corpse</name>
@@ -13871,7 +13880,7 @@
 		<stackableSize>2</stackableSize>
 		<value>12</value>
 	</santacorpse>
-	
+
 	<santatomb>
 		<name esES="N/A">Santa's Tomb</name>
 		<alwaysOperative>false</alwaysOperative>
@@ -13887,7 +13896,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>122</value>
-		
+
 		<action>del_santatomb</action>
 	</santatomb>
 
@@ -13898,7 +13907,7 @@
 		<containerSize>25</containerSize>
 		<value>90</value>
 		<action>rotate_armorcabinet_E</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>crateburygoldarmor,crateburysilverarmor,crateburyspecialarmor,barrelbury</buryItem>
@@ -13914,7 +13923,7 @@
 		<container>true</container>
 		<containerSize>25</containerSize>
 		<value>90</value>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>chestburygoldweapon,chestburysilverweapon,chestburyspecialweapon,chestbury</buryItem>
@@ -13922,7 +13931,7 @@
 		<buryItemPCT>2,2,1,100</buryItemPCT>
 		<buryLivings>snickerblade,snickerblade,snickerblade,snickerblade</buryLivings>
 		<buryLivingsPCT>3,3,3,3</buryLivingsPCT>
-		
+
 		<action>rotate_weaponcabinet_E</action>
 	</weaponcabinet_W>
 
@@ -13951,7 +13960,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs1a</action>
-<!-- 		<action>rotate_woodstairs1c</action>
+		<!-- 		<action>rotate_woodstairs1c</action>
 		<action>rotate_woodstairs1d</action> -->
 		<action>del_woodenladder</action>
 		<bury>true</bury>
@@ -13972,7 +13981,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs1a</action>
-<!-- 		<action>rotate_woodstairs1b</action>
+		<!-- 		<action>rotate_woodstairs1b</action>
 		<action>rotate_woodstairs1d</action> -->
 		<action>del_woodenladder</action>
 		<bury>true</bury>
@@ -13993,7 +14002,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs1a</action>
-<!-- 		<action>rotate_woodstairs1b</action>
+		<!-- 		<action>rotate_woodstairs1b</action>
 		<action>rotate_woodstairs1c</action> -->
 		<action>del_woodenladder</action>
 		<bury>true</bury>
@@ -14014,14 +14023,14 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs2a</action>
-<!-- 		<action>rotate_woodstairs2c</action>
+		<!-- 		<action>rotate_woodstairs2c</action>
 		<action>rotate_woodstairs2d</action> -->
 		<action>del_ladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</woodstairs2b>
 
-   <woodstairs2c>
+	<woodstairs2c>
 		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
 		<type>cb262.stairs</type>
@@ -14035,7 +14044,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs2a</action>
-<!-- 		<action>rotate_woodstairs2b</action>
+		<!-- 		<action>rotate_woodstairs2b</action>
 		<action>rotate_woodstairs2d</action> -->
 		<action>del_ladder</action>
 		<bury>true</bury>
@@ -14056,13 +14065,13 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs2a</action>
-<!-- 		<action>rotate_woodstairs2b</action>
+		<!-- 		<action>rotate_woodstairs2b</action>
 		<action>rotate_woodstairs2c</action> -->
 		<action>del_ladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</woodstairs2d>
-	
+
 	<woodstairs3b>
 		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
@@ -14075,7 +14084,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs3a</action>
-<!-- 		<action>rotate_woodstairs3c</action>
+		<!-- 		<action>rotate_woodstairs3c</action>
 		<action>rotate_woodstairs3d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14096,7 +14105,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs3a</action>
-<!-- 		<action>rotate_woodstairs3b</action>
+		<!-- 		<action>rotate_woodstairs3b</action>
 		<action>rotate_woodstairs3d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14117,7 +14126,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_woodstairs3a</action>
-<!-- 		<action>rotate_woodstairs3b</action>
+		<!-- 		<action>rotate_woodstairs3b</action>
 		<action>rotate_woodstairs3c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14125,7 +14134,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</woodstairs3d>
-	
+
 	<dirtstairs1b>
 		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
@@ -14138,7 +14147,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs1a</action>
-<!-- 		<action>rotate_dirtstairs1c</action>
+		<!-- 		<action>rotate_dirtstairs1c</action>
 		<action>rotate_dirtstairs1d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14159,7 +14168,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs1a</action>
-<!-- 		<action>rotate_dirtstairs1b</action>
+		<!-- 		<action>rotate_dirtstairs1b</action>
 		<action>rotate_dirtstairs1d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14180,7 +14189,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs1a</action>
-<!-- 		<action>rotate_dirtstairs1b</action>
+		<!-- 		<action>rotate_dirtstairs1b</action>
 		<action>rotate_dirtstairs1c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14189,7 +14198,7 @@
 		<buryLocked>true</buryLocked>
 	</dirtstairs1d>
 
-    <dirtstairs2a>
+	<dirtstairs2a>
 		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
 		<type>construction.stairs</type>
@@ -14200,7 +14209,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-<!-- 		<action>rotate_dirtstairs2b</action>
+		<!-- 		<action>rotate_dirtstairs2b</action>
 		<action>rotate_dirtstairs2c</action>
 		<action>rotate_dirtstairs2d</action> -->
 		<stackable>true</stackable>
@@ -14222,7 +14231,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs2a</action>
-<!-- 		<action>rotate_dirtstairs2c</action>
+		<!-- 		<action>rotate_dirtstairs2c</action>
 		<action>rotate_dirtstairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14243,7 +14252,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs2a</action>
-<!-- 		<action>rotate_dirtstairs2b</action>
+		<!-- 		<action>rotate_dirtstairs2b</action>
 		<action>rotate_dirtstairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14264,7 +14273,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_dirtstairs2a</action>
-<!-- 		<action>rotate_dirtstairs2b</action>
+		<!-- 		<action>rotate_dirtstairs2b</action>
 		<action>rotate_dirtstairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14286,14 +14295,14 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-<!-- 		<action>rotate_stonestairs1b</action>
+		<!-- 		<action>rotate_stonestairs1b</action>
 		<action>rotate_stonestairs1c</action>
 		<action>rotate_stonestairs1d</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</stonestairs1a>
-	
+
 	<stonestairs1b>
 		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
@@ -14308,7 +14317,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs1a</action>
-<!-- 		<action>rotate_stonestairs1c</action>
+		<!-- 		<action>rotate_stonestairs1c</action>
 		<action>rotate_stonestairs1d</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
@@ -14329,14 +14338,14 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs1a</action>
-<!-- 		<action>rotate_stonestairs1b</action>
+		<!-- 		<action>rotate_stonestairs1b</action>
 		<action>rotate_stonestairs1d</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</stonestairs1c>
 
-   <stonestairs1d>
+	<stonestairs1d>
 		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
@@ -14350,7 +14359,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs1a</action>
-<!-- 		<action>rotate_stonestairs1b</action>
+		<!-- 		<action>rotate_stonestairs1b</action>
 		<action>rotate_stonestairs1c</action> -->
 		<action>del_stoneladder</action>
 		<bury>true</bury>
@@ -14369,7 +14378,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs2a</action>
-<!-- 		<action>rotate_stonestairs2c</action>
+		<!-- 		<action>rotate_stonestairs2c</action>
 		<action>rotate_stonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14390,7 +14399,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs2a</action>
-<!-- 		<action>rotate_stonestairs2b</action>
+		<!-- 		<action>rotate_stonestairs2b</action>
 		<action>rotate_stonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14483,7 +14492,7 @@
 		<buryLocked>true</buryLocked>
 	</stonestairs3d>
 
-    <stonestairs4a>
+	<stonestairs4a>
 		<name esES="Escaleras de Piedra">Dark Stone Stairs</name>
 
 		<type>construction.stairs</type>
@@ -14516,7 +14525,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs4a</action>
-<!-- 		<action>rotate_stonestairs4c</action>
+		<!-- 		<action>rotate_stonestairs4c</action>
 		<action>rotate_stonestairs4d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14537,7 +14546,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs4a</action>
-<!-- 		<action>rotate_stonestairs4b</action>
+		<!-- 		<action>rotate_stonestairs4b</action>
 		<action>rotate_stonestairs4d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14558,7 +14567,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs4a</action>
-<!-- 		<action>rotate_stonestairs4b</action>
+		<!-- 		<action>rotate_stonestairs4b</action>
 		<action>rotate_stonestairs4c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14578,7 +14587,7 @@
 
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-<!-- 		<action>rotate_stonestairs5b</action>
+		<!-- 		<action>rotate_stonestairs5b</action>
 		<action>rotate_stonestairs5c</action>
 		<action>rotate_stonestairs5d</action> -->
 		<stackable>true</stackable>
@@ -14600,7 +14609,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs5a</action>
-<!-- 		<action>rotate_stonestairs5c</action>
+		<!-- 		<action>rotate_stonestairs5c</action>
 		<action>rotate_stonestairs5d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14621,7 +14630,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs5a</action>
-<!-- 		<action>rotate_stonestairs5b</action>
+		<!-- 		<action>rotate_stonestairs5b</action>
 		<action>rotate_stonestairs5d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14642,7 +14651,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_stonestairs5a</action>
-<!-- 		<action>rotate_stonestairs5b</action>
+		<!-- 		<action>rotate_stonestairs5b</action>
 		<action>rotate_stonestairs5c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14775,11 +14784,12 @@
 		<glue>true</glue>
 		<base>true</base>
 
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_sandstairs2b</action>
+		<!-- 	<action>rotate_sandstairs2b</action>
 		<action>rotate_sandstairs2c</action>
-		<action>rotate_sandstairs2d</action>
+		<action>rotate_sandstairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_sandstairs2</action>
@@ -14857,13 +14867,14 @@
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
-		<base>true</base>
+		<base>true</base>		
 
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-		<action>rotate_sandstairs3b</action>
+		<!-- 	<action>rotate_sandstairs3b</action>
 		<action>rotate_sandstairs3c</action>
-		<action>rotate_sandstairs3d</action>
+		<action>rotate_sandstairs3d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_sandstairs3</action>
@@ -14946,7 +14957,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<canBeRotated>true</canBeRotated>
-<!-- 		<action>rotate_redstonestairs2</action>
+		<!-- 		<action>rotate_redstonestairs2</action>
 		<action>rotate_redstonestairs3</action>
 		<action>rotate_redstonestairs4</action> -->
 		<stackable>true</stackable>
@@ -14956,7 +14967,7 @@
 		<buryLocked>true</buryLocked>
 	</redstonestairs1>
 
-    <redstonestairs2>
+	<redstonestairs2>
 		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
@@ -14968,7 +14979,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_redstonestairs1</action>
-<!-- 		<action>rotate_redstonestairs3</action>
+		<!-- 		<action>rotate_redstonestairs3</action>
 		<action>rotate_redstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -14989,7 +15000,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_redstonestairs1</action>
-<!-- 		<action>rotate_redstonestairs2</action>
+		<!-- 		<action>rotate_redstonestairs2</action>
 		<action>rotate_redstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -15010,7 +15021,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_redstonestairs1</action>
-<!-- 		<action>rotate_redstonestairs2</action>
+		<!-- 		<action>rotate_redstonestairs2</action>
 		<action>rotate_redstonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -15019,7 +15030,7 @@
 		<buryLocked>true</buryLocked>
 	</redstonestairs4>
 
-    <bluestonestairs1>
+	<bluestonestairs1>
 		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>construction.stairs</type>
@@ -15031,7 +15042,7 @@
 		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-<!-- 		<action>rotate_bluestonestairs2</action>
+		<!-- 		<action>rotate_bluestonestairs2</action>
 		<action>rotate_bluestonestairs3</action>
 		<action>rotate_bluestonestairs4</action> -->
 		<stackable>true</stackable>
@@ -15053,7 +15064,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_bluestonestairs1</action>
-<!-- 		<action>rotate_bluestonestairs3</action>
+		<!-- 		<action>rotate_bluestonestairs3</action>
 		<action>rotate_bluestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -15074,7 +15085,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_bluestonestairs1</action>
-<!-- 		<action>rotate_bluestonestairs2</action>
+		<!-- 		<action>rotate_bluestonestairs2</action>
 		<action>rotate_bluestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -15095,7 +15106,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_bluestonestairs1</action>
-<!-- 		<action>rotate_bluestonestairs2</action>
+		<!-- 		<action>rotate_bluestonestairs2</action>
 		<action>rotate_bluestonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -15103,7 +15114,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</bluestonestairs4>
-	
+
 	<yellowstonestairs1>
 		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
@@ -15116,7 +15127,7 @@
 		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
-<!-- 		<action>rotate_yellowstonestairs2</action>
+		<!-- 		<action>rotate_yellowstonestairs2</action>
 		<action>rotate_yellowstonestairs3</action>
 		<action>rotate_yellowstonestairs4</action> -->
 		<stackable>true</stackable>
@@ -15126,7 +15137,7 @@
 		<buryLocked>true</buryLocked>
 	</yellowstonestairs1>
 
-    <yellowstonestairs2>
+	<yellowstonestairs2>
 		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
 		<type>cb262.stairs</type>
@@ -15138,7 +15149,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_yellowstonestairs1</action>
-<!-- 		<action>rotate_yellowstonestairs3</action>
+		<!-- 		<action>rotate_yellowstonestairs3</action>
 		<action>rotate_yellowstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -15159,7 +15170,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<action>rotate_yellowstonestairs1</action>
-<!-- 		<action>rotate_yellowstonestairs2</action>
+		<!-- 		<action>rotate_yellowstonestairs2</action>
 		<action>rotate_yellowstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
@@ -15168,40 +15179,40 @@
 		<buryLocked>true</buryLocked>
 	</yellowstonestairs3>
 
-    <yellowstonestairs4>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<yellowstonestairs4>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_yellowstonestairs1</action>
-<!--         <action>rotate_yellowstonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_yellowstonestairs1</action>
+		<!--         <action>rotate_yellowstonestairs2</action>
         <action>rotate_yellowstonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </yellowstonestairs4>
+	</yellowstonestairs4>
 
 	<greenstonestairs1>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
-	
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_greenstonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_greenstonestairs2</action>
         <action>rotate_greenstonestairs3</action>
         <action>rotate_greenstonestairs4</action> -->
 		<stackable>true</stackable>
@@ -15209,84 +15220,84 @@
 		<action>del_greenstonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs1>
+	</greenstonestairs1>
 
 	<greenstonestairs2>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_greenstonestairs1</action>
-<!--         <action>rotate_greenstonestairs3</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_greenstonestairs1</action>
+		<!--         <action>rotate_greenstonestairs3</action>
         <action>rotate_greenstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs2>
+	</greenstonestairs2>
 
-    <greenstonestairs3>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<greenstonestairs3>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_greenstonestairs1</action>
-<!--         <action>rotate_greenstonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_greenstonestairs1</action>
+		<!--         <action>rotate_greenstonestairs2</action>
         <action>rotate_greenstonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs3>
+	</greenstonestairs3>
 
-    <greenstonestairs4>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<greenstonestairs4>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_greenstonestairs1</action>
-<!--         <action>rotate_greenstonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_greenstonestairs1</action>
+		<!--         <action>rotate_greenstonestairs2</action>
         <action>rotate_greenstonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs4>
+	</greenstonestairs4>
 
-    <orangestonestairs1>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<orangestonestairs1>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_orangestonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_orangestonestairs2</action>
         <action>rotate_orangestonestairs3</action>
         <action>rotate_orangestonestairs4</action> -->
 		<stackable>true</stackable>
@@ -15294,84 +15305,84 @@
 		<action>del_orangestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs1>
+	</orangestonestairs1>
 
 	<orangestonestairs2>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_orangestonestairs1</action>
-<!--         <action>rotate_orangestonestairs3</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_orangestonestairs1</action>
+		<!--         <action>rotate_orangestonestairs3</action>
         <action>rotate_orangestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs2>
+	</orangestonestairs2>
 
 	<orangestonestairs3>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_orangestonestairs1</action>
-<!--         <action>rotate_orangestonestairs4</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_orangestonestairs1</action>
+		<!--         <action>rotate_orangestonestairs4</action>
         <action>rotate_orangestonestairs2</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs3>
+	</orangestonestairs3>
 
-    <orangestonestairs4>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<orangestonestairs4>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_orangestonestairs1</action>
-<!--         <action>rotate_orangestonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_orangestonestairs1</action>
+		<!--         <action>rotate_orangestonestairs2</action>
         <action>rotate_orangestonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs4>
+	</orangestonestairs4>
 
-    <purplestonestairs1>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<purplestonestairs1>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_purplestonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_purplestonestairs2</action>
         <action>rotate_purplestonestairs3</action>
         <action>rotate_purplestonestairs4</action> -->
 		<stackable>true</stackable>
@@ -15379,84 +15390,84 @@
 		<action>del_purplestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs1>
+	</purplestonestairs1>
 
 	<purplestonestairs2>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_purplestonestairs1</action>
-<!--         <action>rotate_purplestonestairs3</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_purplestonestairs1</action>
+		<!--         <action>rotate_purplestonestairs3</action>
         <action>rotate_purplestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs2>
+	</purplestonestairs2>
 
-    <purplestonestairs3>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<purplestonestairs3>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_purplestonestairs1</action>
-<!--         <action>rotate_purplestonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_purplestonestairs1</action>
+		<!--         <action>rotate_purplestonestairs2</action>
         <action>rotate_purplestonestairs4</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs3>
+	</purplestonestairs3>
 
-    <purplestonestairs4>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<purplestonestairs4>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_purplestonestairs1</action>
-<!--         <action>rotate_purplestonestairs2</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_purplestonestairs1</action>
+		<!--         <action>rotate_purplestonestairs2</action>
         <action>rotate_purplestonestairs3</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs4>
+	</purplestonestairs4>
 
-    <redstonestairs2a>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<redstonestairs2a>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_redstonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_redstonestairs2b</action>
         <action>rotate_redstonestairs2c</action>
         <action>rotate_redstonestairs2d</action> -->
 		<stackable>true</stackable>
@@ -15464,84 +15475,84 @@
 		<action>del_redstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </redstonestairs2a>
+	</redstonestairs2a>
 
 	<redstonestairs2b>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_redstonestairs2a</action>
-<!--         <action>rotate_redstonestairs2c</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_redstonestairs2a</action>
+		<!--         <action>rotate_redstonestairs2c</action>
         <action>rotate_redstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </redstonestairs2b>
+	</redstonestairs2b>
 
-    <redstonestairs2c>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<redstonestairs2c>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_redstonestairs2a</action>
-<!--         <action>rotate_redstonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_redstonestairs2a</action>
+		<!--         <action>rotate_redstonestairs2b</action>
         <action>rotate_redstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </redstonestairs2c>
+	</redstonestairs2c>
 
-    <redstonestairs2d>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<redstonestairs2d>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
-	
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_redstonestairs2a</action>
-<!--         <action>rotate_redstonestairs2b</action>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_redstonestairs2a</action>
+		<!--         <action>rotate_redstonestairs2b</action>
         <action>rotate_redstonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </redstonestairs2d>
+	</redstonestairs2d>
 
 	<bluestonestairs2a>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_bluestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_bluestonestairs2b</action>
         <action>rotate_bluestonestairs2c</action>
         <action>rotate_bluestonestairs2d</action> -->
 		<stackable>true</stackable>
@@ -15549,84 +15560,84 @@
 		<action>del_bluestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </bluestonestairs2a>
+	</bluestonestairs2a>
 
 	<bluestonestairs2b>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_bluestonestairs2a</action>
-<!--         <action>rotate_bluestonestairs2c</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_bluestonestairs2a</action>
+		<!--         <action>rotate_bluestonestairs2c</action>
         <action>rotate_bluestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </bluestonestairs2b>
+	</bluestonestairs2b>
 
-    <bluestonestairs2c>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<bluestonestairs2c>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_bluestonestairs2a</action>
-<!--         <action>rotate_bluestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_bluestonestairs2a</action>
+		<!--         <action>rotate_bluestonestairs2b</action>
         <action>rotate_bluestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </bluestonestairs2c>
+	</bluestonestairs2c>
 
-    <bluestonestairs2d>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<bluestonestairs2d>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_bluestonestairs2a</action>
-<!--         <action>rotate_bluestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_bluestonestairs2a</action>
+		<!--         <action>rotate_bluestonestairs2b</action>
         <action>rotate_bluestonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </bluestonestairs2d>
+	</bluestonestairs2d>
 
-    <yellowstonestairs2a>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<yellowstonestairs2a>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_yellowstonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_yellowstonestairs2b</action>
         <action>rotate_yellowstonestairs2c</action>
         <action>rotate_yellowstonestairs2d</action> -->
 		<stackable>true</stackable>
@@ -15634,169 +15645,169 @@
 		<action>del_yellowstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </yellowstonestairs2a>
+	</yellowstonestairs2a>
 
 	<yellowstonestairs2b>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_yellowstonestairs2a</action>
-<!--         <action>rotate_yellowstonestairs2c</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_yellowstonestairs2a</action>
+		<!--         <action>rotate_yellowstonestairs2c</action>
         <action>rotate_yellowstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </yellowstonestairs2b>
+	</yellowstonestairs2b>
 
-    <yellowstonestairs2c>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<yellowstonestairs2c>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_yellowstonestairs2a</action>
-<!--         <action>rotate_yellowstonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_yellowstonestairs2a</action>
+		<!--         <action>rotate_yellowstonestairs2b</action>
         <action>rotate_yellowstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </yellowstonestairs2c>
+	</yellowstonestairs2c>
 
-    <yellowstonestairs2d>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<yellowstonestairs2d>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_yellowstonestairs2a</action>
-<!--         <action>rotate_yellowstonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_yellowstonestairs2a</action>
+		<!--         <action>rotate_yellowstonestairs2b</action>
         <action>rotate_yellowstonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_yellowstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </yellowstonestairs2d>
+	</yellowstonestairs2d>
 
 	<greenstonestairs2a>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <!-- <action>rotate_greenstonestairs2b</action> -->
-<!--         <action>rotate_greenstonestairs2c</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!-- <action>rotate_greenstonestairs2b</action> -->
+		<!--         <action>rotate_greenstonestairs2c</action>
         <action>rotate_greenstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs2a>
+	</greenstonestairs2a>
 
 	<greenstonestairs2b>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_greenstonestairs2a</action>
-<!--         <action>rotate_greenstonestairs2c</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_greenstonestairs2a</action>
+		<!--         <action>rotate_greenstonestairs2c</action>
         <action>rotate_greenstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs2b>
+	</greenstonestairs2b>
 
-    <greenstonestairs2c>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<greenstonestairs2c>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_greenstonestairs2a</action>
-<!--         <action>rotate_greenstonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_greenstonestairs2a</action>
+		<!--         <action>rotate_greenstonestairs2b</action>
         <action>rotate_greenstonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs2c>
+	</greenstonestairs2c>
 
-    <greenstonestairs2d>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<greenstonestairs2d>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_greenstonestairs2a</action>
-<!--         <action>rotate_greenstonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_greenstonestairs2a</action>
+		<!--         <action>rotate_greenstonestairs2b</action>
         <action>rotate_greenstonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenstonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </greenstonestairs2d>
+	</greenstonestairs2d>
 
-    <orangestonestairs2a>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<orangestonestairs2a>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_orangestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_orangestonestairs2b</action>
         <action>rotate_orangestonestairs2c</action>
         <action>rotate_orangestonestairs2d</action> -->
 		<stackable>true</stackable>
@@ -15804,84 +15815,84 @@
 		<action>del_orangestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs2a>
+	</orangestonestairs2a>
 
 	<orangestonestairs2b>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
-        <base>true</base>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_orangestonestairs2a</action>
-<!--         <action>rotate_orangestonestairs2c</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_orangestonestairs2a</action>
+		<!--         <action>rotate_orangestonestairs2c</action>
         <action>rotate_orangestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs2b>
+	</orangestonestairs2b>
 
-    <orangestonestairs2c>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<orangestonestairs2c>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_orangestonestairs2a</action>
-<!--         <action>rotate_orangestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_orangestonestairs2a</action>
+		<!--         <action>rotate_orangestonestairs2b</action>
         <action>rotate_orangestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs2c>
+	</orangestonestairs2c>
 
-    <orangestonestairs2d>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<orangestonestairs2d>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_orangestonestairs2a</action>
-<!--         <action>rotate_orangestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_orangestonestairs2a</action>
+		<!--         <action>rotate_orangestonestairs2b</action>
         <action>rotate_orangestonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_orangestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </orangestonestairs2d>
+	</orangestonestairs2d>
 
-    <purplestonestairs2a>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<purplestonestairs2a>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>construction.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
 		<canBeRotated>true</canBeRotated>
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-<!--         <action>rotate_purplestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<!--         <action>rotate_purplestonestairs2b</action>
         <action>rotate_purplestonestairs2c</action>
         <action>rotate_purplestonestairs2d</action> -->
 		<stackable>true</stackable>
@@ -15889,71 +15900,71 @@
 		<action>del_purplestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs2a>
+	</purplestonestairs2a>
 
 	<purplestonestairs2b>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_purplestonestairs2a</action>
-<!--         <action>rotate_purplestonestairs2c</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_purplestonestairs2a</action>
+		<!--         <action>rotate_purplestonestairs2c</action>
         <action>rotate_purplestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs2b>
+	</purplestonestairs2b>
 
-    <purplestonestairs2c>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<purplestonestairs2c>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_purplestonestairs2a</action>
-<!--         <action>rotate_purplestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_purplestonestairs2a</action>
+		<!--         <action>rotate_purplestonestairs2b</action>
         <action>rotate_purplestonestairs2d</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs2c>
+	</purplestonestairs2c>
 
-    <purplestonestairs2d>
-        <name esES="Escaleras de Piedra">Stone Stairs</name>
+	<purplestonestairs2d>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
 
-        <type>cb262.stairs</type>
-        <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-        <zoneMergerUp>true</zoneMergerUp>
-        <glue>true</glue>
-        <base>true</base>
+		<type>cb262.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-        <alwaysOperative>false</alwaysOperative>
-        <value>90</value>
-        <action>rotate_purplestonestairs2a</action>
-<!--         <action>rotate_purplestonestairs2b</action>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_purplestonestairs2a</action>
+		<!--         <action>rotate_purplestonestairs2b</action>
         <action>rotate_purplestonestairs2c</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplestonestairs2</action>
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-    </purplestonestairs2d>
-<!-- /STAIRS -->
+	</purplestonestairs2d>
+	<!-- /STAIRS -->
 
 
 	<woodenbed_E>
@@ -16046,7 +16057,7 @@
 		<name esES="Cama de madera">Wooden bed</name>
 
 		<type>cb262.furniture</type>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenbedbury,woodenbedbury1,woodenbedbury2</buryItem>
@@ -16225,7 +16236,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16255,7 +16266,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16315,7 +16326,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16344,7 +16355,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16373,7 +16384,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16402,7 +16413,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16431,7 +16442,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16460,7 +16471,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16489,7 +16500,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16518,7 +16529,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16547,7 +16558,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16576,7 +16587,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16605,7 +16616,7 @@
 		<buryItemPCT>15,55,75</buryItemPCT>
 		<buryLivings>spider,giantspider,goblin,goblinleader</buryLivings>
 		<buryLivingsPCT>25,15,5,1</buryLivingsPCT>
-		
+
 		<usedToSleep>true</usedToSleep>
 		<happiness>5</happiness>
 		<alwaysOperative>false</alwaysOperative>
@@ -16622,7 +16633,7 @@
 		<stackableSize>1</stackableSize>
 		<action>del_purplebed</action>
 	</purple_bed_S>
-	
+
 	<purplethrone_E>
 		<name esES="Trono púrpura">Purple throne</name>
 		<description esES="No es como el de hierro">Not unlike the iron throne</description>
@@ -16635,7 +16646,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplethrone</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>purplethronebury</buryItem>
@@ -16643,7 +16654,7 @@
 		<buryLivings>nusepthegoblinking</buryLivings>
 		<buryLivingsPCT>5</buryLivingsPCT>
 	</purplethrone_E>
-	
+
 	<redchair_N>
 		<name esES="Silla de Madera">Chair</name>
 		<description esES="Es una silla, y te sientas en ella ¡Tonto!">Its a chair, you sit on it, stupid!</description>
@@ -16659,7 +16670,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16679,12 +16690,12 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
 		<!-- <action>rotate_redchair_N</action> -->
-		 <action>rotate_redchair_S</action>
+		<action>rotate_redchair_S</action>
 		<!-- <action>rotate_redchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16702,16 +16713,17 @@
 		<usedToSit>true</usedToSit>
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
-		<value>46</value><!-- 
+		<value>46</value>
+		<!-- 
 		<action>rotate_redchair_N</action>
 		<action>rotate_redchair_E</action>
 		<action>rotate_redchair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16730,13 +16742,13 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-<!-- 		<action>rotate_redchair_N</action>
+		<!-- 		<action>rotate_redchair_N</action>
 		<action>rotate_redchair_E</action> -->
 		<action>rotate_redchair_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16761,7 +16773,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair_2</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16786,7 +16798,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair_2</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16805,15 +16817,15 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-<!-- 		<action>rotate_redchair_2_N</action>
+		<!-- 		<action>rotate_redchair_2_N</action>
 		<action>rotate_redchair_2_E</action>
 		<action>rotate_redchair_2_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair_2</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16832,13 +16844,13 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-<!-- 		<action>rotate_redchair_2_N</action>
+		<!-- 		<action>rotate_redchair_2_N</action>
 		<action>rotate_redchair_2_E</action> -->
 		<action>rotate_redchair_2_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_redchair_2</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16863,7 +16875,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16888,7 +16900,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16907,15 +16919,15 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-<!-- 		<action>rotate_bluechair_N</action>
+		<!-- 		<action>rotate_bluechair_N</action>
 		<action>rotate_bluechair_E</action>
 		<action>rotate_bluechair_W</action> -->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluechair</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16934,13 +16946,13 @@
 		<happiness>1</happiness>
 		<alwaysOperative>false</alwaysOperative>
 		<value>46</value>
-<!-- 		<action>rotate_bluechair_N</action>
+		<!-- 		<action>rotate_bluechair_N</action>
 		<action>rotate_bluechair_E</action> -->
 		<action>rotate_bluechair_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_bluechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16965,7 +16977,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenchair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -16990,7 +17002,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenchair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17015,9 +17027,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenchair</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17042,7 +17054,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_greenchair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17067,7 +17079,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_1</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17092,7 +17104,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_1</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17117,9 +17129,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_1</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17144,7 +17156,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_1</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17169,7 +17181,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_2</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17194,7 +17206,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_2</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17219,9 +17231,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_2</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17246,7 +17258,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_2</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17271,7 +17283,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_3</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17296,7 +17308,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_3</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17321,9 +17333,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_3</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17348,7 +17360,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodchair_3</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17373,7 +17385,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_whitechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17398,7 +17410,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_whitechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17423,9 +17435,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_whitechair</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17450,7 +17462,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_whitechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17475,7 +17487,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17500,7 +17512,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17525,9 +17537,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplechair</action>
-		
+
 		<canBeRotated>true</canBeRotated>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17552,7 +17564,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_purplechair</action>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>woodenchairbury,woodenchairbury1,woodenchairbury2</buryItem>
@@ -17561,7 +17573,7 @@
 		<buryLivings>goblin</buryLivings>
 		<buryLivingsPCT>25</buryLivingsPCT>
 	</purplechair_W>
-	
+
 	<medicinecabinet_W>
 		<name esES="Mueble de primeros auxilios">Medicine cabinet</name>
 		<description esES="Aquí se guardan las pastillas">Pill's here!</description>
@@ -17581,17 +17593,17 @@
 		<happiness>2</happiness>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		
+
 		<zone>zpersonal</zone>
 		<zone>zdining</zone>
 		<zone>ztavernroom</zone>
 		<zone>ztavern</zone>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>clockbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>139</value>
 		<action>rotate_clock_W</action>
@@ -17611,7 +17623,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redlongflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
@@ -17633,7 +17645,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redlongflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
@@ -17655,7 +17667,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redlongflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
@@ -17677,7 +17689,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redlongflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
@@ -17698,7 +17710,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redshortflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>130</value>
 		<action>del_blueshortflag</action>
@@ -17716,7 +17728,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redshortflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>130</value>
 		<action>del_greenshortflag</action>
@@ -17734,7 +17746,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redshortflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>130</value>
 		<action>del_purpleshortflag</action>
@@ -17752,7 +17764,7 @@
 		<buryLocked>true</buryLocked>
 		<buryItem>redshortflagbury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>130</value>
 		<action>del_blackshortflag</action>
@@ -17986,7 +17998,7 @@
 		<value>109</value>
 		<action>rotate_sign_5_E</action>
 	</sign_5_W>
-		<action>del_sign_5</action>
+	<action>del_sign_5</action>
 
 	<sign_6_E>
 		<name esES="Cartel de madera para puertas">Wooden door sign</name>
@@ -18412,7 +18424,7 @@
 		<name esES="Cofre">Chest</name>
 		<description esES="Un cofre con candado">A chest (treasureless)</description>
 		<type>cb262.furniture</type>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItemPCT>2,2,1,100</buryItemPCT>
@@ -18438,7 +18450,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>stonemalestatuebury</buryItem>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>1</happiness>
 
@@ -18448,7 +18460,7 @@
 		<action>rotate_stonemalestatue_E</action>
 		<action>del_stonemalestatue</action>
 	</stonemalestatue_W>
-	
+
 	<necromancerstatue_E>
 		<name esES="Estatua de Wizardjian">Wizardjian statue</name>
 		<description esES="Una estatua de Wizardjian, el nigromante malvado">A statue of Wizardjian, the evil necromancer</description>
@@ -18457,7 +18469,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 
@@ -18477,7 +18489,7 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<action>rotate_gargoylestatue_W</action>
@@ -18544,14 +18556,14 @@
 		<text>true</text>
 
 		<locked>true</locked>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<buryItem>gravebury</buryItem>
 		<buryItemPCT>75</buryItemPCT>
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>55,25,5</buryLivingsPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>22</value>
@@ -18701,7 +18713,7 @@
 		<text>true</text>
 
 		<locked>true</locked>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -18724,7 +18736,7 @@
 		<text>true</text>
 
 		<locked>true</locked>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
@@ -18753,7 +18765,7 @@
 		<buryItemPCT>95</buryItemPCT>
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>120</value>
@@ -18770,14 +18782,14 @@
 		<text>true</text>
 
 		<locked>true</locked>
-		
+
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 
 		<buryItemPCT>95</buryItemPCT>
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>120</value>
@@ -18787,11 +18799,11 @@
 
 	<mosstomb3_E>
 		<name esES="Tumba cubierta de musgo">Moss covered tomb</name>
-		
+
 		<type>graves</type>
 		<alwaysOperative>false</alwaysOperative>
 		<locked>true</locked>
-		
+
 		<text>true</text>
 
 		<bury>true</bury>
@@ -18800,7 +18812,7 @@
 		<buryItemPCT>95</buryItemPCT>
 		<buryLivings>ghost,zombie,vampire</buryLivings>
 		<buryLivingsPCT>65,25,10</buryLivingsPCT>
-		
+
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<value>120</value>
@@ -18832,7 +18844,7 @@
 
 		<value>100</value>
 	</chickenincage>
-	
+
 	<roosterincage>
 		<name esES="N/A">Rooster in a cage</name>
 
@@ -18844,7 +18856,7 @@
 
 		<value>200</value>
 	</roosterincage>
-	
+
 	<bullincage>
 		<name esES="N/A">Bull in a cage</name>
 
@@ -18856,7 +18868,7 @@
 
 		<value>250</value>
 	</bullincage>
-		
+
 	<boarincage>
 		<name esES="N/A">Boar in a cage</name>
 
@@ -18891,7 +18903,7 @@
 		<buryLivings>snickerblade,snickerblade,snickerblade,snickerblade</buryLivings>
 		<buryLivingsPCT>3,3,3,3</buryLivingsPCT>
 	</woodenbookshelf>
-	
+
 	<paper>
 		<name esES="N/A">Paper</name>
 		<type>script</type>
@@ -18911,7 +18923,7 @@
 		<stackableSize>1</stackableSize>
 		<value>35</value>
 	</whitecolor>
-		
+
 	<blackcolor>
 		<name esES="N/A">Black color</name>
 
@@ -18921,7 +18933,7 @@
 		<stackableSize>1</stackableSize>
 		<value>35</value>
 	</blackcolor>
-	
+
 	<sushi>
 		<name esES="N/A">Sushi</name>
 		<description esES="N/A">Raw Fish without the gunk!</description>
@@ -18959,9 +18971,9 @@
 	<artisanbury>
 		<name esES="N/A">Artisan's bench</name>
 
-	
+
 		<alwaysOperative>false</alwaysOperative>
-		
+
 		<value>212</value>
 	</artisanbury>
 
@@ -18979,7 +18991,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>0</value>
 	</spiralstairs>
-	
+
 	<!-- New walls by Brigadon -->
 	<newwoodenwall>
 		<name esES="Muro de madera">Wooden wall</name>
@@ -19010,7 +19022,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</newwoodenwall2>	
-	
+
 	<newlogwall>
 		<name esES="Muro de troncos">Thin log wall</name>
 		<type>construction.walls</type>
@@ -19025,7 +19037,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</newlogwall>	
-	
+
 	<newbrickwall>
 		<name esES="N/A">Thin brick wall</name>
 		<type>construction.walls</type>
@@ -19040,7 +19052,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</newbrickwall>
-	
+
 	<newdarkbrickwall>
 		<name esES="N/A">Thin Dark Wall</name>
 		<type>construction.walls</type>
@@ -19068,7 +19080,7 @@
 		<stackableSize>1</stackableSize>
 		<action>del_shearingbench</action>
 	</shearingbench>
-	
+
 	<!-- dw420's new items -->
 	<ironherostatue>
 		<name esES="N/A">Iron Hero Statue</name>
@@ -19087,7 +19099,7 @@
 		<action>rotate_ironherostatue_E</action>
 		<action>del_ironherostatue</action>
 	</ironherostatue>
-	
+
 	<ironherostatue_E>
 		<name esES="N/A">Iron Hero Statue</name>
 
@@ -19098,13 +19110,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<action>rotate_ironherostatue_W</action>
 		<action>del_ironherostatue</action>
 	</ironherostatue_E>
-	
+
 	<bronzeherostatue>
 		<name esES="N/A">Bronze Hero Statue</name>
 
@@ -19122,7 +19134,7 @@
 		<action>rotate_bronzeherostatue_E</action>
 		<action>del_bronzeherostatue</action>
 	</bronzeherostatue>
-	
+
 	<bronzeherostatue_E>
 		<name esES="N/A">Bronze Hero Statue</name>
 
@@ -19133,13 +19145,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<action>rotate_bronzeherostatue_W</action>
 		<action>del_bronzeherostatue</action>
 	</bronzeherostatue_E>
-	
+
 	<silverherostatue>
 		<name esES="N/A">Silver Hero Statue</name>
 
@@ -19157,7 +19169,7 @@
 		<action>rotate_silverherostatue_E</action>
 		<action>del_silverherostatue</action>
 	</silverherostatue>
-	
+
 	<silverherostatue_E>
 		<name esES="N/A">Silver Hero Statue</name>
 
@@ -19168,13 +19180,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<action>rotate_silverherostatue_W</action>
 		<action>del_silverherostatue</action>
 	</silverherostatue_E>
-	
+
 	<goldherostatue>
 		<name esES="N/A">Gold Hero Statue</name>
 
@@ -19192,7 +19204,7 @@
 		<action>rotate_goldherostatue_E</action>
 		<action>del_goldherostatue</action>
 	</goldherostatue>
-	
+
 	<goldherostatue_E>
 		<name esES="N/A">Gold Hero Statue</name>
 
@@ -19203,13 +19215,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<action>rotate_goldherostatue_W</action>
 		<action>del_goldherostatue</action>
 	</goldherostatue_E>
-	
+
 	<irongargoylestatue>
 		<name esES="N/A">Iron Gargoyle Statue</name>
 
@@ -19227,7 +19239,7 @@
 		<action>rotate_irongargoylestatue_E</action>
 		<action>del_irongargoylestatue</action>
 	</irongargoylestatue>
-	
+
 	<irongargoylestatue_E>
 		<name esES="N/A">Iron Gargoyle Statue</name>
 
@@ -19238,13 +19250,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<action>rotate_irongargoylestatue_W</action>
 		<action>del_irongargoylestatue</action>
 	</irongargoylestatue_E>
-	
+
 	<bronzegargoylestatue>
 		<name esES="N/A">Bronze Gargoyle Statue</name>
 
@@ -19262,7 +19274,7 @@
 		<action>rotate_bronzegargoylestatue_E</action>
 		<action>del_bronzegargoylestatue</action>
 	</bronzegargoylestatue>
-	
+
 	<bronzegargoylestatue_E>
 		<name esES="N/A">Bronze Gargoyle Statue</name>
 
@@ -19273,13 +19285,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<action>rotate_bronzegargoylestatue_W</action>
 		<action>del_bronzegargoylestatue</action>
 	</bronzegargoylestatue_E>
-	
+
 	<silvergargoylestatue>
 		<name esES="N/A">Silver Gargoyle Statue</name>
 
@@ -19297,7 +19309,7 @@
 		<action>rotate_silvergargoylestatue_E</action>
 		<action>del_silvergargoylestatue</action>
 	</silvergargoylestatue>
-	
+
 	<silvergargoylestatue_E>
 		<name esES="N/A">Silver Gargoyle Statue</name>
 
@@ -19308,13 +19320,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<action>rotate_silvergargoylestatue_W</action>
 		<action>del_silvergargoylestatue</action>
 	</silvergargoylestatue_E>
-	
+
 	<goldgargoylestatue>
 		<name esES="N/A">Gold Gargoyle Statue</name>
 
@@ -19332,7 +19344,7 @@
 		<action>rotate_goldgargoylestatue_E</action>
 		<action>del_goldgargoylestatue</action>
 	</goldgargoylestatue>
-	
+
 	<goldgargoylestatue_E>
 		<name esES="N/A">Gold Gargoyle Statue</name>
 
@@ -19343,13 +19355,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<action>rotate_goldgargoylestatue_W</action>
 		<action>del_goldgargoylestatue</action>
 	</goldgargoylestatue_E>
-	
+
 	<ironnuxstatue>
 		<name esES="N/A">Iron Nux Statue</name>
 
@@ -19367,7 +19379,7 @@
 		<action>rotate_ironnuxstatue_E</action>
 		<action>del_ironnuxstatue</action>
 	</ironnuxstatue>
-	
+
 	<ironnuxstatue_E>
 		<name esES="N/A">Iron Nux Statue</name>
 
@@ -19378,13 +19390,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<action>rotate_ironnuxstatue_W</action>
 		<action>del_ironnuxstatue</action>
 	</ironnuxstatue_E>
-	
+
 	<bronzenuxstatue>
 		<name esES="N/A">Bronze Nux Statue</name>
 
@@ -19402,7 +19414,7 @@
 		<action>rotate_bronzenuxstatue_E</action>
 		<action>del_bronzenuxstatue</action>
 	</bronzenuxstatue>
-	
+
 	<bronzenuxstatue_E>
 		<name esES="N/A">Bronze Nux Statue</name>
 
@@ -19413,13 +19425,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<action>rotate_bronzenuxstatue_W</action>
 		<action>del_bronzenuxstatue</action>
 	</bronzenuxstatue_E>
-	
+
 	<silvernuxstatue>
 		<name esES="N/A">Silver Nux Statue</name>
 
@@ -19437,7 +19449,7 @@
 		<action>rotate_silvernuxstatue_E</action>
 		<action>del_silvernuxstatue</action>
 	</silvernuxstatue>
-	
+
 	<silvernuxstatue_E>
 		<name esES="N/A">Silver Nux Statue</name>
 
@@ -19448,13 +19460,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<action>rotate_silvernuxstatue_W</action>
 		<action>del_silvernuxstatue</action>
 	</silvernuxstatue_E>
-<!--	
+	<!--	
 	<goldnuxstatue>
 		<name esES="N/A">Gold Nux Statue</name>
 
@@ -19483,13 +19495,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<action>rotate_goldnuxstatue_W</action>
 		<action>del_goldnuxstatue</action>
 	</goldnuxstatue_E>
-	
+
 	<ironskootenbeetenstatue>
 		<name esES="N/A">Iron Skootenbeeten Statue</name>
 
@@ -19507,7 +19519,7 @@
 		<action>rotate_ironskootenbeetenstatue_E</action>
 		<action>del_ironskootenbeetenstatue</action>
 	</ironskootenbeetenstatue>
-	
+
 	<ironskootenbeetenstatue_E>
 		<name esES="N/A">Iron Skootenbeeten Statue</name>
 
@@ -19518,13 +19530,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<action>rotate_ironskootenbeetenstatue_W</action>
 		<action>del_ironskootenbeetenstatue</action>
 	</ironskootenbeetenstatue_E>
-	
+
 	<bronzeskootenbeetenstatue>
 		<name esES="N/A">Bronze Skootenbeeten Statue</name>
 
@@ -19542,7 +19554,7 @@
 		<action>rotate_bronzeskootenbeetenstatue_E</action>
 		<action>del_bronzeskootenbeetenstatue</action>
 	</bronzeskootenbeetenstatue>
-	
+
 	<bronzeskootenbeetenstatue_E>
 		<name esES="N/A">Bronze Skootenbeeten Statue</name>
 
@@ -19553,13 +19565,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<action>rotate_bronzeskootenbeetenstatue_W</action>
 		<action>del_bronzeskootenbeetenstatue</action>
 	</bronzeskootenbeetenstatue_E>
-<!--	
+	<!--	
 	<silverskootenbeetenstatue>
 		<name esES="N/A">Silver Skootenbeeten Statue</name>
 
@@ -19588,13 +19600,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<action>rotate_silverskootenbeetenstatue_W</action>
 		<action>del_silverskootenbeetenstatue</action>
 	</silverskootenbeetenstatue_E>
-	
+
 	<goldskootenbeetenstatue>
 		<name esES="N/A">Gold Skootenbeeten Statue</name>
 
@@ -19612,7 +19624,7 @@
 		<action>rotate_goldskootenbeetenstatue_E</action>
 		<action>del_goldskootenbeetenstatue</action>
 	</goldskootenbeetenstatue>
-	
+
 	<goldskootenbeetenstatue_E>
 		<name esES="N/A">Gold Skootenbeeten Statue</name>
 
@@ -19623,13 +19635,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<action>rotate_goldskootenbeetenstatue_W</action>
 		<action>del_goldskootenbeetenstatue</action>
 	</goldskootenbeetenstatue_E>
-	
+
 	<ironcaesarstatue>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19648,7 +19660,7 @@
 		<action>rotate_ironcaesarstatue_E</action>
 		<action>del_ironcaesarstatue</action>
 	</ironcaesarstatue>
-	
+
 	<ironcaesarstatue_E>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19660,13 +19672,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<action>rotate_ironcaesarstatue_W</action>
 		<action>del_ironcaesarstatue</action>
 	</ironcaesarstatue_E>
-	
+
 	<bronzecaesarstatue>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19685,7 +19697,7 @@
 		<action>rotate_bronzecaesarstatue_E</action>
 		<action>del_bronzecaesarstatue</action>
 	</bronzecaesarstatue>
-	
+
 	<bronzecaesarstatue_E>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19697,13 +19709,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<action>rotate_bronzecaesarstatue_W</action>
 		<action>del_bronzecaesarstatue</action>
 	</bronzecaesarstatue_E>
-	
+
 	<silvercaesarstatue>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19722,7 +19734,7 @@
 		<action>rotate_silvercaesarstatue_E</action>
 		<action>del_silvercaesarstatue</action>
 	</silvercaesarstatue>
-	
+
 	<silvercaesarstatue_E>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19734,13 +19746,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<action>rotate_silvercaesarstatue_W</action>
 		<action>del_silvercaesarstatue</action>
 	</silvercaesarstatue_E>
-	
+
 	<goldcaesarstatue>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19759,7 +19771,7 @@
 		<action>rotate_goldcaesarstatue_E</action>
 		<action>del_goldcaesarstatue</action>
 	</goldcaesarstatue>
-	
+
 	<goldcaesarstatue_E>
 		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
@@ -19771,13 +19783,13 @@
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<action>rotate_goldcaesarstatue_W</action>
 		<action>del_goldcaesarstatue</action>
 	</goldcaesarstatue_E>
-	
+
 	<!-- dw420 Block Walls -->
 	<pinelogblock>
 		<name esES="N/A">Pine Log Wall</name>
@@ -19825,7 +19837,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</diagonalpinelogblock>
-	
+
 	<greenlogblock>
 		<name esES="N/A">Greenwood Log Wall</name>
 		<type>construction.blockwalls</type>
@@ -19872,7 +19884,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</diagonalgreenlogblock>
-	
+
 	<oaklogblock>
 		<name esES="N/A">Oak Log Wall</name>
 		<type>construction.blockwalls</type>
@@ -19919,7 +19931,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</diagonaloaklogblock>
-		
+
 	<cherrylogblock>
 		<name esES="N/A">Cherry Log Wall</name>
 		<type>construction.blockwalls</type>
@@ -19966,7 +19978,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</diagonalcherrylogblock>
-	
+
 	<mahoganylogblock>
 		<name esES="N/A">Mahogany Log</name>
 		<type>construction.blockwalls</type>
@@ -20013,9 +20025,9 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</diagonalmahoganylogblock>
-	
+
 	<!-- dw420 Flag Brick Blocks -->
-<!--	<flagblockwhite>
+	<!--	<flagblockwhite>
 		<name esES="Bloque blanco">White Flag Block</name>
 		<type>construction.blockwalls</type>
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20065,7 +20077,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockwhitesides>
-<!--	
+	<!--	
 	<flagblockyellow>
 		<name esES="Bloque blanco">Yellow Flag Block</name>
 		<type>construction.blockwalls</type>
@@ -20099,7 +20111,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockyellowarc>
-	
+
 	<flagblockyellowsides>
 		<name esES="Arco blanco">Yellow Flag Block Sides</name>
 		<type>construction.blockwalls</type>
@@ -20116,7 +20128,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockyellowsides>
-	
+
 	<flagblockdarkgrey>
 		<name esES="Bloque blanco">Dark Grey Flag Block</name>
 		<type>construction.blockwalls</type>
@@ -20150,7 +20162,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockdarkgreyarc>
-	
+
 	<flagblockdarkgreysides>
 		<name esES="Arco blanco">Dark Grey Flag Block Sides</name>
 		<type>construction.blockwalls</type>
@@ -20167,7 +20179,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockdarkgreysides>
-	
+
 	<flagblockgrey>
 		<name esES="Bloque blanco">Grey Flag Block</name>
 		<type>construction.blockwalls</type>
@@ -20201,7 +20213,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockgreyarc>
-	
+
 	<flagblockgreysides>
 		<name esES="Arco blanco">Grey Flag Block Sides</name>
 		<type>construction.blockwalls</type>
@@ -20218,7 +20230,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockgreysides>
-<!--	
+	<!--	
 	<flagblockred>
 		<name esES="Bloque blanco">Red Flag Block</name>
 		<type>construction.blockwalls</type>
@@ -20252,7 +20264,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockredarc>
-	
+
 	<flagblockredsides>
 		<name esES="Arco blanco">Red Flag Block Sides</name>
 		<type>construction.blockwalls</type>
@@ -20269,7 +20281,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblockredsides>
-	
+
 	<flagblocktan>
 		<name esES="Bloque blanco">Tan Flag Block</name>
 		<type>construction.blockwalls</type>
@@ -20303,7 +20315,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 	</flagblocktanarc>
-	
+
 	<flagblocktansides>
 		<name esES="Arco blanco">Tan Flag Block Sides</name>
 		<type>construction.blockwalls</type>
@@ -20335,205 +20347,570 @@
 		<value>200</value>
 	</roundgreyblock>
 
-  <goldnuxstatue_S>
-    <name esES="Estatua dorada de Nux, el rey de los dioses">Gold statue of Nux, the god king</name>
-    <type>cb262.decorative.outdoor</type>
+	<!-- dw420 pass 2 --> 
+	<!-- Birch -->
+	<birchwoodenstoneblock>
+		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<type>construction.blockwalls</type>
 
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-    <alwaysOperative>false</alwaysOperative>
-    <happiness>3</happiness>
-    <value>301</value>
-    <action>rotate_goldnuxstatue_E</action>
-    <action>del_goldnuxstatue</action>
-  </goldnuxstatue_S>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
 
-  <silverskootenbeetenstatue_S>
-    <name esES="Estatua de skootenbeeten plateada">Silver Skootenbeeten statue</name>
-    <description esES="Una obra maestra">A masterpiece</description>
-    <type>cb262.decorative.outdoor</type>
+		<blockFluids>true</blockFluids>
 
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-    <alwaysOperative>false</alwaysOperative>
-    <happiness>2</happiness>
-    <value>281</value>
-    <action>rotate_silverskootenbeetenstatue_E</action>
-    <action>del_silverskootenbeetenstatue</action>
-  </silverskootenbeetenstatue_S>
- 
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</birchwoodenstoneblock>
 
-  <woodstairs1a>
-    <name esES="Escaleras de Madera">Wooden Stairs</name>
+	<birchwoodsticks>
+		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.blockwalls</type>
 
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
 
-    <alwaysOperative>false</alwaysOperative>
-    <value>90</value>
-    <action>rotate_woodstairs1b</action>
-    <action>rotate_woodstairs1c</action>
-    <action>rotate_woodstairs1d</action>
-    <action>del_woodenladder</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-  </woodstairs1a>
+		<blockFluids>true</blockFluids>
 
- 
-  <woodstairs2a>
-    <name esES="Escaleras de Madera">Wooden Stairs</name>
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</birchwoodsticks>
 
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
+	<lightbirchwoodblock>
+		<name esES="Bloque de madera clara">Light wood block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
 
-    <alwaysOperative>false</alwaysOperative>
-    <value>90</value>
-    <action>rotate_woodstairs2b</action>
-    <action>rotate_woodstairs2c</action>
-    <action>rotate_woodstairs2d</action>
-    <action>del_ladder</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-  </woodstairs2a>
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</lightbirchwoodblock>
+
+	<birchwoodenblock>
+		<name esES="Bloque de madera">Wooden block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<blockFluids>true</blockFluids>
+
+		<value>100</value>
+		<alwaysOperative>false</alwaysOperative>
+		<value>35</value>
+	</birchwoodenblock>	
+	<!-- Yellow -->
+	<yellowwoodenstoneblock>
+		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</yellowwoodenstoneblock>
+
+	<yellowwoodsticks>
+		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</yellowwoodsticks>
+
+	<lightyellowwoodblock>
+		<name esES="Bloque de madera clara">Light wood block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</lightyellowwoodblock>
+
+	<yellowwoodenblock>
+		<name esES="Bloque de madera">Wooden block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<blockFluids>true</blockFluids>
+
+		<value>100</value>
+		<alwaysOperative>false</alwaysOperative>
+		<value>35</value>
+	</yellowwoodenblock>	
+	<!-- Apple -->
+	<applewoodenstoneblock>
+		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</applewoodenstoneblock>
+
+	<applewoodsticks>
+		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</applewoodsticks>
+
+	<lightapplewoodblock>
+		<name esES="Bloque de madera clara">Light wood block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</lightapplewoodblock>
+
+	<applewoodenblock>
+		<name esES="Bloque de madera">Wooden block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<blockFluids>true</blockFluids>
+
+		<value>100</value>
+		<alwaysOperative>false</alwaysOperative>
+		<value>35</value>
+	</applewoodenblock>
+
+	<!-- Mahogany -->
+	<mahoganywoodenstoneblock>
+		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</mahoganywoodenstoneblock>
+
+	<mahoganywoodsticks>
+		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</mahoganywoodsticks>
+
+	<lightmahoganywoodblock>
+		<name esES="Bloque de madera clara">Light wood block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</lightmahoganywoodblock>
+
+	<mahoganywoodenblock>
+		<name esES="Bloque de madera">Wooden block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<blockFluids>true</blockFluids>
+
+		<value>100</value>
+		<alwaysOperative>false</alwaysOperative>
+		<value>35</value>
+	</mahoganywoodenblock>
+
+	<!-- Pine -->
+	<pinewoodenstoneblock>
+		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</pinewoodenstoneblock>
+
+	<pinewoodsticks>
+		<name esES="Muro de madera">Wooden wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+		<base>true</base>
+		<blocky>true</blocky>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>50</value>
+	</pinewoodsticks>
+
+	<lightpinewoodblock>
+		<name esES="Bloque de madera clara">Light wood block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</lightpinewoodblock>
+
+	<pinewoodenblock>
+		<name esES="Bloque de madera">Wooden block</name>
+		<type>construction.blockwalls</type>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<base>true</base>
+		<blocky>true</blocky>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<blockFluids>true</blockFluids>
+
+		<value>100</value>
+		<alwaysOperative>false</alwaysOperative>
+		<value>35</value>
+	</pinewoodenblock>
+	<!-- /pass 2 -->
+
+	<goldnuxstatue_S>
+		<name esES="Estatua dorada de Nux, el rey de los dioses">Gold statue of Nux, the god king</name>
+		<type>cb262.decorative.outdoor</type>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>3</happiness>
+		<value>301</value>
+		<action>rotate_goldnuxstatue_E</action>
+		<action>del_goldnuxstatue</action>
+	</goldnuxstatue_S>
+
+	<silverskootenbeetenstatue_S>
+		<name esES="Estatua de skootenbeeten plateada">Silver Skootenbeeten statue</name>
+		<description esES="Una obra maestra">A masterpiece</description>
+		<type>cb262.decorative.outdoor</type>
+
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<alwaysOperative>false</alwaysOperative>
+		<happiness>2</happiness>
+		<value>281</value>
+		<action>rotate_silverskootenbeetenstatue_E</action>
+		<action>del_silverskootenbeetenstatue</action>
+	</silverskootenbeetenstatue_S>
 
 
-    <woodstairs3a>
-    <name esES="Escaleras de Madera">Wooden Stairs</name>
+	<woodstairs1a>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
 
-    <alwaysOperative>false</alwaysOperative>
-    <value>90</value>
-    <action>rotate_woodstairs3b</action>
-    <action>rotate_woodstairs3c</action>
-    <action>rotate_woodstairs3d</action>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
-    <action>del_logladder</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-  </woodstairs3a>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_woodstairs1b</action>
+		<action>rotate_woodstairs1c</action>
+		<action>rotate_woodstairs1d</action>
+		<action>del_woodenladder</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</woodstairs1a>
 
 
-    <dirtstairs1a>
-    <name esES="Escaleras de Tierra">Dirt Stairs</name>
+	<woodstairs2a>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
 
-    <alwaysOperative>false</alwaysOperative>
-    <value>90</value>
-    <action>rotate_dirtstairs1b</action>
-    <action>rotate_dirtstairs1c</action>
-    <action>rotate_dirtstairs1d</action>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
-    <action>del_dirtladder</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
- </dirtstairs1a>
- 
-  <stonestairs2a>
-    <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_woodstairs2b</action>
+		<action>rotate_woodstairs2c</action>
+		<action>rotate_woodstairs2d</action>
+		<action>del_ladder</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</woodstairs2a>
 
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
 
-    <alwaysOperative>false</alwaysOperative>
-    <value>90</value>
-    <action>rotate_stonestairs2b</action>
-    <action>rotate_stonestairs2c</action>
-    <action>rotate_stonestairs2d</action>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
-    <action>del_stonespindleladder</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-  </stonestairs2a>
+	<woodstairs3a>
+		<name esES="Escaleras de Madera">Wooden Stairs</name>
 
- 
-    <stonestairs3a>
-    <name esES="Escaleras de Piedra">Stone Stairs</name>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_woodstairs3b</action>
+		<action>rotate_woodstairs3c</action>
+		<action>rotate_woodstairs3d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_logladder</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</woodstairs3a>
 
-    <alwaysOperative>false</alwaysOperative>
-    <value>90</value>
-    <action>rotate_stonestairs3b</action>
-    <action>rotate_stonestairs3c</action>
-    <action>rotate_stonestairs3d</action>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
-    <action>del_ancientladder</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-  </stonestairs3a>
- 
-  <bonestairs_1_N>
-    <name esES="Escaleras de Hueso">Bone Stairs</name>
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
-    <alwaysOperative>false</alwaysOperative>
-    <value>102</value>
-    <action>rotate_bonestairs_1_W</action>
-    <action>rotate_bonestairs_1_S</action>
-    <action>rotate_bonestairs_1_E</action>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
-    <action>del_bonestairs</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-  </bonestairs_1_N>
- 
-  <sandstairs1a>
-    <name esES="Rampa de Arena">Sandstone Ramp</name>
 
-    <type>construction.stairs</type>
-    <canBeBuiltOnHoles>true</canBeBuiltOnHoles>
-    <zoneMergerUp>true</zoneMergerUp>
-    <glue>true</glue>
-    <base>true</base>
+	<dirtstairs1a>
+		<name esES="Escaleras de Tierra">Dirt Stairs</name>
 
-    <alwaysOperative>false</alwaysOperative>
-    <value>90</value>
-    <action>rotate_sandstairs1b</action>
-    <action>rotate_sandstairs1c</action>
-    <action>rotate_sandstairs1d</action>
-    <stackable>true</stackable>
-    <stackableSize>1</stackableSize>
-    <action>del_sandstairs1</action>
-    <bury>true</bury>
-    <buryLocked>true</buryLocked>
-  </sandstairs1a>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
 
-  
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_dirtstairs1b</action>
+		<action>rotate_dirtstairs1c</action>
+		<action>rotate_dirtstairs1d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_dirtladder</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</dirtstairs1a>
+
+	<stonestairs2a>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_stonestairs2b</action>
+		<action>rotate_stonestairs2c</action>
+		<action>rotate_stonestairs2d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_stonespindleladder</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</stonestairs2a>
+
+
+	<stonestairs3a>
+		<name esES="Escaleras de Piedra">Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_stonestairs3b</action>
+		<action>rotate_stonestairs3c</action>
+		<action>rotate_stonestairs3d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_ancientladder</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</stonestairs3a>
+
+	<bonestairs_1_N>
+		<name esES="Escaleras de Hueso">Bone Stairs</name>
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+		<alwaysOperative>false</alwaysOperative>
+		<value>102</value>
+		<action>rotate_bonestairs_1_W</action>
+		<action>rotate_bonestairs_1_S</action>
+		<action>rotate_bonestairs_1_E</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_bonestairs</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</bonestairs_1_N>
+
+	<sandstairs1a>
+		<name esES="Rampa de Arena">Sandstone Ramp</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<action>rotate_sandstairs1b</action>
+		<action>rotate_sandstairs1c</action>
+		<action>rotate_sandstairs1d</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_sandstairs1</action>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</sandstairs1a>
+
+
 	<grassstairs>
 		<name esES="Escaleras de Tierra">Grass Stairs</name>
 
@@ -20551,4 +20928,5 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</grassstairs>
+
 </items>

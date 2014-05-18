@@ -24072,4 +24072,356 @@
 			<createItem>roundgreyblock</createItem>
 		</queue>
 	</action>
+	
+	<!-- dw420 wooden walls -->
+	<!-- Birch -->
+	<action>
+		<id>qbirchwoodenstoneblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock />
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>birchwoodenstoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbirchwoodsticks</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>birchwoodsticks</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightbirchwoodblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>lightbirchwoodblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qbirchwoodenblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock />
+			<createItem>birchwoodenblock</createItem>
+		</queue>
+	</action>
+	<!-- Yellow -->
+	<action>
+		<id>qyellowwoodenstoneblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock />
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>yellowwoodenstoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qyellowwoodsticks</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>yellowwoodsticks</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightyellowwoodblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>lightyellowwoodblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qyellowwoodenblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock />
+			<createItem>yellowwoodenblock</createItem>
+		</queue>
+	</action>
+	<!-- Apple -->
+	<action>
+		<id>qapplewoodenstoneblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock />
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>applewoodenstoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qapplewoodsticks</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>applewoodsticks</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightapplewoodblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>lightapplewoodblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qapplewoodenblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock />
+			<createItem>applewoodenblock</createItem>
+		</queue>
+	</action>
+	<!-- Mahogany -->
+	<action>
+		<id>qmahoganywoodenstoneblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock />
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>mahoganywoodenstoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmahoganywoodsticks</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>mahoganywoodsticks</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightmahoganywoodblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>lightmahoganywoodblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmahoganywoodenblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock />
+			<createItem>mahoganywoodenblock</createItem>
+		</queue>
+	</action>
+	<!-- Pine -->
+	<action>
+		<id>qpinewoodenstoneblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock />
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>26</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>pinewoodenstoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qpinewoodsticks</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>32</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>pinewoodsticks</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightpinewoodblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>lightpinewoodblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qpinewoodenblock</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock />
+			<createItem>pinewoodenblock</createItem>
+		</queue>
+	</action>
 </actions>
