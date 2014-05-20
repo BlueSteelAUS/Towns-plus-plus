@@ -20350,7 +20350,7 @@
 	<!-- dw420 pass 2 --> 
 	<!-- Birch -->
 	<birchwoodenstoneblock>
-		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<name esES="Piedra cubierta de madera">Birch Wood Covered Stone</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20368,7 +20368,7 @@
 	</birchwoodenstoneblock>
 
 	<birchwoodsticks>
-		<name esES="Muro de madera">Wooden wall</name>
+		<name esES="Muro de madera">Birch Wooden Wall</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20386,7 +20386,7 @@
 	</birchwoodsticks>
 
 	<lightbirchwoodblock>
-		<name esES="Bloque de madera clara">Light wood block</name>
+		<name esES="Bloque de madera clara">Solid Birch Wood Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20402,7 +20402,7 @@
 	</lightbirchwoodblock>
 
 	<birchwoodenblock>
-		<name esES="Bloque de madera">Wooden block</name>
+		<name esES="Bloque de madera">Birch Wooden Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20422,7 +20422,7 @@
 	</birchwoodenblock>	
 	<!-- Yellow -->
 	<yellowwoodenstoneblock>
-		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<name esES="Piedra cubierta de madera">Yellow Wood Covered Stone</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20440,7 +20440,7 @@
 	</yellowwoodenstoneblock>
 
 	<yellowwoodsticks>
-		<name esES="Muro de madera">Wooden wall</name>
+		<name esES="Muro de madera">Yellow Wooden Wall</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20458,7 +20458,7 @@
 	</yellowwoodsticks>
 
 	<lightyellowwoodblock>
-		<name esES="Bloque de madera clara">Light wood block</name>
+		<name esES="Bloque de madera clara">Solid Yellow Wood Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20474,7 +20474,7 @@
 	</lightyellowwoodblock>
 
 	<yellowwoodenblock>
-		<name esES="Bloque de madera">Wooden block</name>
+		<name esES="Bloque de madera">Yellow Wooden Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20494,7 +20494,7 @@
 	</yellowwoodenblock>	
 	<!-- Apple -->
 	<applewoodenstoneblock>
-		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<name esES="Piedra cubierta de madera">Apple Wood Covered Stone</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20512,7 +20512,7 @@
 	</applewoodenstoneblock>
 
 	<applewoodsticks>
-		<name esES="Muro de madera">Wooden wall</name>
+		<name esES="Muro de madera">Apple Wooden Wall</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20530,7 +20530,7 @@
 	</applewoodsticks>
 
 	<lightapplewoodblock>
-		<name esES="Bloque de madera clara">Light wood block</name>
+		<name esES="Bloque de madera clara">Solid Apple Wood Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20546,7 +20546,7 @@
 	</lightapplewoodblock>
 
 	<applewoodenblock>
-		<name esES="Bloque de madera">Wooden block</name>
+		<name esES="Bloque de madera">Apple Wooden Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20567,7 +20567,7 @@
 
 	<!-- Mahogany -->
 	<mahoganywoodenstoneblock>
-		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<name esES="Piedra cubierta de madera">Mahogany Wood Covered Stone</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20585,7 +20585,7 @@
 	</mahoganywoodenstoneblock>
 
 	<mahoganywoodsticks>
-		<name esES="Muro de madera">Wooden wall</name>
+		<name esES="Muro de madera">Mahogany Wooden Wall</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20603,7 +20603,7 @@
 	</mahoganywoodsticks>
 
 	<lightmahoganywoodblock>
-		<name esES="Bloque de madera clara">Light wood block</name>
+		<name esES="Bloque de madera clara">Solid Mahogany Wood Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20619,7 +20619,7 @@
 	</lightmahoganywoodblock>
 
 	<mahoganywoodenblock>
-		<name esES="Bloque de madera">Wooden block</name>
+		<name esES="Bloque de madera">Mahogany Wooden Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20640,7 +20640,7 @@
 
 	<!-- Pine -->
 	<pinewoodenstoneblock>
-		<name esES="Piedra cubierta de madera">Wood covered stone</name>
+		<name esES="Piedra cubierta de madera">Pine Wood Covered Stone</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20658,7 +20658,7 @@
 	</pinewoodenstoneblock>
 
 	<pinewoodsticks>
-		<name esES="Muro de madera">Wooden wall</name>
+		<name esES="Muro de madera">Pine Wooden Wall</name>
 		<type>construction.blockwalls</type>
 
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
@@ -20676,7 +20676,7 @@
 	</pinewoodsticks>
 
 	<lightpinewoodblock>
-		<name esES="Bloque de madera clara">Light wood block</name>
+		<name esES="Bloque de madera clara">Solid Pine Wood Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20692,7 +20692,7 @@
 	</lightpinewoodblock>
 
 	<pinewoodenblock>
-		<name esES="Bloque de madera">Wooden block</name>
+		<name esES="Bloque de madera">Pine Wooden Block</name>
 		<type>construction.blockwalls</type>
 		<wall>true</wall>
 		<bury>true</bury>
@@ -20910,7 +20910,6 @@
 		<buryLocked>true</buryLocked>
 	</sandstairs1a>
 
-
 	<grassstairs>
 		<name esES="Escaleras de Tierra">Grass Stairs</name>
 
@@ -20929,4 +20928,510 @@
 		<buryLocked>true</buryLocked>
 	</grassstairs>
 
+	<!-- dw420 stairs -->
+	<mossystonestairs>
+		<name esES="Escaleras de Piedra">Mossy Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</mossystonestairs>
+	
+	<marblestonestairs>
+		<name esES="Escaleras de Piedra">Marble Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</marblestonestairs>
+	
+	<darkgreystonestairs>
+		<name esES="Escaleras de Piedra">Dark Grey Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</darkgreystonestairs>
+	
+	<lightgreystonestairs>
+		<name esES="Escaleras de Piedra">Light Grey Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</lightgreystonestairs>
+	
+	<orangestonestairs>
+		<name esES="Escaleras de Piedra">Orange Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</orangestonestairs>
+	
+	<silverstonestairs>
+		<name esES="Escaleras de Piedra">Silver Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</silverstonestairs>
+	
+	<khakistonestairs>
+		<name esES="Escaleras de Piedra">Khaki Stone Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</khakistonestairs>
+	
+	<claystonebrickstairs>
+		<name esES="Escaleras de Piedra">Clay Stone Brick Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</claystonebrickstairs>
+	
+	<marblestonebrickstairs>
+		<name esES="Escaleras de Piedra">Marble Stone Brick Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</marblestonebrickstairs>
+	
+	<darkgreystonebrickstairs>
+		<name esES="Escaleras de Piedra">Dark Grey Stone Brick Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</darkgreystonebrickstairs>
+	
+	<lightgreystonebrickstairs>
+		<name esES="Escaleras de Piedra">Light Grey Stone Brick Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</lightgreystonebrickstairs>
+	
+	<whitestonebrickstairs>
+		<name esES="Escaleras de Piedra">White Stone Brick Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</whitestonebrickstairs>
+	
+	<silverstonebrickstairs>
+		<name esES="Escaleras de Piedra">Silver Stone Brick Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</silverstonebrickstairs>
+	
+	<lightgreenstonebrickstairs>
+		<name esES="Escaleras de Piedra">Light Green Stone Brick Stairs</name>
+
+		<type>construction.stairs</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</lightgreenstonebrickstairs>
+	
+	<!-- dw420 blocks -->
+	<mossystoneblock>
+		<name esES="Escaleras de Piedra">Mossy Stone Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</mossystoneblock>
+	
+	<marblestoneblock>
+		<name esES="Escaleras de Piedra">Marble Stone Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</marblestoneblock>
+	
+	<darkgreystoneblock>
+		<name esES="Escaleras de Piedra">Dark Grey Stone Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</darkgreystoneblock>
+	
+	<lightgreystoneblock>
+		<name esES="Escaleras de Piedra">Light Grey Stone Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</lightgreystoneblock>
+	
+	<orangestoneblock>
+		<name esES="Escaleras de Piedra">Orange Stone Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</orangestoneblock>
+	
+	<silverstoneblock>
+		<name esES="Escaleras de Piedra">Silver Stone Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</silverstoneblock>
+	
+	<khakistoneblock>
+		<name esES="Escaleras de Piedra">Khaki Stone Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</khakistoneblock>
+	
+	<claystonebrickblock>
+		<name esES="Escaleras de Piedra">Clay Stone Brick Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</claystonebrickblock>
+	
+	<marblestonebrickblock>
+		<name esES="Escaleras de Piedra">Marble Stone Brick Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</marblestonebrickblock>
+	
+	<darkgreystonebrickblock>
+		<name esES="Escaleras de Piedra">Dark Grey Stone Brick Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</darkgreystonebrickblock>
+	
+	<lightgreystonebrickblock>
+		<name esES="Escaleras de Piedra">Light Grey Stone Brick Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</lightgreystonebrickblock>
+	
+	<whitestonebrickblock>
+		<name esES="Escaleras de Piedra">White Stone Brick Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</whitestonebrickblock>
+	
+	<silverstonebrickblock>
+		<name esES="Escaleras de Piedra">Silver Stone Brick Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</silverstonebrickblock>
+	
+	<lightgreenstonebrickblock>
+		<name esES="Escaleras de Piedra">Light Green Stone Brick Block</name>
+
+		<type>construction.block</type>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+
+		<canBeRotated>true</canBeRotated>
+		<alwaysOperative>false</alwaysOperative>
+		<value>90</value>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+	</lightgreenstonebrickblock>
+	
 </items>

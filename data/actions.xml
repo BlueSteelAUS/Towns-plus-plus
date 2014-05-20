@@ -24424,4 +24424,566 @@
 			<createItem>pinewoodenblock</createItem>
 		</queue>
 	</action>
+	
+	<!-- dw420 stairs -->
+	<action>
+		<id>qmossystonestairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>mossystonestairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmarblestonestairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>marblestonestairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qdarkgreystonestairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>darkgreystonestairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightgreystonestairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>lightgreystonestairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qorangestonestairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>orangestonestairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qsilverstonestairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silverstonestairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qkhakistonestairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>khakistonestairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qclaystonebrickstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>claystonebrickstairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmarblestonebrickstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>marblestonebrickstairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qdarkgreystonebrickstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>darkgreystonebrickstairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightgreystonebrickstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>lightgreystonebrickstairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qwhitestonebrickstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>whitestonebrickstairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qsilverstonebrickstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silverstonebrickstairs</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightgreenstonebrickstairs</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>lightgreenstonebrickstairs</createItem>
+		</queue>
+	</action>	
+	
+	<!-- dw420 block -->
+	<action>
+		<id>qmossystoneblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>mossystoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmarblestoneblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>marblestoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qdarkgreystoneblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>darkgreystoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightgreystoneblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>lightgreystoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qorangestoneblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>orangestoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qsilverstoneblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silverstoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qkhakistoneblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>khakistoneblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qclaystonebrickblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>claystonebrickblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmarblestonebrickblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>marblestonebrickblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qdarkgreystonebrickblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>darkgreystonebrickblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightgreystonebrickblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>lightgreystonebrickblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qwhitestonebrickblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>whitestonebrickblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qsilverstonebrickblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>silverstonebrickblock</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qlightgreenstonebrickblock</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<lock>masonbench</lock>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<move>masonbench</move>
+			<wait>16</wait>
+			<destroyItem />
+			<unlock />
+			<createItem>lightgreenstonebrickblock</createItem>
+		</queue>
+	</action>
 </actions>
