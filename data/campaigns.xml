@@ -140,6 +140,10 @@
 		<mission>
 			<id>Oasis</id>
 			<name esES="N/A">Oasis</name>
+		</mission>		
+		<mission>
+			<id>canyon2</id>
+			<name esES="N/A">Canyon</name>
 		</mission>
 	</campaign>
 
