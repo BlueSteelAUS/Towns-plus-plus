@@ -442,7 +442,7 @@
 
 	<food name="Food" esES="Comida" icon="ui_rfood">
 		<animals name="Animals" esES="N/A" icon="ui_cowfarm">
-			<breeding name="Breeding" esES="N/A" icon="chickenfarm">
+			<breeding name="Breeding - Set above 0 for constant production" esES="N/A" icon="chickenfarm">
 				<item id="qbreedcow" code="QUEUE" parameter="qbreedcow" />
 				<item id="qbreedbull" code="QUEUE" parameter="qbreedbull" />
 				<item id="qbreedpig" code="QUEUE" parameter="qbreedpig" />
