@@ -24986,4 +24986,93 @@
 			<createItem>lightgreenstonebrickblock</createItem>
 		</queue>
 	</action>
+	
+	<!-- dw420 wall spikes -->
+	<action>
+		<id>qbirchwoodspikes</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>30</wait>
+			<destroyItem/>
+			<unlock /> 
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>birchwoodspikes</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qyellowwoodspikes</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>30</wait>
+			<destroyItem/>
+			<unlock /> 
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>yellowwoodspikes</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qapplewoodspikes</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>30</wait>
+			<destroyItem/>
+			<unlock /> 
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>applewoodspikes</createItem>
+		</queue>
+	</action>
+	
+	<action>
+		<id>qmahoganywoodspikes</id>
+
+		<priorityID>wallconstruction</priorityID>
+
+		<queue>
+			<lock>carpentrybench</lock>
+			<pick>rmwood</pick>
+			<move>carpentrybench</move>
+			<wait>30</wait>
+			<destroyItem/>
+			<unlock /> 
+			<lock>wooddetailer</lock>
+			<pick>rmwood</pick>
+			<move>wooddetailer</move>
+			<wait>38</wait>
+			<destroyItem/>
+			<unlock /> 
+			<createItem>mahoganywoodspikes</createItem>
+		</queue>
+	</action>
 </actions>

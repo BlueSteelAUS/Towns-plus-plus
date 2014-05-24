@@ -21434,4 +21434,68 @@
 		<buryLocked>true</buryLocked>
 	</lightgreenstonebrickblock>
 	
+	<!-- dw420 Wall Spikes -->
+	<birchwoodspikes>
+		<name esES="Muro de madera con pinchos">Birch Wooden spiked wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</birchwoodspikes>
+	
+	<yellowwoodspikes>
+		<name esES="Muro de madera con pinchos">Yellow Wooden spiked wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</yellowwoodspikes>
+	
+	<applewoodspikes>
+		<name esES="Muro de madera con pinchos">Apple Wooden spiked wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</applewoodspikes>
+	
+	<mahoganywoodspikes>
+		<name esES="Muro de madera con pinchos">Mahogany Wooden spiked wall</name>
+		<type>construction.blockwalls</type>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<wall>true</wall>
+		<bury>true</bury>
+		<buryLocked>true</buryLocked>
+		<glue>true</glue>
+
+		<blockFluids>true</blockFluids>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>100</value>
+	</mahoganywoodspikes>
 </items>

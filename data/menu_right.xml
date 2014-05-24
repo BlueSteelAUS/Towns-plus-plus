@@ -401,6 +401,7 @@
 				<item id="qbirchwoodsticks" code="QUEUEANDPLACEAREA" parameter="qbirchwoodsticks" />
 				<item id="qlightbirchwoodblock" code="QUEUEANDPLACEAREA" parameter="qlightbirchwoodblock" />
 				<item id="qbirchwoodenblock" code="QUEUEANDPLACEAREA" parameter="qbirchwoodenblock" />
+				<item id="qbirchwoodspikes" code="QUEUEANDPLACEAREA" parameter="qbirchwoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</birch>					
 			<yellow name="Yellow walls" esES="N/A" icon="lightyellowwoodblock">
@@ -408,6 +409,7 @@
 				<item id="qyellowwoodsticks" code="QUEUEANDPLACEAREA" parameter="qyellowwoodsticks" />
 				<item id="qlightyellowwoodblock" code="QUEUEANDPLACEAREA" parameter="qlightyellowwoodblock" />
 				<item id="qyellowwoodenblock" code="QUEUEANDPLACEAREA" parameter="qyellowwoodenblock" />
+				<item id="qyellowwoodspikes" code="QUEUEANDPLACEAREA" parameter="qyellowwoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</yellow>				
 			<apple name="Apple walls" esES="N/A" icon="lightapplewoodblock">
@@ -415,6 +417,7 @@
 				<item id="qapplewoodsticks" code="QUEUEANDPLACEAREA" parameter="qapplewoodsticks" />
 				<item id="qlightapplewoodblock" code="QUEUEANDPLACEAREA" parameter="qlightapplewoodblock" />
 				<item id="qapplewoodenblock" code="QUEUEANDPLACEAREA" parameter="qapplewoodenblock" />
+				<item id="qapplewoodspikes" code="QUEUEANDPLACEAREA" parameter="qapplewoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</apple>				
 			<mahogany name="Mahogany walls" esES="N/A" icon="lightmahoganywoodblock">
@@ -422,6 +425,7 @@
 				<item id="qmahoganywoodsticks" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodsticks" />
 				<item id="qlightmahoganywoodblock" code="QUEUEANDPLACEAREA" parameter="qlightmahoganywoodblock" />
 				<item id="qmahoganywoodenblock" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodenblock" />
+				<item id="qmahoganywoodspikes" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</mahogany>				
 			<pine name="Pine walls" esES="N/A" icon="lightpinewoodblock">
@@ -429,6 +433,7 @@
 				<item id="qpinewoodsticks" code="QUEUEANDPLACEAREA" parameter="qpinewoodsticks" />
 				<item id="qlightpinewoodblock" code="QUEUEANDPLACEAREA" parameter="qlightpinewoodblock" />
 				<item id="qpinewoodenblock" code="QUEUEANDPLACEAREA" parameter="qpinewoodenblock" />
+				<item id="qwoodspikes" code="QUEUEANDPLACEAREA" parameter="qwoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</pine>
 			<item id="qwoodenwall" code="QUEUEANDPLACEAREA" parameter="qwoodenwall" />
@@ -439,7 +444,6 @@
 			<item id="qnewwoodenwall" code="QUEUEANDPLACEAREA" parameter="qnewwoodenwall" />
 			<item id="qnewwoodenwall2" code="QUEUEANDPLACEAREA" parameter="qnewwoodenwall2" />
 			<item id="qwoodenmossblock" code="QUEUEANDPLACEAREA" parameter="qwoodenmossblock" />
-			<item id="qwoodspikes" code="QUEUEANDPLACEAREA" parameter="qwoodspikes" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</wooden>
 		<stone name="Stone walls" esES="Muros de piedra" icon="ui_s_walls">
