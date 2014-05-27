@@ -2369,7 +2369,7 @@
 		<facingDirections>true</facingDirections>
 
 		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>femaleskootenbeeten</maxAgeLiving>
+		<maxAgeLiving>skootenbeeten</maxAgeLiving>
 
 		<foodNeeded>blueradish</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
