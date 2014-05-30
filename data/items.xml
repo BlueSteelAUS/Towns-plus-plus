@@ -20938,7 +20938,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -20956,7 +20955,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -20974,7 +20972,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -20992,7 +20989,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21010,7 +21006,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21028,7 +21023,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21046,7 +21040,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21064,7 +21057,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21082,7 +21074,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21100,7 +21091,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21118,7 +21108,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21136,7 +21125,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21154,7 +21142,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21172,7 +21159,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21191,7 +21177,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21209,7 +21194,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21227,7 +21211,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21245,7 +21228,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21263,7 +21245,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21281,7 +21262,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21299,7 +21279,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21317,7 +21296,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21335,7 +21313,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21353,7 +21330,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21371,7 +21347,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21389,7 +21364,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21407,7 +21381,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
@@ -21425,7 +21398,6 @@
 		<glue>true</glue>
 		<base>true</base>
 
-		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>90</value>
 		<stackable>true</stackable>
