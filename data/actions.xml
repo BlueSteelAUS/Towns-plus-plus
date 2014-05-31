@@ -25075,4 +25075,27 @@
 			<createItem>mahoganywoodspikes</createItem>
 		</queue>
 	</action>
+	
+	<!-- ITE Well -->
+	<action>
+		<id>qitewell</id>
+
+		<priorityID>itemconstruction</priorityID>
+
+		<queue>
+			<pick>rmstone</pick>
+			<wait>21</wait>
+			<destroyItem />
+			<pick>rmstone</pick>
+			<wait>21</wait>
+			<destroyItem />
+			<pick>spiderite,direite,ghoulite,goblinite,hobgoblinite,ogreite,snickerite,burnite,zombite</pick>
+			<wait>21</wait>
+			<destroyItem />
+			<pick>spiderite,direite,ghoulite,goblinite,hobgoblinite,ogreite,snickerite,burnite,zombite</pick>
+			<wait>21</wait>
+			<destroyItem />
+			<createItem>itewell</createItem>
+		</queue>
+	</action>
 </actions>

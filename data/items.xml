@@ -21470,4 +21470,18 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</mahoganywoodspikes>
+	
+	<!-- New ITE Storage -LM -->
+	
+	<itewell>
+		<name esES="N/A">Magic ITE Storage Well</name>
+		<description esES="N/A">What better place to store stuff then a hole in the ground?</description>
+		
+		<type>ites</type>
+		<container>true</container>
+		<containerSize>100</containerSize>
+		<value>200</value>
+		
+		<alwaysOperative>false</alwaysOperative>
+	</itewell>
 </items>

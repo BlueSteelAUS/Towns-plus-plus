@@ -569,6 +569,7 @@
 	<item id="qitechest" code="QUEUEANDPLACEAREA" parameter="qitechest" />
 	<item id="qarmorcabinet" code="QUEUEANDPLACEAREA" parameter="qarmorcabinet" />
 	<item id="qweaponcabinet" code="QUEUEANDPLACEAREA" parameter="qweaponcabinet" />
+	<item id="qitewell" code="QUEUEANDPLACEAREA" parameter="qitewell" />
 	<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 </containers>
 
