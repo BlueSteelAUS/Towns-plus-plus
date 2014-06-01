@@ -139,11 +139,11 @@
 		<name esES="Mapas de LittleMikey">LittleMikey's Maps</name>
 		<mission>
 			<id>Oasis</id>
-			<name esES="N/A">Oasis</name>
+			<name esES="N/A">Oasis - Hard Map</name>
 		</mission>		
 		<mission>
 			<id>canyon2</id>
-			<name esES="N/A">Canyon</name>
+			<name esES="N/A">Canyon - Easy Map</name>
 		</mission>
 	</campaign>
 
@@ -152,7 +152,7 @@
 		<name esES="Mapas de MikeHend">MikeHendi's Maps</name>
 		<mission>
 			<id>MikeHendi Deep Dungeons</id>
-			<name esES="Mazmorras Profundas">Deep Dungeons</name>
+			<name esES="Mazmorras Profundas">Deep Dungeons - 40 levels underground!</name>
 		</mission>
 	</campaign>
 

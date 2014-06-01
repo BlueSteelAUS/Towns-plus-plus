@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gen_map>
 	<init id="init">
-		<numLevelsOutside>12</numLevelsOutside>
+		<numLevelsOutside>22</numLevelsOutside>
 		<numLevelsUnderground>40</numLevelsUnderground>
 		<mainTerrain>grass,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dungeon3,stone</mainTerrain>
-		<numCitizens>11</numCitizens>
-		<startingLevel>11</startingLevel>
+		<numCitizens>12</numCitizens>
+		<startingLevel>21</startingLevel>
 		<startingEvents>dawn,hot,cold</startingEvents>
 		<startingEventsPCT>100,10,8</startingEventsPCT>
 		<numGods>2d2+1</numGods>
@@ -15,7 +15,7 @@
 	<seed id="seedgrassnoflower1">
 		<type>grassnoflower1</type>
 		<num>35</num>
-		<level>12</level>
+		<level>22</level>
 		<turns>15</turns>
 
 		<northPCT>15</northPCT>
@@ -30,7 +30,7 @@
 	<seed id="seedgrass1">
 		<type>grass1</type>
 		<num>8</num>
-		<level>12</level>
+		<level>22</level>
 		<turns>35</turns>
 
 		<northPCT>45</northPCT>
@@ -44,7 +44,7 @@
 	<seed id="seedgrass2">
 		<type>grass2</type>
 		<num>16</num>
-		<level>12</level>
+		<level>22</level>
 		<turns>30</turns>
 
 		<northPCT>35</northPCT>
@@ -58,7 +58,7 @@
 	<seed id="seedgrass3">
 		<type>grass3</type>
 		<num>16</num>
-		<level>12</level>
+		<level>22</level>
 		<turns>30</turns>
 
 		<northPCT>25</northPCT>
@@ -73,7 +73,7 @@
 	<seed id="seedjungle">
 		<type>jungle</type>
 		<num>1</num>
-		<level>12</level>
+		<level>22</level>
 		<turns>35</turns>
 
 		<northPCT>35</northPCT>
@@ -88,7 +88,7 @@
 	<seed id="seeddungeon3">
 		<type>dungeon3</type>
 		<num>8</num>
-		<level>1d2+35</level>
+		<level>1d2+45</level>
 		<turns>50</turns>
 
 		<northPCT>95</northPCT>
@@ -102,7 +102,7 @@
 	<seed id="seedstone">
 		<type>stone</type>
 		<num>120</num>
-		<level>1d21+13</level>
+		<level>1d21+23</level>
 		<turns>45</turns>
 
 		<northPCT>6</northPCT>
@@ -117,7 +117,7 @@
 	<seed id="seedcoal">
 		<type>coal</type>
 		<num>12</num>
-		<level>1d7+38</level>
+		<level>3d7+25</level>
 		<turns>50</turns>
 
 		<northPCT>6</northPCT>
@@ -132,7 +132,7 @@
 	<seed id="seeddensestone">
 		<type>densestone</type>
 		<num>12</num>
-		<level>1d7+43</level>
+		<level>3d7+30</level>
 		<turns>20</turns>
 
 		<northPCT>6</northPCT>
@@ -147,7 +147,7 @@
 	<seed id="seediron">
 		<type>iron</type>
 		<num>12</num>
-		<level>1d9+39</level>
+		<level>3d9+45</level>
 		<turns>50</turns>
 
 		<northPCT>6</northPCT>
@@ -162,7 +162,7 @@
 	<seed id="seedcopper">
 		<type>copper</type>
 		<num>12</num>
-		<level>1d9+39</level>
+		<level>3d9+45</level>
 		<turns>50</turns>
 
 		<northPCT>6</northPCT>
@@ -177,7 +177,7 @@
 	<seed id="seedgold">
 		<type>gold</type>
 		<num>5</num>
-		<level>1d6+42</level>
+		<level>3d6+40</level>
 		<turns>20</turns>
 
 		<northPCT>6</northPCT>
@@ -192,7 +192,7 @@
 	<seed id="seedsilver">
 		<type>silver</type>
 		<num>6</num>
-		<level>1d6+42</level>
+		<level>3d6+40</level>
 		<turns>30</turns>
 
 		<northPCT>6</northPCT>
@@ -208,7 +208,7 @@
 	<seed id="seedgravel">
 		<type>gravel</type>
 		<num>10</num>
-		<level>1d7+36</level>
+		<level>3d7+20</level>
 		<turns>40</turns>
 
 		<northPCT>6</northPCT>
@@ -224,7 +224,7 @@
 		<!-- At the moment _WATER_ and _LAVA_ are special types, hardcoded in-game, NOT in terrain.xml -->
 		<type>densestone</type>
 		<level>0</level>
-		<depth>32</depth>
+		<depth>42</depth>
 		<wide>21</wide>
 
 		<!-- First Bezier point -->
@@ -411,8 +411,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>3</radius>
-		<heightMin>12</heightMin>
-		<heightMax>29</heightMax>
+		<heightMin>22</heightMin>
+		<heightMax>39</heightMax>
 	</change>
 
 	<!-- Change all stone tiles into densestone tiles -->
@@ -422,8 +422,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>3</radius>
-		<heightMin>12</heightMin>
-		<heightMax>29</heightMax>
+		<heightMin>22</heightMin>
+		<heightMax>39</heightMax>
 	</change>
 
 	<!-- Change all dirt tiles into densestone tiles -->
@@ -433,8 +433,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>12</heightMin>
-		<heightMax>19</heightMax>
+		<heightMin>22</heightMin>
+		<heightMax>39</heightMax>
 	</change>
 
 	<!-- Change all stone tiles into densestone tiles -->
@@ -444,8 +444,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>19</heightMax>
+		<heightMin>11</heightMin>
+		<heightMax>29</heightMax>
 	</change>
 	
 			<!-- Change all grass and jungle tiles into densestone tiles -->
@@ -1183,8 +1183,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 	
 	<change id="surfacegrass49">
@@ -1193,8 +1193,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 
 	<change id="surfacegrass50">
@@ -1203,8 +1203,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 	
 	<change id="surfacegrass51">
@@ -1213,8 +1213,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 	
 	<change id="surfacegrass52">
@@ -1223,8 +1223,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 		
 	<change id="surfacegrass76">
@@ -1233,8 +1233,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 	
 	<change id="surfacegrass77">
@@ -1243,8 +1243,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 
 	<change id="surfacejungle8">
@@ -1253,8 +1253,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 
 	<change id="surfacestone8">
@@ -1263,8 +1263,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>4</heightMin>
-		<heightMax>4</heightMax>
+		<heightMin>14</heightMin>
+		<heightMax>14</heightMax>
 	</change>
 	
 			<!-- Change all grass tiles into densestone tiles 10 -->
@@ -1274,8 +1274,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 	
 	<change id="surfacegrass54">
@@ -1284,8 +1284,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 
 	<change id="surfacegrass55">
@@ -1294,8 +1294,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 	
 	<change id="surfacegrass56">
@@ -1304,8 +1304,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 	
 	<change id="surfacegrass57">
@@ -1314,8 +1314,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 
 	<change id="surfacegrass78">
@@ -1324,8 +1324,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 	
 	<change id="surfacegrass79">
@@ -1334,8 +1334,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 
 	<change id="surfacejungle9">
@@ -1344,8 +1344,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 
 	<change id="surfacestone9">
@@ -1354,8 +1354,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>3</heightMin>
-		<heightMax>3</heightMax>
+		<heightMin>13</heightMin>
+		<heightMax>13</heightMax>
 	</change>
 	
 			<!-- Change all grass tiles into densestone tiles 11 -->
@@ -1365,8 +1365,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 	
 	<change id="surfacegrass59">
@@ -1375,18 +1375,18 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 
 	<change id="surfacegrass60">
-		<source>grass2</source>
+		<source>grass12</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 	
 	<change id="surfacegrass61">
@@ -1395,18 +1395,18 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 	
-	<change id="surfacegrass62">
+	<change id="surfacegrass612">
 		<source>grassnoflower</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 
 	<change id="surfacegrass80">
@@ -1415,18 +1415,18 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 	
 	<change id="surfacegrass81">
-		<source>grassnoflower2</source>
+		<source>grassnoflower12</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 
 	<change id="surfacejungle10">
@@ -1435,8 +1435,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 
 	<change id="surfacestone10">
@@ -1445,99 +1445,99 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-		<heightMin>2</heightMin>
-		<heightMax>2</heightMax>
+		<heightMin>12</heightMin>
+		<heightMax>12</heightMax>
 	</change>
 
-			<!-- Change all grass tiles into densestone tiles 12 -->
+			<!-- Change all grass tiles into densestone tiles 112 -->
 	<change id="surfacegrass63">
 		<source>grass</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 	
 	<change id="surfacegrass64">
-		<source>grass1</source>
+		<source>grass11</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 
 	<change id="surfacegrass65">
 		<source>grass2</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 	
 	<change id="surfacegrass66">
 		<source>grass3</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 	
 	<change id="surfacegrass67">
 		<source>grassnoflower</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 
 	<change id="surfacegrass82">
-		<source>grassnoflower1</source>
+		<source>grassnoflower11</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 	
 	<change id="surfacegrass83">
 		<source>grassnoflower2</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 
-	<change id="surfacejungle11">
+	<change id="surfacejungle1111">
 		<source>jungle</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 
-	<change id="surfacestone11">
+	<change id="surfacestone1111">
 		<source>stone</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>1</heightMax>
+		<PCT>1100</PCT>
+		<radius>11</radius>
+		<heightMin>11</heightMin>
+		<heightMax>11</heightMax>
 	</change>
 	
 	<!-- Change some dirt tiles into densestone tiles -->
@@ -1547,7 +1547,7 @@
 		<terrain>densestone</terrain>
 		<PCT>7</PCT>
 		<heightMin>1</heightMin>
-		<heightMax>29</heightMax>
+		<heightMax>39</heightMax>
 		<radius>3</radius>
 	</change>
 
@@ -1558,7 +1558,7 @@
 		<terrain>densestone</terrain>
 		<PCT>3</PCT>
 		<heightMin>1</heightMin>
-		<heightMax>29</heightMax>
+		<heightMax>39</heightMax>
 		<radius>3</radius>
 	</change>
 
@@ -1570,7 +1570,7 @@
 		<PCT>10</PCT>
 		<radius>4</radius>
 		<heightMin>1</heightMin>
-		<heightMax>29</heightMax>
+		<heightMax>39</heightMax>
 	</change>
 
 	<!-- Change all densestone tiles into AIR_ tiles down to the surface -->
@@ -1578,7 +1578,7 @@
 		<source>densestone</source>
 		<destination>_AIR</destination>
 		<heightMin>1</heightMin>
-		<heightMax>29</heightMax>
+		<heightMax>39</heightMax>
 		<PCT>100</PCT>
 	</change>
 	
@@ -1589,8 +1589,8 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>4</radius>
-		<heightMin>30</heightMin>
-		<heightMax>31</heightMax>
+		<heightMin>40</heightMin>
+		<heightMax>41</heightMax>
 	</change>
 	
 		<!-- Change all stone tiles into grass tiles -->
@@ -1600,17 +1600,90 @@
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
 		<radius>4</radius>
-		<heightMin>30</heightMin>
-		<heightMax>31</heightMax>
+		<heightMin>40</heightMin>
+		<heightMax>41</heightMax>
 	</change>
 	
 	<!-- Change all densestone tiles into water tiles  at the bottom -->
 	<change id="changedensestone3">
 		<source>densestone</source>
 		<destination>_WATER_INF_</destination>
-		<heightMin>30</heightMin>
-		<heightMax>32</heightMax>
+		<heightMin>40</heightMin>
+		<heightMax>42</heightMax>
 		<PCT>100</PCT>
+	</change>
+	
+	<!-- Change Coal to Air when above ground -->
+	<change id="coalair">
+		<source>coal</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="coalair2">
+		<source>coal</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="coalair3">
+		<source>coal</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="coalair4">
+		<source>coal</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="coalair5">
+		<source>coal</source>
+		<destination>dirt</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	
+	<change id="gravelair">
+		<source>gravel</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="gravelair2">
+		<source>gravel</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="gravelair3">
+		<source>gravel</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="gravelair4">
+		<source>gravel</source>
+		<destination>_AIR</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
+	</change>
+	<change id="gravelair5">
+		<source>gravel</source>
+		<destination>dirt</destination>
+		<terrain>_AIR</terrain>
+		<PCT>100</PCT>
+		<radius>1</radius>
 	</change>
 
 </gen_map>

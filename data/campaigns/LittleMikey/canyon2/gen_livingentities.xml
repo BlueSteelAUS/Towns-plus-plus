@@ -5,7 +5,7 @@
 		<qtty>35</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildsheep">
@@ -13,7 +13,7 @@
 		<qtty>35</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildbull">
@@ -21,7 +21,7 @@
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildpig">
@@ -29,7 +29,7 @@
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildboar">
@@ -37,7 +37,7 @@
 		<qtty>25</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildskootenbeeten">
@@ -45,7 +45,7 @@
 		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="bird">
@@ -53,14 +53,14 @@
 		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 	<add id="werepig">
 		<entity>werepig</entity>
 		<qtty>1d2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildbadger">
@@ -68,7 +68,7 @@
 		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildchicken">
@@ -76,7 +76,7 @@
 		<qtty>50</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="wildrooster">
@@ -84,7 +84,7 @@
 		<qtty>20</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="froggy">
@@ -92,7 +92,7 @@
 		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 
 	<add id="toady">
@@ -100,6 +100,6 @@
 		<qtty>1</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
-		<level>1d11</level>
+		<level>1d21</level>
 	</add>
 </gen_livingentities>
