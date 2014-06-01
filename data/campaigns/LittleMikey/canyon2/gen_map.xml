@@ -3,7 +3,7 @@
 	<init id="init">
 		<numLevelsOutside>22</numLevelsOutside>
 		<numLevelsUnderground>40</numLevelsUnderground>
-		<mainTerrain>grass,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dungeon3,stone</mainTerrain>
+		<mainTerrain>grass,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,dirt,stone,stone</mainTerrain>
 		<numCitizens>12</numCitizens>
 		<startingLevel>21</startingLevel>
 		<startingEvents>dawn,hot,cold</startingEvents>
@@ -74,12 +74,14 @@
 		<type>jungle</type>
 		<num>1</num>
 		<level>22</level>
-		<turns>35</turns>
-
-		<northPCT>35</northPCT>
-		<southPCT>35</southPCT>
-		<eastPCT>35</eastPCT>
-		<westPCT>35</westPCT>
+		<turns>300</turns>
+		
+		<pointx>199</pointx>
+		<pointy>0</pointy>
+		<northPCT>100</northPCT>
+		<southPCT>100</southPCT>
+		<eastPCT>100</eastPCT>
+		<westPCT>100</westPCT>
 		<upPCT>0</upPCT>
 		<downPCT>0</downPCT>
 	</seed>
@@ -116,9 +118,9 @@
 	<!-- 8 coal seeds -->
 	<seed id="seedcoal">
 		<type>coal</type>
-		<num>12</num>
+		<num>50</num>
 		<level>3d7+25</level>
-		<turns>50</turns>
+		<turns>10</turns>
 
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -129,7 +131,7 @@
 	</seed>
 
 	<!-- 8 dense stone seeds -->
-	<seed id="seeddensestone">
+<!-- 	<seed id="seeddensestone">
 		<type>densestone</type>
 		<num>12</num>
 		<level>3d7+30</level>
@@ -141,14 +143,14 @@
 		<westPCT>6</westPCT>
 		<upPCT>1</upPCT>
 		<downPCT>5</downPCT>
-	</seed>
+	</seed> -->
 
 	<!-- 8 iron seeds -->
 	<seed id="seediron">
 		<type>iron</type>
-		<num>12</num>
+		<num>50</num>
 		<level>3d9+45</level>
-		<turns>50</turns>
+		<turns>10</turns>
 
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -161,9 +163,9 @@
 	<!-- 8 copper seeds -->
 	<seed id="seedcopper">
 		<type>copper</type>
-		<num>12</num>
+		<num>50</num>
 		<level>3d9+45</level>
-		<turns>50</turns>
+		<turns>10</turns>
 
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -176,9 +178,9 @@
 	<!-- 3 gold seeds , very rare -->
 	<seed id="seedgold">
 		<type>gold</type>
-		<num>5</num>
+		<num>10</num>
 		<level>3d6+40</level>
-		<turns>20</turns>
+		<turns>10</turns>
 
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -191,9 +193,9 @@
 	<!-- 4 silver seeds, pretty rare -->
 	<seed id="seedsilver">
 		<type>silver</type>
-		<num>6</num>
+		<num>12</num>
 		<level>3d6+40</level>
-		<turns>30</turns>
+		<turns>15</turns>
 
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -207,9 +209,9 @@
 	<!-- 7 gravel seeds -->
 	<seed id="seedgravel">
 		<type>gravel</type>
-		<num>10</num>
+		<num>30</num>
 		<level>3d7+20</level>
-		<turns>40</turns>
+		<turns>10</turns>
 
 		<northPCT>6</northPCT>
 		<southPCT>6</southPCT>
@@ -1380,7 +1382,7 @@
 	</change>
 
 	<change id="surfacegrass60">
-		<source>grass12</source>
+		<source>grass2</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
@@ -1420,7 +1422,7 @@
 	</change>
 	
 	<change id="surfacegrass81">
-		<source>grassnoflower12</source>
+		<source>grassnoflower2</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
 		<PCT>100</PCT>
@@ -1461,7 +1463,7 @@
 	</change>
 	
 	<change id="surfacegrass64">
-		<source>grass11</source>
+		<source>grass1</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
 		<PCT>1100</PCT>
@@ -1501,7 +1503,7 @@
 	</change>
 
 	<change id="surfacegrass82">
-		<source>grassnoflower11</source>
+		<source>grassnoflower1</source>
 		<destination>densestone</destination>
 		<terrain>densestone</terrain>
 		<PCT>1100</PCT>
@@ -1614,33 +1616,12 @@
 	</change>
 	
 	<!-- Change Coal to Air when above ground -->
-	<change id="coalair">
+<!-- 	<change id="coalair">
 		<source>coal</source>
 		<destination>_AIR</destination>
 		<terrain>_AIR</terrain>
 		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-	<change id="coalair2">
-		<source>coal</source>
-		<destination>_AIR</destination>
-		<terrain>_AIR</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-	<change id="coalair3">
-		<source>coal</source>
-		<destination>_AIR</destination>
-		<terrain>_AIR</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-	<change id="coalair4">
-		<source>coal</source>
-		<destination>_AIR</destination>
-		<terrain>_AIR</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
+		<radius>4</radius>
 	</change>
 	<change id="coalair5">
 		<source>coal</source>
@@ -1655,28 +1636,7 @@
 		<destination>_AIR</destination>
 		<terrain>_AIR</terrain>
 		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-	<change id="gravelair2">
-		<source>gravel</source>
-		<destination>_AIR</destination>
-		<terrain>_AIR</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-	<change id="gravelair3">
-		<source>gravel</source>
-		<destination>_AIR</destination>
-		<terrain>_AIR</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-	<change id="gravelair4">
-		<source>gravel</source>
-		<destination>_AIR</destination>
-		<terrain>_AIR</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
+		<radius>4</radius>
 	</change>
 	<change id="gravelair5">
 		<source>gravel</source>
@@ -1684,6 +1644,77 @@
 		<terrain>_AIR</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
+	</change> -->
+
+	<change id="changesand">
+		<source>grass</source>
+		<destination>sand</destination>
+		<terrain>_WATER_INF_</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
 	</change>
 
+	<change id="changejungledirt">
+		<source>jungle</source>
+		<destination>grass</destination>
+		<terrain>grass</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changejungledirt1">
+		<source>jungle</source>
+		<destination>grass</destination>
+		<terrain>grass</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changejungledirt2">
+		<source>jungle</source>
+		<destination>grass</destination>
+		<terrain>grass</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changejungledirt3">
+		<source>jungle</source>
+		<destination>grass</destination>
+		<terrain>grass</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changejungledirt5">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changejungledirt6">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changejungledirt7">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changejungledirt8">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
 </gen_map>

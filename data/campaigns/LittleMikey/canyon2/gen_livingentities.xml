@@ -57,7 +57,7 @@
 	</add>
 	<add id="werepig">
 		<entity>werepig</entity>
-		<qtty>1d2</qtty>
+		<qtty>1d5</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -89,7 +89,7 @@
 
 	<add id="froggy">
 		<entity>froggy</entity>
-		<qtty>15</qtty>
+		<qtty>30</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -97,7 +97,7 @@
 
 	<add id="toady">
 		<entity>toady</entity>
-		<qtty>1</qtty>
+		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
