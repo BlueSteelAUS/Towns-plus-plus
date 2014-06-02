@@ -12969,6 +12969,12 @@
 		<action>del_taverntable</action>
 	</taverntable_drinks>
 
+
+
+
+
+
+
 	<!-- NEW FARMS -LM -->
 	<newcowfarm>
 		<name esES="Granja de Vacas">Cow Barn</name>
@@ -13079,6 +13085,138 @@
 		<stackableSize>1</stackableSize>
 		<action>del_sheepfarm</action>
 	</newsheepfarm>
+
+<newfemalebadgerfarm>
+		<name esES="N/A">Female Badger Barn</name>
+		<description esES="*Inserte el meme aqui*">*Insert meme here*</description>
+
+		<action>qbreedfemalebadger</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femalebadgerfarm</action>
+</newfemalebadgerfarm>
+
+<newfemaleskootenbeetenfarm>
+		<name esES="N/A">Female Skootenbeeten Barn</name>
+		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
+
+		<action>qbreedfemaleskeetenbeeten</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femaleskootenbeetenfarm</action>
+</newfemaleskootenbeetenfarm>
+
+<newfemaleunifallowfarm>
+		<name esES="N/A">Female Unifallow Barn</name>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
+
+		<action>qbreedfemaleunifallow</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femaleunifallowfarm</action>
+</newfemaleunifallowfarm>
+
+<newfemalesnoatfarm>
+		<name esES="N/A">Female Snoat Barn</name>
+		<description esES="¿Cómo hizo para entrar ahi?">How do you fit in there?</description>
+
+		<action>qbreedfemalesnoat</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femalesnoatfarm</action>
+</newfemalesnoatfarm>
+
+
+<newfemalesheepfarm>
+		<name esES="N/A">Female Sheep Barn</name>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
+
+		<action>qbreedfemalesheep</action>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femalesheepfarm</action>
+</newfemalesheepfarm>
+
+
+
+
+
+<emptyfemalebadgerfarm>
+		<name esES="N/A">Female Badger Barn</name>
+		<description esES="*Inserte el meme aqui*">*Insert meme here*</description>
+
+		<maxAge>1440</maxAge>
+		<maxAgeItem>newfemalebadgerfarm</maxAgeItem>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femalebadgerfarm</action>
+</emptyfemalebadgerfarm>
+
+<emptyfemaleskootenbeetenfarm>
+		<name esES="N/A">Female Skootenbeeten Barn</name>
+		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
+
+		<maxAge>1440</maxAge>
+		<maxAgeItem>newfemaleskootenbeetenfarm</maxAgeItem>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femaleskootenbeetenfarm</action>
+</emptyfemaleskootenbeetenfarm>
+
+<emptyfemaleunifallowfarm>
+		<name esES="N/A">Female Unifallow Barn</name>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
+
+		<maxAge>1440</maxAge>
+		<maxAgeItem>newfemaleunifallowfarm</maxAgeItem>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femaleunifallowfarm</action>
+</emptyfemaleunifallowfarm>
+
+<emptyfemalesnoatfarm>
+		<name esES="N/A">Female Snoat Barn</name>
+		<description esES="¿Cómo hizo para entrar ahi?">How do you fit in there?</description>
+
+		<maxAge>1440</maxAge>
+		<maxAgeItem>newfemalesnoatfarm</maxAgeItem>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femalesnoatfarm</action>
+</emptyfemalesnoatfarm>
+                            
+<emptyfemalesheepfarm>
+		<name esES="N/A">Female Sheep Barn</name>
+		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
+
+		<maxAge>1440</maxAge>
+		<maxAgeItem>newfemalesheepfarm</maxAgeItem>
+
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>del_femalesheepfarm</action>
+</emptyfemalesheepfarm>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<!-- NEW FARMS EMPTY -->
 	<emptycowfarm>
