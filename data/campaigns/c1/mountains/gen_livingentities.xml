@@ -117,5 +117,35 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
+	<add id="wildfemalesheep">
+		<entity>wildfemalesheep</entity>
+		<qtty>60</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
 
+	<add id="wildfemaleskootenbeeten">
+		<entity>wildskootenbeeten</entity>
+		<qtty>30</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add id="wildfemalebadger">
+		<entity>wildfemalebadger</entity>
+		<qtty>30</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add id="wildfemalesnoat">
+		<entity>wildfemalesnoat</entity>
+		<qtty>30</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
 </gen_livingentities>

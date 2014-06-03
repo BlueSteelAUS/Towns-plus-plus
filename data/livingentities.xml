@@ -1388,7 +1388,7 @@
 		<action>qgetunifallowhide</action>
 	</unifallow>
 
-	<milkedunifallow>
+	<milkedfemaleunifallow>
 		<type>FRIENDLY</type>
 
 		<name>Unifallow</name>
@@ -1421,7 +1421,7 @@
 		
 		<action>qcageunifallow</action>
 		<action>qgetunifallowhide</action>
-	</milkedunifallow>
+	</milkedfemaleunifallow>
 
 	<wildunifallow>
 		<type>FRIENDLY</type>
@@ -1456,7 +1456,7 @@
 	</wildunifallow>
 
 
-	<milkedwildunifallow>
+	<milkedwildfemaleunifallow>
 		<type>FRIENDLY</type>
 
 		<name esES="Unifallow salvaje">Wild unifallow</name>
@@ -1489,7 +1489,7 @@
 		
 		<action>qcageunifallow</action>
 		<action>qgetunifallowhide</action>
-	</milkedwildunifallow>
+	</milkedwildfemaleunifallow>
 
 	<boar>
 		<type>FRIENDLY</type>
@@ -1748,7 +1748,7 @@
 
 	</wildskinnedsnoat>
 
-	<milkedsnoat>
+	<milkedfemalesnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
 		<name>Female Snoat</name>
@@ -1777,12 +1777,12 @@
 		
 		<action>qcagefemalesnoat</action>
 		<action>qgetanimalhide</action>
-	</milkedsnoat>
+	</milkedfemalesnoat>
 
-	<wildmilkedsnoat>
+	<wildmilkedfemalesnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
-		<name esES="Snoat salvaje">Wild snoat</name>
+		<name esES="Snoat salvaje">Wild Female snoat</name>
 		<attack>1d119+340</attack>
 		<attackSpeed>5</attackSpeed>
 		<defense>1d119+340</defense>
@@ -1807,7 +1807,7 @@
 		
 		<action>qcagefemalesnoat</action>
 		<action>qgetanimalhide</action>
-		</wildmilkedsnoat>
+		</wildmilkedfemalesnoat>
 
 	<reindeer>
 		<type>FRIENDLY</type>
@@ -2349,7 +2349,7 @@
 		<action>qcageskootenbeeten</action>
 	</skootenbeeten>
 
-	<layedeggskooten>
+	<layedeggfemaleskooten>
 		<type>FRIENDLY</type>
 
 		<name>Female Skootenbeeten</name>
@@ -2381,7 +2381,7 @@
 		</drop>
 		
 		<action>qcagefemaleskootenbeeten</action>
-	</layedeggskooten>
+	</layedeggfemaleskooten>
 
 	<wildskootenbeeten>
 		<type>FRIENDLY</type>
@@ -2415,7 +2415,7 @@
 		<action>qwildskootenfeather</action>
 	</wildskootenbeeten>
 
-	<layedeggwildskooten>
+	<layedeggwildfemaleskooten>
 		<type>FRIENDLY</type>
 
 		<name esES="Skootenbeeten salvaje">Wild female skootenbeeten</name>
@@ -2448,7 +2448,7 @@
 		
 		<action>qcagefemaleskootenbeeten</action>
 		<action>qwildfemaleskootenfeather</action>
-	</layedeggwildskooten>
+	</layedeggwildfemaleskooten>
 
 	<!-- ENEMIES -->
 
@@ -3084,7 +3084,7 @@
 		<grouping>true</grouping>
 
 		<facingDirections>true</facingDirections>
-		<stealLivings>cow,milkedcow,bull,chicken,rooster,pig,boar,skootenbeeten,unifallow,milkedunifallow,snoat,milkedsnoat</stealLivings>
+		<stealLivings>cow,milkedcow,bull,chicken,rooster,pig,boar,skootenbeeten,unifallow,snoat,milkedfemalesnoat,femaleunifallow,femalesnoat,layedeggchicken,pluckedskootenbeeten</stealLivings>
 
 		<drop>
 			<item>RANDOM</item>
@@ -5136,7 +5136,7 @@
 
 
 
-	<skinnedmilkedsnoat>
+	<skinnedmilkedfemalesnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
 		<name>Snoat</name>
@@ -5152,7 +5152,7 @@
 		<walkSpeed>75</walkSpeed>
 
 		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>milkedsnoat</maxAgeLiving>
+		<maxAgeLiving>milkedfemalesnoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
 
 		<action>qkillsnoat</action>
@@ -5163,9 +5163,9 @@
 		</drop>
 		<action>qcagesnoat</action>
 		<action>qgetanimalhide</action>
-	</skinnedmilkedsnoat>
+	</skinnedmilkedfemalesnoat>
 
-	<skinnedmilkedwildsnoat>
+	<skinnedmilkedwildfemalesnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
 		<name>Snoat</name>
@@ -5181,7 +5181,7 @@
 		<walkSpeed>75</walkSpeed>
 
 		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>milkedsnoat</maxAgeLiving>
+		<maxAgeLiving>milkedfemalesnoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
 
 		<action>qkillsnoat</action>
@@ -5192,7 +5192,7 @@
 		</drop>
 		<action>qcagesnoat</action>
 		<action>qgetanimalhide</action>
-	</skinnedmilkedwildsnoat>
+	</skinnedmilkedwildfemalesnoat>
 
 	<largegiftone>
 		<type>ENEMY</type>
@@ -5428,10 +5428,10 @@
 
 		<action>qkillfemaleunifallow</action>
 		<facingDirections>true</facingDirections>
-
+<!--
 		<building>femaleunifallowfarm</building>
 		<buildingTime>2880</buildingTime>
-
+-->
 		<foodNeeded>cactusfruit</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
@@ -5445,7 +5445,7 @@
 		<action>qgetfemaleunifallowhide</action>
 	</femaleunifallow>
 
-	<milkedunifallow>
+	<milkedfemaleunifallow>
 		<type>FRIENDLY</type>
 
 		<name>Female Unifallow</name>
@@ -5478,7 +5478,7 @@
 		
 		<action>qcagefemaleunifallow</action>
 		<action>qgetfemaleunifallowhide</action>
-	</milkedunifallow>
+	</milkedfemaleunifallow>
 
 	<wildfemaleunifallow>
 		<type>FRIENDLY</type>
@@ -5563,10 +5563,10 @@
 
 		<movePCT>1d3</movePCT>
 		<walkSpeed>75</walkSpeed>
-
+<!--
 		<building>femalesnoatfarm</building>
 		<buildingTime>2880</buildingTime>
-
+-->
 		<action>qkillfemalesnoat</action>
 		<facingDirections>true</facingDirections>
 
@@ -5669,5 +5669,133 @@
 
 	</wildskinnedfemalesnoat>
 	
+	<femalesheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja">Female Sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+<!--
+		<building>sheepfarm</building>
+		<buildingTime>2880</buildingTime>
+-->
+		<action>qkillsheep</action>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemalesheep</action>
+	</femalesheep>
+
+	<skinnedfemalesheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja trasquilada">Shorn female sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>femalesheep</maxAgeLiving>
+
+		<action>qkillsheep</action>
+
+		<facingDirections>true</facingDirections>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemalesheep</action>
+	</skinnedfemalesheep>
+
+	<wildfemalesheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja salvaje">Wild female sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillfemalesheep</action>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemalesheep</action>
+	</wildfemalesheep>
+
+	<skinnedwildfemalesheep>
+		<type>FRIENDLY</type>
+
+		<name esES="Oveja salvaje trasquilada">Shorn wild female sheep</name>
+		<habitat>grass</habitat>
+		<habitat>grass1</habitat>
+		<attack>1d59+170</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d59+170</defense>
+		<healthPoints>1d74+213</healthPoints>
+		<attackVerb esES="muerde">bites</attackVerb>
+		<attackVerbInfinitive esES="morder">bite</attackVerbInfinitive>
+		<damage>1d44+128</damage>
+		<movePCT>1d2</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillsheep</action>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>wildfemalesheep</maxAgeLiving>
+
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>bones</item>
+			<PCT>70</PCT>
+		</drop>
+		
+		<action>qcagefemalesheep</action>
+	</skinnedwildfemalesheep>
 	
 </livingentities>

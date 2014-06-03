@@ -42,10 +42,23 @@
 		<item id="qnewchickenfarm" code="QUEUEANDPLACEAREA" parameter="qnewchickenfarm" icon="chicken" />
 		<item id="qnewroosterfarm" code="QUEUEANDPLACEAREA" parameter="qnewroosterfarm" icon="rooster" />
 		<item id="qnewbadgerfarm" code="QUEUEANDPLACEAREA" parameter="qnewbadgerfarm" icon="badger" />
+		<item id="qnewfemalebadgerfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemalebadgerfarm" icon="femalebadger" />
+
 		<item id="qnewsheepfarm" code="QUEUEANDPLACEAREA" parameter="qnewsheepfarm" icon="sheep" />
+		<item id="qnewfemalesheepfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemalesheepfarm" icon="femalesheep" />
+
+
 		<item id="qnewskootenbeetenfarm" code="QUEUEANDPLACEAREA" parameter="qnewskootenbeetenfarm" icon="skootenbeeten" />
+		<item id="qnewfemaleskootenbeetenfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemaleskootenbeetenfarm" icon="femaleskootenbeeten" />
+
+
 		<item id="qnewsnoatfarm" code="QUEUEANDPLACEAREA" parameter="qnewsnoatfarm" icon="snoat" />
+		<item id="qnewfemalesnoatfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemalesnoatfarm" icon="femalesnoat" />
+
 		<item id="qnewunifallowfarm" code="QUEUEANDPLACEAREA" parameter="qnewunifallowfarm" icon="unifallow" />
+		<item id="qnewfemaleunifallowfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemaleunifallowfarm" icon="femaleunifallow" />
+
+
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</farms>
 
