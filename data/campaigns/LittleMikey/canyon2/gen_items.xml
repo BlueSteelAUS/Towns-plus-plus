@@ -243,4 +243,36 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
+	
+	<add id="browniehouse">
+		<item>browniehouse</item>
+		<qtty>20</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>22</level>
+	</add>
+
+	<add id="junglefence">
+		<item>junglefence</item>
+		<qtty>4000</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>22</level>
+	</add>
+
+	<add id="jungledoor">
+		<item>jungledoor</item>
+		<qtty>4000</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>22</level>
+	</add>
+
+	<add id="totem">
+		<item>totem</item>
+		<qtty>3</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>22</level>
+	</add>
 </gen_items>
