@@ -13086,7 +13086,7 @@
 		<action>del_sheepfarm</action>
 	</newsheepfarm>
 
-<newfemalebadgerfarm>
+	<newfemalebadgerfarm>
 		<name esES="N/A">Female Badger Barn</name>
 		<description esES="*Inserte el meme aqui*">*Insert meme here*</description>
 
@@ -13094,9 +13094,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femalebadgerfarm</action>
-</newfemalebadgerfarm>
+	</newfemalebadgerfarm>
 
-<newfemaleskootenbeetenfarm>
+	<newfemaleskootenbeetenfarm>
 		<name esES="N/A">Female Skootenbeeten Barn</name>
 		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
@@ -13104,9 +13104,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femaleskootenbeetenfarm</action>
-</newfemaleskootenbeetenfarm>
+	</newfemaleskootenbeetenfarm>
 
-<newfemaleunifallowfarm>
+	<newfemaleunifallowfarm>
 		<name esES="N/A">Female Unifallow Barn</name>
 		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
@@ -13114,9 +13114,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femaleunifallowfarm</action>
-</newfemaleunifallowfarm>
+	</newfemaleunifallowfarm>
 
-<newfemalesnoatfarm>
+	<newfemalesnoatfarm>
 		<name esES="N/A">Female Snoat Barn</name>
 		<description esES="¿Cómo hizo para entrar ahi?">How do you fit in there?</description>
 
@@ -13124,24 +13124,20 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femalesnoatfarm</action>
-</newfemalesnoatfarm>
+	</newfemalesnoatfarm>
 
 
-<newfemalesheepfarm>
+	<newfemalesheepfarm>
 		<name esES="N/A">Female Sheep Barn</name>
-		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
+		<description esES="N/A">Baa Ram Ewe</description>
 
 		<action>qbreedfemalesheep</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femalesheepfarm</action>
-</newfemalesheepfarm>
+	</newfemalesheepfarm>
 
-
-
-
-
-<emptyfemalebadgerfarm>
+	<emptyfemalebadgerfarm>
 		<name esES="N/A">Female Badger Barn</name>
 		<description esES="*Inserte el meme aqui*">*Insert meme here*</description>
 
@@ -13151,9 +13147,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femalebadgerfarm</action>
-</emptyfemalebadgerfarm>
+	</emptyfemalebadgerfarm>
 
-<emptyfemaleskootenbeetenfarm>
+	<emptyfemaleskootenbeetenfarm>
 		<name esES="N/A">Female Skootenbeeten Barn</name>
 		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
@@ -13163,9 +13159,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femaleskootenbeetenfarm</action>
-</emptyfemaleskootenbeetenfarm>
+	</emptyfemaleskootenbeetenfarm>
 
-<emptyfemaleunifallowfarm>
+	<emptyfemaleunifallowfarm>
 		<name esES="N/A">Female Unifallow Barn</name>
 		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
@@ -13175,9 +13171,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femaleunifallowfarm</action>
-</emptyfemaleunifallowfarm>
+	</emptyfemaleunifallowfarm>
 
-<emptyfemalesnoatfarm>
+	<emptyfemalesnoatfarm>
 		<name esES="N/A">Female Snoat Barn</name>
 		<description esES="¿Cómo hizo para entrar ahi?">How do you fit in there?</description>
 
@@ -13187,9 +13183,9 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femalesnoatfarm</action>
-</emptyfemalesnoatfarm>
-                            
-<emptyfemalesheepfarm>
+	</emptyfemalesnoatfarm>
+
+	<emptyfemalesheepfarm>
 		<name esES="N/A">Female Sheep Barn</name>
 		<description esES="¿Cómo logras ver estas cosas?">How do you see things?</description>
 
@@ -13199,24 +13195,7 @@
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femalesheepfarm</action>
-</emptyfemalesheepfarm>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	</emptyfemalesheepfarm>
 
 	<!-- NEW FARMS EMPTY -->
 	<emptycowfarm>
@@ -21083,7 +21062,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</mossystonestairs>
-	
+
 	<marblestonestairs>
 		<name esES="Escaleras de Piedra">Marble Stone Stairs</name>
 
@@ -21100,7 +21079,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</marblestonestairs>
-	
+
 	<darkgreystonestairs>
 		<name esES="Escaleras de Piedra">Dark Grey Stone Stairs</name>
 
@@ -21117,7 +21096,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</darkgreystonestairs>
-	
+
 	<lightgreystonestairs>
 		<name esES="Escaleras de Piedra">Light Grey Stone Stairs</name>
 
@@ -21134,7 +21113,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</lightgreystonestairs>
-	
+
 	<orangestonestairs>
 		<name esES="Escaleras de Piedra">Orange Stone Stairs</name>
 
@@ -21151,7 +21130,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</orangestonestairs>
-	
+
 	<silverstonestairs>
 		<name esES="Escaleras de Piedra">Silver Stone Stairs</name>
 
@@ -21168,7 +21147,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</silverstonestairs>
-	
+
 	<khakistonestairs>
 		<name esES="Escaleras de Piedra">Khaki Stone Stairs</name>
 
@@ -21185,7 +21164,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</khakistonestairs>
-	
+
 	<claystonebrickstairs>
 		<name esES="Escaleras de Piedra">Clay Stone Brick Stairs</name>
 
@@ -21202,7 +21181,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</claystonebrickstairs>
-	
+
 	<marblestonebrickstairs>
 		<name esES="Escaleras de Piedra">Marble Stone Brick Stairs</name>
 
@@ -21219,7 +21198,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</marblestonebrickstairs>
-	
+
 	<darkgreystonebrickstairs>
 		<name esES="Escaleras de Piedra">Dark Grey Stone Brick Stairs</name>
 
@@ -21236,7 +21215,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</darkgreystonebrickstairs>
-	
+
 	<lightgreystonebrickstairs>
 		<name esES="Escaleras de Piedra">Light Grey Stone Brick Stairs</name>
 
@@ -21253,7 +21232,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</lightgreystonebrickstairs>
-	
+
 	<whitestonebrickstairs>
 		<name esES="Escaleras de Piedra">White Stone Brick Stairs</name>
 
@@ -21270,7 +21249,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</whitestonebrickstairs>
-	
+
 	<silverstonebrickstairs>
 		<name esES="Escaleras de Piedra">Silver Stone Brick Stairs</name>
 
@@ -21287,7 +21266,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</silverstonebrickstairs>
-	
+
 	<lightgreenstonebrickstairs>
 		<name esES="Escaleras de Piedra">Light Green Stone Brick Stairs</name>
 
@@ -21304,7 +21283,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</lightgreenstonebrickstairs>
-	
+
 	<!-- dw420 blocks -->
 	<mossystoneblock>
 		<name esES="Escaleras de Piedra">Mossy Stone Block</name>
@@ -21322,7 +21301,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</mossystoneblock>
-	
+
 	<marblestoneblock>
 		<name esES="Escaleras de Piedra">Marble Stone Block</name>
 
@@ -21339,7 +21318,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</marblestoneblock>
-	
+
 	<darkgreystoneblock>
 		<name esES="Escaleras de Piedra">Dark Grey Stone Block</name>
 
@@ -21356,7 +21335,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</darkgreystoneblock>
-	
+
 	<lightgreystoneblock>
 		<name esES="Escaleras de Piedra">Light Grey Stone Block</name>
 
@@ -21373,7 +21352,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</lightgreystoneblock>
-	
+
 	<orangestoneblock>
 		<name esES="Escaleras de Piedra">Orange Stone Block</name>
 
@@ -21390,7 +21369,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</orangestoneblock>
-	
+
 	<silverstoneblock>
 		<name esES="Escaleras de Piedra">Silver Stone Block</name>
 
@@ -21407,7 +21386,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</silverstoneblock>
-	
+
 	<khakistoneblock>
 		<name esES="Escaleras de Piedra">Khaki Stone Block</name>
 
@@ -21424,7 +21403,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</khakistoneblock>
-	
+
 	<claystonebrickblock>
 		<name esES="Escaleras de Piedra">Clay Stone Brick Block</name>
 
@@ -21441,7 +21420,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</claystonebrickblock>
-	
+
 	<marblestonebrickblock>
 		<name esES="Escaleras de Piedra">Marble Stone Brick Block</name>
 
@@ -21458,7 +21437,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</marblestonebrickblock>
-	
+
 	<darkgreystonebrickblock>
 		<name esES="Escaleras de Piedra">Dark Grey Stone Brick Block</name>
 
@@ -21475,7 +21454,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</darkgreystonebrickblock>
-	
+
 	<lightgreystonebrickblock>
 		<name esES="Escaleras de Piedra">Light Grey Stone Brick Block</name>
 
@@ -21492,7 +21471,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</lightgreystonebrickblock>
-	
+
 	<whitestonebrickblock>
 		<name esES="Escaleras de Piedra">White Stone Brick Block</name>
 
@@ -21509,7 +21488,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</whitestonebrickblock>
-	
+
 	<silverstonebrickblock>
 		<name esES="Escaleras de Piedra">Silver Stone Brick Block</name>
 
@@ -21526,7 +21505,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</silverstonebrickblock>
-	
+
 	<lightgreenstonebrickblock>
 		<name esES="Escaleras de Piedra">Light Green Stone Brick Block</name>
 
@@ -21543,7 +21522,7 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 	</lightgreenstonebrickblock>
-	
+
 	<!-- dw420 Wall Spikes -->
 	<birchwoodspikes>
 		<name esES="Muro de madera con pinchos">Birch Wooden spiked wall</name>
@@ -21560,7 +21539,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</birchwoodspikes>
-	
+
 	<yellowwoodspikes>
 		<name esES="Muro de madera con pinchos">Yellow Wooden spiked wall</name>
 		<type>construction.blockwalls</type>
@@ -21576,7 +21555,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</yellowwoodspikes>
-	
+
 	<applewoodspikes>
 		<name esES="Muro de madera con pinchos">Apple Wooden spiked wall</name>
 		<type>construction.blockwalls</type>
@@ -21592,7 +21571,7 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</applewoodspikes>
-	
+
 	<mahoganywoodspikes>
 		<name esES="Muro de madera con pinchos">Mahogany Wooden spiked wall</name>
 		<type>construction.blockwalls</type>
@@ -21608,18 +21587,18 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>100</value>
 	</mahoganywoodspikes>
-	
+
 	<!-- New ITE Storage -LM -->
-	
+
 	<itewell>
 		<name esES="N/A">Magic ITE Storage Well</name>
 		<description esES="N/A">What better place to store stuff then a hole in the ground?</description>
-		
+
 		<type>ites</type>
 		<container>true</container>
 		<containerSize>100</containerSize>
 		<value>200</value>
-		
+
 		<alwaysOperative>false</alwaysOperative>
 	</itewell>
 </items>
