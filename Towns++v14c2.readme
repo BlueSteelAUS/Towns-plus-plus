@@ -7,6 +7,17 @@ Changes since Towns++_v14c
 ===========================
 BlueSteel's Contributions
 ===========================
+-> Added in female skootenbeetons, unifallows, snoats, badgers and their associated farms
+-> All farms now need a male and a female of that animal to make
+-> Fixed some killing of farmed animals only , no wild animals should be being auto killed for production anymore
+-> Only animals that don't provide milk, eggs (secondary products) will be queue butchered so magane your farms accordingly
+   (you can still butcher the others for skins, and manually for meat)
+   This is done so that your not killing your milking cows, and egg laying birds and wondering why your not getting those products anymore
+   It also gives you a reason to have the male animal farms apart from breeding
+-> Added all the wild female animals to the default maps and tweaked their numbers as there are now a lot more animals
+
+NOTE: the changes to the animals in the game has changed a LOT, so there will probably be bugs. Please report them on the issue tracker so that we can fix them
+
 
 LittleMikey's Contributions:
 ============================
@@ -16,7 +27,7 @@ LittleMikey's Contributions:
 -> Added new ITE Well, stores 100 instead of the 25 you can have in a chest.
 -> Converted Caprontos' Canyon map 
 -> Reduced value for Wood, Dirt, Stone and Sand when trading
--> Fixed strange bug with getting eggs from Skootenbeeten. 
+-> Fixed strange bug with getting eggs from Skootenbeeten.
 
 
 [/code]
