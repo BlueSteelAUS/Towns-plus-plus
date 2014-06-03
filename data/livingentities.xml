@@ -5311,7 +5311,7 @@
 	<wildfemalebadger>                                                                                       
 		<type>FRIENDLY</type>                                                                            
 	                                                                                                   
-		<name esES="Tejón salvaje">Wild female badger</name>                                                    
+		<name esES="Tejón salvaje">Wild Female Badger</name>                                                    
 		<habitat>grass</habitat>                                                                         
 		<habitat>grass1</habitat>                                                                        
 		<attack>1d59+170</attack>                                                                        
@@ -5380,7 +5380,7 @@
 	<wildfemaleskootenbeeten>
 		<type>FRIENDLY</type>
 
-		<name esES="Skootenbeeten salvaje">Wild female skootenbeeten</name>
+		<name esES="Skootenbeeten salvaje">Wild Female Skootenbeeten</name>
 		<habitat>jungle</habitat>
 		<attack>1d44+128</attack>
 		<attackSpeed>5</attackSpeed>
@@ -5516,7 +5516,7 @@
 	<milkedwildunifallow>
 		<type>FRIENDLY</type>
 
-		<name esES="Unifallow salvaje">Wild female unifallow</name>
+		<name esES="Unifallow salvaje">Wild Female Unifallow</name>
 		<habitat>sand</habitat>
 		<attack>1d59+170</attack>
 		<attackSpeed>5</attackSpeed>
@@ -5583,7 +5583,7 @@
 	<wildfemalesnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
-		<name esES="Snoat salvaje">Wild female snoat</name>
+		<name esES="Snoat salvaje">Wild Female Snoat</name>
 		<attack>1d119+340</attack>
 		<attackSpeed>5</attackSpeed>
 		<defense>1d119+340</defense>
@@ -5611,7 +5611,7 @@
 	<skinnedfemalesnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
-		<name esES="Snoat trasquilado">Shorn female snoat</name>
+		<name esES="Snoat trasquilado">Shorn Female Snoat</name>
 		<attack>1d119+340</attack>
 		<attackSpeed>5</attackSpeed>
 		<defense>1d119+340</defense>
@@ -5641,7 +5641,7 @@
 	<wildskinnedfemalesnoat>
 		<type>FRIENDLY</type>
 		<habitat>snow</habitat>
-		<name esES="Snoat salvaje trasquilado">Shorn wild female snoat</name>
+		<name esES="Snoat salvaje trasquilado">Shorn Wild Female Snoat</name>
 		<attack>1d119+340</attack>
 		<attackSpeed>5</attackSpeed>
 		<defense>1d119+340</defense>
@@ -5707,7 +5707,7 @@
 	<skinnedfemalesheep>
 		<type>FRIENDLY</type>
 
-		<name esES="Oveja trasquilada">Shorn female sheep</name>
+		<name esES="Oveja trasquilada">Shorn Female Sheep</name>
 		<habitat>grass</habitat>
 		<habitat>grass1</habitat>
 		<attack>1d59+170</attack>
@@ -5770,7 +5770,7 @@
 	<skinnedwildfemalesheep>
 		<type>FRIENDLY</type>
 
-		<name esES="Oveja salvaje trasquilada">Shorn wild female sheep</name>
+		<name esES="Oveja salvaje trasquilada">Shorn Wild Female Sheep</name>
 		<habitat>grass</habitat>
 		<habitat>grass1</habitat>
 		<attack>1d59+170</attack>
