@@ -113,21 +113,6 @@
 		<downPCT>5</downPCT>
 	</seed>
 
-	<!-- 8 dense stone seeds -->
-<!-- 	<seed id="seedlavarock">
-		<type>lavarock</type>
-		<num>12</num>
-		<level>3d7+30</level>
-		<turns>20</turns>
-
-		<northPCT>6</northPCT>
-		<southPCT>6</southPCT>
-		<eastPCT>6</eastPCT>
-		<westPCT>6</westPCT>
-		<upPCT>1</upPCT>
-		<downPCT>5</downPCT>
-	</seed> -->
-
 	<!-- 8 iron seeds -->
 	<seed id="seediron">
 		<type>iron</type>
@@ -204,12 +189,12 @@
 		<downPCT>3</downPCT>
 	</seed>
 	
-	<!-- 1 jungle seed -->
+	<!-- Create Jungle in one corner, push borders out later -->
  	<seed id="seedjungle">
 		<type>jungle</type>
 		<num>1</num>
 		<level>22</level>
-		<turns>300</turns>
+		<turns>50</turns>
 		
 		<pointx>199</pointx>
 		<pointy>0</pointy>
@@ -219,18 +204,6 @@
 		<westPCT>100</westPCT>
 		<upPCT>0</upPCT>
 		<downPCT>0</downPCT>
-	</seed>
-		
-	<!-- 2 brownie village seeds -->
-	<seed id="seedbrownievillage">
-		<type>brownievillage</type>
-		<num>2</num>
-		<level>22</level>
-		<turns>15</turns>
-		<northPCT>35</northPCT>
-		<southPCT>35</southPCT>
-		<eastPCT>35</eastPCT>
-		<westPCT>35</westPCT>
 	</seed>
 	
 	<!-- river -->
@@ -437,7 +410,6 @@
 		<PCT>50</PCT>
 	</change>
 
-
 	<!-- Change all dirt tiles into lavarock tiles -->
 	<change id="waterpath1">
 		<source>dirt</source>
@@ -481,97 +453,6 @@
 		<heightMin>20</heightMin>
 		<heightMax>39</heightMax>
 	</change>
-	
-			<!-- Change all grass and jungle tiles into lavarock tiles -->
-<!-- 	<change id="surfacegrass">
-		<source>grass</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-	
-	<change id="surfacegrass1">
-		<source>grass1</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-
-	<change id="surfacegrass2">
-		<source>grass2</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-	
-		<change id="surfacegrass3">
-		<source>grass3</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-	
-		<change id="surfacegrass4">
-		<source>grassnoflower</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-	
-		<change id="surfacegrass5">
-		<source>grassnoflower1</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-	
-		<change id="surfacegrass6">
-		<source>grassnoflower2</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-
-	<change id="surfacejungle">
-		<source>jungle</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change>
-
-	<change id="surfacestone">
-		<source>stone</source>
-		<destination>lavarock</destination>
-		<terrain>lavarock</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-		<heightMin>1</heightMin>
-		<heightMax>20</heightMax>
-	</change> -->
 
 	<!-- Change some dirt tiles into lavarock tiles -->
 	<change id="changelavarock1">
@@ -646,17 +527,19 @@
 		<PCT>100</PCT>
 	</change>
 
-	<!-- Change Coal to Air when above ground -->
-<!-- 	<change id="coalair">
+	<!-- Change Coal/Gravel to Air when above ground -->
+	<change id="coalair">
 		<source>coal</source>
-		<destination>_AIR</destination>
+		<destination>sand</destination>
 		<terrain>_AIR</terrain>
 		<PCT>100</PCT>
-		<radius>4</radius>
+		<radius>4</radius>		
+		<heightMin>40</heightMin>
+		<heightMax>41</heightMax>
 	</change>
 	<change id="coalair5">
 		<source>coal</source>
-		<destination>dirt</destination>
+		<destination>_AIR</destination>
 		<terrain>_AIR</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
@@ -664,19 +547,22 @@
 	
 	<change id="gravelair">
 		<source>gravel</source>
-		<destination>_AIR</destination>
+		<destination>sand</destination>
 		<terrain>_AIR</terrain>
 		<PCT>100</PCT>
-		<radius>4</radius>
+		<radius>4</radius>		
+		<heightMin>40</heightMin>
+		<heightMax>41</heightMax>
 	</change>
 	<change id="gravelair5">
 		<source>gravel</source>
-		<destination>dirt</destination>
+		<destination>_AIR</destination>
 		<terrain>_AIR</terrain>
 		<PCT>100</PCT>
 		<radius>1</radius>
-	</change> -->
+	</change>
 
+	<!-- Change to sand when next to water -->
 	<change id="changesand">
 		<source>grass</source>
 		<destination>sand</destination>
@@ -685,87 +571,185 @@
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<!-- Begin jungle spread voodoo -->
+	<change id="changegrasstojungle">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt1">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle1">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt2">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle2">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt3">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle3">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt4">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle4">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt5">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle5">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt6">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle6">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt7">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle7">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt8">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle8">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
 
-	<change id="changejungledirt9">
-		<source>jungle</source>
-		<destination>grass</destination>
-		<terrain>grass</terrain>
+	<change id="changegrasstojungle9">
+		<source>grass</source>
+		<destination>jungle</destination>
+		<terrain>jungle</terrain>
 		<PCT>100</PCT>
 		<radius>15</radius>
 	</change>
+	
+	<change id="changegrass1tojungle">
+		<source>grass1</source>
+		<destination>junglefrog1</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changegrass1tojungle1">
+		<source>grass1</source>
+		<destination>junglefrog1</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+	
+	<change id="changegrass2tojungle">
+		<source>grass2</source>
+		<destination>junglefrog2</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changegrass2tojungle1">
+		<source>grass2</source>
+		<destination>junglefrog2</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+	
+	<change id="changegrass3tojungle">
+		<source>grass3</source>
+		<destination>junglefrog3</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changegrass3tojungle1">
+		<source>grass3</source>
+		<destination>junglefrog3</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+	
+	<change id="changegrassnoflower1tojungle">
+		<source>grassnoflower1</source>
+		<destination>junglefrog4</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changegrassnoflower1tojungle1">
+		<source>grassnoflower1</source>
+		<destination>junglefrog4</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+	
+	<change id="changegrassnoflower2tojungle">
+		<source>grassnoflower2</source>
+		<destination>junglefrog5</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changegrassnoflower2tojungle1">
+		<source>grassnoflower2</source>
+		<destination>junglefrog5</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+	
+	<change id="changegrassnoflower3tojungle">
+		<source>grassnoflower</source>
+		<destination>brownievillage</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+
+	<change id="changegrassnoflower3tojungle1">
+		<source>grassnoflower</source>
+		<destination>brownievillage</destination>
+		<terrain>jungle</terrain>
+		<PCT>100</PCT>
+		<radius>15</radius>
+	</change>
+	
 	<!-- mountain seeds -->
-<!-- 	<heightSeed id="heightseed1">
+	<heightSeed id="heightseed1">
 		<num>10</num>
 		<turns>25</turns>
 		<flatsBetweenLevels>1</flatsBetweenLevels>
@@ -794,195 +778,5 @@
 		<southPCT>45</southPCT>
 		<eastPCT>45</eastPCT>
 		<westPCT>45</westPCT>
-	</heightSeed> -->	
-	
-	<!-- Try and put more grass in that got deleted by jungle -->
-	<change id="re-seed1">
-		<source>grass</source>
-		<destination>grass2</destination>
-		<PCT>2</PCT>
-		<radius>1</radius>
-	</change>
-	
-	<change id="re-seed2">
-		<source>grass</source>
-		<destination>grass2</destination>
-		<terrain>grass2</terrain>
-		<PCT>10</PCT>
-		<radius>10</radius>
-	</change>
-	
-	<change id="re-seed3">
-		<source>grass</source>
-		<destination>grass1</destination>
-		<PCT>2</PCT>
-		<radius>1</radius>
-	</change>
-	
-	<change id="re-seed4">
-		<source>grass</source>
-		<destination>grass1</destination>
-		<terrain>grass1</terrain>
-		<PCT>10</PCT>
-		<radius>10</radius>
-	</change>	
-	
-	<change id="re-seed5">
-		<source>jungle</source>
-		<destination>junglefrog1</destination>
-		<PCT>5</PCT>
-		<radius>1</radius>
-	</change>
-	
-	<change id="re-seed6">
-		<source>jungle</source>
-		<destination>junglefrog1</destination>
-		<terrain>junglefrog1</terrain>
-		<PCT>10</PCT>
-		<radius>10</radius>
-	</change>
-	
-	<change id="re-seed7">
-		<source>jungle</source>
-		<destination>junglefrog2</destination>
-		<PCT>5</PCT>
-		<radius>1</radius>
-	</change>
-	
-	<change id="re-seed8">
-		<source>jungle</source>
-		<destination>junglefrog2</destination>
-		<terrain>junglefrog2</terrain>
-		<PCT>10</PCT>
-		<radius>10</radius>
-	</change>
-	
-	<change id="re-seed9">
-		<source>jungle</source>
-		<destination>junglefrog4</destination>
-		<PCT>5</PCT>
-		<radius>1</radius>
-	</change>
-	
-	<change id="re-seed10">
-		<source>jungle</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog4</terrain>
-		<PCT>10</PCT>
-		<radius>10</radius>
-	</change>
-
-	<!-- Change jungle tiles -->
-	<change id="changejunglefrog1">
-		<source>junglefrog1</source>
-		<destination>junglefrog3</destination>
-		<terrain>jungle</terrain>
-		<PCT>9</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog2">
-		<source>jungle</source>
-		<destination>junglefrog3</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog3">
-		<source>junglefrog1</source>
-		<destination>junglefrog3</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog4">
-		<source>junglefrog2</source>
-		<destination>junglefrog3</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog5">
-		<source>jungle</source>
-		<destination>junglefrog5</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog6">
-		<source>junglefrog2</source>
-		<destination>junglefrog5</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog7">
-		<source>junglefrog1</source>
-		<destination>junglefrog5</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog8">
-		<source>stone</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog9">
-		<source>sand</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog10">
-		<source>grass</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog3</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog11">
-		<source>junglefrog5</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog5</terrain>
-		<PCT>50</PCT>
-		<radius>1</radius>
-	</change>
-
-	<change id="changejunglefrog12">
-		<source>junglefrog5</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog5</terrain>
-		<PCT>50</PCT>
-		<radius>2</radius>
-	</change>
-
-	<change id="changejunglefrog13">
-		<source>junglefrog5</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog5</terrain>
-		<PCT>50</PCT>
-		<radius>3</radius>
-	</change>
-
-	<change id="changejunglefrog14">
-		<source>junglefrog5</source>
-		<destination>junglefrog4</destination>
-		<terrain>junglefrog5</terrain>
-		<PCT>100</PCT>
-		<radius>1</radius>
-	</change>
-
+	</heightSeed>
 </gen_map>
