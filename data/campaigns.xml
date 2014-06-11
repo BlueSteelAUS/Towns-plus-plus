@@ -138,13 +138,13 @@
 		<id>LittleMikey</id>
 		<name esES="Mapas de LittleMikey">LittleMikey's Maps</name>
 		<mission>
-			<id>Oasis</id>
-			<name esES="N/A">Oasis - Hard Map</name>
-		</mission>		
-		<mission>
 			<id>canyon2</id>
 			<name esES="N/A">Canyon - Easy Map</name>
 		</mission>
+		<mission>
+			<id>Oasis</id>
+			<name esES="N/A">Oasis - Hard Map</name>
+		</mission>		
 	</campaign>
 
 	<campaign>
