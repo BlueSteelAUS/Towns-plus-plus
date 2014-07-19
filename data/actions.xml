@@ -11230,6 +11230,78 @@
 	</action>
 
 
+	<!-- Terraforming -->
+	<action>
+		<id>qterragrass</id>
+
+		<priorityID>terrainchange</priorityID>
+
+		<queue>
+			<pick>rmmud,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<destroyitem />
+			<createItem>terragrass</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>qterrastone</id>
+
+		<priorityID>terrainchange</priorityID>
+
+		<queue>
+			<pick>rmstone,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<destroyitem />
+			<createItem>terrastone</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>qterrasand</id>
+
+		<priorityID>terrainchange</priorityID>
+
+		<queue>
+			<pick>rmsand,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<destroyitem />
+			<createItem>terrasand</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>qterradirt</id>
+
+		<priorityID>terrainchange</priorityID>
+
+		<queue>
+			<pick>rmmud,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<destroyitem />
+			<createItem>terradirt</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>qterrasnow</id>
+
+		<priorityID>terrainchange</priorityID>
+
+		<queue>
+			<pick>snowpile,snowbucket,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<destroyitem />
+			<createItem>terrasnow</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>qterrajungle</id>
+
+		<priorityID>terrainchange</priorityID>
+
+		<queue>
+			<pick>rmmud,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<destroyitem />
+			<pick>waterbucket</pick>
+			<destroyitem />
+			<createItem>terrajungle</createItem>
+		</queue>
+	</action>
+
+
+
 	<!-- /QUEUES -->
 
 	<!-- BlueSteel's Mod pack -->

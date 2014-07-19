@@ -927,5 +927,14 @@
 	</workbenches>
 	<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 </utils>
+	<terraforming name="Terraforming" esES="Terraforming" icon="ui_terraforming">
+		<item id="qterragrass" code="QUEUEANDPLACEAREA" parameter="qterragrass" />
+		<item id="qterrastone" code="QUEUEANDPLACEAREA" parameter="qterrastone" />
+		<item id="qterrasnow" code="QUEUEANDPLACEAREA" parameter="qterrasnow" />
+		<item id="qterrasand" code="QUEUEANDPLACEAREA" parameter="qterrasand" />
+		<item id="qterradirt" code="QUEUEANDPLACEAREA" parameter="qterradirt" />
+		<item id="qterrajungle" code="QUEUEANDPLACEAREA" parameter="qterrajungle" />
 
+		<item id="back" name="Back" esES="Atrás" code="BACK" icon="ui_back" />
+	</terraforming>
 </menu>

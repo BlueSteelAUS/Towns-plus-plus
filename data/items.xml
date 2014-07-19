@@ -11401,6 +11401,89 @@
 		<value>1500000</value>
 	</nuxcrown9>
 
+
+	<!-- Terraforming -->
+	<terragrass>
+		<name esES="Hierba">Grass</name>
+		<maxAge>1</maxAge>
+		<maxAgeTerrain>grass</maxAgeTerrain>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<blockFluids>true</blockFluids>
+		<alwaysOperative>false</alwaysOperative>
+	</terragrass>
+
+	<terrasand>
+		<name esES="Arena">Sand</name>
+		<maxAge>1</maxAge>
+		<maxAgeTerrain>sand</maxAgeTerrain>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<blockFluids>true</blockFluids>
+		<alwaysOperative>false</alwaysOperative>
+	</terrasand>
+
+	<terrajungle>
+		<name esES="Jungla">Jungle</name>
+		<maxAge>1</maxAge>
+		<maxAgeTerrain>jungle</maxAgeTerrain>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<blockFluids>true</blockFluids>
+		<alwaysOperative>false</alwaysOperative>
+	</terrajungle>
+
+	<terradirt>
+		<name esES="Tierra">Dirt</name>
+		<maxAge>1</maxAge>
+		<maxAgeTerrain>dirt</maxAgeTerrain>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<blockFluids>true</blockFluids>
+		<alwaysOperative>false</alwaysOperative>
+	</terradirt>
+
+	<terrasnow>
+		<name esES="Nieve">Snow</name>
+		<maxAge>1</maxAge>
+		<maxAgeTerrain>snow</maxAgeTerrain>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<blockFluids>true</blockFluids>
+		<alwaysOperative>false</alwaysOperative>
+	</terrasnow>
+
+	<terrastone>
+		<name esES="Piedra">Stone</name>
+		<maxAge>1</maxAge>
+		<maxAgeTerrain>stone</maxAgeTerrain>
+
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<glue>true</glue>
+		<base>true</base>
+		<wall>true</wall>
+		<blockFluids>true</blockFluids>
+		<alwaysOperative>false</alwaysOperative>
+	</terrastone>
+
+
+
+
 	<!-- BlueSteel's Mod pack -->
 	<dirtmine>
 		<name esES="Pozo minero de barro">Mud mineshaft</name>
