@@ -202,7 +202,7 @@
 					<blinkMinis>3dmouse</blinkMinis>
 				</flow>
 
-				<flow>
+				<flow> 
 					<!-- 3D mouse 2 -->
 					<title esES="Ratón 3D">3D mouse</title>
 					<text esES="Si quisieras limitar la designación en el nivel actual, puedes pulsar el icono del cursor 3D (o la tecla M) el cual, no sólo te limitara la construcción al nivel de la cámara, sino que también te indicará cuan alto estás del suelo.">If you wish to limit the designation to your level only, press the 3d cursor key (M) which will not only limit the cursor to the current layer, but will also tell you how high the cursor is from the ground.</text>
@@ -1295,16 +1295,16 @@
 
 	<campaign>
 		<id>BlueSteel</id>
-		<name>BlueSteel's Maps</name>
+		<name esES="BlueSteel's Maps">BlueSteel's Maps</name>
 		<mission>
 			<id>Normal</id>
 			<name esES="N/A">Normal: Press F1 when Game has started for Description and Instructions</name>
 			<text esES="N/A">All terrains, warepig, Froggys, Toadys, Treekeepers on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes. No Objective really. (objective only added so that you can read this text)</text>
-      <objective>
+			<objective>
 				<type>KILL</type>
 				<param1>spider</param1>
 				<param2>10000</param2>
-      </objective>
+			</objective>
 		</mission>
 	</campaign>
 
