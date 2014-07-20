@@ -1,4 +1,4 @@
-﻿[size=200][color=#0000FF]Towns++ v14c2 (for Towns v14c)[/color][/size]
+﻿[size=200][color=#0000FF]Towns++ v14d (for Towns v14d)[/color][/size]
 
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
@@ -7,6 +7,7 @@ Changes since Towns++_v14c
 ===========================
 BlueSteel's Contributions
 ===========================
+-> updated to work with Towns v14d
 -> Added in female skootenbeetons, unifallows, snoats, badgers and their associated farms
 -> All farms now need a male and a female of that animal to make
 -> Fixed some killing of farmed animals only , no wild animals should be being auto killed for production anymore
