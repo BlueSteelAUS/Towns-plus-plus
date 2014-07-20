@@ -24,12 +24,15 @@ ui*.png
 bury.png
 tutorial.png
 
+data/graphics/tutorial.png
+
 data/campaigns/c1/*/*gen_dungeons.*
 data/campaigns/c2/*/*gen_dungeons.*
 data/campaigns/c2/*/*gen_items.*
 data/campaigns/c2/*/*gen_map.*
 data/campaigns/c2/*/*save.*
 data/campaigns/c2/**
+data/campaigns/c2
 
 audio.ini
 Abattis Cantarell GPL License.txt
