@@ -2552,7 +2552,7 @@
 		<generatedItem>rawsteak</generatedItem>
 		<priorityID>butcheringkilling</priorityID>
 		<queue>
-			<pickFriendly useSource="true">sheep,femalesheep,skinnedsheep,wildsheep,wildfemalesheep,skinnedwildsheep,skinnedwildfemalesheep</pickFriendly>
+			<pickFriendly useSource="true">sheep,femalesheep,skinnedsheep,skinnedfemalesheep,wildsheep,wildfemalesheep,skinnedwildsheep,skinnedwildfemalesheep</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawsteak</createItem>
@@ -2610,7 +2610,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly useSource="true">skootenbeeten,femaleskootenbeeten,layedeggfemaleskooten,pluckedskootenbeeten,wildskootenbeeten,wildfemaleskootenbeeten,layedeggwildfemaleskooten,pluckedwildskootenbeeten</pickFriendly>
+			<pickFriendly useSource="true">skootenbeeten,femaleskootenbeeten,pluckedfemaleskootenbeeten,layedeggfemaleskooten,pluckedskootenbeeten,wildskootenbeeten,wildfemaleskootenbeeten,layedeggwildfemaleskooten,pluckedwildskootenbeeten</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpoultry</createItem>
@@ -2639,7 +2639,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pickFriendly>cow,milkedcow,femalesnoat,milkedfemalesnoat,skinnedfemalesnoat</pickFriendly>
+			<pickFriendly>bull,snoat</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2656,7 +2656,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pickFriendly>femalebadger</pickFriendly>
+			<pickFriendly>badger</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2673,7 +2673,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pickFriendly>femaleunifallow,milkedfemaleunifallow</pickFriendly>
+			<pickFriendly>unifallow</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -22265,7 +22265,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>cow,bull,wildbull,milkedcow,wildcow,milkedwildcow,snoat,milkedfemalesnoat,skinnedsnoat,skinnedmilkedfemalesnoat,wildsnoat,wildmilkedfemalesnoat,wildskinnedsnoat,skinnedmilkedwildfemalesnoat,reindeer,doe</pickFriendly>
+			<pickFriendly>cow,bull,wildbull,milkedcow,wildcow,milkedwildcow,snoat,milkedfemalesnoat,skinnedsnoat,skinnedmilkedfemalesnoat,wildsnoat,wildmilkedfemalesnoat,wildskinnedsnoat,skinnedmilkedwildfemalesnoat</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />

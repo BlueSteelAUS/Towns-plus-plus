@@ -5767,7 +5767,7 @@
 			<PCT>70</PCT>
 		</drop>
 		
-		<action>qcagefemalesheep</action>
+		<action>qcagesheep</action>
 	</femalesheep>
 
 	<skinnedfemalesheep>
@@ -5802,7 +5802,7 @@
 			<PCT>70</PCT>
 		</drop>
 		
-		<action>qcagefemalesheep</action>
+		<action>qcagesheep</action>
 	</skinnedfemalesheep>
 
 	<wildfemalesheep>
