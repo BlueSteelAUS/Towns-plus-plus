@@ -449,27 +449,16 @@
 				<item id="qbreedboar" code="QUEUE" parameter="qbreedboar" />
 				<item id="qbreedchicken" code="QUEUE" parameter="qbreedchicken" />
 				<item id="qbreedrooster" code="QUEUE" parameter="qbreedrooster" />
-				<item id="qbreedskootenbeeten" code="QUEUE" parameter="qbreedskootenbeeten" />
 				<item id="qbreedfemaleskootenbeeten" code="QUEUEANDPLACEAREA" parameter="qbreedfemaleskootenbeeten" />
-
-
-				<item id="qbreedunifallow" code="QUEUE" parameter="qbreedunifallow" />
+				<item id="qbreedskootenbeeten" code="QUEUE" parameter="qbreedskootenbeeten" />
 				<item id="qbreedfemaleunifallow" code="QUEUEANDPLACEAREA" parameter="qbreedfemaleunifallow" />
-
-
-				<item id="qbreedbadger" code="QUEUE" parameter="qbreedbadger" />
+				<item id="qbreedunifallow" code="QUEUE" parameter="qbreedunifallow" />
 				<item id="qbreedfemalebadger" code="QUEUEANDPLACEAREA" parameter="qbreedfemalebadger" />
-
-				<item id="qbreedsnoat" code="QUEUE" parameter="qbreedsnoat" />
+				<item id="qbreedbadger" code="QUEUE" parameter="qbreedbadger" />
 				<item id="qbreedfemalesnoat" code="QUEUEANDPLACEAREA" parameter="qbreedfemalesnoat" />
-
-
-				<item id="qbreedsheep" code="QUEUE" parameter="qbreedsheep" />
+				<item id="qbreedsnoat" code="QUEUE" parameter="qbreedsnoat" />
 				<item id="qbreedfemalesheep" code="QUEUEANDPLACEAREA" parameter="qbreedfemalesheep" />
-
-
-
-
+				<item id="qbreedsheep" code="QUEUE" parameter="qbreedsheep" />
 
 				<item id="qfishing" code="QUEUE" parameter="qfishing" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
