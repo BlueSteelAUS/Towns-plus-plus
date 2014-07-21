@@ -1298,15 +1298,26 @@
 		<name esES="BlueSteel's Maps">BlueSteel's Maps</name>
 		<mission>
 			<id>Normal</id>
-			<name esES="N/A">Normal: Press F1 when Game has started for Description and Instructions</name>
-			<text esES="N/A">All terrains, warepig, Froggys, Toadys, Treekeepers on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes. No Objective really. (objective only added so that you can read this text)</text>
-			<objective>
-				<type>KILL</type>
-				<param1>spider</param1>
-				<param2>10000</param2>
-			</objective>
+			<name esES="N/A">Islands, flat, mountians, lakes , river or any combination there of, Chosen at random when map is generated</name>
+			<tutorialFlow>
+				<flow>
+				<title esES="N/A">Welcome to one of Blue Steel AU's maps</title>
+				<text esES="N/A">All terrains, warepig, Froggys, Toadys, Treekeepers on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes. No Objective really. Just have fun</text>
+				<tile>jadeon</tile>
+				<orderedTriggers>false</orderedTriggers>
+					<triggers>
+						<trigger>
+							<type>WASD</type>
+						</trigger>
+					</triggers>
+				<nextMission></nextMission>
+				</flow>
+				<flow>
+				</flow>
+			</tutorialFlow>
 		</mission>
 	</campaign>
+
 
 	<campaign>
 		<id>LittleMikey</id>
@@ -1329,6 +1340,8 @@
 			<name esES="Mazmorras Profundas">Deep Dungeons - 40 levels underground!</name>
 		</mission>
 	</campaign>
+
+
 
 
 </campaigns>

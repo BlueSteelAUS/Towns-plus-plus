@@ -41,32 +41,6 @@
 		<item id="exumegraves" name="Exume graves" esES="N/A" code="CUSTOMACTION" parameter="del_grave,del_grave2,del_grave3,del_tomb,del_tomb2,del_mosstomb,del_mosstomb2,del_mosstomb3,del_lizardtomb,del_barbariantomb,del_elftomb,del_magetomb,del_knighttomb,del_sipstomb,del_vechstomb,del_maleroguetomb,del_femaleroguetomb,del_highlandertomb,del_dwarftomb,del_punchwoodtomb,del_herbalisttomb,del_santatomb" icon="ui_deletegraves" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</destruction>		
-	<terraforming name="Terraform" icon="dirt">
-		<item id="qterraformtodirt" name="To dirt" code="CUSTOMACTION" parameter="qterraformtodirt" icon="dirt" />
-		<item id="qterraformtograss" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss" icon="grass" />
-		<!--  	<item id="qterraformtograss1" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss1" icon="grass1" />
-	  	<item id="qterraformtograss2" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss2" icon="grass2" />
-	  	<item id="qterraformtograss3" name="To grass" code="CUSTOMACTION" parameter="qterraformtograss3" icon="grass3" /> -->
-		<item id="qterraformtograssnoflower" name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower" icon="grassnoflower" />
-		<item id="qterraformtograssnoflower1" name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower1" icon="grassnoflower1" />
-		<item id="qterraformtograssnoflower2" name="To grass" code="CUSTOMACTION" parameter="qterraformtograssnoflower2" icon="grassnoflower2" />
-		<item id="qterraformtofloatinggrass" name="To grass" code="CUSTOMACTION" parameter="qterraformtofloatinggrass" icon="floatinggrass" />
-		<item id="qterraformtojungle" name="To jungle" code="CUSTOMACTION" parameter="qterraformtojungle" icon="jungle" />
-		<item id="qterraformtosand" name="To sand" code="CUSTOMACTION" parameter="qterraformtosand" icon="sand" />
-		<item id="qterraformtostone" name="To stone" code="CUSTOMACTION" parameter="qterraformtostone" icon="stone" />
-		<item id="qterraformtosnow" name="To snow" code="CUSTOMACTION" parameter="qterraformtosnow" icon="snow" />
-		<item id="qterraformtogravel" name="To gravel" code="CUSTOMACTION" parameter="qterraformtogravel" icon="gravel" />
-		<item id="qterraformtodensestone" name="To densestone" code="CUSTOMACTION" parameter="qterraformtodensestone" icon="densestone" />
-		<item id="qterraformtodungeon3" name="To dungeon3" code="CUSTOMACTION" parameter="qterraformtodungeon3" icon="dungeon3" />
-		<item id="qterraformtocoal" name="To coal" code="CUSTOMACTION" parameter="qterraformtocoal" icon="coal" />
-		<item id="qterraformtoiron" name="To iron" code="CUSTOMACTION" parameter="qterraformtoiron" icon="iron" />
-		<item id="qterraformtocopper" name="To copper" code="CUSTOMACTION" parameter="qterraformtocopper" icon="copper" />
-		<item id="qterraformtosilver" name="To silver" code="CUSTOMACTION" parameter="qterraformtosilver" icon="silver" />
-		<item id="qterraformtogold" name="To gold" code="CUSTOMACTION" parameter="qterraformtogold" icon="gold" />
-		<item id="qterraformtolavarock" name="To lavarock" code="CUSTOMACTION" parameter="qterraformtolavarock" icon="lavarock" />
-		<!-- <item id="qterraformtolavadirt" name="To lavadirt" code="CUSTOMACTION" parameter="qterraformtolavadirt" icon="lavadirt" /> -->
-		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-	</terraforming>
 
 <!-- eventually be able to replenish trees/plants and animals in the wild for Designer cities/maps
 	<replenish>

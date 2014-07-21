@@ -11237,8 +11237,15 @@
 		<priorityID>terrainchange</priorityID>
 
 		<queue>
-			<pick>rmmud,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<pick>rmmud</pick>
 			<destroyitem />
+			<pick>rmmud</pick>
+			<destroyitem />
+			<pick>rmmud</pick>
+			<destroyitem />
+			<pick>rmmud</pick>
+			<destroyitem />
+			<wait>54</wait>
 			<createItem>terragrass</createItem>
 		</queue>
 	</action>
@@ -11248,8 +11255,15 @@
 		<priorityID>terrainchange</priorityID>
 
 		<queue>
-			<pick>rmstone,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<pick>rmstone</pick>
 			<destroyitem />
+			<pick>rmstone</pick>
+			<destroyitem />
+			<pick>rmstone</pick>
+			<destroyitem />
+			<pick>rmstone</pick>
+			<destroyitem />
+			<wait>54</wait>
 			<createItem>terrastone</createItem>
 		</queue>
 	</action>
@@ -11259,8 +11273,15 @@
 		<priorityID>terrainchange</priorityID>
 
 		<queue>
-			<pick>rmsand,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<pick>rmsand</pick>
 			<destroyitem />
+			<pick>rmsand</pick>
+			<destroyitem />
+			<pick>rmsand</pick>
+			<destroyitem />
+			<pick>rmsand</pick>
+			<destroyitem />
+			<wait>54</wait>
 			<createItem>terrasand</createItem>
 		</queue>
 	</action>
@@ -11270,8 +11291,15 @@
 		<priorityID>terrainchange</priorityID>
 
 		<queue>
-			<pick>rmmud,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<pick>rmmud</pick>
 			<destroyitem />
+			<pick>rmmud</pick>
+			<destroyitem />
+			<pick>rmmud</pick>
+			<destroyitem />
+			<pick>rmmud</pick>
+			<destroyitem />
+			<wait>54</wait>
 			<createItem>terradirt</createItem>
 		</queue>
 	</action>
@@ -11281,7 +11309,13 @@
 		<priorityID>terrainchange</priorityID>
 
 		<queue>
-			<pick>snowpile,snowbucket,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<pick>snowpile,snowbucket</pick>
+			<destroyitem />
+			<pick>snowpile,snowbucket</pick>
+			<destroyitem />
+			<pick>snowpile,snowbucket</pick>
+			<destroyitem />
+			<pick>snowpile,snowbucket</pick>
 			<destroyitem />
 			<createItem>terrasnow</createItem>
 		</queue>
@@ -11292,7 +11326,11 @@
 		<priorityID>terrainchange</priorityID>
 
 		<queue>
-			<pick>rmmud,spiderite,goblinite,greengel,redgel,bluegel</pick>
+			<pick>rmmud</pick>
+			<destroyitem />
+			<pick>waterbucket</pick>
+			<destroyitem />
+			<pick>rmmud</pick>
 			<destroyitem />
 			<pick>waterbucket</pick>
 			<destroyitem />
@@ -16389,7 +16427,7 @@
 			<pick>rmmud</pick>
 			<moveTerrain />
 			<destroyItem />
-			<pick>rmmud</pick>
+			<pick>waterbucket</pick>
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
@@ -16406,15 +16444,16 @@
 			<pick>rmmud</pick>
 			<moveTerrain />
 			<destroyItem />
+			<pick>waterbucket</pick>
+			<moveTerrain />
+			<destroyitem />
 			<pick>rmmud</pick>
 			<moveTerrain />
 			<destroyItem />
-			<pick>rmmud</pick>
+			<pick>waterbucket</pick>
 			<moveTerrain />
-			<destroyItem />
-			<pick>rmmud</pick>
+			<destroyitem />
 			<moveTerrain />
-			<destroyItem />
 			<wait>54</wait>
 			<moveTerrain />
 			<changeTerrain>jungle</changeTerrain>
@@ -16426,16 +16465,17 @@
 		<priorityID>terrainchange</priorityID>
 		<name esES="Des-arar">Turn to snow from</name>
 		<queue>
-			<pick>snowpile</pick>
+			<pick>rmmud</pick>
+			<destroyitem />
 			<moveTerrain />
-			<destroyItem />
-			<pick>snowpile</pick>
+			<pick>waterbucket</pick>
+			<destroyitem />
 			<moveTerrain />
-			<destroyItem />
-			<pick>snowpile</pick>
+			<pick>rmmud</pick>
+			<destroyitem />
 			<moveTerrain />
-			<destroyItem />
-			<pick>snowpile</pick>
+			<pick>waterbucket</pick>
+			<destroyitem />
 			<moveTerrain />
 			<destroyItem />
 			<wait>54</wait>
