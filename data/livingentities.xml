@@ -5109,6 +5109,40 @@
 		
 		<action>qcageskootenbeeten</action>
 	</pluckedskootenbeeten>
+
+	<pluckedfemaleskootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name>FemaleSkootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<maxAge>1d1440+1440</maxAge>
+		<maxAgeLiving>femaleskootenbeeten</maxAgeLiving>
+
+		<foodNeeded>wheat</foodNeeded>
+		<foodNeededTurns>2880</foodNeededTurns>
+		<foodNeededDieTurns>2880</foodNeededDieTurns>
+
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		
+		<action>qcageskootenbeeten</action>
+	</pluckedfemaleskootenbeeten>
 	
 	<pluckedwildskootenbeeten>
 		<type>FRIENDLY</type>

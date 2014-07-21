@@ -683,8 +683,8 @@
 			<item id="qbadgerhide" code="QUEUE" parameter="qbadgerhide" />
 			<item id="qunifallowhide" code="QUEUE" parameter="qunifallowhide" />
 			<item id="qskootenfeather" code="QUEUE" parameter="qskootenfeather" />
-			<item id="qtrimsheep" code="QUEUE" parameter="qtrimsheep" />
-			<item id="qtrimsnoat" code="QUEUE" parameter="qtrimsnoat" />
+			<item id="qtrimfemalesheep" code="QUEUE" parameter="qtrimfemalesheep" />
+			<item id="qtrimfemalesnoat" code="QUEUE" parameter="qtrimfemalesnoat" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</hides>
 

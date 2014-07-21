@@ -1467,11 +1467,11 @@
 
 		<queue>
 			<lock>shearingbench</lock>
-			<pickFriendly>sheep</pickFriendly>
+			<pickFriendly>femalesheep</pickFriendly>
 			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
-			<createFriendly>skinnedsheep</createFriendly>
+			<createFriendly>skinnedfemalesheep</createFriendly>
 			<createItem>wool</createItem>
 		</queue>
 	</action>
@@ -2639,7 +2639,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pickFriendly>cow,bull,milkedcow,snoat,femalesnoat,milkedfemalesnoat,skinnedsnoat,skinnedfemalesnoat</pickFriendly>
+			<pickFriendly>cow,milkedcow,femalesnoat,milkedfemalesnoat,skinnedfemalesnoat</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2656,7 +2656,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pickFriendly>badger</pickFriendly>
+			<pickFriendly>femalebadger</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2673,7 +2673,7 @@
 
 		<queue>
 			<lock>skinner</lock>
-			<pickFriendly>unifallow,femaleunifallow,milkedfemaleunifallow</pickFriendly>
+			<pickFriendly>femaleunifallow,milkedfemaleunifallow</pickFriendly>
 			<move>skinner</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -2690,12 +2690,12 @@
 
 		<queue>
 			<lock>newskootenbeetenfarm,emptyskootenbeetenfarm</lock>
-			<pickFriendly>skootenbeeten,femaleskootenbeeten,layedeggfemaleskooten</pickFriendly>
+			<pickFriendly>femaleskootenbeeten,layedeggfemaleskooten</pickFriendly>
 			<move>newskootenbeetenfarm,emptyskootenbeetenfarm</move>
 			<wait>32</wait>
 			<destroyFriendly />
 			<unlock />
-			<createFriendly>pluckedskootenbeeten</createFriendly>
+			<createFriendly>pluckedfemaleskootenbeeten</createFriendly>
 			<createItem>skootenfeather</createItem>
 		</queue>
 	</action>
