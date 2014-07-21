@@ -1796,6 +1796,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeItem>plantedbananatree</maxAgeItem>
 		<action>qcut</action>
+		<canBeUnlocked>false</canBeUnlocked>
 	</plantedbushbanana>
 
 	<plantedbananatree>
@@ -3362,6 +3363,10 @@
 		<description esES="Fácil de construir, fácil de romperse">Easy come, easy go</description>
 
 		<type>construction</type>
+
+		<maxAge>1d14400+14400</maxAge>
+		<maxAgeItem>decayingscaffold</maxAgeItem>
+
 		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
 		<zoneMergerUp>true</zoneMergerUp>
 		<glue>true</glue>
@@ -3371,6 +3376,22 @@
 		<alwaysOperative>false</alwaysOperative>
 		<value>0</value>
 	</scaffold>
+
+	<decayingscaffold>
+		<name esES="Andamio en mal estado">Decaying scaffold</name>
+		<description esES="No aguantará mucho más tiempo">Seems that its about to brake any time now</description>
+
+		<type>utils.misc</type>
+		<maxAge>1d2880+2880</maxAge>
+		<canBeBuiltOnHoles>true</canBeBuiltOnHoles>
+		<zoneMergerUp>true</zoneMergerUp>
+		<glue>true</glue>
+		<base>true</base>
+		<action>destroyscaffold</action>
+
+		<alwaysOperative>false</alwaysOperative>
+		<value>0</value>
+	</decayingscaffold>
 
 	<verticalladder>
 		<name esES="Escalera vertical">Vertical ladder</name>
@@ -6898,7 +6919,7 @@
 		<value>100</value>
 	</leatherogreitearmor>
 
-	<!--    /cloth armors	-->
+	<!--    cloth armors	-->
 
 	<ironarmor>
 		<level>5</level>
@@ -8394,7 +8415,7 @@
 	<shrine1>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "/> 
+		<description esES=" "> </description> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8422,7 +8443,7 @@
 	<shrine2>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "/> 
+		<description esES=" "> </description> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8451,7 +8472,7 @@
 	<shrine3>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "/> 
+		<description esES=" "> </description> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8479,7 +8500,7 @@
 	<shrine4>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "/> 
+		<description esES=" "> </description> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
@@ -8507,7 +8528,7 @@
 	<shrine5>
 		<name esES="Santuario">Shrine</name>
 		<description esES="Los cuatro pasos de la reencarnación">The four steps to reincarnations</description>
-		<description esES=" "/> 
+		<description esES=" "> </description> 
 		<description esES="Renuncia a una atadura terrenal">Renounce one's earthly bonds</description>
 		<description esES="Sepárate de la codicia">Detach from one's greed</description>
 		<description esES="Supera la gula">Overcome one's gluttony</description>
