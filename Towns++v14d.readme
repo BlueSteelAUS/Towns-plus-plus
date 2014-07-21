@@ -3,6 +3,21 @@
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
 [code]
+Known problems awaiting patches to Towns (already spoken to Xavi about them)
+
+Adding Terrain block: (in original called terraforming, renamed in towns++ to Terrain because of my own True Terraforming (actually converting the existing terrains not adding blocks of terrain)
+
+1. if you trying to fill in a hole with them and theres something in it,
+it'll go through the motions of placing the terrain block costing you those resources but the block
+you're trying to place just disapears.
+
+2. if you try to place it on water again it goes through the motions of doing everything but again won't place the terrain, it disapears.
+This is because you can't place things on water
+
+The Campaign menu(New Game): At the moment its not displaying the campaign names its a bug in towns v14d
+It still works and everything is still clickable and runable
+
+
 Changes since Towns++_v14c
 ===========================
 BlueSteel's Contributions
@@ -11,14 +26,13 @@ BlueSteel's Contributions
 -> Added in female skootenbeetons, unifallows, snoats, badgers and their associated farms
 -> All farms now need a male and a female of that animal to make
 -> Fixed some killing of farmed animals only , no wild animals should be being auto killed for production anymore
--> Only animals that don't provide milk, eggs (secondary products) will be queue butchered so magane your farms accordingly
-   (you can still butcher the others for skins, and manually for meat)
-   This is done so that your not killing your milking cows, and egg laying birds and wondering why your not getting those products anymore
-   It also gives you a reason to have the male animal farms apart from breeding
 -> Added all the wild female animals to the default maps and tweaked their numbers as there are now a lot more animals
-
+-> Female anumals that can produce like: milk, eggs, feathers, wool
+   are NOT auto butchered when auto producing like bones , hides or meat
+   As usual you can still kill them when right clicking them
+   It also gives you a reason to have the male / female animal farms apart from breeding
 NOTE: the changes to the animals in the game has changed a LOT, so there will probably be bugs. Please report them on the issue tracker so that we can fix them
-
+-> minor bug fixes and tweaks
 
 LittleMikey's Contributions:
 ============================
