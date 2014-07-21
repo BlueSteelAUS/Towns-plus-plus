@@ -4751,9 +4751,9 @@
 		<zone>zhospital</zone>
 		<zone>zbarracks</zone>
 		<value>102</value>
-		<action>rotate_woodenbed_W</action>
+<!--		<action>rotate_woodenbed_W</action>
 		<action>rotate_woodenbed_E</action>
-		<action>rotate_woodenbed_S</action>
+		<action>rotate_woodenbed_S</action>-->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_woodenbed</action>
