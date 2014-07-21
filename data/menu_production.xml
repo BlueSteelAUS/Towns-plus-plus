@@ -911,7 +911,6 @@
 		<item id="qbonecarver" code="QUEUE" parameter="qbonecarver" />
 		<item id="qtorch" code="QUEUE" parameter="qtorch" />
 		<item id="qwoodenbucket" code="QUEUE" parameter="qwoodenbucket" />
-		<item id="qwaterbucket" code="QUEUE" parameter="qwaterbucket" />
 		<item id="qemptybottle" code="QUEUE" parameter="qemptybottle" />
 		<item id="qpoisonbottle" code="QUEUE" parameter="qpoisonbottle" />
 		<item id="qrenewfire" code="QUEUE" parameter="qrenewfire" />
