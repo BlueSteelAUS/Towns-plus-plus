@@ -2415,6 +2415,38 @@
 		<action>qwildskootenfeather</action>
 	</wildskootenbeeten>
 
+	<wildfemaleskootenbeeten>
+		<type>FRIENDLY</type>
+
+		<name esES="Skootenbeeten salvaje">Wild skootenbeeten</name>
+		<habitat>jungle</habitat>
+		<attack>1d44+128</attack>
+		<attackSpeed>5</attackSpeed>
+		<defense>1d44+128</defense>
+		<healthPoints>1d44+128</healthPoints>
+		<attackVerb esES="da un picotazo">pecks</attackVerb>
+		<attackVerbInfinitive esES="dar un picotazo">peck</attackVerbInfinitive>
+		<damage>1d29+85</damage>
+
+		<movePCT>1d5+5</movePCT>
+		<walkSpeed>75</walkSpeed>
+
+		<action>qkillskootenbeeten</action>
+		<facingDirections>true</facingDirections>
+
+		<drop>
+			<item>rawpoultry</item>
+			<PCT>15</PCT>
+		</drop>
+		<drop>
+			<item>bones</item>
+			<PCT>75</PCT>
+		</drop>
+		
+		<action>qcageskootenbeeten</action>
+		<action>qwildskootenfeather</action>
+	</wildfemaleskootenbeeten>
+
 	<layedeggwildfemaleskooten>
 		<type>FRIENDLY</type>
 
