@@ -3,6 +3,11 @@
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
 [code]
+
+Thanks to all who helped test this mod prior to release to make it as bug free as possible,
+saying that there may still be some bugs, please report them as soon as you can and how to reproduce them
+Thankyou
+
 Known problems awaiting patches to Towns (already spoken to Xavi about them)
 
 Adding Terrain block: (in original called terraforming, renamed in towns++ to Terrain because of my own True Terraforming (actually converting the existing terrains not adding blocks of terrain)
@@ -32,6 +37,10 @@ BlueSteel's Contributions
    As usual you can still kill them when right clicking them
    It also gives you a reason to have the male / female animal farms apart from breeding
 NOTE: the changes to the animals in the game has changed a LOT, so there will probably be bugs. Please report them on the issue tracker so that we can fix them
+-> changed skootenbeetens diet , they now eat and require banana or blueradish to breed and keep tame alive
+-> changed snoats diet , they now eat and require snow cherrys to breed and keep tame alive
+-> Tweaked maps living / items generated
+-> Fixed anamil breeding in production menu and right clicking
 -> minor bug fixes and tweaks
 
 LittleMikey's Contributions:
