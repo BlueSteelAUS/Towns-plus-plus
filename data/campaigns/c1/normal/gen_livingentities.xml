@@ -128,11 +128,28 @@
 		<level>1d11</level>
 	</add>
 
+	<add id="wildfemalesnoat">
+		<entity>wildfemalesnoat</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	</gen_livingentities>
+
+	<add id="wildsnoat">
+		<entity>wildsnoat</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+	</gen_livingentities>
 
 
 <!-- Bad Guys -->
 
-
+<!--
 	<add id="werepig">
 		<entity>werepig</entity>
 		<qtty>1d2-1</qtty>
@@ -229,5 +246,5 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-
+-->
 </gen_livingentities>
