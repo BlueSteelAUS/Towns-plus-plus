@@ -243,5 +243,16 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
+
+	<add id="cactus">
+		<item>cactus</item>
+		<qtty>10</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+
+
 </gen_items>
 
