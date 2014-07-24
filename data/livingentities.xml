@@ -1419,7 +1419,7 @@
 			<PCT>70</PCT>
 		</drop>
 		
-		<action>qcageunifallow</action>
+		<action>qcagefemaleunifallow</action>
 		<action>qgetunifallowhide</action>
 	</milkedfemaleunifallow>
 
@@ -1476,7 +1476,7 @@
 		<facingDirections>true</facingDirections>
 
 		<maxAge>1d1440+1440</maxAge>
-		<maxAgeLiving>wildunifallow</maxAgeLiving>
+		<maxAgeLiving>wildfemaleunifallow</maxAgeLiving>
 
 		<drop>
 			<item>rawsteak</item>
@@ -1487,7 +1487,7 @@
 			<PCT>70</PCT>
 		</drop>
 		
-		<action>qcageunifallow</action>
+		<action>qcagefemaleunifallow</action>
 		<action>qgetunifallowhide</action>
 	</milkedwildfemaleunifallow>
 
@@ -2381,7 +2381,7 @@
 		<action>qcageskootenbeeten</action>
 	</skootenbeeten>
 
-	<layedeggfemaleskooten>
+	<layedeggfemaleskootenbeeten>
 		<type>FRIENDLY</type>
 
 		<name>Female Skootenbeeten</name>
@@ -2413,7 +2413,7 @@
 		</drop>
 		
 		<action>qcagefemaleskootenbeeten</action>
-	</layedeggfemaleskooten>
+	</layedeggfemaleskootenbeeten>
 
 	<wildskootenbeeten>
 		<type>FRIENDLY</type>
@@ -2475,11 +2475,11 @@
 			<PCT>75</PCT>
 		</drop>
 		
-		<action>qcageskootenbeeten</action>
-		<action>qwildskootenfeather</action>
+		<action>qcagefemaleskootenbeeten</action>
+		<action>qwildfemaleskootenfeather</action>
 	</wildfemaleskootenbeeten>
 
-	<layedeggwildfemaleskooten>
+	<layedeggwildfemaleskootenbeeten>
 		<type>FRIENDLY</type>
 
 		<name esES="Skootenbeeten salvaje">Wild female skootenbeeten</name>
@@ -2512,7 +2512,7 @@
 		
 		<action>qcagefemaleskootenbeeten</action>
 		<action>qwildfemaleskootenfeather</action>
-	</layedeggwildfemaleskooten>
+	</layedeggwildfemaleskootenbeeten>
 
 	<!-- ENEMIES -->
 

@@ -1442,7 +1442,7 @@
 		<queue>
 			<pickFriendly>femaleskootenbeeten</pickFriendly>
 			<wait>32</wait>
-			<createFriendly>layedeggfemaleskooten</createFriendly>
+			<createFriendly>layedeggfemaleskootenbeeten</createFriendly>
 			<createItem>egg</createItem>
 		</queue>
 	</action>
@@ -1455,7 +1455,7 @@
 		<queue>
 			<pickFriendly>wildfemaleskootenbeeten</pickFriendly>
 			<wait>32</wait>
-			<createFriendly>layedeggwildfemaleskooten</createFriendly>
+			<createFriendly>layedeggwildfemaleskootenbeeten</createFriendly>
 			<createItem>egg</createItem>
 		</queue>
 	</action>
@@ -2610,7 +2610,7 @@
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly useSource="true">skootenbeeten,femaleskootenbeeten,pluckedfemaleskootenbeeten,layedeggfemaleskooten,pluckedskootenbeeten,wildskootenbeeten,wildfemaleskootenbeeten,layedeggwildfemaleskooten,pluckedwildskootenbeeten</pickFriendly>
+			<pickFriendly useSource="true">skootenbeeten,femaleskootenbeeten,pluckedfemaleskootenbeeten,layedeggfemaleskootenbeeten,pluckedskootenbeeten,wildskootenbeeten,wildfemaleskootenbeeten,layedeggwildfemaleskootenbeeten,pluckedwildskootenbeeten</pickFriendly>
 			<wait>36</wait>
 			<destroyFriendly />
 			<createItem>rawpoultry</createItem>
@@ -2690,7 +2690,7 @@
 
 		<queue>
 			<lock>newskootenbeetenfarm,emptyskootenbeetenfarm</lock>
-			<pickFriendly>femaleskootenbeeten,layedeggfemaleskooten</pickFriendly>
+			<pickFriendly>femaleskootenbeeten,layedeggfemaleskootenbeeten</pickFriendly>
 			<move>newskootenbeetenfarm,emptyskootenbeetenfarm</move>
 			<wait>32</wait>
 			<destroyFriendly />
@@ -22236,7 +22236,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly useSource="true">skootenbeeten,layedeggfemaleskooten,pluckedskootenbeeten,wildskootenbeeten,wildfemaleskootenbeeten,layedeggwildfemaleskooten,pluckedwildskootenbeeten</pickFriendly>
+			<pickFriendly useSource="true">skootenbeeten,layedeggfemaleskootenbeeten,pluckedskootenbeeten,wildskootenbeeten,wildfemaleskootenbeeten,layedeggwildfemaleskootenbeeten,pluckedwildskootenbeeten</pickFriendly>
 			<wait>15</wait>
 			<destroyFriendly />
 			<createItem>skootenbeetenincage</createItem>
@@ -22306,17 +22306,17 @@
 
 
 	<action>
-		<id>qwildskootenfeather</id>
+		<id>qwildfemaleskootenfeather</id>
 
 		<priorityID>butcheringkilling</priorityID>
 
 		<queue>
-			<pickFriendly>wildskootenbeeten,layedeggwildfemaleskooten</pickFriendly>
+			<pickFriendly>wildfemaleskootenbeeten,layedeggwildfemaleskootenbeeten</pickFriendly>
 			<move>shearingbench</move>
 			<wait>32</wait>
 			<unlock />
 			<destroyFriendly />
-			<createFriendly>pluckedwildskootenbeeten</createFriendly>
+			<createFriendly>pluckedwildfemaleskootenbeeten</createFriendly>
 			<createItem>skootenfeather</createItem>
 		</queue>
 	</action>
@@ -25525,4 +25525,144 @@
 			<createItem>itewell</createItem>
 		</queue>
 	</action>
+	
+		<action>
+		<id>qcagefemalesheep</id>
+		<name esES="N/A">Cage</name>
+		<generatedItem>sheepincage</generatedItem>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">femalesheep,wildfemalesheep,skinnedfemalesheep,skinnedwildfemalesheep</pickFriendly>
+			<wait>15</wait>
+			<destroyFriendly />
+			<createItem>femalesheepincage</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qreleasefemalesheep</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">femalesheepincage</move>
+			<wait>1</wait>
+			<move useSource="true">femalesheepincage</move>
+			<destroyCellItem />
+			<createFriendly>femalesheep</createFriendly>
+		</queue>
+
+		<action>
+		<id>qcagefemalebadger</id>
+		<name esES="N/A">Cage</name>
+		<generatedItem>femalebadgerincage</generatedItem>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">femalebadger,wildfemalebadger</pickFriendly>
+			<wait>15</wait>
+			<destroyFriendly />
+			<createItem>femalebadgerincage</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qreleasefemalebadger</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">femalebadgerincage</move>
+			<wait>1</wait>
+			<move useSource="true">femalebadgerincage</move>
+			<destroyCellItem />
+			<createFriendly>femalebadger</createFriendly>
+		</queue>
+
+
+	</action>
+
+		<action>
+		<id>qcagefemalesnoat</id>
+		<name esES="N/A">Cage</name>
+		<generatedItem>snoatincage</generatedItem>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">femalesnoat,wildfemalesnoat,skinnedfemalesnoat,skinnedwildfemalesnoat</pickFriendly>
+			<wait>15</wait>
+			<destroyFriendly />
+			<createItem>femalesnoatincage</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qreleasefemalesnoat</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">femalesnoatincage</move>
+			<wait>1</wait>
+			<move useSource="true">femalesnoatincage</move>
+			<destroyCellItem />
+			<createFriendly>femalesnoat</createFriendly>
+		</queue>
+
+
+		<action>
+		<id>qcagefemaleunifallow</id>
+		<name esES="N/A">Cage</name>
+		<generatedItem>snoatincage</generatedItem>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">femaleunifallow,wildfemaleunifallow,milkedfemaleunifallow,milkedwildfemaleunifallow</pickFriendly>
+			<wait>15</wait>
+			<destroyFriendly />
+			<createItem>femaleunifallowincage</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qreleasefemaleunifallow</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">femaleunifallowincage</move>
+			<wait>1</wait>
+			<move useSource="true">femaleunifallowincage</move>
+			<destroyCellItem />
+			<createFriendly>femaleunifallow</createFriendly>
+		</queue>
+
+		<action>
+		<id>qcagefemaleskootenbeeten</id>
+		<name esES="N/A">Cage</name>
+		<generatedItem>skootenbeetenincage</generatedItem>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<pickFriendly useSource="true">femaleskootenbeeten,wildfemaleskootenbeeten,layedeggfemaleskootenbeeten,layedeggwildfemaleskootenbeeten,pluckedfemaleskootenbeeten,pluckedwildfemaleskootenbeeten</pickFriendly>
+			<wait>15</wait>
+			<destroyFriendly />
+			<createItem>femaleskootenbeetenincage</createItem>
+		</queue>
+	</action>
+
+	<action>
+		<id>qreleasefemaleskootenbeeten</id>
+		<name esES="Liberar">Release the</name>
+
+		<priorityID>itemconstruction</priorityID>
+		<queue>
+			<move useSource="true">femaleskootenbeetenincage</move>
+			<wait>1</wait>
+			<move useSource="true">femaleskootenbeetenincage</move>
+			<destroyCellItem />
+			<createFriendly>femaleskootenbeeten</createFriendly>
+		</queue>
+
 </actions>

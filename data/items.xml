@@ -21705,4 +21705,53 @@
 
 		<alwaysOperative>false</alwaysOperative>
 	</itewell>
+
+<!-- new female animals in cages -->
+
+
+	<femalebadgerincage>
+		<name esES="Tejón enjaulado">Female Badger in a cage</name>
+		<type>cagedanimals</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>qreleasefemalebadger</action>
+		<value>150</value>
+	</femalebadgerincage>
+
+	<femalesheepincage>
+		<name esES="Oveja enjaulada">Female Sheep in a cage</name>
+		<type>cagedanimals</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>qreleasefemalesheep</action>
+		<value>100</value>
+	</femalesheepincage>
+
+	<femaleskootenbeetenincage>
+		<name esES="Skootenbeeten enjaulado">Female Skootenbeeten in a cage</name>
+		<type>cagedanimals</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>qreleasefemaleskootenbeeten</action>
+		<value>300</value>
+	</femaleskootenbeetenincage>
+
+	<femalesnoatincage>
+		<name esES="Snoat enjaulado">Female Snoat in a cage</name>
+		<type>cagedanimals</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>qreleasefemalesnoat</action>
+		<value>250</value>
+	</femalesnoatincage>
+
+	<femaleunifallowincage>
+		<name esES="Unifallow enjaulado">Female Unifallow in a cage</name>
+		<type>cagedanimals</type>
+		<stackable>true</stackable>
+		<stackableSize>1</stackableSize>
+		<action>qreleasefemaleunifallow</action>
+		<value>300</value>
+	</femaleunifallowincage>
+
 </items>
