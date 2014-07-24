@@ -1650,7 +1650,7 @@
 			<item>bones</item>
 			<PCT>70</PCT>
 		</drop>
-		<foodNeeded>apple,pear,wheat</foodNeeded>
+		<foodNeeded>snowcherry</foodNeeded>
 
 		<action>qcagesnoat</action>
 		<action>qgetanimalhide</action>
@@ -1702,7 +1702,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>snoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
-		<foodNeeded>apple,pear,wheat</foodNeeded>
+		<foodNeeded>snowcherry</foodNeeded>
 
 		<action>qkillsnoat</action>
 
@@ -1765,7 +1765,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>snoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
-		<foodNeeded>apple,pear,wheat</foodNeeded>
+		<foodNeeded>snowcherry</foodNeeded>
 
 		<action>qkillsnoat</action>
 
@@ -1796,7 +1796,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>femalesnoat</maxAgeLiving>
 		<facingDirections>true</facingDirections>
-		<foodNeeded>apple,pear,wheat</foodNeeded>
+		<foodNeeded>snowcherry</foodNeeded>
 
 		<action>qkillsnoat</action>
 
@@ -2401,7 +2401,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>skootenbeeten</maxAgeLiving>
 
-		<foodNeeded>blueradish</foodNeeded>
+		<foodNeeded>blueradish,banana</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 
@@ -2435,7 +2435,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>femaleskootenbeeten</maxAgeLiving>
 
-		<foodNeeded>blueradish</foodNeeded>
+		<foodNeeded>blueradish,banana</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 
@@ -5129,7 +5129,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>skootenbeeten</maxAgeLiving>
 
-		<foodNeeded>wheat</foodNeeded>
+		<foodNeeded>blueradish,banana</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 
@@ -5163,7 +5163,7 @@
 		<maxAge>1d1440+1440</maxAge>
 		<maxAgeLiving>femaleskootenbeeten</maxAgeLiving>
 
-		<foodNeeded>wheat</foodNeeded>
+		<foodNeeded>blueradish,banana</foodNeeded>
 		<foodNeededTurns>2880</foodNeededTurns>
 		<foodNeededDieTurns>2880</foodNeededDieTurns>
 

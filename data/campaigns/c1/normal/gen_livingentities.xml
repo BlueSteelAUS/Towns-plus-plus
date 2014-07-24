@@ -104,6 +104,14 @@
 		<level>1d11</level>
 	</add>
 
+	<add id="wildsnoat">
+		<entity>wildsnoat</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
 	<add id="wildfemalesnoat">
 		<entity>wildfemalesnoat</entity>
 		<qtty>15</qtty>
@@ -128,26 +136,10 @@
 		<level>1d11</level>
 	</add>
 
-	<add id="wildfemalesnoat">
-		<entity>wildfemalesnoat</entity>
-		<qtty>15</qtty>
-		<pointx>1d200-1</pointx>
-		<pointy>1d200-1</pointy>
-		<level>1d11</level>
-	</add>
-
-	<add id="wildsnoat">
-		<entity>wildsnoat</entity>
-		<qtty>15</qtty>
-		<pointx>1d200-1</pointx>
-		<pointy>1d200-1</pointy>
-		<level>1d11</level>
-	</add>
-
 
 <!-- Bad Guys -->
 
-<!--
+
 	<add id="werepig">
 		<entity>werepig</entity>
 		<qtty>1d2-1</qtty>
@@ -159,7 +151,7 @@
 
 	<add id="froggy">
 		<entity>froggy</entity>
-		<qtty>5</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -175,7 +167,7 @@
 
 	<add id="campfroggy">
 		<entity>campfroggy</entity>
-		<qtty>5</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -199,7 +191,7 @@
 
 	<add id="browniebat">
 		<entity>browniebat</entity>
-		<qtty>5</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -207,7 +199,7 @@
 
 	<add id="browniehunter">
 		<entity>browniehunter</entity>
-		<qtty>5</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -215,7 +207,7 @@
 
 	<add id="browniewarrior">
 		<entity>browniewarrior</entity>
-		<qtty>5</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -223,7 +215,7 @@
 
 	<add id="blacksnakecrab">
 		<entity>blacksnakecrab</entity>
-		<qtty>5</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -231,7 +223,7 @@
 
 	<add id="yellowsnakecrab">
 		<entity>yellowsnakecrab</entity>
-		<qtty>5</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
@@ -244,5 +236,5 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
--->
+
 </gen_livingentities>

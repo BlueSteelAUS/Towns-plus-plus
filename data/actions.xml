@@ -18640,7 +18640,7 @@
 		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newskootenbeetenfarm</lock>
-			<pick>wheat</pick>
+			<pick>blueradish,banana</pick>
 			<move useSource="true">newskootenbeetenfarm</move>
 			<wait>15</wait>
 			<destroyItem />
@@ -18657,7 +18657,7 @@
 		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newfemaleskootenbeetenfarm</lock>
-			<pick>wheat</pick>
+			<pick>blueradish,banana</pick>
 			<move useSource="true">newfemaleskootenbeetenfarm</move>
 			<wait>15</wait>
 			<destroyItem />
@@ -18741,7 +18741,7 @@
 		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newsnoatfarm</lock>
-			<pick>apple,pear,wheat</pick>
+			<pick>snowcherry</pick>
 			<move useSource="true">newsnoatfarm</move>
 			<wait>15</wait>
 			<destroyItem />
@@ -18758,7 +18758,7 @@
 		<priorityID>gathering</priorityID>
 		<queue>
 			<lock>newfemalesnoatfarm</lock>
-			<pick>apple,pear,wheat</pick>
+			<pick>snowcherry</pick>
 			<move useSource="true">newfemalesnoatfarm</move>
 			<wait>15</wait>
 			<destroyItem />
