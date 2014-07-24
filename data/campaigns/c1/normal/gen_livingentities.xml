@@ -135,7 +135,6 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	</gen_livingentities>
 
 	<add id="wildsnoat">
 		<entity>wildsnoat</entity>
@@ -144,7 +143,6 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
-	</gen_livingentities>
 
 
 <!-- Bad Guys -->
