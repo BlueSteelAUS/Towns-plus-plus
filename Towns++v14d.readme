@@ -6,17 +6,17 @@
 
 Thanks to all who helped test this mod prior to release to make it as bug free as possible,
 saying that there may still be some bugs, please report them as soon as you can and how to reproduce them
-Thankyou
+Thank you
 
 Known problems awaiting patches to Towns (already spoken to Xavi about them)
 
 Adding Terrain block: (in original called terraforming, renamed in towns++ to Terrain because of my own True Terraforming (actually converting the existing terrains not adding blocks of terrain)
 
-1. if you trying to fill in a hole with them and theres something in it,
+1. if you trying to fill in a hole with them and there's something in it,
 it'll go through the motions of placing the terrain block costing you those resources but the block
-you're trying to place just disapears.
+you're trying to place just disappears.
 
-2. if you try to place it on water again it goes through the motions of doing everything but again won't place the terrain, it disapears.
+2. if you try to place it on water again it goes through the motions of doing everything but again won't place the terrain, it disappears.
 This is because you can't place things on water
 
 The Campaign menu(New Game): At the moment its not displaying the campaign names its a bug in towns v14d
@@ -28,19 +28,19 @@ Changes since Towns++_v14c
 BlueSteel's Contributions
 ===========================
 -> updated to work with Towns v14d
--> Added in female skootenbeetons, unifallows, snoats, badgers and their associated farms
+-> Added in female Skootenbeeten, Unifallows, Snoats, Badgers and their associated farms
 -> All farms now need a male and a female of that animal to make
--> Fixed some killing of farmed animals only , no wild animals should be being auto killed for production anymore
+-> Fixed some killing of farmed animals only , no wild animals should be being auto killed for production any more
 -> Added all the wild female animals to the default maps and tweaked their numbers as there are now a lot more animals
--> Female anumals that can produce like: milk, eggs, feathers, wool
+-> Female animals that can produce like: milk, eggs, feathers, wool
    are NOT auto butchered when auto producing like bones , hides or meat
    As usual you can still kill them when right clicking them
    It also gives you a reason to have the male / female animal farms apart from breeding
 NOTE: the changes to the animals in the game has changed a LOT, so there will probably be bugs. Please report them on the issue tracker so that we can fix them
--> changed skootenbeetens diet , they now eat and require banana or blueradish to breed and keep tame alive
--> changed snoats diet , they now eat and require snow cherrys to breed and keep tame alive
+-> changed Skootenbeeten diet, they now eat and require banana or blue radish to breed and keep tame alive
+-> changed Snoats diet, they now eat and require snow cherries to breed and keep tame alive
 -> Tweaked maps living / items generated
--> Fixed anamil breeding in production menu and right clicking
+-> Fixed animal breeding in production menu and right clicking
 -> minor bug fixes and tweaks
 
 LittleMikey's Contributions:
