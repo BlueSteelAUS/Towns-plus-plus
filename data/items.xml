@@ -2132,7 +2132,7 @@
 	<plantedjungletree>
 		<name esES="Árbol de jungla plantado">Planted jungle tree</name>
 		<habitat>junglehumus</habitat>
-		<spawn>jungle</spawn>
+		<spawn>plantedjunglebush</spawn>
 		<spawnMaxItems>2</spawnMaxItems>
 		<spawnTurns>1d1440</spawnTurns>
 		<action>qchopplantedjungletree</action>
