@@ -1266,7 +1266,6 @@
 
 	<campaign>
 		<id>c1</id>
-		<name esES="N/A">Default Maps</name>
 		<mission>
 			<id>normal</id>
 			<name esES="Mapa normal">Normal map</name>
@@ -1290,15 +1289,58 @@
 		<mission>
 			<id>mountains</id>
 			<name esES="Montañas">Mountains</name>
+		</mission>		
+		<mission>
+			<id>mountains</id>
+			<name esES=""></name>
+		</mission>		
+		<mission>
+			<id>canyon2</id>
+			<name esES="N/A">LittleMikey's Canyon - Easy Map</name>
+		</mission>
+		<mission>
+			<id>Oasis</id>
+			<name esES="N/A">LittleMikey's Oasis - Hard Map</name>
+		</mission>		
+		<mission>
+			<id>Oasis</id>
+			<name esES="N/A"></name>
+		</mission>		
+		<mission>
+			<id>BlueSteel</id>
+			<name esES="N/A">BlueSteel's Random Map: Islands, flat, mountians, lakes , river or any combination there of!</name>
+			<tutorialFlow>
+				<flow>
+				<title esES="N/A">Welcome to one of Blue Steel AU's maps</title>
+				<text esES="N/A">All terrains, warepig, Froggys, Toadys, Treekeepers on the surface, can be ocean,river(dried up, underground, normal),lakes or no lakes ,beaches, riverbanks, forests, up to 2 (snow covered) mountians, hills, platoes. No Objective really. Just have fun</text>
+				<tile>jadeon</tile>
+				<orderedTriggers>false</orderedTriggers>
+					<triggers>
+						<trigger>
+							<type>WASD</type>
+						</trigger>
+					</triggers>
+				<nextMission></nextMission>
+				</flow>
+				<flow>
+				</flow>
+			</tutorialFlow>
+		</mission>			
+		<mission>
+			<id>MikeHendi Deep Dungeons</id>
+			<name esES=""></name>
+		</mission>	
+		<mission>
+			<id>MikeHendi Deep Dungeons</id>
+			<name esES="Mazmorras Profundas">Normal + Deep Dungeons - 40 levels underground!</name>
 		</mission>
 	</campaign>
 
-	<campaign>
+<!-- 	<campaign>
 		<id>BlueSteel</id>
-		<name esES="BlueSteel's Maps">BlueSteel's Maps</name>
 		<mission>
 			<id>Normal</id>
-			<name esES="N/A">Islands, flat, mountians, lakes , river or any combination there of, Chosen at random when map is generated</name>
+			<name esES="N/A">BlueSteel's Random Map: Islands, flat, mountians, lakes , river or any combination there of!</name>
 			<tutorialFlow>
 				<flow>
 				<title esES="N/A">Welcome to one of Blue Steel AU's maps</title>
@@ -1316,10 +1358,14 @@
 				</flow>
 			</tutorialFlow>
 		</mission>
-	</campaign>
-
-
-	<campaign>
+	</campaign> -->
+<!-- 	<campaign>
+		<id>MikeHendi</id>
+		<mission>
+			<id>MikeHendi Deep Dungeons</id>
+			<name esES="Mazmorras Profundas">Deep Dungeons - 40 levels underground!</name>
+		</mission>
+	</campaign> --><!-- 	<campaign>
 		<id>LittleMikey</id>
 		<name esES="Mapas de LittleMikey">LittleMikey's Maps</name>
 		<mission>
@@ -1330,18 +1376,5 @@
 			<id>Oasis</id>
 			<name esES="N/A">Oasis - Hard Map</name>
 		</mission>		
-	</campaign>
-
-	<campaign>
-		<id>MikeHendi</id>
-		<name esES="Mapas de MikeHend">MikeHendi's Maps</name>
-		<mission>
-			<id>MikeHendi Deep Dungeons</id>
-			<name esES="Mazmorras Profundas">Deep Dungeons - 40 levels underground!</name>
-		</mission>
-	</campaign>
-
-
-
-
-</campaigns>
+	</campaign> -->
+	</campaigns>
