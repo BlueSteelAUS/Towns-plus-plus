@@ -40,4 +40,12 @@
 		<pointy>1d200-1</pointy>
 		<level>1d19</level>
 	</add>
+	
+	<add id="wildfemaleunifallow">
+		<entity>wildfemaleunifallow</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
 </gen_livingentities>

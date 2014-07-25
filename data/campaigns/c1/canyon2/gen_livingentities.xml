@@ -2,7 +2,7 @@
 <gen_livingentities>
 	<add id="wildcow">
 		<entity>wildcow</entity>
-		<qtty>35</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -10,7 +10,7 @@
 
 	<add id="wildsheep">
 		<entity>wildsheep</entity>
-		<qtty>35</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -26,7 +26,7 @@
 
 	<add id="wildpig">
 		<entity>wildpig</entity>
-		<qtty>25</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -34,7 +34,7 @@
 
 	<add id="wildboar">
 		<entity>wildboar</entity>
-		<qtty>25</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -42,7 +42,7 @@
 
 	<add id="wildskootenbeeten">
 		<entity>wildskootenbeeten</entity>
-		<qtty>10</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -50,14 +50,7 @@
 
 	<add id="bird">
 		<entity>bird</entity>
-		<qtty>50</qtty>
-		<pointx>1d200-1</pointx>
-		<pointy>1d200-1</pointy>
-		<level>1d21</level>
-	</add>
-	<add id="werepig">
-		<entity>werepig</entity>
-		<qtty>1d5</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -65,7 +58,7 @@
 
 	<add id="wildbadger">
 		<entity>wildbadger</entity>
-		<qtty>50</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -73,7 +66,7 @@
 
 	<add id="wildchicken">
 		<entity>wildchicken</entity>
-		<qtty>50</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -81,15 +74,84 @@
 
 	<add id="wildrooster">
 		<entity>wildrooster</entity>
-		<qtty>20</qtty>
+		<qtty>15</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
 	</add>
 
+	<add id="wildfemalesheep">
+		<entity>wildfemalesheep</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="wildfemaleskootenbeeten">
+		<entity>wildfemaleskootenbeeten</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="wildfemalebadger">
+		<entity>wildfemalebadger</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="wildsnoat">
+		<entity>wildsnoat</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="wildfemalesnoat">
+		<entity>wildfemalesnoat</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+<add id="wildunifallow">
+		<entity>wildunifallow</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+<add id="wildfemaleunifallow">
+		<entity>wildfemaleunifallow</entity>
+		<qtty>5</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+
+<!-- Bad Guys -->
+
+
+	<add id="werepig">
+		<entity>werepig</entity>
+		<qtty>1d2-1</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+
 	<add id="froggy">
 		<entity>froggy</entity>
-		<qtty>30</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -97,7 +159,79 @@
 
 	<add id="toady">
 		<entity>toady</entity>
-		<qtty>10</qtty>
+		<qtty>1</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="campfroggy">
+		<entity>campfroggy</entity>
+		<qtty>2</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="camptoady">
+		<entity>camptoady</entity>
+		<qtty>3</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="browniechief">
+		<entity>browniechief</entity>
+		<qtty>1</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="browniebat">
+		<entity>browniebat</entity>
+		<qtty>2</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="browniehunter">
+		<entity>browniehunter</entity>
+		<qtty>2</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="browniewarrior">
+		<entity>browniewarrior</entity>
+		<qtty>2</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="blacksnakecrab">
+		<entity>blacksnakecrab</entity>
+		<qtty>2</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="yellowsnakecrab">
+		<entity>yellowsnakecrab</entity>
+		<qtty>2</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d21</level>
+	</add>
+
+	<add id="yeti">
+		<entity>yeti</entity>
+		<qtty>1d2-1</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
