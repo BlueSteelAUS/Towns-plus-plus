@@ -25552,7 +25552,7 @@
 		<action>
 		<id>qcagefemalesheep</id>
 		<name esES="N/A">Cage</name>
-		<generatedItem>sheepincage</generatedItem>
+		<generatedItem>femalesheepincage</generatedItem>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly useSource="true">femalesheep,wildfemalesheep,skinnedfemalesheep,skinnedwildfemalesheep</pickFriendly>
@@ -25578,7 +25578,7 @@
 		<action>
 		<id>qcagefemalesnoat</id>
 		<name esES="N/A">Cage</name>
-		<generatedItem>snoatincage</generatedItem>
+		<generatedItem>femalesnoatincage</generatedItem>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly useSource="true">femalesnoat,wildfemalesnoat,skinnedfemalesnoat,skinnedwildfemalesnoat</pickFriendly>
@@ -25605,7 +25605,7 @@
 		<action>
 		<id>qcagefemaleskootenbeeten</id>
 		<name esES="N/A">Cage</name>
-		<generatedItem>skootenbeetenincage</generatedItem>
+		<generatedItem>femaleskootenbeetenincage</generatedItem>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
 			<pickFriendly useSource="true">femaleskootenbeeten,wildfemaleskootenbeeten,layedeggfemaleskootenbeeten,layedeggwildfemaleskootenbeeten,pluckedfemaleskootenbeeten,pluckedwildfemaleskootenbeeten</pickFriendly>
@@ -25631,10 +25631,10 @@
 		<action>
 		<id>qcagefemaleunifallow</id>
 		<name esES="N/A">Cage</name>
-		<generatedItem>snoatincage</generatedItem>
+		<generatedItem>femaleunifallowincage</generatedItem>
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<pickFriendly useSource="true">femaleunifallow,wildfemaleunifallow,milkedfemaleunifallow,milkedwildfemaleunifallow</pickFriendly>
+			<pickFriendly ueseSource="true">femaleunifallow,wildfemaleunifallow,milkedfemaleunifallow,milkedwildfemaleunifallow</pickFriendly>
 			<wait>15</wait>
 			<destroyFriendly />
 			<createItem>femaleunifallowincage</createItem>

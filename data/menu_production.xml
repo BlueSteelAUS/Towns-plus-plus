@@ -465,17 +465,22 @@
 			</breeding>
 
 			<cages name="Caged Animals" esES="N/A" icon="chickenincage">
+				<item id="qcagefemalebadger" code="QUEUE" parameter="qcagefemalebadger" />
+				<item id="qcagebadger" code="QUEUE" parameter="qcagebadger" />
+				<item id="qcagechicken" code="QUEUE" parameter="qcagechicken" />
+				<item id="qcagerooster" code="QUEUE" parameter="qcagerooster" />
 				<item id="qcagecow" code="QUEUE" parameter="qcagecow" />
 				<item id="qcagebull" code="QUEUE" parameter="qcagebull" />
 				<item id="qcagepig" code="QUEUE" parameter="qcagepig" />
 				<item id="qcageboar" code="QUEUE" parameter="qcageboar" />
-				<item id="qcagechicken" code="QUEUE" parameter="qcagechicken" />
-				<item id="qcagerooster" code="QUEUE" parameter="qcagerooster" />
-				<item id="qcageskootenbeeten" code="QUEUE" parameter="qcageskootenbeeten" />
-				<item id="qcageunifallow" code="QUEUE" parameter="qcageunifallow" />
-				<item id="qcagebadger" code="QUEUE" parameter="qcagebadger" />
-				<item id="qcagesnoat" code="QUEUE" parameter="qcagesnoat" />
+				<item id="qcagefemalesheep" code="QUEUE" parameter="qcagefemalesheep" />
 				<item id="qcagesheep" code="QUEUE" parameter="qcagesheep" />
+				<item id="qcagefemaleskootenbeeten" code="QUEUE" parameter="qcagefemaleskootenbeeten" />
+				<item id="qcageskootenbeeten" code="QUEUE" parameter="qcageskootenbeeten" />
+				<item id="qcagefemalesnoat" code="QUEUE" parameter="qcagefemalesnoat" />
+				<item id="qcagesnoat" code="QUEUE" parameter="qcagesnoat" />
+				<item id="qcagefemaleunifallow" code="QUEUE" parameter="qcagefemaleunifallow" />
+				<item id="qcageunifallow" code="QUEUE" parameter="qcageunifallow" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</cages>
 

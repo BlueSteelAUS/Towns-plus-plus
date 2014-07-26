@@ -1458,7 +1458,7 @@
 	<milkedwildfemaleunifallow>
 		<type>FRIENDLY</type>
 
-		<name esES="Unifallow salvaje">Wild unifallow</name>
+		<name esES="Unifallow salvaje">Wild Female unifallow</name>
 		<habitat>sand</habitat>
 		<attack>1d59+170</attack>
 		<attackSpeed>5</attackSpeed>
