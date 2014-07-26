@@ -302,6 +302,7 @@
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
+		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -330,6 +331,7 @@
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
+		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -358,6 +360,7 @@
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
+		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -386,6 +389,7 @@
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
+		<action>qtilljungle</action>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
 		<action>qterraformtograssnoflower</action>
@@ -413,6 +417,7 @@
 		<drop>rmmud</drop>
 		<dropPCT>50</dropPCT>
 		<ladderItem>dirtladder</ladderItem>
+		<action>qtilljungle</action>
 		<mineTurns>7</mineTurns>
 		<action>qterraformtodirt</action>
 		<action>qterraformtograss</action>
