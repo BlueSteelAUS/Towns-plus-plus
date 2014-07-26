@@ -151,7 +151,7 @@
 
 	<add id="froggy">
 		<entity>froggy</entity>
-		<qtty>2</qtty>
+		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -159,7 +159,7 @@
 
 	<add id="toady">
 		<entity>toady</entity>
-		<qtty>1</qtty>
+		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -167,7 +167,7 @@
 
 	<add id="campfroggy">
 		<entity>campfroggy</entity>
-		<qtty>2</qtty>
+		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -175,7 +175,7 @@
 
 	<add id="camptoady">
 		<entity>camptoady</entity>
-		<qtty>3</qtty>
+		<qtty>10</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -183,7 +183,7 @@
 
 	<add id="browniechief">
 		<entity>browniechief</entity>
-		<qtty>1</qtty>
+		<qtty>2</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -199,7 +199,7 @@
 
 	<add id="browniehunter">
 		<entity>browniehunter</entity>
-		<qtty>2</qtty>
+		<qtty>4</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -207,7 +207,7 @@
 
 	<add id="browniewarrior">
 		<entity>browniewarrior</entity>
-		<qtty>2</qtty>
+		<qtty>4</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
@@ -224,14 +224,6 @@
 	<add id="yellowsnakecrab">
 		<entity>yellowsnakecrab</entity>
 		<qtty>2</qtty>
-		<pointx>1d200-1</pointx>
-		<pointy>1d200-1</pointy>
-		<level>1d21</level>
-	</add>
-
-	<add id="yeti">
-		<entity>yeti</entity>
-		<qtty>1d2-1</qtty>
 		<pointx>1d200-1</pointx>
 		<pointy>1d200-1</pointy>
 		<level>1d21</level>
