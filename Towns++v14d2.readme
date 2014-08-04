@@ -15,21 +15,16 @@ This is because you can't place things on water
 The Campaign menu(New Game): At the moment its not displaying the campaign names its a bug in towns v14d
 It still works and everything is still clickable and runable
 
-Changes since Towns++_v14c
+Changes since Towns++_v14d2
 ===========================
 BlueSteel's Contributions
 ===========================
--> added caged female animals to production menu
-(need to get new graphics for them , currently using same as male)
--> fixed graphics for caged female sheep
--> minor bug fixes and tweaks
--> edited readme to addin and re-organise what the Towns++ mod actually provides/changes
--> fixed missing graphics for milkedfemaleunifallow and layedeggskootenbeeten
+->Fixed missing Skootenbeeten graphics
 
 LittleMikey's Contributions:
 ============================
--> fixed tilling of jungle tiles
--> canyon map tweaks to livingentities
+-> Fixed slight graphical glitch with log bridges. 
+
 [/code]
 
 To install:
@@ -228,6 +223,22 @@ Tidy up the XML files and make them more uniformly organized for easier editing
 change logs
 ===========
 [spoiler]
+Changes since Towns++_v14d
+===========================
+BlueSteel's Contributions
+===========================
+-> added caged female animals to production menu
+(need to get new graphics for them , currently using same as male)
+-> fixed graphics for caged female sheep
+-> minor bug fixes and tweaks
+-> edited readme to addin and re-organise what the Towns++ mod actually provides/changes
+-> fixed missing graphics for milkedfemaleunifallow and layedeggskootenbeeten
+
+LittleMikey's Contributions:
+============================
+-> fixed tilling of jungle tiles
+-> canyon map tweaks to livingentities
+
 Changes since Towns++_v14c
 ===========================
 BlueSteel's Contributions
