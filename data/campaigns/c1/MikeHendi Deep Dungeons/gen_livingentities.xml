@@ -103,4 +103,61 @@
 		<pointy>1d200-1</pointy>
 		<level>1d11</level>
 	</add>
+
+	<add id="wildfemalesheep">
+		<entity>wildfemalesheep</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add id="wildfemaleskootenbeeten">
+		<entity>wildfemaleskootenbeeten</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add id="wildfemalebadger">
+		<entity>wildfemalebadger</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add id="wildsnoat">
+		<entity>wildsnoat</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+	<add id="wildfemalesnoat">
+		<entity>wildfemalesnoat</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+<add id="wildunifallow">
+		<entity>wildunifallow</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
+<add id="wildfemaleunifallow">
+		<entity>wildfemaleunifallow</entity>
+		<qtty>15</qtty>
+		<pointx>1d200-1</pointx>
+		<pointy>1d200-1</pointy>
+		<level>1d11</level>
+	</add>
+
 </gen_livingentities>
