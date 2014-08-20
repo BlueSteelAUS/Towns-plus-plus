@@ -13204,7 +13204,7 @@
 		<name esES="N/A">Female Skootenbeeten Barn</name>
 		<description esES="¡Cuidado con la cabeza!">Watch your head!</description>
 
-		<action>qbreedfemaleskeetenbeeten</action>
+		<action>qbreedfemaleskootenbeeten</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
 		<action>del_femaleskootenbeetenfarm</action>
