@@ -1,4 +1,4 @@
-﻿[size=200][color=#0000FF]Towns++ v14d2 (for Towns v14d)[/color][/size]
+﻿[size=200][color=#0000FF]Towns++ v14e (for Towns v14e)[/color][/size]
 
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
 
@@ -19,11 +19,14 @@ Changes since Towns++_v14d2
 ===========================
 BlueSteel's Contributions
 ===========================
-->Fixed missing Skootenbeeten graphics
+-> Fixed missing Skootenbeeten graphics
+-> Fixed missing female animals on deep dungeon map
+-> Updated to 14e
+
 
 LittleMikey's Contributions:
 ============================
--> Fixed slight graphical glitch with log bridges. 
+-> Fixed slight graphical glitch with log bridges.
 
 [/code]
 
@@ -37,7 +40,7 @@ To install:
 
 [quote]
 Stable Downloads:
--> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/14d2.zip
+-> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/14e.zip
 -> http://townsmods.net/projects/view/58
 
 Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
