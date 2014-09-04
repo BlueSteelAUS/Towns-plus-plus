@@ -9,10 +9,10 @@
 	<item id="till" name="Till" esES="Arar" code="CUSTOMACTION" parameter="qtill,qtilljungle,qtillsand,qtillsnow" icon="ui_till" />
 	<item id="qscaffold" code="QUEUEANDPLACEAREA" parameter="qscaffold" />
 <!--	<item id="unlock" name="Unlock Selected" EsES="N/A" code="CUSTOMACTION" parameter="unlockselected" icon="ui_cancel" /> -->
-		
 
 
 	<stockpiles name="Stockpiles" esES="Pilas" icon="ui_stockpile">
+<!--		<item id="Everything" name="Everything" esES="N/A" code="STOCKPILE" parameter="rawmaterials,rawfood,prepfood,utils,furnature,ites,armor,weapon,decorative,construction,cagedanimals,script" icon="ui_srawmaterials" /> -->
 		<item id="rawmaterials" name="Raw materials" esES="Materia prima" code="STOCKPILE" parameter="rawmaterials" icon="ui_srawmaterials" />
 		<item id="rawfood" name="Raw food" esES="Comida cruda" code="STOCKPILE" parameter="rawfood" icon="ui_srawfood" />
 		<item id="prepfood" name="Prepared food" esES="Comida preparada" code="STOCKPILE" parameter="prepfood" icon="ui_sprepfood" />
@@ -26,9 +26,10 @@
 		<item id="animal" name="Caged Animals" esES="N/A" code="STOCKPILE" parameter="cagedanimals" icon="ui_cagedanimals" />
 		<item id="script" name="Books and Scrolls" code="STOCKPILE" parameter="script" icon="ui_script" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-
 	</stockpiles>
+
 	<item id="cancelorder" name="Cancel order" esES="Cancelar orden" code="CANCELORDER" icon="ui_cancel" />
+
 	<destruction name="Destruction" icon="fireball">
 		<item id="destroyscaffold" name="Destroy Scaffolding" code="CUSTOMACTION" parameter="destroyscaffold" icon="ui_destroyscaffold"/>
 		<item id="untill" name="Un-Till" esES="Des-arar" code="CUSTOMACTION" parameter="quntillgrass,quntilljungle,quntillsand,quntillsnow" icon="ui_untill" />
@@ -40,7 +41,7 @@
 		<item id="removeroads" name="Remove roads" esES="N/A" code="CUSTOMACTION" parameter="del_woodenroadtile,del_stoneroadtile,del_pavementroadtile,del_redpavementroadtile,del_whitepavementroadtile,del_greenpavementroadtile,del_bluepavementroadtile,del_purplepavementroadtile,del_orangepavementroadtile,del_yellowpavementroadtile,del_greenroadtile,del_redroadtile,del_blueroadtile" icon="ui_deleteroads" />
 		<item id="exumegraves" name="Exume graves" esES="N/A" code="CUSTOMACTION" parameter="del_grave,del_grave2,del_grave3,del_tomb,del_tomb2,del_mosstomb,del_mosstomb2,del_mosstomb3,del_lizardtomb,del_barbariantomb,del_elftomb,del_magetomb,del_knighttomb,del_sipstomb,del_vechstomb,del_maleroguetomb,del_femaleroguetomb,del_highlandertomb,del_dwarftomb,del_punchwoodtomb,del_herbalisttomb,del_santatomb" icon="ui_deletegraves" />
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-	</destruction>		
+	</destruction>
 
 <!-- eventually be able to replenish trees/plants and animals in the wild for Designer cities/maps
 	<replenish>
