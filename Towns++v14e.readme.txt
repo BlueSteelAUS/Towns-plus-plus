@@ -4,33 +4,22 @@
 
 [code]
 Known problems awaiting patches to Towns (already spoken to Xavi about them)
+=========================================
+1. If you trying to fill in a hole with them and there's something in it, it'll go through the motions of placing the terrain block costing you those resources but the block you're trying to place just disappears.
+2. If you try to place it on water again it goes through the motions of doing everything but again won't place the terrain, it disappears. This is because you can't place things on water
+3. The Campaign menu(New Game): At the moment its not displaying the campaign names its a bug in towns v14d It still works and everything is still clickable and runable
+4. Not sure how to or if its possible to add item views for in half block mode
+5. Auto Production level of Animals: needs countable stock of animals (which at the time of implimentation of this part of the mod was/is on the drwawing board. So I pre-empted the changes to the farming system)
 
-Adding Terrain block: (in original called terraforming, renamed in towns++ to Terrain because of my own True Terraforming (actually converting the existing terrains not adding blocks of terrain)
-1. if you trying to fill in a hole with them and there's something in it,
-it'll go through the motions of placing the terrain block costing you those resources but the block
-you're trying to place just disappears.
-2. if you try to place it on water again it goes through the motions of doing everything but again won't place the terrain, it disappears.
-This is because you can't place things on water
-
-The Campaign menu(New Game): At the moment its not displaying the campaign names its a bug in towns v14d
-It still works and everything is still clickable and runable
-
-Changes since Towns++_v14d2
+Changes since Towns++_v14e
 ===========================
 BlueSteel's Contributions
 ===========================
--> Fixed missing Skootenbeeten graphics
--> Fixed missing female animals on deep dungeon map
--> Updated to 14e
-
-
-LittleMikey's Contributions:
-============================
--> Fixed slight graphical glitch with log bridges.
+->updated readme and ToDoList
 
 [/code]
 
-To install:
+To Install:
 ============
 1. Backup your Towns Folder/Directory. This is usually C:\Program Files (x86)\Steam\SteamApps\common\towns
    if you installed the game through Steam. (I'm not responsible for any losses or damages)
@@ -40,16 +29,26 @@ To install:
 
 [quote]
 Stable Downloads:
+=================
 -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/14e.zip
--> http://townsmods.net/projects/view/58
+-> http://townsmods.net/projects/view/101
+-> http://www.nexusmods.com/towns/mods/3/?
 
-Unstable Download -> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
+Unstable Download:
+==================
 NOTE: the unstable Download is always in a state of flux you take your changes with the absolute latest under development version of the Towns++
 
+-> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/master.zip
+
+Towns++ Media
+=============
 My Live streaming is at http://www.twitch.tv/bluesteelaus
-My YouTube play list for Towns : http://www.youtube.com/playlist?list=PL388A502D490AE834
+My YouTube play list for Towns++ : http://www.youtube.com/playlist?list=PL388A502D490AE834
 
 Neen's Towns lets play , using this mod: http://www.youtube.com/watch?v=ZjWw0eiQpZc
+
+Another Twitch streamer that has Streamed Towns++ mod games is
+p00bles http://www.twitch.tv/p00bles
 
 More videos and live streams will be done as time permits
 [/quote]
@@ -77,8 +76,7 @@ Adds a lot more Stairs, Furniture, Walls, Decorations, Workshops, Food, Items, W
  Monsters, maps, flowers, statues, flags ... the list goes on and on.
 (Basically adds a ton of stuff to the game)
 
-
-I see you might be a little confused. what I've done is taken workshops and added
+I see you might be a little confused. What I've done is taken workshops and added
 each as a building in the buildings menu, placing the appropriate zone in that
 building along with its utilities into a sub menu for that type of workshop (room or building).
 This provides quick and easy access to what your trying to build and furnish all in the one menu.
@@ -100,8 +98,9 @@ to SELL them to markets as they are interested in buying (Still being worked on)
 Farms have been converted from buildings to items, like the carpentry bench.
 Currently you can control production from the left hand menu,
 however the game does not count living creatures at the moment.
-If you set any production maximum above 1 they will automatically produce more animals,
-it continue doing so until you turn it back to 0. resources permitting
+If you set any production with the right arrow maximum above 1 they will automatically produce more animals,
+It continue doing so until you turn it back to 0. resources permitting
+Using the left Arrow should produce a set amount then stop producing
 
 In order to construct the new farms you need a male and a female of the animal you want
 to farm (or two of animals with only one gender) and some wood. In order to produce
@@ -133,6 +132,7 @@ Changed the Font to use Metamorphous size 18 for easier reading (license include
 
 Added in Terraforming (on the right menu.)
 Terraforming and terrain blocks require 4 of the resouce gathered from that terrain type to convert/build it.
+(as of Towns v14d you can now add terrain blocks which i've remaned from terrraforming to add terrain , to distinguish from my terraforming which changes the existing terrain thats there)
 
 Nearly all item placement (right menu) is now set to QUEUEANDPLACEAREA/CREATEANDPLACEAREA
 this makes the game more accessible to disabled people like myself,
@@ -150,22 +150,32 @@ Crops will cycle if not harvested in time, eg: wheat will go back to seed if not
 
 Remember
 ========
-The right menu is for building and placing. 
+The right menu is for building and placing.
 
 The left menu is for building and storing.
 NOTE: Not all items can be pre-built eg: things that activate straight away like campfires)
 The bottom menu is the action menu.
 
-This is a big mod (getting smaller though as the developers add more stuff into the game)
-there are a total of 21+ files edited and extended, also several new files. There are so many
-changes in them (with both the layout/ordering) that at the moment i don't think that
+This is a big mod (Fluctuating in size every release as the developers add more
+stuff into the game similar to that i've added and removed when they've implimented
+the same or similar changes to keep gameplay balanced and as true where possible
+to the vanilla for easier implimentation of others mods using modloader,
+Note: your experience of using a mod nod sesigned on Towns++ mod will vary dramatically or even fail)
+
+There are a total of 21+ files edited and extended, also several new files.
+There are so many changes in them (with both the layout/ordering) that at the moment I don't think that
 there is a modloader out there that can handle everything that I can do for the same effect
-this means that this modpack is basically a standalone modpack. I'm always on the lookout
-for others mods to add into my modpack (credit is and will be given to others works I
-include with their permission of course. So, if you'd like me to try to combine others
-mods into my modpack contact the authors of that mod and get them to contact me expressing
-their interest / permission. Note: the mods may have to be tweaked so that they work and play
-well with what i already have.
+this means that this modpack is basically a standalone modpack.
+
+I'm always on the lookout for others Ideas to add into my modpack
+(credit is and will be given to others works Iinclude with their permission of course.
+So, if you'd like me to try to combine others mods into my modpack contact the authors
+of that mod and get them to contact me expressing their interest / permission.
+Note: the mods may have to be tweaked so that they work and play well with what's already in Towns++.
+
+You can also Write your Own Mods to modify Towns++, Just make sure that people
+know that they'll need Towns++ installed to use your Modloader compatable mod.
+I'm Not Responsable If they don't work or break, It'll be up to those Modwriters to keep them up to date with any changes made to Towns++
 
 Permissions to include their work received from:
 ================================================
@@ -174,7 +184,7 @@ Kasdar
 JackPS9
 YetiChow
 Cobalt262
-ericb1800          
+ericb1800
 FONDZ
 Ricky
 RedValkyrie
@@ -190,13 +200,16 @@ Just because I have permission doesn't mean that I have any of their work in my 
 
 Meet the team
 =============
-Some members on the Towns forum have asked me if they can help me they are
--> LittleMikey
+Some members on the Towns forum have asked me if they can help me and that I have
+accepted these people them as part of the team they are
 Welcome them aboard.
+
+If you wish to help in the mod please feel free to approach me about becoming a member of the team.
+Just because you approach me doesn't necesseraly mean that you will become part of the team.
 
 People who have contributed in the past and no longer on the Team
 =================================================================
-None as yet
+-> LittleMikey
 
 Public Domain art by:
 =====================
@@ -217,15 +230,27 @@ But do not place this mod anywhere else for Distribution
 
 Still on my to do list
 =======================
-Remake all my SPECIAL map generators that everyone seemed to enjoy (really big task)
-Add a marketer for stuff not yet being sold
-Re-Do the Stocks menu so that it fits along with my modified menus
-Contact others about including their works
-Tidy up the XML files and make them more uniformly organized for easier editing
+(see the text file Towns++ToDo.txt included in the archive)
+
+
 
 change logs
 ===========
 [spoiler]
+Changes since Towns++_v14d2
+===========================
+BlueSteel's Contributions
+===========================
+-> Fixed missing Skootenbeeten graphics
+-> Fixed missing female animals on deep dungeon map
+-> Updated to 14e
+Adding Terrain block: (in original called terraforming, renamed in towns++ to Terrain because of my own True Terraforming (actually converting the existing terrains not adding blocks of terrain)
+
+
+LittleMikey's Contributions:
+============================
+-> Fixed slight graphical glitch with log bridges.
+
 Changes since Towns++_v14d
 ===========================
 BlueSteel's Contributions
@@ -764,7 +789,7 @@ looking into making my own categories in the stock panel for better grouping in-
 work on new custom maps / difficulty / terrain  etc...
 
 Changes in BS_MP_0-47b_20120606_1225 from previous version of mod pack
-
+====================================
 Updated to 0.47b
 
 Re-implemented wheat crop aging. (which they took out of 0.47b)
@@ -776,7 +801,7 @@ nor waiting with full crops forever till you harvest them.
 
 
 Changes in BS_MP_0-47a_20120605_1353 from previous version of mod pack
-
+====================================
 Fixed mushrooms plants (jungle and cave) and blue radish plants so that they disappear when picked in wild like they used to  (so make sure you set up farms if you want to keep harvesting them)
 
 Made it so that ALL planted crops/trees will self populate given time.
@@ -821,11 +846,8 @@ ADD in New Spawns for males of the farm animals to replace some of whats used.
 I'm thinking of is to make farms for the males just like there are for the females for the animals, but don't really like this idea.
 
 
-
-
-
 Changes in BS_MP_0-47a_20120527_1445  from previous version of modpack
-
+=====================================
 Fixed missing Flour entry in AP food gathering menu
 removed bones from ap menu food butchering menu (because bones aren't food) they are in the ap materials menu
 
@@ -833,7 +855,7 @@ no other changes apart from updating it all to work with the new stuff in 0.47a
 
 
 Changes in BS_MP_0-47_20120526_1422 from previous version of modpack
-
+===================================
 Fixed bug in previous version of my mod pack. Making of jailwindow1 (ie: not moving to mason's bench after picking up iron)
 
 Moved traps to its own submenu on the right hand menu as opposed to it being included in utilities
