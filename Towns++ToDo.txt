@@ -58,3 +58,9 @@ Rename beds so that they know which beds are needed for which Hero
 *Santa Hero make more interesting
 *new Female Animals cage graphics
 *Dice roll 0 or 1 to make Desert or Jungle?
+
+Remake all my SPECIAL map generators that everyone seemed to enjoy (really big task)
+Add a marketer for stuff not yet being sold
+Re-Do the Stocks menu so that it fits along with my modified menus
+Contact others about including their works
+Tidy up the XML files and make them more uniformly organized for easier editing
