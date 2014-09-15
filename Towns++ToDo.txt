@@ -51,7 +51,7 @@ fix rotation of new beds
 ------------ end of reports from steam
 
 
-Rename beds so that they know wqhick beds are needed for which Hero
+Rename beds so that they know which beds are needed for which Hero
 
 *Give Arena Fights a purpose by giving Arena Badgers/Bait a happiness on death effect?
 *Add dw420 Windows. 
