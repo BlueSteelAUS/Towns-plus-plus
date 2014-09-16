@@ -10,7 +10,6 @@
 		<item id="qblueradishseed" code="QUEUEANDPLACEAREA" parameter="qblueradishseed" icon="ui_blueradishseed" />
 		<item id="qsnowcherryseed" code="QUEUEANDPLACEAREA" parameter="qsnowcherryseed" icon="ui_snowcherryseed" />
 		<item id="qbananaseed" code="QUEUEANDPLACEAREA" parameter="qbananaseed" icon="ui_bananaseed" />
-
 		<item id="qcactusseed" code="QUEUEANDPLACEAREA" parameter="qcactusseed" icon="ui_cactusseed" />
 		<item id="qjunglemushroomseed" code="QUEUEANDPLACEAREA" parameter="qjunglemushroomseed" icon="ui_forestmushroomseed" />
 		<item id="qcavemushroomseed" code="QUEUEANDPLACEAREA" parameter="qcavemushroomseed" icon="ui_cavemushroomseed" />
@@ -43,22 +42,14 @@
 		<item id="qnewroosterfarm" code="QUEUEANDPLACEAREA" parameter="qnewroosterfarm" icon="rooster" />
 		<item id="qnewbadgerfarm" code="QUEUEANDPLACEAREA" parameter="qnewbadgerfarm" icon="badger" />
 		<item id="qnewfemalebadgerfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemalebadgerfarm" icon="femalebadger" />
-
 		<item id="qnewsheepfarm" code="QUEUEANDPLACEAREA" parameter="qnewsheepfarm" icon="sheep" />
 		<item id="qnewfemalesheepfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemalesheepfarm" icon="femalesheep" />
-
-
 		<item id="qnewskootenbeetenfarm" code="QUEUEANDPLACEAREA" parameter="qnewskootenbeetenfarm" icon="skootenbeeten" />
 		<item id="qnewfemaleskootenbeetenfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemaleskootenbeetenfarm" icon="femaleskootenbeeten" />
-
-
 		<item id="qnewsnoatfarm" code="QUEUEANDPLACEAREA" parameter="qnewsnoatfarm" icon="snoat" />
 		<item id="qnewfemalesnoatfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemalesnoatfarm" icon="femalesnoat" />
-
 		<item id="qnewunifallowfarm" code="QUEUEANDPLACEAREA" parameter="qnewunifallowfarm" icon="unifallow" />
 		<item id="qnewfemaleunifallowfarm" code="QUEUEANDPLACEAREA" parameter="qnewfemaleunifallowfarm" icon="femaleunifallow" />
-
-
 		<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 	</farms>
 
@@ -69,6 +60,7 @@
 			<item id="qcarpentrybench" code="QUEUEANDPLACEAREA" parameter="qcarpentrybench" />
 			<item id="qwooddetailer" code="QUEUEANDPLACEAREA" parameter="qwooddetailer" />
 			<item id="qcarvingbench" code="QUEUEANDPLACEAREA" parameter="qcarvingbench" />
+			<item id="qbonecarver" code="QUEUE" parameter="qbonecarver" />
 			<item id="qrmbarrel" code="QUEUEANDPLACEAREA" parameter="qrmbarrel" />
 			<item id="qutilschest" code="QUEUEANDPLACEAREA" parameter="qutilschest" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
@@ -113,11 +105,18 @@
 				<item id="qpurple_bed_N" code="QUEUEANDPLACEAREA" parameter="qpurple_bed_N" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</beds>
+			<item id="qbirdincage" code="QUEUEANDPLACEAREA" parameter="qbirdincage" />
+			<item id="qharp" code="QUEUEANDPLACEAREA" parameter="qharp" />
+			<item id="qwoodencupboard" code="QUEUEANDPLACEAREA" parameter="qwoodencupboard" />
+			<item id="qpotplant" code="QUEUEANDPLACEAREA" parameter="qpotplant" />
+			<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</bpersonal>
 
 		<bforge name="Smithy room" esES="Forja" description="Make mettle stuff" icon="ui_zonesforge">
 			<item id="zforge" code="CREATEZONE" name="Forge Floor" esES="Crear Forja" parameter="zforge" icon="ui_zonesforge" />
+		<item id="qstonehammer" code="QUEUE" parameter="qstonehammer" />
+		<item id="qtongs" code="QUEUE" parameter="qtongs" />
 			<item id="qanvil" code="QUEUEANDPLACEAREA" parameter="qanvil" />
 			<item id="qsmelter" code="QUEUEANDPLACEAREA" parameter="qsmelter" />
 			<item id="qitesmithy" code="QUEUEANDPLACEAREA" parameter="qitesmithy" />
@@ -187,6 +186,13 @@
 				<item id="qpurple_bed_N" code="QUEUEANDPLACEAREA" parameter="qpurple_bed_N" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</beds>
+			<item id="qbirdincage" code="QUEUEANDPLACEAREA" parameter="qbirdincage" />
+			<item id="qharp" code="QUEUEANDPLACEAREA" parameter="qharp" />
+			<item id="qwoodencupboard" code="QUEUEANDPLACEAREA" parameter="qwoodencupboard" />
+			<item id="qnecromancerstatue" code="QUEUEANDPLACEAREA" parameter="qnecromancerstatue" />
+			<item id="qstonemalestatue" code="QUEUEANDPLACEAREA" parameter="qstonemalestatue" />
+			<item id="qpotplant" code="QUEUEANDPLACEAREA" parameter="qpotplant" />
+			<item id="qdecorativechest" code="QUEUEANDPLACEAREA" parameter="qdecorativechest" />
 			<item id="qbeerbarrel" code="QUEUEANDPLACEAREA" parameter="qbeerbarrel" icon="ui_beerbarrel"/>
 			<item id="qwinebarrel" code="QUEUEANDPLACEAREA" parameter="qwinebarrel" icon="ui_winebarrel"/>
 			<item id="qrawfoodbarrel" code="QUEUEANDPLACEAREA" parameter="qrawfoodbarrel" />
@@ -332,6 +338,7 @@
 			<item id="qchimney3" code="QUEUEANDPLACEAREA" parameter="qchimney3" />
 			<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 		</roof>
+
 		<cb262_stairs name="Stairs" esES="Escaleras" icon="ui_stonestairs">			
 			<cb262_stairs2 name="Coloured Stairs" esES="Escaleras de colores" icon="redstonestairs1">
 				<item id="qredstonestairs1" code="QUEUEANDPLACEAREA" parameter="qredstonestairs1" />
@@ -416,7 +423,7 @@
 				<item id="qbirchwoodenblock" code="QUEUEANDPLACEAREA" parameter="qbirchwoodenblock" />
 				<item id="qbirchwoodspikes" code="QUEUEANDPLACEAREA" parameter="qbirchwoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</birch>					
+			</birch>
 			<yellow name="Yellow walls" esES="N/A" icon="lightyellowwoodblock">
 				<item id="qyellowwoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qyellowwoodenstoneblock" />
 				<item id="qyellowwoodsticks" code="QUEUEANDPLACEAREA" parameter="qyellowwoodsticks" />
@@ -424,7 +431,7 @@
 				<item id="qyellowwoodenblock" code="QUEUEANDPLACEAREA" parameter="qyellowwoodenblock" />
 				<item id="qyellowwoodspikes" code="QUEUEANDPLACEAREA" parameter="qyellowwoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</yellow>				
+			</yellow>
 			<apple name="Apple walls" esES="N/A" icon="lightapplewoodblock">
 				<item id="qapplewoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qapplewoodenstoneblock" />
 				<item id="qapplewoodsticks" code="QUEUEANDPLACEAREA" parameter="qapplewoodsticks" />
@@ -432,7 +439,7 @@
 				<item id="qapplewoodenblock" code="QUEUEANDPLACEAREA" parameter="qapplewoodenblock" />
 				<item id="qapplewoodspikes" code="QUEUEANDPLACEAREA" parameter="qapplewoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</apple>				
+			</apple>
 			<mahogany name="Mahogany walls" esES="N/A" icon="lightmahoganywoodblock">
 				<item id="qmahoganywoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodenstoneblock" />
 				<item id="qmahoganywoodsticks" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodsticks" />
@@ -440,7 +447,7 @@
 				<item id="qmahoganywoodenblock" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodenblock" />
 				<item id="qmahoganywoodspikes" code="QUEUEANDPLACEAREA" parameter="qmahoganywoodspikes" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
-			</mahogany>				
+			</mahogany>
 			<pine name="Pine walls" esES="N/A" icon="lightpinewoodblock">
 				<item id="qpinewoodenstoneblock" code="QUEUEANDPLACEAREA" parameter="qpinewoodenstoneblock" />
 				<item id="qpinewoodsticks" code="QUEUEANDPLACEAREA" parameter="qpinewoodsticks" />
@@ -705,14 +712,15 @@
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</gargoyle>
 			<nux name="Nux Statues" esES="N/A" icon="goldnuxstatue" >
-				<item id="qgoldnuxstatue" code="QUEUEANDPLACEAREA" parameter="qgoldnuxstatue" />
+<!--				<item id="stonenuxstatue" code="QUEUEANDPLACEAREA" parameter="qstonenuxstatue" /> -->
 				<item id="ironnuxstatue" code="QUEUEANDPLACEAREA" parameter="qironnuxstatue" />
 				<item id="bronzenuxstatue" code="QUEUEANDPLACEAREA" parameter="qbronzenuxstatue" />
 				<item id="silvernuxstatue" code="QUEUEANDPLACEAREA" parameter="qsilvernuxstatue" />
-				<!--					<item id="goldnuxstatue" code="QUEUEANDPLACEAREA" parameter="qgoldnuxstatue" /> -->
+				<item id="goldnuxstatue" code="QUEUEANDPLACEAREA" parameter="qgoldnuxstatue" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</nux>
 			<skootenbeeten name="Skootenbeeten Statues" esES="N/A" icon="goldskootenbeetenstatue" >
+<!--				<item id="stoneskootenbeetenstatue" code="QUEUEANDPLACEAREA" parameter="qstoneskootenbeetenstatue" /> -->
 				<item id="ironskootenbeetenstatue" code="QUEUEANDPLACEAREA" parameter="qironskootenbeetenstatue" />
 				<item id="bronzeskootenbeetenstatue" code="QUEUEANDPLACEAREA" parameter="qbronzeskootenbeetenstatue" />
 				<item id="silverskootenbeetenstatue" code="QUEUEANDPLACEAREA" parameter="qsilverskootenbeetenstatue" />
@@ -723,7 +731,7 @@
 				<item id="qsiriancaesar" code="QUEUEANDPLACEAREA" parameter="qsiriancaesar" />
 				<item id="ironcaesarstatue" code="QUEUEANDPLACEAREA" parameter="qironcaesarstatue" />
 				<item id="bronzecaesarstatue" code="QUEUEANDPLACEAREA" parameter="qbronzecaesarstatue" />
-				<!--					<item id="silvercaesarstatue" code="QUEUEANDPLACEAREA" parameter="qsilvercaesarstatue" /> -->
+				<item id="silvercaesarstatue" code="QUEUEANDPLACEAREA" parameter="qsilvercaesarstatue" /> -->
 				<item id="goldcaesarstatue" code="QUEUEANDPLACEAREA" parameter="qgoldcaesarstatue" />
 				<item name="Back" esES="Atrás" code="BACK" icon="ui_back" />
 			</caesar>

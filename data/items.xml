@@ -4730,7 +4730,7 @@
 	<!--/CARPENTRY -->
 
 	<woodenbed>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Plain Wooden bed(A bed for grubby heroes</name>
 
 		<type>furniture.beds</type>
 
@@ -4751,16 +4751,12 @@
 		<zone>zhospital</zone>
 		<zone>zbarracks</zone>
 		<value>102</value>
-<!--		<action>rotate_woodenbed_W</action>
-		<action>rotate_woodenbed_E</action>
-		<action>rotate_woodenbed_S</action>-->
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_woodenbed</action>
 	</woodenbed>
 
 	<woodenbedbury>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Plain Wooden bed</name>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4771,7 +4767,7 @@
 	</woodenbedbury>
 
 	<woodenbedbury1>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Plain Wooden bed</name>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4782,7 +4778,7 @@
 	</woodenbedbury1>
 
 	<woodenbedbury2>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Plain Wooden bed</name>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -4824,7 +4820,6 @@
 		<glue>true</glue>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_woodendormbed</action>
 	</woodendormbed>
 
 	<woodendormbedbury>
@@ -4866,7 +4861,6 @@
 		<value>102</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_bonebed</action>
 	</bonebed>
 
 	<bonebedbury>
@@ -8558,12 +8552,10 @@
 		<value>200</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_necromancerstatue_E</action>
-		<action>del_necromancerstatue</action>
 	</necromancerstatue>
 
 	<gargoylestatue>
-		<name esES="Estatua de gárgola">Gargoyle statue</name>
+		<name esES="Estatua de gárgola">Stone Gargoyle statue</name>
 
 		<type>decorative.outdoor</type>
 		<canBeRotated>true</canBeRotated>
@@ -8577,12 +8569,10 @@
 		<value>200</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_gargoylestatue_E</action>
-		<action>del_gargoylestatue</action>
 	</gargoylestatue>
 
 	<siriancaesar>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
+		<name esES="Estatua del César Sirian">Stone Sirian Caesar statue</name>
 		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
 		<type>decorative.outdoor</type>
 
@@ -9385,7 +9375,7 @@
 	</birdincagebury>
 
 	<stonemalestatue>
-		<name esES="Estatua de piedra">Stone statue</name>
+		<name esES="Estatua de piedra">Stone statue legendary hero</name>
 		<description esES="Una estatua de piedra de un héroe legendario">A stone statue of a legendary hero</description>
 		<type>decorative.outdoor</type>
 		<canBeRotated>true</canBeRotated>
@@ -9398,7 +9388,6 @@
 		<happiness>1</happiness>
 
 		<value>200</value>
-		<!--		<action>rotate_stonemalestatue_W</action> -->
 		<action>del_stonemalestatue</action>
 	</stonemalestatue>
 
@@ -9424,8 +9413,6 @@
 		<alwaysOperative>false</alwaysOperative>
 		<happiness>3</happiness>
 		<value>301</value>
-		<!--		<action>rotate_goldunifallowstatue_S</action> -->
-		<action>del_goldunifallowstatue</action>
 	</goldunifallowstatue>
 
 	<goldnuxstatue>
@@ -9437,8 +9424,8 @@
 		<canBeRotated>true</canBeRotated>
 
 		<alwaysOperative>false</alwaysOperative>
-		<happiness>3</happiness>
-		<value>301</value>
+		<happiness>4</happiness>
+		<value>1000</value>
 	</goldnuxstatue>
 
 	<silverskootenbeetenstatue>
@@ -11530,15 +11517,6 @@
 	<harvesteddirtmine>
 		<name esES="Pozo minero de barro">Mud mineshaft</name>
 		<type>mine</type>
-		<habitat>grass</habitat>
-		<habitat>grass1</habitat>
-		<habitat>grass2</habitat>
-		<habitat>grass3</habitat>
-		<habitat>grassnoflower</habitat>
-		<habitat>grassnoflower1</habitat>
-		<habitat>grassnoflower2</habitat>
-		<habitat>jungle</habitat>
-		<habitat>dirt</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>dirtmine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11563,7 +11541,6 @@
 	<harvestedgravelmine>
 		<name esES="Pozo minero de gravilla">Gravel mineshaft</name>
 		<type>mine</type>
-		<habitat>gravel</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>gravelmine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11588,7 +11565,6 @@
 	<harvestedcoalmine>
 		<name esES="Pozo minero de carbón">Coal mineshaft</name>
 		<type>mine</type>
-		<habitat>coal</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>coalmine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11614,8 +11590,6 @@
 	<harvestedstonemine>
 		<name esES="Pozo minero de piedra">Stone mineshaft</name>
 		<type>mine</type>
-		<habitat>stone</habitat>
-		<habitat>densestone</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>stonemine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11640,7 +11614,6 @@
 	<harvestedsandmine>
 		<name esES="Pozo minero de Arena">Sand mineshaft</name>
 		<type>mine</type>
-		<habitat>sand</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>sandmine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11665,7 +11638,6 @@
 	<harvestedironmine>
 		<name esES="Pozo minero de hierro">Iron mineshaft</name>
 		<type>mine</type>
-		<habitat>iron</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>ironmine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11690,7 +11662,6 @@
 	<harvestedcoppermine>
 		<name esES="Pozo minero de cobre">Copper mineshaft</name>
 		<type>mine</type>
-		<habitat>copper</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>coppermine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11715,7 +11686,6 @@
 	<harvestedsilvermine>
 		<name esES="Pozo minero de Plata">Silver mineshaft</name>
 		<type>mine</type>
-		<habitat>silver</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>silvermine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -11740,7 +11710,6 @@
 	<harvestedgoldmine>
 		<name esES="Pozo minero de Oro">Gold mineshaft</name>
 		<type>mine</type>
-		<habitat>gold</habitat>
 		<maxAge>120</maxAge>
 		<maxAgeItem>goldmine</maxAgeItem>
 		<alwaysOperative>false</alwaysOperative>
@@ -16187,9 +16156,8 @@
 	</purplestonestairs2d>
 	<!-- /STAIRS -->
 
-
 	<woodenbed_E>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Plain Wooden bed</name>
 
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
@@ -16213,7 +16181,6 @@
 		<action>rotate_woodenbed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_woodenbed</action>
 	</woodenbed_E>
 
 	<woodenbed_S>
@@ -16242,7 +16209,6 @@
 		<action>rotate_woodenbed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_woodenbed</action>
 	</woodenbed_S>
 
 	<woodenbed_W>
@@ -16271,11 +16237,10 @@
 		<action>rotate_woodenbed_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_woodenbed</action>
 	</woodenbed_W>
 
 	<camo_bed_W>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Camo Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16301,11 +16266,10 @@
 		<action>rotate_camo_bed_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_camobed</action>
 	</camo_bed_W>
 
 	<camo_bed_N>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Camo Wooden bed</name>
 
 		<type>furniture.beds</type>
 
@@ -16329,11 +16293,10 @@
 		<action>rotate_camo_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_camobed</action>
 	</camo_bed_N>
 
 	<camo_bed_E>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Camo Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16358,11 +16321,10 @@
 		<action>rotate_camo_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_camobed</action>
 	</camo_bed_E>
 
 	<camo_bed_S>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Camo Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16386,11 +16348,10 @@
 		<action>rotate_camo_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_camobed</action>
 	</camo_bed_S>
 
 	<green_bed_W>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Green Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16415,11 +16376,10 @@
 		<action>rotate_green_bed_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_greenbed</action>
 	</green_bed_W>
 
 	<green_bed_N>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Green Wooden bed</name>
 
 		<type>furniture.beds</type>
 
@@ -16443,11 +16403,10 @@
 		<action>rotate_green_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_greenbed</action>
 	</green_bed_N>
 
 	<green_bed_E>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Green Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16477,7 +16436,7 @@
 	</green_bed_E>
 
 	<green_bed_S>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Green Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16503,11 +16462,10 @@
 		<action>rotate_green_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_greenbed</action>
 	</green_bed_S>
 
 	<blue_bed_W>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Blue Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16533,11 +16491,10 @@
 		<action>rotate_blue_bed_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_bluebed</action>
 	</blue_bed_W>
 
 	<blue_bed_N>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Blue Wooden bed</name>
 
 		<type>furniture.beds</type>
 
@@ -16562,11 +16519,10 @@
 		<action>rotate_blue_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_bluebed</action>
 	</blue_bed_N>
 
 	<blue_bed_E>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Blue Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16591,11 +16547,10 @@
 		<action>rotate_blue_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_bluebed</action>
 	</blue_bed_E>
 
 	<blue_bed_S>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Blue Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16620,11 +16575,10 @@
 		<action>rotate_blue_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_bluebed</action>
 	</blue_bed_S>
 
 	<red_bed_W>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Red Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16649,11 +16603,10 @@
 		<action>rotate_red_bed_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_redbed</action>
 	</red_bed_W>
 
 	<red_bed_N>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Red Wooden bed</name>
 
 		<type>furniture.beds</type>
 
@@ -16678,11 +16631,10 @@
 		<action>rotate_red_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_redbed</action>
 	</red_bed_N>
 
 	<red_bed_E>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Red Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16707,11 +16659,10 @@
 		<action>rotate_red_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_redbed</action>
 	</red_bed_E>
 
 	<red_bed_S>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Red Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16736,11 +16687,10 @@
 		<action>rotate_red_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_redbed</action>
 	</red_bed_S>
 
 	<purple_bed_W>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Purple Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16765,11 +16715,10 @@
 		<action>rotate_purple_bed_S</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_purplebed</action>
 	</purple_bed_W>
 
 	<purple_bed_N>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Purple Wooden bed</name>
 
 		<type>furniture.beds</type>
 
@@ -16794,11 +16743,10 @@
 		<action>rotate_purple_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_purplebed</action>
 	</purple_bed_N>
 
 	<purple_bed_E>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Purple Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16823,11 +16771,10 @@
 		<action>rotate_purple_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_purplebed</action>
 	</purple_bed_E>
 
 	<purple_bed_S>
-		<name esES="Cama de madera">Wooden bed</name>
+		<name esES="Cama de madera">Purple Wooden bed</name>
 
 		<type>cb262.furniture</type>
 
@@ -16852,7 +16799,6 @@
 		<action>rotate_purple_bed_W</action>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>del_purplebed</action>
 	</purple_bed_S>
 
 	<purplethrone_E>
@@ -18664,7 +18610,7 @@
 	</chest_W>
 
 	<stonemalestatue_W>
-		<name esES="Estatua de piedra">Stone statue</name>
+		<name esES="Estatua de piedra">Stone statue of a legendary hero</name>
 		<description esES="Una estatua de piedra de un héroe legendario">A stone statue of a legendary hero looking the other way</description>
 		<type>cb262.decorative.outdoor</type>
 
@@ -19305,711 +19251,242 @@
 	<!-- dw420's new items -->
 	<ironherostatue>
 		<name esES="N/A">Iron Hero Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>1</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_ironherostatue_E</action>
-		<action>del_ironherostatue</action>
 	</ironherostatue>
-
-	<ironherostatue_E>
-		<name esES="N/A">Iron Hero Statue</name>
-
-		<happiness>1</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-		<action>rotate_ironherostatue_W</action>
-		<action>del_ironherostatue</action>
-	</ironherostatue_E>
 
 	<bronzeherostatue>
 		<name esES="N/A">Bronze Hero Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>2</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_bronzeherostatue_E</action>
-		<action>del_bronzeherostatue</action>
 	</bronzeherostatue>
-
-	<bronzeherostatue_E>
-		<name esES="N/A">Bronze Hero Statue</name>
-
-		<happiness>2</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>400</value>
-		<action>rotate_bronzeherostatue_W</action>
-		<action>del_bronzeherostatue</action>
-	</bronzeherostatue_E>
 
 	<silverherostatue>
 		<name esES="N/A">Silver Hero Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>3</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_silverherostatue_E</action>
-		<action>del_silverherostatue</action>
 	</silverherostatue>
-
-	<silverherostatue_E>
-		<name esES="N/A">Silver Hero Statue</name>
-
-		<happiness>3</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>600</value>
-		<action>rotate_silverherostatue_W</action>
-		<action>del_silverherostatue</action>
-	</silverherostatue_E>
 
 	<goldherostatue>
 		<name esES="N/A">Gold Hero Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>4</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_goldherostatue_E</action>
-		<action>del_goldherostatue</action>
 	</goldherostatue>
-
-	<goldherostatue_E>
-		<name esES="N/A">Gold Hero Statue</name>
-
-		<happiness>4</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>1000</value>
-		<action>rotate_goldherostatue_W</action>
-		<action>del_goldherostatue</action>
-	</goldherostatue_E>
 
 	<irongargoylestatue>
 		<name esES="N/A">Iron Gargoyle Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>1</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_irongargoylestatue_E</action>
-		<action>del_irongargoylestatue</action>
 	</irongargoylestatue>
-
-	<irongargoylestatue_E>
-		<name esES="N/A">Iron Gargoyle Statue</name>
-
-		<happiness>1</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-		<action>rotate_irongargoylestatue_W</action>
-		<action>del_irongargoylestatue</action>
-	</irongargoylestatue_E>
 
 	<bronzegargoylestatue>
 		<name esES="N/A">Bronze Gargoyle Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>2</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_bronzegargoylestatue_E</action>
-		<action>del_bronzegargoylestatue</action>
 	</bronzegargoylestatue>
-
-	<bronzegargoylestatue_E>
-		<name esES="N/A">Bronze Gargoyle Statue</name>
-
-		<happiness>2</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>400</value>
-		<action>rotate_bronzegargoylestatue_W</action>
-		<action>del_bronzegargoylestatue</action>
-	</bronzegargoylestatue_E>
 
 	<silvergargoylestatue>
 		<name esES="N/A">Silver Gargoyle Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>3</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_silvergargoylestatue_E</action>
-		<action>del_silvergargoylestatue</action>
 	</silvergargoylestatue>
-
-	<silvergargoylestatue_E>
-		<name esES="N/A">Silver Gargoyle Statue</name>
-
-		<happiness>3</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>600</value>
-		<action>rotate_silvergargoylestatue_W</action>
-		<action>del_silvergargoylestatue</action>
-	</silvergargoylestatue_E>
 
 	<goldgargoylestatue>
 		<name esES="N/A">Gold Gargoyle Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>4</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_goldgargoylestatue_E</action>
-		<action>del_goldgargoylestatue</action>
 	</goldgargoylestatue>
-
-	<goldgargoylestatue_E>
-		<name esES="N/A">Gold Gargoyle Statue</name>
-
-		<happiness>4</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>1000</value>
-		<action>rotate_goldgargoylestatue_W</action>
-		<action>del_goldgargoylestatue</action>
-	</goldgargoylestatue_E>
 
 	<ironnuxstatue>
 		<name esES="N/A">Iron Nux Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>1</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_ironnuxstatue_E</action>
-		<action>del_ironnuxstatue</action>
 	</ironnuxstatue>
-
-	<ironnuxstatue_E>
-		<name esES="N/A">Iron Nux Statue</name>
-
-		<happiness>1</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-		<action>rotate_ironnuxstatue_W</action>
-		<action>del_ironnuxstatue</action>
-	</ironnuxstatue_E>
 
 	<bronzenuxstatue>
 		<name esES="N/A">Bronze Nux Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>2</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_bronzenuxstatue_E</action>
-		<action>del_bronzenuxstatue</action>
 	</bronzenuxstatue>
-
-	<bronzenuxstatue_E>
-		<name esES="N/A">Bronze Nux Statue</name>
-
-		<happiness>2</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>400</value>
-		<action>rotate_bronzenuxstatue_W</action>
-		<action>del_bronzenuxstatue</action>
-	</bronzenuxstatue_E>
 
 	<silvernuxstatue>
 		<name esES="N/A">Silver Nux Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>3</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_silvernuxstatue_E</action>
-		<action>del_silvernuxstatue</action>
 	</silvernuxstatue>
-
-	<silvernuxstatue_E>
-		<name esES="N/A">Silver Nux Statue</name>
-
-		<happiness>3</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>600</value>
-		<action>rotate_silvernuxstatue_W</action>
-		<action>del_silvernuxstatue</action>
-	</silvernuxstatue_E>
-	<!--	
-	<goldnuxstatue>
-		<name esES="N/A">Gold Nux Statue</name>
-
-		<type>decorative.outdoor</type>
-
-		<happiness>4</happiness>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>1000</value>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>rotate_goldnuxstatue_E</action>
-		<action>del_goldnuxstatue</action>
-	</goldnuxstatue>
--->	
-	<goldnuxstatue_E>
-		<name esES="N/A">Gold Nux Statue</name>
-
-		<happiness>4</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>1000</value>
-		<action>rotate_goldnuxstatue_W</action>
-		<action>del_goldnuxstatue</action>
-	</goldnuxstatue_E>
 
 	<ironskootenbeetenstatue>
 		<name esES="N/A">Iron Skootenbeeten Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>1</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_ironskootenbeetenstatue_E</action>
-		<action>del_ironskootenbeetenstatue</action>
 	</ironskootenbeetenstatue>
-
-	<ironskootenbeetenstatue_E>
-		<name esES="N/A">Iron Skootenbeeten Statue</name>
-
-		<happiness>1</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-		<action>rotate_ironskootenbeetenstatue_W</action>
-		<action>del_ironskootenbeetenstatue</action>
-	</ironskootenbeetenstatue_E>
 
 	<bronzeskootenbeetenstatue>
 		<name esES="N/A">Bronze Skootenbeeten Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>2</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_bronzeskootenbeetenstatue_E</action>
-		<action>del_bronzeskootenbeetenstatue</action>
 	</bronzeskootenbeetenstatue>
-
-	<bronzeskootenbeetenstatue_E>
-		<name esES="N/A">Bronze Skootenbeeten Statue</name>
-
-		<happiness>2</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>400</value>
-		<action>rotate_bronzeskootenbeetenstatue_W</action>
-		<action>del_bronzeskootenbeetenstatue</action>
-	</bronzeskootenbeetenstatue_E>
-	<!--	
-	<silverskootenbeetenstatue>
-		<name esES="N/A">Silver Skootenbeeten Statue</name>
-
-		<type>decorative.outdoor</type>
-
-		<happiness>3</happiness>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>600</value>
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-		<action>rotate_silverskootenbeetenstatue_E</action>
-		<action>del_silverskootenbeetenstatue</action>
-	</silverskootenbeetenstatue>
-	-->
-	<silverskootenbeetenstatue_E>
-		<name esES="N/A">Silver Skootenbeeten Statue</name>
-
-		<happiness>3</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>600</value>
-		<action>rotate_silverskootenbeetenstatue_W</action>
-		<action>del_silverskootenbeetenstatue</action>
-	</silverskootenbeetenstatue_E>
 
 	<goldskootenbeetenstatue>
 		<name esES="N/A">Gold Skootenbeeten Statue</name>
-
 		<type>decorative.outdoor</type>
-
 		<happiness>4</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_goldskootenbeetenstatue_E</action>
-		<action>del_goldskootenbeetenstatue</action>
 	</goldskootenbeetenstatue>
 
-	<goldskootenbeetenstatue_E>
-		<name esES="N/A">Gold Skootenbeeten Statue</name>
-
-		<happiness>4</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>1000</value>
-		<action>rotate_goldskootenbeetenstatue_W</action>
-		<action>del_goldskootenbeetenstatue</action>
-	</goldskootenbeetenstatue_E>
-
 	<ironcaesarstatue>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
+		<name esES="Estatua del César Sirian">Iron Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">An Iron statue of Sirian Caesar, ruler of the yellow plains</description>
 		<type>decorative.outdoor</type>
-
 		<happiness>1</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>200</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_ironcaesarstatue_E</action>
-		<action>del_ironcaesarstatue</action>
 	</ironcaesarstatue>
 
-	<ironcaesarstatue_E>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
-		<happiness>1</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>200</value>
-		<action>rotate_ironcaesarstatue_W</action>
-		<action>del_ironcaesarstatue</action>
-	</ironcaesarstatue_E>
-
 	<bronzecaesarstatue>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
+		<name esES="Estatua del César Sirian">Bronze Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A Bronze statue of Sirian Caesar, ruler of the yellow plains</description>
 		<type>decorative.outdoor</type>
-
 		<happiness>2</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>400</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_bronzecaesarstatue_E</action>
-		<action>del_bronzecaesarstatue</action>
 	</bronzecaesarstatue>
 
-	<bronzecaesarstatue_E>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
-		<happiness>2</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>400</value>
-		<action>rotate_bronzecaesarstatue_W</action>
-		<action>del_bronzecaesarstatue</action>
-	</bronzecaesarstatue_E>
-
 	<silvercaesarstatue>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
+		<name esES="Estatua del César Sirian">Silver Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A Silver statue of Sirian Caesar, ruler of the yellow plains</description>
 		<type>decorative.outdoor</type>
-
 		<happiness>3</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>600</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_silvercaesarstatue_E</action>
-		<action>del_silvercaesarstatue</action>
 	</silvercaesarstatue>
 
-	<silvercaesarstatue_E>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
-		<happiness>3</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>600</value>
-		<action>rotate_silvercaesarstatue_W</action>
-		<action>del_silvercaesarstatue</action>
-	</silvercaesarstatue_E>
-
 	<goldcaesarstatue>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
+		<name esES="Estatua del César Sirian">Golden Sirian Caesar statue</name>
+		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A golden statue of Sirian Caesar, ruler of the yellow plains</description>
 		<type>decorative.outdoor</type>
-
 		<happiness>4</happiness>
-
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
-
+		<canBeRotated>true</canBeRotated>
 		<alwaysOperative>false</alwaysOperative>
 		<value>1000</value>
 		<stackable>true</stackable>
 		<stackableSize>1</stackableSize>
-		<action>rotate_goldcaesarstatue_E</action>
-		<action>del_goldcaesarstatue</action>
 	</goldcaesarstatue>
 
-	<goldcaesarstatue_E>
-		<name esES="Estatua del César Sirian">Sirian Caesar statue</name>
-		<description esES="Una estatua del César Sirian, maestro de las planicies amarillas">A statue of Sirian Caesar, ruler of the yellow plains</description>
-
-		<happiness>4</happiness>
-
-		<stackable>true</stackable>
-		<stackableSize>1</stackableSize>
-
-		<bury>true</bury>
-		<buryLocked>true</buryLocked>
-
-		<alwaysOperative>false</alwaysOperative>
-		<value>1000</value>
-		<action>rotate_goldcaesarstatue_W</action>
-		<action>del_goldcaesarstatue</action>
-	</goldcaesarstatue_E>
 
 	<!-- dw420 Block Walls -->
 	<pinelogblock>
@@ -20954,8 +20431,8 @@
 		<bury>true</bury>
 		<buryLocked>true</buryLocked>
 		<alwaysOperative>false</alwaysOperative>
-		<happiness>2</happiness>
-		<value>281</value>
+		<happiness>3</happiness>
+		<value>600</value>
 		<action>rotate_silverskootenbeetenstatue_E</action>
 		<action>del_silverskootenbeetenstatue</action>
 	</silverskootenbeetenstatue_S>

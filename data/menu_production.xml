@@ -901,8 +901,9 @@
 	</traps>
 
 	<utils name="Utilities" esES="Útiles" icon="ui_rutils">
-		<item id="qtongs" code="QUEUE" parameter="qtongs" />
 		<item id="qbonecarver" code="QUEUE" parameter="qbonecarver" />
+		<item id="qstonehammer" code="QUEUE" parameter="qstonehammer" />
+		<item id="qtongs" code="QUEUE" parameter="qtongs" />
 		<item id="qtorch" code="QUEUE" parameter="qtorch" />
 		<item id="qwoodenbucket" code="QUEUE" parameter="qwoodenbucket" />
 		<item id="qemptybottle" code="QUEUE" parameter="qemptybottle" />

@@ -1,57 +1,10 @@
-Fix bugs reported on Steam (listed below) reported by Mysterio28 thankyou
-
-All the listed building blocks can't be flattened using 'Z':
---------------------------------------
-White Flag Block
-Yellow Flag Block
-Dark Grey Flag Block
-Red Flag Block
-Tan Flag Block
-Khaki Stone Block
-Marble Stone Brick Block
-Dark Grey Stone Brick Block
-Light Grey Stone Brick Block
-Clay Stone Brick Block
-White Stone Brick Block
-Silver Stone Brick Block
-Light Stone Brick Block
---------------------------------------
-
-Rotation of statues
----------------------
-Iron Hero Statue
-Bronze Hero Statue
-Silver Hero Statue
-Gold Hero Statue
-
-Iron Gargoyle Statue
-Bronze Gargoyle Statue
-Silver Gargoyle Statue
-Gold Gargoyle Statue
-
-Iron Nux Statue
-Bronze Nux Statue
-Silver Nux Statue
-Gold Nux Statue
-
-Iron Skeetenbeeten Statue
-Bronze Skeetenbeeten Statue
-Silver Skeetenbeeten Statue
-Gold Skeetenbeeten Statue
-
-(need to rename these to state what they are made from)as well as rotation
-Sirian Caesar Statue (iron)
-Sirian Caesar Statue (copper)
-Sirian Caesar Statue (silver)
-Sirian Caesar Statue (gold)
--------------------------------
-
-fix rotation of new beds
-
------------- end of reports from steam
 
 
-Rename beds so that they know which beds are needed for which Hero
+* need more graphics for statues rotations
+
+*need to add stone nux statue
+*need to add stone skootenbeeten statue
+*need to add stone sirian statue
 
 *Give Arena Fights a purpose by giving Arena Badgers/Bait a happiness on death effect?
 *Add dw420 Windows. 

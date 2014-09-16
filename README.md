@@ -10,8 +10,7 @@ Adds a lot more Stairs, Furniture, Walls, Decorations, Workshops, Food, Items, W
  Monsters, maps, flowers, statues, flags ... the list goes on and on.
 (Basically adds a ton of stuff to the game)
 
-
-I see you might be a little confused. what I've done is taken workshops and added
+I see you might be a little confused. What I've done is taken workshops and added
 each as a building in the buildings menu, placing the appropriate zone in that
 building along with its utilities into a sub menu for that type of workshop (room or building).
 This provides quick and easy access to what your trying to build and furnish all in the one menu.
@@ -33,8 +32,9 @@ to SELL them to markets as they are interested in buying (Still being worked on)
 Farms have been converted from buildings to items, like the carpentry bench.
 Currently you can control production from the left hand menu,
 however the game does not count living creatures at the moment.
-If you set any production maximum above 1 they will automatically produce more animals,
-it continue doing so until you turn it back to 0. resources permitting
+If you set any production with the right arrow maximum above 1 they will automatically produce more animals,
+It continue doing so until you turn it back to 0. resources permitting
+Using the left Arrow should produce a set amount then stop producing
 
 In order to construct the new farms you need a male and a female of the animal you want
 to farm (or two of animals with only one gender) and some wood. In order to produce
@@ -66,6 +66,7 @@ Changed the Font to use Metamorphous size 18 for easier reading (license include
 
 Added in Terraforming (on the right menu.)
 Terraforming and terrain blocks require 4 of the resouce gathered from that terrain type to convert/build it.
+(as of Towns v14d you can now add terrain blocks which i've remaned from terrraforming to add terrain , to distinguish from my terraforming which changes the existing terrain thats there)
 
 Nearly all item placement (right menu) is now set to QUEUEANDPLACEAREA/CREATEANDPLACEAREA
 this makes the game more accessible to disabled people like myself,
@@ -79,71 +80,3 @@ Tasks and their Priorities have been re-organised for better control of your cit
 
 Crops once tilled and some have been planted , will (slowly) spread over the tilled area
 Crops will cycle if not harvested in time, eg: wheat will go back to seed if not harvested in time
-
-
-Remember
-========
-The right menu is for building and placing. 
-
-The left menu is for building and storing.
-NOTE: Not all items can be pre-built eg: things that activate straight away like campfires)
-The bottom menu is the action menu.
-
-This is a big mod (getting smaller though as the developers add more stuff into the game)
-there are a total of 21+ files edited and extended, also several new files. There are so many
-changes in them (with both the layout/ordering) that at the moment i don't think that
-there is a modloader out there that can handle everything that I can do for the same effect
-this means that this modpack is basically a standalone modpack. I'm always on the lookout
-for others mods to add into my modpack (credit is and will be given to others works I
-include with their permission of course. So, if you'd like me to try to combine others
-mods into my modpack contact the authors of that mod and get them to contact me expressing
-their interest / permission. Note: the mods may have to be tweaked so that they work and play
-well with what i already have.
-
-Permissions to include their work received from:
-================================================
-Niranufoti
-Kasdar
-JackPS9
-YetiChow
-Cobalt262
-ericb1800          
-FONDZ
-Ricky
-RedValkyrie
-Wolfy
-Brigadon
-dw420
-Jontis_00 (upon request per mod) so yes only certain mods of his
-(and a few others really early on who's mods are now no long in or have been edited way beyond
-what was originally their mod. these mods were way back in the early days, some of which
-(including some of my own work) have even made their way into the main game of Towns in one form or another 
-
-Just because I have permission doesn't mean that I have any of their work in my mod
-
-Meet the team
-=============
-Some members on the Towns forum have asked me if they can help me they are
--> LittleMikey
-Welcome them aboard.
-
-People who have contributed in the past and no longer on the Team
-=================================================================
-None as yet
-
-Public Domain art by:
-=====================
-yd http://opengameart.org/users/yd (merchant tents)
-
-Disclaimer/Rant
-===============
-I am the lead coder and Owner / Distributor of this mod, so my decisions on
-what to include and how is final. Sometimes I'll use others mods in my pack,
-these inclusions mean that I have Tweaked them to work with my mod and to try
-to keep balance in the game so that it is still difficult enough to enjoy.
-Its not a meant as Cheating mechanism or a dedicate creative mod where you
-get stuff for nothing.
-
-IF you want to use part of my mod as a separate mod for distribution please ask and give Credit
-Feel free to link to this tread and my mod's links (d/loads,YouTube,Streaming)
-But do not place this mod anywhere else for Distribution

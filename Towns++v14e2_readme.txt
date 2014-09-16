@@ -1,6 +1,8 @@
-﻿[size=200][color=#0000FF]Towns++ v14e (for Towns v14e)[/color][/size]
+﻿[size=200][color=#0000FF]Towns++ v14e2 (for Towns v14e)[/color][/size]
 
 [size=200][color=#FF0000]NOT a MODLOADER mod. DO NOT INSTALL in .towns/mods![/color][/size]
+[size=100][color=#FFFF00]May or may not be compatable with Vanilla Towns saves or prevous versions of Towns++
+Be sure to backup your old saves before running Towns++[/color][/size]
 
 [code]
 Known problems awaiting patches to Towns (already spoken to Xavi about them)
@@ -8,14 +10,29 @@ Known problems awaiting patches to Towns (already spoken to Xavi about them)
 1. If you trying to fill in a hole with them and there's something in it, it'll go through the motions of placing the terrain block costing you those resources but the block you're trying to place just disappears.
 2. If you try to place it on water again it goes through the motions of doing everything but again won't place the terrain, it disappears. This is because you can't place things on water
 3. The Campaign menu(New Game): At the moment its not displaying the campaign names its a bug in towns v14d It still works and everything is still clickable and runable
-4. Not sure how to or if its possible to add item views for in half block mode
-5. Auto Production level of Animals: needs countable stock of animals (which at the time of implimentation of this part of the mod was/is on the drwawing board. So I pre-empted the changes to the farming system)
+4. Auto Production level of Animals: needs countable stock of animals (which at the time of implimentation of this part of the mod was/is on the drwawing board. So I pre-empted the changes to the farming system)
 
 Changes since Towns++_v14e
 ===========================
 BlueSteel's Contributions
 ===========================
-->updated readme and ToDoList
+-> Changed Requirements for Smelter -> uses masonsbench not Anvil , requires 1 Wood , 2 Stone
+-> Changed Requirements for Anvil -> uses Smelter not Masonsbench, same resources required
+-> Added Stone hammer to utilities production menu (Yes its still in Weapons too)
+-> Fixed Orientation and Rotation of Statues (well sort of needs more rotations for some, waiting on graphics)
+-> Removed antiquated Del_ actions for some items (now handled in game using remove
+-> Retitled Beds and some statues To make it easier to distinguish
+-> Added some furnature and decorations into Buildings->Tavern section of right hand menu
+(Hint:Hero's are attracted by certian things, they won't come unless you have the items they want in their rooms)
+-> Added Hammer and Tongs to Buildings->Forge section of right hand menu
+-> Added bone knife to Buildings->Carperntry section of right hand menu
+-> Added some (not all) furnishings to Buildings->Personal space section of right hand menu
+(for some different things look under furnature and decorations in right hand menu)
+-> Added/Fixed missing half blocks view mode for some blocks that were showing full blocks
+-> Fixed Statues rotations
+(Still need more graphics for some, so graphics for North/South are the same as East/west for some, some have full rotation)
+-> Renamed beds so that they know which beds are needed for Hero's
+-> Updated readme and ToDoList
 
 [/code]
 
@@ -30,7 +47,7 @@ To Install:
 [quote]
 Stable Downloads:
 =================
--> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/14e.zip
+-> https://github.com/BlueSteelAUS/Towns-plus-plus/archive/14e2.zip
 -> http://townsmods.net/projects/view/101
 -> http://www.nexusmods.com/towns/mods/3/?
 

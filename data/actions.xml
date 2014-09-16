@@ -1162,15 +1162,15 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>masonbench</lock>
+			<lock>smelter</lock>
 			<pick>tongs</pick>
 			<move>masonbench</move>
 			<destroyItem />
 			<pick>rmiron</pick>
-			<move>masonbench</move>
+			<move>smelter</move>
 			<destroyItem />
 			<pick>stonehammer</pick>
-			<move>masonbench</move>
+			<move>smelter</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
@@ -1184,17 +1184,17 @@
 		<priorityID>itemconstruction</priorityID>
 
 		<queue>
-			<lock>anvil</lock>
-			<pick>rmiron</pick>
-			<move>anvil</move>
+			<lock>masonbench</lock>
+			<pick>rmwood</pick>
+			<move>masonbench</move>
 			<wait>20</wait>
 			<destroyItem />
-			<pick>rmiron</pick>
-			<move>anvil</move>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem />
-			<pick>rmiron</pick>
-			<move>anvil</move>
+			<pick>rmstone</pick>
+			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem />
 			<unlock />
@@ -23251,6 +23251,7 @@
 	</action>
 	
 	<!-- dw420 statues rotate -->
+<!--
 	<action>
 		<id>rotate_ironherostatue_W</id>
 		<name esES="Girar">Rotate</name>
@@ -23650,7 +23651,7 @@
 			<replaceCellItem>goldcaesarstatue</replaceCellItem>
 		</queue>
 	</action>
-	
+	-->
 	<!-- dw420 new statues delete -->
 	<action>
 		<id>del_ironherostatue</id>
@@ -23658,7 +23659,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ironherostatue,ironherostatue_E</move>
+			<move useSource="true">ironherostatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>ironherostatue</createItem>
@@ -23671,7 +23672,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bronzeherostatue,bronzeherostatue_E</move>
+			<move useSource="true">bronzeherostatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>bronzeherostatue</createItem>
@@ -23684,7 +23685,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">silverherostatue,silverherostatue_E</move>
+			<move useSource="true">silverherostatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>silverherostatue</createItem>
@@ -23697,7 +23698,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldherostatue,goldherostatue_E</move>
+			<move useSource="true">goldherostatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>goldherostatue</createItem>
@@ -23710,7 +23711,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">irongargoylestatue,irongargoylestatue_E</move>
+			<move useSource="true">irongargoylestatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>irongargoylestatue</createItem>
@@ -23723,7 +23724,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bronzegargoylestatue,bronzegargoylestatue_E</move>
+			<move useSource="true">bronzegargoylestatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>bronzegargoylestatue</createItem>
@@ -23736,7 +23737,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">silvergargoylestatue,silvergargoylestatue_E</move>
+			<move useSource="true">silvergargoylestatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>silvergargoylestatue</createItem>
@@ -23749,7 +23750,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldgargoylestatue,goldgargoylestatue_E</move>
+			<move useSource="true">goldgargoylestatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>goldgargoylestatue</createItem>
@@ -23762,7 +23763,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ironnuxstatue,ironnuxstatue_E</move>
+			<move useSource="true">ironnuxstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>ironnuxstatue</createItem>
@@ -23775,7 +23776,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bronzenuxstatue,bronzenuxstatue_E</move>
+			<move useSource="true">bronzenuxstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>bronzenuxstatue</createItem>
@@ -23788,7 +23789,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">silvernuxstatue,silvernuxstatue_E</move>
+			<move useSource="true">silvernuxstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>silvernuxstatue</createItem>
@@ -23801,7 +23802,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldnuxstatue,goldnuxstatue_E</move>
+			<move useSource="true">goldnuxstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>goldnuxstatue</createItem>
@@ -23814,7 +23815,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ironskootenbeetenstatue,ironskootenbeetenstatue_E</move>
+			<move useSource="true">ironskootenbeetenstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>ironskootenbeetenstatue</createItem>
@@ -23827,7 +23828,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bronzeskootenbeetenstatue,bronzeskootenbeetenstatue_E</move>
+			<move useSource="true">bronzeskootenbeetenstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>bronzeskootenbeetenstatue</createItem>
@@ -23840,7 +23841,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">silverskootenbeetenstatue,silverskootenbeetenstatue_E</move>
+			<move useSource="true">silverskootenbeetenstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>silverskootenbeetenstatue</createItem>
@@ -23853,7 +23854,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldskootenbeetenstatue,goldskootenbeetenstatue_E</move>
+			<move useSource="true">goldskootenbeetenstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>goldskootenbeetenstatue</createItem>
@@ -23866,7 +23867,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">ironcaesarstatue,ironcaesarstatue_E</move>
+			<move useSource="true">ironcaesarstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>ironcaesarstatue</createItem>
@@ -23879,7 +23880,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">bronzecaesarstatue,bronzecaesarstatue_E</move>
+			<move useSource="true">bronzecaesarstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>bronzecaesarstatue</createItem>
@@ -23892,7 +23893,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">silvercaesarstatue,silvercaesarstatue_E</move>
+			<move useSource="true">silvercaesarstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>silvercaesarstatue</createItem>
@@ -23905,7 +23906,7 @@
 
 		<priorityID>itemconstruction</priorityID>
 		<queue>
-			<move useSource="true">goldcaesarstatue,goldcaesarstatue_E</move>
+			<move useSource="true">goldcaesarstatue</move>
 			<wait>16</wait>
 			<destroyCellItem />
 			<createItem>goldcaesarstatue</createItem>
