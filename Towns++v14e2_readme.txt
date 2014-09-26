@@ -16,6 +16,7 @@ Changes since Towns++_v14e
 ===========================
 BlueSteel's Contributions
 ===========================
+-> Fixed some blocks that weren't walls into walls (IE: can no longer walk through. EG: Claystonebrick blocks)
 -> Changed Requirements for Smelter -> uses masonsbench not Anvil , requires 1 Wood , 2 Stone
 -> Changed Requirements for Anvil -> uses Smelter not Masonsbench, same resources required
 -> Added Stone hammer to utilities production menu (Yes its still in Weapons too)

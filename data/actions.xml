@@ -3522,7 +3522,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>farmfence</createItem>
 		</queue>
 	</action>
@@ -3538,7 +3538,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>whitefence</createItem>
 		</queue>
 	</action>
@@ -3660,7 +3660,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>rounddarkblock</createItem>
 		</queue>
 	</action>
@@ -3676,7 +3676,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>roundgrayblock</createItem>
 		</queue>
 	</action>
@@ -3692,7 +3692,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>roundwhiteblock</createItem>
 		</queue>
 	</action>
@@ -3708,7 +3708,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>roundclayblock</createItem>
 		</queue>
 	</action>
@@ -3724,7 +3724,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>roundbrickblock</createItem>
 		</queue>
 	</action>
@@ -3740,7 +3740,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>diagonalbrickblock</createItem>
 		</queue>
 	</action>
@@ -3757,7 +3757,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lightwoodblock</createItem>
 		</queue>
 	</action>
@@ -4588,7 +4588,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodenmossblock</createItem>
 		</queue>
 	</action>
@@ -5526,7 +5526,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>colombages</createItem>
 		</queue>
 	</action>
@@ -5546,7 +5546,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>colombagesx</createItem>
 		</queue>
 	</action>
@@ -5572,7 +5572,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>logblock2</createItem>
 		</queue>
 	</action>
@@ -5585,7 +5585,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>diagonallogblock</createItem>
 		</queue>
 	</action>
@@ -5601,7 +5601,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>ancientblock</createItem>
 		</queue>
 	</action>
@@ -5617,7 +5617,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>ancientblockmoss</createItem>
 		</queue>
 	</action>
@@ -5638,7 +5638,7 @@
 			<move>masonbench</move>
 			<wait>20</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>mayanblock</createItem>
 		</queue>
 	</action>
@@ -5660,7 +5660,7 @@
 			<move>smelter</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>goldenblock</createItem>
 		</queue>
 	</action>
@@ -5682,7 +5682,7 @@
 			<move>carpentrybench</move>
 			<wait>26</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodenstoneblock</createItem>
 		</queue>
 	</action>
@@ -5698,7 +5698,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodsticks</createItem>
 		</queue>
 	</action>
@@ -5714,13 +5714,13 @@
 			<move>carpentrybench</move>
 			<wait>30</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>woodspikes</createItem>
 		</queue>
 	</action>
@@ -5736,7 +5736,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stonebrickblock</createItem>
 		</queue>
 	</action>
@@ -5752,7 +5752,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stonebrickblock2</createItem>
 		</queue>
 	</action>
@@ -5768,7 +5768,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stonebrickblock3</createItem>
 		</queue>
 	</action>
@@ -5832,7 +5832,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stoneblock</createItem>
 		</queue>
 	</action>
@@ -5848,7 +5848,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>stoneblock2</createItem>
 		</queue>
 	</action>
@@ -5896,7 +5896,7 @@
 			<move>masonbench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>whitebrickblock</createItem>
 		</queue>
 	</action>
@@ -5916,7 +5916,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>pillar</createItem>
 		</queue>
 	</action>
@@ -5972,7 +5972,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lapedrera2</createItem>
 		</queue>
 	</action>
@@ -5988,7 +5988,7 @@
 			<move>masonbench</move>
 			<wait>36</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>roughbricks</createItem>
 		</queue>
 	</action>
@@ -14751,7 +14751,7 @@
 			<move useSource="true">woodstairs1b,woodenladder,woodstairs1c</move>
 			<replaceCellItem>woodstairs1d</replaceCellItem>
 		</queue>
-	</action> 
+	</action>
 	
  	<action>
 		<id>rotate_woodstairs1c</id>
@@ -22629,7 +22629,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>newbrickwall</createItem>
 		</queue>
 	</action>
@@ -22645,7 +22645,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>newdarkbrickwall</createItem>
 		</queue>
 	</action>
@@ -23935,7 +23935,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>pinelogblock2</createItem>
 		</queue>
 	</action>
@@ -23948,7 +23948,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>diagonalpinelogblock</createItem>
 		</queue>
 	</action>
@@ -23974,7 +23974,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>greenlogblock2</createItem>
 		</queue>
 	</action>
@@ -23987,7 +23987,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>diagonalgreenlogblock</createItem>
 		</queue>
 	</action>
@@ -24013,7 +24013,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>oaklogblock2</createItem>
 		</queue>
 	</action>
@@ -24026,7 +24026,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>diagonaloaklogblock</createItem>
 		</queue>
 	</action>
@@ -24052,7 +24052,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>cherrylogblock2</createItem>
 		</queue>
 	</action>
@@ -24065,7 +24065,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>diagonalcherrylogblock</createItem>
 		</queue>
 	</action>
@@ -24091,7 +24091,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>mahoganylogblock2</createItem>
 		</queue>
 	</action>
@@ -24104,7 +24104,7 @@
 		<queue>
 			<pick>rmwood</pick>
 			<wait>32</wait>
-			<destroyItem/> 
+			<destroyItem/>
 			<createItem>diagonalmahoganylogblock</createItem>
 		</queue>
 	</action>
@@ -24490,7 +24490,7 @@
 			<move>masonbench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>roundgreyblock</createItem>
 		</queue>
 	</action>
@@ -24514,7 +24514,7 @@
 			<move>carpentrybench</move>
 			<wait>26</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>birchwoodenstoneblock</createItem>
 		</queue>
 	</action>
@@ -24530,7 +24530,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>birchwoodsticks</createItem>
 		</queue>
 	</action>
@@ -24546,7 +24546,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lightbirchwoodblock</createItem>
 		</queue>
 	</action>
@@ -24584,7 +24584,7 @@
 			<move>carpentrybench</move>
 			<wait>26</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>yellowwoodenstoneblock</createItem>
 		</queue>
 	</action>
@@ -24600,7 +24600,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>yellowwoodsticks</createItem>
 		</queue>
 	</action>
@@ -24616,7 +24616,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lightyellowwoodblock</createItem>
 		</queue>
 	</action>
@@ -24654,7 +24654,7 @@
 			<move>carpentrybench</move>
 			<wait>26</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>applewoodenstoneblock</createItem>
 		</queue>
 	</action>
@@ -24670,7 +24670,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>applewoodsticks</createItem>
 		</queue>
 	</action>
@@ -24686,7 +24686,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lightapplewoodblock</createItem>
 		</queue>
 	</action>
@@ -24724,7 +24724,7 @@
 			<move>carpentrybench</move>
 			<wait>26</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>mahoganywoodenstoneblock</createItem>
 		</queue>
 	</action>
@@ -24740,7 +24740,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>mahoganywoodsticks</createItem>
 		</queue>
 	</action>
@@ -24756,7 +24756,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lightmahoganywoodblock</createItem>
 		</queue>
 	</action>
@@ -24794,7 +24794,7 @@
 			<move>carpentrybench</move>
 			<wait>26</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>pinewoodenstoneblock</createItem>
 		</queue>
 	</action>
@@ -24810,7 +24810,7 @@
 			<move>carpentrybench</move>
 			<wait>32</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>pinewoodsticks</createItem>
 		</queue>
 	</action>
@@ -24826,7 +24826,7 @@
 			<move>carpentrybench</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>lightpinewoodblock</createItem>
 		</queue>
 	</action>
@@ -25421,13 +25421,13 @@
 			<move>carpentrybench</move>
 			<wait>30</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>birchwoodspikes</createItem>
 		</queue>
 	</action>
@@ -25443,13 +25443,13 @@
 			<move>carpentrybench</move>
 			<wait>30</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>yellowwoodspikes</createItem>
 		</queue>
 	</action>
@@ -25465,13 +25465,13 @@
 			<move>carpentrybench</move>
 			<wait>30</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>applewoodspikes</createItem>
 		</queue>
 	</action>
@@ -25487,13 +25487,13 @@
 			<move>carpentrybench</move>
 			<wait>30</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<lock>wooddetailer</lock>
 			<pick>rmwood</pick>
 			<move>wooddetailer</move>
 			<wait>38</wait>
 			<destroyItem/>
-			<unlock /> 
+			<unlock />
 			<createItem>mahoganywoodspikes</createItem>
 		</queue>
 	</action>
